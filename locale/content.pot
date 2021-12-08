@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019-2020 Rother OSS GmbH, https://otobo.de/
+# Copyright (C) 2019-2022 Rother OSS GmbH, https://otobo.de/
 # This file is distributed under the same license as the OTOBO Administration Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-23 02:30+0100\n"
+"POT-Creation-Date: 2021-12-09 00:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,8 @@ msgstr ""
 #: ../../content/administration.rst:18
 #: ../../content/communication-notifications.rst:18
 #: ../../content/external-interface.rst:20
-#: ../../content/index.rst:29
+#: ../../content/index.rst:48
+#: ../../content/otobo-services.rst:18
 #: ../../content/processes-automation.rst:22
 #: ../../content/ticket-settings.rst:25
 #: ../../content/users-groups-roles.rst:18
@@ -275,8 +276,8 @@ msgid "To import calendars:"
 msgstr ""
 
 #: ../../content/administration/calendars.rst:62
-#: ../../content/administration/package-manager.rst:60
-#: ../../content/administration/package-manager.rst:84
+#: ../../content/administration/package-manager.rst:61
+#: ../../content/administration/package-manager.rst:85
 #: ../../content/communication-notifications/appointment-notifications.rst:64
 #: ../../content/communication-notifications/ticket-notifications.rst:62
 #: ../../content/processes-automation/access-control-lists.rst:89
@@ -365,7 +366,6 @@ msgstr ""
 #: ../../content/communication-notifications/ticket-notifications.rst:87
 #: ../../content/external-interface/customer-service-catalogue.rst:79
 #: ../../content/processes-automation/access-control-lists.rst:110
-#: ../../content/processes-automation/dynamic-fields.rst:83
 #: ../../content/processes-automation/generic-agent.rst:92
 #: ../../content/processes-automation/web-services.rst:141
 #: ../../content/ticket-settings/attachments.rst:72
@@ -440,18 +440,16 @@ msgstr ""
 #: ../../content/ticket-settings/attachments.rst:78
 #: ../../content/ticket-settings/auto-responses.rst:102
 #: ../../content/ticket-settings/priorities.rst:104
-#: ../../content/ticket-settings/queues.rst:157
+#: ../../content/ticket-settings/queues.rst:167
 #: ../../content/ticket-settings/salutations.rst:78
-#: ../../content/ticket-settings/service-level-agreements.rst:100
+#: ../../content/ticket-settings/service-level-agreements.rst:109
 #: ../../content/ticket-settings/services.rst:80
 #: ../../content/ticket-settings/signatures.rst:78
 #: ../../content/ticket-settings/sms-templates.rst:109
 #: ../../content/ticket-settings/states.rst:139
-#: ../../content/ticket-settings/templates.rst:124
+#: ../../content/ticket-settings/templates.rst:109
 #: ../../content/ticket-settings/types.rst:77
 #: ../../content/users-groups-roles/agents.rst:122
-#: ../../content/users-groups-roles/customer-users.rst:139
-#: ../../content/users-groups-roles/customers.rst:95
 #: ../../content/users-groups-roles/groups.rst:73
 #: ../../content/users-groups-roles/roles.rst:65
 msgid "Validity \\*"
@@ -475,14 +473,14 @@ msgstr ""
 #: ../../content/ticket-settings/attachments.rst:78
 #: ../../content/ticket-settings/auto-responses.rst:102
 #: ../../content/ticket-settings/priorities.rst:105
-#: ../../content/ticket-settings/queues.rst:157
+#: ../../content/ticket-settings/queues.rst:167
 #: ../../content/ticket-settings/salutations.rst:78
-#: ../../content/ticket-settings/service-level-agreements.rst:100
+#: ../../content/ticket-settings/service-level-agreements.rst:109
 #: ../../content/ticket-settings/services.rst:80
 #: ../../content/ticket-settings/signatures.rst:78
 #: ../../content/ticket-settings/sms-templates.rst:109
 #: ../../content/ticket-settings/states.rst:139
-#: ../../content/ticket-settings/templates.rst:124
+#: ../../content/ticket-settings/templates.rst:109
 #: ../../content/ticket-settings/types.rst:78
 #: ../../content/users-groups-roles/agents.rst:121
 #: ../../content/users-groups-roles/customer-users.rst:139
@@ -598,7 +596,6 @@ msgid "Chat Channels"
 msgstr ""
 
 #: ../../content/administration/chat-channels.rst:14
-#: ../../content/communication-notifications/appointment-notifications.rst:215
 #: ../../content/external-interface/custom-pages.rst:14
 #: ../../content/external-interface/customer-service-catalogue.rst:14
 #: ../../content/external-interface/home-page.rst:14
@@ -606,9 +603,8 @@ msgstr ""
 #: ../../content/otobo-services/cloud-services.rst:14
 #: ../../content/otobo-services/cloud-services.rst:31
 #: ../../content/otobo-services/cloud-services.rst:48
-#: ../../content/ticket-settings/sms-templates.rst:14
 #: ../../content/ticket-settings/sms-templates-queues.rst:14
-msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution."
+msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution."
 msgstr ""
 
 #: ../../content/administration/chat-channels.rst:16
@@ -713,6 +709,8 @@ msgid "Select the checkbox if you want to display the chat channel for public us
 msgstr ""
 
 #: ../../content/administration/chat-channels.rst:76
+#: ../../content/users-groups-roles/customer-users.rst:139
+#: ../../content/users-groups-roles/customers.rst:94
 msgid "Valid \\*"
 msgstr ""
 
@@ -723,16 +721,16 @@ msgstr ""
 #: ../../content/communication-notifications/ticket-notifications.rst:90
 #: ../../content/otobo-services/cloud-services.rst:71
 #: ../../content/processes-automation/access-control-lists.rst:113
-#: ../../content/ticket-settings/attachments.rst:81
+#: ../../content/ticket-settings/attachments.rst:80
 #: ../../content/ticket-settings/auto-responses.rst:106
-#: ../../content/ticket-settings/queues.rst:160
+#: ../../content/ticket-settings/queues.rst:170
 #: ../../content/ticket-settings/salutations.rst:82
-#: ../../content/ticket-settings/service-level-agreements.rst:103
+#: ../../content/ticket-settings/service-level-agreements.rst:112
 #: ../../content/ticket-settings/services.rst:83
 #: ../../content/ticket-settings/signatures.rst:82
 #: ../../content/ticket-settings/sms-templates.rst:113
 #: ../../content/ticket-settings/states.rst:143
-#: ../../content/ticket-settings/templates.rst:128
+#: ../../content/ticket-settings/templates.rst:113
 #: ../../content/users-groups-roles/customer-users.rst:136
 #: ../../content/users-groups-roles/customers.rst:92
 #: ../../content/users-groups-roles/groups.rst:77
@@ -750,14 +748,14 @@ msgstr ""
 #: ../../content/processes-automation/access-control-lists.rst:113
 #: ../../content/ticket-settings/attachments.rst:81
 #: ../../content/ticket-settings/auto-responses.rst:105
-#: ../../content/ticket-settings/queues.rst:160
+#: ../../content/ticket-settings/queues.rst:170
 #: ../../content/ticket-settings/salutations.rst:81
-#: ../../content/ticket-settings/service-level-agreements.rst:103
+#: ../../content/ticket-settings/service-level-agreements.rst:112
 #: ../../content/ticket-settings/services.rst:83
 #: ../../content/ticket-settings/signatures.rst:81
 #: ../../content/ticket-settings/sms-templates.rst:112
 #: ../../content/ticket-settings/states.rst:142
-#: ../../content/ticket-settings/templates.rst:127
+#: ../../content/ticket-settings/templates.rst:112
 #: ../../content/users-groups-roles/customer-users.rst:136
 #: ../../content/users-groups-roles/customers.rst:92
 #: ../../content/users-groups-roles/groups.rst:76
@@ -823,7 +821,7 @@ msgid "FAQ Category"
 msgstr ""
 
 #: ../../content/administration/faq-category.rst:14
-msgid "Use this screen to manage categories available in FAQ articles. A fresh OTOBO installation already contains a category by default. The category management screen is available in the *FAQ Category* module of the *Administration* group."
+msgid "Use this screen to manage categories available in FAQ articles. The FAQ package can be installed from the OTOBO addons repository with the :doc:`package-manager`. A fresh OTOBO installation already contains a category by default. The category management screen is available in the *FAQ Category* module of the *Administration* group."
 msgstr ""
 
 #: ../../content/administration/faq-category.rst:19
@@ -995,184 +993,184 @@ msgstr ""
 msgid "The `ISO 639-1 code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__ of a language."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:12
+#: ../../content/administration/package-manager.rst:13
 msgid "Package Manager"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:14
+#: ../../content/administration/package-manager.rst:15
 msgid "Modular systems can be extended by adding additional software packages to the framework. Administrators need an easy way to see which features are installed in which version and for sure to add, update and remove packages."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:16
+#: ../../content/administration/package-manager.rst:17
 msgid "OTOBO uses a package manager to perform all package-related activities as mentioned above in the graphical interface."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:18
+#: ../../content/administration/package-manager.rst:19
 msgid "Use this screen to install and manage packages that extend the functionality of OTOBO. The package manager screen is available in the *Package Manager* module of the *Administration* group."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:23
+#: ../../content/administration/package-manager.rst:24
 msgid "Package Manager Screen"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:27
+#: ../../content/administration/package-manager.rst:28
 msgid "Manage Packages"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:31
+#: ../../content/administration/package-manager.rst:32
 msgid "The installation of packages which are not verified by Rother OSS is possible by default, cause we love open source."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:35
-msgid "You can deactivate the installation of not verified packages in the system configuration setting :sysconfig:`Package::AllowNotVerifiedPackages <core.html#package-allownotverifiedpackages>`."
+#: ../../content/administration/package-manager.rst:36
+msgid "You can deactivate the installation of not verified packages in the system configuration setting ``Package::AllowNotVerifiedPackages``."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:39
+#: ../../content/administration/package-manager.rst:40
 msgid "Install Packages"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:41
+#: ../../content/administration/package-manager.rst:42
 msgid "To install a package from online repository:"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:43
+#: ../../content/administration/package-manager.rst:44
 msgid "Select an online repository from the drop-down in the left sidebar."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:44
+#: ../../content/administration/package-manager.rst:45
 msgid "Click on the *Update repository information* button to refresh the available package list."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:45
-msgid "Select a package from the *Online Repository* widget and click on the *Install* in the last column."
-msgstr ""
-
 #: ../../content/administration/package-manager.rst:46
-#: ../../content/administration/package-manager.rst:63
-#: ../../content/administration/package-manager.rst:112
-msgid "Follow the installation instructions."
+msgid "Select a package from the *Online Repository* widget and click on the *Install* in the last column."
 msgstr ""
 
 #: ../../content/administration/package-manager.rst:47
 #: ../../content/administration/package-manager.rst:64
+#: ../../content/administration/package-manager.rst:113
+msgid "Follow the installation instructions."
+msgstr ""
+
+#: ../../content/administration/package-manager.rst:48
+#: ../../content/administration/package-manager.rst:65
 msgid "After installation, the package is displayed in the *Local Repository* widget."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:52
+#: ../../content/administration/package-manager.rst:53
 msgid "Online Repository Widget"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:56
-msgid "The repository list can be changed in system configuration setting :sysconfig:`Package::RepositoryList <core.html#package-repositorylist>`."
+#: ../../content/administration/package-manager.rst:57
+msgid "The repository list can be changed in system configuration setting ``Package::RepositoryList``."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:58
+#: ../../content/administration/package-manager.rst:59
 msgid "To install a package from file:"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:61
+#: ../../content/administration/package-manager.rst:62
 msgid "Select an ``.opm`` file from your local file system."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:62
-#: ../../content/administration/package-manager.rst:86
+#: ../../content/administration/package-manager.rst:63
+#: ../../content/administration/package-manager.rst:87
 msgid "Click on the *Install Package* button."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:69
-#: ../../content/administration/package-manager.rst:127
+#: ../../content/administration/package-manager.rst:70
+#: ../../content/administration/package-manager.rst:128
 msgid "Local Repository Widget"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:73
+#: ../../content/administration/package-manager.rst:74
 msgid "Update Packages"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:75
+#: ../../content/administration/package-manager.rst:76
 msgid "To update a package from online repository:"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:77
+#: ../../content/administration/package-manager.rst:78
 msgid "Check the available packages in the *Online Repository* widget if there is *Update* in the *Action* column."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:78
-msgid "Click on the *Update* link."
-msgstr ""
-
 #: ../../content/administration/package-manager.rst:79
-#: ../../content/administration/package-manager.rst:87
-#: ../../content/administration/package-manager.rst:93
-msgid "Follow the update instructions."
+msgid "Click on the *Update* link."
 msgstr ""
 
 #: ../../content/administration/package-manager.rst:80
 #: ../../content/administration/package-manager.rst:88
 #: ../../content/administration/package-manager.rst:94
+msgid "Follow the update instructions."
+msgstr ""
+
+#: ../../content/administration/package-manager.rst:81
+#: ../../content/administration/package-manager.rst:89
+#: ../../content/administration/package-manager.rst:95
 msgid "After updating, the package is displayed in the *Local Repository* widget."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:82
+#: ../../content/administration/package-manager.rst:83
 msgid "To update a package from file:"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:85
+#: ../../content/administration/package-manager.rst:86
 msgid "Select an ``.opm`` file which is newer than the installed package."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:90
+#: ../../content/administration/package-manager.rst:91
 msgid "To update all packages:"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:92
+#: ../../content/administration/package-manager.rst:93
 msgid "Click on the *Update all installed packages* button in the left sidebar."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:96
+#: ../../content/administration/package-manager.rst:97
 msgid "This feature reads the information of all defined package repositories and determines if there is a new version for every installed package in the system and calculates the correct order to update the packages respecting all other package dependencies, even if new versions of existing packages require new packages not yet installed in the system."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:100
+#: ../../content/administration/package-manager.rst:101
 msgid "If there are packages installed that do not have a corresponding repository defined in the system, they can not be updated by this feature and will be marked as failed (due to the missing on-line repository)."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:104
+#: ../../content/administration/package-manager.rst:105
 msgid "Reinstall Packages"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:106
+#: ../../content/administration/package-manager.rst:107
 msgid "If at least one of the package files are modified locally, the package manager marks the package as broken, and need to reinstall."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:108
+#: ../../content/administration/package-manager.rst:109
 msgid "To reinstall a package:"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:110
+#: ../../content/administration/package-manager.rst:111
 msgid "Select the package from the *Local Repository* widget that are marked for reinstall."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:111
+#: ../../content/administration/package-manager.rst:112
 msgid "Click on the *Reinstall* link in the *Action* column."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:116
+#: ../../content/administration/package-manager.rst:117
 msgid "Uninstall Packages"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:118
+#: ../../content/administration/package-manager.rst:119
 msgid "To uninstall a package:"
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:120
+#: ../../content/administration/package-manager.rst:121
 msgid "Select the package from the *Local Repository* widget."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:121
+#: ../../content/administration/package-manager.rst:122
 msgid "Click on the *Uninstall* link in the *Action* column."
 msgstr ""
 
-#: ../../content/administration/package-manager.rst:122
+#: ../../content/administration/package-manager.rst:123
 msgid "Follow the uninstall instructions."
 msgstr ""
 
@@ -1193,7 +1191,7 @@ msgid "Use this screen to view the performance log of OTOBO. The log overview sc
 msgstr ""
 
 #: ../../content/administration/performance-log.rst:22
-msgid "To be able to see performance log in OTOBO, you have to enabled its setting first."
+msgid "To be able to see performance log in OTOBO, you have to enable its setting first."
 msgstr ""
 
 #: ../../content/administration/performance-log.rst:27
@@ -1303,11 +1301,11 @@ msgid "In a ticket system, it is usually possible to have statistics that show a
 msgstr ""
 
 #: ../../content/administration/sql-box.rst:16
-msgid "Direct access to the database requires access to the command line which an administrator may not have. In addition to the username and password for the command line access, which is not given by all organizations, the username and password for the database are needed. These hurdles can prevent an administrator from using the database for more complex searches and operations."
+msgid "Direct access to the database requires access to the command line which an administrator may not have. In addition to username and password for the command line access, which is not given by all organizations, the username and password for the database are needed. These hurdles can prevent an administrator from using the database for more complex searches and operations."
 msgstr ""
 
 #: ../../content/administration/sql-box.rst:18
-msgid "OTOBO offers application administrators the SQL Box in the graphical interface. It allows read access to the database. All results can be seen in the GUI or exported to CSV/Excel files."
+msgid "OTOBO offers application administrators the SQL Box in the GUI (graphical user interface). It allows read access to the database. All results can be seen in the GUI or exported to CSV/Excel files."
 msgstr ""
 
 #: ../../content/administration/sql-box.rst:20
@@ -1323,11 +1321,11 @@ msgid "Query SQL statements"
 msgstr ""
 
 #: ../../content/administration/sql-box.rst:33
-msgid "The SQL statements entered here are sent directly to the application database. By default, it is not possible to change the content of the tables, only SELECT queries are allowed."
+msgid "The SQL statements entered here are sent directly to the application database. By default, it is not possible to change the content of the tables, only ``SELECT`` queries are allowed."
 msgstr ""
 
 #: ../../content/administration/sql-box.rst:37
-msgid "It is possible to modify the application database via SQL box. To do this, you have to enabled the system configuration setting :sysconfig:`AdminSelectBox::AllowDatabaseModification <frontend.html#adminselectbox-allowdatabasemodification>`. Activate it to your own risk!"
+msgid "It is possible to modify the application database via SQL box. To do this, you have to enabled the system configuration setting ``AdminSelectBox::AllowDatabaseModification``. Activate it to your own risk!"
 msgstr ""
 
 #: ../../content/administration/sql-box.rst:39
@@ -1500,11 +1498,11 @@ msgid "System Configuration - Setting Hovered"
 msgstr ""
 
 #: ../../content/administration/system-configuration.rst:66
-msgid "Click on the *Edit this setting* button to activate the edit mode. In edit mode the widget gets an orange border on the left."
+msgid "Click on the *Edit this setting* button to activate the edit mode. In edit mode the widget gets a yellow border on the left."
 msgstr ""
 
 #: ../../content/administration/system-configuration.rst:70
-msgid "If a setting is currently edited by another administrator, it is not possible to get access to the edit mode for that setting until the other administrator finished their work."
+msgid "If a setting is currently edited by an other administrator, it is not possible to get access to the edit mode for that setting until the other administrator finished his work."
 msgstr ""
 
 #: ../../content/administration/system-configuration.rst:75
@@ -1671,7 +1669,7 @@ msgid "Professional systems log their activities in one or more log files to hel
 msgstr ""
 
 #: ../../content/administration/system-log.rst:16
-msgid "These logs are usually not available to application administrators without a certain level of permissions, and skills, on the operating system."
+msgid "These logs are usually not available to application administrators without a certain level of permissions, and skills on the operating system."
 msgstr ""
 
 #: ../../content/administration/system-log.rst:18
@@ -1699,7 +1697,7 @@ msgid "System Log Configuration Options"
 msgstr ""
 
 #: ../../content/administration/system-log.rst:36
-msgid ":sysconfig:`Core → Log <core.html#core-log>`"
+msgid "``Core → Log``"
 msgstr ""
 
 #: ../../content/administration/system-maintenance.rst:12
@@ -1801,15 +1799,15 @@ msgid "There are some default system maintenance message set in the system confi
 msgstr ""
 
 #: ../../content/administration/system-maintenance.rst:85
-msgid ":sysconfig:`SystemMaintenance::IsActiveDefaultLoginErrorMessage <core.html#systemmaintenance-isactivedefaultloginerrormessage>`"
+msgid "``SystemMaintenance::IsActiveDefaultLoginErrorMessage``"
 msgstr ""
 
 #: ../../content/administration/system-maintenance.rst:86
-msgid ":sysconfig:`SystemMaintenance::IsActiveDefaultLoginMessage <core.html#systemmaintenance-isactivedefaultloginmessage>`"
+msgid "``SystemMaintenance::IsActiveDefaultLoginMessage``"
 msgstr ""
 
 #: ../../content/administration/system-maintenance.rst:87
-msgid ":sysconfig:`SystemMaintenance::IsActiveDefaultNotification <core.html#systemmaintenance-isactivedefaultnotification>`"
+msgid "``SystemMaintenance::IsActiveDefaultNotification``"
 msgstr ""
 
 #: ../../content/administration/system-maintenance.rst:90
@@ -1833,7 +1831,7 @@ msgid "Set the minutes a notification is shown for notice about upcoming system 
 msgstr ""
 
 #: ../../content/administration/system-maintenance.rst:99
-msgid ":sysconfig:`SystemMaintenance::TimeNotifyUpcomingMaintenance <core.html#systemmaintenance-timenotifyupcomingmaintenance>`"
+msgid "``SystemMaintenance::TimeNotifyUpcomingMaintenance``"
 msgstr ""
 
 #: ../../content/administration/system-maintenance.rst:105
@@ -1913,37 +1911,45 @@ msgid "Group members need to have permission"
 msgstr ""
 
 #: ../../content/communication-notifications/admin-notification.rst:41
-msgid "With these radio buttons can be selected, if a group member need read-only or read-write permissions to receive the message."
-msgstr ""
-
-#: ../../content/communication-notifications/admin-notification.rst:48
-msgid "Also send to customers in groups"
+msgid "With these radio buttons can be selected, if a group member needs read-only or read-write permissions to receive the message."
 msgstr ""
 
 #: ../../content/communication-notifications/admin-notification.rst:44
-msgid "Select this checkbox to send the message also for customers in groups."
+msgid "Send message to role members"
 msgstr ""
 
-#: ../../content/communication-notifications/admin-notification.rst:48
-msgid "This option is available only, if :sysconfig:`CustomerGroupSupport <core.html#customergroupsupport>` setting is enabled."
+#: ../../content/communication-notifications/admin-notification.rst:44
+msgid "One or more :doc:`../users-groups-roles/roles` can be selected in this field, to whose members the message will be sent."
 msgstr ""
 
 #: ../../content/communication-notifications/admin-notification.rst:51
-#: ../../content/communication-notifications/appointment-notifications.rst:280
+msgid "Also send to customers in groups"
+msgstr ""
+
+#: ../../content/communication-notifications/admin-notification.rst:47
+msgid "Select this checkbox to send the message also for customers in groups."
+msgstr ""
+
+#: ../../content/communication-notifications/admin-notification.rst:51
+msgid "This option is available only, if ``CustomerGroupSupport`` setting is enabled."
+msgstr ""
+
+#: ../../content/communication-notifications/admin-notification.rst:54
+#: ../../content/communication-notifications/appointment-notifications.rst:281
 #: ../../content/communication-notifications/ticket-notifications.rst:332
 #: ../../content/ticket-settings/auto-responses.rst:75
 msgid "Subject \\*"
 msgstr ""
 
-#: ../../content/communication-notifications/admin-notification.rst:51
+#: ../../content/communication-notifications/admin-notification.rst:54
 msgid "The subject of the messages."
 msgstr ""
 
-#: ../../content/communication-notifications/admin-notification.rst:53
+#: ../../content/communication-notifications/admin-notification.rst:56
 msgid "Body \\*"
 msgstr ""
 
-#: ../../content/communication-notifications/admin-notification.rst:54
+#: ../../content/communication-notifications/admin-notification.rst:57
 msgid "The body text of the message."
 msgstr ""
 
@@ -2133,8 +2139,7 @@ msgid "Appointment Notification Settings - Events"
 msgstr ""
 
 #: ../../content/communication-notifications/appointment-notifications.rst:148
-#: ../../content/communication-notifications/ticket-notifications.rst:126
-msgid "Event"
+msgid "Event \\*"
 msgstr ""
 
 #: ../../content/communication-notifications/appointment-notifications.rst:127
@@ -2207,7 +2212,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/appointment-notifications.rst:161
 #: ../../content/glossary.rst:23
-#: ../../content/ticket-settings/queues.rst:154
+#: ../../content/ticket-settings/queues.rst:164
 #: ../../content/ticket-settings/service-level-agreements.rst:80
 msgid "Calendar"
 msgstr ""
@@ -2235,7 +2240,7 @@ msgid "Filter for a part or complete location of the appointment."
 msgstr ""
 
 #: ../../content/communication-notifications/appointment-notifications.rst:171
-#: ../../content/glossary.rst:59
+#: ../../content/glossary.rst:62
 msgid "Resource"
 msgstr ""
 
@@ -2340,167 +2345,175 @@ msgstr ""
 msgid "Enable or disable this notification method. A notification method can be email, web view or SMS."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:218
+#: ../../content/communication-notifications/appointment-notifications.rst:216
+msgid "Active by default in agent preferences"
+msgstr ""
+
+#: ../../content/communication-notifications/appointment-notifications.rst:216
+msgid "This is the default value for assigned recipient agents who didn't make a choice for this notification in their preferences yet. If the box is enabled, the notification will be sent to such agents."
+msgstr ""
+
+#: ../../content/communication-notifications/appointment-notifications.rst:219
 #: ../../content/communication-notifications/ticket-notifications.rst:270
 msgid "Additional recipient email addresses"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:218
+#: ../../content/communication-notifications/appointment-notifications.rst:219
 #: ../../content/communication-notifications/ticket-notifications.rst:270
 msgid "Additional recipients can be added here. Use comma or semicolon to separate the email addresses."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:221
+#: ../../content/communication-notifications/appointment-notifications.rst:222
 #: ../../content/communication-notifications/ticket-notifications.rst:273
 msgid "Article visible for customer"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:221
+#: ../../content/communication-notifications/appointment-notifications.rst:222
 #: ../../content/communication-notifications/ticket-notifications.rst:273
 msgid "An article will be created if the notification is sent to the customer or an additional email address."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:228
+#: ../../content/communication-notifications/appointment-notifications.rst:229
 #: ../../content/communication-notifications/ticket-notifications.rst:280
 msgid "Email template"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:224
+#: ../../content/communication-notifications/appointment-notifications.rst:225
 #: ../../content/communication-notifications/ticket-notifications.rst:276
 msgid "Select which email template should be used for the notification."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:228
+#: ../../content/communication-notifications/appointment-notifications.rst:229
 #: ../../content/communication-notifications/ticket-notifications.rst:280
 msgid "Additional email templates can be added by placing a ``.tt`` file into the folder ``<OTOBO_Home>/Kernel/Output/HTML/Templates/Standard/NotificationEvent/Email/``. See the existing email templates for an example."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:235
+#: ../../content/communication-notifications/appointment-notifications.rst:236
 #: ../../content/communication-notifications/ticket-notifications.rst:287
 msgid "Enable email security"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:231
+#: ../../content/communication-notifications/appointment-notifications.rst:232
 #: ../../content/communication-notifications/ticket-notifications.rst:283
 msgid "Checking this option will encrypt the notification email."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:235
-#: ../../content/communication-notifications/appointment-notifications.rst:260
+#: ../../content/communication-notifications/appointment-notifications.rst:236
+#: ../../content/communication-notifications/appointment-notifications.rst:261
 #: ../../content/communication-notifications/ticket-notifications.rst:287
 #: ../../content/communication-notifications/ticket-notifications.rst:312
 msgid "To use this feature, :doc:`pgp-keys` or :doc:`s-mime-certificates` need to be enabled."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:260
+#: ../../content/communication-notifications/appointment-notifications.rst:261
 #: ../../content/communication-notifications/ticket-notifications.rst:312
 msgid "Email security level"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:238
+#: ../../content/communication-notifications/appointment-notifications.rst:239
 #: ../../content/communication-notifications/ticket-notifications.rst:290
 msgid "If *Enable email security* is checked, then this setting is activated. The following options are available:"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:241
+#: ../../content/communication-notifications/appointment-notifications.rst:242
 #: ../../content/communication-notifications/ticket-notifications.rst:293
 msgid "PGP sign only"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:241
+#: ../../content/communication-notifications/appointment-notifications.rst:242
 #: ../../content/communication-notifications/ticket-notifications.rst:293
 msgid "Sign only the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:244
+#: ../../content/communication-notifications/appointment-notifications.rst:245
 #: ../../content/communication-notifications/ticket-notifications.rst:296
 msgid "PGP encrypt only"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:244
+#: ../../content/communication-notifications/appointment-notifications.rst:245
 #: ../../content/communication-notifications/ticket-notifications.rst:296
 msgid "Encrypt only the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:247
+#: ../../content/communication-notifications/appointment-notifications.rst:248
 #: ../../content/communication-notifications/ticket-notifications.rst:299
 msgid "PGP sign and encrypt"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:247
+#: ../../content/communication-notifications/appointment-notifications.rst:248
 #: ../../content/communication-notifications/ticket-notifications.rst:299
 msgid "Sign and encrypt the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:250
+#: ../../content/communication-notifications/appointment-notifications.rst:251
 #: ../../content/communication-notifications/ticket-notifications.rst:302
 msgid "SMIME sign only"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:250
+#: ../../content/communication-notifications/appointment-notifications.rst:251
 #: ../../content/communication-notifications/ticket-notifications.rst:302
 msgid "Sign only the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:253
+#: ../../content/communication-notifications/appointment-notifications.rst:254
 #: ../../content/communication-notifications/ticket-notifications.rst:305
 msgid "SMIME encrypt only"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:253
+#: ../../content/communication-notifications/appointment-notifications.rst:254
 #: ../../content/communication-notifications/ticket-notifications.rst:305
 msgid "Encrypt only the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:256
+#: ../../content/communication-notifications/appointment-notifications.rst:257
 #: ../../content/communication-notifications/ticket-notifications.rst:308
 msgid "SMIME sign and encrypt"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:256
+#: ../../content/communication-notifications/appointment-notifications.rst:257
 #: ../../content/communication-notifications/ticket-notifications.rst:308
 msgid "Sign and encrypt the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:263
+#: ../../content/communication-notifications/appointment-notifications.rst:264
 #: ../../content/communication-notifications/ticket-notifications.rst:315
 msgid "If signing key/certificate is missing"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:263
+#: ../../content/communication-notifications/appointment-notifications.rst:264
 #: ../../content/communication-notifications/ticket-notifications.rst:315
 msgid "Select the method, that should be used if signing key or certificate is missing."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:267
+#: ../../content/communication-notifications/appointment-notifications.rst:268
 #: ../../content/communication-notifications/ticket-notifications.rst:319
 msgid "If encryption key/certificate is missing:"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:266
+#: ../../content/communication-notifications/appointment-notifications.rst:267
 #: ../../content/communication-notifications/ticket-notifications.rst:318
 msgid "Select the method, that should be used if encryption key or certificate is missing."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:270
+#: ../../content/communication-notifications/appointment-notifications.rst:271
 msgid "Appointment Notification Text"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:275
+#: ../../content/communication-notifications/appointment-notifications.rst:276
 msgid "Appointment Notification Settings - Notification Text"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:277
+#: ../../content/communication-notifications/appointment-notifications.rst:278
 #: ../../content/communication-notifications/ticket-notifications.rst:329
 msgid "The main content of a notification can be added for each languages with localized subject and body text. It is also possible to define static text content mixed with OTOBO smart tags."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:280
+#: ../../content/communication-notifications/appointment-notifications.rst:281
 #: ../../content/communication-notifications/ticket-notifications.rst:332
 msgid "The localized subject for a specific language."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:283
+#: ../../content/communication-notifications/appointment-notifications.rst:284
 #: ../../content/communication-notifications/ticket-notifications.rst:335
 #: ../../content/external-interface/customer-service-catalogue.rst:156
 #: ../../content/external-interface/home-page.rst:103
@@ -2508,52 +2521,52 @@ msgstr ""
 msgid "Text \\*"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:283
+#: ../../content/communication-notifications/appointment-notifications.rst:284
 #: ../../content/communication-notifications/ticket-notifications.rst:335
 msgid "The localized body text for a specific language."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:286
+#: ../../content/communication-notifications/appointment-notifications.rst:287
 #: ../../content/communication-notifications/ticket-notifications.rst:338
 msgid "Add new notification language"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:286
+#: ../../content/communication-notifications/appointment-notifications.rst:287
 #: ../../content/communication-notifications/ticket-notifications.rst:338
 msgid "Select which languages should be added to create localized notifications. The language of the customer or agent will be used as found in the customer and agent preferences. Secondarily, the system default language will be chosen. The fall back will always be English."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:290
+#: ../../content/communication-notifications/appointment-notifications.rst:291
 #: ../../content/communication-notifications/ticket-notifications.rst:342
-msgid "Deleting a language in :sysconfig:`DefaultUsedLanguages <frontend.html#defaultusedlanguages>` setting that already has a notification text here will make the notification text unusable. If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore."
+msgid "Deleting a language in ``DefaultUsedLanguages`` setting that already has a notification text here will make the notification text unusable. If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:294
-#: ../../content/communication-notifications/appointment-notifications.rst:301
+#: ../../content/communication-notifications/appointment-notifications.rst:295
+#: ../../content/communication-notifications/appointment-notifications.rst:302
 msgid "Appointment Notification Variables"
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:296
+#: ../../content/communication-notifications/appointment-notifications.rst:297
 #: ../../content/communication-notifications/ticket-notifications.rst:348
 #: ../../content/ticket-settings/auto-responses.rst:111
 #: ../../content/ticket-settings/salutations.rst:87
 #: ../../content/ticket-settings/signatures.rst:87
 #: ../../content/ticket-settings/sms-templates.rst:118
-#: ../../content/ticket-settings/templates.rst:133
+#: ../../content/ticket-settings/templates.rst:118
 msgid "Using variables in the text makes it possible to personalize messages. Variables, known as OTOBO tags, are replaced by OTOBO when generating the message. Find a list of available tags stems for this resource at the bottom of both add and edit screens."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:303
+#: ../../content/communication-notifications/appointment-notifications.rst:304
 msgid "For example, the variable ``<OTOBO_APPOINTMENT_TITLE[20]>`` expands to the first 20 characters of the title allowing a template to include something like the following."
 msgstr ""
 
-#: ../../content/communication-notifications/appointment-notifications.rst:309
+#: ../../content/communication-notifications/appointment-notifications.rst:310
 #: ../../content/communication-notifications/ticket-notifications.rst:361
 #: ../../content/ticket-settings/auto-responses.rst:124
 #: ../../content/ticket-settings/salutations.rst:100
 #: ../../content/ticket-settings/signatures.rst:102
 #: ../../content/ticket-settings/sms-templates.rst:131
-#: ../../content/ticket-settings/templates.rst:146
+#: ../../content/ticket-settings/templates.rst:131
 msgid "This tag expands, for example to:"
 msgstr ""
 
@@ -2663,7 +2676,7 @@ msgid "Email Addresses"
 msgstr ""
 
 #: ../../content/communication-notifications/email-addresses.rst:14
-msgid "The main channel of communication with the customers is often email. An organization consists of multiple department or teams. Email addresses differ for each group which is servicing your customer. You may have the following:"
+msgid "The main channel of communication with the customers is often email. An organization consists of multiple departments or teams. Email addresses differ for each group which is servicing your customers. You may have the following:"
 msgstr ""
 
 #: ../../content/communication-notifications/email-addresses.rst:16
@@ -2679,7 +2692,7 @@ msgid "``sales@example.org``"
 msgstr ""
 
 #: ../../content/communication-notifications/email-addresses.rst:20
-msgid "These addresses are just some examples, and you may have many more. You use these channels to receive and send messages, and in mail clients, one can often send with the wrong address."
+msgid "These addresses are just some examples, and you may have many more. Use these channels to receive and send messages, and in mail clients, one can often send with the wrong address."
 msgstr ""
 
 #: ../../content/communication-notifications/email-addresses.rst:22
@@ -2868,7 +2881,7 @@ msgid "PGP Configuration Options"
 msgstr ""
 
 #: ../../content/communication-notifications/pgp-keys.rst:72
-msgid ":sysconfig:`Core → Crypt → PGP <core.html#core-crypt-pgp>`"
+msgid "``Core → Crypt → PGP``"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-filters.rst:12
@@ -2880,7 +2893,7 @@ msgid "Pre-sorting standard mail done in a mail room takes care that not every p
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-filters.rst:16
-msgid "OTOBO uses so-called *postmaster filters* to read the email's envelope and take further action. Depending upon, for example, a subject or sender, an email bound for the service desk could land in a sub-queue or be redirected to a completely different team to create transparency and give your customer the fastest service possible."
+msgid "OTOBO uses so-called *postmaster filters* to read the emails envelope and take further action. Depending upon, for example, a subject or sender, an email bound for the service desk could land in a sub-queue or be redirected to a completely different team to create transparency and give your customer the fastest service possible."
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-filters.rst:18
@@ -3389,7 +3402,7 @@ msgid "The folder in the mail account to be fetched. Other folders remain untouc
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:109
-msgid "Trusted"
+msgid "Trusted \\*"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:106
@@ -3401,7 +3414,7 @@ msgid "The ``X-OTOBO`` headers are explained in the filter conditions of :doc:`p
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:122
-msgid "Dispatching"
+msgid "Dispatching \\*"
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:112
@@ -3417,7 +3430,7 @@ msgid "The system checks if a queue is linked with the address in the *To:* fiel
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:119
-msgid "The postmaster default queue can be changed in system configuration setting :sysconfig:`PostmasterDefaultQueue <core.html#postmasterdefaultqueue>`."
+msgid "The postmaster default queue can be changed in system configuration setting ``PostmasterDefaultQueue``."
 msgstr ""
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:122
@@ -3513,7 +3526,7 @@ msgid "S/MIME Configuration Options"
 msgstr ""
 
 #: ../../content/communication-notifications/s-mime-certificates.rst:88
-msgid ":sysconfig:`Core → Crypt → SMIME <core.html#core-crypt-smime>`"
+msgid "``Core → Crypt → SMIME``"
 msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:12
@@ -3610,6 +3623,10 @@ msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:122
 msgid "Ticket Notification Settings - Events"
+msgstr ""
+
+#: ../../content/communication-notifications/ticket-notifications.rst:126
+msgid "Event"
 msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:125
@@ -3774,7 +3791,6 @@ msgid "Filter for the sender field."
 msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:204
-#: ../../content/ticket-settings/templates.rst:103
 msgid "Subject"
 msgstr ""
 
@@ -3893,7 +3909,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/ticket-notifications.rst:355
 #: ../../content/ticket-settings/auto-responses.rst:118
-#: ../../content/ticket-settings/templates.rst:140
+#: ../../content/ticket-settings/templates.rst:125
 msgid "For example, the variable ``<OTOBO_TICKET_TicketNumber>`` expands to the ticket number allowing a template to include something like the following."
 msgstr ""
 
@@ -4154,7 +4170,7 @@ msgstr ""
 msgid "Item Settings"
 msgstr ""
 
-#: ../../content/external-interface/customer-service-catalogue.rst:169
+#: ../../content/external-interface/customer-service-catalogue.rst:168
 msgid "Item Content"
 msgstr ""
 
@@ -4178,7 +4194,7 @@ msgstr ""
 msgid "A link to an internal or an external URL."
 msgstr ""
 
-#: ../../content/external-interface/customer-service-catalogue.rst:169
+#: ../../content/external-interface/customer-service-catalogue.rst:168
 msgid "Add new item content"
 msgstr ""
 
@@ -4590,10 +4606,10 @@ msgstr ""
 #: ../../content/external-interface/layout.rst:138
 #: ../../content/external-interface/layout.rst:179
 #: ../../content/external-interface/layout.rst:198
-#: ../../content/processes-automation/dynamic-fields.rst:449
-#: ../../content/processes-automation/dynamic-fields.rst:470
-#: ../../content/processes-automation/dynamic-fields.rst:483
-#: ../../content/processes-automation/dynamic-fields.rst:507
+#: ../../content/processes-automation/dynamic-fields.rst:448
+#: ../../content/processes-automation/dynamic-fields.rst:469
+#: ../../content/processes-automation/dynamic-fields.rst:482
+#: ../../content/processes-automation/dynamic-fields.rst:506
 msgid "Deploy the modified system configuration."
 msgstr ""
 
@@ -4723,11 +4739,9 @@ msgid "Activity"
 msgstr ""
 
 #: ../../content/glossary.rst:16
-#: ../../content/glossary.rst:55
-#: ../../content/glossary.rst:58
-#: ../../content/glossary.rst:76
 #: ../../content/glossary.rst:79
-#: ../../content/glossary.rst:91
+#: ../../content/glossary.rst:82
+#: ../../content/glossary.rst:94
 msgid "Part of the process management."
 msgstr ""
 
@@ -4827,64 +4841,81 @@ msgstr ""
 msgid "Process"
 msgstr ""
 
+#: ../../content/glossary.rst:55
+msgid "Part of the process management. A process defines the workflow for a task and consists of activities, activity dialogs, transitions and transition actions."
+msgstr ""
+
 #: ../../content/glossary.rst:56
+#: ../../content/processes-automation/process-management.rst:12
+msgid "Process Management"
+msgstr ""
+
+#: ../../content/glossary.rst:58
+msgid "Part of OTOBO to support definition of workflows for recurring tasks."
+msgstr ""
+
+#: ../../content/glossary.rst:59
 msgid "Process Path"
 msgstr ""
 
 #: ../../content/glossary.rst:61
-msgid "A resource is any object which has effective permissions. This can be, but is not limited to, a ticket, dashboard widget, statistic, or module."
-msgstr ""
-
-#: ../../content/glossary.rst:62
-msgid "Screen"
+msgid "Part of the process management. A process path describes the connections between the parts of a process."
 msgstr ""
 
 #: ../../content/glossary.rst:64
-msgid "A graphical interface to OTOBO viewed in a browser (see also :term:`Front end`)."
+msgid "A resource is any object which has effective permissions. This can be, but is not limited to, a ticket, dashboard widget, statistic, or module."
 msgstr ""
 
 #: ../../content/glossary.rst:65
+msgid "Screen"
+msgstr ""
+
+#: ../../content/glossary.rst:67
+msgid "A graphical interface to OTOBO viewed in a browser (see also :term:`Front end`)."
+msgstr ""
+
+#: ../../content/glossary.rst:68
 #: ../../content/ticket-settings/service-level-agreements.rst:77
 msgid "Service"
 msgstr ""
 
-#: ../../content/glossary.rst:67
+#: ../../content/glossary.rst:70
 msgid "A means of delivering added value to customers by making it easier for customers or helping them to achieve their desired results without them having to personally bear the responsibility for specific costs and risks."
 msgstr ""
 
-#: ../../content/glossary.rst:68
+#: ../../content/glossary.rst:71
 msgid "Service Level Agreement"
 msgstr ""
 
-#: ../../content/glossary.rst:70
+#: ../../content/glossary.rst:73
 msgid "A service level agreement (SLA) is a contract between a service provider (either internal or external) and the end user that defines the level of service expected from the service provider. SLAs are output-based in that their purpose is specifically to define what the customer will receive."
 msgstr ""
 
-#: ../../content/glossary.rst:71
+#: ../../content/glossary.rst:74
 msgid "Service Request"
 msgstr ""
 
-#: ../../content/glossary.rst:73
+#: ../../content/glossary.rst:76
 msgid "(see also :term:`Ticket`)."
 msgstr ""
 
-#: ../../content/glossary.rst:74
-msgid "Sequence Flow"
-msgstr ""
-
 #: ../../content/glossary.rst:77
-msgid "Sequence Flow Action"
+msgid "Transition"
 msgstr ""
 
 #: ../../content/glossary.rst:80
-msgid "SLA"
-msgstr ""
-
-#: ../../content/glossary.rst:82
-msgid "(see also :term:`Service Level Agreement`)."
+msgid "Transition Action"
 msgstr ""
 
 #: ../../content/glossary.rst:83
+msgid "SLA"
+msgstr ""
+
+#: ../../content/glossary.rst:85
+msgid "(see also :term:`Service Level Agreement`)."
+msgstr ""
+
+#: ../../content/glossary.rst:86
 #: ../../content/processes-automation/process-management.rst:282
 #: ../../content/processes-automation/process-management.rst:284
 #: ../../content/processes-automation/process-management.rst:286
@@ -4896,27 +4927,27 @@ msgstr ""
 msgid "Ticket"
 msgstr ""
 
-#: ../../content/glossary.rst:85
-msgid "A ticket is a collection of all communications with a customer during the course of a service request. A ticket contains article, which are the communication received from or sent to customers, agents, external systems, etc. Tickets belong to a customer user, are assigned to agents and reside in queues."
-msgstr ""
-
-#: ../../content/glossary.rst:86
-msgid "Transport"
-msgstr ""
-
 #: ../../content/glossary.rst:88
-msgid "A transport is the method chosen for communication. OTOBO support REST and SOAP."
+msgid "A ticket is a collection of all communications with a customer during the course of a service request. A ticket contains articles, which are the communication received from or sent to customers, agents, external systems, etc. Tickets belong to a customer user, are assigned to agents and reside in queues."
 msgstr ""
 
 #: ../../content/glossary.rst:89
-msgid "User Task Activity Dialog"
+msgid "Transport"
+msgstr ""
+
+#: ../../content/glossary.rst:91
+msgid "A transport is the method chosen for communication. OTOBO supports REST and SOAP."
 msgstr ""
 
 #: ../../content/glossary.rst:92
+msgid "Activity Dialog"
+msgstr ""
+
+#: ../../content/glossary.rst:95
 msgid "Working Time"
 msgstr ""
 
-#: ../../content/glossary.rst:94
+#: ../../content/glossary.rst:97
 msgid "A definition of minutes passed during the defined working hours of any :term:`calendar`."
 msgstr ""
 
@@ -4925,29 +4956,47 @@ msgid "Documentation History"
 msgstr ""
 
 #: ../../content/history.rst:15
-msgid "1.) 2019 - OTRS Administration Manual - OTRS AG (https://otrs.com) 2.) 2020 - OTOBO Administration Manual - Rother OSS GmbH (https://otobo.de)"
+msgid "1.) 2019 - OTRS Administration Manual - OTRS AG (https://otrs.com)"
 msgstr ""
 
-#: ../../content/history.rst:18
-#: ../../content/index.rst:24
-msgid "Published by: Rother OSS GmbH, (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany. Authors: OTRS AG (original version), Rother OSS GmbH (https://otrs.ch)"
+#: ../../content/history.rst:17
+msgid "2.) 2020 - OTOBO Administration Manual - Rother OSS GmbH (https://otobo.de)"
 msgstr ""
 
-#: ../../content/history.rst:21
-#: ../../content/index.rst:27
+#: ../../content/history.rst:19
+msgid "Published by: Rother OSS GmbH, (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany. Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)"
+msgstr ""
+
+#: ../../content/history.rst:22
 msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be found on the `GNU website <https://www.gnu.org/licenses/fdl-1.3.txt>`__."
 msgstr ""
 
-#: ../../content/index.rst:17
+#: ../../content/index.rst:21
 msgid "OTOBO Administration Manual"
 msgstr ""
 
-#: ../../content/index.rst:19
-msgid "Modifications and amendments are copyrighted by Rother OSS GmbH (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany."
+#: ../../content/index.rst:23
+msgid "This work is copyrighted by OTRS AG (https://otrs.com), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
 msgstr ""
 
-#: ../../content/index.rst:22
-msgid "This work is copyrighted by OTRS AG (https://otrs.com), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
+#: ../../content/index.rst:26
+msgid "Copyright © for modifications and amendments 2019-2020 ROTHER OSS GmbH (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany"
+msgstr ""
+
+#: ../../content/index.rst:29
+msgid "Terms and Conditions OTRS: Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be found on the GNU website."
+msgstr ""
+
+#: ../../content/index.rst:36
+msgid "Terms and Conditions Rother OSS: Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled \"COPYING\"."
+msgstr ""
+
+#: ../../content/index.rst:43
+msgid "Published by: Rother OSS GmbH, (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany."
+msgstr ""
+
+#: ../../content/index.rst:46
+msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
 
 #: ../../content/introduction.rst:12
@@ -4955,7 +5004,7 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../content/introduction.rst:14
-msgid "OTOBO is an open source ticket request system with many features to manage customer telephone calls and emails. It is distributed under the GNU General Public License (GPL) and tested on various Linux platforms. Do you receive many e-mails and want to answer them with a team of agents?"
+msgid "OTOBO is an open source ticket request system with many features to manage customer telephone calls and emails. It is distributed under the GNU General Public License (GPL) and tested on various Linux platforms. Do you receive many emails and want to answer them with a team of agents?"
 msgstr ""
 
 #: ../../content/introduction.rst:17
@@ -4975,7 +5024,7 @@ msgid "The administrator interface contains several modules collected into group
 msgstr ""
 
 #: ../../content/introduction.rst:28
-msgid "This manual shows you the configuration possibilities needed to solve common problems. The chapters:"
+msgid "This manual shows the configuration possibilities needed to solve common problems. The chapters:"
 msgstr ""
 
 #: ../../content/introduction.rst:30
@@ -4995,7 +5044,7 @@ msgid "Getting Started"
 msgstr ""
 
 #: ../../content/introduction.rst:41
-msgid "The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/doc/manual/installation/7.0/en/>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps describe there."
+msgid "The installation of OTOBO is explained in a separate `Installation Guide <https://doc.otobo.org/manual/installation/stable/en/content/index.html>`__. To install OTOBO or upgrade OTOBO from a previous version, follow the steps described there."
 msgstr ""
 
 #: ../../content/introduction.rst:43
@@ -5007,7 +5056,7 @@ msgid "A fresh new OTOBO installation contains only the default settings. You ne
 msgstr ""
 
 #: ../../content/introduction.rst:47
-msgid "First, you need to check some :doc:`administration/system-configuration` and modify the values, if needed. :sysconfig:`FQDN <core.html#fqdn>`, :sysconfig:`SystemID <core.html#systemid>` and :sysconfig:`Core::SendmailModule <core.html#sendmailmodule>` are the most important. Defining :sysconfig:`working hours and public holidays <core.html#core-time>` are also needed to calculate the escalation times correctly in OTOBO."
+msgid "First, you need to check some :doc:`administration/system-configuration` and modify the values, if needed. ``FQDN``, ``SystemID`` and ``SendmailModule`` are the most important. Defining ``TimeWorkingHours`` and ``TimeVacationDays`` are also needed to calculate the escalation times correctly in OTOBO."
 msgstr ""
 
 #: ../../content/introduction.rst:49
@@ -5103,7 +5152,7 @@ msgid "Become OTOBO Expert"
 msgstr ""
 
 #: ../../content/introduction.rst:99
-msgid "The next chapters of this manual describe the features and configuration settings of OTOBO more detailed. There is a separated manual for `Configuration Options References <https://doc.otobo.org/doc/manual/config-reference/7.0/en/>`__, that gives you a good overview of :doc:`administration/system-configuration`, that can be modify the behavior of OTOBO."
+msgid "The next chapters of this manual describe the features and configuration settings of OTOBO more detailed. There is a separated manual for `Configuration Options References <https://doc.otobo.org/doc/manual/config-reference/7.0/en/>`__, that gives you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO."
 msgstr ""
 
 #: ../../content/otobo-services.rst:12
@@ -5209,7 +5258,7 @@ msgstr ""
 msgid "A blacklist of telephone numbers where it is forbidden to send SMS messages to. Phone numbers must be added in international format without spaces, e.g. +491791234567, one number per field."
 msgstr ""
 
-#: ../../content/otobo-services/cloud-services.rst:77
+#: ../../content/otobo-services/cloud-services.rst:76
 msgid "Data Protection Information"
 msgstr ""
 
@@ -5658,7 +5707,7 @@ msgid "Domain Name"
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:208
-msgid "Display the fully qualified domain name set in system configuration setting :sysconfig:`FQDN <core.html#fqdn>`."
+msgid "Display the fully qualified domain name set in system configuration setting ``FQDN``."
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:211
@@ -5722,7 +5771,7 @@ msgid "SystemID"
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:232
-msgid "Display the system identifier set in system configuration setting :sysconfig:`SystemID <core.html#systemid>`."
+msgid "Display the system identifier set in system configuration setting ``SystemID``."
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:235
@@ -5730,7 +5779,7 @@ msgid "Ticket Index Module"
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:235
-msgid "Display the ticket index module set in system configuration setting :sysconfig:`Ticket::IndexModule <core.html#ticket-indexmodule>`."
+msgid "Display the ticket index module set in system configuration setting ``Ticket::IndexModule``."
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:238
@@ -5754,7 +5803,7 @@ msgid "Ticket Search Index Module"
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:244
-msgid "Display the ticket search index module set in system configuration setting :sysconfig:`Ticket::SearchIndex::ForceUnfilteredStorage <core.html#ticket-searchindex-forceunfilteredstorage>`."
+msgid "Display the ticket search index module set in system configuration setting ``Ticket::SearchIndex::ForceUnfilteredStorage``."
 msgstr ""
 
 #: ../../content/otobo-services/support-data-collector.rst:247
@@ -6215,7 +6264,7 @@ msgid "ACL Reference"
 msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:268
-msgid "Properties, keys and values that can be used in ACLs are highly depend on the OTOBO installation. For example the possibilities can be extended by installing extension modules, as well as it can be depend on the customer user mapping set in ``Config.pm``. Therefore it is not possible to provide a full ACL reference, that contains all settings."
+msgid "Properties, keys and values that can be used in ACLs are highly dependent on the OTOBO installation. For example the possibilities can be extended by installing extension modules, as well as it can depend on the customer user mapping set in ``Config.pm``. Therefore it is not possible to provide a full ACL reference, that contains all settings."
 msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:270
@@ -6223,7 +6272,7 @@ msgid "For properties, keys and values that can be used in ACLs, see the followi
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:14
-msgid "Beside general information that required for all tickets, organizations have individual needs to add specific details to tickets. This needed information takes various formats like texts, integers, date-time and more."
+msgid "Beside general information required for all tickets, organizations have individual needs to add specific details to tickets. This needed information takes various formats like texts, integers, date-time and more."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:16
@@ -6231,7 +6280,7 @@ msgid "OTOBO supports adding a so-called :term:`dynamic field` to handle texts, 
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:18
-msgid "Use this screen to manage dynamic fields in the system. A fresh OTOBO installation contains three dynamic fields by default. The dynamic field management screen is available in the *Dynamic Fields* module of the *Processes & Automation* group."
+msgid "Use this screen to manage dynamic fields in the system. A fresh OTOBO installation contains two dynamic fields by default. The dynamic field management screen is available in the *Dynamic Fields* module of the *Processes & Automation* group."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:23
@@ -6247,7 +6296,7 @@ msgid "To create a new dynamic field:"
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:31
-msgid "Choose an object in the left sidebar and select a dynamic field type from its drop-down."
+msgid "Choose an object type in the left actions sidebar and select a dynamic field type from its drop-down."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:38
@@ -6259,7 +6308,7 @@ msgid "To edit a dynamic field:"
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:42
-msgid "Click on a dynamic field in the list of dynamic fields."
+msgid "Click on a dynamic field in the dynamic fields list."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:49
@@ -6294,6 +6343,10 @@ msgstr ""
 msgid "Dynamic Field General Screen"
 msgstr ""
 
+#: ../../content/processes-automation/dynamic-fields.rst:83
+msgid "The name of this resource. The value should be alphabetic and numeric characters only. The name will be displayed in the overview table."
+msgstr ""
+
 #: ../../content/processes-automation/dynamic-fields.rst:90
 msgid "Label \\*"
 msgstr ""
@@ -6320,7 +6373,7 @@ msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:99
 #: ../../content/processes-automation/dynamic-fields.rst:102
-msgid "This type have been selected in the previous page and can not be changed here anymore. This is a read-only field."
+msgid "This type has been selected in the left sidebar and can not be changed here anymore. This is a read-only field."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:106
@@ -6328,7 +6381,7 @@ msgid "Object type"
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:106
-msgid "The object type determines where the dynamic field can be used. For example dynamic field with object type *Ticket* can be used only in tickets, and can not be used in articles."
+msgid "The object type determines where the dynamic field can be used. For example a dynamic field with object type *Ticket* can be used only in tickets, and can not be used in articles."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:108
@@ -6560,7 +6613,7 @@ msgid "It is possible to update the attributes of the contact by clicking the *E
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:229
-msgid "If is necessary to change the contact for this ticket, it can be done via any other ticket action where the dynamic field is configured for display."
+msgid "If it's necessary to change the contact for this ticket, it can be done via any other ticket action where the dynamic field is configured for display."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:233
@@ -6784,154 +6837,154 @@ msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:425
 #: ../../content/processes-automation/dynamic-fields.rst:433
-msgid "To use this type of dynamic field, an **OTOBO** service package is needed. Please contact at sales@otobo.de for an upgrade."
+msgid "This dynamic field is already included in OTOBO 10 Standard! The documentation on the field types still needs to be completed."
 msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:429
 msgid "Web Service Dynamic Field"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:437
+#: ../../content/processes-automation/dynamic-fields.rst:436
 msgid "Display Dynamic Fields on Screens"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:439
+#: ../../content/processes-automation/dynamic-fields.rst:438
 msgid "To display a dynamic field on a screen:"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:441
+#: ../../content/processes-automation/dynamic-fields.rst:440
 msgid "Make sure that the dynamic field *Validity* is set to *valid*."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:442
-#: ../../content/processes-automation/dynamic-fields.rst:466
-#: ../../content/processes-automation/dynamic-fields.rst:479
-#: ../../content/processes-automation/dynamic-fields.rst:503
+#: ../../content/processes-automation/dynamic-fields.rst:441
+#: ../../content/processes-automation/dynamic-fields.rst:465
+#: ../../content/processes-automation/dynamic-fields.rst:478
+#: ../../content/processes-automation/dynamic-fields.rst:502
 msgid "Open the *System Configuration* module in the admin interface."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:443
+#: ../../content/processes-automation/dynamic-fields.rst:442
 msgid "Navigate to *Frontend* → *Agent* → *View* and select a view to add the dynamic field to."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:444
+#: ../../content/processes-automation/dynamic-fields.rst:443
 msgid "Find the setting ends with ``###DynamicField`` and click on the *Edit this setting* button."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:445
+#: ../../content/processes-automation/dynamic-fields.rst:444
 msgid "Click on the *+* button to add the dynamic field."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:446
+#: ../../content/processes-automation/dynamic-fields.rst:445
 msgid "Enter the name of the dynamic field to the text box and click on the tick button."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:447
+#: ../../content/processes-automation/dynamic-fields.rst:446
 msgid "Select *1 - Enabled* or *2 - Enabled and required*."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:448
-#: ../../content/processes-automation/dynamic-fields.rst:469
-#: ../../content/processes-automation/dynamic-fields.rst:482
-#: ../../content/processes-automation/dynamic-fields.rst:506
-msgid "Click on the tick button on the right to save the setting."
-msgstr ""
-
-#: ../../content/processes-automation/dynamic-fields.rst:454
-msgid "Display Dynamic Fields on Screen"
-msgstr ""
-
-#: ../../content/processes-automation/dynamic-fields.rst:458
-msgid "It is possible to add multiple dynamic fields at the same time. To do this, repeat steps 5-7."
-msgstr ""
-
-#: ../../content/processes-automation/dynamic-fields.rst:462
-msgid "Set Default Value via Ticket Event Module"
-msgstr ""
-
-#: ../../content/processes-automation/dynamic-fields.rst:464
-msgid "A ticket event (e.g. ``TicketCreate``) can trigger a value set for a certain field, if the field does not have a value yet."
-msgstr ""
-
-#: ../../content/processes-automation/dynamic-fields.rst:467
-msgid "Navigate to *Core* → *Event* → *Ticket* and search for the setting ``Ticket::EventModulePost###9600-TicketDynamicFieldDefault``."
-msgstr ""
-
+#: ../../content/processes-automation/dynamic-fields.rst:447
 #: ../../content/processes-automation/dynamic-fields.rst:468
 #: ../../content/processes-automation/dynamic-fields.rst:481
 #: ../../content/processes-automation/dynamic-fields.rst:505
+msgid "Click on the tick button on the right to save the setting."
+msgstr ""
+
+#: ../../content/processes-automation/dynamic-fields.rst:453
+msgid "Display Dynamic Fields on Screen"
+msgstr ""
+
+#: ../../content/processes-automation/dynamic-fields.rst:457
+msgid "It is possible to add multiple dynamic fields at the same time. To do this, repeat steps 5-7."
+msgstr ""
+
+#: ../../content/processes-automation/dynamic-fields.rst:461
+msgid "Set Default Value via Ticket Event Module"
+msgstr ""
+
+#: ../../content/processes-automation/dynamic-fields.rst:463
+msgid "A ticket event (e.g. ``TicketCreate``) can trigger a value set for a certain field, if the field does not have a value yet."
+msgstr ""
+
+#: ../../content/processes-automation/dynamic-fields.rst:466
+msgid "Navigate to *Core* → *Event* → *Ticket* and search for the setting ``Ticket::EventModulePost###9600-TicketDynamicFieldDefault``."
+msgstr ""
+
+#: ../../content/processes-automation/dynamic-fields.rst:467
+#: ../../content/processes-automation/dynamic-fields.rst:480
+#: ../../content/processes-automation/dynamic-fields.rst:504
 msgid "Click on the *Edit this setting* button to activate the setting."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:475
+#: ../../content/processes-automation/dynamic-fields.rst:474
 msgid "Activate Ticket Event Module"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:477
+#: ../../content/processes-automation/dynamic-fields.rst:476
 msgid "Example: activate *Field1* in ``TicketCreate`` event:"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:480
+#: ../../content/processes-automation/dynamic-fields.rst:479
 msgid "Navigate to *Core* → *Ticket* → *DynamicFieldDefault* and search for the setting ``Ticket::TicketDynamicFieldDefault###Element1``."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:488
+#: ../../content/processes-automation/dynamic-fields.rst:487
 msgid "Activate Dynamic Field in Ticket Create Event"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:492
+#: ../../content/processes-automation/dynamic-fields.rst:491
 msgid "This configuration can be set in any of the 16 ``Ticket::TicketDynamicFieldDefault###Element`` settings."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:495
+#: ../../content/processes-automation/dynamic-fields.rst:494
 msgid "If more than 16 fields needs to be set up, a custom XML file must be placed in ``$OTOBO_HOME/Kernel/Config/Files/XML`` directory to extend this feature."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:499
+#: ../../content/processes-automation/dynamic-fields.rst:498
 msgid "Set Default Value via User Preferences"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:501
+#: ../../content/processes-automation/dynamic-fields.rst:500
 msgid "The dynamic field default value can be overwritten with a user defined value stored in the personal preferences."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:504
+#: ../../content/processes-automation/dynamic-fields.rst:503
 msgid "Navigate to *Frontend* → *Agent* → *View* → *Preferences* and search for the setting ``PreferencesGroups###DynamicField``."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:512
+#: ../../content/processes-automation/dynamic-fields.rst:511
 msgid "Activate Dynamic Field in Personal Preferences"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:514
+#: ../../content/processes-automation/dynamic-fields.rst:513
 msgid "Click on your avatar on the top left corner, and select *Personal Preferences* → *Miscellaneous* to add a default value for the dynamic field."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:519
+#: ../../content/processes-automation/dynamic-fields.rst:518
 msgid "Dynamic Field in Personal Preferences"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:521
+#: ../../content/processes-automation/dynamic-fields.rst:520
 msgid "This setting is an example of how to create an entry in the user preferences screen to set an exclusive dynamic field ``Name_X`` default value for the selected user. The limitation of this setting is that it only permits the use of one dynamic field. If two or more fields will use this feature, it is necessary to create a custom XML configuration file to add more settings similar to this one."
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:525
+#: ../../content/processes-automation/dynamic-fields.rst:524
 msgid "If more settings are added in a new XML each setting name needs to be unique in the system and different than ``PreferencesGroups###DynamicField``. For example:"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:527
+#: ../../content/processes-automation/dynamic-fields.rst:526
 msgid "``PreferencesGroups###101-DynamicField-Field1``"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:528
+#: ../../content/processes-automation/dynamic-fields.rst:527
 msgid "``PreferencesGroups###102-DynamicField-Field2``"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:529
+#: ../../content/processes-automation/dynamic-fields.rst:528
 msgid "``PreferencesGroups###My-Field1``"
 msgstr ""
 
-#: ../../content/processes-automation/dynamic-fields.rst:530
+#: ../../content/processes-automation/dynamic-fields.rst:529
 msgid "``PreferencesGroups###My-Field2``"
 msgstr ""
 
@@ -6940,7 +6993,7 @@ msgid "Generic Agent"
 msgstr ""
 
 #: ../../content/processes-automation/generic-agent.rst:14
-msgid "Processing tickets require often a workflow. Let's say \"if-then\" activities."
+msgid "Processing tickets requires often a workflow. Let's say \"if-then\" activities."
 msgstr ""
 
 #: ../../content/processes-automation/generic-agent.rst:16
@@ -7221,10 +7274,6 @@ msgstr ""
 msgid "Enter the value of the parameter, that should be passed to the module."
 msgstr ""
 
-#: ../../content/processes-automation/process-management.rst:12
-msgid "Process Management"
-msgstr ""
-
 #: ../../content/processes-automation/process-management.rst:14
 msgid "Maximizing performance while minimizing human error is a requirement of organizations of all sizes. This need is covered by defined processes and workflows, for recurring tasks. Ensuring all required information is available in the right place, and contacts are informed about their responsibilities like adding information, approving requests, etc."
 msgstr ""
@@ -7254,7 +7303,7 @@ msgid "Click on the *Create New Process* button in the left sidebar."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:31
-msgid "Add activities, user task activity dialogs, sequence flows and sequence flow actions."
+msgid "Add activities, activity dialogs, transitions and transition actions."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:32
@@ -7386,7 +7435,7 @@ msgid "Click on the *Import process configuration* button."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:102
-msgid "Before import a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import. If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually."
+msgid "Before import of a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import. If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:106
@@ -7544,15 +7593,15 @@ msgid "User task activity (selected for now)"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:213
-msgid "User Task Activity Dialogs"
+msgid "Activity Dialogs"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:210
-msgid "You can assign user task activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list. Ordering the elements within the list is also possible by drag and drop."
+msgid "You can assign activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list. Ordering the elements within the list is also possible by drag and drop."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:212
-msgid "Click on the *Create New User Task Activity Dialog* button to create new dialogs."
+msgid "Click on the *Create New Activity Dialog* button to create new dialogs."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:216
@@ -7560,7 +7609,7 @@ msgid "Example process"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:218
-msgid "Processes are more complex than other resources in OTOBO. To create a process, you need to do several steps. The following chapters shows you, how to define a process from the specification and create the needed resources. Let's see an example to make it more demonstrative. We will define a book order process."
+msgid "Processes are more complex than other resources in OTOBO. To create a process, you need to do several steps. The following chapters show you, how to define a process from the specification and create the needed resources. Let's see an example to make it more demonstrative. We will define a book order process."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:222
@@ -7616,23 +7665,23 @@ msgid "From the analysis of the example process we can identify the following ne
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:252
-msgid "Possibility to record data, let's call this :term:`user task activity dialog`."
+msgid "Possibility to record data, let's call this :term:`activity dialog`."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:253
-msgid "Check which can react to changed data automatically, let's call this :term:`sequence flow`."
+msgid "Check which can react to changed data automatically, let's call this :term:`transition`."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:254
-msgid "Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`sequence flow action`."
+msgid "Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`transition action`."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:255
-msgid "A possibility to offer more than just one user task activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`."
+msgid "A possibility to offer more than just one activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:257
-msgid "Now, with activities, user task activity dialogs, sequence flows and sequence flow actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`."
+msgid "Now, with activities, activity dialogs, transitions and transition actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:261
@@ -7801,7 +7850,7 @@ msgid "Set the following :doc:`../administration/system-configuration` settings:
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:306
-msgid ":sysconfig:`Ticket::Responsible <core.html#ticket-responsible>`"
+msgid "``Ticket::Responsible``"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:308
@@ -7809,7 +7858,7 @@ msgid "Enabled"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:310
-msgid ":sysconfig:`Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicFieldGroups <frontend.html#ticket-frontend-agentticketzoom-processwidgetdynamicfieldgroups>`"
+msgid "``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicFieldGroups``"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:312
@@ -7829,7 +7878,7 @@ msgid "``Shipment`` → ``DateOfReceipt``"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:317
-msgid ":sysconfig:`Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicField <frontend.html#ticket-frontend-agentticketzoom-processwidgetdynamicfield>`"
+msgid "``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicField``"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:319
@@ -7881,15 +7930,15 @@ msgid "The new process is created. You can add some process element now."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:343
-msgid "Create User Task Activity Dialogs"
+msgid "Create Activity Dialogs"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:345
-msgid "Click on the *User Task Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *User Task Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New User Task Activity Dialog* button."
+msgid "Click on the *Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity Dialog* button."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:350
-msgid "Book Ordering - User Task Activity Dialogs"
+msgid "Book Ordering - Activity Dialogs"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:352
@@ -7897,11 +7946,11 @@ msgid "In the opened popup screen fill in the *Dialog Name* as well as the *Desc
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:357
-msgid "Book Ordering - Add User Task Activity Dialog"
+msgid "Book Ordering - Add Activity Dialog"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:359
-msgid "To assign fields to the user task activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place."
+msgid "To assign fields to the activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:361
@@ -7934,7 +7983,7 @@ msgid "In this screen all dynamic fields has the prefix ``DynamicField_`` as in 
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:376
-msgid "Book Ordering - Add User Task Activity Dialog Fields"
+msgid "Book Ordering - Add Activity Dialog Fields"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:378
@@ -7942,18 +7991,18 @@ msgid "As soon as the fields are dropped into the *Assigned Fields* pool another
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:383
-msgid "Book Ordering - Edit User Task Activity Dialog Fields"
+msgid "Book Ordering - Edit Activity Dialog Fields"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:385
 #: ../../content/processes-automation/process-management.rst:437
 #: ../../content/processes-automation/process-management.rst:490
 #: ../../content/processes-automation/process-management.rst:591
-msgid "After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the project management screen."
+msgid "After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:387
-msgid "Create the following user task activity dialogs with fields:"
+msgid "Create the following activity dialogs with fields:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:389
@@ -8016,27 +8065,27 @@ msgid "``DynamicField_Status`` with the possibility to choose *Shipment received
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:421
-msgid "Create Sequence Flows"
+msgid "Create Transitions"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:423
-msgid "Click on the *Sequence Flows* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Sequence Flows* options and will collapse all others doing an accordion like effect. Click on the *Create New Sequence Flow* button."
+msgid "Click on the *Transitions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transitions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition* button."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:428
-msgid "Book Ordering - Sequence Flows"
+msgid "Book Ordering - Transitions"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:430
-msgid "In the opened popup screen fill in the *Sequence Flow Name*. For this example in the *Condition Expressions* we will use just one condition expression and just one field. For both we can leave the *Type of Linking* as *and* and we will use the filed match type value as *String*."
+msgid "In the opened popup screen fill in the *Transition Name*. For this example in the *Condition Expressions* we will use just one condition expression and just one field. For both we can leave the *Type of Linking* as *and* and we will use the filed match type value as *String*."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:435
-msgid "Book Ordering - Add Sequence Flow"
+msgid "Book Ordering - Add Transition"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:439
-msgid "Create the following sequence flows:"
+msgid "Create the following transitions:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:441
@@ -8068,23 +8117,23 @@ msgid "Check if the ``DynamicField_Status`` field is set to *Shipment received*.
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:467
-msgid "Create Sequence Flow Actions"
+msgid "Create Transition Actions"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:469
-msgid "Click on the *Sequence Flow Actions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Sequence Flow Actions* options and will collapse all others doing an accordion like effect. Click on the *Create New Sequence Flow Action* button."
+msgid "Click on the *Transition Actions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transition Actions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition Action* button."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:474
-msgid "Book Ordering - Sequence Flow Actions"
+msgid "Book Ordering - Transition Actions"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:476
-msgid "In the opened popup screen fill in the *Sequence Flow Action Name* and the *Sequence Flow Action module* then click on the *Save* button. A new *Configure* button will appear next to the module field."
+msgid "In the opened popup screen fill in the *Transition Action Name* and the *Transition Action module* then click on the *Save* button. A new *Configure* button will appear next to the module field."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:481
-msgid "Book Ordering - Add Sequence Flow Action"
+msgid "Book Ordering - Add Transition Action"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:483
@@ -8092,7 +8141,7 @@ msgid "Click on the *Configure* button and add the needed configuration paramete
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:488
-msgid "Book Ordering - Sequence Flow Action Parameters"
+msgid "Book Ordering - Transition Action Parameters"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:494
@@ -8156,11 +8205,11 @@ msgid "`TicketTypeSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/Syst
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:511
-msgid "All sequence flow action modules are located in the legacy named ``Kernel/System/ProcessManagement/TransitionAction``."
+msgid "All transition action modules are located in the legacy named ``Kernel/System/ProcessManagement/TransitionAction``."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:513
-msgid "Create the following sequence flow actions:"
+msgid "Create the following transition actions:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:515
@@ -8169,7 +8218,7 @@ msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:517
 #: ../../content/processes-automation/process-management.rst:521
-msgid "To be executed when the sequence flow *Approval* applied."
+msgid "To be executed when the transition *Approval* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:519
@@ -8193,18 +8242,18 @@ msgstr ""
 #: ../../content/processes-automation/process-management.rst:527
 #: ../../content/processes-automation/process-management.rst:535
 #: ../../content/processes-automation/process-management.rst:555
-msgid "The sequence flow *Approval denied* applied."
+msgid "The transition *Approval denied* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:528
 #: ../../content/processes-automation/process-management.rst:536
 #: ../../content/processes-automation/process-management.rst:556
-msgid "The sequence flow *Order denied* applied."
+msgid "The transition *Order denied* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:529
 #: ../../content/processes-automation/process-management.rst:537
-msgid "The sequence flow *Shipment received* applied."
+msgid "The transition *Shipment received* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:531
@@ -8220,7 +8269,7 @@ msgid "*Move process ticket into the \"Purchasing\" queue*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:541
-msgid "To be executed when the sequence flow *Approved* applied."
+msgid "To be executed when the transition *Approved* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:543
@@ -8229,7 +8278,7 @@ msgid "*Move process ticket into the \"Post office\" queue*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:545
-msgid "To be executed when the sequence flow *Order placed* applied."
+msgid "To be executed when the transition *Order placed* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:547
@@ -8238,7 +8287,7 @@ msgid "*Close ticket successfully*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:549
-msgid "To be executed when the sequence flow *Shipment received* applied."
+msgid "To be executed when the transition *Shipment received* applied."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:551
@@ -8248,7 +8297,7 @@ msgid "*Close ticket unsuccessfully*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:558
-msgid "There are places where the same sequence flow actions should be executed. Therefore it is reasonable to make it possible to link sequence flow actions freely with sequence flows to be able to reuse them."
+msgid "There are places where the same transition actions should be executed. Therefore it is reasonable to make it possible to link transition actions freely with transitions to be able to reuse them."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:562
@@ -8272,19 +8321,19 @@ msgid "Book Ordering - Add Activity"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:578
-msgid "To assign dialogs to the activity simple drag the required dialogs from the *Available User Task Activity Dialogs* pool and drop into the *Assigned User Task Activity Dialogs* pool. The order in the *Assigned User Task Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place."
+msgid "To assign dialogs to the activity simple drag the required dialogs from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool. The order in the *Assigned Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:582
-msgid "This order is specially important in the first activity, since the first user task activity dialog for this activity is the only one that is presented when the process starts."
+msgid "This order is specially important in the first activity, since the first activity dialog for this activity is the only one that is presented when the process starts."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:584
-msgid "In this example we need to assign only the *Recording the demand* user task activity dialog. Drag this dialog from the *Available User Task Activity Dialogs* pool and drop into the *Assigned User Task Activity Dialogs* pool."
+msgid "In this example we need to assign only the *Recording the demand* activity dialog. Drag this dialog from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:589
-msgid "Book Ordering - Assign User Task Activity Dialog"
+msgid "Book Ordering - Assign Activity Dialog"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:593
@@ -8292,7 +8341,7 @@ msgid "Create the following activities:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:597
-msgid "Assign the user task activity dialog *Recording the demand*."
+msgid "Assign the activity dialog *Recording the demand*."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:599
@@ -8301,7 +8350,7 @@ msgid "*Approval*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:601
-msgid "Assign the user task activity dialogs *Approval denied* and *Approved*."
+msgid "Assign the activity dialogs *Approval denied* and *Approved*."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:603
@@ -8310,7 +8359,7 @@ msgid "*Order*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:605
-msgid "Assign the user task activity dialogs *Order denied* and *Order placed*."
+msgid "Assign the activity dialogs *Order denied* and *Order placed*."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:607
@@ -8319,7 +8368,7 @@ msgid "*Incoming*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:609
-msgid "Assign the user task activity dialog *Shipment received*."
+msgid "Assign the activity dialog *Shipment received*."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:611
@@ -8327,11 +8376,11 @@ msgid "*Process complete*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:613
-msgid "This is an activity without possible user task activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process."
+msgid "This is an activity without possible activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:615
-msgid "Now we can clearly see that activities are precisely defined states of a process ticket. After a successful sequence flow a process ticket moves from one activity to another."
+msgid "Now we can clearly see that activities are precisely defined states of a process ticket. After a successful transition a process ticket moves from one activity to another."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:619
@@ -8339,19 +8388,19 @@ msgid "Create Process Path"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:621
-msgid "Let us conclude our example with the last missing piece in the puzzle, the process as the a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes."
+msgid "Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:623
-msgid "The process has a starting point which consists of the start activity and the start user task activity dialog. For any new book order, the first user task activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow."
+msgid "The process has a starting point which consists of the start activity and the start activity dialog. For any new book order, the first activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:625
-msgid "The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more sequence flows (possibly with sequence flow actions) and other activities."
+msgid "The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more transitions (possibly with transition actions) and other activities."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:627
-msgid "Assuming that the activities has already assigned their user task activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first user task activity dialog is the first screen that will be shown when the process starts."
+msgid "Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first activity dialog is the first screen that will be shown when the process starts."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:632
@@ -8367,31 +8416,31 @@ msgid "Book Ordering - Second Activity On Canvas"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:641
-msgid "Then let's create the process path (connection) between this two activities. For this we will use the sequence flows. Click on sequence flow in the accordion, drag a sequence flow and drop it inside the first activity. As soon as the sequence flow is dropped the end point of the sequence flow arrow will be placed next to the process start point. Drag the sequence flow arrow end point and drop it inside the other activity to create the connection between the activities."
+msgid "Then let's create the process path (connection) between this two activities. For this we will use the transitions. Click on transition in the accordion, drag a transition and drop it inside the first activity. As soon as the transition is dropped the end point of the transition arrow will be placed next to the process start point. Drag the transition arrow end point and drop it inside the other activity to create the connection between the activities."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:646
-msgid "Book Ordering - First Sequence Flow On Canvas"
+msgid "Book Ordering - First Transition On Canvas"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:648
-msgid "Now that the process path between the actions is defined, then we need to assign the sequence flow actions to the sequence flow. Double click the sequence flow label in the canvas to open a new popup window."
+msgid "Now that the process path between the actions is defined, then we need to assign the transition actions to the transition. Double click the transition label in the canvas to open a new popup window."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:653
-msgid "Book Ordering - Assign First Sequence Flow Action"
+msgid "Book Ordering - Assign First Transition Action"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:655
-msgid "After the sequence flow actions are assigned, click on the *Save* button to go back to the main process edit screen. Click on *Save* button below the canvas to save all other changes."
+msgid "After the transition actions are assigned, click on the *Save* button to go back to the main process edit screen. Click on *Save* button below the canvas to save all other changes."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:657
-msgid "Complete the process path by adding the following activities, sequence flows and sequence flow actions:"
+msgid "Complete the process path by adding the following activities, transitions and transition actions:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:661
-msgid "Possible sequence flow: *Approval*"
+msgid "Possible transition: *Approval*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:663
@@ -8412,7 +8461,7 @@ msgstr ""
 #: ../../content/processes-automation/process-management.rst:716
 #: ../../content/processes-automation/process-management.rst:730
 #: ../../content/processes-automation/process-management.rst:744
-msgid "Additionally, the following sequence flow actions are executed:"
+msgid "Additionally, the following transition actions are executed:"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:671
@@ -8420,11 +8469,11 @@ msgid "*Move the process ticket into the \"Management\" queue*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:674
-msgid "The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the sequence flow *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the sequence flow actions *Move the process ticket into the \"Management\" queue* and *Change ticket responsible to \"Manager\"* are executed. In the activity *Approval*, the user task activity dialogs *Approval denied* and *Approved* are available."
+msgid "The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the transition *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the transition actions *Move the process ticket into the \"Management\" queue* and *Change ticket responsible to \"Manager\"* are executed. In the activity *Approval*, the activity dialogs *Approval denied* and *Approved* are available."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:678
-msgid "Possible sequence flow: *Approval denied*"
+msgid "Possible transition: *Approval denied*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:680
@@ -8445,7 +8494,7 @@ msgid "If this matches, the process ticket will move to activity *Process comple
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:692
-msgid "Possible sequence flow: *Approved*"
+msgid "Possible transition: *Approved*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:696
@@ -8457,11 +8506,11 @@ msgid "If this matches, the process ticket will move to activity *Order*."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:704
-msgid "We can see that from the current activity, which defines a step of the process ticket, there are one or more possibilities for sequence flow which have exactly one target activity (and possibly one or more sequence flow actions)."
+msgid "We can see that from the current activity, which defines a step of the process ticket, there are one or more possibilities for transition which have exactly one target activity (and possibly one or more transition actions)."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:708
-msgid "Possible sequence flow: *Order denied*"
+msgid "Possible transition: *Order denied*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:710
@@ -8470,7 +8519,7 @@ msgid "Starting activity: *Order*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:722
-msgid "Possible sequence flow: *Order placed*"
+msgid "Possible transition: *Order placed*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:726
@@ -8482,7 +8531,7 @@ msgid "If this matches, the process ticket will move to activity *Incoming*."
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:736
-msgid "Possible sequence flow: *Shipment received*"
+msgid "Possible transition: *Shipment received*"
 msgstr ""
 
 #: ../../content/processes-automation/process-management.rst:738
@@ -8840,7 +8889,7 @@ msgid "Every ticket is stored and archived with complete information. Since tick
 msgstr ""
 
 #: ../../content/ticket-settings/attachments.rst:12
-#: ../../content/ticket-settings/templates.rst:121
+#: ../../content/ticket-settings/templates.rst:106
 msgid "Attachments"
 msgstr ""
 
@@ -8869,7 +8918,7 @@ msgid "To add an attachment:"
 msgstr ""
 
 #: ../../content/ticket-settings/attachments.rst:31
-msgid "Click on the *Add Attachments* button in the left sidebar."
+msgid "Click on the *Add Attachment* button in the left sidebar."
 msgstr ""
 
 #: ../../content/ticket-settings/attachments.rst:38
@@ -8917,7 +8966,7 @@ msgid "Auto Responses"
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:14
-msgid "Quick and transparent service is vital to maintaining a good working relationship with your customer. Email, fax, social media and other non-real-time communication are patient, but you want to engage your customer immediately upon receipt of a request."
+msgid "Quick and transparent service is vital to maintaining a good working relationship with your customer. Email, fax, social media and other non-real-time communications are patient, but you want to engage your customer immediately upon receipt of a request."
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:16
@@ -9196,7 +9245,7 @@ msgid "Queues"
 msgstr ""
 
 #: ../../content/ticket-settings/queues.rst:14
-msgid "Teams need a workspace and the ability to dispatch work based on skill level, security level, department or responsibility just to name a few. Other teams may also need to view or react in these requests as well."
+msgid "Teams need a workspace and the ability to dispatch work based on skill level, security level, department or responsibility just to name a few. Other teams may also need to view or react to these requests as well."
 msgstr ""
 
 #: ../../content/ticket-settings/queues.rst:16
@@ -9295,124 +9344,144 @@ msgid "First response time will not trigger for an email ticket or telephone tic
 msgstr ""
 
 #: ../../content/ticket-settings/queues.rst:105
+#: ../../content/ticket-settings/queues.rst:111
+#: ../../content/ticket-settings/queues.rst:122
 #: ../../content/ticket-settings/service-level-agreements.rst:90
-msgid "Escalation - update time (minutes)"
+#: ../../content/ticket-settings/service-level-agreements.rst:96
+#: ../../content/ticket-settings/service-level-agreements.rst:106
+msgid "Notify by"
 msgstr ""
 
 #: ../../content/ticket-settings/queues.rst:105
+#: ../../content/ticket-settings/queues.rst:111
+#: ../../content/ticket-settings/queues.rst:121
 #: ../../content/ticket-settings/service-level-agreements.rst:90
-msgid "The maximum amount of working time allowed between the agent contacts with the customer."
-msgstr ""
-
-#: ../../content/ticket-settings/queues.rst:112
-#: ../../content/ticket-settings/service-level-agreements.rst:97
-msgid "Escalation - solution time (minutes)"
+#: ../../content/ticket-settings/service-level-agreements.rst:96
+#: ../../content/ticket-settings/service-level-agreements.rst:106
+msgid "Notify before time limit is reached (in percent)."
 msgstr ""
 
 #: ../../content/ticket-settings/queues.rst:108
 #: ../../content/ticket-settings/service-level-agreements.rst:93
+msgid "Escalation - update time (minutes)"
+msgstr ""
+
+#: ../../content/ticket-settings/queues.rst:108
+#: ../../content/ticket-settings/service-level-agreements.rst:93
+msgid "The maximum amount of working time allowed between the agent contacts with the customer."
+msgstr ""
+
+#: ../../content/ticket-settings/queues.rst:118
+#: ../../content/ticket-settings/service-level-agreements.rst:103
+msgid "Escalation - solution time (minutes)"
+msgstr ""
+
+#: ../../content/ticket-settings/queues.rst:114
+#: ../../content/ticket-settings/service-level-agreements.rst:99
 msgid "The maximum amount of working time allowed until the ticket is marked as solved."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:112
-#: ../../content/ticket-settings/service-level-agreements.rst:97
+#: ../../content/ticket-settings/queues.rst:118
+#: ../../content/ticket-settings/service-level-agreements.rst:103
 msgid "Solution time will not reset if the ticket is reopened."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:128
+#: ../../content/ticket-settings/queues.rst:138
 msgid "Follow up Option \\*"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:115
+#: ../../content/ticket-settings/queues.rst:125
 msgid "Specify the handling of a follow up on closed tickets. Possible values:"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:118
+#: ../../content/ticket-settings/queues.rst:128
 msgid "new ticket"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:118
+#: ../../content/ticket-settings/queues.rst:128
 msgid "The follow up will create a new ticket."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:121
+#: ../../content/ticket-settings/queues.rst:131
 msgid "possible"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:121
+#: ../../content/ticket-settings/queues.rst:131
 msgid "The follow up will reopen the already closed ticket."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:124
+#: ../../content/ticket-settings/queues.rst:134
 msgid "reject"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:124
+#: ../../content/ticket-settings/queues.rst:134
 msgid "The follow up will be rejected."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:128
+#: ../../content/ticket-settings/queues.rst:138
 msgid "See :doc:`auto-responses` chapter for more information."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:135
+#: ../../content/ticket-settings/queues.rst:145
 msgid "Ticket lock after a follow up \\*"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:131
+#: ../../content/ticket-settings/queues.rst:141
 msgid "Only applicable if the *Follow up Option* is set to *possible*. Locks the previously closed ticket, upon reopening, to the last owner. This ensures that a follow up for a ticket is processed by the agent that has previously handled that ticket."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:135
+#: ../../content/ticket-settings/queues.rst:145
 msgid "This does not take out-of-office into account. Use this setting with care to ensure or in combination with *Unlock timeout minutes*."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:142
+#: ../../content/ticket-settings/queues.rst:152
 msgid "System address \\*"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:138
+#: ../../content/ticket-settings/queues.rst:148
 msgid "Select one of the :doc:`../communication-notifications/email-addresses` as the sender identity for this queue."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:142
+#: ../../content/ticket-settings/queues.rst:152
 msgid "This is an ID in the database. Making changes to the :doc:`../communication-notifications/email-addresses` can have adverse effects here."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:145
+#: ../../content/ticket-settings/queues.rst:155
 msgid "Default sign key"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:145
+#: ../../content/ticket-settings/queues.rst:155
 msgid "This is only active if :doc:`../communication-notifications/pgp-keys` or :doc:`../communication-notifications/s-mime-certificates` is enabled in the :doc:`../administration/system-configuration`. Choose the key to sign emails per default."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:148
+#: ../../content/ticket-settings/queues.rst:158
+#: ../../content/ticket-settings/salutations.rst:75
 msgid "Salutation \\*"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:148
+#: ../../content/ticket-settings/queues.rst:158
 msgid "Select one of the defined :doc:`salutations`."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:151
+#: ../../content/ticket-settings/queues.rst:161
+#: ../../content/ticket-settings/signatures.rst:75
 msgid "Signature \\*"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:151
+#: ../../content/ticket-settings/queues.rst:161
 msgid "Select one of the defined :doc:`signatures`."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:154
+#: ../../content/ticket-settings/queues.rst:164
 #: ../../content/ticket-settings/service-level-agreements.rst:80
 msgid "Select the calendar which defines working hours for this queue. Calendars are defined in the :doc:`../administration/system-configuration`."
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:162
+#: ../../content/ticket-settings/queues.rst:172
 msgid "Chat Channel"
 msgstr ""
 
-#: ../../content/ticket-settings/queues.rst:163
+#: ../../content/ticket-settings/queues.rst:173
 msgid "Chat channel that will be used for communication related to the tickets in this queue."
 msgstr ""
 
@@ -9568,10 +9637,6 @@ msgid "Salutation Settings"
 msgstr ""
 
 #: ../../content/ticket-settings/salutations.rst:75
-msgid "Salutation"
-msgstr ""
-
-#: ../../content/ticket-settings/salutations.rst:75
 msgid "The text that will be placed to the beginning of new emails."
 msgstr ""
 
@@ -9606,7 +9671,7 @@ msgstr ""
 
 #: ../../content/ticket-settings/service-level-agreements.rst:27
 #: ../../content/ticket-settings/services.rst:27
-msgid "To use this feature, :sysconfig:`Ticket::Service <core.html#ticket-service>` must be activated in the :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message of the notification bar to directly jump to the configuration setting."
+msgid "To use this feature, ``Ticket::Service`` must be activated in the :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message of the notification bar to directly jump to the configuration setting."
 msgstr ""
 
 #: ../../content/ticket-settings/service-level-agreements.rst:31
@@ -9661,11 +9726,11 @@ msgstr ""
 msgid "Select one or more of the :doc:`services` to be assigned to this SLA."
 msgstr ""
 
-#: ../../content/ticket-settings/service-level-agreements.rst:105
+#: ../../content/ticket-settings/service-level-agreements.rst:114
 msgid "Dialog message"
 msgstr ""
 
-#: ../../content/ticket-settings/service-level-agreements.rst:106
+#: ../../content/ticket-settings/service-level-agreements.rst:115
 msgid "Is being displayed if a customer chooses this SLA on ticket creation (only in the external interface)."
 msgstr ""
 
@@ -9810,10 +9875,6 @@ msgid "Signature Settings"
 msgstr ""
 
 #: ../../content/ticket-settings/signatures.rst:75
-msgid "Signature"
-msgstr ""
-
-#: ../../content/ticket-settings/signatures.rst:75
 msgid "The text that will be placed to the end of new emails."
 msgstr ""
 
@@ -9828,6 +9889,10 @@ msgstr ""
 
 #: ../../content/ticket-settings/sms-templates.rst:12
 msgid "SMS Templates"
+msgstr ""
+
+#: ../../content/ticket-settings/sms-templates.rst:14
+msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution."
 msgstr ""
 
 #: ../../content/ticket-settings/sms-templates.rst:16
@@ -9933,7 +9998,7 @@ msgid "To be used for sending a new SMS to a customer user from within the ticke
 msgstr ""
 
 #: ../../content/ticket-settings/sms-templates.rst:100
-#: ../../content/ticket-settings/templates.rst:118
+#: ../../content/ticket-settings/templates.rst:103
 msgid "Template"
 msgstr ""
 
@@ -10120,7 +10185,7 @@ msgid "The ticket has been removed from the system."
 msgstr ""
 
 #: ../../content/ticket-settings/states.rst:51
-msgid "Pending jobs are checked per default every two hours and forty-five minutes. This time is a static time, which means the times are 02:45, 04:45, 06:45 and so on. The job can be run more often or seldom and are configured in the *System Configuration* module of the *Administration* group."
+msgid "Pending jobs are checked per default every two hours and forty-five minutes. This time is a static time, which means the times are 02:45, 04:45, 06:45 and so on. The job can be run more often or seldom and is configured in the *System Configuration* module of the *Administration* group."
 msgstr ""
 
 #: ../../content/ticket-settings/states.rst:53
@@ -10208,11 +10273,11 @@ msgid "The following options are relevant and noteworthy. Please review these wh
 msgstr ""
 
 #: ../../content/ticket-settings/states.rst:150
-msgid ":sysconfig:`Daemon::SchedulerCronTaskManager::Task###TicketPendingCheck <daemon.html#daemon-schedulercrontaskmanager-task-ticketpendingcheck>`"
+msgid "``Daemon::SchedulerCronTaskManager::Task###TicketPendingCheck``"
 msgstr ""
 
 #: ../../content/ticket-settings/states.rst:151
-msgid ":sysconfig:`Ticket::StateAfterPending <core.html#ticket-stateafterpending>`"
+msgid "``Ticket::StateAfterPending``"
 msgstr ""
 
 #: ../../content/ticket-settings/templates.rst:12
@@ -10340,51 +10405,15 @@ msgid "To be used in process management to pre-fill text of articles in user tas
 msgstr ""
 
 #: ../../content/ticket-settings/templates.rst:103
-msgid "The subject of the article added by the template."
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:115
-msgid "Subject method"
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:106
-msgid "Specify how the current article subject should be dealt with. The following methods are available:"
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:109
-msgid "Combine"
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:109
-msgid "The template subject will be added after the current article subject."
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:112
-msgid "Keep"
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:112
-msgid "The current article subject will be kept."
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:115
-msgid "Overwrite"
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:115
-msgid "The current article subject will be replaced with the template subject."
-msgstr ""
-
-#: ../../content/ticket-settings/templates.rst:118
 msgid "The body of the article added by the template."
 msgstr ""
 
-#: ../../content/ticket-settings/templates.rst:121
+#: ../../content/ticket-settings/templates.rst:106
 msgid "It is possible to add one or more attachments to this template. Attachments can be added in the :doc:`attachments` screen."
 msgstr ""
 
-#: ../../content/ticket-settings/templates.rst:131
-#: ../../content/ticket-settings/templates.rst:138
+#: ../../content/ticket-settings/templates.rst:116
+#: ../../content/ticket-settings/templates.rst:123
 msgid "Template Variables"
 msgstr ""
 
@@ -10522,7 +10551,7 @@ msgid "Types"
 msgstr ""
 
 #: ../../content/ticket-settings/types.rst:14
-msgid "Good KPIs require knowing the type of work your organization performs. Not all tasks take the same amount of effort even when performed by the same team. Creating a queue structure for this purpose can be overpowered due to the amount of configuration required to create and manage a queue."
+msgid "Good KPIs (Key Performance Indicators) require knowing the type of work your organization performs. Not all tasks take the same amount of effort even when performed by the same team. Creating a queue structure for this purpose can be overpowered due to the amount of configuration required to create and manage a queue."
 msgstr ""
 
 #: ../../content/ticket-settings/types.rst:16
@@ -10538,7 +10567,7 @@ msgid "Type Management Screen"
 msgstr ""
 
 #: ../../content/ticket-settings/types.rst:27
-msgid "Services must first be activated via :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message to directly jump to the configuration setting."
+msgid "``Ticket::Type`` must first be activated via :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message to directly jump to the configuration setting."
 msgstr ""
 
 #: ../../content/ticket-settings/types.rst:32
@@ -11073,7 +11102,7 @@ msgstr ""
 
 #: ../../content/users-groups-roles/agents-groups.rst:99
 #: ../../content/users-groups-roles/roles-groups.rst:95
-msgid "Not all available permissions are shown by default. See :sysconfig:`System::Permission <core.html#system-permission>` setting for permissions that can be added. These additional permissions can be added:"
+msgid "Not all available permissions are shown by default. See ``System::Permission`` setting for permissions that can be added. These additional permissions can be added:"
 msgstr ""
 
 #: ../../content/users-groups-roles/agents-groups.rst:102
@@ -11335,12 +11364,11 @@ msgid "The email address of the customer user."
 msgstr ""
 
 #: ../../content/users-groups-roles/customer-users.rst:112
-#: ../../content/users-groups-roles/customers.rst:74
-msgid "Customer \\*"
+msgid "CustomerID \\*"
 msgstr ""
 
 #: ../../content/users-groups-roles/customer-users.rst:112
-msgid "The customer company the customer user belongs to. Select a customer from the list of :doc:`customers`."
+msgid "The ID of the customer company the customer user belongs to. Select a customer from the list of :doc:`customers`."
 msgstr ""
 
 #: ../../content/users-groups-roles/customer-users.rst:115
@@ -11740,7 +11768,7 @@ msgid "Click on the *Edit Customer User Default Groups* button in the left sideb
 msgstr ""
 
 #: ../../content/users-groups-roles/customer-users-groups.rst:73
-msgid "Add or modify groups in setting :sysconfig:`CustomerGroupAlwaysGroups <core.html#customergroupalwaysgroups>`."
+msgid "Add or modify groups in setting ``CustomerGroupAlwaysGroups``."
 msgstr ""
 
 #: ../../content/users-groups-roles/customer-users-groups.rst:74
@@ -11938,6 +11966,10 @@ msgstr ""
 msgid "The internal name of the customer. Should contain only letters, numbers and some special characters."
 msgstr ""
 
+#: ../../content/users-groups-roles/customers.rst:74
+msgid "Customer \\*"
+msgstr ""
+
 #: ../../content/users-groups-roles/customers.rst:86
 msgid "The country of the customer. Choose a country from the list."
 msgstr ""
@@ -12019,7 +12051,7 @@ msgid "Click on the *Edit Customer Default Groups* button in the left sidebar."
 msgstr ""
 
 #: ../../content/users-groups-roles/customers-groups.rst:82
-msgid "Add or modify groups in setting :sysconfig:`CustomerGroupCompanyAlwaysGroups <core.html#customergroupcompanyalwaysgroups>`."
+msgid "Add or modify groups in setting ``CustomerGroupCompanyAlwaysGroups``."
 msgstr ""
 
 #: ../../content/users-groups-roles/customers-groups.rst:88
