@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-15 06:58+0100\n"
+"POT-Creation-Date: 2024-02-16 06:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -6373,14 +6373,26 @@ msgid "105-Example-ACL"
 msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:266
-msgid "ACL Reference"
+msgid "Disallow Standard Reply Function For Customers in Process"
 msgstr ""
 
 #: ../../content/processes-automation/access-control-lists.rst:268
+msgid "This ACL prohibits using the reply button in CustomerTicketZoom if the ticket is a process ticket of the process with entity ID *Process-0123456789abcdef*."
+msgstr ""
+
+#: ../../content/processes-automation/access-control-lists.rst:273
+msgid "106-Example-ACL"
+msgstr ""
+
+#: ../../content/processes-automation/access-control-lists.rst:277
+msgid "ACL Reference"
+msgstr ""
+
+#: ../../content/processes-automation/access-control-lists.rst:279
 msgid "Properties, keys and values that can be used in ACLs are highly dependent on the OTOBO installation. For example the possibilities can be extended by installing extension modules, as well as it can depend on the customer user mapping set in ``Config.pm``. Therefore it is not possible to provide a full ACL reference, that contains all settings."
 msgstr ""
 
-#: ../../content/processes-automation/access-control-lists.rst:270
+#: ../../content/processes-automation/access-control-lists.rst:281
 msgid "For properties, keys and values that can be used in ACLs, see the following example ACL in YAML format."
 msgstr ""
 
@@ -9297,7 +9309,7 @@ msgid "The body of the email sent to the users."
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:81
-msgid "The event type that triggers the sending of this automatic response. Only one automatic response can be sent automatically. The following event types are available:"
+msgid "The event type that triggers the sending of this automatic response. Only one automatic response can be sent automatically per event. The following event types are available:"
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:84
@@ -9306,7 +9318,7 @@ msgid "auto follow up"
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:84
-msgid "Confirms receipt of the follow-up."
+msgid "Is triggered for any follow-up message on an existing ticket. This includes also article notes which are visible for the customer. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for follow up articles created through the customer web interface or through a telephone call otherwise only for follow up articles created from a customer email. This automatic repsonse does not apply for new tickets, see the 'auto reply' event type."
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:87
@@ -9315,7 +9327,7 @@ msgid "auto reject"
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:87
-msgid "The message rejects a customer follow-up."
+msgid "If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed."
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:90
@@ -9324,7 +9336,7 @@ msgid "auto remove"
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:90
-msgid "Deletion of a ticket, done by the system."
+msgid "If a ticket is deleted by the system, the customer gets this automatic response."
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:93
@@ -9333,7 +9345,7 @@ msgid "auto reply"
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:93
-msgid "A newly raised ticket will trigger this auto response."
+msgid "If a new ticket is generated the customer will get this auto response. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for new tickets created through the customer web interface or through a telephone call (telephone ticket) otherwise only for new tickets created from a customer email. This automatic repsonse does not apply if the 'auto reply/new ticket' event type occours."
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:96
@@ -9342,7 +9354,7 @@ msgid "auto reply/new ticket"
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:96
-msgid "This message informs the customer of the new ticket number."
+msgid "If the  :doc:`queues` setting 'follow up option' is set to 'new ticket' this event will be triggered if a customer answers in a ticket, that is already closed. You can use this message to inform the customer of the new ticket number."
 msgstr ""
 
 #: ../../content/ticket-settings/auto-responses.rst:99
