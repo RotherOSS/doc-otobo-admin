@@ -190,10 +190,6 @@ OTOBO as Provider - HTTP\:\:REST
 To use the OTOBO REST interface, choose the network transport method "HTTP\:\:REST".
 Save and reload the screen to load the ticket operations.
 
-
-.. figure:: images/web-service-add-provider-rest-operations.png
-   :alt: Web Service Settings - OTOBO as Provider - HTTP\:\:REST
-
    Web Service Settings - OTOBO as Provider - HTTP\:\:REST
 
 You should now be able to select an operation. 
