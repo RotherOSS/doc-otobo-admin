@@ -134,46 +134,27 @@ Azure Configuration
 ~~~~~~~~~~~~~~~~~~~ 
 
 Go to https://portal.azure.com
-
-**In the next step switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:**
-"""""""""""""""""""""""""
-
-.. figure:: images/oauth2-001.png
-   :alt: OAuth2 Azure Configuration
-   
-.. figure:: images/oauth2-002.png
-   :alt: OAuth2 Azure Configuration
-   
-**Create your own application**
-"""""""""""""""""""""""""
-   
-.. figure:: images/oauth2-003.png
-   :alt: OAuth2 Azure Configuration
-   
-**Assign a name to the app**
-"""""""""""""""""""""""""
-
-.. figure:: images/oauth2-004.png
-   :alt: OAuth2 Azure Configuration
-   
-**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO (Attention, the application ID of the "Enterprise APP" may differ from that of the "Application Registration". In this case, please use the Application/Client ID of the registration.).**
-"""""""""""""""""""""""""
-
-.. figure:: images/oauth2-005.png
-   :alt: OAuth2 Azure Configuration
-   
-**You will also need the domain's tenant ID***
-"""""""""""""""""""""""""
-
-.. figure:: images/oauth2-006.png
-   :alt: OAuth2 Azure Configuration
    
 **In the next step you have to add a new app in App registration.**
 """""""""""""""""""""""""
 
 .. figure:: images/oauth2-007.png
    :alt: OAuth2 Azure Configuration
-   
+
+This will automatically add a new Enterprise Application, create a new application and assign a name to the app.
+
+**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO (Attention, the application ID of the "Enterprise APP" may differ from that of the "Application Registration". In this case, please use the Application/Client ID of the registration.).**
+"""""""""""""""""""""""""
+
+.. figure:: images/oauth2-005.png
+   :alt: OAuth2 Azure Configuration
+
+**You will also need the domain's tenant ID***
+"""""""""""""""""""""""""
+
+.. figure:: images/oauth2-006.png
+   :alt: OAuth2 Azure Configuration
+
 **Create a Redirect URL of type Web and a secret client key.**
 """""""""""""""""""""""""
 Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
@@ -196,6 +177,7 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
    :alt: OAuth2 Azure Configuration
    
    Please click on "Add permission" and choose Microsoft Graph, then new delegated permissions in the bar on the right. If Microsoft Graph is no show up as like in the screenshot.
+If you also "Grant admin consent", you save a step after login where the Azure Administrator has to grant the access again.
    
 **The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**
 """""""""""""""""""""""""
