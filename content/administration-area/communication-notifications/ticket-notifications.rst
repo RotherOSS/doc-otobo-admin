@@ -245,6 +245,38 @@ Once per day
    Notify users just once per day about a single ticket using a selected transport. If this is the first notification about a ticket, then the notification will be sent. If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent. If there was no notification sent in the last 24 hours, the notification will be sent again.
 
 
+Capability to Send Ticket Notifications Only During Working Hours
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+A new option has been added to the ticket notification settings. Now, within the recipient's section, an additional field named "Calendar" is displayed.
+
+.. figure:: images/Notification_1.jpg
+   :alt: Recipient block configuration
+
+
+   Recipient block configuration
+
+
+This field allows for the selection of whether notifications should be sent to recipients during working hours or outside of them:
+
+- Selecting the option for working hours will result in notifications being sent only during the established work schedule.
+
+.. figure:: images/Notification_2.jpg
+   :alt: Option working hours
+
+
+   Option working hours
+
+
+- Conversely, choosing the non-working hours option will result in notifications being sent outside of the defined working hours.
+
+.. figure:: images/Notification_3.jpg
+   :alt: Option outside working hours
+
+
+   Option outside working hours
+
+
 Ticket Notification Methods
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
