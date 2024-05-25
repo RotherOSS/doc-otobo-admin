@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-14 00:24+0200\n"
+"POT-Creation-Date: 2024-05-26 00:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language: it\n"
@@ -2324,7 +2324,7 @@ msgstr ""
 
 #: ../../content/administration-area/communication-notifications/admin-notification.rst:54
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:281
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:332
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:364
 #: ../../content/administration-area/ticket-settings/auto-responses.rst:75
 msgid "Subject \\*"
 msgstr ""
@@ -2784,12 +2784,12 @@ msgid "Appointment Notification Settings - Notification Methods"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:213
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:267
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:299
 msgid "Enable this notification method"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:213
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:267
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:299
 msgid ""
 "Enable or disable this notification method. A notification method can be "
 "email, web view or SMS."
@@ -2807,41 +2807,41 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:219
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:270
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:302
 msgid "Additional recipient email addresses"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:219
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:270
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:302
 msgid ""
 "Additional recipients can be added here. Use comma or semicolon to "
 "separate the email addresses."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:222
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:273
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:305
 msgid "Article visible for customer"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:222
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:273
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:305
 msgid ""
 "An article will be created if the notification is sent to the customer or"
 " an additional email address."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:229
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:280
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:312
 msgid "Email template"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:225
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:276
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:308
 msgid "Select which email template should be used for the notification."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:229
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:280
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:312
 msgid ""
 "Additional email templates can be added by placing a ``.tt`` file into "
 "the folder "
@@ -2850,103 +2850,103 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:236
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:287
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:319
 msgid "Enable email security"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:232
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:283
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:315
 msgid "Checking this option will encrypt the notification email."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:236
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:261
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:287
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:312
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:319
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:344
 msgid ""
 "To use this feature, :doc:`pgp-keys` or :doc:`s-mime-certificates` need "
 "to be enabled."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:261
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:312
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:344
 msgid "Email security level"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:239
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:290
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:322
 msgid ""
 "If *Enable email security* is checked, then this setting is activated. "
 "The following options are available:"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:242
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:293
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:325
 msgid "PGP sign only"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:242
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:293
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:325
 msgid ""
 "Sign only the notification email with PGP key. If no PGP keys have been "
 "added to the system, this option is not visible."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:245
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:296
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:328
 msgid "PGP encrypt only"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:245
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:296
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:328
 msgid ""
 "Encrypt only the notification email with PGP key. If no PGP keys have "
 "been added to the system, this option is not visible."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:248
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:299
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:331
 msgid "PGP sign and encrypt"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:248
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:299
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:331
 msgid ""
 "Sign and encrypt the notification email with PGP key. If no PGP keys have"
 " been added to the system, this option is not visible."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:251
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:302
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:334
 msgid "SMIME sign only"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:251
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:302
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:334
 msgid ""
 "Sign only the notification email with S/MIME certificate. If no S/MIME "
 "certificates have been added to the system, this option is not visible."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:254
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:305
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:337
 msgid "SMIME encrypt only"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:254
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:305
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:337
 msgid ""
 "Encrypt only the notification email with S/MIME certificate. If no S/MIME"
 " certificates have been added to the system, this option is not visible."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:257
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:308
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:340
 msgid "SMIME sign and encrypt"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:257
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:308
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:340
 msgid ""
 "Sign and encrypt the notification email with S/MIME certificate. If no "
 "S/MIME certificates have been added to the system, this option is not "
@@ -2954,24 +2954,24 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:264
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:315
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:347
 msgid "If signing key/certificate is missing"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:264
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:315
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:347
 msgid ""
 "Select the method, that should be used if signing key or certificate is "
 "missing."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:268
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:319
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:351
 msgid "If encryption key/certificate is missing:"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:267
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:318
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:350
 msgid ""
 "Select the method, that should be used if encryption key or certificate "
 "is missing."
@@ -2986,7 +2986,7 @@ msgid "Appointment Notification Settings - Notification Text"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:278
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:329
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:361
 msgid ""
 "The main content of a notification can be added for each languages with "
 "localized subject and body text. It is also possible to define static "
@@ -2994,12 +2994,12 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:281
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:332
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:364
 msgid "The localized subject for a specific language."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:284
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:335
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:367
 #: ../../content/administration-area/external-interface/customer-service-catalogue.rst:156
 #: ../../content/administration-area/external-interface/home-page.rst:103
 #: ../../content/administration-area/external-interface/home-page.rst:186
@@ -3007,17 +3007,17 @@ msgid "Text \\*"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:284
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:335
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:367
 msgid "The localized body text for a specific language."
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:287
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:338
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:370
 msgid "Add new notification language"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:287
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:338
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:370
 msgid ""
 "Select which languages should be added to create localized notifications."
 " The language of the customer or agent will be used as found in the "
@@ -3026,7 +3026,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:291
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:342
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:374
 msgid ""
 "Deleting a language in ``DefaultUsedLanguages`` setting that already has "
 "a notification text here will make the notification text unusable. If a "
@@ -3040,7 +3040,7 @@ msgid "Appointment Notification Variables"
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:297
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:348
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:380
 #: ../../content/administration-area/ticket-settings/auto-responses.rst:111
 #: ../../content/administration-area/ticket-settings/salutations.rst:87
 #: ../../content/administration-area/ticket-settings/signatures.rst:87
@@ -3061,7 +3061,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:310
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:361
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:393
 #: ../../content/administration-area/ticket-settings/auto-responses.rst:124
 #: ../../content/administration-area/ticket-settings/salutations.rst:100
 #: ../../content/administration-area/ticket-settings/signatures.rst:102
@@ -4834,27 +4834,68 @@ msgid ""
 msgstr ""
 
 #: ../../content/administration-area/communication-notifications/ticket-notifications.rst:259
+msgid "Capability to Send Ticket Notifications Only During Working Hours"
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:261
+msgid ""
+"A new option has been added to the ticket notification settings. Now, "
+"within the recipient's section, an additional field named \"Calendar\" is"
+" displayed."
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:267
+msgid "Recipient block configuration"
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:270
+msgid ""
+"This field allows for the selection of whether notifications should be "
+"sent to recipients during working hours or outside of them:"
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:272
+msgid ""
+"Selecting the option for working hours will result in notifications being"
+" sent only during the established work schedule."
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:278
+msgid "Option working hours"
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:281
+msgid ""
+"Conversely, choosing the non-working hours option will result in "
+"notifications being sent outside of the defined working hours."
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:287
+msgid "Option outside working hours"
+msgstr ""
+
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:291
 msgid "Ticket Notification Methods"
 msgstr ""
 
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:264
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:296
 msgid "Ticket Notification Settings - Notification Methods"
 msgstr ""
 
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:322
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:354
 msgid "Notification Text"
 msgstr ""
 
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:327
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:359
 msgid "Ticket Notification Settings - Notification Text"
 msgstr ""
 
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:346
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:353
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:378
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:385
 msgid "Ticket Notification Variables"
 msgstr ""
 
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:355
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:387
 #: ../../content/administration-area/ticket-settings/auto-responses.rst:118
 #: ../../content/administration-area/ticket-settings/templates.rst:125
 msgid ""
@@ -4863,7 +4904,7 @@ msgid ""
 "following."
 msgstr ""
 
-#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:367
+#: ../../content/administration-area/communication-notifications/ticket-notifications.rst:399
 msgid "Use of regular expressions as a filter do not work here."
 msgstr ""
 
