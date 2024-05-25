@@ -250,7 +250,7 @@ Capability to Send Ticket Notifications Only During Working Hours
 
 A new option has been added to the ticket notification settings. Now, within the recipient's section, an additional field named "Calendar" is displayed.
 
-.. figure:: images/Notification_1.jpg
+.. figure:: images/ticket-notification-settings-recipients.png
    :alt: Recipient block configuration
 
 
@@ -261,7 +261,7 @@ This field allows for the selection of whether notifications should be sent to r
 
 - Selecting the option for working hours will result in notifications being sent only during the established work schedule.
 
-.. figure:: images/Notification_2.jpg
+.. figure:: images/ticket-notification-settings-recipients-workinghours.png
    :alt: Option working hours
 
 
@@ -270,7 +270,7 @@ This field allows for the selection of whether notifications should be sent to r
 
 - Conversely, choosing the non-working hours option will result in notifications being sent outside of the defined working hours.
 
-.. figure:: images/Notification_3.jpg
+.. figure:: images/ticket-notification-settings-recipients-workinghours2.png
    :alt: Option outside working hours
 
 
