@@ -34,18 +34,19 @@
 # Stefan Rother, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version:  OTOBO\n"
+"Project-Id-Version: OTOBO\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-14 00:16+0200\n"
-"PO-Revision-Date: 2024-02-07 22:26+0000\n"
-"Last-Translator: Grit Rother <mr@otobo.de>\n"
+"PO-Revision-Date: 2024-06-24 22:48+0000\n"
+"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
+"Language-Team: German <http://weblate.otobo.org/projects/"
+"manual-otobo-administration/admin-manual-otobo-10/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://translate.otobo.org/projects/otobo10"
-"/admin-manual/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.2\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../content/administration.rst:12
@@ -1999,8 +2000,8 @@ msgid ""
 msgstr ""
 "Um eine Systemkonfiguration zu ändern, müssen Sie mehrere Schritte "
 "durchführen. Das folgende Beispiel zeigt Ihnen, wie Sie die "
-"Systemkonfiguration ``FirstnameLastnameOrder`` finden, ändern, "
-"bereitstellen und zurücksetzen können. "
+"Systemkonfiguration ``FirstnameLastnameOrder`` finden, ändern, bereitstellen "
+"und zurücksetzen können."
 
 #: ../../content/administration/system-configuration.rst:36
 msgid ""
@@ -2092,11 +2093,11 @@ msgid ""
 "keyboard. When editing is cancelled, all changes made during the current "
 "editing session are discarded."
 msgstr ""
-"Ändern Sie den Wert der Einstellung. Die Bearbeitung kann durch Klicken "
-"auf die Schaltfläche *Abbrechen* rechts oder durch Drücken der Taste "
-"*Escape* auf Ihrer Tastatur abgebrochen werden. Wenn die Bearbeitung "
-"abgebrochen wird, werden alle während der aktuellen Bearbeitungssitzung "
-"vorgenommenen Änderungen verworfen. "
+"Ändern Sie den Wert der Einstellung. Die Bearbeitung kann durch Klicken auf "
+"die Schaltfläche *Abbrechen* rechts oder durch Drücken der Taste *Escape* "
+"auf Ihrer Tastatur abgebrochen werden. Wenn die Bearbeitung abgebrochen "
+"wird, werden alle während der aktuellen Bearbeitungssitzung vorgenommenen "
+"Änderungen verworfen."
 
 #: ../../content/administration/system-configuration.rst:82
 msgid "System Configuration - Setting Modified"
@@ -2465,7 +2466,7 @@ msgstr "So planen Sie eine Systemwartung:"
 msgid "Click on the *Add New System Maintenance* button in the left sidebar."
 msgstr ""
 "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Neue "
-"Systemwartung planen*:"
+"Systemwartung planen*."
 
 #: ../../content/administration/system-maintenance.rst:38
 msgid "Schedule New System Maintenance Screen"
@@ -2787,9 +2788,8 @@ msgstr ""
 "roles/groups` ausgewählt werden, an die die Nachricht gesendet wird."
 
 #: ../../content/communication-notifications/admin-notification.rst:51
-#, fuzzy
 msgid "Also send to customers in groups"
-msgstr "So ordnen Sie Kunden zu einer Gruppe hinzu:"
+msgstr "Auch an Kunden in Gruppen senden"
 
 #: ../../content/communication-notifications/admin-notification.rst:47
 #, fuzzy
@@ -3706,9 +3706,9 @@ msgid ""
 "the communication: building and spooling the mail and the connection "
 "between client and server."
 msgstr ""
-"OTOBO führt das Modul *Kommunikationsprotokoll* ein. Es wurde entwickelt,"
-" um die Kommunikation zu verfolgen: Aufbau und Spooling der Mail und der "
-"Verbindung zwischen Client und Server. "
+"OTOBO führt das Modul *Kommunikationsprotokoll* ein. Es wurde entwickelt, um "
+"die Kommunikation zu verfolgen: Aufbau und Spooling der Mail und der "
+"Verbindung zwischen Client und Server."
 
 #: ../../content/communication-notifications/communication-log.rst:18
 msgid ""
@@ -3918,11 +3918,11 @@ msgid ""
 " address is always chosen preventing that someone working in multiple "
 "roles sends an email out with the wrong account."
 msgstr ""
-"OTOBO verwaltet so viele E-Mail-Adressen für Ihre Teams wie nötig. Alle "
-"Ihre E-Mail-Adressen, ob zum Senden oder Empfangen, sind an einem Ort "
-"gespeichert und gut konfiguriert. In den :ref:`queue settings` wird immer"
-" die richtige Adresse gewählt, um zu verhindern, dass jemand, der in "
-"mehreren Rollen arbeitet, eine E-Mail mit dem falschen Konto versendet. "
+"OTOBO verwaltet so viele E-Mail-Adressen für Ihre Teams wie nötig. Alle Ihre "
+"E-Mail-Adressen, ob zum Senden oder Empfangen, sind an einem Ort gespeichert "
+"und gut konfiguriert. In den :ref:`queue settings` wird immer die richtige "
+"Adresse gewählt, um zu verhindern, dass jemand, der in mehreren Rollen "
+"arbeitet, eine E-Mail mit dem falschen Konto versendet."
 
 #: ../../content/communication-notifications/email-addresses.rst:24
 msgid ""
@@ -4008,7 +4008,7 @@ msgstr "Artikelmenü"
 
 #: ../../content/communication-notifications/email-addresses.rst:61
 msgid "To edit an email address:"
-msgstr "So bearbeiten Sie eine E-Mail-Adresse"
+msgstr "Um eine E-Mail-Adresse zu bearbeiten:"
 
 #: ../../content/communication-notifications/email-addresses.rst:63
 msgid "Click on an email address in the list of email addresses."
@@ -4029,7 +4029,7 @@ msgstr ""
 
 #: ../../content/communication-notifications/email-addresses.rst:78
 msgid "Email Address Settings"
-msgstr "Einstellungen für E-Mail-Adressen "
+msgstr "Einstellungen für E-Mail-Adressen"
 
 #: ../../content/communication-notifications/email-addresses.rst:83
 msgid "Email address \\*"
@@ -4332,7 +4332,6 @@ msgid "Postmaster Filter Settings - Basic"
 msgstr "Postmaster-Filter - Grundlegende Einstellungen"
 
 #: ../../content/communication-notifications/postmaster-filters.rst:85
-#, fuzzy
 msgid ""
 "When adding or editing one of the postmaster filters, remember multiple "
 "filters may apply to a single mail. Rules are executed and sorted by the "
@@ -4341,13 +4340,13 @@ msgid ""
 "<https://en.wikipedia.org/wiki/Ascii>`__ to see how to sort your names "
 "based on the *ASCIIbetical* order."
 msgstr ""
-"Wenn Sie einen der Postmaster-Filter hinzufügen oder bearbeiten, denken "
-"Sie daran, dass mehrere Filter auf eine einzelne E-Mail angewendet werden"
-" können. Die letzte Regel gewinnt. Regeln werden nach dem ASCII-Wert der "
-"Namen ausgeführt und sortiert. Basierend auf der sortierten Reihenfolge "
-"in der Übersicht werden sie von oben nach unten angewendet. Schauen Sie "
-"in die `ASCI-Tabelle <http://www.asciitable.com>`_, um zu sehen, wie Sie "
-"Ihre Namen nach dem *ASCII-bet* sortieren können. "
+"Wenn Sie einen der Postmaster-Filter hinzufügen oder bearbeiten, denken Sie "
+"daran, dass mehrere Filter auf eine einzelne E-Mail angewendet werden "
+"können. Die letzte Regel gewinnt. Regeln werden nach dem ASCII-Wert der "
+"Namen ausgeführt und sortiert. Basierend auf der sortierten Reihenfolge in "
+"der Übersicht werden sie von oben nach unten angewendet. Schauen Sie in die "
+"`ASCI-Tabelle <http://www.asciitable.com>`_, um zu sehen, wie Sie Ihre Namen "
+"nach dem *ASCII-bet* sortieren können."
 
 #: ../../content/communication-notifications/postmaster-filters.rst:95
 msgid "Stop after match \\*"
@@ -4415,10 +4414,10 @@ msgid ""
 "``X-OTOBO`` headers as filter condition. The different ``X-OTOBO`` "
 "headers and their meaning are the following:"
 msgstr ""
-"Eine Liste der Mail-Header-Einträge finden Sie unter `RFC5322 "
-"<https://tools.ietf.org/html/rfc5322>`_. Es ist auch möglich, ``X-OTOBO``"
-" Header als Filterbedingung zu definieren. Die verschiedenen ``X-OTOBO`` "
-"Header und ihre Bedeutung sind die folgenden: "
+"Eine Liste der Mail-Header-Einträge finden Sie unter `RFC5322 <https://tools."
+"ietf.org/html/rfc5322>`_. Es ist auch möglich, ``X-OTOBO`` Header als "
+"Filterbedingung zu definieren. Die verschiedenen ``X-OTOBO`` Header und ihre "
+"Bedeutung sind die folgenden:"
 
 #: ../../content/communication-notifications/postmaster-filters.rst:113
 msgid "``X-OTOBO-AttachmentCount``"
@@ -4865,7 +4864,7 @@ msgstr "So fügen Sie ein E-Mailkonto hinzu:"
 msgid "Click on the *Add Mail Account* button in the left sidebar."
 msgstr ""
 "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *E-Mailkonto "
-"hinzufügen*:"
+"hinzufügen*."
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:49
 msgid "Add Mail Account Screen"
@@ -4975,7 +4974,7 @@ msgid ""
 msgstr ""
 "Der Hostname des E-Mailkontos. Geben Sie an, wie mit dem aktuellen "
 "Artikelbetreff verfahren werden soll. Die folgenden Methoden stehen zur "
-"Verfügung: "
+"Verfügung:"
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:103
 msgid "IMAP Folder"
@@ -5024,9 +5023,8 @@ msgid ""
 "The distribution of incoming messages can be controlled if they need to "
 "be sorted by queue or by the content of the *To:* field."
 msgstr ""
-"Die Verteilung der eingehenden Nachrichten kann gesteuert werden, wenn "
-"sie nach der Queue oder  dem Inhalt des Feldes *Zu:* sortiert werden "
-"müssen."
+"Die Verteilung der eingehenden Nachrichten kann gesteuert werden, wenn sie "
+"nach der Queue oder dem Inhalt des Feldes *Zu:* sortiert werden müssen."
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:119
 msgid "Dispatching by email To: field"
@@ -7605,7 +7603,7 @@ msgstr ""
 #: ../../content/introduction.rst:31
 msgid "Direct you **how** to configure OTOBO to fit your use-case (**utility**)."
 msgstr ""
-"Geben Hinweise, wie Sie OTOBO  für Ihren speziellen Anwendungsfall "
+"Geben Hinweise, wie Sie OTOBO für Ihren speziellen Anwendungsfall "
 "konfigurieren können."
 
 #: ../../content/introduction.rst:33
@@ -7677,9 +7675,9 @@ msgid ""
 "addresses`."
 msgstr ""
 "Öffnen Sie danach das Modul :doc:`communication-notifications/postmaster-"
-"mail-accounts` , um die vom System verwendete E-Mail-Adresse "
-"einzustellen. Zum Senden von E-Mail , können Sie mehrere   :doc"
-":`communication-notifications/email-addresses` hinzufügen."
+"mail-accounts` , um die vom System verwendete E-Mail-Adresse einzustellen. "
+"Zum Senden von E-Mail , können Sie mehrere :doc:`communication-notifications/"
+"email-addresses` hinzufügen."
 
 #: ../../content/introduction.rst:51
 msgid ""
@@ -7775,7 +7773,6 @@ msgstr ""
 "können Sie die Einrichtung des Systems mit :doc:`ticket-settings/queues` "
 "fortsetzen. Jede Queue muss einer Gruppe zugeordnet werden. Nur die "
 "Mitglieder der Gruppe können die Tickets in der zugewiesenen Queue sehen."
-" "
 
 #: ../../content/introduction.rst:69
 msgid ""
@@ -8509,9 +8506,9 @@ msgid ""
 "be at maximum the number of CPUs the system has (e.g. a load of 8 or less"
 " on a system with 8 CPUs is OK)."
 msgstr ""
-"Zeigt die Systemlast des Betriebssystems an. Die Systemlast sollte "
-"maximal die Anzahl der CPUs des Systems betragen (z.B. ist eine Last von "
-"8 oder weniger auf einem System mit 8 CPUs in Ordnung). "
+"Zeigt die Systemlast des Betriebssystems an. Die Systemlast sollte maximal "
+"die Anzahl der CPUs des Systems betragen (z.B. ist eine Last von 8 oder "
+"weniger auf einem System mit 8 CPUs in Ordnung)."
 
 #: ../../content/otobo-services/support-data-collector.rst:160
 msgid "Perl Version"
@@ -8796,14 +8793,13 @@ msgid "Ticket Search Index Module"
 msgstr "Ticket-Suchindex-Modul"
 
 #: ../../content/otobo-services/support-data-collector.rst:244
-#, fuzzy
 msgid ""
 "Display the ticket search index module set in system configuration "
 "setting ``Ticket::SearchIndex::ForceUnfilteredStorage``."
 msgstr ""
-"Zeigt das in der Systemkonfiguration "
-":sysconfig:`Ticket::SearchIndex::ForceUnfilteredStorage <core.html"
-"#ticket-searchindex-forceunfilteredstorage>` Ticket-Suchindex-Modul an. "
+"Zeigt das in der Systemkonfiguration :sysconfig:`Ticket::SearchIndex::"
+"ForceUnfilteredStorage <core.html#ticket-searchindex-forceunfilteredstorage>`"
+" Ticket-Suchindex-Modul an."
 
 #: ../../content/otobo-services/support-data-collector.rst:247
 msgid "Orphaned Records In ticket_index Table"
@@ -8857,7 +8853,7 @@ msgid ""
 "favorites, custom menu ordering, etc."
 msgstr ""
 "Zeigt einige Statistiken über persönliche Änderungen an, wie bspw. die "
-"Verwendung von Favoriten, benutzerdefinierte Menüreihenfolge usw. "
+"Verwendung von Favoriten, benutzerdefinierte Menüreihenfolge usw."
 
 #: ../../content/otobo-services/support-data-collector.rst:264
 msgid "OTOBO Version"
@@ -9075,9 +9071,9 @@ msgid ""
 msgstr ""
 "ACLs werden in die Datei ``ZZZZACL.pm`` im Perl-Format geschrieben. Ohne "
 "Inbetriebnahme befinden sich alle ACLs immer noch in dieser Cache-Datei, "
-"auch wenn sie gelöscht werden oder die Option *Gültigkeit* auf *ungültig*"
-" oder *ungültig - temporär* gesetzt ist. Vergessen Sie nicht, die ACLs "
-"nach Änderungen in Betrieb zu nehmen."
+"auch wenn sie gelöscht werden oder die Option *Gültigkeit* auf *ungültig* "
+"oder *ungültig - temporär* gesetzt ist. Vergessen Sie nicht, die ACLs nach "
+"Änderungen in Betrieb zu nehmen!"
 
 #: ../../content/processes-automation/access-control-lists.rst:74
 msgid "To deploy all ACLs:"
@@ -9903,9 +9899,8 @@ msgid ""
 "The keys ``Name`` and ``ValidID`` are already used by *Name Field* and "
 "*ValidID Field*. Do not use these keys again!"
 msgstr ""
-"Die Schlüssel ``Name`` und ``ValidID`` werden bereits durch *Namensfeld* "
-"und *ValidID-Feld* benutzt. Benutzen Sie diese Schlüssel nicht noch "
-"einmal."
+"Die Schlüssel ``Name`` und ``ValidID`` werden bereits durch *Namensfeld* und "
+"*ValidID-Feld* benutzt. Benutzen Sie diese Schlüssel nicht noch einmal!"
 
 #: ../../content/processes-automation/dynamic-fields.rst:155
 msgid "Add Fields"
@@ -10526,7 +10521,7 @@ msgstr ""
 
 #: ../../content/processes-automation/dynamic-fields.rst:446
 msgid "Select *1 - Enabled* or *2 - Enabled and required*."
-msgstr "Wählen Sie *1 -  Aktiviert* oder *2 - Aktiviert und verpflichtend* aus."
+msgstr "Wählen Sie *1 - Aktiviert* oder *2 - Aktiviert und verpflichtend* aus."
 
 #: ../../content/processes-automation/dynamic-fields.rst:447
 #: ../../content/processes-automation/dynamic-fields.rst:468
@@ -10648,9 +10643,9 @@ msgid ""
 "Preferences* → *Miscellaneous* to add a default value for the dynamic "
 "field."
 msgstr ""
-"Klicken Sie auf Ihr Avatar-Bild in der linken oberen Ecke und wählen Sie "
-"*Persönliche Einstellungen* → *Verschiedenes*, um einen Standardwert für "
-"ein Dynamisches Feld hinzuzufügen. "
+"Klicken Sie auf Ihr Avatar-Bild in der linken oberen Ecke und wählen Sie *"
+"Persönliche Einstellungen* → *Verschiedenes*, um einen Standardwert für ein "
+"Dynamisches Feld hinzuzufügen."
 
 #: ../../content/processes-automation/dynamic-fields.rst:518
 msgid "Dynamic Field in Personal Preferences"
@@ -11656,7 +11651,7 @@ msgid ""
 msgstr ""
 "Bevor eine Bestellung abgesetzt wird, wird die Anforderung von Literatur "
 "durch einen Mitarbeiter gespeichert. Das folgende Buch wird in unserem "
-"Beispiel benötigt: "
+"Beispiel benötigt:"
 
 #: ../../content/processes-automation/process-management.rst:236
 msgid "Approval by manager"
@@ -11944,7 +11939,7 @@ msgstr "Eingangsdatum"
 msgid "Set the following :doc:`../administration/system-configuration` settings:"
 msgstr ""
 "Setzen Sie die folgenden :doc:`../administration/system-"
-"configuration`-Einstellungen: "
+"configuration`-Einstellungen:"
 
 #: ../../content/processes-automation/process-management.rst:306
 #, fuzzy
@@ -11997,7 +11992,7 @@ msgstr "``ISBN`` → *1 - Aktiviert*"
 
 #: ../../content/processes-automation/process-management.rst:323
 msgid "``Price`` → *1 - Enabled*"
-msgstr "``Preis``  → *1 - Aktiviert*"
+msgstr "``Preis`` → *1 - Aktiviert*"
 
 #: ../../content/processes-automation/process-management.rst:324
 msgid "``Status`` → *1 - Enabled*"
@@ -13356,7 +13351,7 @@ msgstr "Klicken Sie auf die Schaltfläche *Importieren*."
 
 #: ../../content/processes-automation/web-services.rst:127
 msgid "Web Service Settings"
-msgstr "Web-Service - Einstellungen "
+msgstr "Web-Service-Einstellungen"
 
 #: ../../content/processes-automation/web-services.rst:133
 msgid "General Web Service Settings"
@@ -14213,10 +14208,10 @@ msgid ""
 "management screen is available in the *Priorities* module of the *Ticket "
 "Settings* group."
 msgstr ""
-"Verwenden Sie diese Ansicht, um Prioritäten zum System hinzuzufügen. Eine"
-" neue OTOBO-Installation  enthält standardmäßig fünf Prioritätsstufen. "
-"Die Ansicht zur Verwaltung der Prioritäten ist im Modul *Prioritäten* der"
-" Gruppe *Ticket-Einstellungen* verfügbar."
+"Verwenden Sie diese Ansicht, um Prioritäten zum System hinzuzufügen. Eine "
+"neue OTOBO-Installation enthält standardmäßig fünf Prioritätsstufen. Die "
+"Ansicht zur Verwaltung der Prioritäten ist im Modul *Prioritäten* der Gruppe "
+"*Ticket-Einstellungen* verfügbar."
 
 #: ../../content/ticket-settings/priorities.rst:31
 msgid "Priority Management Screen"
@@ -14429,7 +14424,7 @@ msgstr "So bearbeiten Sie eine Queue:"
 
 #: ../../content/ticket-settings/queues.rst:46
 msgid "Click on a queue in the list of queues."
-msgstr "Klicken Sie in der Liste mit den Queues auf eine Queue. "
+msgstr "Klicken Sie in der Liste mit den Queues auf eine Queue."
 
 #: ../../content/ticket-settings/queues.rst:53
 msgid "Edit Queue Screen"
@@ -14660,7 +14655,7 @@ msgid ""
 ":`../communication-notifications/email-addresses` can have adverse "
 "effects here."
 msgstr ""
-"Das ist eine ID in der Datenbank. Änderungen an  :doc:`../communication-"
+"Das ist eine ID in der Datenbank. Änderungen an :doc:`../communication-"
 "notifications/email-addresses` kann hier negative Auswirkungen haben."
 
 #: ../../content/ticket-settings/queues.rst:155
@@ -14924,9 +14919,9 @@ msgid ""
 "management screen is available in the *Salutations* module of the *Ticket"
 " Settings* group."
 msgstr ""
-"Verwenden Sie diese Ansicht, um Anreden zum System hinzuzufügen. Eine "
-"neue OTOBO-Installation  enthält standardmäßig eine Anrede. Die Ansicht "
-"zur Verwaltung der Anreden ist im Modul *Anreden* der Gruppe *Ticket-"
+"Verwenden Sie diese Ansicht, um Anreden zum System hinzuzufügen. Eine neue "
+"OTOBO-Installation enthält standardmäßig eine Anrede. Die Ansicht zur "
+"Verwaltung der Anreden ist im Modul *Anreden* der Gruppe *Ticket-"
 "Einstellungen* verfügbar."
 
 #: ../../content/ticket-settings/salutations.rst:25
@@ -15494,8 +15489,8 @@ msgid ""
 "To be able to use SMS cloud service in OTOBO, you have to activate it "
 "first in :doc:`../otobo-services/cloud-services` module."
 msgstr ""
-"Um den SMS-Cloud-Service in OTOBO nutzen zu können, müssen Sie ihn "
-"zunächst im Modul :doc:`../otobo-services/cloud-services` aktivieren. "
+"Um den SMS-Cloud-Service in OTOBO nutzen zu können, müssen Sie ihn zunächst "
+"im Modul :doc:`../otobo-services/cloud-services` aktivieren."
 
 #: ../../content/ticket-settings/sms-templates.rst:42
 msgid "To add an SMS template:"
@@ -19805,4 +19800,3 @@ msgstr ""
 #~ "Link in der Warnmeldung klicken, um "
 #~ "direkt zur Konfigurationseinstellung zu "
 #~ "gelangen."
-
