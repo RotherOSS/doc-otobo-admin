@@ -3,7 +3,7 @@ System Maintenance
 
 System maintenance is a crucial part of the work done by all system administrators. Some maintenance tasks require to put the operation on hold. In such cases, pro-active information to users is essential to raise their awareness and understanding.
 
-OTOBO supports this with the *System Maintenance* module, which allows administrators to schedule maintenance windows in advance and inform users with login messages and notifications about the planned maintenance. Also, during a scheduled maintenance window, only administrators are allowed to log into the system.
+OTOBO supports this with the *System Maintenance* module, which allows administrators (agents who have access to the group "admin") to schedule maintenance windows in advance and inform users with login messages and notifications about the planned maintenance. Also, during a scheduled maintenance window, only administrators are allowed to log into the system.
 
 Use this screen to schedule system maintenance for the system. The system maintenance management screen is available in the *System Maintenance* module of the *Administration* group.
 
