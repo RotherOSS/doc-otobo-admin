@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-28 00:50+0200\n"
+"POT-Creation-Date: 2024-06-29 00:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1718,7 +1718,7 @@ msgid "System maintenance is a crucial part of the work done by all system admin
 msgstr ""
 
 #: ../../content/administration-area/administration/system-maintenance.rst:16
-msgid "OTOBO supports this with the *System Maintenance* module, which allows administrators to schedule maintenance windows in advance and inform users with login messages and notifications about the planned maintenance. Also, during a scheduled maintenance window, only administrators are allowed to log into the system."
+msgid "OTOBO supports this with the *System Maintenance* module, which allows administrators (agents who have access to the group \"admin\") to schedule maintenance windows in advance and inform users with login messages and notifications about the planned maintenance. Also, during a scheduled maintenance window, only administrators are allowed to log into the system."
 msgstr ""
 
 #: ../../content/administration-area/administration/system-maintenance.rst:18
