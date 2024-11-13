@@ -246,11 +246,11 @@ Here is an example using curl:
 This request is using the least amount of attributes needed to create a new Ticket.
 
 A full list of all attributes needed for operations can be found here: 
- - TicketCreate: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketCreate.pm#L70
- - TicketGet: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketGet.pm#L70
- - TicketUpdate: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketUpdate.pm#L70
- - TicketSearch: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketSearch.pm#L70
- - TicketHistoryGet: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketHistoryGet.pm#L70
+ - TicketCreate: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketCreate.pm#L77
+ - TicketGet: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketGet.pm#L73
+ - TicketUpdate: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketUpdate.pm#L77
+ - TicketSearch: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketSearch.pm#L70
+ - TicketHistoryGet: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketHistoryGet.pm#L67
 
 
 XLST-Mapping for OTOBO as Provider - HTTP\:\:REST
