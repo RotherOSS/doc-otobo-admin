@@ -32,7 +32,7 @@ How-To: Create a Ticket Mask
 #. Save the definition and test it by opening the action (in our example AgentTicketPhone).
 
 The result look like:
-.. figure:: ../process-automation/images/ticket_mask_example.png
+.. figure:: ../administration-area/process-automation/images/ticket-mask-example.png
    :alt: Example of a ticket mask for action AgentTicketPhone
 
    Example of a ticket mask for action AgentTicketPhone
