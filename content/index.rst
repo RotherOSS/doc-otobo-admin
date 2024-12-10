@@ -26,7 +26,7 @@ published by the Free Software Foundation; with no Invariant Sections, no
 Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
 in the section entitled "COPYING".
 
-Published by: Rother OSS GmbH, (https://otobo.de),
+Published by: Rother OSS GmbH, (https://otobo.io),
 Oberwalting 31, 94339 Leiblfing, Germany.
 
 Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de).
