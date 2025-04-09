@@ -9,14 +9,16 @@ msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-14 00:16+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-04-10 10:08+0000\n"
+"Last-Translator: Firman Arrow <firman.arrow@gmail.com>\n"
+"Language-Team: Indonesian <http://translate.otobo.org/projects/"
+"manual-otobo-administration/admin-manual-otobo-10/id/>\n"
 "Language: id\n"
-"Language-Team: none\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.8.4\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../content/administration.rst:12
@@ -28,12 +30,18 @@ msgid ""
 "Any system requires configuration. Configuring a system should be an easy"
 " task and the tools for configuration fit-for-purpose."
 msgstr ""
+"Setiap sistem memerlukan konfigurasi, Langkah-langkah untuk konfigurasi "
+"sistem bisa dilakukan dengan mudah dan perangkat konfigurasi sudah sesuai "
+"dengan kebutuhan."
 
 #: ../../content/administration.rst:16
+#, fuzzy
 msgid ""
 "OTOBO offers several administration tools to configure, monitor, control "
 "and extend OTOBO."
 msgstr ""
+"OTOBO menawarkan beberapa tools administrasi untuk melakukan konfigurasi, "
+"pengawasar dan kontrol serta penambahan  OTOBO."
 
 #: ../../content/administration.rst:18
 #: ../../content/communication-notifications.rst:18
@@ -15602,4 +15610,3 @@ msgstr ""
 
 #~ msgid "This message informs the customer of the new ticket number."
 #~ msgstr ""
-
