@@ -7,4 +7,4 @@ How-Tos on configuring your OTOBO.
    :maxdepth: 3
    :caption: Contents
 
-   grant-restricted-admin-permissions
+   how-tos/grant-restricted-admin-permissions
