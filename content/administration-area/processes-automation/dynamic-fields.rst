@@ -418,9 +418,28 @@ Database Dynamic Field
 Web Service Dynamic Field
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
+A Web Service dynamic field relies upon a working Web Service, more precisely on a Web Service invoker.
 
-   This dynamic field is already included in OTOBO 10 Standard! The documentation on the field types still needs to be completed.
+For this purpose, an invoker of type PassThrough can be used.
+
+For the outgoing API call, DynamicFieldID, -Label, -Name and -Value, as well as UserID and Ticket and Form data are passed to the invoker.
+
+For the dynamic field Web Service to work, the response data needs to be mapped into this structure:
+
+.. code:: perl
+   PossibleValue => [
+       {
+           Key => 'abc',
+           Value => 'ABC',
+       },
+       {
+           Key => 'bcd',
+           Value => 'BCD',
+       },
+       ...
+   ]
+
+This can be accomplished by implementing an XSLT mapping.
 
 Display Dynamic Fields on Screens
 ---------------------------------
