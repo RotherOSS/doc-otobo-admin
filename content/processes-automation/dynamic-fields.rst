@@ -426,7 +426,7 @@ A Web Service dynamic field relies upon a working Web Service, more precisely on
 
 For this purpose, an invoker of type PassThrough can be used. For the dynamic field Web Service to work, the response data needs to be mapped into this structure:
 
-.. code:: JSON
+.. code:: perl
 
    PossibleValue => [
        {
