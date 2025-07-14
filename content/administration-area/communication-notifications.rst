@@ -16,6 +16,7 @@ OTOBO provides you with the tools to build teams, trust and security to better a
    communication-notifications/pgp-keys
    communication-notifications/postmaster-filters
    communication-notifications/postmaster-mail-accounts
+   communication-notifications/oauth2-mail
    communication-notifications/s-mime-certificates
    communication-notifications/ticket-notifications
 
