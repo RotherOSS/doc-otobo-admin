@@ -123,6 +123,9 @@ Search header field … for value
    ``X-OTOBO-FollowUp-State-Keep``
       If set to *1*, the incoming follow-up message will not change the ticket state. For this purpose the header can be customized in the system configuration using option ``KeepStateHeader``.
 
+    ``X-OTOBO-From``
+      Set the ``From`` attribute of the ticket. Either a fixed string can be used or a named capture, e.g. to extract the attribute from the body.
+
    ``X-OTOBO-Ignore``
       If set to ``Yes`` or ``True``, the incoming message will completely be ignored and never delivered to the system.
 
