@@ -3,6 +3,7 @@ Introduction
 
 OTOBO is an open source ticket request system with many features to manage customer telephone calls and emails. It is distributed under the GNU General Public License (GPL) and tested on various Linux platforms. Do you receive many emails and want to answer them with a team of agents?
 
+
 About This Manual
 -----------------
 
@@ -58,11 +59,11 @@ After system addresses, salutations, signatures, groups are set, you can continu
 
 Now you can add :doc:`ticket-settings/auto-responses` and assign them to queues using the :doc:`ticket-settings/queues-auto-responses` management screen. Your OTOBO installation already contains some automatic responses, you can use or edit them instead of create new ones.
 
-To reduce the time needed for answering the tickets, :doc:`ticket-settings/templates` or :doc:`ticket-settings/sms-templates` can be created.
+To reduce the time needed for answering the tickets, :doc:`ticket-settings/templates` can be created.
 
 Normal templates can contain :doc:`ticket-settings/attachments`, and you can assign the uploaded attachments to templates using the :doc:`ticket-settings/templates-attachments` management screen.
 
-When templates are created, you can set the templates to use in queues in the :doc:`ticket-settings/templates-queues` or :doc:`ticket-settings/sms-templates-queues` management screens.
+When templates are created, you can set the templates to use in queues in the :doc:`ticket-settings/templates-queues` management screen.
 
 You need to review the default :doc:`ticket-settings/priorities`, :doc:`ticket-settings/states` and :doc:`ticket-settings/types`, and add new elements, if needed.
 
@@ -74,7 +75,7 @@ To help agents to organize appointments, you can setup the :doc:`administration/
 
 Tickets, articles and other objects in OTOBO can be extended with :doc:`processes-automation/dynamic-fields` or can be reduced with :doc:`processes-automation/access-control-lists`.
 
-Without doing everything manually, the number of failure can be reduced. Automatize some process in OTOBO using :doc:`administration-area/processes-automation/generic-agent` jobs or creating processes with :doc:`administration-area/processes-automation/process-management`. The incoming emails can be pre-processed and dispatched automatically by defining some :doc:`communication-notifications/postmaster-filters`.
+Without doing everything manually, the number of failure can be reduced. Automatize some process in OTOBO using :doc:`processes-automation/generic-agent` jobs or creating processes with :doc:`processes-automation/process-management`. The incoming emails can be pre-processed and dispatched automatically by defining some :doc:`communication-notifications/postmaster-filters`.
 
 If external systems need to integrate with OTOBO, :doc:`processes-automation/web-services` will be very useful for this.
 
@@ -84,6 +85,6 @@ Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external
 
 
 Become OTOBO Expert
-------------------
+-------------------
 
 The next chapters of this manual describe the features and configuration settings of OTOBO more detailed. There is a separated manual for `Configuration Options References <https://doc.otobo.org/doc/manual/config-reference/7.0/en/>`__, that gives you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO.
