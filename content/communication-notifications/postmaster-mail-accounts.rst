@@ -13,6 +13,7 @@ Use this screen to add mail accounts to the system. The mail account management 
    Mail Account Management Screen
 
 .. warning::
+
    When fetching mail, OTOBO deletes the mail from the POP or IMAP server. There is no option to also keep a copy on the server. If you want to retain a copy on the server, you should create forwarding rules on your mail server. Please consult your mail server documentation for details.
 
 .. note::
@@ -96,6 +97,7 @@ Trusted \*
    If *Yes* is selected, any ``X-OTOBO`` headers attached to an incoming message are evaluated and executed. Because the ``X-OTOBO`` header can execute some actions in the ticket system, you should set this option to *Yes* only for known senders.
 
    .. seealso::
+
       The ``X-OTOBO`` headers are explained in the filter conditions of :doc:`postmaster-filters`.
 
 Dispatching \*
@@ -116,8 +118,8 @@ Validity \*
 
 Comment
    Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
-   
-   
+
+
 POP3 and IMAP OAuth2 Authentification
 -------------------------------------
 
@@ -127,81 +129,74 @@ Please install the package **MailAccount-OAuth2** in the OTOBO package managemen
 
 .. note::
 
-    After installing the package sometimes a restart of the OTOBO webserver or container is needed.
-    
+   After installing the package sometimes a restart of the OTOBO webserver or container is needed.
+
 
 Azure Configuration
-~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~
 
 Go to https://portal.azure.com
 
 **In the next step switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:**
-"""""""""""""""""""""""""
 
 .. figure:: images/oauth2-001.png
    :alt: OAuth2 Azure Configuration
-   
+
 .. figure:: images/oauth2-002.png
    :alt: OAuth2 Azure Configuration
-   
+
 **Create your own application**
-"""""""""""""""""""""""""
-   
+
 .. figure:: images/oauth2-003.png
    :alt: OAuth2 Azure Configuration
-   
+
 **Assign a name to the app**
-"""""""""""""""""""""""""
 
 .. figure:: images/oauth2-004.png
    :alt: OAuth2 Azure Configuration
-   
+
 **The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO (Attention, the application ID of the "Enterprise APP" may differ from that of the "Application Registration". In this case, please use the Application/Client ID of the registration.).**
-"""""""""""""""""""""""""
 
 .. figure:: images/oauth2-005.png
    :alt: OAuth2 Azure Configuration
-   
-**You will also need the domain's tenant ID***
-"""""""""""""""""""""""""
+
+**You will also need the domain's tenant ID**
 
 .. figure:: images/oauth2-006.png
    :alt: OAuth2 Azure Configuration
-   
+
 **In the next step you have to add a new app in App registration.**
-"""""""""""""""""""""""""
 
 .. figure:: images/oauth2-007.png
    :alt: OAuth2 Azure Configuration
-   
+
 **Create a Redirect URL of type Web and a secret client key.**
-"""""""""""""""""""""""""
+
 Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
 
 .. figure:: images/oauth2-008.png
    :alt: OAuth2 Azure Configuration
-   
+
 .. figure:: images/oauth2-009.png
    :alt: OAuth2 Azure Configuration
-   
+
    Please add a new client secret and note the value (not the secret id) as we need it later. It will only appear during the creation and you will not be able to see it afterwards anymore. Apparently Microsoft only allows a time of validity for two years max.
-   
+
 .. figure:: images/oauth2-010.png
    :alt: OAuth2 Azure Configuration
-  
+
 **Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``**
-"""""""""""""""""""""""""
 
 .. figure:: images/oauth2-011.png
    :alt: OAuth2 Azure Configuration
-   
+
    Please click on "Add permission" and choose Microsoft Graph, then new delegated permissions in the bar on the right. If Microsoft Graph is no show up as like in the screenshot.
-   
+
 **The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**
-"""""""""""""""""""""""""
+
 
 OTOBO OAuth2 Configuration
-~~~~~~~~~~~~~~~~~~~ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Please switch to the ``OTOBO Admin Interface -> System Configuration`` now and enable the profile / option ``OAuth2::MailAccount::Profiles###Custom1``.
 
@@ -209,17 +204,17 @@ In the next step, add the ApplicationID/ClientID and the Client secret (You need
 
 .. figure:: images/oauth2-012.png
    :alt: OAuth2 Azure Configuration
-   
-In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure``, please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **"common"** must be replaced by the TenantID. 
-   
+
+In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure``, please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **"common"** must be replaced by the TenantID.
+
 .. figure:: images/oauth2-013.png
    :alt: OAuth2 Azure Configuration
-   
+
 Now the desired profile can be selected under Admin -> PostMaster Mail Account.
-   
+
 .. figure:: images/oauth2-014.png
    :alt: OAuth2 Azure Configuration
-   
+
 When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS.
 
 .. note::
@@ -230,14 +225,14 @@ You can check on the console if fetching mails from the newly created account is
 
 .. code-block:: bash
 
-    otobo> bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
+   otobo> bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
 
 Or for a Docker installation:
-    
+
 .. code-block:: bash
 
-    docker_admin> docker exec -t -u otobo otobo_web_1 bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
-    
+   docker_admin> docker exec -t -u otobo otobo_web_1 bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch
+
 .. note::
 
    Add ``--debug`` for more verbosity

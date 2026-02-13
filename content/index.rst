@@ -1,10 +1,9 @@
 .. image:: ../images/otobo-logo.png
    :align: center
-|
 
-==========================
+===========================
 OTOBO Administration Manual
-==========================
+===========================
 
 This work is copyrighted by OTRS AG (https://otrs.com),
 Zimmersmühlenweg 11, 61440 Oberursel, Germany.
