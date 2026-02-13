@@ -185,7 +185,7 @@ Add Operation
 
 
 OTOBO as Provider - HTTP\:\:REST
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To use the OTOBO REST interface, choose the network transport method "HTTP\:\:REST".
 Save and reload the screen to load the ticket operations.
@@ -310,7 +310,7 @@ Add error handling module
 
 
 OTOBO as Requester - HTTP\:\:REST
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/web-service-add-requester-rest.png
    :alt: Web Service Settings - OTOBO as Requester - HTTP\:\:REST
@@ -319,7 +319,7 @@ OTOBO as Requester - HTTP\:\:REST
 
 
 OTOBO as Requester - HTTP\:\:SOAP
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/web-service-add-requester-soap.png
    :alt: Web Service Settings - OTOBO as Requester - HTTP\:\:SOAP
