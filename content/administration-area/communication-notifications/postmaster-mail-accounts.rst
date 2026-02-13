@@ -13,6 +13,7 @@ Use this screen to add mail accounts to the system. The mail account management 
    Mail Account Management Screen
 
 .. warning::
+
    When fetching mail, OTOBO deletes the mail from the POP or IMAP server. There is no option to also keep a copy on the server. If you want to retain a copy on the server, you should create forwarding rules on your mail server. Please consult your mail server documentation for details.
 
 .. note::
@@ -116,7 +117,3 @@ Validity \*
 
 Comment
    Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
-   
-   
-    
-

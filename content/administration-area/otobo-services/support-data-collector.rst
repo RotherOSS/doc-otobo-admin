@@ -157,7 +157,7 @@ Used Swap Space (MB)
 
 
 OTOBO Section
-~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 This section displays information about the OTOBO instance.
 

@@ -1,10 +1,9 @@
 External Interface
 ==================
 
-.. warning:: 
+.. warning::
 
-    TODO: This part of the documentation is out out of scope and needs someone to help updating the changes introduced with the latest releases. 
-   
+   TODO: This part of the documentation is out out of scope and needs someone to help updating the changes introduced with the latest releases.
 
 The need to transport valuable information about service to users is a major one for a service desk. Not always is it possible or plausible to do this via a corporate internet. The customers of a service desk need a one-stop solution for all their service needs.
 
