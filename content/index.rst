@@ -1,7 +1,6 @@
 .. image:: ../images/otobo-logo.png
    :align: center
 
-===========================
 OTOBO Administration Manual
 ===========================
 
