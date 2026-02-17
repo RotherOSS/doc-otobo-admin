@@ -426,7 +426,8 @@ For the outgoing API call, DynamicFieldID, -Label, -Name and -Value, as well as 
 
 For the dynamic field Web Service to work, the response data needs to be mapped into this structure:
 
-.. code:: perl
+.. code-block:: perl
+
    PossibleValue => [
        {
            Key => 'abc',
@@ -440,6 +441,7 @@ For the dynamic field Web Service to work, the response data needs to be mapped 
    ]
 
 This can be accomplished by implementing an XSLT mapping.
+
 
 Display Dynamic Fields on Screens
 ---------------------------------
@@ -500,6 +502,7 @@ Example: activate *Field1* in ``TicketCreate`` event:
    This configuration can be set in any of the 16 ``Ticket::TicketDynamicFieldDefault###Element`` settings.
 
 .. seealso::
+
    If more than 16 fields needs to be set up, a custom XML file must be placed in ``$OTOBO_HOME/Kernel/Config/Files/XML`` directory to extend this feature.
 
 

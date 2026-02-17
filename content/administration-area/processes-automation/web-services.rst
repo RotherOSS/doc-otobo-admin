@@ -153,12 +153,13 @@ Validity
 Provider Web Service Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   .. note::
-   
-      To access the otobo webservice, please use the following URL:
-      https://SERVERADDRESS/otobo/nph-genericinterface.pl/Webservice/WEBSERVICENAME/OPERATION
+.. note::
 
+   To access the otobo webservice, please use the following URL:
 
+   .. code-block:: none
+
+      https://SERVER-ADDRESS/otobo/nph-genericinterface.pl/Webservice/WEB-SERVICE-NAME/OPERATION
 
 .. figure:: images/web-service-add-provider.png
    :alt: Web Service Settings - OTOBO as Provider
@@ -185,14 +186,15 @@ Add Operation
 
 
 OTOBO as Provider - HTTP\:\:REST
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To use the OTOBO REST interface, choose the network transport method "HTTP\:\:REST".
 Save and reload the screen to load the ticket operations.
 
    Web Service Settings - OTOBO as Provider - HTTP\:\:REST
 
-You should now be able to select an operation. 
+You should now be able to select an operation.
+
 
 Operations
 ~~~~~~~~~~
@@ -212,40 +214,40 @@ You now should see a new entry "Route mapping for Operation 'TicketCreate'".
 Enter for example "/TicketCreate"
 
 This will define the route, which will translate to:
-``https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate`` 
+``https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate``
 
 Click "Save and finish".
 
-Now you can send a request to the endpoint. 
+Now you can send a request to the endpoint.
 
 Here is an example using curl:
 
- .. code-block:: bash
+.. code-block:: bash
 
-	curl -X POST --header "Content-Type: application/json"  
-	--data '{
-		"UserLogin": "AgentUser", 
-		"Password": "Password",
-		"Ticket": {
-			"Title": "created by Webservice request",
-			"QueueID":5, 
-			"CustomerUser": "CustomerUser",
-			"State": "new",
-			"PriorityID": 1
-		}, 
-		"Article": {
-			"CommunicationChannel": "Email",
-			"From": "test@test.de", 
-			"Subject": "Webservice Create Example",
-			"Body": "This was created by a Webservice request!", 
-			"ContentType": "text/html charset=utf-8"
-		}
-	}'
-	https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate
+   curl -X POST --header "Content-Type: application/json" \
+     --data '{
+       "UserLogin": "AgentUser",
+       "Password": "Password",
+       "Ticket": {
+         "Title": "created by Webservice request",
+         "QueueID": 5,
+         "CustomerUser": "CustomerUser",
+         "State": "new",
+         "PriorityID": 1
+       },
+       "Article": {
+         "CommunicationChannel": "Email",
+         "From": "test@test.de",
+         "Subject": "Webservice Create Example",
+         "Body": "This was created by a Webservice request!",
+         "ContentType": "text/html charset=utf-8"
+       }
+     }' \
+     https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate
 
-This request is using the least amount of attributes needed to create a new Ticket.
+This request is using the least amount of attributes needed to create a new ticket.
 
-A full list of all attributes needed for operations can be found here: 
+A full list of all attributes needed for operations can be found here:
  - TicketCreate: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketCreate.pm#L77
  - TicketGet: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketGet.pm#L73
  - TicketUpdate: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketUpdate.pm#L77
@@ -262,17 +264,19 @@ In this example, we are going to use the XLST mapping to transform the response 
 
 Create a Dynamic Field of Type Ticket->Text and name it for example "RemoteTicketID".
 
-Given the incoming data: 
-   .. code-block ::
-   
+Given the incoming data:
+
+.. code-block:: none
+
    { "incidentID" : "12345", "incidentTitle" : "Test Ticket" }
 
 We can save the data in the Dynamic Field as follows:
-   .. code-block ::
-   
+
+.. code-block:: none
+
    <example code here>
-   
-   
+
+
 OTOBO as Provider - HTTP\:\:SOAP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -310,7 +314,7 @@ Add error handling module
 
 
 OTOBO as Requester - HTTP\:\:REST
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/web-service-add-requester-rest.png
    :alt: Web Service Settings - OTOBO as Requester - HTTP\:\:REST
@@ -319,7 +323,7 @@ OTOBO as Requester - HTTP\:\:REST
 
 
 OTOBO as Requester - HTTP\:\:SOAP
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/web-service-add-requester-soap.png
    :alt: Web Service Settings - OTOBO as Requester - HTTP\:\:SOAP

@@ -9,6 +9,7 @@ OTOBO offers several administration tools to configure, monitor, control and ext
    :maxdepth: 3
    :caption: Contents
 
+   administration-area/introduction
    administration-area/ticket-settings
    administration-area/communication-notifications
    administration-area/users-groups-roles
