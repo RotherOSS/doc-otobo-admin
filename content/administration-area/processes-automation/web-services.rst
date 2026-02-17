@@ -153,12 +153,13 @@ Validity
 Provider Web Service Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-   .. note::
-   
-      To access the otobo webservice, please use the following URL:
-      https://SERVERADDRESS/otobo/nph-genericinterface.pl/Webservice/WEBSERVICENAME/OPERATION
+.. note::
 
+   To access the otobo webservice, please use the following URL:
 
+   .. code-block:: none
+
+      https://SERVER-ADDRESS/otobo/nph-genericinterface.pl/Webservice/WEB-SERVICE-NAME/OPERATION
 
 .. figure:: images/web-service-add-provider.png
    :alt: Web Service Settings - OTOBO as Provider
@@ -185,14 +186,15 @@ Add Operation
 
 
 OTOBO as Provider - HTTP\:\:REST
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To use the OTOBO REST interface, choose the network transport method "HTTP\:\:REST".
 Save and reload the screen to load the ticket operations.
 
    Web Service Settings - OTOBO as Provider - HTTP\:\:REST
 
-You should now be able to select an operation. 
+You should now be able to select an operation.
+
 
 Operations
 ~~~~~~~~~~
@@ -212,40 +214,40 @@ You now should see a new entry "Route mapping for Operation 'TicketCreate'".
 Enter for example "/TicketCreate"
 
 This will define the route, which will translate to:
-``https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate`` 
+``https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate``
 
 Click "Save and finish".
 
-Now you can send a request to the endpoint. 
+Now you can send a request to the endpoint.
 
 Here is an example using curl:
 
- .. code-block:: bash
+.. code-block:: bash
 
-	curl -X POST --header "Content-Type: application/json"  
-	--data '{
-		"UserLogin": "AgentUser", 
-		"Password": "Password",
-		"Ticket": {
-			"Title": "created by Webservice request",
-			"QueueID":5, 
-			"CustomerUser": "CustomerUser",
-			"State": "new",
-			"PriorityID": 1
-		}, 
-		"Article": {
-			"CommunicationChannel": "Email",
-			"From": "test@test.de", 
-			"Subject": "Webservice Create Example",
-			"Body": "This was created by a Webservice request!", 
-			"ContentType": "text/html charset=utf-8"
-		}
-	}'
-	https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate
+   curl -X POST --header "Content-Type: application/json" \
+     --data '{
+       "UserLogin": "AgentUser",
+       "Password": "Password",
+       "Ticket": {
+         "Title": "created by Webservice request",
+         "QueueID": 5,
+         "CustomerUser": "CustomerUser",
+         "State": "new",
+         "PriorityID": 1
+       },
+       "Article": {
+         "CommunicationChannel": "Email",
+         "From": "test@test.de",
+         "Subject": "Webservice Create Example",
+         "Body": "This was created by a Webservice request!",
+         "ContentType": "text/html charset=utf-8"
+       }
+     }' \
+     https://YOURSERVER/otobo/nph-genericinterface.pl/Webservice/<WEBSERVICE_NAME>/TicketCreate
 
-This request is using the least amount of attributes needed to create a new Ticket.
+This request is using the least amount of attributes needed to create a new ticket.
 
-A full list of all attributes needed for operations can be found here: 
+A full list of all attributes needed for operations can be found here:
  - TicketCreate: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketCreate.pm#L77
  - TicketGet: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketGet.pm#L73
  - TicketUpdate: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketUpdate.pm#L77
@@ -262,17 +264,19 @@ In this example, we are going to use the XLST mapping to transform the response 
 
 Create a Dynamic Field of Type Ticket->Text and name it for example "RemoteTicketID".
 
-Given the incoming data: 
-   .. code-block ::
-   
+Given the incoming data:
+
+.. code-block:: none
+
    { "incidentID" : "12345", "incidentTitle" : "Test Ticket" }
 
 We can save the data in the Dynamic Field as follows:
-   .. code-block ::
-   
+
+.. code-block:: none
+
    <example code here>
-   
-   
+
+
 OTOBO as Provider - HTTP\:\:SOAP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -310,7 +314,7 @@ Add error handling module
 
 
 OTOBO as Requester - HTTP\:\:REST
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/web-service-add-requester-rest.png
    :alt: Web Service Settings - OTOBO as Requester - HTTP\:\:REST
@@ -319,7 +323,7 @@ OTOBO as Requester - HTTP\:\:REST
 
 
 OTOBO as Requester - HTTP\:\:SOAP
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/web-service-add-requester-soap.png
    :alt: Web Service Settings - OTOBO as Requester - HTTP\:\:SOAP
@@ -337,7 +341,7 @@ Basic Configuration (Both Provider and Invoker)
 
 Your system-administrator should configure one (or more) OAuth2 Application(s) with their relevant OIDC provider and give you the following configuration details:
 
-- the well-known provider metadata discovery url as described in the `openid spec <https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfigurationRequest>`__  Example: '\https://keycloak:8443/realms/master/.well-known/openid-configuration' 
+- the well-known provider metadata discovery url as described in the `openid spec <https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfigurationRequest>`__  Example: '\https://keycloak:8443/realms/master/.well-known/openid-configuration'
 - ``client_id`` and ``client_secret`` parameters for your OAuth2 Application
 - the ``UID`` identifier of an OAuth2 JWT token claim that can be mapped to an Otobo UserLogin identifier. Usual values include 'sub', 'email', or 'uid'. Use 'sub' if in doubt.
 
@@ -345,16 +349,16 @@ If your planning to use functional accounts (aka System Users) to authorize outg
 
 - the ``grant_type`` which will be one of: 'client_credentials' or 'password' or 'authorization_code'. if grant_type is 'password', you will also get username/password credentials
 - optionally, a set of ``scope`` parameters to use. When using OIDC this likely will include 'openid'
-- optionally, a set of ``resource`` ids to use. 
+- optionally, a set of ``resource`` ids to use.
 
 **Important**
 
 If you are using the 'authorization_code' flow, which will redirect your browser to the Provider login page to authenticate, the OIDC Provider will redirect you back to your Otobo instance when the authentication was successful.
 For this to work the 'redirect_uri' that points back to you Otobo instance must be an allowed redirect_uri configured for your OAuth2 OIDC application. The generated URL will be
-``http(s)://your-otobo.fqdn/otobo/index.pl?Action=AdminOAuthTokenStore&Subaction=OAuth'``. 
+``http(s)://your-otobo.fqdn/otobo/index.pl?Action=AdminOAuthTokenStore&Subaction=OAuth'``.
 
 Note this is in addition to the Login redirect_uri which usually is
-``http(s)://your-otobo.fqdn/otobo/index.pl?Action=Login'``. 
+``http(s)://your-otobo.fqdn/otobo/index.pl?Action=Login'``.
 
 Some Provider allow simple wildcards in the redirect_uri setting, like ``http(s)://your-otobo.fqdn/otobo/index.pl*`` - Please
 consult your OIDC Provider documentation for details.
@@ -368,10 +372,9 @@ Basic OpenID Connect Provider Configuration in Otobo
 
 For incoming OAuth2 API calls, Otobo has to authenticate the incoming OAuth2 Tokens and map them to an Otobo user.
 For API calls this works using the same Authentication Modules ('AuthModule' in Config.pm) as used for Login via OpenID Connect.
-If you already using Otobo for OIDC based login, you should already have a valid OIDC configuration like from the example above and **you are all set**. 
+If you already using Otobo for OIDC based login, you should already have a valid OIDC configuration like from the example above and **you are all set**.
 
-Otherwise, in case you are not using OIDC for Login, but still want to use OIDC for API calls, or if you want to use a OIDC provider for API calls 
-different from your default OIDC configuration used for login, add an additional AuthModule for OIDC.
+Otherwise, in case you are not using OIDC for Login, but still want to use OIDC for API calls, or if you want to use a OIDC provider for API calls different from your default OIDC configuration used for login, add an additional AuthModule for OIDC.
 
 Refer to the examples for configuring OIDC that come with your Otobo installation. The examples are in Kernel/Config/Defaults.pm line 518ff,
 and this needs to be configured in ``Config.pm``.
@@ -444,8 +447,7 @@ and this needs to be configured in ``Config.pm``.
 Provider Restrictions (optional)
 --------------------------------
 
-Every valid Token needs to be mapped to a system user. If an API system user does not exist for an incoming webservice call, it will be created provided the Token 
-passes validation and any further restrictions.
+Every valid Token needs to be mapped to a system user. If an API system user does not exist for an incoming webservice call, it will be created provided the Token passes validation and any further restrictions.
 
 To add restrictions which valid tokens are accepted for incoming webservice calls, restrict by these fields in Config.pm:
 
@@ -497,7 +499,7 @@ First get a token from your provider. How that works in practice depends on your
 ::
 
    curl -s -k -d 'client_id=someapi' -d 'client_secret=s3cr3t' -d 'username=test1@example.com' -d 'password=test' -d 'grant_type=password' -d 'scope=openid' 'https://localhost:8443/realms/master/protocol/openid-connect/token' |jq
-   
+
    # outputs
    {
      "access_token": "eyJhbG .....",
@@ -519,7 +521,7 @@ as it is the 'Welcome to OTOBO' test email. Xou can pass any TicketID that exist
 ::
 
    curl -k -X GET -H'Authorization: Bearer <token from above>' 'http://localhost/otobo/nph-genericinterface.pl/Webservice/Test/GetTicket/1' | jq
-     
+
    # Outputs:
    {
      "Ticket": [
@@ -569,17 +571,16 @@ as it is the 'Welcome to OTOBO' test email. Xou can pass any TicketID that exist
 Otobo as Invoker
 ================
 
-Whereas Otobo as Provider only has to validate incoming OAuth2 tokens, in order to make outgoing calls as Invoker Otobo needs to obtain and manage OAuth2 tokens  for one or more functional accounts. 
+Whereas Otobo as Provider only has to validate incoming OAuth2 tokens, in order to make outgoing calls as Invoker Otobo needs to obtain and manage OAuth2 tokens  for one or more functional accounts.
 Functional accounts for Invokers and their tokens can be managed via the dedicated Amin UI module **OAuth Functional Accounts**. Unlike Providers for incoming calls,
-which use the OIDC Profile configured for authentication, the outgoing (Invoker) Webservices require a dedicated OIDC Profile setup, which can be done in 
-antoher  dedicated Admin UI module named **OIDC Profile Management**. First, configure an OIDC Provider Profile:
+which use the OIDC Profile configured for authentication, the outgoing (Invoker) Webservices require a dedicated OIDC Profile setup, which can be done in antoher  dedicated Admin UI module named **OIDC Profile Management**. First, configure an OIDC Provider Profile:
 
 In the **Admin UI**, navigate to **OIDC Profile Management**
 
 .. image:: ./images/profiles-overview.png
    :alt: Profiles Overview
 
-To create a new Profile, choose **Add** from the left navigation bar. 
+To create a new Profile, choose **Add** from the left navigation bar.
 
 .. image:: ./images/profile-add.png
    :alt: Add Profile
@@ -600,7 +601,7 @@ To create a new Account, choose **Add** from the left navigation bar.
 .. image:: ./images/functional-account-detail.png
    :alt: Functional Account Details
 
-Here you give your account a Name and choose one of the OIDC Provider profiles configured earlier. 
+Here you give your account a Name and choose one of the OIDC Provider profiles configured earlier.
 Choose the ``GrantType`` as instructed by your system administrator, and provide the ``Scope`` parameter as required. ``Scope`` will
 often contain 'openid' and 'offline_access', other common values are 'email' and 'profile'.
 
@@ -616,7 +617,7 @@ Only change advanced settings if instructed by your system administrator.
 Invoker Example
 ---------------
 
-Assuming you have configured at least one functional account for Invokers as per above paragraph, we can now configure a *Test Invoker Webservice*. 
+Assuming you have configured at least one functional account for Invokers as per above paragraph, we can now configure a *Test Invoker Webservice*.
 
 - Navigate to **Webservices** in Admin UI
 - Select **Add New Webservice** and give it Name and Description of 'Test'
@@ -636,7 +637,8 @@ Assuming you have configured at least one functional account for Invokers as per
 - Select 'POST' as value for **valid request commands**
 - Click **Save and Finish**
 
-At this point, Otobo should try to make an outgoing HTTP API call every time an article in a ticket gets updated, and automatically attach an OAuth2 Bearer Token to the request in the Authorization HTTP header. 
+At this point, Otobo should try to make an outgoing HTTP API call every time an article in a ticket gets updated, and automatically attach an OAuth2 Bearer Token to the request in the Authorization HTTP header.
+
 To try it out:
 
 - Select a ticket
@@ -653,7 +655,7 @@ Appendix
 ========
 
 Debugging Webservice Calls
-------------------------------------------
+--------------------------
 
 Please note that Webservice calls using OAuth2 tokens can be debugged as usual using the built in Otobo webservice Debugger. To open the debugger for a specific webservice,
 navigate to **WebServices** in the Admin UI, choose the desired webservice, and click on **Debugger** in the lefthand navigation bar.
@@ -666,18 +668,16 @@ By default the cronjob executes once very 60 minutes. In case your refresh_token
 
 The only parameters to tune are the Cron Schdule expression itself, and the ``Interval`` Param. The cron expression can be any valid cron expression, examples include:
 
-- '0 * * * *'    - runs once per hour, at minute 0
-- '0 0 * * *'    - runs once per day, at midnight
-- '*/10 * * * *' - runs every 10 minutes
+- ``0 * * * *``    - runs once per hour, at minute 0
+- ``0 0 * * *``    - runs once per day, at midnight
+- ``*/10 * * * *`` - runs every 10 minutes
 
 See https://en.wikipedia.org/wiki/Cron for further details on crontab format.
 
-For the ``Interval`` parameter set it to the time period between two scheduled task runs, in seconds. Running the cronjob once per hour gives you 
-60 * 60 = 3600 seconds between each run, and thus the ``Interval`` Param should be set to 3600.
+For the ``Interval`` parameter set it to the time period between two scheduled task runs, in seconds. Running the cronjob once per hour gives you 60 \* 60 = 3600 seconds between each run, and thus the ``Interval`` Param should be set to 3600.
 
 .. image:: ./images/tokenstore-cron.png
    :alt: Invoker Webservice Config
-
 
 
 Advanced User Import
@@ -691,40 +691,40 @@ the import, it will do the actual handshake with the OIDC provider, but it will 
 ::
 
    otobo@87e0d136371d:~$ bin/otobo.Console.pl Admin::OAuth2::ImportUser --help
-   
+
    Import a Functional User Account from an OpenID Connect Provider.
-   
+
    Usage:
-    otobo.Console.pl Admin::OAuth2::ImportUser --grant-type ...  [--openid-config ...] 
-    [--username ...] [--password ...] [--scope ...] [--resource ...] 
-    [--resource-param-name ...] [--token-type ...] [--user-map ...] 
+    otobo.Console.pl Admin::OAuth2::ImportUser --grant-type ...  [--openid-config ...]
+    [--username ...] [--password ...] [--scope ...] [--resource ...]
+    [--resource-param-name ...] [--token-type ...] [--user-map ...]
     [--role-map ...] [--uid ...]
-   
+
    Options:
-    [--openid-config ...]          - The name of OpenID Config to use. Defaults to 
-                                     'AuthModule::OpenIDConnect::Config' for using the 
-                                     default OIDC login provider if this system uses 
-                                     OIDC for login purposes. Otherwise use one of 
-                                     'OpenIDConnect::UserMapping###Custom1' ... 
-                                     CustomN Keys. 
-    --grant-type ...               - Specify the OAuth2 grant-type (one of 
+    [--openid-config ...]          - The name of OpenID Config to use. Defaults to
+                                     'AuthModule::OpenIDConnect::Config' for using the
+                                     default OIDC login provider if this system uses
+                                     OIDC for login purposes. Otherwise use one of
+                                     'OpenIDConnect::UserMapping###Custom1' ...
+                                     CustomN Keys.
+    --grant-type ...               - Specify the OAuth2 grant-type (one of
                                      password|client_credentials).
     [--username ...]               - Specify the OAuth2 username if grant-type is 'password'.
     [--password ...]               - Specify the OAuth2 password if grant-type is 'password'.
-    [--scope ...]                  - Specify the OAuth2 scope(s) as a space separated list. 
+    [--scope ...]                  - Specify the OAuth2 scope(s) as a space separated list.
                                      optional.
-    [--resource ...]               - Specify the OAuth2 resource parameter as a 
+    [--resource ...]               - Specify the OAuth2 resource parameter as a
                                      space separated list. optional.
-    [--resource-param-name ...]    - Specify the OAuth2 resource parameter name, that is the 
+    [--resource-param-name ...]    - Specify the OAuth2 resource parameter name, that is the
                                      name of the parameter itself. optional, defaults to 'resource'
-    [--token-type ...]             - Specify the OAuth2 token type, can be 'access_token' 
+    [--token-type ...]             - Specify the OAuth2 token type, can be 'access_token'
                                      or 'id_token'. defaults to 'id_token'.
-    [--user-map ...]               - Specify the name of the UserMap system configuration 
+    [--user-map ...]               - Specify the name of the UserMap system configuration
                                      setting. defaults to 'AuthModule::OpenIDConnect::UserMap'.
-    [--role-map ...]               - Specify the name of the RoleMap system configuration 
+    [--role-map ...]               - Specify the name of the RoleMap system configuration
                                      setting. defaults to 'AuthModule::OpenIDConnect::RoleMap'.
-    [--uid ...]                    - Specify the name of jwt token claim to be mapped to the 
+    [--uid ...]                    - Specify the name of jwt token claim to be mapped to the
                                      Otobo UserLogin. Defaults to 'sub'
     [--help|h]                     - Display help for this command.
     [--no-ansi]                    - Do not perform ANSI terminal output coloring.
-   [--quiet]                      - Suppress informative output, only retain error messages.
+    [--quiet]                      - Suppress informative output, only retain error messages.
