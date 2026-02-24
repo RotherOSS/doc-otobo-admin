@@ -25,8 +25,6 @@ Every ticket is stored and archived with complete information. Since tickets are
    ticket-settings/service-level-agreements
    ticket-settings/services
    ticket-settings/signatures
-   ticket-settings/sms-templates
-   ticket-settings/sms-templates-queues
    ticket-settings/states
    ticket-settings/templates
    ticket-settings/templates-attachments
