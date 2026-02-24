@@ -59,11 +59,11 @@ After system addresses, salutations, signatures, groups are set, you can continu
 
 Now you can add :doc:`ticket-settings/auto-responses` and assign them to queues using the :doc:`ticket-settings/queues-auto-responses` management screen. Your OTOBO installation already contains some automatic responses, you can use or edit them instead of create new ones.
 
-To reduce the time needed for answering the tickets, :doc:`ticket-settings/templates` or :doc:`ticket-settings/sms-templates` can be created.
+To reduce the time needed for answering the tickets, :doc:`ticket-settings/templates` can be created.
 
 Normal templates can contain :doc:`ticket-settings/attachments`, and you can assign the uploaded attachments to templates using the :doc:`ticket-settings/templates-attachments` management screen.
 
-When templates are created, you can set the templates to use in queues in the :doc:`ticket-settings/templates-queues` or :doc:`ticket-settings/sms-templates-queues` management screens.
+When templates are created, you can set the templates to use in queues in the :doc:`ticket-settings/templates-queues` management screens.
 
 You need to review the default :doc:`ticket-settings/priorities`, :doc:`ticket-settings/states` and :doc:`ticket-settings/types`, and add new elements, if needed.
 
@@ -81,10 +81,8 @@ If external systems need to integrate with OTOBO, :doc:`processes-automation/web
 
 However OTOBO has many features by default, you can extend the functionality by installing packages with the :doc:`administration/package-manager`.
 
-Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface.
-
 
 Become OTOBO Expert
 -------------------
 
-The next chapters of this manual describe the features and configuration settings of OTOBO more detailed. There is a separated manual for `Configuration Options References <https://doc.otobo.org/doc/manual/config-reference/7.0/en/>`__, that gives you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO.
+The next chapters of this manual describe the features and configuration settings of OTOBO more detailed and give you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO.
