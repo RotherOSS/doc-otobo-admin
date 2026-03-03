@@ -87,4 +87,4 @@ Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external
 Become OTOBO Expert
 -------------------
 
-The next chapters of this manual describe the features and configuration settings of OTOBO more detailed. There is a separated manual for `Configuration Options References <https://doc.otobo.org/doc/manual/config-reference/7.0/en/>`__, that gives you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO.
+The next chapters of this manual describe the features and configuration settings of OTOBO more detailed and give you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO.
