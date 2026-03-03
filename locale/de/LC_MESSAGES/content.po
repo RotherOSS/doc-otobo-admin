@@ -33,20 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr ""
-"Project-Id-Version:  OTOBO\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 00:49+0200\n"
-"PO-Revision-Date: 2024-06-24 22:51+0000\n"
-"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
-"Language: de\n"
-"Language-Team: German <http://weblate.otobo.org/projects/manual-otobo-"
-"administration/admin-manual-otobo-11/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2024-06-29 00:49+0200\nPO-Revision-Date: 2026-03-04 11:00+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../../content/administration-area.rst:12
 #, fuzzy
@@ -5362,14 +5349,12 @@ msgid "Delete S/MIME Certificate Screen"
 msgstr "S/MIME-Zertifikate löschen"
 
 #: ../../content/administration-area/communication-notifications/s-mime-certificates.rst:82
+#, fuzzy
 msgid ""
 "If several S/MIME certificates are added to the system, use the filter "
 "box to find a particular S/MIME certificate by just typing the name to "
 "filter."
-msgstr ""
-"Wenn dem System mehrere S/MIME-Zertifikate hinzugefügt werden, verwenden "
-"Sie das Filterfeld, um einen bestimmtes S/MIME-Zertifikate zu finden, "
-"indem Sie einfach den zu filternden Namen eingeben"
+msgstr "Wenn dem System mehrere S/MIME-Zertifikate hinzugefügt werden, verwenden Sie das Filterfeld, um einen bestimmtes S/MIME-Zertifikate zu finden, indem Sie einfach den zu filternden Namen eingeben"
 
 #: ../../content/administration-area/communication-notifications/s-mime-certificates.rst:86
 msgid "S/MIME Configuration Options"
@@ -5431,6 +5416,7 @@ msgid "Manage Ticket Notifications"
 msgstr "Ticket-Benachrichtigungen verwalten"
 
 #: ../../content/administration-area/communication-notifications/ticket-notifications.rst:29
+#, fuzzy
 msgid "To add a ticket notification:"
 msgstr "So fügen Sie eine Ticket-Benachrichtigung hinzu"
 
@@ -5463,10 +5449,9 @@ msgid "To delete a ticket notification:"
 msgstr "So löschen Sie eine Ticket-Benachrichtigung:"
 
 #: ../../content/administration-area/communication-notifications/ticket-notifications.rst:43
+#, fuzzy
 msgid "Click on the trash icon in the list of ticket notifications."
-msgstr ""
-"Klicken Sie in der Liste mit den Tickete-Benachrichtigungen auf das "
-"Papierkorb-Symbol"
+msgstr "Klicken Sie in der Liste mit den Tickete-Benachrichtigungen auf das Papierkorb-Symbol"
 
 #: ../../content/administration-area/communication-notifications/ticket-notifications.rst:49
 msgid "Delete Ticket Notification Screen"
@@ -5806,6 +5791,7 @@ msgid "All agents subscribed to the ticket's service"
 msgstr "Alle Agenten, die den Service des Tickets abonniert haben"
 
 #: ../../content/administration-area/communication-notifications/ticket-notifications.rst:236
+#, fuzzy
 msgid "All agents watching the ticket"
 msgstr "Alle Agenten, die Beobachter des Tickets sind."
 
@@ -5998,12 +5984,12 @@ msgid "To add a custom page:"
 msgstr "So fügen Sie eine benutzerdefinierte Seite hinzu:"
 
 #: ../../content/administration-area/external-interface/custom-pages.rst:33
+#, fuzzy
 msgid "Click on the *Add Custom Page* button in the left sidebar."
-msgstr ""
-"Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Eigene "
-"Seiten hinzufügen*"
+msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Eigene Seiten hinzufügen*"
 
 #: ../../content/administration-area/external-interface/custom-pages.rst:40
+#, fuzzy
 msgid "Add Custom Page Screen"
 msgstr "So fügen Sie eine eigene Seite hinzu:"
 
@@ -6025,10 +6011,9 @@ msgstr "So löschen Sie eine eigene Seite:"
 
 #: ../../content/administration-area/external-interface/custom-pages.rst:55
 #: ../../content/administration-area/processes-automation/generic-agent.rst:64
+#, fuzzy
 msgid "Click on the trash icon in the fourth column of the overview table."
-msgstr ""
-"Klicken Sie in der vierten Spalte der Übersichtstabelle auf das "
-"Papierkorb-Symbol"
+msgstr "Klicken Sie in der vierten Spalte der Übersichtstabelle auf das Papierkorb-Symbol"
 
 #: ../../content/administration-area/external-interface/custom-pages.rst:61
 msgid "Delete Custom Page Screen"
@@ -6366,14 +6351,17 @@ msgstr ""
 "Die folgenden Optionen stehen zur Verfügung:"
 
 #: ../../content/administration-area/external-interface/home-page.rst:43
+#, fuzzy
 msgid "Only use the background image"
 msgstr "Nur das Hintergrundbild verwenden."
 
 #: ../../content/administration-area/external-interface/home-page.rst:44
+#, fuzzy
 msgid "Only use the background color"
 msgstr "Nur die Hintergrundfarbe verwenden."
 
 #: ../../content/administration-area/external-interface/home-page.rst:45
+#, fuzzy
 msgid "Use the background image and overlay it with the selected color"
 msgstr "Hintergrundbild nutzen und mit der ausgewählten Farbe überlagern."
 
@@ -6877,6 +6865,7 @@ msgstr ""
 #: ../../content/administration-area/external-interface/layout.rst:123
 #: ../../content/administration-area/external-interface/layout.rst:171
 #: ../../content/administration-area/external-interface/layout.rst:192
+#, fuzzy
 msgid "Go to the *System Configuration* screen."
 msgstr "Gehen Sie zur *Systemkonfiguration*"
 
@@ -7725,6 +7714,7 @@ msgid "Perform URL shortening"
 msgstr "URL-Kürzung ausführen"
 
 #: ../../content/administration-area/otobo-services/cloud-services.rst:65
+#, fuzzy
 msgid "Perform URL shortening before sending the message."
 msgstr "URL-Kürzung vor dem Versand der Nachricht ausführen"
 
@@ -8445,6 +8435,7 @@ msgstr ""
 "#ticket-searchindex-forceunfilteredstorage>` Ticket-Suchindex-Modul an."
 
 #: ../../content/administration-area/otobo-services/support-data-collector.rst:247
+#, fuzzy
 msgid "Orphaned Records In ticket_index Table"
 msgstr "Verwaiste Einträge in der Tabelle *ticket_index*."
 
@@ -8961,14 +8952,12 @@ msgid "``[Not]``"
 msgstr "``[Not]``"
 
 #: ../../content/administration-area/processes-automation/access-control-lists.rst:160
+#, fuzzy
 msgid ""
 "This modifier is used to negate a value, for example ``[Not]2 low``. "
 "Talking about priorities will be the same as to have: *1 very low*, *3 "
 "normal*, *4 high*, *5 very high*."
-msgstr ""
-"Dieser Modifikator wird genutzt, um einen Wert zu negieren, bspw. "
-"``[Not]2 niedrig``. Das bedeutet für Ticket-Prioritäten dasselbe wie: *1 "
-"sehr niedrig*, *3 normal*, *4 hoch*, *5 sehr hoch*"
+msgstr "Dieser Modifikator wird genutzt, um einen Wert zu negieren, bspw. ``[Not]2 niedrig``. Das bedeutet für Ticket-Prioritäten dasselbe wie: *1 sehr niedrig*, *3 normal*, *4 hoch*, *5 sehr hoch*"
 
 #: ../../content/administration-area/processes-automation/access-control-lists.rst:163
 msgid "``[RegExp]``"
@@ -8997,12 +8986,11 @@ msgid "``[NotRegExp]``"
 msgstr "``[NotRegExp]``"
 
 #: ../../content/administration-area/processes-automation/access-control-lists.rst:169
+#, fuzzy
 msgid ""
 "Negated regular expressions, for example ``[NotRegExp]low``. Talking "
 "about priorities is the same as *3 normal*, *4 high*, *5 very high*."
-msgstr ""
-"Negierter regulärer Ausdruck, bspw. ``[NotRegExp]niedrig``. Das bedeutet "
-"für Ticket-Prioritäten dasselbe wie *3 normal*, *4 hoch*, *5 sehr hoch*"
+msgstr "Negierter regulärer Ausdruck, bspw. ``[NotRegExp]niedrig``. Das bedeutet für Ticket-Prioritäten dasselbe wie *3 normal*, *4 hoch*, *5 sehr hoch*"
 
 #: ../../content/administration-area/processes-automation/access-control-lists.rst:173
 msgid "``[Notregexp]``"
@@ -9453,6 +9441,7 @@ msgid "Default value \\*"
 msgstr "Standardwert"
 
 #: ../../content/administration-area/processes-automation/dynamic-fields.rst:122
+#, fuzzy
 msgid "The default value for the checkbox."
 msgstr "Der Standardwert für das Kontrollkästchen"
 
@@ -9559,6 +9548,7 @@ msgid "Mandatory fields"
 msgstr "Pflichtfelder"
 
 #: ../../content/administration-area/processes-automation/dynamic-fields.rst:158
+#, fuzzy
 msgid "Comma separated list of mandatory keys."
 msgstr "Komma-separierte Liste von Pflichtfeldern"
 
@@ -9641,6 +9631,7 @@ msgid "Contact With Data Management Screen"
 msgstr "Kontaktdaten-Verwaltung"
 
 #: ../../content/administration-area/processes-automation/dynamic-fields.rst:188
+#, fuzzy
 msgid "To add a new contact with data:"
 msgstr "So fügen Sie neue Kontaktdaten hinzu"
 
@@ -13441,6 +13432,7 @@ msgstr ""
 "neuen Informationen wieder geöffnet."
 
 #: ../../content/administration-area/ticket-settings.rst:21
+#, fuzzy
 msgid "Ticket Zoom Screen"
 msgstr "Ticket-Detailansicht."
 
@@ -14066,10 +14058,9 @@ msgid "To add a queue:"
 msgstr "So fügen Sie eine Queue hinzu:"
 
 #: ../../content/administration-area/ticket-settings/queues.rst:31
+#, fuzzy
 msgid "Click on the *Add Queue* button in the left sidebar."
-msgstr ""
-"Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Queue "
-"hinzufügen*"
+msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Queue hinzufügen*"
 
 #: ../../content/administration-area/ticket-settings/queues.rst:38
 msgid "Add Queue Screen"
@@ -14669,14 +14660,12 @@ msgid "Salutation Variables"
 msgstr "Variablen für Anreden"
 
 #: ../../content/administration-area/ticket-settings/salutations.rst:94
+#, fuzzy
 msgid ""
 "For example, the variable ``<OTOBO_CUSTOMER_DATA_UserLastname>`` expands "
 "to the customer's last name to be included in something like the "
 "following."
-msgstr ""
-"Beispielsweise beinhaltet die Variable "
-"``<OTOBO_CUSTOMER_DATA_UserLastname>`` den Nachnamen des Kunden, und kann"
-" in etwa wie folgt benutzt werden:"
+msgstr "Beispielsweise beinhaltet die Variable ``<OTOBO_CUSTOMER_DATA_UserLastname>`` den Nachnamen des Kunden, und kann in etwa wie folgt benutzt werden:"
 
 #: ../../content/administration-area/ticket-settings/service-level-agreements.rst:12
 msgid "Service Level Agreements"
@@ -15337,6 +15326,7 @@ msgstr ""
 "verfügbar."
 
 #: ../../content/administration-area/ticket-settings/sms-templates-queues.rst:25
+#, fuzzy
 msgid "Manage SMS Template-Queue Relations"
 msgstr "Zuordnung von SMS-Vorlagen zu Queues verwalten."
 
@@ -16961,12 +16951,11 @@ msgstr "Umleiten"
 
 #: ../../content/administration-area/users-groups-roles/agents-groups.rst:105
 #: ../../content/administration-area/users-groups-roles/roles-groups.rst:101
+#, fuzzy
 msgid ""
 "Permissions to bounce an email message (with bounce button in *Ticket "
 "Zoom* screen)."
-msgstr ""
-"Das Recht eine E-Mail umzuleiten (mit \"Umleiten\"-Schaltfläche in der "
-"Ticket-Detailansicht)"
+msgstr "Das Recht eine E-Mail umzuleiten (mit \"Umleiten\"-Schaltfläche in der Ticket-Detailansicht)"
 
 #: ../../content/administration-area/users-groups-roles/agents-groups.rst:108
 #: ../../content/administration-area/users-groups-roles/roles-groups.rst:104
@@ -16995,10 +16984,9 @@ msgstr "Weiterleiten"
 
 #: ../../content/administration-area/users-groups-roles/agents-groups.rst:114
 #: ../../content/administration-area/users-groups-roles/roles-groups.rst:110
+#, fuzzy
 msgid "Permissions to forward a message (with the forward button)."
-msgstr ""
-"Das Recht eine Nachricht weiterzuleiten (mit der "
-"\"Weiterleiten\"-Schaltfläche)"
+msgstr "Das Recht eine Nachricht weiterzuleiten (mit der \"Weiterleiten\"-Schaltfläche)"
 
 #: ../../content/administration-area/users-groups-roles/agents-groups.rst:117
 #: ../../content/administration-area/users-groups-roles/roles-groups.rst:113
@@ -19016,6 +19004,7 @@ msgid "Service Request"
 msgstr "Service-Anfrage"
 
 #: ../../content/glossary.rst:76
+#, fuzzy
 msgid "(see also :term:`Ticket`)."
 msgstr "(Siehe auch :term:`Ticket`)"
 
@@ -19033,6 +19022,7 @@ msgid "SLA"
 msgstr "SLA"
 
 #: ../../content/glossary.rst:85
+#, fuzzy
 msgid "(see also :term:`Service Level Agreement`)."
 msgstr "(Siehe auch :term:`Service Level Agreement`)"
 
@@ -19881,4 +19871,3 @@ msgstr ""
 #~ "Link in der Warnmeldung klicken, um "
 #~ "direkt zur Konfigurationseinstellung zu "
 #~ "gelangen."
-
