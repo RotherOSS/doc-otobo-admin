@@ -14,20 +14,7 @@
 # 汇民 王 <whuim@163.com>, 2016
 # 陈德文 <sggggy@gmail.com>, 2014,2016
 msgid ""
-msgstr ""
-"Project-Id-Version:  OTRS\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 00:49+0200\n"
-"PO-Revision-Date: 2019-06-04 07:35+0000\n"
-"Last-Translator: 汇民 王 <whuim@qq.com>\n"
-"Language: zh_Hans_CN\n"
-"Language-Team: Chinese (China) "
-"(http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2024-06-29 00:49+0200\nPO-Revision-Date: 2026-03-04 11:00+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../../content/administration-area.rst:12
 #, fuzzy
@@ -1036,6 +1023,7 @@ msgid "Permission \\*"
 msgstr "权限 \\*"
 
 #: ../../content/administration-area/administration/faq-category.rst:70
+#, fuzzy
 msgid "Agent groups that can access articles in this category."
 msgstr "能访问此类别文章的服务人员组"
 
@@ -2811,10 +2799,12 @@ msgid "Agent (resources), who are selected within the appointment"
 msgstr "这个预约选择的服务人员（资源）"
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:185
+#, fuzzy
 msgid "All agents with (at least) read permission for the appointment (calendar)"
 msgstr "所有对这个预约（日历）至少有读权限的服务人员。"
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:186
+#, fuzzy
 msgid "All agents with write permission for the appointment (calendar)"
 msgstr "所有对这个预约（日历）有写权限的服务人员。"
 
@@ -5631,6 +5621,7 @@ msgstr "选择要在形象广告图片小部件中显示的图片。要选择图
 #: ../../content/administration-area/external-interface/home-page.rst:100
 #: ../../content/administration-area/external-interface/home-page.rst:132
 #: ../../content/administration-area/external-interface/home-page.rst:183
+#, fuzzy
 msgid "The heading text that are displayed in this item."
 msgstr "显示在此条目中的标题文字"
 
@@ -6945,6 +6936,7 @@ msgid "Cluster"
 msgstr "群集"
 
 #: ../../content/administration-area/otobo-services/support-data-collector.rst:121
+#, fuzzy
 msgid "The name of the used cluster."
 msgstr "使用的群集的名称"
 
@@ -8900,14 +8892,17 @@ msgid "If specific conditions match like:"
 msgstr "``If`` 指定匹配条件，比如："
 
 #: ../../content/administration-area/processes-automation/generic-agent.rst:18
+#, fuzzy
 msgid "A ticket is from one particular customer."
 msgstr "一个工单来自某个特定客户；"
 
 #: ../../content/administration-area/processes-automation/generic-agent.rst:19
+#, fuzzy
 msgid "A ticket is assigned to an appropriate queue."
 msgstr "一个工单分配到一个适当的队列；"
 
 #: ../../content/administration-area/processes-automation/generic-agent.rst:20
+#, fuzzy
 msgid "A ticket has a defined priority."
 msgstr "一个工单有一个定义的优先级；"
 
@@ -9309,6 +9304,7 @@ msgstr "若要编辑一个流程："
 
 #: ../../content/administration-area/processes-automation/process-management.rst:42
 #: ../../content/administration-area/processes-automation/process-management.rst:54
+#, fuzzy
 msgid "Click on a process in the list of processes."
 msgstr "点击流程列表中的一个流程："
 
@@ -11055,6 +11051,7 @@ msgid "Manage Web Services"
 msgstr "管理Web服务"
 
 #: ../../content/administration-area/processes-automation/web-services.rst:42
+#, fuzzy
 msgid "To create a web service:"
 msgstr "若要创建一个Web服务"
 
@@ -17110,4 +17107,3 @@ msgstr ""
 #~ "可以从Active Directory®或LDAP服务器读取和同步服务人员。以下配置由“客户解决方案团队 "
 #~ "<support@otrs.com>负责”。如果您使用Onpremise或 ((OTRS)) "
 #~ "社区版，那么您也可以使用此部分来配置您的系统。"
-
