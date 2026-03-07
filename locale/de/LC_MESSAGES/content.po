@@ -33,7 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-05-14 00:16+0200\nPO-Revision-Date: 2026-03-04 12:38+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-10/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-05-14 00:16+0200\nPO-Revision-Date: 2026-03-08 14:00+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-10/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../../content/administration.rst:12
 msgid "Administration"
@@ -1336,12 +1336,11 @@ msgstr "Befolgen Sie die Installationsanleitung."
 
 #: ../../content/administration/package-manager.rst:48
 #: ../../content/administration/package-manager.rst:65
+#, fuzzy
 msgid ""
 "After installation, the package is displayed in the *Local Repository* "
 "widget."
-msgstr ""
-"Nach der Installation wird das Paket im Widget „Lokales Verzeichnis“ "
-"dargestellt."
+msgstr "Nach der Installation wird das Paket im Widget „Lokales Verzeichnis“ dargestellt."
 
 #: ../../content/administration/package-manager.rst:53
 msgid "Online Repository Widget"
@@ -2463,13 +2462,12 @@ msgid "To edit a system maintenance:"
 msgstr "So bearbeiten Sie eine Systemwartung:"
 
 #: ../../content/administration/system-maintenance.rst:42
+#, fuzzy
 msgid ""
 "Click on a system maintenance entry in the list of system maintenance "
 "entries or you are already redirected here from *Add New System "
 "Maintenance* screen."
-msgstr ""
-"Klicken Sie in der Liste der Systemwartungseinträge auf einen "
-"Systemwartungseintrag."
+msgstr "Klicken Sie in der Liste der Systemwartungseinträge auf einen Systemwartungseintrag."
 
 #: ../../content/administration/system-maintenance.rst:49
 msgid "Edit System Maintenance Information Screen"
@@ -3635,17 +3633,13 @@ msgstr "Variablen für Terminbenachrichtigungen"
 #: ../../content/ticket-settings/signatures.rst:87
 #: ../../content/ticket-settings/sms-templates.rst:118
 #: ../../content/ticket-settings/templates.rst:118
+#, fuzzy
 msgid ""
 "Using variables in the text makes it possible to personalize messages. "
 "Variables, known as OTOBO tags, are replaced by OTOBO when generating the"
 " message. Find a list of available tags stems for this resource at the "
 "bottom of both add and edit screens."
-msgstr ""
-"Die Verwendung von Variablen im Text ermöglicht es, Nachrichten zu "
-"personalisieren. Variablen, so genannte OTOBO-Tags, werden beim Erstellen"
-" der Nachricht durch OTOBO mit Inhalt befüllt. Eine Liste der verfügbaren"
-" Tags für diese Ressource finden Sie in den Widgets zum Hinzufügen und "
-"Bearbeiten unter *Tag Referenz*."
+msgstr "Die Verwendung von Variablen im Text ermöglicht es, Nachrichten zu personalisieren. Variablen, so genannte OTOBO-Tags, werden beim Erstellen der Nachricht durch OTOBO mit Inhalt befüllt. Eine Liste der verfügbaren Tags für diese Ressource finden Sie in den Widgets zum Hinzufügen und Bearbeiten unter *Tag Referenz*."
 
 #: ../../content/communication-notifications/appointment-notifications.rst:304
 msgid ""
@@ -5013,6 +5007,7 @@ msgstr ""
 "nach der Queue oder dem Inhalt des Feldes *Zu:* sortiert werden müssen."
 
 #: ../../content/communication-notifications/postmaster-mail-accounts.rst:119
+#, fuzzy
 msgid "Dispatching by email To: field"
 msgstr "Verteilung über das *An*-Feld einer E-Mail"
 
@@ -5282,16 +5277,13 @@ msgid "Add S/MIME Certificate Screen"
 msgstr "S/MIME-Zertifikate hinzufügen"
 
 #: ../../content/communication-notifications/s-mime-certificates.rst:56
+#, fuzzy
 msgid ""
 "Only non binary keys contain ASCII (Base64) armored data started with a "
 "``----- BEGIN CERTIFICATE -----`` line can be uploaded which are most "
 "commonly ``key.pem`` or ``root.crt``. Conversion of other formats like "
 "``cert.p7b`` must be done using OpenSSL."
-msgstr ""
-"Nur nicht-binäre Schlüssel enthalten ASCII (Base64) Daten, die mit einer "
-"Zeile ``----- BEGIN CERTIFICATE -----`` hochgeladen werden können, die am"
-" häufigsten ``key.pem`` oder `root.crt`` sind. Die Konvertierung von "
-"anderen Formaten wie ``cert.p7b`` muss mit OpenSSL erfolgen."
+msgstr "Nur nicht-binäre Schlüssel enthalten ASCII (Base64) Daten, die mit einer Zeile ``----- BEGIN CERTIFICATE -----`` hochgeladen werden können, die am häufigsten ``key.pem`` oder `root.crt`` sind. Die Konvertierung von anderen Formaten wie ``cert.p7b`` muss mit OpenSSL erfolgen."
 
 #: ../../content/communication-notifications/s-mime-certificates.rst:58
 msgid "To add a private key:"
@@ -5620,13 +5612,11 @@ msgid "Customer visibility"
 msgstr "Sichtbarkeit für Kunden"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:180
+#, fuzzy
 msgid ""
 "Filter for the customer visibility. Possible values are *Invisible to "
 "customer* or *Visible to customer*."
-msgstr ""
-"Filtert nach Sichtbarkeit für den Kunden. Mögliche Werte sind *Agent*, "
-"*System* oder *Kunde*. Mögliche Werte sind *Sichtbar für Kunde* oder "
-"*Unsichtbar für Kunde*."
+msgstr "Filtert nach Sichtbarkeit für den Kunden. Mögliche Werte sind *Agent*, *System* oder *Kunde*. Mögliche Werte sind *Sichtbar für Kunde* oder *Unsichtbar für Kunde*."
 
 #: ../../content/communication-notifications/ticket-notifications.rst:183
 msgid "Communication channel"
@@ -5666,6 +5656,7 @@ msgid "Bcc"
 msgstr "Bcc"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:192
+#, fuzzy
 msgid "Filter for blind carbon copy field."
 msgstr "Filtert nach *Bcc*-Feld."
 
@@ -5682,6 +5673,7 @@ msgid "Cc"
 msgstr "Cc"
 
 #: ../../content/communication-notifications/ticket-notifications.rst:198
+#, fuzzy
 msgid "Filter for carbon copy field."
 msgstr "Filter nach dem *Cc*-Feld."
 
@@ -6500,10 +6492,9 @@ msgstr "Einträge manuell hinzufügen"
 
 #: ../../content/external-interface/home-page.rst:144
 #: ../../content/external-interface/home-page.rst:152
+#, fuzzy
 msgid "Clicking on the edit button a new widget will be visible to add the items."
-msgstr ""
-"Wenn Sie auf die Schaltfläche *Bearbeiten* klicken, wird ein neues Widget"
-" angezeigt, um die Elemente hinzuzufügen."
+msgstr "Wenn Sie auf die Schaltfläche *Bearbeiten* klicken, wird ein neues Widget angezeigt, um die Elemente hinzuzufügen."
 
 #: ../../content/external-interface/home-page.rst:157
 #: ../../content/external-interface/home-page.rst:158
@@ -6769,20 +6760,18 @@ msgid ""
 msgstr "Wir beginnen mit dem untenstehenden Code-Ausschnitt eines Drittanbieters."
 
 #: ../../content/external-interface/layout.rst:99
+#, fuzzy
 msgid ""
 "First line of the snippet refers to an *external* resource which should "
 "be loaded by the ``script`` tag."
-msgstr ""
-"Die erste Zeile des Snippets bezieht sich auf eine **externe** Ressource,"
-" die mit dem ``script`` Tag geladen werden soll."
+msgstr "Die erste Zeile des Snippets bezieht sich auf eine **externe** Ressource, die mit dem ``script`` Tag geladen werden soll."
 
 #: ../../content/external-interface/layout.rst:101
+#, fuzzy
 msgid ""
 "In the script block below, we have some *inline* code which is run "
 "immediately when the page is loaded."
-msgstr ""
-"Im untenstehenden Skriptblock befindet sich **inline** Code, der sofort "
-"ausgeführt wird, wenn die Seite geladen wird."
+msgstr "Im untenstehenden Skriptblock befindet sich **inline** Code, der sofort ausgeführt wird, wenn die Seite geladen wird."
 
 #: ../../content/external-interface/layout.rst:105
 msgid "Adding External Script Resources"
@@ -6825,12 +6814,11 @@ msgstr ""
 "Plus. Andernfalls gehen Sie wie folgt vor."
 
 #: ../../content/external-interface/layout.rst:113
+#, fuzzy
 msgid ""
 "Enter the full location of the *external* resource in the text field. For"
 " example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
-msgstr ""
-"Geben Sie den vollständigen Standort der **externen** Ressource in das "
-"Textfeld ein, z.B. ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
+msgstr "Geben Sie den vollständigen Standort der **externen** Ressource in das Textfeld ein, z.B. ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
 
 #: ../../content/external-interface/layout.rst:114
 #: ../../content/external-interface/layout.rst:137
@@ -6893,39 +6881,30 @@ msgid "Whitelisting Additional Origins in the Security Headers"
 msgstr "Positivliste zusätzlicher Quellen in den SecurityHeadern"
 
 #: ../../content/external-interface/layout.rst:154
+#, fuzzy
 msgid ""
 "If you now try to access the external interface application, you will be "
 "able to verify that the scripts are included in the code. However, your "
 "browser will probably block access to all *inline* and *external* "
 "resources, therefore the code might fail with some errors."
-msgstr ""
-"Wenn Sie nun versuchen, auf die externe Interface-App zuzugreifen, können"
-" Sie überprüfen, ob die Skripte im Code enthalten sind. Ihr Browser wird "
-"jedoch wahrscheinlich den Zugriff auf alle **inline** und **externen** "
-"Ressourcen blockieren, daher kann der Code mit einigen Fehlern "
-"fehlschlagen."
+msgstr "Wenn Sie nun versuchen, auf die externe Interface-App zuzugreifen, können Sie überprüfen, ob die Skripte im Code enthalten sind. Ihr Browser wird jedoch wahrscheinlich den Zugriff auf alle **inline** und **externen** Ressourcen blockieren, daher kann der Code mit einigen Fehlern fehlschlagen."
 
 #: ../../content/external-interface/layout.rst:156
+#, fuzzy
 msgid ""
 "This behavior is by design, since external resources can only be loaded "
 "if they are specifically whitelisted in the *Content Security Policy* "
 "headers."
-msgstr ""
-"Dieses Verhalten ist von vornherein gegeben, da externe Ressourcen nur "
-"dann geladen werden können, wenn sie speziell in den Headern der Content "
-"Security Policy auf der Whitelist stehen."
+msgstr "Dieses Verhalten ist von vornherein gegeben, da externe Ressourcen nur dann geladen werden können, wenn sie speziell in den Headern der Content Security Policy auf der Whitelist stehen."
 
 #: ../../content/external-interface/layout.rst:158
+#, fuzzy
 msgid ""
 "To check for blocked code, please use suitable web browser inspection "
 "tools. In our example, we will be using Mozilla Firefox and its web "
 "console available via *Tools → Web Developer → Web Console* menu item, or"
 " via the *F12* shortcut key."
-msgstr ""
-"Um nach blockiertem Code zu suchen, verwenden Sie bitte einen geeigneten "
-"Webbrowser. In unserem Beispiel verwenden wir Mozilla Firefox und seine "
-"Webkonsole, die über den Menüpunkt *Extras → Webentwickler → Web-Konsole*"
-" oder über die Tastenkombination **F12**** verfügbar ist."
+msgstr "Um nach blockiertem Code zu suchen, verwenden Sie bitte einen geeigneten Webbrowser. In unserem Beispiel verwenden wir Mozilla Firefox und seine Webkonsole, die über den Menüpunkt *Extras → Webentwickler → Web-Konsole* oder über die Tastenkombination **F12**** verfügbar ist."
 
 #: ../../content/external-interface/layout.rst:160
 msgid ""
@@ -6940,27 +6919,21 @@ msgid "Browser Console Errors and Warnings"
 msgstr "Fehler und Warnungen in der Browser-Konsole"
 
 #: ../../content/external-interface/layout.rst:167
+#, fuzzy
 msgid ""
 "From the console errors we can see that the external script resource was "
 "prevented from being loaded (lines 1 and 3). In addition to that, two "
 "evaluation calls were also blocked (lines 2 and 5). All errors reference "
 "a *Content Security Policy* rule under the name of ``script-src``, which "
 "signals script resources."
-msgstr ""
-"Aus den Konsolenfehlern können wir ersehen, dass das Laden der externen "
-"Skript-Ressource verhindert wurde (Zeilen 1 und 3). Darüber hinaus wurden"
-" auch zwei Evaluierungsaufrufe gesperrt (Zeilen 2 und 5). Alle Fehler "
-"verweisen auf eine CSP-Regel unter dem Namen ``script-src``, die Skript-"
-"Ressourcen signalisiert."
+msgstr "Aus den Konsolenfehlern können wir ersehen, dass das Laden der externen Skript-Ressource verhindert wurde (Zeilen 1 und 3). Darüber hinaus wurden auch zwei Evaluierungsaufrufe gesperrt (Zeilen 2 und 5). Alle Fehler verweisen auf eine CSP-Regel unter dem Namen ``script-src``, die Skript-Ressourcen signalisiert."
 
 #: ../../content/external-interface/layout.rst:169
+#, fuzzy
 msgid ""
 "We need to add both the external resource and the evaluation calls to the"
 " additional origins list of the *Content Security Policy* headers:"
-msgstr ""
-"Wir müssen sowohl die externe Ressource als auch die Evaluierungsaufrufe "
-"in die zusätzliche Herkunftsliste der Header der **Content Security "
-"Policy** aufnehmen:"
+msgstr "Wir müssen sowohl die externe Ressource als auch die Evaluierungsaufrufe in die zusätzliche Herkunftsliste der Header der **Content Security Policy** aufnehmen:"
 
 #: ../../content/external-interface/layout.rst:172
 #: ../../content/external-interface/layout.rst:193
@@ -7023,17 +6996,13 @@ msgid "Additional Browser Console Errors and Warnings"
 msgstr "Zusätzliche Browser-Konsolenfehler und Warnungen"
 
 #: ../../content/external-interface/layout.rst:190
+#, fuzzy
 msgid ""
 "This error points that an additional resource that was also blocked, an "
 "image at a specific location (line 1). We can deduce this via the name of"
 " the *Content Security Policy* rule ``img-src``, which references an "
 "image resource. In order to add it to the whitelist, try the following:"
-msgstr ""
-"Dieser Fehler zeigt an, dass eine zusätzliche Ressource, die ebenfalls "
-"blockiert wurde, ein Bild an einer bestimmten Stelle (Zeile 1). Wir "
-"können dies über den Namen der CSP-Regel ``img-src`` ableiten, die auf "
-"eine Bildressource verweist. Um es zur Positivliste hinzuzufügen, gehen "
-"Sie wie folgt vor:"
+msgstr "Dieser Fehler zeigt an, dass eine zusätzliche Ressource, die ebenfalls blockiert wurde, ein Bild an einer bestimmten Stelle (Zeile 1). Wir können dies über den Namen der CSP-Regel ``img-src`` ableiten, die auf eine Bildressource verweist. Um es zur Positivliste hinzuzufügen, gehen Sie wie folgt vor:"
 
 #: ../../content/external-interface/layout.rst:195
 msgid ""
@@ -7141,12 +7110,11 @@ msgstr ""
 "funktionales Element in OTOBO, das nicht über den Browser erreichbar ist."
 
 #: ../../content/glossary.rst:25
+#, fuzzy
 msgid ""
 "Defines working hours, time-zone, and holidays to be applied when using "
 ":term:`escalation times`."
-msgstr ""
-"Definiert Arbeitszeiten, Zeitzonen und Feiertage, die bei Verwendung von "
-":term:`Eskalationszeiten` anzuwenden sind."
+msgstr "Definiert Arbeitszeiten, Zeitzonen und Feiertage, die bei Verwendung von :term:`Eskalationszeiten` anzuwenden sind."
 
 #: ../../content/glossary.rst:26
 msgid "Customer"
@@ -7311,12 +7279,11 @@ msgid "Screen"
 msgstr "Ansicht"
 
 #: ../../content/glossary.rst:67
+#, fuzzy
 msgid ""
 "A graphical interface to OTOBO viewed in a browser (see also :term:`Front"
 " end`)."
-msgstr ""
-"Eine grafische Oberfläche zu OTOBO, die in einem Webbrowser angezeigt "
-"wird (siehe auch :term:`Frontend`)."
+msgstr "Eine grafische Oberfläche zu OTOBO, die in einem Webbrowser angezeigt wird (siehe auch :term:`Frontend`)."
 
 #: ../../content/glossary.rst:68
 #: ../../content/ticket-settings/service-level-agreements.rst:77
@@ -7582,13 +7549,11 @@ msgstr ""
 "Lösung häufiger Probleme erforderlich sind. Die Kapitel:"
 
 #: ../../content/introduction.rst:30
+#, fuzzy
 msgid ""
 "Identify a typical use-case for the administrator, to aid in orientation,"
 " and explain **what** OTOBO does to provide a solution (**warranty**)."
-msgstr ""
-"Identifizieren einen typischen Anwendungsfall für einen Administrator, um"
-" ihm bei der Orientierung zu helfen und erklären, was OTOBO tut, um eine "
-"Lösung bereitzustellen (**Garantie**)."
+msgstr "Identifizieren einen typischen Anwendungsfall für einen Administrator, um ihm bei der Orientierung zu helfen und erklären, was OTOBO tut, um eine Lösung bereitzustellen (**Garantie**)."
 
 #: ../../content/introduction.rst:31
 msgid "Direct you **how** to configure OTOBO to fit your use-case (**utility**)."
@@ -8360,6 +8325,7 @@ msgid "Default Storage Engine"
 msgstr "Standard-Storage-Engine"
 
 #: ../../content/otobo-services/support-data-collector.rst:106
+#, fuzzy
 msgid "Display the default storage engine of the database. It must be ``InnoDB``."
 msgstr "Zeigt die Standard-Storage-Engine der Datenbank an."
 
@@ -8368,6 +8334,7 @@ msgid "Table Storage Engine"
 msgstr "Tabellen Storage-Engine"
 
 #: ../../content/otobo-services/support-data-collector.rst:109
+#, fuzzy
 msgid "Display the storage engine of the database tables. It must be ``InnoDB``."
 msgstr "Zeigt die Standard-Storage-Engine der Datenbank-Tabellen an."
 
@@ -8798,18 +8765,19 @@ msgid "Orphaned Records In ticket_index Table"
 msgstr "Verwaiste Einträge in der Tabelle *ticket_index*."
 
 #: ../../content/otobo-services/support-data-collector.rst:247
+#, fuzzy
 msgid "Display the number of orphaned records in ``ticket_index`` table."
 msgstr "Zeigt die Anzahl der verwaisten Einträge in der Tabelle *ticket_index* an."
 
 #: ../../content/otobo-services/support-data-collector.rst:250
+#, fuzzy
 msgid "Orphaned Records In ticket_lock_index Table"
 msgstr "Verwaiste Einträge in der Tabelle *ticket_lock_index*"
 
 #: ../../content/otobo-services/support-data-collector.rst:250
+#, fuzzy
 msgid "Display the number of orphaned records in ``ticket_lock_index`` table."
-msgstr ""
-"Zeigt die Anzahl der verwaisten Einträge in der Tabelle "
-"*ticket_lock_index* an."
+msgstr "Zeigt die Anzahl der verwaisten Einträge in der Tabelle *ticket_lock_index* an."
 
 #: ../../content/otobo-services/support-data-collector.rst:253
 msgid "Time Settings"
@@ -9003,12 +8971,11 @@ msgid "To edit an ACL:"
 msgstr "So bearbeiten Sie eine ACL:"
 
 #: ../../content/processes-automation/access-control-lists.rst:51
+#, fuzzy
 msgid ""
 "Click on an ACL in the list of ACLs or you are already redirected here "
 "from *Create New ACL* screen."
-msgstr ""
-"Klicken Sie in der Liste mit den ACLs auf die ACL, die Sie bearbeiten "
-"möchten."
+msgstr "Klicken Sie in der Liste mit den ACLs auf die ACL, die Sie bearbeiten möchten."
 
 #: ../../content/processes-automation/access-control-lists.rst:52
 msgid "Modify the fields and the ACL structure."
@@ -9051,6 +9018,7 @@ msgstr "Klicken Sie auf die Schaltfläche *Ungültige ACL löschen*."
 
 #: ../../content/processes-automation/access-control-lists.rst:67
 #: ../../content/processes-automation/process-management.rst:58
+#, fuzzy
 msgid "Click on the *Delete* button in the confirmation screen."
 msgstr "Klicken Sie auf die Schaltfläche *Löschen* im Dialog *ACL löschen*."
 
@@ -9099,10 +9067,9 @@ msgstr ""
 "exportieren*."
 
 #: ../../content/processes-automation/access-control-lists.rst:85
+#, fuzzy
 msgid "Choose a location in your computer to save the ``Export_ACL.yml`` file."
-msgstr ""
-"Wählen Sie einen Speicherort auf Ihrem Computer um die \"Export_ACL-"
-"yml\"-Datei zu speichern."
+msgstr "Wählen Sie einen Speicherort auf Ihrem Computer um die \"Export_ACL-yml\"-Datei zu speichern."
 
 #: ../../content/processes-automation/access-control-lists.rst:87
 msgid "To import ACLs:"
@@ -9282,14 +9249,12 @@ msgid "``PossibleNot``"
 msgstr "``PossibleNot``"
 
 #: ../../content/processes-automation/access-control-lists.rst:151
+#, fuzzy
 msgid ""
 "This section is used to remove specific elements from the current data. "
 "It could be used stand alone or together with other ACLs with a "
 "``Possible`` or ``PossibleAdd`` sections."
-msgstr ""
-"In diesem Abschnitt werden bestimmte Elemente aus den aktuellen Daten "
-"entfernt. Er kann einzeln oder zusammen mit anderen ACLs verwendet "
-"werden, die einen ``Possible`` oder `PossibleAdd``-Abschnitt haben."
+msgstr "In diesem Abschnitt werden bestimmte Elemente aus den aktuellen Daten entfernt. Er kann einzeln oder zusammen mit anderen ACLs verwendet werden, die einen ``Possible`` oder `PossibleAdd``-Abschnitt haben."
 
 #: ../../content/processes-automation/access-control-lists.rst:155
 msgid "Modifiers"
@@ -9605,19 +9570,14 @@ msgstr ""
 "Formate wie Texte, Ganzzahlen, Datum-Uhrzeit und mehr an."
 
 #: ../../content/processes-automation/dynamic-fields.rst:16
+#, fuzzy
 msgid ""
 "OTOBO supports adding a so-called :term:`dynamic field` to handle texts, "
 "integers, drop-down lists, multi-select fields, date-time, checkboxes and"
 " more. OTOBO administrators can define where those fields should be "
 "visible or editable, and of course, the dynamic fields are also available"
 " in statistics and reports."
-msgstr ""
-"OTOBO unterstützt das Hinzufügen eines sogenannten :term:`Dynamisches "
-"Feld`, um Texte, Ganzzahlen, Dropdown-Listen, Mehrfach-Auswahlfelder, "
-"Datum/Uhrzeit, Kontrollkästchen und mehr zu verarbeiten. OTOBO-"
-"Administratoren können definieren, wo diese Felder sichtbar oder "
-"editierbar sein sollen, und natürlich sind die Dynamischen Felder auch in"
-" Statistiken und Berichten verfügbar."
+msgstr "OTOBO unterstützt das Hinzufügen eines sogenannten :term:`Dynamisches Feld`, um Texte, Ganzzahlen, Dropdown-Listen, Mehrfach-Auswahlfelder, Datum/Uhrzeit, Kontrollkästchen und mehr zu verarbeiten. OTOBO-Administratoren können definieren, wo diese Felder sichtbar oder editierbar sein sollen, und natürlich sind die Dynamischen Felder auch in Statistiken und Berichten verfügbar."
 
 #: ../../content/processes-automation/dynamic-fields.rst:18
 #, fuzzy
@@ -9872,17 +9832,13 @@ msgid "Other Fields"
 msgstr "Andere Felder"
 
 #: ../../content/processes-automation/dynamic-fields.rst:148
+#, fuzzy
 msgid ""
 "These are the possible data attributes for contacts. Clicking on the *⊞* "
 "button of the *Add Fields* will add two new fields, where a *Key* "
 "(internal value) and a *Value* (displayed value) can be set. With the "
 "button you can add multiple key-value pairs."
-msgstr ""
-"Dies sind die möglichen Datenattribute für Kontakte. Durch Anklicken der "
-"Schaltfläche *⊞* werden zwei neue Felder hinzugefügt, in denen ein "
-"Schlüssel (interner Wert) und ein Wert (angezeigter Wert) eingestellt "
-"werden können. Mit der Schaltfläche können Sie mehrere Schlüssel-Werte-"
-"Paare hinzufügen."
+msgstr "Dies sind die möglichen Datenattribute für Kontakte. Durch Anklicken der Schaltfläche *⊞* werden zwei neue Felder hinzugefügt, in denen ein Schlüssel (interner Wert) und ein Wert (angezeigter Wert) eingestellt werden können. Mit der Schaltfläche können Sie mehrere Schlüssel-Werte-Paare hinzufügen."
 
 #: ../../content/processes-automation/dynamic-fields.rst:152
 msgid ""
@@ -10398,12 +10354,11 @@ msgstr "Auf RegEx prüfen"
 
 #: ../../content/processes-automation/dynamic-fields.rst:380
 #: ../../content/processes-automation/dynamic-fields.rst:410
+#, fuzzy
 msgid ""
 "Here you can specify a regular expression to check the value. The regex "
 "will be executed with the modifiers ``xms``. Example:"
-msgstr ""
-"Hier können Sie einen regulären Ausdruck definieren um den Wert zu "
-"prüfen. Der RegEx wird mit den Modifikatoren xms ausgeführt. Beispiel:"
+msgstr "Hier können Sie einen regulären Ausdruck definieren um den Wert zu prüfen. Der RegEx wird mit den Modifikatoren xms ausgeführt. Beispiel:"
 
 #: ../../content/processes-automation/dynamic-fields.rst:388
 #: ../../content/processes-automation/dynamic-fields.rst:418
@@ -10559,10 +10514,9 @@ msgstr ""
 #: ../../content/processes-automation/dynamic-fields.rst:467
 #: ../../content/processes-automation/dynamic-fields.rst:480
 #: ../../content/processes-automation/dynamic-fields.rst:504
+#, fuzzy
 msgid "Click on the *Edit this setting* button to activate the setting."
-msgstr ""
-"Klicken Sie auf die \"Diese Einstellung bearbeiten\"-Schaltfläche, um "
-"diese Einstellung zu aktivieren."
+msgstr "Klicken Sie auf die \"Diese Einstellung bearbeiten\"-Schaltfläche, um diese Einstellung zu aktivieren."
 
 #: ../../content/processes-automation/dynamic-fields.rst:474
 msgid "Activate Ticket Event Module"
@@ -10595,14 +10549,12 @@ msgstr ""
 "werden."
 
 #: ../../content/processes-automation/dynamic-fields.rst:494
+#, fuzzy
 msgid ""
 "If more than 16 fields needs to be set up, a custom XML file must be "
 "placed in ``$OTOBO_HOME/Kernel/Config/Files/XML`` directory to extend "
 "this feature."
-msgstr ""
-"Werden mehr als 16 Felder benötigt, müssen Sie sich eine eigene XML "
-"erstellen und diese im Verzeichnis $OTOBO_HOME/Kernel/Config/files "
-"ablegen, um dieses Feature zu erweitern."
+msgstr "Werden mehr als 16 Felder benötigt, müssen Sie sich eine eigene XML erstellen und diese im Verzeichnis $OTOBO_HOME/Kernel/Config/files ablegen, um dieses Feature zu erweitern."
 
 #: ../../content/processes-automation/dynamic-fields.rst:498
 msgid "Set Default Value via User Preferences"
@@ -10662,14 +10614,12 @@ msgstr ""
 " hinzuzufügen."
 
 #: ../../content/processes-automation/dynamic-fields.rst:524
+#, fuzzy
 msgid ""
 "If more settings are added in a new XML each setting name needs to be "
 "unique in the system and different than "
 "``PreferencesGroups###DynamicField``. For example:"
-msgstr ""
-"Wenn mehrere Einstellungen in einer neuen XML-Datei hinzugefügt werden, "
-"muss jeder Feldname eindeutig und ein anderer als in "
-"\"PreferencesGroups###DynamicField\" sein. Zum Beispiel:"
+msgstr "Wenn mehrere Einstellungen in einer neuen XML-Datei hinzugefügt werden, muss jeder Feldname eindeutig und ein anderer als in \"PreferencesGroups###DynamicField\" sein. Zum Beispiel:"
 
 #: ../../content/processes-automation/dynamic-fields.rst:526
 msgid "``PreferencesGroups###101-DynamicField-Field1``"
@@ -10836,15 +10786,12 @@ msgid "Job Name \\*"
 msgstr "Auftragsname \\*"
 
 #: ../../content/processes-automation/generic-agent.rst:95
+#, fuzzy
 msgid ""
 "Set the validity of this resource. This resource can be used in OTOBO "
 "only, if this field is set to *Yes*. Setting this field to *No* will "
 "disable the use of the resource."
-msgstr ""
-"Setzt die Gültigkeit dieser Ressource. Jede Ressource kann nur in OTOBO "
-"verwendet werden, wenn dieses Feld auf *gültig* gesetzt ist. Wenn Sie "
-"dieses Feld auf *ungültig* oder *ungültig-temporär* setzen, wird die "
-"Nutzung der Ressource deaktiviert."
+msgstr "Setzt die Gültigkeit dieser Ressource. Jede Ressource kann nur in OTOBO verwendet werden, wenn dieses Feld auf *gültig* gesetzt ist. Wenn Sie dieses Feld auf *ungültig* oder *ungültig-temporär* setzen, wird die Nutzung der Ressource deaktiviert."
 
 #: ../../content/processes-automation/generic-agent.rst:99
 msgid "Automatic Execution"
@@ -12126,19 +12073,14 @@ msgid "Book Ordering - Add Activity Dialog Fields"
 msgstr "Buchbestellung - Felder zum \"Benutzer-Task\"-Aktivitätsdialog hinzufügen"
 
 #: ../../content/processes-automation/process-management.rst:378
+#, fuzzy
 msgid ""
 "As soon as the fields are dropped into the *Assigned Fields* pool another"
 " popup screen is shown with some details about the field. We will leave "
 "the default options and only for ``Article`` fields we should make sure "
 "that the *Communication Channel* field is set to *OTOBO* and that the *Is"
 " visible for customer* is not checked."
-msgstr ""
-"Sobald die Felder in den Bereich *Zugewiesene Felder* platziert wurden, "
-"erscheint ein weiteres Popup-Fenster mit einigen Details zum Feld. Wir "
-"belassen die Standardoptionen und nur für die Felder *Artikel* sollten "
-"wir sicherstellen, dass das Feld \"Kommunikationskanal\" auf *OTOBO* "
-"gesetzt ist und dass das Feld *Ist sichtbar für Kunde* nicht markiert "
-"ist."
+msgstr "Sobald die Felder in den Bereich *Zugewiesene Felder* platziert wurden, erscheint ein weiteres Popup-Fenster mit einigen Details zum Feld. Wir belassen die Standardoptionen und nur für die Felder *Artikel* sollten wir sicherstellen, dass das Feld \"Kommunikationskanal\" auf *OTOBO* gesetzt ist und dass das Feld *Ist sichtbar für Kunde* nicht markiert ist."
 
 #: ../../content/processes-automation/process-management.rst:383
 #, fuzzy
@@ -12631,27 +12573,24 @@ msgid "Create Activities"
 msgstr "Aktivitäten erstellen"
 
 #: ../../content/processes-automation/process-management.rst:563
+#, fuzzy
 msgid ""
 "Click on the *Activities* item in the *Available Process Elements* widget"
 " in the left sidebar. This action will expand the *Activities* options "
 "and will collapse all others doing an accordion like effect. Click on the"
 " *Create New Activity* button."
-msgstr ""
-"Klicken Sie in der linken Seitenleiste im Widget *Verfügbare "
-"Prozesselemente* auf *Aktivitäten*. Klicken Sie im aufgeklappten Bereich "
-"auf de Schaltfläche *Neue Aktivität erstellen*."
+msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Aktivitäten*. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neue Aktivität erstellen*."
 
 #: ../../content/processes-automation/process-management.rst:568
 msgid "Book Ordering - Activities"
 msgstr "Buchbestellung - Aktivitäten"
 
 #: ../../content/processes-automation/process-management.rst:570
+#, fuzzy
 msgid ""
 "In the opened popup screen fill in the *Activity name* field and select "
 "*User task activity* from the *Activity type* drop-down."
-msgstr ""
-"Geben Sie im sich öffnenden Popup in das Feld *Aktivitätsname* einen "
-"Namen ein und wählen Sie den Aktivitätstyp *User task activity* aus."
+msgstr "Geben Sie im sich öffnenden Popup in das Feld *Aktivitätsname* einen Namen ein und wählen Sie den Aktivitätstyp *User task activity* aus."
 
 #: ../../content/processes-automation/process-management.rst:575
 msgid "Book Ordering - Add Activity"
@@ -13132,18 +13071,14 @@ msgstr ""
 "anderen Systemen Objektdaten transparent zur Verfügung."
 
 #: ../../content/processes-automation/web-services.rst:25
+#, fuzzy
 msgid ""
 "A web service is a communication method between two systems, in our case "
 "OTOBO and a remote system. In its configuration, the :term:`operation` or"
 " :term:`invoker` determine the direction of communication, and the "
 ":term:`mapping` and :term:`transport` take care of how the data is "
 "received and interpreted."
-msgstr ""
-"Ein Web-Service ist eine Kommunikationsmethode zwischen zwei Systemen, in"
-" unserem Fall OTOBO und einem entfernten System. In seiner Konfiguration "
-"bestimmt die :term:`Operation` oder der :term:`invoker` die Richtung der "
-"Kommunikation, und das :term:`Mapping` und der :term:`Transport` kümmern "
-"sich um den Empfang und die Interpretation der Daten."
+msgstr "Ein Web-Service ist eine Kommunikationsmethode zwischen zwei Systemen, in unserem Fall OTOBO und einem entfernten System. In seiner Konfiguration bestimmt die :term:`Operation` oder der :term:`invoker` die Richtung der Kommunikation, und das :term:`Mapping` und der :term:`Transport` kümmern sich um den Empfang und die Interpretation der Daten."
 
 #: ../../content/processes-automation/web-services.rst:27
 #, fuzzy
@@ -13720,6 +13655,7 @@ msgid "Ticket Settings"
 msgstr "Ticket-Einstellungen"
 
 #: ../../content/ticket-settings.rst:14
+#, fuzzy
 msgid ""
 "A :term:`ticket` is similar to a medical report created for a hospital "
 "patient. When a patient first visits the hospital, a medical report is "
@@ -13731,19 +13667,7 @@ msgid ""
 "on the case at hand. When the patient recovers and leaves the hospital, "
 "all information from the medical report is archived and the report is "
 "closed."
-msgstr ""
-"Ein :term:`Ticket` ist vergleichbar mit einem medizinischen Bericht, der "
-"für einen Krankenhauspatienten erstellt wurde. Wenn ein Patient zum "
-"ersten Mal das Krankenhaus besucht, wird ein medizinischer Bericht "
-"erstellt, in dem alle notwendigen persönlichen und medizinischen "
-"Informationen über ihn gespeichert sind. Bei mehreren Besuchen, da er von"
-" denselben oder zusätzlichen Ärzten betreut wird, aktualisiert der "
-"behandelnde Arzt den Bericht, indem er neue Informationen über die "
-"Gesundheit des Patienten und die laufende Behandlung hinzufügt. So kann "
-"sich jeder andere Arzt oder das Pflegepersonal ein vollständiges Bild vom"
-" vorliegenden Fall machen. Wenn der Patient sich erholt und das "
-"Krankenhaus verlässt, werden alle Informationen aus dem medizinischen "
-"Bericht archiviert und der Bericht geschlossen."
+msgstr "Ein :term:`Ticket` ist vergleichbar mit einem medizinischen Bericht, der für einen Krankenhauspatienten erstellt wurde. Wenn ein Patient zum ersten Mal das Krankenhaus besucht, wird ein medizinischer Bericht erstellt, in dem alle notwendigen persönlichen und medizinischen Informationen über ihn gespeichert sind. Bei mehreren Besuchen, da er von denselben oder zusätzlichen Ärzten betreut wird, aktualisiert der behandelnde Arzt den Bericht, indem er neue Informationen über die Gesundheit des Patienten und die laufende Behandlung hinzufügt. So kann sich jeder andere Arzt oder das Pflegepersonal ein vollständiges Bild vom vorliegenden Fall machen. Wenn der Patient sich erholt und das Krankenhaus verlässt, werden alle Informationen aus dem medizinischen Bericht archiviert und der Bericht geschlossen."
 
 #: ../../content/ticket-settings.rst:16
 msgid ""
@@ -15164,6 +15088,7 @@ msgid "Services"
 msgstr "Services"
 
 #: ../../content/ticket-settings/services.rst:14
+#, fuzzy
 msgid ""
 "Requests to your service desk should be categorized based on affected "
 ":term:`service` to correctly reach a team of experts to deal with the "
@@ -15171,14 +15096,7 @@ msgid ""
 "of experience or access to resources to fix an issue requires defining "
 "the service affected in a ticket helps to categorize the issue and target"
 " the correct teams."
-msgstr ""
-"Anfragen an Ihre Service-Abteilung sollten nach dem betroffenen "
-":term:`Service` kategorisiert werden, um ein Expertenteam zur Lösung des "
-"Problems korrekt zu erreichen. Denn nicht alle Ihre Agenten können mit "
-"spezifischen Problemen umgehen. Mangelnde Erfahrung oder mangelnder "
-"Zugang zu Ressourcen, um ein Problem zu beheben, erfordert die Definition"
-" des betroffenen Service in einem Ticket und hilft bei der "
-"Kategorisierung des Problems und der Auswahl der richtigen Teams."
+msgstr "Anfragen an Ihre Service-Abteilung sollten nach dem betroffenen :term:`Service` kategorisiert werden, um ein Expertenteam zur Lösung des Problems korrekt zu erreichen. Denn nicht alle Ihre Agenten können mit spezifischen Problemen umgehen. Mangelnde Erfahrung oder mangelnder Zugang zu Ressourcen, um ein Problem zu beheben, erfordert die Definition des betroffenen Service in einem Ticket und hilft bei der Kategorisierung des Problems und der Auswahl der richtigen Teams."
 
 #: ../../content/ticket-settings/services.rst:16
 msgid ""
@@ -16228,18 +16146,13 @@ msgstr ""
 "anhand Ihrer Anlagen schnell identifiziert."
 
 #: ../../content/ticket-settings/templates-attachments.rst:18
+#, fuzzy
 msgid ""
 "Use this screen to add one or more attachments to one or more templates. "
 "To use this function, at least one attachment and one template need to "
 "have been added to the system. The management screen is available in the "
 "*Templates ↔ Attachments* module of the *Ticket Settings* group."
-msgstr ""
-"Verwenden Sie diese Ansicht, um eine oder mehrere Anlagen zu einer oder "
-"mehreren Vorlagen zuzuordnen. Um diese Funktion zu nutzen, muss "
-"wenigstens eine Anlage und eine Vorlage dem System hinzugefügt werden. "
-"Die Verwaltung der Zuordnungen zwischen *Vorlagen ↔ Anlagen* ist "
-"verfügbar im Modul *Vorlagen ↔ Anlagen* in der Gruppe *Ticket-"
-"Einstellungen*."
+msgstr "Verwenden Sie diese Ansicht, um eine oder mehrere Anlagen zu einer oder mehreren Vorlagen zuzuordnen. Um diese Funktion zu nutzen, muss wenigstens eine Anlage und eine Vorlage dem System hinzugefügt werden. Die Verwaltung der Zuordnungen zwischen *Vorlagen ↔ Anlagen* ist verfügbar im Modul *Vorlagen ↔ Anlagen* in der Gruppe *Ticket-Einstellungen*."
 
 #: ../../content/ticket-settings/templates-attachments.rst:23
 msgid "Manage Template-Attachment Relations"
@@ -16336,17 +16249,13 @@ msgstr ""
 "durch die Zuordnung basierend auf der Queue zur Verfügung stehen."
 
 #: ../../content/ticket-settings/templates-queues.rst:18
+#, fuzzy
 msgid ""
 "Use this screen to add one or more templates to one or more queues. To "
 "use this function, at least one template and one queue need to have been "
 "added to the system. The management screen is available in the *Templates"
 " ↔ Queues* module of the *Ticket Settings* group."
-msgstr ""
-"Verwenden Sie diese Ansicht, um eine oder mehrere Anlagen zu einer oder "
-"mehreren Queus zuzuordnen. Um diese Funktion zu nutzen, muss wenigstens "
-"eine Anlage und eine Queue dem System hinzugefügt werden. Die Verwaltung "
-"der Zuordnungen zwischen *Vorlagen ↔ Queues* ist verfügbar im Modul "
-"*Vorlagen ↔ Queues* in der Gruppe *Ticket-Einstellungen*."
+msgstr "Verwenden Sie diese Ansicht, um eine oder mehrere Anlagen zu einer oder mehreren Queus zuzuordnen. Um diese Funktion zu nutzen, muss wenigstens eine Anlage und eine Queue dem System hinzugefügt werden. Die Verwaltung der Zuordnungen zwischen *Vorlagen ↔ Queues* ist verfügbar im Modul *Vorlagen ↔ Queues* in der Gruppe *Ticket-Einstellungen*."
 
 #: ../../content/ticket-settings/templates-queues.rst:23
 msgid "Manage Template-Queue Relations Screen"
@@ -16430,15 +16339,12 @@ msgstr ""
 "für die Erstellung und Verwaltung einer Queue überlastet sein."
 
 #: ../../content/ticket-settings/types.rst:16
+#, fuzzy
 msgid ""
 "OTOBO provisions for KPIs with minimal overhead using ticket types. "
 "Typical types used in IT service desks are *unclassified*, *incident* and"
 " *problem*. You can quickly define new types with ease."
-msgstr ""
-"OTOBO Bestimmungen für KPIs mit minimalem Overhead unter Verwendung von "
-"Ticket-Typen. Diese Ticket-Typen werden im IT Service-Desk benutzt: "
-"Unklassifiziert, Vorfall und Problem. Sie können ganz einfach auch neue "
-"Tickettypen erstellen."
+msgstr "OTOBO Bestimmungen für KPIs mit minimalem Overhead unter Verwendung von Ticket-Typen. Diese Ticket-Typen werden im IT Service-Desk benutzt: Unklassifiziert, Vorfall und Problem. Sie können ganz einfach auch neue Tickettypen erstellen."
 
 #: ../../content/ticket-settings/types.rst:18
 msgid ""
@@ -16736,10 +16642,9 @@ msgstr "Titel oder Anrede"
 
 #: ../../content/users-groups-roles/agents.rst:92
 #: ../../content/users-groups-roles/customer-users.rst:94
+#, fuzzy
 msgid "Some name prefix can be added here like *Mr.*, *Dr.*, *Jr.*, etc."
-msgstr ""
-"Hier können einige Präfixe, wie bspw. *Dr.* oder *Prof.* etc. hinzugefügt"
-" werden."
+msgstr "Hier können einige Präfixe, wie bspw. *Dr.* oder *Prof.* etc. hinzugefügt werden."
 
 #: ../../content/users-groups-roles/agents.rst:95
 #: ../../content/users-groups-roles/customer-users.rst:97
@@ -16833,17 +16738,13 @@ msgid "Agent Authentication Back End"
 msgstr "Agenten-Authentifizierungs-Backend"
 
 #: ../../content/users-groups-roles/agents.rst:137
+#, fuzzy
 msgid ""
 "The users table houses your agent data per default. You may attach a "
 "directory server (LDAP/Active Directory) to your installation for "
 "authentication. To achieve this copy the following block from the "
 "``Defaults.pm`` and paste it into the ``Config.pm``."
-msgstr ""
-"Die Tabelle ``users`` enthält standardmäßig Ihre Agentendaten. Sie können"
-" einen Verzeichnis-Server (LDAP/Active Directory) zur Authentifizierung "
-"an Ihre Installation anhängen. Um dies zu erreichen, kopieren Sie den "
-"folgenden Block aus der ``Defaults.pm`` und fügen ihn in die "
-"``Config.pm`` ein."
+msgstr "Die Tabelle ``users`` enthält standardmäßig Ihre Agentendaten. Sie können einen Verzeichnis-Server (LDAP/Active Directory) zur Authentifizierung an Ihre Installation anhängen. Um dies zu erreichen, kopieren Sie den folgenden Block aus der ``Defaults.pm`` und fügen ihn in die ``Config.pm`` ein."
 
 #: ../../content/users-groups-roles/agents.rst:196
 #: ../../content/users-groups-roles/agents.rst:300
@@ -16931,16 +16832,13 @@ msgid "Agent Synchronization Back End"
 msgstr "Agenten-Synchronisierungs-Backend"
 
 #: ../../content/users-groups-roles/agents.rst:260
+#, fuzzy
 msgid ""
 "It is advisable to synchronize the agent data so that agents need not be "
 "manually added to the users table prior to authorization. Additionally, "
 "groups and roles can be added automatically using security objects of the"
 " directory server."
-msgstr ""
-"Es ist ratsam, die Agentendaten zu synchronisieren, damit Agenten nicht "
-"vor der Autorisierung manuell in die Tabelle ``users`` aufgenommen werden"
-" müssen. Zusätzlich können Gruppen und Rollen automatisch über "
-"Sicherheitsobjekte des Verzeichnis-Servers hinzugefügt werden."
+msgstr "Es ist ratsam, die Agentendaten zu synchronisieren, damit Agenten nicht vor der Autorisierung manuell in die Tabelle ``users`` aufgenommen werden müssen. Zusätzlich können Gruppen und Rollen automatisch über Sicherheitsobjekte des Verzeichnis-Servers hinzugefügt werden."
 
 #: ../../content/users-groups-roles/agents.rst:264
 msgid "Agent User Data"
@@ -17463,12 +17361,11 @@ msgstr ""
 "\"Zurück\"-Link zur Ansicht mit den Zuordnungen."
 
 #: ../../content/users-groups-roles/agents-roles.rst:63
+#, fuzzy
 msgid ""
 "By setting the checkbox in the header of the column *Active* will set all"
 " the checkboxes in the column."
-msgstr ""
-"Durch das Setzen des Kontrollkästchens im Kopf einer Spalte werden alle "
-"Kontrollkästchen in der ausgewählten Spalte gesetzt."
+msgstr "Durch das Setzen des Kontrollkästchens im Kopf einer Spalte werden alle Kontrollkästchen in der ausgewählten Spalte gesetzt."
 
 #: ../../content/users-groups-roles/customer-users.rst:12
 msgid "Customer Users"
@@ -17517,13 +17414,11 @@ msgid "Manage Customer Users"
 msgstr "Kundenbenutzer verwalten"
 
 #: ../../content/users-groups-roles/customer-users.rst:31
+#, fuzzy
 msgid ""
 "A customer user can only be added to the system when at least one "
 ":term:`customer` exists. Create one or more :doc:`customers` first."
-msgstr ""
-"Ein Kundenbenutzer kann dem System nur hinzugefügt werden, wenn "
-"wenigstens ein :term:`Kunde` existiert. Erstellen Sie zuerst einen oder "
-"mehrere :doc:`customers`."
+msgstr "Ein Kundenbenutzer kann dem System nur hinzugefügt werden, wenn wenigstens ein :term:`Kunde` existiert. Erstellen Sie zuerst einen oder mehrere :doc:`customers`."
 
 #: ../../content/users-groups-roles/customer-users.rst:35
 msgid ""
@@ -18156,17 +18051,13 @@ msgstr "Beziehungen zwischen Kundenbenutzern und Gruppen verwalten"
 
 #: ../../content/users-groups-roles/customer-users-groups.rst:29
 #: ../../content/users-groups-roles/customers-groups.rst:29
+#, fuzzy
 msgid ""
 "Customer group support needs to be enabled in at least one customer user "
 ":term:`back end` to use this function. For the default OTOBO :term:`back "
 "end`, this can be enabled in the system configuration by clicking on the "
 "*Enable it here!* button."
-msgstr ""
-"Kundengruppen-Unterstützung muss wenigstens in einem Kundenbenutzer "
-":term:`Backend` aktiviert sein, damit diese Funktion genutzt werden kann."
-" Das Standard OTOBO- :term:`Backend` kann in der Systemkonfiguration "
-"aktiviert werden, wenn Sie auf die *Hier aktivieren*-Schaltfläche "
-"klicken."
+msgstr "Kundengruppen-Unterstützung muss wenigstens in einem Kundenbenutzer :term:`Backend` aktiviert sein, damit diese Funktion genutzt werden kann. Das Standard OTOBO- :term:`Backend` kann in der Systemkonfiguration aktiviert werden, wenn Sie auf die *Hier aktivieren*-Schaltfläche klicken."
 
 #: ../../content/users-groups-roles/customer-users-groups.rst:34
 #: ../../content/users-groups-roles/customers-groups.rst:34
@@ -18175,19 +18066,14 @@ msgstr "Kundengruppen-Funktion aktivieren"
 
 #: ../../content/users-groups-roles/customer-users-groups.rst:38
 #: ../../content/users-groups-roles/customers-groups.rst:38
+#, fuzzy
 msgid ""
 "To enable this feature in systems using a directory server or multiple "
 "non-default back ends, a custom configuration file needs to be placed in "
 "``Kernel/Config/Files`` (for example named ``ZZZ_CustomerBackend.pm``). "
 "Once activated, all customer users from this back end will require group "
 "assignment."
-msgstr ""
-"Um diese Funktion in Systemen mit einem Verzeichnis-Server oder mehreren "
-"nicht standardmäßigen Backends zu aktivieren, muss eine "
-"benutzerdefinierte Konfigurationsdatei in ``Kernel/Config/Files`` (z.B. "
-"mit dem Namen `ZZZZZ_CustomerBackend.pm``) abgelegt werden. Nach der "
-"Aktivierung benötigen alle Kundenbenutzer aus diesem Backend eine "
-"Gruppenzuordnung."
+msgstr "Um diese Funktion in Systemen mit einem Verzeichnis-Server oder mehreren nicht standardmäßigen Backends zu aktivieren, muss eine benutzerdefinierte Konfigurationsdatei in ``Kernel/Config/Files`` (z.B. mit dem Namen `ZZZZZ_CustomerBackend.pm``) abgelegt werden. Nach der Aktivierung benötigen alle Kundenbenutzer aus diesem Backend eine Gruppenzuordnung."
 
 #: ../../content/users-groups-roles/customer-users-groups.rst:42
 #: ../../content/users-groups-roles/customers-groups.rst:42
