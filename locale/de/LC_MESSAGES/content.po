@@ -33,7 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-05-14 00:16+0200\nPO-Revision-Date: 2026-03-08 14:00+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-10/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: 2024-05-14 00:16+0200\nPO-Revision-Date: 2026-03-08 14:00+0000\nLast-Translator: Markus Hlinka <mah@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-10/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../../content/administration.rst:12
 msgid "Administration"
@@ -7556,10 +7556,9 @@ msgid ""
 msgstr "Identifizieren einen typischen Anwendungsfall für einen Administrator, um ihm bei der Orientierung zu helfen und erklären, was OTOBO tut, um eine Lösung bereitzustellen (**Garantie**)."
 
 #: ../../content/introduction.rst:31
+#, fuzzy
 msgid "Direct you **how** to configure OTOBO to fit your use-case (**utility**)."
-msgstr ""
-"Geben Hinweise, wie Sie OTOBO für Ihren speziellen Anwendungsfall "
-"konfigurieren können."
+msgstr "Geben Hinweise, wie Sie OTOBO für Ihren speziellen Anwendungsfall konfigurieren können."
 
 #: ../../content/introduction.rst:33
 msgid ""
@@ -8751,13 +8750,11 @@ msgid "Ticket Search Index Module"
 msgstr "Ticket-Suchindex-Modul"
 
 #: ../../content/otobo-services/support-data-collector.rst:244
+#, fuzzy
 msgid ""
 "Display the ticket search index module set in system configuration "
 "setting ``Ticket::SearchIndex::ForceUnfilteredStorage``."
-msgstr ""
-"Zeigt das in der Systemkonfiguration :sysconfig:`Ticket::SearchIndex::"
-"ForceUnfilteredStorage <core.html#ticket-searchindex-forceunfilteredstorage>`"
-" Ticket-Suchindex-Modul an."
+msgstr "Zeigt das in der Systemkonfiguration :sysconfig:`Ticket::SearchIndex::ForceUnfilteredStorage <core.html#ticket-searchindex-forceunfilteredstorage>` Ticket-Suchindex-Modul an."
 
 #: ../../content/otobo-services/support-data-collector.rst:247
 #, fuzzy
