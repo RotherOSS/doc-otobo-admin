@@ -55,6 +55,22 @@ To edit a type:
 
    If several types are added to the system, use the filter box to find a particular type by just typing the name to filter.
 
+To export one or more types:
+
+1. Click on the *Types Export* button on the left.
+2. Select the types which you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/type-export.png
+   :alt: Type Export Screen
+
+   Type Export Screen
+
+To import a set of types:
+
+1. Select a corresponding file in the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Types Import* button.
 
 Type Settings
 -------------
