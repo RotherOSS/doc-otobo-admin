@@ -42,6 +42,22 @@ To edit a group:
 
    If several groups are added to the system, use the filter box to find a particular group by just typing the name to filter.
 
+To export one or more groups:
+
+1. Click on the *Groups Export* button on the left.
+2. Select the groups which you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/group-export.png
+   :alt: Group Export Screen
+
+   Group Export Screen
+
+To import a set of groups:
+
+1. Select a corresponding file in the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Groups Import* button.
 
 Group Settings
 --------------
