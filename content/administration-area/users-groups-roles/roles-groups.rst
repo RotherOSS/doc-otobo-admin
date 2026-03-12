@@ -44,6 +44,25 @@ Multiple roles or groups can be assigned in both screens at the same time. Addit
 
    Accessing a role or a group provides no back link to the relations screen.
 
+Import / Export
+---------------
+
+To export one or more role group relations:
+
+1. Click on the *Role-Group Export* button on the left.
+2. Select the relations you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/role-group-export.png
+   :alt: Role Group Export Screen
+
+   Role Group Export Screen
+
+To import a set of role group relations:
+
+1. Select a file using the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Role-Group Import* button.
 
 Roles ↔ Groups Relations Reference
 ----------------------------------

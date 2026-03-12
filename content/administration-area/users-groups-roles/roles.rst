@@ -42,6 +42,25 @@ To edit a role:
 
    If several roles are added to the system, use the filter box to find a particular role by just typing the name to filter.
 
+Import / Export
+---------------
+
+To export one or more roles:
+
+1. Click on the *Roles Export* button on the left.
+2. Select the roles you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/role-export.png
+   :alt: Role Export Screen
+
+   Role Export Screen
+
+To import a set of roles:
+
+1. Select a file using the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Roles Import* button.
 
 Role Settings
 -------------
