@@ -46,10 +46,13 @@ To edit a queue:
 
    If several queues are added to the system, use the filter box to find a particular queue by just typing the name to filter.
 
+Import / Export
+---------------
+
 To export one or more queues:
 
 1. Click on the *Queues Export* button on the left.
-2. Select the queues which you want to export.
+2. Select the queues you want to export.
 3. Click on the *Export* button.
 
 .. figure:: images/queue-export.png
@@ -59,17 +62,17 @@ To export one or more queues:
 
 .. note::
 
-   For each queue, the necessary signature, system address and salutation is exported (and imported, if present) as well.
+   For each queue, the required signature, system address, and salutation are also exported and, if present, imported as well.
 
 To import a set of queues:
 
-1. Select a corresponding file in the file picker in the *Import / Export* widget.
+1. Select a file using the file picker in the *Import / Export* widget.
 2. Optionally tick the *Override existing entities* checkbox.
 3. Click on the *Queues Import* button.
 
 .. warning::
 
-   When importing nested queues, all parent queues need to be imported as well or to already exist on the system.
+   When importing nested queues, all parent queues must also be imported or already exist in the system.
 
 .. figure:: images/queue-system-config-validation.png
    :alt: Queue Validation Dialog

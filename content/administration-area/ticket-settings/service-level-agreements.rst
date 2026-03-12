@@ -54,10 +54,13 @@ To edit a service level agreement:
 
    If several service level agreements are added to the system, use the filter box to find a particular service level agreement by just typing the name to filter.
 
+Import / Export
+---------------
+
 To export one or more service level agreements:
 
 1. Click on the *SLAs Export* button on the left.
-2. Select the service level agreements which you want to export.
+2. Select the service level agreements you want to export.
 3. Click on the *Export* button.
 
 .. figure:: images/sla-export.png
@@ -67,7 +70,7 @@ To export one or more service level agreements:
 
 To import a set of service level agreements:
 
-1. Select a corresponding file in the file picker in the *Import / Export* widget.
+1. Select a file using the file picker in the *Import / Export* widget.
 2. Optionally tick the *Override existing entities* checkbox.
 3. Click on the *SLAs Import* button.
 
