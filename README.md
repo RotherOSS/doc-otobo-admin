@@ -22,8 +22,8 @@ cd doc-otobo-admin
 Prerequisites
 -------------
 
-* **Python 3.10+**
-* **make** (standard on Linux/macOS; for Windows use MinGW or WSL)
+* Python3
+* `make` (standard on Linux/macOS; for Windows use MinGW or WSL)
 
 Quick Start
 -----------
@@ -32,16 +32,10 @@ Use the provided Makefile for the build.
 It will manage a virtual environment in `.venv` for you.
 
 ```bash
-make html
+make auto
 ```
 
-Once the build is complete, you will find the generated files in the ``_build/html/`` directory.
-Open the ``index.html`` file in your browser:
-
-```bash
-make show
-```
-
+Once the build is complete, it will open your browser and show the result.
 Call `help` to see all targets.
 
 ```bash
