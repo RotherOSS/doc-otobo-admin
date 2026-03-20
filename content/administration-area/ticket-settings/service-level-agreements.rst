@@ -1,11 +1,17 @@
 Service Level Agreements
 ========================
 
-Your organization must meet the time demands of your customers. Timely service matters. Response to questions, updates on issues, and solutions must be provided in an agreed amount of time. The agent must receive notification of possible breaches, to prevent ticket escalation.
+Your organization must meet the time demands of your customers.
+Timely service matters.
+Response to questions, updates on issues, and solutions must be provided in an agreed amount of time.
+The agent must receive notification of possible breaches, to prevent ticket escalation.
 
-OTOBO scales well with your needs and offers management of service level agreements (SLAs). OTOBO provides you with the possibility to create numerous service level agreements covering all of your service and customer need. Each :term:`SLA` can cover multiple services and define the availability of service and escalation periods.
+OTOBO scales well with your needs and offers management of service level agreements (SLAs). OTOBO provides you with the possibility to create numerous service level agreements covering all of your service and customer need.
+Each :term:`SLA` can cover multiple services and define the availability of service and escalation periods.
 
-Use this screen to add service level agreements to the system. A fresh OTOBO installation doesn't contain any service level agreements by default. The service level agreement management screen is available in the *Service Level Agreements* module of the *Ticket Settings* group.
+Use this screen to add service level agreements to the system.
+A fresh OTOBO installation doesn't contain any service level agreements by default.
+The service level agreement management screen is available in the *Service Level Agreements* module of the *Ticket Settings* group.
 
 .. figure:: images/sla-management.png
    :alt: Service Level Agreement Management Screen
@@ -14,7 +20,8 @@ Use this screen to add service level agreements to the system. A fresh OTOBO ins
 
 .. seealso::
 
-   To use this feature, ``Ticket::Service`` must be activated in the :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message of the notification bar to directly jump to the configuration setting.
+   To use this feature, ``Ticket::Service`` must be activated in the :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens.
+   You may click on the link in the warning message of the notification bar to directly jump to the configuration setting.
 
 
 Manage Service Level Agreements
@@ -22,7 +29,8 @@ Manage Service Level Agreements
 
 .. note::
 
-   Adding service level agreements requires, that at least one service is added to the system. Create services in the :doc:`services` screen.
+   Adding service level agreements requires, that at least one service is added to the system.
+   Create services in the :doc:`services` screen.
 
 To add a service level agreement:
 
@@ -37,7 +45,8 @@ To add a service level agreement:
 
 .. warning::
 
-   Service level agreements can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
+   Service level agreements can not be deleted from the system.
+   They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
 
 To edit a service level agreement:
 
@@ -58,16 +67,20 @@ To edit a service level agreement:
 Service Level Agreement Settings
 --------------------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 SLA \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Service
    Select one or more of the :doc:`services` to be assigned to this SLA.
 
 Calendar
-   Select the calendar which defines working hours for this queue. Calendars are defined in the :doc:`../administration/system-configuration`.
+   Select the calendar which defines working hours for this queue.
+   Calendars are defined in the :doc:`../administration/system-configuration`.
 
 Escalation - first response time (minutes)
    The maximum amount of working time allowed before the agent contacts with the customer.
@@ -96,10 +109,12 @@ Notify by
     Notify before time limit is reached (in percent).
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Comment
-   Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
+   Add additional information to this resource.
+   It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
 Dialog message
    Is being displayed if a customer chooses this SLA on ticket creation (only in the external interface).

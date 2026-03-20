@@ -1,11 +1,15 @@
 Agents ↔ Groups
 ===============
 
-Efficient and straightforward management of permissions is essential in a growing business. Easy assignment of a particular user to a group for quick access, or to remove access, to resources is a must in every case.
+Efficient and straightforward management of permissions is essential in a growing business.
+Easy assignment of a particular user to a group for quick access, or to remove access, to resources is a must in every case.
 
-The OTOBO interface provides you both with the possibility to manage an agent's access to one or more particular groups. As well, you can change multiple users access to any one group, efficiently and elegantly.
+The OTOBO interface provides you both with the possibility to manage an agent's access to one or more particular groups.
+As well, you can change multiple users access to any one group, efficiently and elegantly.
 
-Use this screen to add one or more agents to one or more groups. To use this function, at least one agent and one group need to have been added to the system. The management screen is available in the *Agents ↔ Groups* module of the *Users, Groups & Roles* group.
+Use this screen to add one or more agents to one or more groups.
+To use this function, at least one agent and one group need to have been added to the system.
+The management screen is available in the *Agents ↔ Groups* module of the *Users, Groups & Roles* group.
 
 .. figure:: images/agent-group-management.png
    :alt: Manage Agent-Group Relations
@@ -42,7 +46,8 @@ To assign some agents to a group:
 
    If several agents or groups are added to the system, use the filter box to find a particular agent or group by just typing the name to filter.
 
-Multiple agents or groups can be assigned in both screens at the same time. Additionally clicking on an agent or clicking on a group in the relations screen will open the *Edit Agent* screen or the *Edit Group* screen accordingly.
+Multiple agents or groups can be assigned in both screens at the same time.
+Additionally clicking on an agent or clicking on a group in the relations screen will open the *Edit Agent* screen or the *Edit Group* screen accordingly.
 
 .. warning::
 
@@ -52,7 +57,8 @@ Multiple agents or groups can be assigned in both screens at the same time. Addi
 Agents ↔ Groups Relations Reference
 -----------------------------------
 
-When assigning an agent to a group or vice versa, several permissions can be set as connection between an agent and a group. The following permissions are available by default:
+When assigning an agent to a group or vice versa, several permissions can be set as connection between an agent and a group.
+The following permissions are available by default:
 
 ro
    Read only access to the ticket in this group/queue.
@@ -86,7 +92,9 @@ rw
 
 .. seealso::
 
-   Not all available permissions are shown by default. See ``System::Permission`` setting for permissions that can be added. These additional permissions can be added:
+   Not all available permissions are shown by default.
+   See ``System::Permission`` setting for permissions that can be added.
+   These additional permissions can be added:
 
    stats
       Gives access to the stats page.
@@ -114,4 +122,5 @@ rw
 
 .. note::
 
-   By setting a checkbox in the header of a column will set all the checkboxes in the selected column. By setting the checkbox in the last *rw* column will set all the checkboxes in the selected row.
+   By setting a checkbox in the header of a column will set all the checkboxes in the selected column.
+   By setting the checkbox in the last *rw* column will set all the checkboxes in the selected row.

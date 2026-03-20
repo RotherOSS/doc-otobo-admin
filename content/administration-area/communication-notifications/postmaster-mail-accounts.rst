@@ -1,11 +1,14 @@
 PostMaster Mail Accounts
 ========================
 
-Just as a company doesn't just have one department which receives traditional mail, your service desk will also serve multiple teams. Each team can have its physical email mailbox.
+Just as a company doesn't just have one department which receives traditional mail, your service desk will also serve multiple teams.
+Each team can have its physical email mailbox.
 
-OTOBO eases setup for email mailboxes. OTOBO manages polling one or multiple email mailboxes of any internet standard type.
+OTOBO eases setup for email mailboxes.
+OTOBO manages polling one or multiple email mailboxes of any internet standard type.
 
-Use this screen to add mail accounts to the system. The mail account management screen is available in the *PostMaster Mail Accounts* module of the *Communication & Notifications* group.
+Use this screen to add mail accounts to the system.
+The mail account management screen is available in the *PostMaster Mail Accounts* module of the *Communication & Notifications* group.
 
 .. figure:: images/postmaster-mail-account-management.png
    :alt: Mail Account Management Screen
@@ -14,13 +17,19 @@ Use this screen to add mail accounts to the system. The mail account management 
 
 .. warning::
 
-   When fetching mail, OTOBO deletes the mail from the POP or IMAP server. There is no option to also keep a copy on the server. If you want to retain a copy on the server, you should create forwarding rules on your mail server. Please consult your mail server documentation for details.
+   When fetching mail, OTOBO deletes the mail from the POP or IMAP server.
+   There is no option to also keep a copy on the server.
+   If you want to retain a copy on the server, you should create forwarding rules on your mail server.
+   Please consult your mail server documentation for details.
 
 .. note::
 
-   If you choose IMAP, you can specify a folder for collection. Selective dispatching of mails is then possible.
+   If you choose IMAP, you can specify a folder for collection.
+   Selective dispatching of mails is then possible.
 
-All data for the mail accounts are saved in the OTOBO database. The ``bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch`` command uses the settings in the database and fetches the mail. You can execute it manually to check if all your mail settings are working properly.
+All data for the mail accounts are saved in the OTOBO database.
+The ``bin/otobo.Console.pl Maint::PostMaster::MailAccountFetch`` command uses the settings in the database and fetches the mail.
+You can execute it manually to check if all your mail settings are working properly.
 
 On a default installation, the mail is fetched every 10 minutes when the OTOBO daemon is running.
 
@@ -68,10 +77,12 @@ To delete a mail account:
 Mail Account Settings
 ---------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 Type \*
-   There are different kind of protocols that are used for fetching mail. The following protocols are supported:
+   There are different kind of protocols that are used for fetching mail.
+   The following protocols are supported:
 
    - IMAP
    - IMAPS
@@ -88,13 +99,16 @@ Password \*
 
 Host \*
    The host name of the mail account.
-   Specify how the current article subject should be dealt with. The following methods are available:
+   Specify how the current article subject should be dealt with.
+   The following methods are available:
 
 IMAP Folder
-   The folder in the mail account to be fetched. Other folders remain untouched.
+   The folder in the mail account to be fetched.
+   Other folders remain untouched.
 
 Trusted \*
-   If *Yes* is selected, any ``X-OTOBO`` headers attached to an incoming message are evaluated and executed. Because the ``X-OTOBO`` header can execute some actions in the ticket system, you should set this option to *Yes* only for known senders.
+   If *Yes* is selected, any ``X-OTOBO`` headers attached to an incoming message are evaluated and executed.
+   Because the ``X-OTOBO`` header can execute some actions in the ticket system, you should set this option to *Yes* only for known senders.
 
    .. seealso::
       The ``X-OTOBO`` headers are explained in the filter conditions of :doc:`postmaster-filters`.
@@ -103,20 +117,26 @@ Dispatching \*
    The distribution of incoming messages can be controlled if they need to be sorted by queue or by the content of the *To:* field.
 
    Dispatching by email To: field
-      The system checks if a queue is linked with the address in the *To:* field of the incoming mail. You can link an address to a queue in the :doc:`email-addresses` screen. If the address in the *To:* field is linked with a queue, the new message will be sorted into the linked queue. If no link is found between the address in the *To:* field and any queue, then the message flows into the *Raw* queue in the system, which is the postmaster default queue after a default installation.
+      The system checks if a queue is linked with the address in the *To:* field of the incoming mail.
+      You can link an address to a queue in the :doc:`email-addresses` screen.
+      If the address in the *To:* field is linked with a queue, the new message will be sorted into the linked queue.
+      If no link is found between the address in the *To:* field and any queue, then the message flows into the *Raw* queue in the system, which is the postmaster default queue after a default installation.
 
       .. seealso::
 
          The postmaster default queue can be changed in system configuration setting ``PostmasterDefaultQueue``.
 
    Dispatching by selected Queue
-      All incoming messages will be sorted into the specified queue. The address where the mail was sent to is disregarded in this case.
+      All incoming messages will be sorted into the specified queue.
+      The address where the mail was sent to is disregarded in this case.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Comment
-   Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
+   Add additional information to this resource.
+   It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
 
 POP3 and IMAP OAuth2 Authentification
@@ -154,7 +174,8 @@ Go to https://portal.azure.com
 .. figure:: images/oauth2-004.png
    :alt: OAuth2 Azure Configuration
 
-**The mailbox user must be assigned to the application. You will need the Application ID lateron in OTOBO (Attention, the application ID of the "Enterprise APP" may differ from that of the "Application Registration". In this case, please use the Application/Client ID of the registration.).**
+**The mailbox user must be assigned to the application.
+You will need the Application ID lateron in OTOBO (Attention, the application ID of the "Enterprise APP" may differ from that of the "Application Registration". In this case, please use the Application/Client ID of the registration.).**
 
 .. figure:: images/oauth2-005.png
    :alt: OAuth2 Azure Configuration
@@ -179,7 +200,9 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
 .. figure:: images/oauth2-009.png
    :alt: OAuth2 Azure Configuration
 
-   Please add a new client secret and note the value (not the secret id) as we need it later. It will only appear during the creation and you will not be able to see it afterwards anymore. Apparently Microsoft only allows a time of validity for two years max.
+   Please add a new client secret and note the value (not the secret id) as we need it later.
+   It will only appear during the creation and you will not be able to see it afterwards anymore.
+   Apparently Microsoft only allows a time of validity for two years max.
 
 .. figure:: images/oauth2-010.png
    :alt: OAuth2 Azure Configuration
@@ -189,9 +212,11 @@ Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
 .. figure:: images/oauth2-011.png
    :alt: OAuth2 Azure Configuration
 
-   Please click on "Add permission" and choose Microsoft Graph, then new delegated permissions in the bar on the right. If Microsoft Graph is no show up as like in the screenshot.
+   Please click on "Add permission" and choose Microsoft Graph, then new delegated permissions in the bar on the right.
+   If Microsoft Graph is no show up as like in the screenshot.
 
-**The Azure configuration is now complete. Please check whether port 143 and 993 are enabled.**
+**The Azure configuration is now complete.
+Please check whether port 143 and 993 are enabled.**
 
 
 OTOBO OAuth2 Configuration
@@ -204,7 +229,8 @@ In the next step, add the ApplicationID/ClientID and the Client secret (You need
 .. figure:: images/oauth2-012.png
    :alt: OAuth2 Azure Configuration
 
-In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure``, please adjust the provider. For ``AuthURL`` and ``TokenURL``, the path **"common"** must be replaced by the TenantID.
+In the option ``OAuth2::MailAccount::Providers###MicrosoftAzure``, please adjust the provider.
+For ``AuthURL`` and ``TokenURL``, the path **"common"** must be replaced by the TenantID.
 
 .. figure:: images/oauth2-013.png
    :alt: OAuth2 Azure Configuration
@@ -214,11 +240,15 @@ Now the desired profile can be selected under Admin -> PostMaster Mail Account.
 .. figure:: images/oauth2-014.png
    :alt: OAuth2 Azure Configuration
 
-When you save your settings, you will be redirected to the Active Directory login.  If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox. Of course, it says IMAPOAuth2 and not IMAPS.
+When you save your settings, you will be redirected to the Active Directory login.
+If everything works as it is supposed to, you are redirected to the mail account overview after logging in and there is the corresponding mailbox.
+Of course, it says IMAPOAuth2 and not IMAPS.
 
 .. note::
 
-   it is important that you log in with the account that owns the mailbox. Otherwise errors can occur. Sometimes it is helpful to use a private tab for this.
+   it is important that you log in with the account that owns the mailbox.
+   Otherwise errors can occur.
+   Sometimes it is helpful to use a private tab for this.
 
 You can check on the console if fetching mails from the newly created account is successful:
 

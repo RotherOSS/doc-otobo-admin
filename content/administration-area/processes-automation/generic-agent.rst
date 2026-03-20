@@ -1,7 +1,8 @@
 Generic Agent
 =============
 
-Processing tickets requires often a workflow. Let's say "if-then" activities.
+Processing tickets requires often a workflow.
+Let's say "if-then" activities.
 
 If specific conditions match like:
 
@@ -14,9 +15,12 @@ Outlined activities must be performed like changing the ticket priority, moving 
 
 Also time-based activities can be required like cleaning up the spam-queue once a week.
 
-OTOBO supports this with the *Generic Agent*. Here, simple or compound time and event-based tasks are configurable in the OTOBO front end without the requirement to learn a scripting language. Depending on search criteria, and time or event criteria, tickets will automatically be acted upon.
+OTOBO supports this with the *Generic Agent*. Here, simple or compound time and event-based tasks are configurable in the OTOBO front end without the requirement to learn a scripting language.
+Depending on search criteria, and time or event criteria, tickets will automatically be acted upon.
 
-Use this screen to manage generic agent jobs in the system. A fresh OTOBO installation contains no generic agent jobs by default. The generic agent job management screen is available in the *Generic Agent* module of the *Processes & Automation* group.
+Use this screen to manage generic agent jobs in the system.
+A fresh OTOBO installation contains no generic agent jobs by default.
+The generic agent job management screen is available in the *Generic Agent* module of the *Processes & Automation* group.
 
 .. figure:: images/generic-agent-management.png
    :alt: Generic Agent Management Screen
@@ -67,7 +71,8 @@ To delete a generic agent job:
 Generic Agent Job Settings
 --------------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 
 General Job Settings
@@ -79,10 +84,13 @@ General Job Settings
    Job Settings - General
 
 Job Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Validity
-   Set the validity of this resource. This resource can be used in OTOBO only, if this field is set to *Yes*. Setting this field to *No* will disable the use of the resource.
+   Set the validity of this resource.
+   This resource can be used in OTOBO only, if this field is set to *Yes*. Setting this field to *No* will disable the use of the resource.
 
 
 Automatic Execution
@@ -96,13 +104,16 @@ Fill in this section to set the times for automatic execution of the job.
    Job Settings - Automatic Execution
 
 Schedule minutes
-   Select the minutes in which the job has to be executed. For example if *10* is selected, the job will be executed in every hour in 00:10, 01:10, 02:10, etc.
+   Select the minutes in which the job has to be executed.
+   For example if *10* is selected, the job will be executed in every hour in 00:10, 01:10, 02:10, etc.
 
 Schedule hours
-   Select the hours in which the job has to be executed. For example if *10* is selected for minutes and *02* is selected for hours, the job will be executed in every day in 02:10.
+   Select the hours in which the job has to be executed.
+   For example if *10* is selected for minutes and *02* is selected for hours, the job will be executed in every day in 02:10.
 
 Schedule days
-   Select the days in which the job has to be executed. For example if *10* is selected for minutes, *02* is selected for hours and *Fri* is selected for days, the job will be executed in every week in Friday 02:10.
+   Select the days in which the job has to be executed.
+   For example if *10* is selected for minutes, *02* is selected for hours and *Fri* is selected for days, the job will be executed in every week in Friday 02:10.
 
 
 Event Based Execution
@@ -116,7 +127,9 @@ Fill in this section to set events that trigger the execution of the job.
    Job Settings - Event Based Execution
 
 Event Triggers
-   This is a list of already added events. If no events are added yet, the list contains no elements. Elements can be deleted by clicking on the trash icon in the last column.
+   This is a list of already added events.
+   If no events are added yet, the list contains no elements.
+   Elements can be deleted by clicking on the trash icon in the last column.
 
 Add Event Trigger
    Select an object and a related event that will trigger the job.
@@ -163,7 +176,9 @@ Send agent/customer notifications on changes
    If *Yes* is selected, a notification will be sent to agents and customers about ticket changes.
 
 CMD
-   Enter a command here, that will be executed. ARG[0] will be the ticket number. ARG[1] the ticket ID.
+   Enter a command here, that will be executed.
+   ARG[0] will be the ticket number.
+   ARG[1] the ticket ID.
 
    .. note::
 

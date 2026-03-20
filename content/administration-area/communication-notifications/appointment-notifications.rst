@@ -1,7 +1,8 @@
 Appointment Notifications
 =========================
 
-Missing appointments can damage your image with a customer. Once there is an appointment assigned in the calendar, it’s normal to receive notification:
+Missing appointments can damage your image with a customer.
+Once there is an appointment assigned in the calendar, it’s normal to receive notification:
 
 - Upon a new or changed event
 - Upon cancellation of an event
@@ -9,9 +10,13 @@ Missing appointments can damage your image with a customer. Once there is an app
 
 Notification relieves the agent the stress of mentally tracking appointments.
 
-OTOBO appointment notifications satisfies this need. Here an administrator can easily set notifications with general rules, including trigger events and filters. Afterward, appointments fitting the bill notify the correct users at the correct time.
+OTOBO appointment notifications satisfies this need.
+Here an administrator can easily set notifications with general rules, including trigger events and filters.
+Afterward, appointments fitting the bill notify the correct users at the correct time.
 
-Use this screen to add appointment notifications to the system. In a fresh OTOBO installation an appointment reminder notification is already added by default. The appointment notification management screen is available in the *Appointment Notifications* module of the *Communication & Notifications* group.
+Use this screen to add appointment notifications to the system.
+In a fresh OTOBO installation an appointment reminder notification is already added by default.
+The appointment notification management screen is available in the *Appointment Notifications* module of the *Communication & Notifications* group.
 
 .. figure:: images/appointment-notification-management.png
    :alt: Appointment Notification Management Screen
@@ -60,7 +65,8 @@ To import appointment notifications:
 Appointment Notification Settings
 ---------------------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 .. seealso::
 
@@ -76,22 +82,29 @@ Basic Appointment Notification Settings
    Appointment Notification Settings - Basic
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Comment
-   Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
+   Add additional information to this resource.
+   It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
 Show in agent preferences
-   Define how the notification should be displayed in agent preferences. The following options are available:
+   Define how the notification should be displayed in agent preferences.
+   The following options are available:
 
    No
-      The notification won't be displayed in agent preferences. The notification is sent to all appropriate agents by the defined method.
+      The notification won't be displayed in agent preferences.
+      The notification is sent to all appropriate agents by the defined method.
 
    Yes
-      The notification will be displayed in agent preferences for selection. The agents may opt-in or opt-out.
+      The notification will be displayed in agent preferences for selection.
+      The agents may opt-in or opt-out.
 
    Yes, but require at least one active notification method.
-      The notification will be displayed in agent preferences, but require at least one active notification method. This is annotated by an asterisk next to the name.
+      The notification will be displayed in agent preferences, but require at least one active notification method.
+      This is annotated by an asterisk next to the name.
 
    .. figure:: images/appointment-notification-persnoal-setting.png
       :alt: Personal Appointment Notification Settings
@@ -102,7 +115,8 @@ Agent preferences tooltip
    This message will be shown on the agent preferences screen as a tooltip for this notification.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 
 Appointment Events
@@ -114,7 +128,8 @@ Appointment Events
    Appointment Notification Settings - Events
 
 Event \*
-   Here you can choose which events will trigger this notification. An additional appointment filter can be applied below to only send for appointments with certain criteria.
+   Here you can choose which events will trigger this notification.
+   An additional appointment filter can be applied below to only send for appointments with certain criteria.
 
    Possible events are:
 
@@ -128,7 +143,8 @@ Event \*
      Executed after an appointment has been deleted.
 
    ``AppointmentNotification``
-     This is a special appointment event that will be executed by the OTOBO daemon in time. If an appointment contains a date/time value for notifications, as already described in this documentation, and such a notification date is reached, the OTOBO daemon will execute this kind of event for every related appointment separately.
+     This is a special appointment event that will be executed by the OTOBO daemon in time.
+     If an appointment contains a date/time value for notifications, as already described in this documentation, and such a notification date is reached, the OTOBO daemon will execute this kind of event for every related appointment separately.
 
    ``CalendarCreate``
      Executed after a calendar has been created.
@@ -169,7 +185,8 @@ Appointment Notification Recipients
    Appointment Notification Settings - Recipients
 
 Send to
-   Select which agents should receive the notifications. Possible values are:
+   Select which agents should receive the notifications.
+   Possible values are:
 
    - Agent (resources), who are selected within the appointment
    - All agents with (at least) read permission for the appointment (calendar)
@@ -188,7 +205,10 @@ Send on out of office
    If this option is checked, the notification will be sent even if the agent is currently out of office.
 
 Once per day
-   Notify users just once per day about a single appointment using a selected transport. If this is the first notification about an appointment, then the notification will be sent. If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent. If there was no notification sent in the last 24 hours, the notification will be sent again.
+   Notify users just once per day about a single appointment using a selected transport.
+   If this is the first notification about an appointment, then the notification will be sent.
+   If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent.
+   If there was no notification sent in the last 24 hours, the notification will be sent again.
 
 
 Appointment Notification Methods
@@ -200,13 +220,16 @@ Appointment Notification Methods
    Appointment Notification Settings - Notification Methods
 
 Enable this notification method
-   Enable or disable this notification method. A notification method can be email, web view or SMS.
+   Enable or disable this notification method.
+   A notification method can be email, web view or SMS.
 
 Active by default in agent preferences
-   This is the default value for assigned recipient agents who didn't make a choice for this notification in their preferences yet. If the box is enabled, the notification will be sent to such agents.
+   This is the default value for assigned recipient agents who didn't make a choice for this notification in their preferences yet.
+   If the box is enabled, the notification will be sent to such agents.
 
 Additional recipient email addresses
-   Additional recipients can be added here. Use comma or semicolon to separate the email addresses.
+   Additional recipients can be added here.
+   Use comma or semicolon to separate the email addresses.
 
 Article visible for customer
    An article will be created if the notification is sent to the customer or an additional email address.
@@ -226,25 +249,32 @@ Enable email security
       To use this feature, :doc:`pgp-keys` or :doc:`s-mime-certificates` need to be enabled.
 
 Email security level
-   If *Enable email security* is checked, then this setting is activated. The following options are available:
+   If *Enable email security* is checked, then this setting is activated.
+   The following options are available:
 
    PGP sign only
-      Sign only the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible.
+      Sign only the notification email with PGP key.
+      If no PGP keys have been added to the system, this option is not visible.
 
    PGP encrypt only
-      Encrypt only the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible.
+      Encrypt only the notification email with PGP key.
+      If no PGP keys have been added to the system, this option is not visible.
 
    PGP sign and encrypt
-      Sign and encrypt the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible.
+      Sign and encrypt the notification email with PGP key.
+      If no PGP keys have been added to the system, this option is not visible.
 
    SMIME sign only
-      Sign only the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible.
+      Sign only the notification email with S/MIME certificate.
+      If no S/MIME certificates have been added to the system, this option is not visible.
 
    SMIME encrypt only
-      Encrypt only the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible.
+      Encrypt only the notification email with S/MIME certificate.
+      If no S/MIME certificates have been added to the system, this option is not visible.
 
    SMIME sign and encrypt
-      Sign and encrypt the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible.
+      Sign and encrypt the notification email with S/MIME certificate.
+      If no S/MIME certificates have been added to the system, this option is not visible.
 
    .. note::
 
@@ -265,7 +295,8 @@ Appointment Notification Text
 
    Appointment Notification Settings - Notification Text
 
-The main content of a notification can be added for each languages with localized subject and body text. It is also possible to define static text content mixed with OTOBO smart tags.
+The main content of a notification can be added for each languages with localized subject and body text.
+It is also possible to define static text content mixed with OTOBO smart tags.
 
 Subject \*
    The localized subject for a specific language.
@@ -274,17 +305,23 @@ Text \*
    The localized body text for a specific language.
 
 Add new notification language
-   Select which languages should be added to create localized notifications. The language of the customer or agent will be used as found in the customer and agent preferences. Secondarily, the system default language will be chosen. The fall back will always be English.
+   Select which languages should be added to create localized notifications.
+   The language of the customer or agent will be used as found in the customer and agent preferences.
+   Secondarily, the system default language will be chosen.
+   The fall back will always be English.
 
 .. warning::
 
-   Deleting a language in ``DefaultUsedLanguages`` setting that already has a notification text here will make the notification text unusable. If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore.
+   Deleting a language in ``DefaultUsedLanguages`` setting that already has a notification text here will make the notification text unusable.
+   If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore.
 
 
 Appointment Notification Variables
 ----------------------------------
 
-Using variables in the text makes it possible to personalize messages. Variables, known as OTOBO tags, are replaced by OTOBO when generating the message. Find a list of available tags stems for this resource at the bottom of both add and edit screens.
+Using variables in the text makes it possible to personalize messages.
+Variables, known as OTOBO tags, are replaced by OTOBO when generating the message.
+Find a list of available tags stems for this resource at the bottom of both add and edit screens.
 
 .. figure:: images/appointment-notification-variables.png
    :alt: Appointment Notification Variables

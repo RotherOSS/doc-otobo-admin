@@ -1,11 +1,16 @@
 Agents
 ======
 
-Agent and access management for your service desk should be easy. Flexibility in adding, editing, invalidating access and a quick overview of which permissions a user has will help you maintain a clean permissions system and record of your setup in OTOBO.
+Agent and access management for your service desk should be easy.
+Flexibility in adding, editing, invalidating access and a quick overview of which permissions a user has will help you maintain a clean permissions system and record of your setup in OTOBO.
 
-OTOBO aids you giving you the power to manage agents within OTOBO across multiple back ends. OTOBO can use up-to ten back end sources, even marking some as read-only. Managing user settings centrally, an administrator can quickly invalidate a compromised account or set an account to out-of-office in case of an unexpected illness.
+OTOBO aids you giving you the power to manage agents within OTOBO across multiple back ends.
+OTOBO can use up-to ten back end sources, even marking some as read-only.
+Managing user settings centrally, an administrator can quickly invalidate a compromised account or set an account to out-of-office in case of an unexpected illness.
 
-Use this screen to add agents to the system. A fresh OTOBO installation contains an agent with administrator privileges by default. The agent management screen is available in the *Agents* module of the *Users, Groups & Roles* group.
+Use this screen to add agents to the system.
+A fresh OTOBO installation contains an agent with administrator privileges by default.
+The agent management screen is available in the *Agents* module of the *Users, Groups & Roles* group.
 
 .. figure:: images/agent-management.png
    :alt: Agent Management Screen
@@ -14,7 +19,10 @@ Use this screen to add agents to the system. A fresh OTOBO installation contains
 
 .. warning::
 
-   The superuser account username is *root@localhost*. Don't use the superuser account to work with OTOBO! Create new agents and work with these accounts instead. One of the adverse effects is that :doc:`../processes-automation/access-control-lists` will not have an effect on this user.
+   The superuser account username is *root@localhost*.
+   Don't use the superuser account to work with OTOBO!
+   Create new agents and work with these accounts instead.
+   One of the adverse effects is that :doc:`../processes-automation/access-control-lists` will not have an effect on this user.
 
 
 Manage Agents
@@ -22,7 +30,9 @@ Manage Agents
 
 .. note::
 
-   Adding or editing an agent is possible only by using database back end. Using explicitly external directory services like LDAP and, based on configuration, some databases are read-only. Personal preferences like out-of-office can still be set.
+   Adding or editing an agent is possible only by using database back end.
+   Using explicitly external directory services like LDAP and, based on configuration, some databases are read-only.
+   Personal preferences like out-of-office can still be set.
 
 To add an agent:
 
@@ -37,7 +47,8 @@ To add an agent:
 
 .. warning::
 
-   Agents can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
+   Agents can not be deleted from the system.
+   They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
 
 To edit an agent:
 
@@ -50,7 +61,8 @@ To edit an agent:
 
    Edit Agent Screen
 
-It is also possible to edit the agent personal preferences. To do this, click on the *Edit personal preferences for this agent* button in the left sidebar of the *Edit Agent* screen.
+It is also possible to edit the agent personal preferences.
+To do this, click on the *Edit personal preferences for this agent* button in the left sidebar of the *Edit Agent* screen.
 
 To find an agent:
 
@@ -59,9 +71,12 @@ To find an agent:
 
 .. note::
 
-   If several agents are added to the system, use the search box to find a particular agent. Only the first 1000 agents are listed by default.
+   If several agents are added to the system, use the search box to find a particular agent.
+   Only the first 1000 agents are listed by default.
 
-The agent permissions can be controlled by adding an agent to :doc:`groups` or :doc:`roles`. This can result a complex matrix of permissions. The effective permissions for an agent can be checked in the bottom of the *Edit Agent* screen. If roles (recommended) are used, this screen will reflect the combined permissions as dictated by the roles.
+The agent permissions can be controlled by adding an agent to :doc:`groups` or :doc:`roles`. This can result a complex matrix of permissions.
+The effective permissions for an agent can be checked in the bottom of the *Edit Agent* screen.
+If roles (recommended) are used, this screen will reflect the combined permissions as dictated by the roles.
 
 .. figure:: images/agent-effective-permission.png
    :alt: Effective Permissions for Agent Widget
@@ -72,7 +87,8 @@ The agent permissions can be controlled by adding an agent to :doc:`groups` or :
 Agent Settings
 --------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 .. note::
 
@@ -95,20 +111,24 @@ Username \*
    The username of the agent to login to the system.
 
 Password
-   The password of the agent. This will be auto-generated if left empty.
+   The password of the agent.
+   This will be auto-generated if left empty.
 
 Email \*
    The email address of the agent.
 
    .. note::
 
-      The email syntax and validity of an available MX record could prevent you from submitting this form. For some systems it may be acceptable to turn off these checks. See the :ref:`Agent Configuration Options`.
+      The email syntax and validity of an available MX record could prevent you from submitting this form.
+      For some systems it may be acceptable to turn off these checks.
+      See the :ref:`Agent Configuration Options`.
 
 Mobile
    The mobile phone number of the agent.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 
 Agent Back End Sources
@@ -124,11 +144,13 @@ Agents can be read and synchronized from an Active Directory® or LDAP server.
 Agent Authentication Back End
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The users table houses your agent data per default. You may attach a directory server (LDAP/Active Directory) to your installation for authentication. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
+The users table houses your agent data per default.
+You may attach a directory server (LDAP/Active Directory) to your installation for authentication.
+To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
 
 .. code-block:: perl
 
-   # This is an example configuration for an LDAP auth. backend.
+   # This is an example configuration for an LDAP authentication backend.
    # (take care that Net::LDAP is installed!)
    #    $Self->{AuthModule} = 'Kernel::System::Auth::LDAP';
    #    $Self->{'AuthModule::LDAP::Host'} = 'ldap.example.com';
@@ -149,18 +171,20 @@ The users table houses your agent data per default. You may attach a directory s
    #    $Self->{'AuthModule::LDAP::SearchUserDN'} = '';
    #    $Self->{'AuthModule::LDAP::SearchUserPw'} = '';
 
-   # in case you want to add always one filter to each ldap query, use
-   # this option. e. g. AlwaysFilter => '(mail=*)' or AlwaysFilter => '(objectclass=user)'
+   # In case you want to add always one filter to each ldap query, use this option.
+   # E.g.:  AlwaysFilter => '(mail=*)' or AlwaysFilter => '(objectclass=user)'
    # or if you want to filter with a locigal OR-Expression, like AlwaysFilter => '(|(mail=*abc.com)(mail=*xyz.com))'
    #    $Self->{'AuthModule::LDAP::AlwaysFilter'} = '';
 
-   # in case you want to add a suffix to each login name, then
-   # you can use this option. e. g. user just want to use user but
+   # In case you want to add a suffix to each login name,
+   # then you can use this option.
+   # E.g., user just want to use user but
    # in your ldap directory exists user@domain.
    #    $Self->{'AuthModule::LDAP::UserSuffix'} = '@domain.com';
 
    # In case you want to convert all given usernames to lower letters you
-   # should activate this option. It might be helpful if databases are
+   # should activate this option.
+   # It might be helpful if databases are
    # in use that do not distinguish selects for upper and lower case letters
    # (Oracle, postgresql). User might be synched twice, if this option
    # is not in use.
@@ -223,7 +247,8 @@ To use multiple back ends, add an additional section of the example code to the 
 
 .. warning::
 
-   All back ends will are used in succession. The UID must be unique to all back ends, otherwise some side effects may occur.
+   All back ends will are used in succession.
+   The UID must be unique to all back ends, otherwise some side effects may occur.
 
 To synchronize with a specific directory server (see :ref:`Agent User Data` below), you must add the appropriate setting to your :ref:`Agent Authentication Back End`. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
 
@@ -247,17 +272,19 @@ Reuse of an :ref:`Agent Synchronization Back End` is also possible.
 Agent Synchronization Back End
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server.
+It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization.
+Additionally, groups and roles can be added automatically using security objects of the directory server.
 
 
 Agent User Data
 ^^^^^^^^^^^^^^^
 
-Syncing user data upon login. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
+Syncing user data upon login.
+To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
 
 .. code-block:: perl
 
-   # This is an example configuration for an LDAP auth sync. backend.
+   # This is an example configuration for an LDAP auth sync backend.
    # (take care that Net::LDAP is installed!)
    #    $Self->{AuthSyncModule} = 'Kernel::System::Auth::Sync::LDAP';
    #    $Self->{'AuthSyncModule::LDAP::Host'} = 'ldap.example.com';
@@ -269,15 +296,16 @@ Syncing user data upon login. To achieve this copy the following block from the 
    #    $Self->{'AuthSyncModule::LDAP::SearchUserDN'} = '';
    #    $Self->{'AuthSyncModule::LDAP::SearchUserPw'} = '';
 
-   # in case you want to add always one filter to each ldap query, use
-   # this option. e. g. AlwaysFilter => '(mail=*)' or AlwaysFilter => '(objectclass=user)'
+   # In case you want to add always one filter to each ldap query, use this option.
+   # E.g. AlwaysFilter => '(mail=*)' or AlwaysFilter => '(objectclass=user)'
    # or if you want to filter with a logical OR-Expression, like AlwaysFilter => '(|(mail=*abc.com)(mail=*xyz.com))'
    #    $Self->{'AuthSyncModule::LDAP::AlwaysFilter'} = '';
 
    # AuthSyncModule::LDAP::UserSyncMap
    # (map if agent should create/synced from LDAP to DB after successful login)
    # you may specify LDAP-Fields as either
-   #  * list, which will check each field. first existing will be picked ( ["givenName","cn","_empty"] )
+   #  * list, which will check each field.
+   #    First existing will be picked ( ["givenName","cn","_empty"] )
    #  * name of an LDAP-Field (may return empty strings) ("givenName")
    #  * fixed strings, prefixed with an underscore: "_test", which will always return this fixed string
    #    $Self->{'AuthSyncModule::LDAP::UserSyncMap'} = {
@@ -311,13 +339,16 @@ The minimum required to connect to a directory server is:
 
 .. note::
 
-   Multiple :ref:`Agent Synchronization Back End` blocks can be used. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end. Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`.
+   Multiple :ref:`Agent Synchronization Back End` blocks can be used.
+   Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end.
+   Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`.
 
 
 Agent Group Data
 ^^^^^^^^^^^^^^^^
 
-It is possible to use security objects to synchronize users to OTOBO groups. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
+It is possible to use security objects to synchronize users to OTOBO groups.
+To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
 
 .. note::
 
@@ -327,7 +358,8 @@ It is possible to use security objects to synchronize users to OTOBO groups. To 
 Agent Role Data
 ^^^^^^^^^^^^^^^
 
-It is possible to use security objects to synchronize users to OTOBO roles. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
+It is possible to use security objects to synchronize users to OTOBO roles.
+To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
 
 .. note::
 

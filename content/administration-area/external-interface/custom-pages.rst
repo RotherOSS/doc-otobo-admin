@@ -1,9 +1,14 @@
 Custom Pages
 ============
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
+.. note::
 
-Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group.
+   Rother OSS TODO: This feature will be included in one of the next OTOBO releases.
+   If you need it beforehand, please contact sales@otobo.de, we will find a solution.
+
+Use this screen to add custom pages for use in external interface.
+A fresh OTOBO installation already contains some custom pages by default.
+The custom page management screen is available in the *Custom Pages* module of the *External Interface* group.
 
 .. figure:: images/custom-page-management.png
    :alt: Custom Page Management Screen
@@ -16,7 +21,8 @@ Manage Custom Pages
 
 .. warning::
 
-   Make sure to save your changes when you finish. The new configuration will be immediately deployed.
+   Make sure to save your changes when you finish.
+   The new configuration will be immediately deployed.
 
 To add a custom page:
 
@@ -58,25 +64,32 @@ To delete a custom page:
 Custom Page Settings
 --------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 Internal Title \*
-   The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource, that is only displayed in the admin interface.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Slug \*
-   This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign.
+   This will be the URL of the custom page.
+   Recommended characters are lowercase letters, numbers and minus sign.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Custom Page Content
    In this widget can be added some localized content for the item.
 
    Title \*
-      The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces.
+      The name of this resource in the given language.
+      Any type of characters can be entered to this field including uppercase letters and spaces.
 
    Content \*
       The text for this item in the given language.
 
    Add new custom page content
-      Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above.
+      Select which languages should be added to create localized item content.
+      All added languages can hold its own localized content, that are explained above.

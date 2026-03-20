@@ -1,13 +1,18 @@
 Process Management
 ==================
 
-Maximizing performance while minimizing human error is a requirement of organizations of all sizes. This need is covered by defined processes and workflows, for recurring tasks. Ensuring all required information is available in the right place, and contacts are informed about their responsibilities like adding information, approving requests, etc.
+Maximizing performance while minimizing human error is a requirement of organizations of all sizes.
+This need is covered by defined processes and workflows, for recurring tasks.
+Ensuring all required information is available in the right place, and contacts are informed about their responsibilities like adding information, approving requests, etc.
 
-OTOBO supports this requirement by process management. Process tickets help by using the required mandatory and optional fields (see :doc:`dynamic-fields`) that information is not forgotten upon ticket creation or during later steps of the process. Process tickets are simple to handle for customer users and agents, so no intensive training is required.
+OTOBO supports this requirement by process management.
+Process tickets help by using the required mandatory and optional fields (see :doc:`dynamic-fields`) that information is not forgotten upon ticket creation or during later steps of the process.
+Process tickets are simple to handle for customer users and agents, so no intensive training is required.
 
 Processes are designed completely and efficiently within the OTOBO front end to fit the requirements of your organization.
 
-Use this screen to manage processes in the system. The process management screen is available in the *Process Management* module of the *Processes & Automation* group.
+Use this screen to manage processes in the system.
+The process management screen is available in the *Process Management* module of the *Processes & Automation* group.
 
 
 Manage Processes
@@ -43,16 +48,20 @@ To delete a process:
 
 1. Click on a process in the list of processes.
 2. Set the *State* option to *Inactive*.
-3. Click on the *Save* button. A new *Delete Inactive Process* button will appear in the left sidebar.
+3. Click on the *Save* button.
+   A new *Delete Inactive Process* button will appear in the left sidebar.
 4. Click on the *Delete Inactive Process* button.
 5. Click on the *Delete* button in the confirmation screen.
 6. Deploy all processes.
 
 .. warning::
 
-   Processes are written into file in Perl format. Without deploying, all processes are still in this cache file even if they are deleted or the *State* option is set to *Inactive* or *FadeAway*. Don't forget to deploy all processes after modifications!
+   Processes are written into file in Perl format.
+   Without deploying, all processes are still in this cache file even if they are deleted or the *State* option is set to *Inactive* or *FadeAway*. Don't forget to deploy all processes after modifications!
 
-Give some time for agents to complete the running process tickets before the process will be deleted. It is possible to mark a process for deletion, i. e. set the process as not to be selected anymore. Process states can be:
+Give some time for agents to complete the running process tickets before the process will be deleted.
+It is possible to mark a process for deletion, i. e. set the process as not to be selected anymore.
+Process states can be:
 
 Active
    Processes can be used in new process tickets.
@@ -69,7 +78,8 @@ To deploy all processes:
 
 .. note::
 
-   New or modified processes have to deploy in order to make affect the behavior of the system. Setting the *State* option to *Active* just indicates, which processes should be deployed.
+   New or modified processes have to deploy in order to make affect the behavior of the system.
+   Setting the *State* option to *Active* just indicates, which processes should be deployed.
 
 To export a process:
 
@@ -78,7 +88,10 @@ To export a process:
 
 .. warning::
 
-   The exported file contains only the process itself, and doesn't contain the :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents`, :doc:`dynamic-fields`, etc. needed for the process.
+   The exported file contains only the process itself,
+   and doesn't contain the :doc:`../ticket-settings/queues`,
+   :doc:`../users-groups-roles/agents`,
+   :doc:`dynamic-fields`, etc., needed for the process.
 
 To import a process:
 
@@ -89,7 +102,8 @@ To import a process:
 
 .. note::
 
-   Before import of a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import. If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually.
+   Before import of a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import.
+   If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually.
 
 .. note::
 
@@ -99,7 +113,8 @@ To import a process:
 Process Elements
 ----------------
 
-The element names of the process modeler have been adapted to the *Business Process Model and Notation* (BPMN) ISO naming convention. The following task activities can be used as basic elements of the process.
+The element names of the process modeler have been adapted to the *Business Process Model and Notation* (BPMN) ISO naming convention.
+The following task activities can be used as basic elements of the process.
 
 Script task activity
    Script task activity is executed by the process management module and it can set dynamic field values or manage tickets automatically.
@@ -109,10 +124,12 @@ Script task activity
 
       Script Task Activity Window
 
-   The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+   The following settings are available when adding or editing this resource.
+   The fields marked with an asterisk are mandatory.
 
    Activity name \*
-      The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces.
+      The name of this resource.
+      Any type of characters can be entered to this field including uppercase letters and spaces.
 
    Activity type \*
       The following types of task activities can be used:
@@ -122,20 +139,24 @@ Script task activity
       - User task activity
 
    Activity description
-      Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity.
+      Add additional information to this resource.
+      It is recommended to always fill this field as a description of the resource with a full sentence for better clarity.
 
    Activity error code
-      Define a custom error code for script or service task activities. The custom error code must be a positive integer number.
+      Define a custom error code for script or service task activities.
+      The custom error code must be a positive integer number.
 
    Can start processes in
-      Defines, where can the processes be started by the agents or customer users. A process can be started in the following interfaces:
+      Defines, where can the processes be started by the agents or customer users.
+      A process can be started in the following interfaces:
 
       - Agent Interface
       - Agent and External Interface
       - External Interface
 
    Script \*
-      In this drop-down can be selected which script should be triggered immediately if the activity is set. Click on the *Configure* button to add parameters (key-value pairs) for the script.
+      In this drop-down can be selected which script should be triggered immediately if the activity is set.
+      Click on the *Configure* button to add parameters (key-value pairs) for the script.
 
 Service task activity
    Service task activity uses a web service to complete the task.
@@ -145,10 +166,12 @@ Service task activity
 
       Service Task Activity Window
 
-   The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+   The following settings are available when adding or editing this resource.
+   The fields marked with an asterisk are mandatory.
 
    Activity name \*
-      The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces.
+      The name of this resource.
+      Any type of characters can be entered to this field including uppercase letters and spaces.
 
    Activity type \*
       The following types of task activities can be used:
@@ -158,13 +181,16 @@ Service task activity
       - User task activity
 
    Activity description
-      Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity.
+      Add additional information to this resource.
+      It is recommended to always fill this field as a description of the resource with a full sentence for better clarity.
 
    Activity error code
-      Define a custom error code for script or service task activities. The custom error code must be a positive integer number.
+      Define a custom error code for script or service task activities.
+      The custom error code must be a positive integer number.
 
    Can start processes in
-      Defines, where can the processes be started by the agents or customer users. A process can be started in the following interfaces:
+      Defines, where can the processes be started by the agents or customer users.
+      A process can be started in the following interfaces:
 
       - Agent Interface
       - Agent and External Interface
@@ -174,7 +200,8 @@ Service task activity
       Select one of the :doc:`web-services` from the drop-down list.
 
    Invoker \*
-      Select an invoker for the web service. Click on the *Configure* button to add parameters for the invoker.
+      Select an invoker for the web service.
+      Click on the *Configure* button to add parameters for the invoker.
 
 User task activity
    User task activity can be used when the task is being done by an agent or a customer user.
@@ -184,10 +211,12 @@ User task activity
 
       User Task Activity Window
 
-   The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+   The following settings are available when adding or editing this resource.
+   The fields marked with an asterisk are mandatory.
 
    Activity name \*
-      The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces.
+      The name of this resource.
+      Any type of characters can be entered to this field including uppercase letters and spaces.
 
    Activity type \*
       The following types of task activities can be used:
@@ -197,7 +226,8 @@ User task activity
       - User task activity (selected for now)
 
    Activity Dialogs
-      You can assign activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list. Ordering the elements within the list is also possible by drag and drop.
+      You can assign activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list.
+      Ordering the elements within the list is also possible by drag and drop.
 
       Click on the *Create New Activity Dialog* button to create new dialogs.
 
@@ -205,7 +235,11 @@ User task activity
 Example process
 ---------------
 
-Processes are more complex than other resources in OTOBO. To create a process, you need to do several steps. The following chapters show you, how to define a process from the specification and create the needed resources. Let's see an example to make it more demonstrative. We will define a book order process.
+Processes are more complex than other resources in OTOBO.
+To create a process, you need to do several steps.
+The following chapters show you, how to define a process from the specification and create the needed resources.
+Let's see an example to make it more demonstrative.
+We will define a book order process.
 
 
 Process Specification
@@ -214,7 +248,8 @@ Process Specification
 The book order process has four states.
 
 Recording the demand
-   Before an order will be placed, the demand for literature by an employee will be recorded. The following book is needed in our example:
+   Before an order will be placed, the demand for literature by an employee will be recorded.
+   The following book is needed in our example:
 
    .. code-block:: none
 
@@ -223,13 +258,19 @@ Recording the demand
       ISBN: 35210.03713
 
 Approval by manager
-   The head of the employee's department needs to decide on the order. In case of a denial, a reason should be recorded by the manager. In case of approval, the order is passed to the purchasing department.
+   The head of the employee's department needs to decide on the order.
+   In case of a denial, a reason should be recorded by the manager.
+   In case of approval, the order is passed to the purchasing department.
 
 Processing by purchasing department
-   Purchasing now has the task to find out where the book can be ordered with the best conditions. If it is out of stock, this can be recorded in the order. In case of a successful order purchasing will record the supplier, the price and the delivery date.
+   Purchasing now has the task to find out where the book can be ordered with the best conditions.
+   If it is out of stock, this can be recorded in the order.
+   In case of a successful order purchasing will record the supplier, the price and the delivery date.
 
 Processing by the mail room
-   The shipment will arrive at the company. The incoming goods department checks the shipment and records the date of receipt. Now the employee will be informed that their order has arrived and is ready to be collected.
+   The shipment will arrive at the company.
+   The incoming goods department checks the shipment and records the date of receipt.
+   Now the employee will be informed that their order has arrived and is ready to be collected.
 
 
 Introduce The Process Elements
@@ -242,15 +283,19 @@ From the analysis of the example process we can identify the following necessary
 - Possibility to record data, let's call this :term:`activity dialog`.
 - Check which can react to changed data automatically, let's call this :term:`transition`.
 - Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`transition action`.
-- A possibility to offer more than just one activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`.
+- A possibility to offer more than just one activity dialog to be available.
+  In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`.
 
-Now, with activities, activity dialogs, transitions and transition actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`.
+Now, with activities, activity dialogs, transitions and transition actions we have the necessary tools to model the individual steps of our example.
+What is still missing is an area where for each workflow the order of the steps can be specified.
+Let's call this :term:`process`.
 
 
 Create Necessary Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Before the creation of the process and its parts is necessary to prepare the system. We need to define some :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields` as well as set some :doc:`../administration/system-configuration` settings.
+Before the creation of the process and its parts is necessary to prepare the system.
+We need to define some :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields` as well as set some :doc:`../administration/system-configuration` settings.
 
 Create the following :doc:`../ticket-settings/queues`:
 
@@ -326,27 +371,33 @@ Now, go back to the *Process Management* screen and click on the *Create New Pro
 
    Book Ordering - Create New Process
 
-The new process is created. You can add some process element now.
+The new process is created.
+You can add some process element now.
 
 
 Create Activity Dialogs
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on the *Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity Dialog* button.
+Click on the *Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar.
+This action will expand the *Activity Dialogs* options and will collapse all others doing an accordion like effect.
+Click on the *Create New Activity Dialog* button.
 
 .. figure:: images/process-management-book-ordering-02-user-task-activity-dialogs.png
    :alt: Book Ordering - Activity Dialogs
 
    Book Ordering - Activity Dialogs
 
-In the opened popup screen fill in the *Dialog Name* as well as the *Description (short)* fields. For this example we will leave all other fields as the default.
+In the opened popup screen fill in the *Dialog Name* as well as the *Description (short)* fields.
+For this example we will leave all other fields as the default.
 
 .. figure:: images/process-management-book-ordering-03-user-task-activity-dialog-add.png
    :alt: Book Ordering - Add Activity Dialog
 
    Book Ordering - Add Activity Dialog
 
-To assign fields to the activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place.
+To assign fields to the activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool.
+The order in the *Assigned Fields* pool is the order as the fields will have in the screen.
+To modify the order simply drag and drop the field within the pool to rearrange it in the correct place.
 
 In this example we will use:
 
@@ -365,7 +416,8 @@ Drag these fields from the *Available Fields* pool and drop into the *Assigned F
 
    Book Ordering - Add Activity Dialog Fields
 
-As soon as the fields are dropped into the *Assigned Fields* pool another popup screen is shown with some details about the field. We will leave the default options and only for ``Article`` fields we should make sure that the *Communication Channel* field is set to *OTOBO* and that the *Is visible for customer* is not checked.
+As soon as the fields are dropped into the *Assigned Fields* pool another popup screen is shown with some details about the field.
+We will leave the default options and only for ``Article`` fields we should make sure that the *Communication Channel* field is set to *OTOBO* and that the *Is visible for customer* is not checked.
 
  .. figure:: images/process-management-book-ordering-05-user-task-activity-dialog-fields-edit.png
    :alt: Book Ordering - Edit Activity Dialog Fields
@@ -410,14 +462,17 @@ Create the following activity dialogs with fields:
 Create Transitions
 ~~~~~~~~~~~~~~~~~~
 
-Click on the *Transitions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transitions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition* button.
+Click on the *Transitions* item in the *Available Process Elements* widget in the left sidebar.
+This action will expand the *Transitions* options and will collapse all others doing an accordion like effect.
+Click on the *Create New Transition* button.
 
 .. figure:: images/process-management-book-ordering-06-sequence-flows.png
    :alt: Book Ordering - Transitions
 
    Book Ordering - Transitions
 
-In the opened popup screen fill in the *Transition Name*. For this example in the *Condition Expressions* we will use just one condition expression and just one field. For both we can leave the *Type of Linking* as *and* and we will use the filed match type value as *String*.
+In the opened popup screen fill in the *Transition Name*. For this example in the *Condition Expressions* we will use just one condition expression and just one field.
+For both we can leave the *Type of Linking* as *and* and we will use the filed match type value as *String*.
 
 .. figure:: images/process-management-book-ordering-07-sequence-flow-add.png
    :alt: Book Ordering - Add Transition
@@ -456,14 +511,17 @@ Create the following transitions:
 Create Transition Actions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on the *Transition Actions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transition Actions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition Action* button.
+Click on the *Transition Actions* item in the *Available Process Elements* widget in the left sidebar.
+This action will expand the *Transition Actions* options and will collapse all others doing an accordion like effect.
+Click on the *Create New Transition Action* button.
 
 .. figure:: images/process-management-book-ordering-08-sequence-flow-actions.png
    :alt: Book Ordering - Transition Actions
 
    Book Ordering - Transition Actions
 
-In the opened popup screen fill in the *Transition Action Name* and the *Transition Action module* then click on the *Save* button. A new *Configure* button will appear next to the module field.
+In the opened popup screen fill in the *Transition Action Name* and the *Transition Action module* then click on the *Save* button.
+A new *Configure* button will appear next to the module field.
 
 .. figure:: images/process-management-book-ordering-09-sequence-flow-action-add.png
    :alt: Book Ordering - Add Transition Action
@@ -481,7 +539,9 @@ After all fields are filled in, click on the *Save and finish* button to save th
 
 .. seealso::
 
-   Each module has its own and different parameters. As soon as you add a TransitionAction, the options are displayed directly. Further information can currently only be found in the source code:
+   Each module has its own and different parameters.
+   As soon as you add a TransitionAction, the options are displayed directly.
+   Further information can currently only be found in the source code:
 
    - `DynamicFieldSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/DynamicFieldSet.pm>`_
    - `TicketArticleCreate <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketArticleCreate.pm>`_
@@ -544,13 +604,16 @@ Create the following transition actions:
    - The transition *Approval denied* applied.
    - The transition *Order denied* applied.
 
-There are places where the same transition actions should be executed. Therefore it is reasonable to make it possible to link transition actions freely with transitions to be able to reuse them.
+There are places where the same transition actions should be executed.
+Therefore it is reasonable to make it possible to link transition actions freely with transitions to be able to reuse them.
 
 
 Create Activities
 ~~~~~~~~~~~~~~~~~
 
-Click on the *Activities* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activities* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity* button.
+Click on the *Activities* item in the *Available Process Elements* widget in the left sidebar.
+This action will expand the *Activities* options and will collapse all others doing an accordion like effect.
+Click on the *Create New Activity* button.
 
 .. figure:: images/process-management-book-ordering-11-activities.png
    :alt: Book Ordering - Activities
@@ -564,13 +627,16 @@ In the opened popup screen fill in the *Activity name* field and select *User ta
 
    Book Ordering - Add Activity
 
-To assign dialogs to the activity simple drag the required dialogs from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool. The order in the *Assigned Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place.
+To assign dialogs to the activity simple drag the required dialogs from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool.
+The order in the *Assigned Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen.
+To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place.
 
 .. note::
 
    This order is specially important in the first activity, since the first activity dialog for this activity is the only one that is presented when the process starts.
 
-In this example we need to assign only the *Recording the demand* activity dialog. Drag this dialog from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool.
+In this example we need to assign only the *Recording the demand* activity dialog.
+Drag this dialog from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool.
 
 .. figure:: images/process-management-book-ordering-13-activity-assign-user-task-activity-dialog.png
    :alt: Book Ordering - Assign Activity Dialog
@@ -599,49 +665,67 @@ Create the following activities:
 
 - *Process complete*
 
-   This is an activity without possible activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process.
+   This is an activity without possible activity dialogs.
+   It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process.
 
-Now we can clearly see that activities are precisely defined states of a process ticket. After a successful transition a process ticket moves from one activity to another.
+Now we can clearly see that activities are precisely defined states of a process ticket.
+After a successful transition a process ticket moves from one activity to another.
 
 
 Create Process Path
 ~~~~~~~~~~~~~~~~~~~
 
-Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes.
+Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer.
+In our case this is the whole ordering workflow.
+Other processes could be office supply ordering or completely different processes.
 
-The process has a starting point which consists of the start activity and the start activity dialog. For any new book order, the first activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow.
+The process has a starting point which consists of the start activity and the start activity dialog.
+For any new book order, the first activity dialog of the first activity is the first screen that is displayed.
+If this is completed and saved, the process ticket will be created and can follow the configured workflow.
 
-The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more transitions (possibly with transition actions) and other activities.
+The process also contains the directions for how the process ticket can move through the process.
+Let's call this :term:`process path`. It consists of the start activity, one or more transitions (possibly with transition actions) and other activities.
 
-Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first activity dialog is the first screen that will be shown when the process starts.
+Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information.
+Notice that an arrow from the process start (white circle) to the activity is placed automatically.
+This is the first activity and its first activity dialog is the first screen that will be shown when the process starts.
 
 .. figure:: images/process-management-book-ordering-14-canvas-first-activity.png
    :alt: Book Ordering - First Activity On Canvas
 
    Book Ordering - First Activity On Canvas
 
-Next, drag another activity into the canvas too. Now we will have two activities in the canvas. The first one is connected to the start point and the second has no connections. You can hover the mouse over each activity to reveal their own activity dialogs.
+Next, drag another activity into the canvas too.
+Now we will have two activities in the canvas.
+The first one is connected to the start point and the second has no connections.
+You can hover the mouse over each activity to reveal their own activity dialogs.
 
 .. figure:: images/process-management-book-ordering-15-canvas-second-activity.png
    :alt: Book Ordering - Second Activity On Canvas
 
    Book Ordering - Second Activity On Canvas
 
-Then let's create the process path (connection) between this two activities. For this we will use the transitions. Click on transition in the accordion, drag a transition and drop it inside the first activity. As soon as the transition is dropped the end point of the transition arrow will be placed next to the process start point. Drag the transition arrow end point and drop it inside the other activity to create the connection between the activities.
+Then let's create the process path (connection) between this two activities.
+For this we will use the transitions.
+Click on transition in the accordion, drag a transition and drop it inside the first activity.
+As soon as the transition is dropped the end point of the transition arrow will be placed next to the process start point.
+Drag the transition arrow end point and drop it inside the other activity to create the connection between the activities.
 
 .. figure:: images/process-management-book-ordering-16-canvas-first-sequence-flow.png
    :alt: Book Ordering - First Transition On Canvas
 
    Book Ordering - First Transition On Canvas
 
-Now that the process path between the actions is defined, then we need to assign the transition actions to the transition. Double click the transition label in the canvas to open a new popup window.
+Now that the process path between the actions is defined, then we need to assign the transition actions to the transition.
+Double click the transition label in the canvas to open a new popup window.
 
 .. figure:: images/process-management-book-ordering-17-assign-first-sequence-flow-action.png
    :alt: Book Ordering - Assign First Transition Action
 
    Book Ordering - Assign First Transition Action
 
-After the transition actions are assigned, click on the *Save* button to go back to the main process edit screen. Click on *Save* button below the canvas to save all other changes.
+After the transition actions are assigned, click on the *Save* button to go back to the main process edit screen.
+Click on *Save* button below the canvas to save all other changes.
 
 Complete the process path by adding the following activities, transitions and transition actions:
 
@@ -660,7 +744,8 @@ Complete the process path by adding the following activities, transitions and tr
       - *Move the process ticket into the "Management" queue*
       - *Change ticket responsible to "Manager"*
 
-   The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the transition *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the transition actions *Move the process ticket into the "Management" queue* and *Change ticket responsible to "Manager"* are executed. In the activity *Approval*, the activity dialogs *Approval denied* and *Approved* are available.
+   The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the transition *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the transition actions *Move the process ticket into the "Management" queue* and *Change ticket responsible to "Manager"* are executed.
+   In the activity *Approval*, the activity dialogs *Approval denied* and *Approved* are available.
 
 - *Approval*
 
@@ -745,7 +830,8 @@ The complete process path for the book ordering process will then look like this
 
 After you finish the process path, click on *Save and finish* button below the canvas to go back to the process management screen.
 
-Click on the *Deploy All Processes* button in the left sidebar. This will gather all processes information form the database and create a cache file (in Perl language). This cache file is actually the processes configuration that the system will use to create or use process tickets.
+Click on the *Deploy All Processes* button in the left sidebar.
+This will gather all processes information form the database and create a cache file (in Perl language). This cache file is actually the processes configuration that the system will use to create or use process tickets.
 
 .. note::
 

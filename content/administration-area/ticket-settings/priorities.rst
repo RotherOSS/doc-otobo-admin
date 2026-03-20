@@ -1,7 +1,10 @@
 Priorities
 ==========
 
-Sometimes tickets are not equally created. One ticket may need more focus than another. A customer may be given a higher priority by the service desk to help raise customer satisfaction in a pinch or to ensure that a long-running request receives special attention. Keeping track of these higher priority requests is important, as well as handling them quickly.
+Sometimes tickets are not equally created.
+One ticket may need more focus than another.
+A customer may be given a higher priority by the service desk to help raise customer satisfaction in a pinch or to ensure that a long-running request receives special attention.
+Keeping track of these higher priority requests is important, as well as handling them quickly.
 
 OTOBO provides a traffic light system based per default five levels of priorities to handle this task.
 
@@ -11,9 +14,13 @@ OTOBO provides a traffic light system based per default five levels of prioritie
 - Pink: high
 - Red: very high
 
-The colors are based on the ID (very low being ID 1) in the database. Changing the names should be done with this in mind. New priorities have the color gray.
+The colors are based on the ID (very low being ID 1) in the database.
+Changing the names should be done with this in mind.
+New priorities have the color gray.
 
-Use this screen to add priorities to the system. A fresh OTOBO installation contains five default priority levels. The priority management screen is available in the *Priorities* module of the *Ticket Settings* group.
+Use this screen to add priorities to the system.
+A fresh OTOBO installation contains five default priority levels.
+The priority management screen is available in the *Priorities* module of the *Ticket Settings* group.
 
 .. figure:: images/priority-management.png
    :alt: Priority Management Screen
@@ -41,7 +48,8 @@ To add a priority:
 
 .. warning::
 
-   Priorities can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
+   Priorities can not be deleted from the system.
+   They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
 
 .. note::
 
@@ -73,23 +81,30 @@ Save and update automatically
    Apply the change and also update the affected settings.
 
 Don't save, update manually
-   Apply the change, but don't update the affected settings. The updates need to be done manually.
+   Apply the change, but don't update the affected settings.
+   The updates need to be done manually.
 
 Cancel
    Cancel the action.
 
 .. warning::
 
-   Changing the name of this object should be done with care, the check only provides verification for certain settings and ignores things where the name can't be verified. Some examples are dashboard filters, action control lists (ACLs), and processes (sequence flow actions) to name a few. Documentation of your setup is key to surviving a name change.
+   Changing the name of this object should be done with care, the check only provides verification for certain settings and ignores things where the name can't be verified.
+   Some examples are dashboard filters, action control lists (ACLs), and processes (sequence flow actions) to name a few.
+   Documentation of your setup is key to surviving a name change.
 
 
 Priority Settings
 -----------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.

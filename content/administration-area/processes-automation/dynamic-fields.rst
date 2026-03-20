@@ -1,11 +1,15 @@
 Dynamic Fields
 ==============
 
-Beside general information required for all tickets, organizations have individual needs to add specific details to tickets. This needed information takes various formats like texts, integers, date-time and more.
+Beside general information required for all tickets, organizations have individual needs to add specific details to tickets.
+This needed information takes various formats like texts, integers, date-time and more.
 
-OTOBO supports adding a so-called :term:`dynamic field` to handle texts, integers, drop-down lists, multi-select fields, date-time, checkboxes and more. OTOBO administrators can define where those fields should be visible or editable, and of course, the dynamic fields are also available in statistics and reports.
+OTOBO supports adding a so-called :term:`dynamic field` to handle texts, integers, drop-down lists, multi-select fields, date-time, checkboxes and more.
+OTOBO administrators can define where those fields should be visible or editable, and of course, the dynamic fields are also available in statistics and reports.
 
-Use this screen to manage dynamic fields in the system. A fresh OTOBO installation contains two dynamic fields by default. The dynamic field management screen is available in the *Dynamic Fields* module of the *Processes & Automation* group.
+Use this screen to manage dynamic fields in the system.
+A fresh OTOBO installation contains two dynamic fields by default.
+The dynamic field management screen is available in the *Dynamic Fields* module of the *Processes & Automation* group.
 
 .. figure:: images/dynamic-field-management.png
    :alt: Dynamic Field Management Screen
@@ -56,7 +60,8 @@ To delete a dynamic field:
 Dynamic Field Settings
 ----------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 
 General Dynamic Field Settings
@@ -70,30 +75,37 @@ These settings are the same for all types of dynamic fields.
    Dynamic Field General Screen
 
 Name \*
-   The name of this resource. The value should be alphabetic and numeric characters only. The name will be displayed in the overview table.
+   The name of this resource.
+   The value should be alphabetic and numeric characters only.
+   The name will be displayed in the overview table.
 
 Label \*
    This is the name to be shown on the screens where the field is active.
 
    .. seealso::
 
-      It is possible to add translations for a dynamic field label. Label translations have to be added manually to language translation files.
+      It is possible to add translations for a dynamic field label.
+      Label translations have to be added manually to language translation files.
 
 Field order \*
    This is the order in which this field will be shown on the screens where is active.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Field type
-   This type has been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
+   This type has been selected in the left sidebar and can not be changed here anymore.
+   This is a read-only field.
 
 Object type
-   This type has been selected in the left sidebar and can not be changed here anymore. This is a read-only field.
+   This type has been selected in the left sidebar and can not be changed here anymore.
+   This is a read-only field.
 
    .. note::
 
-      The object type determines where the dynamic field can be used. For example a dynamic field with object type *Ticket* can be used only in tickets, and can not be used in articles.
+      The object type determines where the dynamic field can be used.
+      For example a dynamic field with object type *Ticket* can be used only in tickets, and can not be used in articles.
 
 The following settings are relevant only for the particular type of dynamic fields.
 
@@ -129,13 +141,17 @@ This dynamic field allows to add contacts with data to tickets.
    Contact With Data Dynamic Field Settings
 
 Name Field \*
-   The attribute ``Name`` is always mandatory and it is not automatically added, so for each new data source this attribute must be added manually. Within the data source definition (or dynamic field configuration) this must be represented by the key ``Name`` and the value could be *Name* for example.
+   The attribute ``Name`` is always mandatory and it is not automatically added, so for each new data source this attribute must be added manually.
+   Within the data source definition (or dynamic field configuration) this must be represented by the key ``Name`` and the value could be *Name* for example.
 
 ValidID Field \*
-   The attribute ``ValidID`` is always mandatory and it is not automatically added, so for each new data source this attribute must be added manually. Within the data source definition (or dynamic field configuration) this must be represented by the key ``ValidID`` and the value could be *Validity* for example.
+   The attribute ``ValidID`` is always mandatory and it is not automatically added, so for each new data source this attribute must be added manually.
+   Within the data source definition (or dynamic field configuration) this must be represented by the key ``ValidID`` and the value could be *Validity* for example.
 
 Other Fields
-   These are the possible data attributes for contacts. Clicking on the *⊞* button of the *Add Fields* will add two new fields, where a *Key* (internal value) and a *Value* (displayed value) can be set. With the button you can add multiple key-value pairs.
+   These are the possible data attributes for contacts.
+   Clicking on the *⊞* button of the *Add Fields* will add two new fields, where a *Key* (internal value) and a *Value* (displayed value) can be set.
+   With the button you can add multiple key-value pairs.
 
    .. warning::
 
@@ -152,7 +168,8 @@ Mandatory fields
       Keys ``Name`` and ``ValidID`` are always mandatory and doesn't have to be listed here.
 
 Sorted fields
-   Comma separated list of keys in sort order. Keys listed here come first, all remaining fields afterwards and sorted alphabetically.
+   Comma separated list of keys in sort order.
+   Keys listed here come first, all remaining fields afterwards and sorted alphabetically.
 
 Searchable fields
    Comma separated list of searchable keys.
@@ -168,7 +185,9 @@ Translatable values
 
       You need to add the translations manually into the language translation files.
 
-When the dynamic field was saved, click on the name of the newly created dynamic field in the overview table. The *Edit Dynamic Field* screen will open. There is a button *Add or edit contacts*, that points to *Tickets* → *Edit contacts with data* to add some data.
+When the dynamic field was saved, click on the name of the newly created dynamic field in the overview table.
+The *Edit Dynamic Field* screen will open.
+There is a button *Add or edit contacts*, that points to *Tickets* → *Edit contacts with data* to add some data.
 
 .. figure:: images/dynamic-field-contact-with-data-management.png
    :alt: Contact With Data Management Screen
@@ -198,7 +217,8 @@ To edit a contact with data:
 
    Edit Contact With Data Screen
 
-The usage of this type of dynamic field is more complex then the others. An exemplary usage of contacts with data is as follows:
+The usage of this type of dynamic field is more complex then the others.
+An exemplary usage of contacts with data is as follows:
 
 1. Create a new dynamic field of type contact with data.
 2. Set the possible contact attributes (possible values).
@@ -211,8 +231,10 @@ The usage of this type of dynamic field is more complex then the others. An exem
 4. Set the attribute key order list comma separated as: ``Name,Telephone,ValidID``.
 5. Add the list of searchable attribute keys comma separated (``Name`` is not needed).
 6. Populate the data source by adding at least one contact in the newly created data source by using *Tickets* → *Edit contacts with data* screen from the main navigation bar.
-7. Add the new dynamic field to the screen's configuration where it should be shown. For example in *New Phone Ticket* screen by updating the system configuration setting ``Ticket::Frontend::AgentTicketPhone###DynamicField`` and do the same for ``Ticket::Frontend::AgentTicketZoom###DynamicField``.
-8. Go to *New Phone Ticket* screen, and notice that the new field is there. Add all needed information to the ticket.
+7. Add the new dynamic field to the screen's configuration where it should be shown.
+   For example in *New Phone Ticket* screen by updating the system configuration setting ``Ticket::Frontend::AgentTicketPhone###DynamicField`` and do the same for ``Ticket::Frontend::AgentTicketZoom###DynamicField``.
+8. Go to *New Phone Ticket* screen, and notice that the new field is there.
+   Add all needed information to the ticket.
 9. Select an existing contact using autocomplete and choosing a contact.
 10. The assigned contact and its attributes will be shown in the *Ticket Zoom* screen.
 11. It is possible to update the attributes of the contact by clicking the *Edit contact data* button that appears in the right side of the title of the contact data box (if the current user is a member of the groups defined in system configuration setting ``Frontend::Module###AdminDynamicFieldContactWithData``).
@@ -230,10 +252,12 @@ Date dynamic field is used to store a date value.
    Date Dynamic Field Settings
 
 Default date difference
-   The difference from **now** (in seconds) to calculate the field default value (e.g. 3600 or -60).
+   The difference from **now** (in seconds) to calculate the field default value (e.g.
+   3600 or -60).
 
 Define years period
-   Activate this feature to define a fixed range of years (in the future and in the past) to be displayed on the year part of the field. If set to *Yes* the following options will be available:
+   Activate this feature to define a fixed range of years (in the future and in the past) to be displayed on the year part of the field.
+   If set to *Yes* the following options will be available:
 
    Years in the past
       Define the number of years in the past from the current day to display in the year selection for this dynamic field in edit screens.
@@ -242,14 +266,16 @@ Define years period
       Define the number of years in the future from the current day to display in the year selection for this dynamic field in edit screens.
 
 Show link
-   Here you can specify an optional HTTP link for the field value in overviews and zoom screens. Example:
+   Here you can specify an optional HTTP link for the field value in overviews and zoom screens.
+   Example:
 
    ::
 
       http://some.example.com/handle?query=[% Data.Field1 | uri %]
 
 Link for preview
-   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom. Please note that for this to work, the regular URL field above needs to be filled in, too.
+   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom.
+   Please note that for this to work, the regular URL field above needs to be filled in, too.
 
 Restrict entering of dates
    Here you can restrict the entering of dates of tickets.
@@ -285,13 +311,16 @@ Drop-down dynamic field is used to store a single value, from a closed list.
    Dropdown Dynamic Field Settings
 
 Possible values
-   These are the possible data attributes for contacts. Clicking on the *⊞* button will add two new fields, where a key (internal value) and a value (displayed value) can be set. With the button you can add multiple key-value pairs.
+   These are the possible data attributes for contacts.
+   Clicking on the *⊞* button will add two new fields, where a key (internal value) and a value (displayed value) can be set.
+   With the button you can add multiple key-value pairs.
 
 Default value
    This is the default value for this field and this will be shown on the edit screens.
 
 Add empty value
-   If this option is activated an extra value is defined to show as a *-* in the list of possible values. This special value is empty internally.
+   If this option is activated an extra value is defined to show as a *-* in the list of possible values.
+   This special value is empty internally.
 
 Tree View
    Activate this option to display values as a tree.
@@ -304,14 +333,16 @@ Translatable values
       You need to add the translations manually into the language translation files.
 
 Show link
-   Here you can specify an optional HTTP link for the field value in overviews and zoom screens. Example:
+   Here you can specify an optional HTTP link for the field value in overviews and zoom screens.
+   Example:
 
    ::
 
       http://some.example.com/handle?query=[% Data.Field1 | uri %]
 
 Link for preview
-   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom. Please note that for this to work, the regular URL field above needs to be filled in, too.
+   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom.
+   Please note that for this to work, the regular URL field above needs to be filled in, too.
 
 
 Multiselect Dynamic Field Settings
@@ -323,13 +354,16 @@ Multiselect Dynamic Field Settings
    Multiselect Dynamic Field Settings
 
 Possible values
-   These are the possible data attributes for contacts. Clicking on the *⊞* button will add two new fields, where a key (internal value) and a value (displayed value) can be set. With the button you can add multiple key-value pairs.
+   These are the possible data attributes for contacts.
+   Clicking on the *⊞* button will add two new fields, where a key (internal value) and a value (displayed value) can be set.
+   With the button you can add multiple key-value pairs.
 
 Default value
    This is the default value for this field and this will be shown on the edit screens.
 
 Add empty value
-   If this option is activated an extra value is defined to show as a *-* in the list of possible values. This special value is empty internally.
+   If this option is activated an extra value is defined to show as a *-* in the list of possible values.
+   This special value is empty internally.
 
 Tree View
    Activate this option to display values as a tree.
@@ -356,7 +390,8 @@ Default value
    This is the default value for this field and this will be shown on the edit screens.
 
 Show link
-   Here you can specify an optional HTTP link for the field value in overviews and zoom screens. Example:
+   Here you can specify an optional HTTP link for the field value in overviews and zoom screens.
+   Example:
 
    ::
 
@@ -364,10 +399,12 @@ Show link
 
 
 Link for preview
-   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom. Please note that for this to work, the regular URL field above needs to be filled in, too.
+   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom.
+   Please note that for this to work, the regular URL field above needs to be filled in, too.
 
 Check RegEx
-   Here you can specify a regular expression to check the value. The regex will be executed with the modifiers ``xms``. Example:
+   Here you can specify a regular expression to check the value.
+   The regex will be executed with the modifiers ``xms``. Example:
 
    ::
 
@@ -397,7 +434,8 @@ Default value
    This is the default value for this field and this will be shown on the edit screens.
 
 Check RegEx
-   Here you can specify a regular expression to check the value. The regex will be executed with the modifiers ``xms``. Example:
+   Here you can specify a regular expression to check the value.
+   The regex will be executed with the modifiers ``xms``. Example:
 
    ::
 
@@ -412,7 +450,8 @@ Database Dynamic Field
 
 .. note::
 
-   This dynamic field is already included in OTOBO 10 Standard! The documentation on the field types still needs to be completed.
+   This dynamic field is already included in OTOBO 10 Standard!
+   The documentation on the field types still needs to be completed.
 
 
 Web Service Dynamic Field
@@ -465,13 +504,15 @@ To display a dynamic field on a screen:
 
 .. note::
 
-   It is possible to add multiple dynamic fields at the same time. To do this, repeat steps 5-7.
+   It is possible to add multiple dynamic fields at the same time.
+   To do this, repeat steps 5-7.
 
 
 Set Default Value via Ticket Event Module
 -----------------------------------------
 
-A ticket event (e.g. ``TicketCreate``) can trigger a value set for a certain field, if the field does not have a value yet.
+A ticket event (e.g.
+``TicketCreate``) can trigger a value set for a certain field, if the field does not have a value yet.
 
 1. Open the *System Configuration* module in the admin interface.
 2. Navigate to *Core* → *Event* → *Ticket* and search for the setting ``Ticket::EventModulePost###9600-TicketDynamicFieldDefault``.
@@ -529,7 +570,9 @@ Click on your avatar on the top left corner, and select *Personal Preferences* �
 
    Dynamic Field in Personal Preferences
 
-This setting is an example of how to create an entry in the user preferences screen to set an exclusive dynamic field ``Name_X`` default value for the selected user. The limitation of this setting is that it only permits the use of one dynamic field. If two or more fields will use this feature, it is necessary to create a custom XML configuration file to add more settings similar to this one.
+This setting is an example of how to create an entry in the user preferences screen to set an exclusive dynamic field ``Name_X`` default value for the selected user.
+The limitation of this setting is that it only permits the use of one dynamic field.
+If two or more fields will use this feature, it is necessary to create a custom XML configuration file to add more settings similar to this one.
 
 .. note::
 

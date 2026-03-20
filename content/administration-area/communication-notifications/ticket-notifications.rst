@@ -1,11 +1,14 @@
 Ticket Notifications
 ====================
 
-Streamlining communication can save hours of labor and prevent mistakes. Sending certain messages at pre-defined stages of communication not only keeps the customer and agents informed about specific events, but it can also aid your agents by programmatically doing automated updates to the customer.
+Streamlining communication can save hours of labor and prevent mistakes.
+Sending certain messages at pre-defined stages of communication not only keeps the customer and agents informed about specific events, but it can also aid your agents by programmatically doing automated updates to the customer.
 
 The flexible OTOBO is an industry leader in email communication and offers you complete control of notifications based on any event in your system.
 
-Use this screen to add ticket notifications to the system. In a fresh OTOBO installation several ticket notifications are already added by default. The ticket notification management screen is available in the *Ticket Notifications* module of the *Communication & Notifications* group.
+Use this screen to add ticket notifications to the system.
+In a fresh OTOBO installation several ticket notifications are already added by default.
+The ticket notification management screen is available in the *Ticket Notifications* module of the *Communication & Notifications* group.
 
 .. figure:: images/ticket-notification-management.png
    :alt: Ticket Notification Management Screen
@@ -58,7 +61,8 @@ To import ticket notifications:
 Ticket Notification Settings
 ----------------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 .. seealso::
 
@@ -74,22 +78,29 @@ Basic Ticket Notification Settings
    Ticket Notification Settings - Basic
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Comment
-   Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
+   Add additional information to this resource.
+   It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
 Show in agent preferences
-   Define how the notification should be displayed in agent preferences. The following options are available:
+   Define how the notification should be displayed in agent preferences.
+   The following options are available:
 
    No
-      The notification won't be displayed in agent preferences. The notification is sent to all appropriate agents by the defined method.
+      The notification won't be displayed in agent preferences.
+      The notification is sent to all appropriate agents by the defined method.
 
    Yes
-      The notification will be displayed in agent preferences for selection. The agents may opt-in or opt-out.
+      The notification will be displayed in agent preferences for selection.
+      The agents may opt-in or opt-out.
 
    Yes, but require at least one active notification method.
-      The notification will be displayed in agent preferences, but require at least one active notification method. This is annotated by an asterisk next to the name.
+      The notification will be displayed in agent preferences, but require at least one active notification method.
+      This is annotated by an asterisk next to the name.
 
    .. figure:: images/ticket-notification-personal-setting.png
       :alt: Personal Ticket Notification Settings
@@ -100,7 +111,8 @@ Agent preferences tooltip
    This message will be shown on the agent preferences screen as a tooltip for this notification.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 
 Events
@@ -112,7 +124,8 @@ Events
    Ticket Notification Settings - Events
 
 Event
-   Here you can choose which events will trigger this notification. An additional ticket filter can be applied below to only send for tickets with certain criteria.
+   Here you can choose which events will trigger this notification.
+   An additional ticket filter can be applied below to only send for tickets with certain criteria.
 
 
 Ticket Filter [1]_
@@ -127,7 +140,8 @@ This widget can optionally be used to narrow the list of tickets by matching con
 
 .. note::
 
-   The values in this list can grow as your system grows. The more :doc:`../processes-automation/dynamic-fields` are and features you have in your system, the longer the list will be.
+   The values in this list can grow as your system grows.
+   The more :doc:`../processes-automation/dynamic-fields` are and features you have in your system, the longer the list will be.
 
 State
    Filter for a state of the ticket.
@@ -148,7 +162,8 @@ Customer User ID
    Filter for a customer user ID of the ticket.
 
 Dynamic Fields
-   Filter for some dynamic fields added to the system. For the complete list of dynamic fields see the :doc:`../processes-automation/dynamic-fields` chapter.
+   Filter for some dynamic fields added to the system.
+   For the complete list of dynamic fields see the :doc:`../processes-automation/dynamic-fields` chapter.
 
 
 Article Filter [1]_
@@ -164,16 +179,20 @@ Article Filter [1]_
    This widget works only if ``ArticleCreate`` or ``ArticleSend`` is selected in the *Events* widget.
 
 Article sender type
-   Filter for the sender type of the ticket. Possible values are *agent*, *system* or *customer*.
+   Filter for the sender type of the ticket.
+   Possible values are *agent*, *system* or *customer*.
 
 Customer visibility
-   Filter for the customer visibility. Possible values are *Invisible to customer* or *Visible to customer*.
+   Filter for the customer visibility.
+   Possible values are *Invisible to customer* or *Visible to customer*.
 
 Communication channel
-   Filter for the communication channel. Possible values are *Chat*, *Email*, *OTOBO*, *Phone* or *SMS*.
+   Filter for the communication channel.
+   Possible values are *Chat*, *Email*, *OTOBO*, *Phone* or *SMS*.
 
 Include attachments to notification
-   If *Yes* is selected, attachments will be included to notification. Selecting *No* will not use this feature.
+   If *Yes* is selected, attachments will be included to notification.
+   Selecting *No* will not use this feature.
 
 Attachment Name
    Filter for attachment name.
@@ -215,7 +234,8 @@ Ticket Notification Recipients
    Ticket Notification Settings - Recipients
 
 Send to
-   Select which agents should receive the notifications. Possible values are:
+   Select which agents should receive the notifications.
+   Possible values are:
 
    - Agent who created the ticket
    - Agent who is responsible for the ticket
@@ -242,13 +262,17 @@ Send on out of office
    If this option is checked, the notification will be sent even if the agent is currently out of office.
 
 Once per day
-   Notify users just once per day about a single ticket using a selected transport. If this is the first notification about a ticket, then the notification will be sent. If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent. If there was no notification sent in the last 24 hours, the notification will be sent again.
+   Notify users just once per day about a single ticket using a selected transport.
+   If this is the first notification about a ticket, then the notification will be sent.
+   If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent.
+   If there was no notification sent in the last 24 hours, the notification will be sent again.
 
 
 Capability to Send Ticket Notifications Only During Working Hours
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-A new option has been added to the ticket notification settings. Now, within the recipient's section, an additional field named "Calendar" is displayed.
+A new option has been added to the ticket notification settings.
+Now, within the recipient's section, an additional field named "Calendar" is displayed.
 
 .. figure:: images/ticket-notification-settings-recipients.png
    :alt: Recipient block configuration
@@ -286,10 +310,12 @@ Ticket Notification Methods
    Ticket Notification Settings - Notification Methods
 
 Enable this notification method
-   Enable or disable this notification method. A notification method can be email, web view or SMS.
+   Enable or disable this notification method.
+   A notification method can be email, web view or SMS.
 
 Additional recipient email addresses
-   Additional recipients can be added here. Use comma or semicolon to separate the email addresses.
+   Additional recipients can be added here.
+   Use comma or semicolon to separate the email addresses.
 
 Article visible for customer
    An article will be created if the notification is sent to the customer or an additional email address.
@@ -309,25 +335,32 @@ Enable email security
       To use this feature, :doc:`pgp-keys` or :doc:`s-mime-certificates` need to be enabled.
 
 Email security level
-   If *Enable email security* is checked, then this setting is activated. The following options are available:
+   If *Enable email security* is checked, then this setting is activated.
+   The following options are available:
 
    PGP sign only
-      Sign only the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible.
+      Sign only the notification email with PGP key.
+      If no PGP keys have been added to the system, this option is not visible.
 
    PGP encrypt only
-      Encrypt only the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible.
+      Encrypt only the notification email with PGP key.
+      If no PGP keys have been added to the system, this option is not visible.
 
    PGP sign and encrypt
-      Sign and encrypt the notification email with PGP key. If no PGP keys have been added to the system, this option is not visible.
+      Sign and encrypt the notification email with PGP key.
+      If no PGP keys have been added to the system, this option is not visible.
 
    SMIME sign only
-      Sign only the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible.
+      Sign only the notification email with S/MIME certificate.
+      If no S/MIME certificates have been added to the system, this option is not visible.
 
    SMIME encrypt only
-      Encrypt only the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible.
+      Encrypt only the notification email with S/MIME certificate.
+      If no S/MIME certificates have been added to the system, this option is not visible.
 
    SMIME sign and encrypt
-      Sign and encrypt the notification email with S/MIME certificate. If no S/MIME certificates have been added to the system, this option is not visible.
+      Sign and encrypt the notification email with S/MIME certificate.
+      If no S/MIME certificates have been added to the system, this option is not visible.
 
    .. note::
 
@@ -348,7 +381,8 @@ Notification Text
 
    Ticket Notification Settings - Notification Text
 
-The main content of a notification can be added for each languages with localized subject and body text. It is also possible to define static text content mixed with OTOBO smart tags.
+The main content of a notification can be added for each languages with localized subject and body text.
+It is also possible to define static text content mixed with OTOBO smart tags.
 
 Subject \*
    The localized subject for a specific language.
@@ -357,17 +391,23 @@ Text \*
    The localized body text for a specific language.
 
 Add new notification language
-   Select which languages should be added to create localized notifications. The language of the customer or agent will be used as found in the customer and agent preferences. Secondarily, the system default language will be chosen. The fall back will always be English.
+   Select which languages should be added to create localized notifications.
+   The language of the customer or agent will be used as found in the customer and agent preferences.
+   Secondarily, the system default language will be chosen.
+   The fall back will always be English.
 
 .. warning::
 
-   Deleting a language in ``DefaultUsedLanguages`` setting that already has a notification text here will make the notification text unusable. If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore.
+   Deleting a language in ``DefaultUsedLanguages`` setting that already has a notification text here will make the notification text unusable.
+   If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore.
 
 
 Ticket Notification Variables
 -----------------------------
 
-Using variables in the text makes it possible to personalize messages. Variables, known as OTOBO tags, are replaced by OTOBO when generating the message. Find a list of available tags stems for this resource at the bottom of both add and edit screens.
+Using variables in the text makes it possible to personalize messages.
+Variables, known as OTOBO tags, are replaced by OTOBO when generating the message.
+Find a list of available tags stems for this resource at the bottom of both add and edit screens.
 
 .. figure:: images/ticket-notification-variables.png
    :alt: Ticket Notification Variables

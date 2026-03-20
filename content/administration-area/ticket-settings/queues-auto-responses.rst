@@ -1,11 +1,13 @@
 Queues ↔ Auto Responses
 =======================
 
-Communicating a change in, for example, service times, service levels or other information which would be good for a customer to know when opening a ticket can be a tedious and error-ridden task. Attempting to make sure all departments have the correct information and transmitting this to their customers poses a challenge.
+Communicating a change in, for example, service times, service levels or other information which would be good for a customer to know when opening a ticket can be a tedious and error-ridden task.
+Attempting to make sure all departments have the correct information and transmitting this to their customers poses a challenge.
 
 OTOBO gives you the power to quickly assign the appropriate automatic responses to any queue, containing pertinent service information, ensuring this information reaches your customers before expectations aren't reached.
 
-Use this screen to add one or more automatic responses to one or more queues. The management screen is available in the *Queues ↔ Auto Responses* module of the *Ticket Settings* group.
+Use this screen to add one or more automatic responses to one or more queues.
+The management screen is available in the *Queues ↔ Auto Responses* module of the *Ticket Settings* group.
 
 .. figure:: images/auto-response-queue-management.png
    :alt: Manage Queue-Auto Response Relations
@@ -29,7 +31,8 @@ To assign an automatic response to a queue:
 
 .. note::
 
-   It is not possible to assign multiple queues to an automatic response by clicking on the automatic response name. A click on the automatic response will open to the :doc:`auto-responses` screen.
+   It is not possible to assign multiple queues to an automatic response by clicking on the automatic response name.
+   A click on the automatic response will open to the :doc:`auto-responses` screen.
 
 .. note::
 
@@ -58,4 +61,5 @@ auto remove
 
 .. note::
 
-   *Auto reply*, *auto reject* and *auto reply/new ticket* mutually cancel each other based on the :doc:`queues` settings. Only one will take effect per queue.
+   *Auto reply*, *auto reject* and *auto reply/new ticket* mutually cancel each other based on the :doc:`queues` settings.
+   Only one will take effect per queue.

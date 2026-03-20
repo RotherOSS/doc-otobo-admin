@@ -1,7 +1,8 @@
 Administration Area
 ==========================
 
-Any system requires configuration. Configuring a system should be an easy task and the tools for configuration fit-for-purpose.
+Any system requires configuration.
+Configuring a system should be an easy task and the tools for configuration fit-for-purpose.
 
 OTOBO offers several administration tools to configure, monitor, control and extend OTOBO.
 
