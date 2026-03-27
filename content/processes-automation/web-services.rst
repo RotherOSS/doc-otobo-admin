@@ -256,12 +256,12 @@ A full list of all attributes needed for operations can be found here:
 - TicketHistoryGet: https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/GenericInterface/Operation/Ticket/TicketHistoryGet.pm#L70
 
 
-XLST-Mapping for OTOBO as Provider - HTTP\:\:REST
+XSLT-Mapping for OTOBO as Provider - HTTP\:\:REST
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The XLST standard can be used to transform XML, JSON and CSV data.
+The XSLT standard can be used to transform XML, JSON and CSV data.
 
-In this example, we are going to use the XLST mapping to transform the response from the webservice into Dynamic Fields.
+In this example, we are going to use the XSLT mapping to transform the response from the webservice into Dynamic Fields.
 
 Create a Dynamic Field of Type Ticket->Text and name it for example "RemoteTicketID".
 
