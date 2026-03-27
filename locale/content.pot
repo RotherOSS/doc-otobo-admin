@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Project name not set \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 09:27+0000\n"
+"POT-Creation-Date: 2026-03-27 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -8334,15 +8334,15 @@ msgid "TicketHistoryGet: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel
 msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:273
-msgid "XLST-Mapping for OTOBO as Provider - HTTP\\:\\:REST"
+msgid "XSLT-Mapping for OTOBO as Provider - HTTP\\:\\:REST"
 msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:275
-msgid "The XLST standard can be used to transform XML, JSON and CSV data."
+msgid "The XSLT standard can be used to transform XML, JSON and CSV data."
 msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:277
-msgid "In this example, we are going to use the XLST mapping to transform the response from the webservice into Dynamic Fields."
+msgid "In this example, we are going to use the XSLT mapping to transform the response from the webservice into Dynamic Fields."
 msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:279
