@@ -1,11 +1,16 @@
 Types
 =====
 
-Good KPIs (Key Performance Indicators) require knowing the type of work your organization performs. Not all tasks take the same amount of effort even when performed by the same team. Creating a queue structure for this purpose can be overpowered due to the amount of configuration required to create and manage a queue.
+Good KPIs (Key Performance Indicators) require knowing the type of work your organization performs.
+Not all tasks take the same amount of effort even when performed by the same team.
+Creating a queue structure for this purpose can be overpowered due to the amount of configuration required to create and manage a queue.
 
-OTOBO provisions for KPIs with minimal overhead using ticket types. Typical types used in IT service desks are *unclassified*, *incident* and *problem*. You can quickly define new types with ease.
+OTOBO provisions for KPIs with minimal overhead using ticket types.
+Typical types used in IT service desks are *unclassified*, *incident* and *problem*. You can quickly define new types with ease.
 
-Use this screen to add types to the system. A fresh OTOBO installation contains an *unclassified* type by default. The type management screen is available in the *Types* module of the *Ticket Settings* group.
+Use this screen to add types to the system.
+A fresh OTOBO installation contains an *unclassified* type by default.
+The type management screen is available in the *Types* module of the *Ticket Settings* group.
 
 .. figure:: images/type-management.png
    :alt: Type Management Screen
@@ -14,7 +19,8 @@ Use this screen to add types to the system. A fresh OTOBO installation contains 
 
 .. warning::
 
-   ``Ticket::Type`` must first be activated via :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message to directly jump to the configuration setting.
+   ``Ticket::Type`` must first be activated via :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens.
+   You may click on the link in the warning message to directly jump to the configuration setting.
 
 .. figure:: images/type-activate-warning.png
    :alt: Type Activation Warning
@@ -38,7 +44,8 @@ To add a type:
 
 .. warning::
 
-   Types can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
+   Types can not be deleted from the system.
+   They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
 
 To edit a type:
 
@@ -78,10 +85,14 @@ To import a set of types:
 Type Settings
 -------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.

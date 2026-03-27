@@ -7,7 +7,8 @@ Automation frees agents from reoccurring and time-consuming tasks and allows the
 
 Process management guides customer users and agents through ticket creation to closure ensuring that tickets take defined workflows at any time.
 
-OTOBO offers many options to automate tasks based on events, time, external systems and defined processes. OTOBO also includes the possibility to add individual information types to tickets and help agents to lower their error rate when working with tickets by allowing only defined activities for tickets in specific states.
+OTOBO offers many options to automate tasks based on events, time, external systems and defined processes.
+OTOBO also includes the possibility to add individual information types to tickets and help agents to lower their error rate when working with tickets by allowing only defined activities for tickets in specific states.
 
 .. toctree::
    :maxdepth: 3

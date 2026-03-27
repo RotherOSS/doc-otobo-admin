@@ -1,7 +1,9 @@
 Customer Users ↔ Services
 =========================
 
-Use this screen to add one or more customer users to one or more services. To use this function, at least one customer user and one service need to have been added to the system. The management screen is available in the *Customers Users ↔ Services* module of the *Users, Groups & Roles* group.
+Use this screen to add one or more customer users to one or more services.
+To use this function, at least one customer user and one service need to have been added to the system.
+The management screen is available in the *Customers Users ↔ Services* module of the *Users, Groups & Roles* group.
 
 .. figure:: images/customer-user-service-management.png
    :alt: Manage Customer User-Service Relations
@@ -36,9 +38,11 @@ To allocate some customer users to a service:
 
 .. note::
 
-   If several customer users or services are added to the system, use the search box to find a particular customer user or use the filter box to find a particular service by just typing the name to filter.
+   If several customer users or services are added to the system,
+   use the search box to find a particular customer user or use the filter box to find a particular service by just typing the name to filter.
 
-Multiple customer users or services can be assigned in both screens at the same time. Additionally clicking on a customer user or clicking on a service in the relations screen will open the *Edit Customer User* screen or the *Edit Service* screen accordingly.
+Multiple customer users or services can be assigned in both screens at the same time.
+Additionally clicking on a customer user or clicking on a service in the relations screen will open the *Edit Customer User* screen or the *Edit Service* screen accordingly.
 
 .. warning::
 
@@ -52,7 +56,8 @@ Multiple customer users or services can be assigned in both screens at the same 
 Manage Default Services
 -----------------------
 
-It is possible to add default services, so that all customer users may access them. This prevents having to add each service to each customer user.
+It is possible to add default services, so that all customer users may access them.
+This prevents having to add each service to each customer user.
 
 To edit the default services:
 
@@ -67,4 +72,5 @@ To edit the default services:
 
 .. warning::
 
-   Mixing default services and customer specific services can be confusing. If a customer user has specific services assigned, then the default services will be not applied.
+   Mixing default services and customer specific services can be confusing.
+   If a customer user has specific services assigned, then the default services will be not applied.

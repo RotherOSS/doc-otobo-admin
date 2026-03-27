@@ -14,20 +14,7 @@
 # 汇民 王 <whuim@163.com>, 2016
 # 陈德文 <sggggy@gmail.com>, 2014,2016
 msgid ""
-msgstr ""
-"Project-Id-Version:  OTRS\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 00:49+0200\n"
-"PO-Revision-Date: 2019-06-04 07:35+0000\n"
-"Last-Translator: 汇民 王 <whuim@qq.com>\n"
-"Language: zh_Hans_CN\n"
-"Language-Team: Chinese (China) "
-"(http://www.transifex.com/otrs/OTRS/language/zh_CN/)\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2024-06-29 00:49+0200\nPO-Revision-Date: 2026-03-08 14:00+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\nLanguage: zh_CN\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../../content/administration-area.rst:12
 #, fuzzy
@@ -1036,6 +1023,7 @@ msgid "Permission \\*"
 msgstr "权限 \\*"
 
 #: ../../content/administration-area/administration/faq-category.rst:70
+#, fuzzy
 msgid "Agent groups that can access articles in this category."
 msgstr "能访问此类别文章的服务人员组"
 
@@ -2811,10 +2799,12 @@ msgid "Agent (resources), who are selected within the appointment"
 msgstr "这个预约选择的服务人员（资源）"
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:185
+#, fuzzy
 msgid "All agents with (at least) read permission for the appointment (calendar)"
 msgstr "所有对这个预约（日历）至少有读权限的服务人员。"
 
 #: ../../content/administration-area/communication-notifications/appointment-notifications.rst:186
+#, fuzzy
 msgid "All agents with write permission for the appointment (calendar)"
 msgstr "所有对这个预约（日历）有写权限的服务人员。"
 
@@ -3207,6 +3197,7 @@ msgid ""
 msgstr "OTRS引入 *通信日志* 模块。它的设计是为了跟踪通信：构建和假脱机邮件以及客户端和服务器之间的连接。"
 
 #: ../../content/administration-area/communication-notifications/communication-log.rst:18
+#, fuzzy
 msgid ""
 "Use this screen to inspect the internal logs about communication "
 "handling. The communication log overview screen is available in the "
@@ -3572,6 +3563,7 @@ msgstr "点击左侧边栏的 *添加PGP密钥* 按钮。"
 #: ../../content/administration-area/communication-notifications/pgp-keys.rst:45
 #: ../../content/administration-area/communication-notifications/s-mime-certificates.rst:45
 #: ../../content/administration-area/communication-notifications/s-mime-certificates.rst:61
+#, fuzzy
 msgid "Click on *Browse…* button to open the file dialog."
 msgstr "点击*浏览...*按钮来打开文件对话框。"
 
@@ -3581,6 +3573,7 @@ msgstr "从文件系统中选择一个PGP密钥文件。"
 
 #: ../../content/administration-area/communication-notifications/pgp-keys.rst:47
 #: ../../content/administration-area/communication-notifications/s-mime-certificates.rst:47
+#, fuzzy
 msgid "Click on the *Add* button."
 msgstr "点击*添加*按钮。"
 
@@ -3638,6 +3631,7 @@ msgstr ""
 "例如，根据主题或发件人的情况，绑定到服务台的电子邮件可能会落入子队列，或被重定向到完全不同的团队，以创建透明度并为您的客户提供最快的服务。"
 
 #: ../../content/administration-area/communication-notifications/postmaster-filters.rst:18
+#, fuzzy
 msgid ""
 "Use this screen to add postmaster filters to the system. The postmaster "
 "filter management screen is available in the *PostMaster Filters* module "
@@ -5631,6 +5625,7 @@ msgstr "选择要在形象广告图片小部件中显示的图片。要选择图
 #: ../../content/administration-area/external-interface/home-page.rst:100
 #: ../../content/administration-area/external-interface/home-page.rst:132
 #: ../../content/administration-area/external-interface/home-page.rst:183
+#, fuzzy
 msgid "The heading text that are displayed in this item."
 msgstr "显示在此条目中的标题文字"
 
@@ -6945,6 +6940,7 @@ msgid "Cluster"
 msgstr "群集"
 
 #: ../../content/administration-area/otobo-services/support-data-collector.rst:121
+#, fuzzy
 msgid "The name of the used cluster."
 msgstr "使用的群集的名称"
 
@@ -7754,6 +7750,7 @@ msgid "``[regexp]``"
 msgstr "``[regexp]``"
 
 #: ../../content/administration-area/processes-automation/access-control-lists.rst:166
+#, fuzzy
 msgid "It is very similar to ``[RegExp]`` but it is case insensitive."
 msgstr "它与``[RegExp]`` 非常相似，但不区分大小写。"
 
@@ -8442,6 +8439,7 @@ msgid "Default date difference"
 msgstr "默认的时间差"
 
 #: ../../content/administration-area/processes-automation/dynamic-fields.rst:243
+#, fuzzy
 msgid ""
 "The difference from **now** (in seconds) to calculate the field default "
 "value (e.g. 3600 or -60)."
@@ -8896,18 +8894,22 @@ msgid ""
 msgstr "处理工单通常需要工作流程。我们称之为 \"if-then\" 活动。"
 
 #: ../../content/administration-area/processes-automation/generic-agent.rst:16
+#, fuzzy
 msgid "If specific conditions match like:"
 msgstr "``If`` 指定匹配条件，比如："
 
 #: ../../content/administration-area/processes-automation/generic-agent.rst:18
+#, fuzzy
 msgid "A ticket is from one particular customer."
 msgstr "一个工单来自某个特定客户；"
 
 #: ../../content/administration-area/processes-automation/generic-agent.rst:19
+#, fuzzy
 msgid "A ticket is assigned to an appropriate queue."
 msgstr "一个工单分配到一个适当的队列；"
 
 #: ../../content/administration-area/processes-automation/generic-agent.rst:20
+#, fuzzy
 msgid "A ticket has a defined priority."
 msgstr "一个工单有一个定义的优先级；"
 
@@ -9265,6 +9267,7 @@ msgid ""
 msgstr "流程在OTRS前端内完全有效地设计，以满足您组织的要求。"
 
 #: ../../content/administration-area/processes-automation/process-management.rst:20
+#, fuzzy
 msgid ""
 "Use this screen to manage processes in the system. The process management"
 " screen is available in the *Process Management* module of the *Processes"
@@ -9309,6 +9312,7 @@ msgstr "若要编辑一个流程："
 
 #: ../../content/administration-area/processes-automation/process-management.rst:42
 #: ../../content/administration-area/processes-automation/process-management.rst:54
+#, fuzzy
 msgid "Click on a process in the list of processes."
 msgstr "点击流程列表中的一个流程："
 
@@ -10331,6 +10335,7 @@ msgid "Book Ordering - Add Transition Action"
 msgstr "图书预订 - 添加序列流操作"
 
 #: ../../content/administration-area/processes-automation/process-management.rst:483
+#, fuzzy
 msgid ""
 "Click on the *Configure* button and add the needed configuration "
 "parameter keys and values."
@@ -11055,6 +11060,7 @@ msgid "Manage Web Services"
 msgstr "管理Web服务"
 
 #: ../../content/administration-area/processes-automation/web-services.rst:42
+#, fuzzy
 msgid "To create a web service:"
 msgstr "若要创建一个Web服务"
 
@@ -11547,6 +11553,7 @@ msgid "Ticket Settings"
 msgstr "工单设置"
 
 #: ../../content/administration-area/ticket-settings.rst:14
+#, fuzzy
 msgid ""
 "A :term:`ticket` is similar to a medical report created for a hospital "
 "patient. When a patient first visits the hospital, a medical report is "
@@ -11558,10 +11565,7 @@ msgid ""
 "on the case at hand. When the patient recovers and leaves the hospital, "
 "all information from the medical report is archived and the report is "
 "closed."
-msgstr ""
-":term:`工单` 类似于为医院患者创建的医疗报告。 当患者首次访问医院时，会创建一份医疗报告，以便将所有必要的个人和医疗信息保存在他身上。 "
-"在多次访问时，由相同或其它的医生照顾，主治医生通过添加有关患者健康和持续治疗的新信息来更新报告。 "
-"这使得任何其他医生或护理人员能够全面了解手头的情况。 当患者康复并离开医院时，医疗报告中的所有信息都会被存档，报告将被关闭。"
+msgstr ":term:`工单` 类似于为医院患者创建的医疗报告。 当患者首次访问医院时，会创建一份医疗报告，以便将所有必要的个人和医疗信息保存在他身上。 在多次访问时，由相同或其它的医生照顾，主治医生通过添加有关患者健康和持续治疗的新信息来更新报告。 这使得任何其他医生或护理人员能够全面了解手头的情况。 当患者康复并离开医院时，医疗报告中的所有信息都会被存档，报告将被关闭。"
 
 #: ../../content/administration-area/ticket-settings.rst:16
 #, fuzzy
@@ -12749,6 +12753,7 @@ msgid "Services"
 msgstr "服务"
 
 #: ../../content/administration-area/ticket-settings/services.rst:14
+#, fuzzy
 msgid ""
 "Requests to your service desk should be categorized based on affected "
 ":term:`service` to correctly reach a team of experts to deal with the "
@@ -12756,9 +12761,7 @@ msgid ""
 "of experience or access to resources to fix an issue requires defining "
 "the service affected in a ticket helps to categorize the issue and target"
 " the correct teams."
-msgstr ""
-"对服务台的请求应根据受影响的 :term:`服务` 进行分类，以正确地联系专家团队来处理问题。 因为并非所有服务人员都可以处理特定问题。 "
-"缺乏经验或访问资源来解决问题需要定义工单中受影响的服务有助于对问题进行分类并定位正确的团队。"
+msgstr "对服务台的请求应根据受影响的 :term:`服务` 进行分类，以正确地联系专家团队来处理问题。 因为并非所有服务人员都可以处理特定问题。 缺乏经验或访问资源来解决问题需要定义工单中受影响的服务有助于对问题进行分类并定位正确的团队。"
 
 #: ../../content/administration-area/ticket-settings/services.rst:16
 #, fuzzy
@@ -13680,6 +13683,7 @@ msgstr "若要添加一些附件到一个模板："
 
 #: ../../content/administration-area/ticket-settings/templates-attachments.rst:31
 #: ../../content/administration-area/ticket-settings/templates-queues.rst:31
+#, fuzzy
 msgid "Click on a template in the *Templates* column."
 msgstr "点击*模板*列中的一个模板。"
 
@@ -14757,6 +14761,7 @@ msgid "Manage Customer Users"
 msgstr "管理客户用户"
 
 #: ../../content/administration-area/users-groups-roles/customer-users.rst:31
+#, fuzzy
 msgid ""
 "A customer user can only be added to the system when at least one "
 ":term:`customer` exists. Create one or more :doc:`customers` first."
@@ -15218,13 +15223,12 @@ msgid "Manage Customer Users ↔ Customers Relations"
 msgstr "管理客户用户 ↔ 客户关联"
 
 #: ../../content/administration-area/users-groups-roles/customer-users-customers.rst:31
+#, fuzzy
 msgid ""
 "This module is for assigning a :term:`customer user` to additional "
 ":term:`customer` records. The primary customer is assigned via the "
 ":ref:`Customer User Settings`."
-msgstr ""
-"该模块用于将一个 :term:`客户用户` 分配给其它的 :term:`客户` 记录。 主要客户通过 :ref:`Customer User "
-"Settings` 进行分配。"
+msgstr "该模块用于将一个 :term:`客户用户` 分配给其它的 :term:`客户` 记录。 主要客户通过 :ref:`Customer User Settings` 进行分配。"
 
 #: ../../content/administration-area/users-groups-roles/customer-users-customers.rst:33
 msgid "To assign some customers to a customer user:"
@@ -15793,6 +15797,7 @@ msgid ""
 msgstr "如果系统中添加了多个客户或组，请使用搜索框查找特定客户，或使用过滤器框通过键入要过滤的名称来查找特定组。"
 
 #: ../../content/administration-area/users-groups-roles/customers-groups.rst:96
+#, fuzzy
 msgid ""
 "Multiple customers or groups can be assigned in both screens at the same "
 "time. Additionally clicking on a customer or clicking on a group in the "
@@ -15822,6 +15827,7 @@ msgid "Same Customer"
 msgstr "同一客户"
 
 #: ../../content/administration-area/users-groups-roles/customers-groups.rst:109
+#, fuzzy
 msgid ""
 "Gives customer users group based access to tickets from customer users of"
 " the same customer (ticket ``CustomerID`` is a ``CustomerID`` of the "
@@ -16132,6 +16138,7 @@ msgid ""
 msgstr "OTRS中的配置文件、模块、脚本或其它的功能项，无法通过浏览器访问。"
 
 #: ../../content/glossary.rst:25
+#, fuzzy
 msgid ""
 "Defines working hours, time-zone, and holidays to be applied when using "
 ":term:`escalation times`."
@@ -16302,6 +16309,7 @@ msgid "Service Request"
 msgstr "服务请求"
 
 #: ../../content/glossary.rst:76
+#, fuzzy
 msgid "(see also :term:`Ticket`)."
 msgstr "（参见 :term:`工单`）。"
 
@@ -16319,6 +16327,7 @@ msgid "SLA"
 msgstr "SLA"
 
 #: ../../content/glossary.rst:85
+#, fuzzy
 msgid "(see also :term:`Service Level Agreement`)."
 msgstr "（参见 :term:`服务级别协议`）。"
 
@@ -16355,6 +16364,7 @@ msgid "Working Time"
 msgstr "工时"
 
 #: ../../content/glossary.rst:97
+#, fuzzy
 msgid ""
 "A definition of minutes passed during the defined working hours of any "
 ":term:`calendar`."
@@ -17110,4 +17120,3 @@ msgstr ""
 #~ "可以从Active Directory®或LDAP服务器读取和同步服务人员。以下配置由“客户解决方案团队 "
 #~ "<support@otrs.com>负责”。如果您使用Onpremise或 ((OTRS)) "
 #~ "社区版，那么您也可以使用此部分来配置您的系统。"
-

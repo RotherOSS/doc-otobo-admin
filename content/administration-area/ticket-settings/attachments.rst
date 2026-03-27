@@ -3,9 +3,12 @@ Attachments
 
 For any size of organization it is often required to send a service agreement, the terms of service or a privacy statement out when a customer signs a contract.
 
-OTOBO can handle an infinite number of attachments (PDF, image, etc.) and can bundle them into templates. Your agents don’t need to maintain the attachments on their own, nor don’t they need to upload them again and again - they can just use the predefined templates.
+OTOBO can handle an infinite number of attachments (PDF, image, etc.) and can bundle them into templates.
+Your agents don’t need to maintain the attachments on their own, nor don’t they need to upload them again and again - they can just use the predefined templates.
 
-Use this screen to add attachments for use in templates. A fresh OTOBO installation doesn't contain any attachments by default. The attachment management screen is available in the *Attachments* module of the *Ticket Settings* group.
+Use this screen to add attachments for use in templates.
+A fresh OTOBO installation doesn't contain any attachments by default.
+The attachment management screen is available in the *Attachments* module of the *Ticket Settings* group.
 
 .. figure:: images/attachment-management.png
    :alt: Attachment Management Screen
@@ -56,16 +59,23 @@ To delete an attachment:
 Attachment Settings
 -------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Attachment \*
-   Open the file dialog to add a file from the file system. This field is mandatory in the attachment add screen, but optional in the attachment edit screen. Adding a new file in the edit screen will overwrite the existing attachment.
+   Open the file dialog to add a file from the file system.
+   This field is mandatory in the attachment add screen, but optional in the attachment edit screen.
+   Adding a new file in the edit screen will overwrite the existing attachment.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Comment
-   Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
+   Add additional information to this resource.
+   It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.

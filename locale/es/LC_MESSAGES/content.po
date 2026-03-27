@@ -5,20 +5,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: OTOBO Administration Manual 10.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 00:49+0200\n"
-"PO-Revision-Date: 2023-10-24 05:08+0000\n"
-"Last-Translator: Alvaro Cordero Retana <alvaro@gridshield.net>\n"
-"Language: es\n"
-"Language-Team: Spanish <https://translate.otobo.org/projects/otobo10"
-"/admin-manual/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO Administration Manual 10.1\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2024-06-29 00:49+0200\nPO-Revision-Date: 2026-03-08 14:00+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Spanish <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/es/>\nLanguage: es\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../../content/administration-area.rst:12
 #, fuzzy
@@ -489,10 +476,9 @@ msgid "Permission group \\*"
 msgstr "Grupo de permisos \\*"
 
 #: ../../content/administration-area/administration/calendars.rst:90
+#, fuzzy
 msgid "Select which :doc:`../users-groups-roles/groups` can access the calendar."
-msgstr ""
-"Seleccione cuál `..\\usuarios-grupos-roles/grupos` pueden acceder el "
-"calenario."
+msgstr "Seleccione cuál `..\\usuarios-grupos-roles/grupos` pueden acceder el calenario."
 
 #: ../../content/administration-area/administration/calendars.rst:92
 msgid ""
@@ -693,12 +679,11 @@ msgid "Upload \\*"
 msgstr "Subir \\*"
 
 #: ../../content/administration-area/administration/calendars.rst:143
+#, fuzzy
 msgid ""
 "Click on the *Browse…* button, and select a valid iCal (``.ics``) file to"
 " upload."
-msgstr ""
-"De click en el botón *Buscar...* y seleccione un archivo iCal(`` .ics``) "
-"para cargar."
+msgstr "De click en el botón *Buscar...* y seleccione un archivo iCal(`` .ics``) para cargar."
 
 #: ../../content/administration-area/administration/calendars.rst:150
 msgid "Calendar \\*"
@@ -773,16 +758,13 @@ msgstr ""
 "registrados con contrato y prospectos públicos."
 
 #: ../../content/administration-area/administration/chat-channels.rst:20
+#, fuzzy
 msgid ""
 "Use this screen to add chat channels to the system. A fresh OTOBO "
 "installation contains no chat channels by default. The chat channel "
 "management screen is available in the *Chat Channels* module of the "
 "*Administration* group."
-msgstr ""
-"Use esta pantalla para agregar canales de chat al sistema. Una "
-"instalación limpia de OTOBO no contiene canales de chat por defecto. La "
-"pantalla de administración de canales de chat está disponible en el "
-"módulo *Canales de chat* del grupo \"Aministración\"."
+msgstr "Use esta pantalla para agregar canales de chat al sistema. Una instalación limpia de OTOBO no contiene canales de chat por defecto. La pantalla de administración de canales de chat está disponible en el módulo *Canales de chat* del grupo \"Aministración\"."
 
 #: ../../content/administration-area/administration/chat-channels.rst:25
 msgid "Chat Channel Management Screen"
@@ -15798,4 +15780,3 @@ msgstr ""
 #~ "administrators are allowed to log into"
 #~ " the system."
 #~ msgstr ""
-

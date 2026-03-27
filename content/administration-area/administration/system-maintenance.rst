@@ -1,11 +1,15 @@
 System Maintenance
 ==================
 
-System maintenance is a crucial part of the work done by all system administrators. Some maintenance tasks require to put the operation on hold. In such cases, pro-active information to users is essential to raise their awareness and understanding.
+System maintenance is a crucial part of the work done by all system administrators.
+Some maintenance tasks require to put the operation on hold.
+In such cases, pro-active information to users is essential to raise their awareness and understanding.
 
-OTOBO supports this with the *System Maintenance* module, which allows administrators (agents who have access to the group "admin") to schedule maintenance windows in advance and inform users with login messages and notifications about the planned maintenance. Also, during a scheduled maintenance window, only administrators are allowed to log into the system.
+OTOBO supports this with the *System Maintenance* module, which allows administrators (agents who have access to the group "admin") to schedule maintenance windows in advance and inform users with login messages and notifications about the planned maintenance.
+Also, during a scheduled maintenance window, only administrators are allowed to log into the system.
 
-Use this screen to schedule system maintenance for the system. The system maintenance management screen is available in the *System Maintenance* module of the *Administration* group.
+Use this screen to schedule system maintenance for the system.
+The system maintenance management screen is available in the *System Maintenance* module of the *Administration* group.
 
 .. figure:: images/system-maintenance-management.png
    :alt: System Maintenance Management Screen
@@ -63,14 +67,17 @@ Stop date
    Select a date when the system maintenance is planned to finish.
 
 Comment \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The comment will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The comment will be displayed in the overview table.
 
 Login message
    If this text is given, it will be displayed in the login screen, if the next option is checked.
 
    .. seealso::
 
-      There are some default system maintenance message set in the system configuration. For more information see the following system configuration settings:
+      There are some default system maintenance message set in the system configuration.
+      For more information see the following system configuration settings:
 
       - ``SystemMaintenance::IsActiveDefaultLoginErrorMessage``
       - ``SystemMaintenance::IsActiveDefaultLoginMessage``
@@ -89,10 +96,13 @@ Notify message
       - ``SystemMaintenance::TimeNotifyUpcomingMaintenance``
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Manage Sessions
-   This widget gives an overview about the currently logged in users. It is possible to kill each sessions by clicking on the *Kill this session* links. You can also kill all sessions except yours by clicking on the *Kill all Sessions, except for your own* button.
+   This widget gives an overview about the currently logged in users.
+   It is possible to kill each sessions by clicking on the *Kill this session* links.
+   You can also kill all sessions except yours by clicking on the *Kill all Sessions, except for your own* button.
 
    .. figure:: images/system-maintenance-manage-sessions.png
       :alt: Edit System Maintenance - Manage Sessions

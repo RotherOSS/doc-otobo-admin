@@ -1,11 +1,16 @@
 Queues
 ======
 
-Teams need a workspace and the ability to dispatch work based on skill level, security level, department or responsibility just to name a few. Other teams may also need to view or react to these requests as well.
+Teams need a workspace and the ability to dispatch work based on skill level, security level, department or responsibility just to name a few.
+Other teams may also need to view or react to these requests as well.
 
-OTOBO uses queues to provide your teams with structure. Queues provide a powerful way to divide and disperse the work to the responsible group of people.
+OTOBO uses queues to provide your teams with structure.
+Queues provide a powerful way to divide and disperse the work to the responsible group of people.
 
-Use this screen to add queues to the system. In a fresh OTOBO installation there are 4 default queues: *Raw*, *Junk*, *Misc* and *Postmaster*. All incoming messages will be stored in the *Raw* queue if no filter rules are defined. The *Junk* queue can be used to store spam messages. The queue management screen is available in the *Queues* module of the *Ticket Settings* group.
+Use this screen to add queues to the system.
+In a fresh OTOBO installation there are 4 default queues: *Raw*, *Junk*, *Misc* and *Postmaster*. All incoming messages will be stored in the *Raw* queue if no filter rules are defined.
+The *Junk* queue can be used to store spam messages.
+The queue management screen is available in the *Queues* module of the *Ticket Settings* group.
 
 .. figure:: images/queue-management.png
    :alt: Queue Management Screen
@@ -29,7 +34,8 @@ To add a queue:
 
 .. warning::
 
-   Queues can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
+   Queues can not be deleted from the system.
+   They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
 
 To edit a queue:
 
@@ -85,32 +91,41 @@ Save and update automatically
    Apply the change and also update the affected settings.
 
 Don't save, update manually
-   Apply the change, but don't update the affected settings. The updates need to be done manually.
+   Apply the change, but don't update the affected settings.
+   The updates need to be done manually.
 
 Cancel
    Cancel the action.
 
 .. warning::
 
-   Changing the name of this object should be done with care, the check only provides verification for certain settings and ignores things where the name can't be verified. Some examples are dashboard filters, action control lists (ACLs), and processes (sequence flow actions) to name a few. Documentation of your setup is key to surviving a name change.
+   Changing the name of this object should be done with care, the check only provides verification for certain settings and ignores things where the name can't be verified.
+   Some examples are dashboard filters, action control lists (ACLs), and processes (sequence flow actions) to name a few.
+   Documentation of your setup is key to surviving a name change.
 
 
 Queue Settings
 --------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Sub-queue of
-   It is possible to add the new queue under an existing one as sub-queue. This will be displayed as *Parent Queue::Child Queue*.
+   It is possible to add the new queue under an existing one as sub-queue.
+   This will be displayed as *Parent Queue::Child Queue*.
 
 Group \*
-   It is possible to limit access to the selected group. The group creates a permission link between the queue and an agent or a customer user.
+   It is possible to limit access to the selected group.
+   The group creates a permission link between the queue and an agent or a customer user.
 
 Unlock timeout minutes
-   Any ticket on open, which is locked, in this queue will automatically unlock after the set amount of minutes. The value *0* (default) means tickets in this queue remain locked.
+   Any ticket on open, which is locked, in this queue will automatically unlock after the set amount of minutes.
+   The value *0* (default) means tickets in this queue remain locked.
 
 Escalation - first response time (minutes)
    The maximum amount of working time allowed before the agent contacts with the customer.
@@ -140,7 +155,8 @@ Notify by
 
 
 Follow up Option \*
-   Specify the handling of a follow up on closed tickets. Possible values:
+   Specify the handling of a follow up on closed tickets.
+   Possible values:
 
    new ticket
       The follow up will create a new ticket.
@@ -156,18 +172,21 @@ Follow up Option \*
       See :doc:`auto-responses` chapter for more information.
 
 Ticket lock after a follow up \*
-   Only applicable if the *Follow up Option* is set to *possible*. Locks the previously closed ticket, upon reopening, to the last owner. This ensures that a follow up for a ticket is processed by the agent that has previously handled that ticket.
+   Only applicable if the *Follow up Option* is set to *possible*. Locks the previously closed ticket, upon reopening, to the last owner.
+   This ensures that a follow up for a ticket is processed by the agent that has previously handled that ticket.
 
    .. warning::
 
-      This does not take out-of-office into account. Use this setting with care to ensure or in combination with *Unlock timeout minutes*.
+      This does not take out-of-office into account.
+      Use this setting with care to ensure or in combination with *Unlock timeout minutes*.
 
 System address \*
    Select one of the :doc:`../communication-notifications/email-addresses` as the sender identity for this queue.
 
    .. note::
 
-      This is an ID in the database. Making changes to the :doc:`../communication-notifications/email-addresses` can have adverse effects here.
+      This is an ID in the database.
+      Making changes to the :doc:`../communication-notifications/email-addresses` can have adverse effects here.
 
 Default sign key
    This is only active if :doc:`../communication-notifications/pgp-keys` or :doc:`../communication-notifications/s-mime-certificates` is enabled in the :doc:`../administration/system-configuration`. Choose the key to sign emails per default.
@@ -179,13 +198,16 @@ Signature \*
    Select one of the defined :doc:`signatures`.
 
 Calendar
-   Select the calendar which defines working hours for this queue. Calendars are defined in the :doc:`../administration/system-configuration`.
+   Select the calendar which defines working hours for this queue.
+   Calendars are defined in the :doc:`../administration/system-configuration`.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 Comment
-   Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
+   Add additional information to this resource.
+   It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table.
 
 Chat Channel
    Chat channel that will be used for communication related to the tickets in this queue.

@@ -1,17 +1,23 @@
 Home Page
 =========
 
-.. note:: Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution.
+.. note::
 
-Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group.
+   Rother OSS TODO: This feature will be included in one of the next OTOBO releases.
+   If you need it beforehand, please contact sales@otobo.de, we will find a solution.
+
+Use this screen to define home page configuration for different user languages, that are displayed in the external interface.
+The home page management screen is available in the *Home Page* module of the *External Interface* group.
 
 This screen contains several widget for each languages, where localized content can be added.
 
 .. warning::
 
-   Make sure to save your changes when you finish. The new configuration will be immediately deployed.
+   Make sure to save your changes when you finish.
+   The new configuration will be immediately deployed.
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 
 Hero Unit
@@ -28,17 +34,20 @@ Title
    This is the most important sentence or motto of the home page.
 
 Background Style
-   Define the behavior of background image and background color. The following options are available:
+   Define the behavior of background image and background color.
+   The following options are available:
 
    - Only use the background image
    - Only use the background color
    - Use the background image and overlay it with the selected color
 
 Background Image
-   Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system.
+   Select an image used as background image for the hero unit.
+   To select an image, click on the *Select image to upload* button and chose an image from your file system.
 
 Background Color
-   To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value.
+   To change the background color, just select a new color from the color palette.
+   You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value.
 
 
 Ticket List
@@ -74,7 +83,8 @@ Row Title
    This is an optional title for the row, that contains this widget in the external interface.
 
 Row Background Color
-   To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value.
+   To change the background color, just select a new color from the color palette.
+   You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value.
 
 You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget.
 
@@ -84,7 +94,8 @@ You can add up to three image teasers by clicking on the *Add* button in the top
    Image Teaser
 
 Image
-   Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system.
+   Select an image to display it in the image teaser widget.
+   To select an image, click on the *Select image to upload* button and chose an image from your file system.
 
 Title \*
    The heading text that are displayed in this item.

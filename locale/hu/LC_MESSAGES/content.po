@@ -8,20 +8,7 @@
 # Balázs Úr, 2014-2018
 # Martin Gruner <martin.gruner@otrs.com>, 2016-2018
 msgid ""
-msgstr ""
-"Project-Id-Version:  OTRS\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 00:49+0200\n"
-"PO-Revision-Date: 2019-05-31 19:04+0000\n"
-"Last-Translator: Balázs Úr\n"
-"Language: hu\n"
-"Language-Team: Hungarian "
-"(http://www.transifex.com/otrs/OTRS/language/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2024-06-29 00:49+0200\nPO-Revision-Date: 2026-03-08 14:00+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../../content/administration-area.rst:12
 #, fuzzy
@@ -9024,6 +9011,7 @@ msgid "100-Example-ACL - Basic Settings"
 msgstr "100-Example-ACL – alapvető beállítások"
 
 #: ../../content/administration-area/processes-automation/access-control-lists.rst:191
+#, fuzzy
 msgid ""
 "Secondly, you have a *Properties* section which is a filter for your "
 "tickets. All the criteria defined here will be applied to a ticket to "
@@ -9033,17 +9021,7 @@ msgid ""
 "queue *Raw* and had a priority *3 normal* at this moment the ACL will not"
 " match, but then priority drop-down is selected and the priority is "
 "changed now to *5 very high* then will also match)."
-msgstr ""
-"Másodszor van egy ``Properties`` szakasz, amely egy szűrő a jegyekhez. Az"
-" itt meghatározott összes feltétel alkalmazva lesz egy jegyen annak "
-"meghatározásához, hogy az ACL-t alkalmazni kell-e vagy sem. A mi "
-"példánkban egy jegy akkor fog illeszkedni, ha a *Raw* várólistában van és"
-" *5 nagyon magas* prioritással rendelkezik. Ezt az űrlapon lévő "
-"változások is érinteni fogják (például ha a jegy a *Raw* várólistában van"
-" és *3 normál* prioritással rendelkezik, akkor ebben a pillanatban az ACL"
-" nem fog illeszkedni, de ha ezután a prioritás lenyílót kiválasztják és a"
-" prioritást *5 nagyon magas* értékre változtatják, akkor is illeszkedni "
-"fog)."
+msgstr "Másodszor van egy ``Properties`` szakasz, amely egy szűrő a jegyekhez. Az itt meghatározott összes feltétel alkalmazva lesz egy jegyen annak meghatározásához, hogy az ACL-t alkalmazni kell-e vagy sem. A mi példánkban egy jegy akkor fog illeszkedni, ha a *Raw* várólistában van és *5 nagyon magas* prioritással rendelkezik. Ezt az űrlapon lévő változások is érinteni fogják (például ha a jegy a *Raw* várólistában van és *3 normál* prioritással rendelkezik, akkor ebben a pillanatban az ACL nem fog illeszkedni, de ha ezután a prioritás lenyílót kiválasztják és a prioritást *5 nagyon magas* értékre változtatják, akkor is illeszkedni fog)."
 
 #: ../../content/administration-area/processes-automation/access-control-lists.rst:196
 msgid "100-Example-ACL - Match Settings"
@@ -13335,6 +13313,7 @@ msgid "Ticket Settings"
 msgstr "Jegybeállítások"
 
 #: ../../content/administration-area/ticket-settings.rst:14
+#, fuzzy
 msgid ""
 "A :term:`ticket` is similar to a medical report created for a hospital "
 "patient. When a patient first visits the hospital, a medical report is "
@@ -13346,17 +13325,7 @@ msgid ""
 "on the case at hand. When the patient recovers and leaves the hospital, "
 "all information from the medical report is archived and the report is "
 "closed."
-msgstr ""
-"Egy :term:`jegy` hasonló a kórházi betegnek létrehozott orvosi "
-"jelentéshez. Ha egy beteg először látogatja meg a kórházat, akkor egy "
-"orvosi jelentést hoznak létre az összes szükséges személyes és orvosi "
-"információ tárolására a betegről. Több látogatás alkalmával, amint "
-"ugyanaz vagy további orvosok látják el, az ellátó orvos frissíti a "
-"jelentést a beteg egészségi állapotáról és a folyamatos kezelésről szóló "
-"új információk hozzáadásával. Ez teszi lehetővé bármely más orvosnak vagy"
-" az ápolószemélyzetnek, hogy teljes képet kapjanak a szóban forgó ügyben."
-" Ha a beteg meggyógyul és elhagyja a kórházat, akkor az orvosi jelentés "
-"minden információját archiválják, és a jelentést lezárják."
+msgstr "Egy :term:`jegy` hasonló a kórházi betegnek létrehozott orvosi jelentéshez. Ha egy beteg először látogatja meg a kórházat, akkor egy orvosi jelentést hoznak létre az összes szükséges személyes és orvosi információ tárolására a betegről. Több látogatás alkalmával, amint ugyanaz vagy további orvosok látják el, az ellátó orvos frissíti a jelentést a beteg egészségi állapotáról és a folyamatos kezelésről szóló új információk hozzáadásával. Ez teszi lehetővé bármely más orvosnak vagy az ápolószemélyzetnek, hogy teljes képet kapjanak a szóban forgó ügyben. Ha a beteg meggyógyul és elhagyja a kórházat, akkor az orvosi jelentés minden információját archiválják, és a jelentést lezárják."
 
 #: ../../content/administration-area/ticket-settings.rst:16
 #, fuzzy
@@ -14772,6 +14741,7 @@ msgid "Services"
 msgstr "Szolgáltatások"
 
 #: ../../content/administration-area/ticket-settings/services.rst:14
+#, fuzzy
 msgid ""
 "Requests to your service desk should be categorized based on affected "
 ":term:`service` to correctly reach a team of experts to deal with the "
@@ -14779,14 +14749,7 @@ msgid ""
 "of experience or access to resources to fix an issue requires defining "
 "the service affected in a ticket helps to categorize the issue and target"
 " the correct teams."
-msgstr ""
-"Az ügyfélszolgálathoz intézett kéréseket az érintett :term:`szolgáltatás`"
-" alapján kell kategorizálni, hogy az a megfelelő szakértői csoporthoz "
-"jusson a probléma megoldásáért. Ugyanis nem minden ügyintéző tudja "
-"kezelni az egyes problémákat. Egy probléma megoldásához szükséges "
-"tapasztalatok vagy az erőforrásokhoz való hozzáférés hiánya megköveteli, "
-"hogy meghatározzák a jegyben érintett szolgáltatást, amely segít a "
-"probléma kategorizálásában és a megfelelő csapatok elérésében."
+msgstr "Az ügyfélszolgálathoz intézett kéréseket az érintett :term:`szolgáltatás` alapján kell kategorizálni, hogy az a megfelelő szakértői csoporthoz jusson a probléma megoldásáért. Ugyanis nem minden ügyintéző tudja kezelni az egyes problémákat. Egy probléma megoldásához szükséges tapasztalatok vagy az erőforrásokhoz való hozzáférés hiánya megköveteli, hogy meghatározzák a jegyben érintett szolgáltatást, amely segít a probléma kategorizálásában és a megfelelő csapatok elérésében."
 
 #: ../../content/administration-area/ticket-settings/services.rst:16
 #, fuzzy
@@ -17160,13 +17123,11 @@ msgid "Manage Customer Users"
 msgstr "Ügyfél-felhasználók kezelése"
 
 #: ../../content/administration-area/users-groups-roles/customer-users.rst:31
+#, fuzzy
 msgid ""
 "A customer user can only be added to the system when at least one "
 ":term:`customer` exists. Create one or more :doc:`customers` first."
-msgstr ""
-"Egy ügyfél-felhasználót csak akkor lehet hozzáadni a rendszerhez, ha "
-"legalább egy :term:`ügyfél` már létezik. Először :doc:`customers` "
-"létrehozására van szükség."
+msgstr "Egy ügyfél-felhasználót csak akkor lehet hozzáadni a rendszerhez, ha legalább egy :term:`ügyfél` már létezik. Először :doc:`customers` létrehozására van szükség."
 
 #: ../../content/administration-area/users-groups-roles/customer-users.rst:35
 msgid ""
@@ -17656,15 +17617,12 @@ msgid "Manage Customer Users ↔ Customers Relations"
 msgstr "Ügyfél-felhasználók ↔ Ügyfelek kapcsolatainak kezelése"
 
 #: ../../content/administration-area/users-groups-roles/customer-users-customers.rst:31
+#, fuzzy
 msgid ""
 "This module is for assigning a :term:`customer user` to additional "
 ":term:`customer` records. The primary customer is assigned via the "
 ":ref:`Customer User Settings`."
-msgstr ""
-"Ez a modul azért készült, hogy egy :term:`ügyfél-felhasználó` további "
-":term:`ügyfél` bejegyzésekhez legyen hozzárendelhető. Az elsődleges "
-"ügyfél az :ref:`Customer User Settings` szakaszban leírtak szerint van "
-"hozzárendelve."
+msgstr "Ez a modul azért készült, hogy egy :term:`ügyfél-felhasználó` további :term:`ügyfél` bejegyzésekhez legyen hozzárendelhető. Az elsődleges ügyfél az :ref:`Customer User Settings` szakaszban leírtak szerint van hozzárendelve."
 
 #: ../../content/administration-area/users-groups-roles/customer-users-customers.rst:33
 msgid "To assign some customers to a customer user:"
@@ -18781,12 +18739,11 @@ msgstr ""
 "OTRS-en belül, amely nem érhető el a böngészőn keresztül."
 
 #: ../../content/glossary.rst:25
+#, fuzzy
 msgid ""
 "Defines working hours, time-zone, and holidays to be applied when using "
 ":term:`escalation times`."
-msgstr ""
-"Meghatározza az alkalmazandó munkaidőket, időzónákat és szabadságokat az "
-":term:`eszkalációs idők` használatakor."
+msgstr "Meghatározza az alkalmazandó munkaidőket, időzónákat és szabadságokat az :term:`eszkalációs idők` használatakor."
 
 #: ../../content/glossary.rst:26
 msgid "Customer"
@@ -18990,6 +18947,7 @@ msgid "Service Request"
 msgstr "Szolgáltatáskérés"
 
 #: ../../content/glossary.rst:76
+#, fuzzy
 msgid "(see also :term:`Ticket`)."
 msgstr "(lásd: :term:`jegy`)."
 
@@ -19007,6 +18965,7 @@ msgid "SLA"
 msgstr "SLA"
 
 #: ../../content/glossary.rst:85
+#, fuzzy
 msgid "(see also :term:`Service Level Agreement`)."
 msgstr "(lásd: :term:`szolgáltatási megállapodás`)."
 
@@ -19048,12 +19007,11 @@ msgid "Working Time"
 msgstr "Munkaidő"
 
 #: ../../content/glossary.rst:97
+#, fuzzy
 msgid ""
 "A definition of minutes passed during the defined working hours of any "
 ":term:`calendar`."
-msgstr ""
-"Bármely :term:`naptár` meghatározott munkaideje alatt eltelt percek "
-"meghatározása."
+msgstr "Bármely :term:`naptár` meghatározott munkaideje alatt eltelt percek meghatározása."
 
 #: ../../content/history.rst:13
 msgid "Documentation History"
@@ -19972,4 +19930,3 @@ msgstr ""
 #~ "((OTRS)) Community Edition verziókat használ,"
 #~ " használhatja ezeket a szakaszokat a "
 #~ "rendszer beállításához."
-

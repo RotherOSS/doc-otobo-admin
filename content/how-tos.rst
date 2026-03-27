@@ -1,10 +1,8 @@
 How-Tos
-==============
+=======
 
-How-Tos on configuring your OTOBO.
+While this documentation serves as a reference, it does not directly provide solutions or give recipes for common configurations.
+For this purpose have a look at these resources:
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Contents
+* https://portal.rother-oss.com/otobo/public.pl
 
-   how-tos/grant-restricted-admin-permissions

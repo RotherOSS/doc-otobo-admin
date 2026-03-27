@@ -1,7 +1,9 @@
 Roles ↔ Groups
 ==============
 
-Use this screen to add one or more roles to one or more groups. To use this function, at least one role and one group need to have been added to the system. The management screen is available in the *Roles ↔ Groups* module of the *Users, Groups & Roles* group.
+Use this screen to add one or more roles to one or more groups.
+To use this function, at least one role and one group need to have been added to the system.
+The management screen is available in the *Roles ↔ Groups* module of the *Users, Groups & Roles* group.
 
 .. figure:: images/role-group-management.png
    :alt: Manage Role-Group Relations
@@ -14,9 +16,9 @@ Manage Roles ↔ Groups Relations
 
 To assign some groups to a role:
 
-1. Click on a role in the *Roles* column.
-2. Select the permissions you would like to connect the role to groups with.
-3. Click on the *Save* or *Save and finish* button.
+#. Click on a role in the *Roles* column.
+#. Select the permissions you would like to connect the role to groups with.
+#. Click on the *Save* or *Save and finish* button.
 
 .. figure:: images/role-group-role.png
    :alt: Change Group Relations for Role
@@ -25,9 +27,9 @@ To assign some groups to a role:
 
 To assign some roles to a group:
 
-1. Click on a group in the *Groups* column.
-2. Select the permissions you would like to connect the group to roles with.
-3. Click on the *Save* or *Save and finish* button.
+#. Click on a group in the *Groups* column.
+#. Select the permissions you would like to connect the group to roles with.
+#. Click on the *Save* or *Save and finish* button.
 
 .. figure:: images/role-group-group.png
    :alt: Change Role Relations for Group
@@ -38,7 +40,8 @@ To assign some roles to a group:
 
    If several roles or groups are added to the system, use the filter box to find a particular role or group by just typing the name to filter.
 
-Multiple roles or groups can be assigned in both screens at the same time. Additionally clicking on a role or clicking on a group in the relations screen will open the *Edit Role* screen or the *Edit Group* screen accordingly.
+Multiple roles or groups can be assigned in both screens at the same time.
+Additionally clicking on a role or clicking on a group in the relations screen will open the *Edit Role* screen or the *Edit Group* screen accordingly.
 
 .. warning::
 
@@ -67,7 +70,8 @@ To import a set of role group relations:
 Roles ↔ Groups Relations Reference
 ----------------------------------
 
-When assigning a role to a group or vice versa, several permissions can be set as connection between a role and a group. The following permissions are available by default:
+When assigning a role to a group or vice versa, several permissions can be set as connection between a role and a group.
+The following permissions are available by default:
 
 ro
    Read only access to the ticket in this group/queue.
@@ -101,7 +105,9 @@ rw
 
 .. seealso::
 
-   Not all available permissions are shown by default. See ``System::Permission`` setting for permissions that can be added. These additional permissions can be added:
+   Not all available permissions are shown by default.
+   See ``System::Permission`` setting for permissions that can be added.
+   These additional permissions can be added:
 
    stats
       Gives access to the stats page.
@@ -129,4 +135,5 @@ rw
 
 .. note::
 
-   By setting a checkbox in the header of a column will set all the checkboxes in the selected column. By setting the checkbox in the last *rw* column will set all the checkboxes in the selected row.
+   By setting a checkbox in the header of a column will set all the checkboxes in the selected column.
+   By setting the checkbox in the last *rw* column will set all the checkboxes in the selected row.
