@@ -21,6 +21,7 @@ Many other tools are also available and covered in the sections below.
    communication-notifications/pgp-keys
    communication-notifications/postmaster-filters
    communication-notifications/postmaster-mail-accounts
+   communication-notifications/oauth2-mail
    communication-notifications/s-mime-certificates
    communication-notifications/ticket-notifications
 

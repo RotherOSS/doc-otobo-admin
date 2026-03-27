@@ -63,6 +63,29 @@ To edit a service:
    Some examples are dashboard filters, action control lists (ACLs), and processes (sequence flow actions) to name a few.
    Documentation of your setup is key to surviving a name change.
 
+Import / Export
+---------------
+
+To export one or more services:
+
+1. Click on the *Services Export* button on the left.
+2. Select the services you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/service-export.png
+   :alt: Service Export Screen
+
+   Service Export Screen
+
+To import a set of services:
+
+1. Select a file using the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Services Import* button.
+
+.. warning::
+
+   When importing nested services, all parent services must be imported as well or already exist on the system.
 
 Service Settings
 ----------------

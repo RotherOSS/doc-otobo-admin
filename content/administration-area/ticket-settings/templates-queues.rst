@@ -50,3 +50,23 @@ Additionally clicking on a template or clicking on a queue in the relations scre
 .. warning::
 
    Accessing a queue or a template provides no back link to the relations screen.
+
+Import / Export
+---------------
+
+To export one or more template queue relations:
+
+1. Click on the *Queue-Templates Export* button on the left.
+2. Select the relations you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/template-queue-export.png
+   :alt: Template Queue Export Screen
+
+   Template Queue Export Screen
+
+To import a set of template queue relations:
+
+1. Select a file using the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Queue-Templates Import* button.

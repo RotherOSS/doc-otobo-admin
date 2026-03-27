@@ -67,6 +67,25 @@ To delete a generic agent job:
 
    If several generic agent jobs are added to the system, use the filter box to find a particular generic agent job by just typing the name to filter.
 
+Import / Export
+---------------
+
+To export one or more generic agent jobs:
+
+1. Click on the *Generic Agents Export* button on the left.
+2. Select the generic agent jobs you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/generic-agent-export.png
+   :alt: Generic Agent Job Export Screen
+
+   Generic Agent Job Export Screen
+
+To import a set of generic agent jobs:
+
+1. Select a file using the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Generic Agents Import* button.
 
 Generic Agent Job Settings
 --------------------------

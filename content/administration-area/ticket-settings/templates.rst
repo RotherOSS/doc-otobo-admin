@@ -59,6 +59,25 @@ To delete a template:
 
    If several templates are added to the system, a filter box is useful to find a particular template by just typing to filter.
 
+Import / Export
+---------------
+
+To export one or more templates:
+
+1. Click on the *Templates Export* button on the left.
+2. Select the templates you want to export.
+3. Click on the *Export* button.
+
+.. figure:: images/template-export.png
+   :alt: Template Export Screen
+
+   Template Export Screen
+
+To import a set of templates:
+
+1. Select a file using the file picker in the *Import / Export* widget.
+2. Optionally tick the *Override existing entities* checkbox.
+3. Click on the *Templates Import* button.
 
 Template Settings
 -----------------
