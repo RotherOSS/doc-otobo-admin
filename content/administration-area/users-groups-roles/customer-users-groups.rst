@@ -1,22 +1,29 @@
 Customer Users ↔ Groups
 =======================
 
-Customer users shouldn't need to be bothered with the internal workings of your service desk. A single point of contact request can trigger several processes within your organization, all of which having the customer user information attached and are visible to the customer.
+Customer users shouldn't need to be bothered with the internal workings of your service desk.
+A single point of contact request can trigger several processes within your organization,
+all of which having the customer user information attached and are visible to the customer.
 
-OTOBO allows you to assign :term:`group` permissions to customer users. Access works just the same as for agents, preventing a customer from modifying and viewing a request. Thus allowing the customer to focus on the results of the original communication and funneling the discussion through one ticket.
+OTOBO allows you to assign :term:`group` permissions to customer users.
+Access works just the same as for agents, preventing a customer from modifying and viewing a request.
+Thus allowing the customer to focus on the results of the original communication and funneling the discussion through one ticket.
 
 .. seealso::
 
    Assign a group to an entire customer using :doc:`customers-groups`.
 
-Use this screen to add one or more customer users to one or more groups. To use this function, at least one customer user and one group need to have been added to the system. The management screen is available in the *Customers Users ↔ Groups* module of the *Users, Groups & Roles* group.
+Use this screen to add one or more customer users to one or more groups.
+To use this function, at least one customer user and one group need to have been added to the system.
+The management screen is available in the *Customers Users ↔ Groups* module of the *Users, Groups & Roles* group.
 
 .. figure:: images/customer-user-group-management.png
    :alt: Manage Customer User-Group Relations
 
    Manage Customer User-Group Relations
 
-Customer group support needs to be enabled in at least one customer user :term:`back end` to use this function. For the default OTOBO :term:`back end`, this can be enabled in the system configuration by clicking on the *Enable it here!* button.
+Customer group support needs to be enabled in at least one customer user :term:`back end` to use this function.
+For the default OTOBO :term:`back end`, this can be enabled in the system configuration by clicking on the *Enable it here!* button.
 
 .. figure:: images/customer-group-activation.png
    :alt: Enable Customer Group Feature
@@ -25,7 +32,9 @@ Customer group support needs to be enabled in at least one customer user :term:`
 
 .. note::
 
-   To enable this feature in systems using a directory server or multiple non-default back ends, a custom configuration file needs to be placed in ``Kernel/Config/Files`` (for example named ``ZZZ_CustomerBackend.pm``). Once activated, all customer users from this back end will require group assignment.
+   To enable this feature in systems using a directory server or multiple non-default back ends,
+   a custom configuration file needs to be placed in ``Kernel/Config/Files`` (for example named ``ZZZ_CustomerBackend.pm``).
+   Once activated, all customer users from this back end will require group assignment.
 
 .. warning::
 
@@ -72,9 +81,11 @@ These groups are automatically assigned to all customer users.
 
 .. note::
 
-   If several customer users or groups are added to the system, use the search box to find a particular customer user or use the filter box to find a particular group by just typing the name to filter.
+   If several customer users or groups are added to the system,
+   use the search box to find a particular customer user or use the filter box to find a particular group by just typing the name to filter.
 
-Multiple customer users or groups can be assigned in both screens at the same time. Additionally clicking on a customer user or clicking on a group in the relations screen will open the *Edit Customer User* screen or the *Edit Group* screen accordingly.
+Multiple customer users or groups can be assigned in both screens at the same time.
+Additionally clicking on a customer user or clicking on a group in the relations screen will open the *Edit Customer User* screen or the *Edit Group* screen accordingly.
 
 .. warning::
 
@@ -84,7 +95,9 @@ Multiple customer users or groups can be assigned in both screens at the same ti
 Customer Users ↔ Groups Relations Reference
 -------------------------------------------
 
-When assigning a customer user to a group or vice versa, several permissions can be set as connection between a customer user and a group. The following permissions are available by default:
+When assigning a customer user to a group or vice versa,
+several permissions can be set as connection between a customer user and a group.
+The following permissions are available by default:
 
 ro
    Read only access to the resource.

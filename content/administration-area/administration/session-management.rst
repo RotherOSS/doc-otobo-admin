@@ -5,7 +5,8 @@ Administrators of web-based applications need to have access to the information 
 
 OTOBO offers the session management to quickly get an overview of agent and customer sessions, unique agents and customers currently logged in and the ability to kill sessions with just a mouse click.
 
-Use this screen to manage logged in user sessions in the system. The session management screen is available in the *Session Management* module of the *Administration* group.
+Use this screen to manage logged in user sessions in the system.
+The session management screen is available in the *Session Management* module of the *Administration* group.
 
 .. figure:: images/session-management.png
    :alt: Session Management Screen
@@ -39,7 +40,8 @@ To kill a session:
 
 .. warning::
 
-   Clicking the *Kill this session* link removes the session immediately without confirmation. The unsaved work of the user will be lost!
+   Clicking the *Kill this session* link removes the session immediately without confirmation.
+   The unsaved work of the user will be lost!
 
 To kill all sessions:
 
@@ -47,7 +49,8 @@ To kill all sessions:
 
 .. warning::
 
-   Clicking the *Kill all session* link removes all sessions immediately without confirmation. The unsaved work of the users will be lost!
+   Clicking the *Kill all session* link removes all sessions immediately without confirmation.
+   The unsaved work of the users will be lost!
 
 .. note::
 

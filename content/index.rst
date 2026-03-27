@@ -5,6 +5,20 @@
 OTOBO Administration Manual
 ===========================
 
+This is the OTOBO Administration Manual.
+It serves as a reference to help administrators manage and configure the OTOBO system effectively.
+
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Contents
+
+   administration-area
+   how-tos
+   glossary
+   history
+
+
 This work is copyrighted by OTRS AG (https://otrs.com),
 Zimmersmühlenweg 11, 61440 Oberursel, Germany.
 
@@ -15,26 +29,19 @@ Terms and Conditions OTRS:
 Permission is granted to copy, distribute and/or modify this document under the
 terms of the GNU Free Documentation License, Version 1.3 or any later version
 published by the Free Software Foundation; with no Invariant Sections,
-no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be
-found on the GNU website.
+no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license can be found on the GNU website.
 
 Terms and Conditions Rother OSS:
 Permission is granted to copy, distribute and/or modify this document under the
 terms of the GNU Free Documentation License, Version 1.3 or any later version
 published by the Free Software Foundation; with no Invariant Sections, no
-Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included
-in the section entitled "COPYING".
+Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "COPYING".
 
 Published by: Rother OSS GmbH, (https://otobo.de),
 Oberwalting 31, 94339 Leiblfing, Germany.
 
-Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de).
+Authors: OTRS AG (original version),
+Rother OSS GmbH (https://otobo.de).
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Contents
-
-   administration-area
-   how-tos
-   glossary
-   history

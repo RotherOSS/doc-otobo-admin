@@ -1,13 +1,18 @@
 SQL Box
 =======
 
-In a ticket system, it is usually possible to have statistics that show a summarized view of ticket information when needed. Sometimes, it is however required to access the database directly to have even more individual reports, allow external statistic tools to query information from the system or perform in-depth analysis of a ticket behavior.
+In a ticket system, it is usually possible to have statistics that show a summarized view of ticket information when needed.
+Sometimes, it is however required to access the database directly to have even more individual reports, allow external statistic tools to query information from the system or perform in-depth analysis of a ticket behavior.
 
-Direct access to the database requires access to the command line which an administrator may not have. In addition to username and password for the command line access, which is not given by all organizations, the username and password for the database are needed. These hurdles can prevent an administrator from using the database for more complex searches and operations.
+Direct access to the database requires access to the command line which an administrator may not have.
+In addition to username and password for the command line access, which is not given by all organizations, the username and password for the database are needed.
+These hurdles can prevent an administrator from using the database for more complex searches and operations.
 
-OTOBO offers application administrators the SQL Box in the GUI (graphical user interface). It allows read access to the database. All results can be seen in the GUI or exported to CSV/Excel files.
+OTOBO offers application administrators the SQL Box in the GUI (graphical user interface). It allows read access to the database.
+All results can be seen in the GUI or exported to CSV/Excel files.
 
-Use this screen to query SQL statements in the system. The SQL box screen is available in the *SQL Box* module of the *Administration* group.
+Use this screen to query SQL statements in the system.
+The SQL box screen is available in the *SQL Box* module of the *Administration* group.
 
 .. figure:: images/sql-box.png
    :alt: SQL Box Screen
@@ -20,11 +25,13 @@ Query SQL statements
 
 .. note::
 
-   The SQL statements entered here are sent directly to the application database. By default, it is not possible to change the content of the tables, only ``SELECT`` queries are allowed.
+   The SQL statements entered here are sent directly to the application database.
+   By default, it is not possible to change the content of the tables, only ``SELECT`` queries are allowed.
 
 .. seealso::
 
-   It is possible to modify the application database via SQL box. To do this, you have to enabled the system configuration setting ``AdminSelectBox::AllowDatabaseModification``. Activate it to your own risk!
+   It is possible to modify the application database via SQL box.
+   To do this, you have to enabled the system configuration setting ``AdminSelectBox::AllowDatabaseModification``. Activate it to your own risk!
 
 To execute an SQL statement:
 
@@ -41,17 +48,20 @@ To execute an SQL statement:
 SQL Settings
 ------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 SQL \*
    The SQL statement to be queried.
 
 Limit
-   Enter a number to limit the result to at most this number of rows. Leaving this field empty means there is no limit.
+   Enter a number to limit the result to at most this number of rows.
+   Leaving this field empty means there is no limit.
 
    .. note::
 
-      Don't use ``LIMIT`` inside the SQL statement. Always use this field to limit the number of results.
+      Don't use ``LIMIT`` inside the SQL statement.
+      Always use this field to limit the number of results.
 
 Result format
    The format of the SQL statement result.

@@ -36,7 +36,9 @@ Valid keys extending ``DF`` are outside of a grid ``Mandatory``, ``Readonly`` an
 
 In a ``Grid`` ``Columns`` set the number of columns, with the optional ``ColumnWidth`` the column width can be set.
 
-``ColumnWidth`` accepts many css width definitions, usually it is recommended to use ``fr`` (fractions of the left over space), and absolute units (e.g. ``px``) only for checkboxes for example. ``2fr 3fr 60px`` would set the third column to 60 px, and distribute 2/5 of the remaining space to the first, 3/5 to the second column. ``auto`` can be used, but the column width won't stay the same between multiple rows, thus it is only recommended for single rows.
+``ColumnWidth`` accepts many css width definitions, usually it is recommended to use ``fr`` (fractions of the left over space), and absolute units (e.g. ``px``) only for checkboxes for example.
+``2fr 3fr 60px`` would set the third column to 60 px, and distribute 2/5 of the remaining space to the first, 3/5 to the second column.
+``auto`` can be used, but the column width won't stay the same between multiple rows, thus it is only recommended for single rows.
 
 Lastly the ``Rows`` key with a 2D array as value defines the grid of dynamic fields.
 

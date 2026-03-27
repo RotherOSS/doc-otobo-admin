@@ -1,11 +1,16 @@
 Agents ↔ Roles
 ==============
 
-As an organization grows, groups cannot be the denominator used for processing access rights. Roles become more and more a need because a role has a special set of permissions assigned. One mustn't give individual permissions, but the role carries the permissions built-in.
+As an organization grows, groups cannot be the denominator used for processing access rights.
+Roles become more and more a need because a role has a special set of permissions assigned.
+One mustn't give individual permissions, but the role carries the permissions built-in.
 
-OTOBO allows easy access to a predefined set of permissions via one or more roles defined. These roles are assigned easily to one or more agents, or one or more agent to a role.
+OTOBO allows easy access to a predefined set of permissions via one or more roles defined.
+These roles are assigned easily to one or more agents, or one or more agent to a role.
 
-Use this screen to add one or more agents to one or more roles. To use this function, at least one agent and one role need to have been added to the system. The management screen is available in the *Agents ↔ Roles* module of the *Users, Groups & Roles* group.
+Use this screen to add one or more agents to one or more roles.
+To use this function, at least one agent and one role need to have been added to the system.
+The management screen is available in the *Agents ↔ Roles* module of the *Users, Groups & Roles* group.
 
 .. figure:: images/agent-role-management.png
    :alt: Manage Agent-Role Relations
@@ -42,7 +47,8 @@ To assign some agents to a role:
 
    If several agents or roles are added to the system, use the filter box to find a particular agent or role by just typing the name to filter.
 
-Multiple agents or roles can be assigned in both screens at the same time. Additionally clicking on an agent or clicking on a role in the relations screen will open the *Edit Agent* screen or the *Edit Role* screen accordingly.
+Multiple agents or roles can be assigned in both screens at the same time.
+Additionally clicking on an agent or clicking on a role in the relations screen will open the *Edit Agent* screen or the *Edit Role* screen accordingly.
 
 .. warning::
 

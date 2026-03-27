@@ -1,11 +1,17 @@
 Calendars
 =========
 
-When working with customers, resource planning and scheduling can be a complex task. Appointments enable you to meet your customers where and whenever needed.
+When working with customers, resource planning and scheduling can be a complex task.
+Appointments enable you to meet your customers where and whenever needed.
 
-OTOBO supports this requirement with calendars. Calendars allow management of appointments and resources inside the ticket system. You can connect your tickets to scheduled tasks and make them available to all users to see. This feature adds transparency to show your teams workload and prevent users from promising resources which are not available.
+OTOBO supports this requirement with calendars.
+Calendars allow management of appointments and resources inside the ticket system.
+You can connect your tickets to scheduled tasks and make them available to all users to see.
+This feature adds transparency to show your teams workload and prevent users from promising resources which are not available.
 
-Use this screen to manage calendars in the system. A fresh OTOBO installation contains no calendars by default. The calendar management screen is available in the *Calendars* module of the *Administration* group.
+Use this screen to manage calendars in the system.
+A fresh OTOBO installation contains no calendars by default.
+The calendar management screen is available in the *Calendars* module of the *Administration* group.
 
 .. figure:: images/calendar-management.png
    :alt: Calendar Management Screen
@@ -29,7 +35,8 @@ To add a new calendar:
 
 .. warning::
 
-   Calendars can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
+   Calendars can not be deleted from the system.
+   They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*.
 
 To edit a calendar:
 
@@ -62,19 +69,23 @@ To import calendars:
 Calendar Settings
 -----------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 
 General Calendar Settings
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Calendar name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Color \*
    The calendar color that will be displayed in the calendar overview screens.
 
-   To change the calendar color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value.
+   To change the calendar color, just select a new color from the color palette.
+   You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value.
 
 Permission group \*
    Select which :doc:`../users-groups-roles/groups` can access the calendar.
@@ -87,13 +98,15 @@ Permission group \*
       - Read/write: users can manage the calendar itself.
 
 Validity \*
-   Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 
 Calendar Ticket Appointments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Define rules for creating automatic appointments in this calendar based on ticket data. To add a new rule, click on the *Add Rule* button.
+Define rules for creating automatic appointments in this calendar based on ticket data.
+To add a new rule, click on the *Add Rule* button.
 
 .. figure:: images/calendar-add-ticket-appointments.png
    :alt: Calendar Settings - Ticket Appointments

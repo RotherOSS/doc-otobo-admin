@@ -5,9 +5,11 @@ Professional systems log their activities in one or more log files to help admin
 
 These logs are usually not available to application administrators without a certain level of permissions, and skills on the operating system.
 
-OTOBO allows application administrators to access the system log comfortably by using the graphical interface without the need to have access to the server's command shell. The administrator can decide which level of logging is needed, to make sure that the log files are not unnecessarily filled.
+OTOBO allows application administrators to access the system log comfortably by using the graphical interface without the need to have access to the server's command shell.
+The administrator can decide which level of logging is needed, to make sure that the log files are not unnecessarily filled.
 
-Use this screen to view log entries of OTOBO. The log overview screen is available in the *System Log* module of the *Administration* group.
+Use this screen to view log entries of OTOBO.
+The log overview screen is available in the *System Log* module of the *Administration* group.
 
 .. figure:: images/system-log.png
    :alt: System Log Screen

@@ -1,11 +1,13 @@
 Package Manager
 ===============
 
-Modular systems can be extended by adding additional software packages to the framework. Administrators need an easy way to see which features are installed in which version and for sure to add, update and remove packages.
+Modular systems can be extended by adding additional software packages to the framework.
+Administrators need an easy way to see which features are installed in which version and for sure to add, update and remove packages.
 
 OTOBO uses a package manager to perform all package-related activities as mentioned above in the graphical interface.
 
-Use this screen to install and manage packages that extend the functionality of OTOBO. The package manager screen is available in the *Package Manager* module of the *Administration* group.
+Use this screen to install and manage packages that extend the functionality of OTOBO.
+The package manager screen is available in the *Package Manager* module of the *Administration* group.
 
 .. figure:: images/package-manager.png
    :alt: Package Manager Screen

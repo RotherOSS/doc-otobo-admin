@@ -10,15 +10,19 @@ In a connected world, a ticket system needs to be able to react to requests from
 
 The ticket system must be reachable by other services without manual intervention by an agent.
 
-OTOBO supports this requirement by the *Generic Interface*. It empowers the administrator to create a web service for a specific task without scripting language knowledge. OTOBO reacts on incoming REST or SOAP requests and creates objects or provides object data to other systems transparently.
+OTOBO supports this requirement by the *Generic Interface*. It empowers the administrator to create a web service for a specific task without scripting language knowledge.
+OTOBO reacts on incoming REST or SOAP requests and creates objects or provides object data to other systems transparently.
 
-A web service is a communication method between two systems, in our case OTOBO and a remote system. In its configuration, the :term:`operation` or :term:`invoker` determine the direction of communication, and the :term:`mapping` and :term:`transport` take care of how the data is received and interpreted.
+A web service is a communication method between two systems, in our case OTOBO and a remote system.
+In its configuration, the :term:`operation` or :term:`invoker` determine the direction of communication, and the :term:`mapping` and :term:`transport` take care of how the data is received and interpreted.
 
 By configuration, you can define what actions the web service can perform internally (operation), what actions the OTOBO request can perform on a remote system (invokers), how data is converted from one system to the other (mapping), and which protocol is used for communication (transport).
 
 The generic interface is the framework which makes it possible to create web services for OTOBO in a predefined way, using ready-made building blocks that are independent from each other and interchangeable.
 
-Use this screen to manage web services in the system. A fresh OTOBO installation contains no web service by default. The web service management screen is available in the *Web Services* module of the *Processes & Automation* group.
+Use this screen to manage web services in the system.
+A fresh OTOBO installation contains no web service by default.
+The web service management screen is available in the *Web Services* module of the *Processes & Automation* group.
 
 .. figure:: images/web-service-management.png
    :alt: Web Service Management Screen
@@ -116,7 +120,8 @@ To import a web service:
 Web Service Settings
 --------------------
 
-The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory.
+The following settings are available when adding or editing this resource.
+The fields marked with an asterisk are mandatory.
 
 
 General Web Service Settings
@@ -128,7 +133,9 @@ General Web Service Settings
    Web Service Settings - General
 
 Name \*
-   The name of this resource. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table.
+   The name of this resource.
+   Any type of characters can be entered to this field including uppercase letters and spaces.
+   The name will be displayed in the overview table.
 
 Description
    Like comment, but longer text can be added here.
@@ -137,7 +144,8 @@ Remote system
    .. TODO: what is this?
 
 Debug threshold
-   The default value is *Debug*. When configured in this manner, all communication logs are registered in the database. Each subsequent debug threshold value is more restrictive and discards communication logs of lower order than the one set in the system.
+   The default value is *Debug*. When configured in this manner, all communication logs are registered in the database.
+   Each subsequent debug threshold value is more restrictive and discards communication logs of lower order than the one set in the system.
 
    Debug threshold levels (from lower to upper):
 
@@ -147,7 +155,8 @@ Debug threshold
    - Error
 
 Validity
-   Set the validity of this resource. Resources can only be used in OTOBO if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
+   Set the validity of this resource.
+   Resources can only be used in OTOBO if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
 
 
 Provider Web Service Settings
@@ -167,17 +176,21 @@ Provider Web Service Settings
    Web Service Settings - OTOBO as Provider
 
 Network transport
-   Select which network transport you would like to use with the web service. Possible values are *HTTP::REST* and *HTTP::SOAP*.
+   Select which network transport you would like to use with the web service.
+   Possible values are *HTTP::REST* and *HTTP::SOAP*.
 
    .. note::
 
-      After selecting the transport method, you have to save the configuration by clicking on the *Save* button. A *Configuration* button will be displayed next to this field.
+      After selecting the transport method, you have to save the configuration by clicking on the *Save* button.
+      A *Configuration* button will be displayed next to this field.
 
 Configuration
-   The *Configuration* button is visible only after a network transport was selected and saved. See the configuration for *OTOBO as Provider - HTTP\:\:REST* and *OTOBO as Provider - HTTP\:\:SOAP* below.
+   The *Configuration* button is visible only after a network transport was selected and saved.
+   See the configuration for *OTOBO as Provider - HTTP\:\:REST* and *OTOBO as Provider - HTTP\:\:SOAP* below.
 
 Add Operation
-   This option is visible only after a network transport was selected and saved. Selecting an operation will open a new screen for configuration.
+   This option is visible only after a network transport was selected and saved.
+   Selecting an operation will open a new screen for configuration.
 
    .. figure:: images/web-service-add-operation.png
       :alt: Web Service Settings - OTOBO as Provider - Operation
@@ -207,7 +220,8 @@ There are different Ticket Operations which all serve a specific job:
 - `Ticket::TicketUpdate`
 - `Ticket::TicketHistoryGet`
 
-In this example, we are going to use the Ticket::TicketCreate operation. Click on "Add Operation" and choose the "Ticket::TicketCreate" operation.
+In this example, we are going to use the Ticket::TicketCreate operation.
+Click on "Add Operation" and choose the "Ticket::TicketCreate" operation.
 Choose a descriptive name, save the operation and go back to the webservice overview.
 
 You now should see a new entry "Route mapping for Operation 'TicketCreate'".
@@ -295,17 +309,21 @@ Requester Web Service Settings
    Web Service Settings - OTOBO as Requester
 
 Network transport
-   Select which network transport would you like to use with the web service. Possible values are *HTTP::REST* and *HTTP::SOAP*.
+   Select which network transport would you like to use with the web service.
+   Possible values are *HTTP::REST* and *HTTP::SOAP*.
 
    .. note::
 
-      After selecting the transport method, you have to save the configuration by clicking the *Save* button. A *Configuration* button will be displayed next to this field.
+      After selecting the transport method, you have to save the configuration by clicking the *Save* button.
+      A *Configuration* button will be displayed next to this field.
 
 Configuration
-   The *Configuration* button is visible only after a network transport was selected and saved. See the configuration for *OTOBO as Requester - HTTP\:\:REST* and *OTOBO as Requester - HTTP\:\:SOAP* below.
+   The *Configuration* button is visible only after a network transport was selected and saved.
+   See the configuration for *OTOBO as Requester - HTTP\:\:REST* and *OTOBO as Requester - HTTP\:\:SOAP* below.
 
 Add error handling module
-   This option is visible only after a network transport was selected and saved. Selecting an operation will open a new screen for its configuration.
+   This option is visible only after a network transport was selected and saved.
+   Selecting an operation will open a new screen for its configuration.
 
    .. figure:: images/web-service-add-error-handling-module.png
       :alt: Web Service Settings - OTOBO as Provider - Error Handling Module

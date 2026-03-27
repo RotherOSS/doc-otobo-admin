@@ -1,7 +1,8 @@
 S/MIME Certificates
 ===================
 
-Faculty and staff have key roles safeguarding critical information by implementing information security policies, standards, and controls. Safe email communication is a vital part of protecting this communication.
+Faculty and staff have key roles safeguarding critical information by implementing information security policies, standards, and controls.
+Safe email communication is a vital part of protecting this communication.
 
 OTOBO empowers you to encrypt communications where needed by means of :doc:`s-mime-certificates` or :doc:`pgp-keys`.
 
@@ -9,7 +10,8 @@ OTOBO empowers you to encrypt communications where needed by means of :doc:`s-mi
 
    Setup of services and software required for encryption are not covered here because of independence to this software.
 
-Use this screen to add S/MIME certificates to the system. The S/MIME management screen is available in the *S/MIME Certificates* module of the *Communication & Notifications* group.
+Use this screen to add S/MIME certificates to the system.
+The S/MIME management screen is available in the *S/MIME Certificates* module of the *Communication & Notifications* group.
 
 .. figure:: images/smime-management.png
    :alt: S/MIME Management Screen
