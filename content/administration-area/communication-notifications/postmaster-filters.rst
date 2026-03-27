@@ -140,7 +140,8 @@ Search header field … for value
       For this purpose the header can be customized in the system configuration using option ``KeepStateHeader``.
 
     ``X-OTOBO-From``
-      Set the ``From`` attribute of the ticket. Either a fixed string can be used or a named capture, e.g. to extract the attribute from the body.
+      Set the ``From`` attribute of the ticket.
+      Either a fixed string can be used or a named capture, e.g. to extract the attribute from the body.
 
    ``X-OTOBO-Ignore``
       If set to ``Yes`` or ``True``, the incoming message will completely be ignored and never delivered to the system.
