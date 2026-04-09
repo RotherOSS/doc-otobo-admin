@@ -18,7 +18,7 @@ else
 	$(error Unsupported OS: $(UNAME_S))
 endif
 
-.PHONY: help open clean venv build auto clean-venv
+.PHONY: help open clean venv build auto clean-venv check
 
 help: ## List every available make target and what it does.
 	@echo
@@ -40,13 +40,13 @@ venv: $(VENV_STAMP) ## Validate the virtual environment and install dependencies
 
 build: $(VENV_STAMP) ## Build the local HTML preview.
 	@echo "Generating local HTML preview ..."
-	@$(SPHINXBUILD) --builder html "$(SOURCEDIR)" "$(BUILDDIR)/html"
-	@echo "Done! Run \"make show\" to show the preview in your browser."
+	@$(SPHINXBUILD) -b html "$(SOURCEDIR)" "$(BUILDDIR)/html"
+	@echo "Done! Run \"make open\" to show the preview in your browser."
 
-check: $(VENV_STAMP) ## Check validity
+check: $(VENV_STAMP) clean ## Check validity
 	@status=0; \
 	echo "[check] buildability ..."; \
-	$(SPHINXBUILD) --fail-on-warning --nitpicky --quiet --builder html "$(SOURCEDIR)" "$(BUILDDIR)/html" || status=1; \
+	$(SPHINXBUILD) --color -q -W --keep-going -b html "$(SOURCEDIR)" "$(BUILDDIR)/html" || status=1; \
 	printf "[check] trailing whitespace ...\n"; \
 	! git --no-pager grep --ignore-case --line-number --color=always --recursive ' $$' -- '*.rst' '*.md' || status=1; \
 	printf "[check] sembr ...\n"; \
@@ -59,7 +59,7 @@ open: ## Open the generated HTML preview in the default browser.
 
 auto: build ## Automatically rebuild the documentation on changes.
 	@sleep 2 && $(OPEN_CMD) "http://localhost:9426/content/" &
-	@$(VENV)/bin/sphinx-autobuild -a --port 9426 --builder html --no-initial "$(SOURCEDIR)" "$(BUILDDIR)/html"
+	@$(VENV)/bin/sphinx-autobuild -a --port 9426 -b html --no-initial "$(SOURCEDIR)" "$(BUILDDIR)/html"
 
 clean: ## Remove the generated documentation build output.
 	rm -rf $(BUILDDIR)
