@@ -1,7 +1,7 @@
 Customer Ticket Search
 ======================
 
-The Customer Ticket Search allows for searching with various different filters, namely:
+The Customer Ticket Search allows a customer to find tickets by various filters, namely:
 
 - Ticket number
 - Customer ID
