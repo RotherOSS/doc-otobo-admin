@@ -1,7 +1,9 @@
 Customer Interface
 ==================
 
-The OTOBO Customer Interface is the web interface used by customers to interact with the ticket system. It allows customers to create tickets, search for and view their own tickets or tickets belonging to their organization, and track follow-up information. This interface is configured separately from the Agent Interface in what concerns to available data, features, and granted permissions.
+The OTOBO Customer Interface is the dedicated web interface intended to be used by customers to interact with OTOBO.
+It allows customers to create tickets, search for and view their own tickets or tickets belonging to their organization, and track follow-up information.
+This interface is configured separately from the Agent Interface.
 
 .. toctree::
    :maxdepth: 3
