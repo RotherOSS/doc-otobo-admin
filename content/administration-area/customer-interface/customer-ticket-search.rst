@@ -15,7 +15,7 @@ It provides also several different types of output redirection:
 - Normal
 - Print
 
-In addition, similar to the Agent interface, it supports search profiles through Search Templates, which are predefined filters with specific search criteria for repeated use.
+In addition, similar to the Agent Interface, it supports search profiles through Search Templates, which are sets of predefined filters with specific search criteria for repeated use.
 
 To activate this feature, enable the system config **Frontend::Module###CustomerTicketSearch**. The feature can then be accessed through an icon in the Customer Interface main menu.
 
