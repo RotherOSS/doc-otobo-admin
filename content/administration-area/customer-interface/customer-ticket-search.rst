@@ -13,7 +13,7 @@ It provides also several different types of output redirection:
 - CSV
 - Excel
 - Normal (a list within the UI)
-- Print
+- Print (a PDF)
 
 In addition, similar to the Agent Interface, it supports search profiles through Search Templates, which are sets of predefined filters with specific search criteria for repeated use.
 
