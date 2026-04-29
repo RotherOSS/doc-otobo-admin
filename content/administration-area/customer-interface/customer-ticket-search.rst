@@ -5,7 +5,7 @@ The Customer Ticket Search allows a customer to find tickets by various filters,
 
 - Ticket number
 - Customer ID
-- Fulltext search in Attachment, Body, Cc, From, Subject, To, Priority, State
+- Fulltext search in Attachments, Body, Cc, From, Subject, To, Priority, and State
 - Creation date
 
 It provides also several different types of output redirection:
