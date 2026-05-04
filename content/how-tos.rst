@@ -6,3 +6,8 @@ For this purpose have a look at these resources:
 
 * https://portal.rother-oss.com/otobo/public.pl
 
+.. toctree::
+   :maxdepth: 3
+   :caption: Contents
+
+   how-tos/ckeditor-agent
