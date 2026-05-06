@@ -1,7 +1,8 @@
 Configuring CKEditor Plugins and Toolbar
 ========================================
 
-With OTOBO 11.1, the package CK5-FullWindowMode has been integrated into the core. This enables to control the plugins and toolbar content and order of the CKEditor via system configuration.
+With OTOBO 11.1, the package CK5-FullWindowMode has been integrated into the core.
+This enables to control the plugins and toolbar content and order of the CKEditor via system configuration.
 
 As an example, this how-to describes the steps to disable the Strikethrough functionality.
 
@@ -21,7 +22,8 @@ The Strikethrough button is available.
 1. Activate the Enhanced Mode for the CKEditor Toolbar
 ------------------------------------------------------
 
-For the subsequent steps to take effect, the enhanced mode for the CKEditor toolbar needs to be activated. This is done with the following steps:
+For the subsequent steps to take effect, the enhanced mode for the CKEditor toolbar needs to be activated.
+This is done with the following steps:
 
     1. Navigate to the system configuration in the admin interface
     2. Navigate to the setting `Frontend::RichText::EnhancedMode`
