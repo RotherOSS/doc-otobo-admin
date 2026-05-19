@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-28 12:56+0000\n"
+"POT-Creation-Date: 2026-05-19 12:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11766,4 +11766,2138 @@ msgstr ""
 
 #: ../content/index.rst:45
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
+msgstr ""
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019–2026 Rother OSS GmbH, https://otobo.io
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:2
+msgid "Extension of the Country and Language Selections"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:4
+msgid "More languages from various countries have been incorporated, enabling a broader selection of languages for the tool."
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:6
+msgid "Currently, in the personal preferences, it is possible to view and configure all available languages to use in OTOBO."
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:11
+msgid "Field languages - personal preferences"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:18
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:24
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:29
+msgid "Possible languages"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:35
+msgid "Capability to Send Ticket Notifications Only During Working Hours"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:37
+msgid "A new option has been added to the ticket notification settings. Now, within the recipient's section, an additional field named \"Calendar\" is displayed."
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:43
+msgid "Recipient block configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:46
+msgid "This field allows for the selection of whether notifications should be sent to recipients during working hours or outside of them:"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:48
+msgid "Selecting the option for working hours will result in notifications being sent only during the established work schedule."
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:54
+msgid "Option working hours"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:57
+msgid "Conversely, choosing the non-working hours option will result in notifications being sent outside of the defined working hours."
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:63
+msgid "Option outside working hours"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:67
+msgid "Filter funcionalities in PostMaster Filters"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:69
+msgid "The PostMaster Filters module now includes an enhanced filtering capability that extends beyond simple name-based searches. This advanced filter functionality enables more complex and granular searches, allowing users to input specific criteria, such as an email address, to locate all PostMaster filters that match the given parameter."
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:75
+msgid "Postmaster Filter Management"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:77
+msgid "The ``Search all filter attributes`` field enables more complex searches."
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:83
+msgid "Search by All Attributes"
+msgstr ""
+
+#: ../Documetation by Ayté/Admin_Area/AdminArea.rst:86
+msgid "The second and third filters allow searching selected header fields and selected set fields, respectively."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:2
+msgid "CustomTranslations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:5
+msgid "Item “Translations”"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:5
+msgid "New or existing translations are managed and administered in the \"Translations\""
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Widget Languages"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Overview Module Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:23
+msgid "Language Dropdown"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:23
+msgid "To select the working language (By default the language of the User in session is selected)."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Actions - Languages"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:32
+msgid "Add Translation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:32
+msgid "To add a new translation in the system."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:35
+msgid "Edit Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:35
+msgid "To modify an existing translation."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:38
+msgid "Deploy Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:38
+msgid "To display the translations in the system."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Buttons Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:47
+msgid "Active Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:47
+msgid "Table with all translations displayed."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Table Active Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:56
+msgid "Filter"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:56
+msgid "To filter the translation table."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Filter Active Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:65
+msgid "Translation States"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:65
+msgid "Possible translation statuses."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Widget States Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:72
+msgid "New translation: New translations pending to be deployed."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:73
+msgid "Editing Translation: Edited translations pending deployment."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:74
+msgid "Translation Marked for Deletion: Translations marked for deletion pending deployment."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:75
+msgid "Deployed Translation: Active translations that have already been deployed."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Display States Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:84
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:113
+msgid "Hint"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:84
+msgid "This widget contains a short explanatory text about the module."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Widget Hint"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:94
+msgid "Add translation screen"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:95
+msgid "This function allows you to add a new translation to OTOBO and allows you to select each of the translatable data elements in the system."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Overview Add Translation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:105
+msgid "Actions"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:105
+msgid "This widget contains the \"Go to Overview\" button to return to the main screen of the module."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Widget actions Add Translation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:113
+msgid "This widget contains a short explanatory text about the section the user is in."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Widget Hint Add Translation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:121
+msgid "Language"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:121
+msgid "Informative label of the language where the translation will be created."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:124
+msgid "Object"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:124
+msgid "Selectable options with element to translate: Dynamic field content, Dynamic field labels, General label, Priorities, Queue, Services, SLA, Templates, Ticket status, Ticket types."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Object field"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:132
+msgid "Dynamic Field List"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:132
+msgid "This field is displayed only when \"Dynamic Field\" is selected in the \"Object\" field. It contains the names of the dynamic fields."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:140
+msgid "Content"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:140
+msgid "This text field contains the tags to translate."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Content Field"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:148
+msgid "Translation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:148
+msgid "Text field or table depending on the selected option, where the translation is entered."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Translation Field"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:156
+msgid "Button Save and Finish"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:156
+msgid "To save the translation and finish."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:159
+msgid "Cancel button"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:159
+msgid "To cancel the action."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Button - Save or Cancel"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:166
+msgid "Selectable Options"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:169
+msgid "Dynamic Field Contents"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:169
+msgid "Displays all existing dynamic fields and a dropdown field with values to translate is chosen"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Table for translation - Dynamic Field Content"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:177
+msgid "Dynamic Field Labels"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:177
+msgid "Displays all existing dynamic fields in the system and a field is chosen to translate the label"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Table for translation - Dynamic Field Labels"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:186
+msgid "General Label"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:186
+msgid "Allows to translate any existing label in the system."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - General labes"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:195
+msgid "Priorities"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:195
+msgid "Allows to translate the existing priorities in the system."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - Priorities"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:203
+msgid "Queues"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:203
+msgid "Allows to translate all existing queues."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - Queues"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:212
+msgid "Services"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:212
+msgid "Allows translation of all services."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - Services"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:221
+msgid "SLAs"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:221
+msgid "Allows translation of all SLAs."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - SLAs"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:230
+msgid "Templates"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:230
+msgid "Allows you to translate templates."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - Templates"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:239
+msgid "Tickets States"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:239
+msgid "Allows translation of ticket statuses."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - Ticket States"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:249
+msgid "Tickets Types"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:249
+msgid "Allows translation of ticket types."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields for translation - Ticket Types"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:259
+msgid "Edit Translation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:260
+msgid "This section allows you to edit the translations displayed in the module."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:262
+msgid "When entering the section to edit translations a new screen is displayed with the following elements:"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:265
+msgid "Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:265
+msgid "Translation table with"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "List of translations for editing"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:272
+msgid "Filter Content: Translation filtering field."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:273
+msgid "Content: content column with all the translated tags in the module."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:274
+msgid "Translation: input column with all translations displayed with the possibility to edit and add a new translation."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:279
+msgid "Deploy Translation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:280
+msgid "This function allows you to deploy translations, changing their status to deployed and adding them to the database or deleting them from the module when they are marked for deletion."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Table of displayed translations."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:290
+msgid "Import/Export Translations"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:292
+msgid "This function allows you to import and/or export files with translations using templates for the different languages configured."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:294
+msgid "When going to the Import/Export module, a new section \"Translations\" is displayed, a table with the existing templates for importing files."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:298
+msgid "Add Template"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:298
+msgid "When adding a new template, the new \"Translations\" option is displayed in the \"Object\" input."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:301
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:316
+msgid "Format"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:301
+msgid "Allows you to choose the CSV file format."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields Add template."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Fields Step 2."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:316
+msgid "Plain text format is selected."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:322
+msgid "Checkbox"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:319
+msgid "To indicate whether empty fields keep the current values."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:322
+msgid "In the third step the following new fields are displayed:"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:325
+msgid "Column Separator"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:325
+msgid "Allows you to choose the column separator between Colon (:), Comma(,), Period(.), Semicolon(;), Tabulator (TAB)."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Field Column separator Step 3."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:334
+msgid "Charset"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:334
+msgid "The default character encoding is unmodifiable and according to the previously selected language."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Field Charset Step 3."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:343
+msgid "Include Column Headers"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:343
+msgid "Allows you to choose between yes/no if the option is whether the file should have the column headers in the file to be imported."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Field Include Column Headers Step 3."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Information mapping table."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:361
+msgid "Add Mapping Element"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:360
+msgid "To add the sections or columns of the file."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:365
+msgid "Key"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:364
+msgid "Source string: Text string to be translated. Translation English: Language in which the translation will be done."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Mapped information."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Search information."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:383
+msgid "Restrict export per search"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:383
+msgid "allows you to choose whether you want to restrict the export by searching for specific options."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:386
+msgid "Export Untranslated strings of"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:386
+msgid "allows you to choose the option from which the untranslated strings will be exported."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "Field Export Untraslated."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:396
+msgid "Ticket Information (Translation)"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:397
+msgid "Attributes of the ticket such as Queues and Services that are translated using the translation module will be visible in the selection tree views of the fields."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:400
+msgid "Services in English"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "List Services."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:407
+msgid "Services translated to Spanish in tree view"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "List Services translated to Spanish."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:415
+msgid "Queues in English"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "List Queues."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:422
+msgid "Queues translated to Spanish in tree view"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-CustomTranslations/Atye-CustomTranslations.rst:-1
+msgid "List Queues translated to Spanish."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:2
+msgid "Edit Articles"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:3
+msgid "With this new functionality, it is possible to edit internal articles within tickets."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:8
+msgid "Ticket Creation"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:7
+msgid "Tickets are created from any form: \"Create New Phone Ticket - Create New Email Ticket - Create New Process Ticket - Issue a new Ticket(Customer)\"."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:12
+msgid "Create Internal Article"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:11
+msgid "An internal note is created from possible article forms: \"Agent Ticket Pending - Agent Ticket Note - Agent Ticket Owner - Agent Ticket Priority - Agent Ticket FreeText\"."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:15
+msgid "Edit"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:16
+msgid "When selecting the internal note, the Edit button is enabled."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Button Edit."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:24
+msgid "Agent Ticket Article Edit"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:24
+msgid "Clicking on Edit proceeds to display a new screen, where the following options are enabled:"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:27
+msgid "Ticket Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:27
+msgid "Displays dynamic ticket fields published in the edit form."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Field Ticket Settings."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:34
+msgid "Add Article - Subject: Enables editing the subject field. - Article: Enables editing the body text field."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Fields Add Article."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:45
+msgid "Attachments"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:45
+msgid "Displays the field for attaching files to the article."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Field Attachment."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:54
+msgid "Article Dynamic Field"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:54
+msgid "Enables editing the value of dynamic article type fields published on the edit screen."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Dynamic Field Article - 'Test'."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:63
+msgid "Submit"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:63
+msgid "Used to save changes."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Button Submit."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:72
+msgid "Article Versions"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Versions button disabled."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "History Versions."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:87
+msgid "Version 1"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:87
+msgid "Version #1 of the articles shows the original note without modifications."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:90
+msgid "Version 2"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:90
+msgid "Version #2 is the first edit of the original article."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:94
+msgid "Version 3"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:93
+msgid "Version #3 is the second edit made to Version #2, and new modifications will be added consecutively."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:97
+msgid "Delete"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:98
+msgid "There is the possibility to delete internal articles of the ticket with the \"Delete\" button located to the right of the versioning dropdown field."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Delete Button."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Deleted Article."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:113
+msgid "Hide Deleted Articles"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:113
+msgid "In the top menu bar where links to note forms are located, a new button is now displayed that allows hiding deleted articles from the Article Overview."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Button Hide deleted articles."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:127
+msgid "Show deleted articles"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:127
+msgid "After hiding deleted articles, the button to show deleted articles is enabled in the Article Overview."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Button Show deleted articles."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:135
+msgid "Restore"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:136
+msgid "After deleting articles, the button to restore the deleted article is enabled. To view the article, it must be visible and selected. The restore button will now appear where the delete button was displayed."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Menu buttons Article."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "Buttons restore Article."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:152
+msgid "History"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:153
+msgid "Every time a modification is made to the articles, it is recorded in the ticket's history."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:155
+msgid "Article Modification"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "History action of Modification."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:163
+msgid "Modification of the value of dynamic Article and Ticket type fields"
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "History action of Modification value Dynamic Field."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:171
+msgid "Deletion of articles."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "History action of Deletion."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:179
+msgid "Restoration of articles."
+msgstr ""
+
+#: ../Documetation by Ayté/Ayte-EditArticle/Ayte-EditArticle.rst:-1
+msgid "History action of Restoration."
+msgstr ""
+
+#: ../Documetation by Ayté/ButtonsForActivityDialogs/ButtonsForActivityDialogs.rst:2
+#: ../Documetation by Ayté/QuickDateButtons/QuickDateButtons.rst:2
+msgid "Buttons for Activity Dialogs"
+msgstr ""
+
+#: ../Documetation by Ayté/ButtonsForActivityDialogs/ButtonsForActivityDialogs.rst:4
+msgid "Type ticket is created, a new format for the activity dialog buttons is displayed in the AgentTicketZoom."
+msgstr ""
+
+#: ../Documetation by Ayté/ButtonsForActivityDialogs/ButtonsForActivityDialogs.rst:6
+msgid "In the Process Information widget, a new style for the buttons to open the activity dialog screen is observed, now highlighted."
+msgstr ""
+
+#: ../Documetation by Ayté/ButtonsForActivityDialogs/ButtonsForActivityDialogs.rst:11
+msgid "Ticekt Procces Buttons"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:2
+msgid "Rich Text DynamicField"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:5
+msgid "This new dynamic field allows for the creation of dynamic fields containing the rich text editor."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:8
+msgid "Field creation"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:9
+msgid "While located within the dynamic fields module, you must select the type of object for which the case should be created: \"Ticket - Article - Customer Company - Customer User - Service\"."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:11
+msgid "Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:-1
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:15
+msgid "Option Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:17
+msgid "Article"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:-1
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:21
+msgid "Option Article"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:23
+msgid "Customer Company"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:-1
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:27
+msgid "Option Customer Company"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:29
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:33
+msgid "Customer User"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:-1
+msgid "Option Customer User"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:37
+msgid "Service"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:41
+msgid "Option Service"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:43
+msgid "In the field configuration screen, a single Name and Label are entered."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:-1
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:48
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:18
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:195
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:59
+msgid "Field Configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:51
+msgid "Default Value"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:52
+msgid "In the settings, the rich text editor is observed, allowing for the possibility of adding a default value for the field. This way, when viewing a screen directly, the default text is displayed, and in article forms or ticket creation, this default text can be edited."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:-1
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:56
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:112
+msgid "Field Display"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:57
+msgid "After saving the field and publishing it on the AgenTicketZoom screen, the RichText article-type field is displayed in the article information if the form in which the article was created was published and the field was used."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:63
+msgid "Clicking on it displays a screen showing the field's content."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:68
+msgid "DisplayArticle"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:71
+msgid "The RichText Ticket-type field is displayed in the Ticket Information widget."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:76
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:83
+msgid "DisplayTicket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField Rich/DynamicFieldRicht.rst:78
+msgid "Clicking on the link displays a screen showing the content of the field."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:2
+msgid "New DynamicField-Widget (similar to ProcessWidget)"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:4
+msgid "Upon entering the Dynamic Fields for this Screen module and selecting the ``DynamicFieldWidgetDynamicField``, it allows enabling fields for this display."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:9
+msgid "Dynamic field Screen"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:11
+msgid "After submitting, dynamic fields with the selected value for each field will be displayed in a widget on the AgentTicketZoom."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:16
+msgid "Widget Dynamic Field - AgentTicketZoom"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:20
+msgid "Possibility to move a locked ticket to another queue"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:22
+msgid "A new feature has been introduced in the System Configuration that allows for the transfer of a ticket to another queue, even if the user is not the owner."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:24
+msgid "Within the ticket options menu in the view (AgentTicketZoom), a dropdown field named \"Move\" has been added. Upon selecting this option, the available queues to which the ticket can be moved are displayed."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:29
+msgid "Options menu- AgentTicketZoom"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:35
+msgid "Drop-down field move"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:39
+msgid "If the user is not the owner of the ticket, an error message will be displayed: \"Sorry, you need to be the ticket owner to perform this action.\""
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:44
+msgid "Error when moving the ticket - Functionality disabled"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:48
+msgid "Enabling New Functionality"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:49
+msgid "By enabling the checkbox Ticket::Frontend::MoveType::Dropdown::MoveEvenIfLocked in the system configuration,"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:54
+msgid "Functionality configuration widget enabled"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicField-Widget/Agent.rst:56
+msgid "After enabling it, it is possible to use the move field without being the ticket owner, and the change to the selected queue will be made."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:2
+msgid "AdminDynamicField"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:4
+msgid "From the dynamic fields module in the filtering widget, fields for filtering are observed:"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:7
+msgid "Filter for Namespaces"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:8
+msgid "In this field, the values of Namespaces that have been configured appear, and you can filter by the dynamic fields associated with the selected value."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:13
+msgid "Filter field - Namespace"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:18
+msgid "Dynamic Fields Table"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:22
+msgid "Filter for Object Type"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:23
+msgid "In this filtering field, the value by which the fields will be displayed according to their type is selected."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:-1
+msgid "Filter field - Object type"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:32
+msgid "Cloning of Dynamic Fields"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:33
+msgid "It is now possible to clone the configuration of dynamic fields from the \"Clone\" column located in the list of fields."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:38
+msgid "Dynamic Fields List"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:40
+msgid "Clicking on the icon opens a screen with the same configuration as the selected field."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:45
+msgid "Dynamic clone field configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/AdminDynamicField.rst:49
+msgid "It is necessary to create the field with a different name than the previous field."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:2
+msgid "Ability for Multiple Values"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:4
+msgid "A new functionality has been enabled for dynamic fields that allows having multiple values of the field in the published form. Field Configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:10
+msgid "Configuration Multiple Values"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:12
+msgid "In the configuration of dynamic fields, this option now appears, which when selecting the value \"yes,\" enables an option to add more fields in the published form."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:-1
+msgid "Display Multiple Values"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:24
+msgid "Namespaces"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:26
+msgid "Now OTOBO allows the creation of namespaces for dynamic fields. This feature enables organizing and structuring dynamic fields into groups, facilitating management and identification within the platform."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:28
+msgid "Namespaces act as prefixes for the names of dynamic fields. When creating a new dynamic field, you can assign a specific namespace, adding clarity and coherence to OTOBO's dynamic field management system."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:30
+msgid "To add a new namespace, navigate to the system configuration, under the setting: DynamicField::Namespaces."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:35
+msgid "Namespaces Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:37
+msgid "With one or more namespaces created, they can be selected in the 'Namespace' option within the dynamic field creation form."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:42
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:49
+msgid "Namespaces field in Dynamic Field Creation"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:44
+msgid "Once a dynamic field is added to a namespace, its name will appear in the following format:"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:52
+msgid "To use it in the Ticket Mask, you should call it by its name, using the namespace to which it belongs as a prefix."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Other/DynamicFields-Others.rst:57
+msgid "Namespaces in Ticket Masks"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:2
+msgid "Reference Dynamic Field Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:4
+msgid "The Reference dynamic field allows you to point to an object within OTOBO such as an Agent, Customer, Company, or Ticket, from a dynamic field."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:9
+msgid "Reference Dynamic Field Options"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:13
+msgid "Reference Dynamic Field  -  Agent"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:15
+msgid "Allows creating a field that displays created agents."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:19
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:60
+msgid "Standard configuration for all fields is displayed."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:24
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:65
+msgid "General dynamic field configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:27
+msgid "Field Configuration Reference"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:31
+msgid "Field configuration Reference Agent"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:34
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:123
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:162
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:204
+msgid "Referenced object type"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:35
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:205
+msgid "Displays the selected reference type."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:38
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:126
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:165
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:208
+msgid "Input mode of edit field"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:39
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:209
+msgid "Allows selecting the mode in which the field will be used:"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:42
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:212
+msgid "AutoComplete"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Autocomplete"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display Autocomplete"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:56
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:227
+msgid "Dropdown"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Dropdown"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display Dropdown"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:71
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:242
+msgid "Multiselect"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Multiselect"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display Multiselect"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:86
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:129
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:168
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:258
+msgid "Add empty value"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration AddEmptyValue"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display AddEmptyValue yes"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display AddEmptyValue no"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:106
+msgid "Group of the Agents"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:107
+msgid "Allows selecting the group of agents to be displayed in the field."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration GroupAgents"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:115
+msgid "Reference Dynamic Field Customer Company"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:120
+msgid "Company Reference Dynamic Field Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:123
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:162
+msgid "Here we indicate the type of object to be referenced in the dynamic field."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:126
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:165
+msgid "Here you can select the mode in which available company customers will be displayed. It can be 'Autocomplete', 'Dropdown', or 'Multiselect'."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:129
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:168
+msgid "If this option is activated, an extra value is defined to show as a - in the list of possible values. This special value is empty internally."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:132
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:171
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:120
+msgid "Multiple Values"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:132
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:171
+msgid "Activating this option allows the field to have multiple values."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:135
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:278
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:287
+msgid "Attribute which will be searched on autocomplete"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:135
+msgid "Here, you can select the attribute by which tickets will be searched."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:138
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:174
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:297
+msgid "Check ReferenceFilter"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:138
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:174
+msgid "You can configure filters to limit the results of the list of referenced objects."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:151
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:188
+msgid "Add Reference Filter"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:141
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:177
+msgid "Allows adding more fields (Object attribute - Matches mask attribute - Matches string) to filter."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:144
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:180
+msgid "Object attribute"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:144
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:180
+msgid "Here, you select an attribute of the company customer by which selectable entries will be filtered."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:147
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:183
+msgid "Matches mask attribute"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:147
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:183
+msgid "Selects an attribute of the edit mask to compare with the selected attribute of the referenced object. This means that the value of the attribute of the referenced object will be compared with the value of the same attribute in the current edit mask."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:151
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:188
+msgid "Matches string"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:150
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:186
+msgid "Enter a text string that will be used as a criterion to determine if there is a match between the value of the attribute of the referenced object and this string you provided."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:154
+msgid "Reference Dynamic Field Customer User"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:159
+msgid "Customer User Reference Dynamic Field Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:191
+msgid "Reference Dynamic Field -  Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:192
+msgid "Allows selecting created tickets."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Field configuration Reference Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Autocomplete Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display Autocomplete Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Dropdown Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display Dropdown Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Multiselect Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display Multiselect Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration AddEmptyValue Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display AddEmptyValue Ticket yes"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Display AddEmptyValue Ticket no"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:279
+msgid "To select which attribute to filter the ticket (Title or Number)."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Attribute (Title or Number)"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:288
+msgid "Allows selecting which values will be displayed in the list."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration Attribute which will be searched on autocomplete"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:298
+msgid "It is possible to configure filters to limit the list of tickets displayed in the field."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields-Type/Reference.rst:-1
+msgid "Configuration ReferenceFilter"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:2
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:9
+msgid "Script Dynamic Field Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:4
+msgid "This dynamic field 'Script' allows you to calculate expressions based on the Toolkit Template language, as long as the conditions defined during the field creation are met."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:16
+msgid "Expression Field"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:12
+msgid "In the ``Expression field``, the function to be evaluated will be defined. Example:"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:19
+msgid "Requirements"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:19
+msgid "List of attributes that function as conditions. If one or more attributes are chosen, the function will only be executed if the attributes have valid values ​​set."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:22
+msgid "Preview Triggers"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:22
+msgid "If configured, the function will be re-evaluated via AJAX every time the value of the selected attribute or attributes is updated."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:25
+msgid "Storage Triggers (Events)"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:25
+msgid "If one or more events from the list are selected, the expression will be re-evaluated every time the event or events occur."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:32
+msgid "Show link"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:28
+msgid "Here you can specify an optional HTTP link for the field value in overviews and zoom screens. Example:"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:35
+msgid "Link for preview"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:35
+msgid "If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom. Please note that for this to work, the regular URL field above needs to be filled in, too."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:42
+msgid "Check RegEx"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:38
+msgid "Here you can specify a regular expression to check the value. The regex will be executed with the modifiers ``xms``. Example:"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:51
+msgid "Add RegEx"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:45
+msgid "Clicking on the *⊞* button will add two new fields, where a regular expression and an error message can be added."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:54
+msgid "Dynamic Field Set"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:56
+msgid "This new field allows parametrizing dynamic fields within it and structuring them across rows and columns."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:69
+msgid "Configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:-1
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:73
+msgid "Set dynamic field configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:78
+msgid "This text field is used to parameterize the fields that will be displayed in YAML format."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:82
+msgid "It's a variable that defines a container to organize elements in rows and columns."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:87
+msgid "Specifies the number of columns in the structure."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:91
+msgid "Specifies the width of the columns, using pixels in the example."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:95
+msgid "A list containing the rows of the structure."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:99
+msgid "Indicates which column the data field starts in."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:103
+msgid "Represents the dynamic field; the field name should be indicated."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:107
+msgid "Indicates if the dynamic field is mandatory ('1' for yes and '0' for no)."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:113
+msgid "After configuring and publishing the field in a creation form, this is how it appears."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:118
+msgid "Field display in form"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:121
+msgid "Allows using multiple values in the field structure."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:125
+msgid "Field duplication with multiple values"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:133
+msgid "Lens Dynamic Script Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:135
+msgid "The Lens field allows referencing objects within OTOBO, along with their characteristics, enabling the display and/or editing of them."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:140
+msgid "Lens Dynamic Field Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:143
+msgid "The referenced dynamic field"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:143
+msgid "Here you can set up a dynamic field that references an object within OTOBO, such as Agent, Customer (User), Ticket, CI, and CI Version."
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:149
+msgid "The attribute of the referenced object"
+msgstr ""
+
+#: ../Documetation by Ayté/DynamicFields/Dynamic-Field.rst:146
+msgid "Here you can reference an attribute of the related object. For example, accessing an attribute of a related CI in the referenced dynamic field."
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:2
+msgid "Internal Transaction"
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:3
+msgid "New field-value functionalities have been added to transition action modules."
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:6
+msgid "TicketCreate"
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:7
+msgid "It now features a new field named \"StoreTicketIDDynamicField,\" where you can specify a dynamic field name. This field will store the ID of the newly created ticket in the current process ticket."
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:-1
+msgid "Transition Action Module TicketCreate"
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:16
+msgid "DynamicFieldSet"
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:17
+msgid "A new field called \"TicketID\" has been added, allowing you to provide a TicketID (for example, one stored in 1.). This enables you to set a dynamic field value for a ticket other than the current process ticket."
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:-1
+msgid "Transition Action Module DynamicFieldSet"
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:26
+msgid "TicketStateSet"
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:26
+msgid "Introduces \"PendingTime,\" enabling you to set an absolute pending time instead of relying solely on the old \"PendingTimeDiff.\" These two values can be combined to indicate, for example, \"5 minutes after this date.\""
+msgstr ""
+
+#: ../Documetation by Ayté/InternalTransaction/InternalTransaction.rst:-1
+msgid "Transition Action Module TicketStateSet"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:2
+msgid "Light Admin"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:3
+msgid "Enables controlled access to specific administrative functions by designated user groups."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:6
+msgid "Creation of the Light Group"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:6
+msgid "Within the Groups module, the creation of the new group named \"light\" is carried out."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:11
+msgid "Group creation screen"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:15
+msgid "Assignment of Users to the \"light\" Group"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:15
+msgid "Through the Agents-Groups module, the assignment of one or several users to the newly created group is performed."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:20
+msgid "Relationship agents - groups"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:24
+msgid "Parametrization of \"light\" in the System Configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:26
+msgid "It is essential to add the light group to the actions ``Frontend::Module###Admin`` - ``Frontend::Navigation###Admin###001-Framework`` with the GruopRo value, in order to enable the Admin option in the top menu for users subscribed to the group."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:31
+msgid "Widget configuration Frontend::Module###Admin"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:36
+msgid "Widget configuration Frontend::Navigation###Admin###001-Framework"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:-1
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:41
+msgid "Activation of the Administration Module"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:43
+msgid "Subsequently, the necessary permissions are configured to access specific administration modules, for example, ticket notifications: ``Frontend::Module###AdminNotificationEvent`` - ``Frontend::NavigationModule###AdminNotificationEvent``."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:49
+msgid "Widget configuration Frontend::Module###AdminNotificationEvent"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:55
+msgid "Widget configuration Frontend::NavigationModule###AdminNotificationEvent"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:60
+msgid "Admin - Ticket Notifications Module"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:65
+msgid "Assignment of Queue to the \"light\" Group"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:65
+msgid "To allow the creation and editing of specific notifications for a particular queue, it is necessary to assign the light group to the queue, for example, \"Raw\" in this instance."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:70
+msgid "Queue configuration"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:75
+msgid "Queue list"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:80
+msgid "Creation and Editing of Specific Notifications for the Parametrized Queue"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:80
+msgid "When accessing ticket notifications, users can view predefined notifications, but they only have permission to edit and create notifications for the parametrized queue."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:85
+msgid "Ticket Notification Management"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:87
+msgid "In notifications where the \"Raw\" queue is not parameterized, modification of the configuration is restricted, and save buttons are disabled."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:92
+msgid "No permission to edit the notification"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:97
+msgid "Saving buttons disabled"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:100
+msgid "Conversely, in notifications with a configured \"Raw\" queue, modification of the notification is permitted, and save buttons are enabled."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:105
+msgid "Permission to edit the notification"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:110
+msgid "Saving buttons enabled"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:113
+msgid "When creating a new notification, it is mandatory to assign a queue, and only the \"Raw\" option is enabled."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:118
+msgid "Queue configuration required"
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:121
+msgid "Flexibility is provided by allowing parametrization with any desired queue. This functionality is achieved by assigning the \"light\" group to the specific queue that requires configuration."
+msgstr ""
+
+#: ../Documetation by Ayté/LightAdmin/LightAdmin.rst:123
+msgid "Light Admin provides an efficient and easily manageable solution, allowing precise customization without compromising system integrity. This adaptability ensures that features such as greetings, signatures, notifications, and templates are managed optimally according to the specific requirements of each workspace."
+msgstr ""
+
+#: ../Documetation by Ayté/MarkTicketSeenUnseen/mark-ticket-seen-unseen.rst:2
+msgid "Mark Ticket Seen Unseen"
+msgstr ""
+
+#: ../Documetation by Ayté/MarkTicketSeenUnseen/mark-ticket-seen-unseen.rst:4
+msgid "Now ticket articles can be marked as \"seen\" or \"unseen\" in the action bar of AgentTicketZoom."
+msgstr ""
+
+#: ../Documetation by Ayté/MarkTicketSeenUnseen/mark-ticket-seen-unseen.rst:9
+msgid "Ticket Seen Unseen View"
+msgstr ""
+
+#: ../Documetation by Ayté/MarkTicketSeenUnseen/mark-ticket-seen-unseen.rst:12
+msgid "When marking an article as \"unseen,\" it will be displayed in the main panel with the distinctive star symbol indicating that an article has not been viewed yet."
+msgstr ""
+
+#: ../Documetation by Ayté/MarkTicketSeenUnseen/mark-ticket-seen-unseen.rst:17
+msgid "Unseen Marked Ticket"
+msgstr ""
+
+#: ../Documetation by Ayté/QuickDateButtons/QuickDateButtons.rst:4
+msgid "By enabling the ``Ticket::Frontend::AgentTicketPending###QuickDateButtons`` module in the system configuration, you can parameterize the time that adds or subtracts the date button in the AgentTicketPending form."
+msgstr ""
+
+#: ../Documetation by Ayté/QuickDateButtons/QuickDateButtons.rst:9
+msgid "Ticket::Frontend::AgentTicketPending###QuickDateButtons"
+msgstr ""
+
+#: ../Documetation by Ayté/QuickDateButtons/QuickDateButtons.rst:14
+msgid "Configuration - Ticket::Frontend::AgentTicketPending###QuickDateButtons"
+msgstr ""
+
+#: ../Documetation by Ayté/QuickDateButtons/QuickDateButtons.rst:16
+msgid "The parameterization is done by days, thus sets of days such as weeks and months can be created."
+msgstr ""
+
+#: ../Documetation by Ayté/QuickDateButtons/QuickDateButtons.rst:18
+msgid "When opening the AgentTicketPending form, the parameterized buttons configured in the system settings to add a day, a week, or a month to the pending date are observed."
+msgstr ""
+
+#: ../Documetation by Ayté/QuickDateButtons/QuickDateButtons.rst:23
+msgid "Display Quick Date Buttons."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:2
+msgid "Ticket Masks Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:4
+msgid "Consistency and efficiency in handling customer inquiries are fundamental aspects for service desks aiming for excellence. The ability to customize and organize dynamic fields in ticket forms in a specific manner is essential to ensure an optimal experience for users."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:6
+msgid "The 'Ticket Masks' feature in OTOBO allows users to create customized templates that enable them to define the order and appearance of dynamic fields in forms precisely. This feature offers the flexibility to set titles, labels, and presentation formats such as grids, as well as the ability to make fields read-only and store multiple values for a single field in a single form."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:8
+msgid "With 'Ticket Masks', agents can streamline ticket management by tailoring the presentation of information to the specific needs of each situation, leading to greater operational efficiency and a more satisfying user experience."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:10
+msgid "Use this screen to add Ticket masks for use in communications. A new OTOBO installation already contains Ticket masks for all existing actions. The ticket mask management screen is available in the Ticket mask module of the Processes and Automation group."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:15
+msgid "Ticket Mask Management Screen"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:18
+msgid "Ticket Mask management"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:20
+msgid "To edit a ticket mask in OTOBO, follow these steps:"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:22
+msgid "Click on the \"Action\" field in the left sidebar and select the action for which you want to edit the ticket mask."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:23
+msgid "Click on the \"Change mask definition\" button in the left sidebar."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:24
+msgid "Fill in the \"Definition\" field while maintaining the main structure of the ticket mask."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:25
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:15
+msgid "Press the \"Save\" or \"Save and Finish\" button to save the changes."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:30
+msgid "Edit Mask Screen"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:33
+msgid "Ticket Mask Definitions"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:35
+msgid "To create a ticket mask in OTOBO, it's necessary to define its configuration using the 'Definitions' field. Definitions are structures that allow specifying how dynamic fields will be displayed and organized in the ticket form."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:40
+msgid "Ticket Mask Definition"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:42
+msgid "In this example, a dynamic field of type \"title\" is defined at the top of the definition. The label is set as \"Custom Dynamic Fields\" and defined as mandatory."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:50
+msgid "Underneath, the dynamic field \"Name\" is defined, also marked as mandatory."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:57
+msgid "Next, the configuration of the grid format in which the dynamic fields will be presented begins, defining four columns and their sizes."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:65
+msgid "Now, the dynamic fields that will go in each row will be defined. First, the dynamic field with the attribute 'DF' is defined, then it's specified in which column it will be using the 'ColumnStart' attribute. Additionally, the separation between that dynamic field and the next one in the same row can be defined using the 'ColumnSpan' attribute, where 1 is the default separation if the attribute is not defined."
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:70
+msgid "Ticket Mask Rows Definition"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:72
+msgid "Once saved and completed, the mask would appear as follows:"
+msgstr ""
+
+#: ../Documetation by Ayté/Ticket_Masks/ticket-masks.rst:77
+msgid "Displayed Ticket Mask"
+msgstr ""
+
+#: ../Documetation by Ayté/agent_ticket_zoom_updates/agent_ticket_zoom_updates.rst:2
+msgid "AgentTicketZoom Updates"
+msgstr ""
+
+#: ../Documetation by Ayté/agent_ticket_zoom_updates/agent_ticket_zoom_updates.rst:5
+msgid "Hide Reply-Button via ACL"
+msgstr ""
+
+#: ../Documetation by Ayté/agent_ticket_zoom_updates/agent_ticket_zoom_updates.rst:7
+msgid "The \"Reply\" button can now be hidden from the AgentTicketZoom view using ACLs by referencing the action AgentTicketCompose."
+msgstr ""
+
+#: ../Documetation by Ayté/agent_ticket_zoom_updates/agent_ticket_zoom_updates.rst:12
+msgid "Shown & Hidden Reply Button"
+msgstr ""
+
+#: ../Documetation by Ayté/agent_ticket_zoom_updates/agent_ticket_zoom_updates.rst:16
+msgid "Ticket Info on the left side"
+msgstr ""
+
+#: ../Documetation by Ayté/customer-ticketZoom-hiding-button/customer-ticketZoom-hiding-button.rst:2
+msgid "(CustomerTicketZoom) Hiding Button"
+msgstr ""
+
+#: ../Documetation by Ayté/customer-ticketZoom-hiding-button/customer-ticketZoom-hiding-button.rst:4
+msgid "Now it's possible to hide an activity dialog in the main panel and expanded view of a ticket, in the customer interface. To do this, navigate to ``Admin -> System Configuration``, to the setting **Ticket::Frontend::CustomerTicketZoom###HideActivatedActivityDialogButton**."
+msgstr ""
+
+#: ../Documetation by Ayté/customer-ticketZoom-hiding-button/customer-ticketZoom-hiding-button.rst:9
+msgid "Hiding Button Settings"
+msgstr ""
+
+#: ../Documetation by Ayté/customer-ticketZoom-hiding-button/customer-ticketZoom-hiding-button.rst:11
+msgid "When enabled, you'll be able to hide activity dialogues in the customer interface by clicking on them."
+msgstr ""
+
+#: ../Documetation by Ayté/customer-ticketZoom-hiding-button/customer-ticketZoom-hiding-button.rst:16
+msgid "Hiding Button Displayed"
+msgstr ""
+
+#: ../Documetation by Ayté/direct_submit/direct-submit.rst:2
+msgid "Direct Submit functionality"
+msgstr ""
+
+#: ../Documetation by Ayté/direct_submit/direct-submit.rst:4
+msgid "The DirectSubmit functionality allows for a streamlined user experience by bypassing the additional process dialog in both agent and customer interfaces when required. When all fields in an activity dialog within the process management system are configured to operate in the background (not displayed or shown to the user), the \"Direct Submit\" option can be enabled. This ensures that actions such as acceptance or denial are executed immediately upon submitting the corresponding action, without the need for an extra confirmation step."
+msgstr ""
+
+#: ../Documetation by Ayté/direct_submit/direct-submit.rst:10
+msgid "Direct Submit Field"
+msgstr ""
+
+#: ../Documetation by Ayté/direct_submit/direct-submit.rst:13
+msgid "By implementing DirectSubmit, organizations can optimize their process management workflows, ensuring that actions are executed swiftly and with minimal user intervention."
+msgstr ""
+
+#: ../Documetation by Ayté/direct_submit/direct-submit.rst:16
+msgid "If one of the fields is set to be shown, the message error “This property won't take effect because there are fields configured as visible.” will be displayed."
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:2
+msgid "Admin Area Updates"
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:4
+msgid "Now invalid elements are automatically hidden."
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:8
+msgid "Technical Info"
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:10
+msgid "Move from CKEditor 4 to CKEditor 5."
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:14
+msgid "Renamed internal names for Mirror database."
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:16
+msgid "It is essentially an internal renaming from SlaveDB to MirrorDB."
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:20
+msgid "Docker Image"
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:22
+msgid "Docker Image based on perl 5.38"
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:26
+msgid "End of Support for Internet Explorer"
+msgstr ""
+
+#: ../Documetation by Ayté/individual_updates/individual-updates.rst:28
+msgid "InternetExplorer is officially not supported anymore."
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:2
+msgid "State Pre-selection for Templates"
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:4
+msgid "The ‘State Pre-selection for Templates’ functionality introduces an administrative module that enhances the efficiency of ticket responses by allowing administrators to associate specific response templates with predefined states. This ensures that when a user replies to a ticket using one of these templates, the associated state is automatically preselected, streamlining the response process."
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:9
+msgid "State Pre-selections for Templates Screen"
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:11
+msgid "To edit a state pre-selection in OTOBO, follow these steps:"
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:13
+msgid "Click on the template name you wish to link to a state."
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:14
+msgid "Choose the state that will be pre-selected when the template is chosen."
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:20
+msgid "State Pre-selections for Templates Management"
+msgstr ""
+
+#: ../Documetation by Ayté/state_pre_selection_for_templates/state-pre-selection-for-templates.rst:22
+msgid "By implementing ‘State Pre-selection for Templates’, organizations can optimize their ticket response workflows, ensuring that replies are both swift and consistent, with minimal manual intervention required."
 msgstr ""
