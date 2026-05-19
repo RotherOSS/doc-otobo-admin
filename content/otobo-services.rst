@@ -1,4 +1,4 @@
-OTOBO Team Services
+Rother OSS Services
 ===================
 
 A strong partner is good to have when dealing with mission-critical systems. Whether it be maintenance or for consuming cloud services, your partner should be tightly integrated.
@@ -9,5 +9,5 @@ The following chapter describes the tools you have available to integrate your s
    :maxdepth: 3
    :caption: Contents
 
-   otobo-team-services/cloud-services
-   otobo-team-services/support-data-collector
+   otobo-services/cloud-services
+   otobo-services/support-data-collector

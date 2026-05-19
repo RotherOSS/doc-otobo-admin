@@ -38,7 +38,8 @@ Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de).
    communication-notifications
    users-groups-roles
    processes-automation
-   otobo-team-services
+   external-interface
+   otobo-services
    administration
    glossary
    history

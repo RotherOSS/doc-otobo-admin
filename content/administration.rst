@@ -10,6 +10,9 @@ OTOBO offers several administration tools to configure, monitor, control and ext
    :caption: Contents
 
    administration/calendars
+   administration/chat-channels
+   administration/faq-category
+   administration/faq-language
    administration/package-manager
    administration/performance-log
    administration/session-management
