@@ -43,4 +43,5 @@ At any later stage, tickets can be sorted, and it is possible to search through 
    ticket-settings/templates
    ticket-settings/templates-attachments
    ticket-settings/templates-queues
+   ticket-settings/ticket-masks
    ticket-settings/types
