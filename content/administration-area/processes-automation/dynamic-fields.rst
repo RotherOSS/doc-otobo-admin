@@ -368,7 +368,7 @@ Add empty value
 
 Tree View
    Activate this option to display values as a tree.
-   In case you want to have a tree structure (expandable values), you have to implement the complete tree structure in the key (e.g. Country, Country::Germany and Country::France) and only the lowest item in the value (e.g. Country, Germany and France) of the Possible values.
+   In case you want to have a tree structure (expandable values), you have to implement the complete tree structure in the *key* (e.g. Country: ``Country::Germany`` and ``Country::France``) and only the lowest item in the *value* (e.g. Country: ``Germany`` and ``France``) of the *possible values*.
 
 Translatable values
    If you activate this option the values will be translated to the user defined language.
