@@ -109,128 +109,22 @@ To import a process:
 
    If several processes are added to the system, use the filter box to find a particular process by just typing the name to filter.
 
+Direct Submit functionality
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Process Elements
-----------------
+The DirectSubmit functionality allows for a streamlined user experience by bypassing the additional process dialog in both agent and customer interfaces when required. When all fields in an activity dialog within the process management system are configured to operate in the background (not displayed or shown to the user), the "Direct Submit" option can be enabled. This ensures that actions such as acceptance or denial are executed immediately upon submitting the corresponding action, without the need for an extra confirmation step.
 
-The element names of the process modeler have been adapted to the *Business Process Model and Notation* (BPMN) ISO naming convention.
-The following task activities can be used as basic elements of the process.
 
-Script task activity
-   Script task activity is executed by the process management module and it can set dynamic field values or manage tickets automatically.
+.. figure:: images/direct_submit_field.png
+   :alt: Direct Submit Field
 
-   .. figure:: images/process-management-script-task-activity.png
-      :alt: Script Task Activity Window
+   Direct Submit Field
 
-      Script Task Activity Window
 
-   The following settings are available when adding or editing this resource.
-   The fields marked with an asterisk are mandatory.
+By implementing DirectSubmit, organizations can optimize their process management workflows, ensuring that actions are executed swiftly and with minimal user intervention.
 
-   Activity name \*
-      The name of this resource.
-      Any type of characters can be entered to this field including uppercase letters and spaces.
-
-   Activity type \*
-      The following types of task activities can be used:
-
-      - Script task activity (selected for now)
-      - Service task activity
-      - User task activity
-
-   Activity description
-      Add additional information to this resource.
-      It is recommended to always fill this field as a description of the resource with a full sentence for better clarity.
-
-   Activity error code
-      Define a custom error code for script or service task activities.
-      The custom error code must be a positive integer number.
-
-   Can start processes in
-      Defines, where can the processes be started by the agents or customer users.
-      A process can be started in the following interfaces:
-
-      - Agent Interface
-      - Agent and External Interface
-      - External Interface
-
-   Script \*
-      In this drop-down can be selected which script should be triggered immediately if the activity is set.
-      Click on the *Configure* button to add parameters (key-value pairs) for the script.
-
-Service task activity
-   Service task activity uses a web service to complete the task.
-
-   .. figure:: images/process-management-service-task-activity.png
-      :alt: Service Task Activity Window
-
-      Service Task Activity Window
-
-   The following settings are available when adding or editing this resource.
-   The fields marked with an asterisk are mandatory.
-
-   Activity name \*
-      The name of this resource.
-      Any type of characters can be entered to this field including uppercase letters and spaces.
-
-   Activity type \*
-      The following types of task activities can be used:
-
-      - Script task activity
-      - Service task activity (selected for now)
-      - User task activity
-
-   Activity description
-      Add additional information to this resource.
-      It is recommended to always fill this field as a description of the resource with a full sentence for better clarity.
-
-   Activity error code
-      Define a custom error code for script or service task activities.
-      The custom error code must be a positive integer number.
-
-   Can start processes in
-      Defines, where can the processes be started by the agents or customer users.
-      A process can be started in the following interfaces:
-
-      - Agent Interface
-      - Agent and External Interface
-      - External Interface
-
-   Web Service \*
-      Select one of the :doc:`web-services` from the drop-down list.
-
-   Invoker \*
-      Select an invoker for the web service.
-      Click on the *Configure* button to add parameters for the invoker.
-
-User task activity
-   User task activity can be used when the task is being done by an agent or a customer user.
-
-   .. figure:: images/process-management-user-task-activity.png
-      :alt: User Task Activity Window
-
-      User Task Activity Window
-
-   The following settings are available when adding or editing this resource.
-   The fields marked with an asterisk are mandatory.
-
-   Activity name \*
-      The name of this resource.
-      Any type of characters can be entered to this field including uppercase letters and spaces.
-
-   Activity type \*
-      The following types of task activities can be used:
-
-      - Script task activity
-      - Service task activity
-      - User task activity (selected for now)
-
-   Activity Dialogs
-      You can assign activity dialogs to this activity by dragging the elements with the mouse from the left list to the right list.
-      Ordering the elements within the list is also possible by drag and drop.
-
-      Click on the *Create New Activity Dialog* button to create new dialogs.
-
+.. note::
+   If one of the fields is set to be shown, the message error “This property won't take effect because there are fields configured as visible.” will be displayed.
 
 Example process
 ---------------

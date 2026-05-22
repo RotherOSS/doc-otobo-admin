@@ -15,7 +15,7 @@ OTOBO also includes the possibility to add individual information types to ticke
    :caption: Contents
 
    processes-automation/access-control-lists
-   processes-automation/dynamic-fields
+   processes-automation/dynamicfields
    processes-automation/generic-agent
    processes-automation/process-management
    processes-automation/ticket-masks

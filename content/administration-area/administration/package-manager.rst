@@ -1,42 +1,48 @@
 Package Manager
 ===============
 
-Modular systems can be extended by adding additional software packages to the framework.
-Administrators need an easy way to see which features are installed in which version and for sure to add, update and remove packages.
-
+OTOBO is a modular system can be extended by adding additional software packages to the framework.
+Administrators are provided with an easy way to see which features are installed in which version and for sure to add, update and remove packages.
 OTOBO uses a package manager to perform all package-related activities as mentioned above in the graphical interface.
 
-Use this screen to install and manage packages that extend the functionality of OTOBO.
-The package manager screen is available in the *Package Manager* module of the *Administration* group.
+The package manager is listed in the *Package Manager* tile of the *Administration* group of the Admin Interface.
+Use this interface to install, remove and manage packages that extend the functionality of OTOBO.
+
 
 .. figure:: images/package-manager.png
    :alt: Package Manager Screen
 
    Package Manager Screen
 
+.. important::
 
-Manage Packages
----------------
-
-.. warning::
-
-   The installation of packages which are not verified by Rother OSS is possible by default, cause we love open source.
-
-.. seealso::
-
-   You can deactivate the installation of not verified packages in the system configuration setting ``Package::AllowNotVerifiedPackages``.
+   You may view the package documentation of each package even prior to installation by clicking the PDF-symbol next to the package name.
 
 
 Install Packages
-~~~~~~~~~~~~~~~~
+----------------
 
-To install a package from online repository:
+You have two options to install new packages to your OTOBO, either from an online repository or by installation of a local package file.
+You should prefer package from an repository as it eases consuming of updates if available.
 
-1. Select an online repository from the drop-down in the left sidebar.
-2. Click on the *Update repository information* button to refresh the available package list.
-3. Select a package from the *Online Repository* widget and click on the *Install* in the last column.
-4. Follow the installation instructions.
-5. After installation, the package is displayed in the *Local Repository* widget.
+.. hint::
+
+   The installation of packages not verified by Rother OSS is possible by default.
+   We love open source.
+   You can deactivate the installation of not-verified packages in the system configuration setting ``Package::AllowNotVerifiedPackages``.
+
+
+Install from Repository
+~~~~~~~~~~~~~~~~~~~~~~~
+
+To install a package from an online repository, follow these steps:
+
+#. Select an online repository from the drop-down in the left sidebar.
+   The Rother OSS repository is configured by default.
+#. Click on the *Update repository information* button to refresh the available package list.
+#. Select a package from the *Online Repository* widget and click on the *Install* in the last column.
+#. Follow the installation instructions.
+#. After installation, the package is displayed in the *Local Repository* widget.
 
 .. figure:: images/package-manager-online-repository.png
    :alt: Online Repository Widget
@@ -47,13 +53,17 @@ To install a package from online repository:
 
    The repository list can be changed in system configuration setting ``Package::RepositoryList``.
 
-To install a package from file:
+Install from File
+~~~~~~~~~~~~~~~~~
 
-1. Click on the *Browse…* button in the left sidebar.
-2. Select an ``.opm`` file from your local file system.
-3. Click on the *Install Package* button.
-4. Follow the installation instructions.
-5. After installation, the package is displayed in the *Local Repository* widget.
+Sideloading packages is also posible.
+To install a package from file follow these steps:
+
+#. Click on the *Browse…* button in the left sidebar.
+#. Select an ``.opm`` file from your local file system.
+#. Click on the *Install Package* button.
+#. Follow the installation instructions.
+#. After installation, the package is displayed in the *Local Repository* widget.
 
 .. figure:: images/package-manager-local-repository.png
    :alt: Local Repository Widget
@@ -61,53 +71,56 @@ To install a package from file:
    Local Repository Widget
 
 
-Update Packages
-~~~~~~~~~~~~~~~
-
-To update a package from online repository:
-
-1. Check the available packages in the *Online Repository* widget if there is *Update* in the *Action* column.
-2. Click on the *Update* link.
-3. Follow the update instructions.
-4. After updating, the package is displayed in the *Local Repository* widget.
-
-To update a package from file:
-
-1. Click on the *Browse…* button in the left sidebar.
-2. Select an ``.opm`` file which is newer than the installed package.
-3. Click on the *Install Package* button.
-4. Follow the update instructions.
-5. After updating, the package is displayed in the *Local Repository* widget.
-
-To update all packages:
-
-1. Click on the *Update all installed packages* button in the left sidebar.
-2. Follow the update instructions.
-3. After updating, the package is displayed in the *Local Repository* widget.
-
-This feature reads the information of all defined package repositories and determines if there is a new version for every installed package in the system and calculates the correct order to update the packages respecting all other package dependencies, even if new versions of existing packages require new packages not yet installed in the system.
-
-.. note::
-
-   If there are packages installed that do not have a corresponding repository defined in the system, they can not be updated by this feature and will be marked as failed (due to the missing on-line repository).
-
-
 Reinstall Packages
 ~~~~~~~~~~~~~~~~~~
 
-If at least one of the package files are modified locally, the package manager marks the package as broken, and need to reinstall.
+If at least one of the package files are modified locally, the package manager marks the package as broken.
+You may overwrite these modifications by a reinstall.
 
 To reinstall a package:
 
-1. Select the package from the *Local Repository* widget that are marked for reinstall.
-2. Click on the *Reinstall* link in the *Action* column.
-3. Follow the installation instructions.
+#. Select the package from the *Local Repository* widget that are marked for reinstall.
+#. Click on the *Reinstall* link in the *Action* column.
+#. Follow the installation instructions.
 
 
-Uninstall Packages
-~~~~~~~~~~~~~~~~~~
+Update Packages
+---------------
 
-To uninstall a package:
+Using the online repository to install packages, provides you a hint, if an update to the package is available in the *Action* column.
+To update a package from online repository follow these steps:
+
+#. Check the available packages in the *Online Repository* widget for *Update* in the *Action* column.
+#. Click on the *Update* link.
+#. Follow the update instructions.
+#. After updating, the package is displayed in the *Local Repository* widget.
+
+
+To update all packages:
+
+#. Click on the *Update all installed packages* button in the left sidebar.
+#. Follow the update instructions.
+#. After updating, the package is displayed in the *Local Repository* widget.
+
+This feature reads the information of all defined package repositories and determines whether a new version for every installed package exsits in the repository.
+It calculates the correct order to update the packages respecting all other package dependencies, even if new versions of existing packages require new packages not yet installed in the system.
+
+
+.. note::
+
+   To update a package that was installed from a file, simply install the newer version as explained above.
+   However, they may not be updated by the button in the sidebar.
+
+
+Remove Packages
+---------------
+
+.. danger::
+
+   If you remove a package you also delete all data managed by that package.
+
+If a certain package is no longer required, you may remove it.
+To uninstall a package follow these steps:
 
 1. Select the package from the *Local Repository* widget.
 2. Click on the *Uninstall* link in the *Action* column.
