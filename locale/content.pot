@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 14:34+0000\n"
+"POT-Creation-Date: 2026-05-22 13:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -432,7 +432,7 @@ msgstr ""
 #: ../content/administration-area/ticket-settings/states.rst:149
 #: ../content/administration-area/ticket-settings/templates.rst:108
 #: ../content/administration-area/ticket-settings/types.rst:78
-#: ../content/administration-area/users-groups-roles/agents.rst:132
+#: ../content/administration-area/users-groups-roles/agents.rst:133
 #: ../content/administration-area/users-groups-roles/groups.rst:74
 #: ../content/administration-area/users-groups-roles/roles.rst:63
 msgid "Validity \\*"
@@ -461,7 +461,7 @@ msgstr ""
 #: ../content/administration-area/ticket-settings/states.rst:148
 #: ../content/administration-area/ticket-settings/templates.rst:107
 #: ../content/administration-area/ticket-settings/types.rst:78
-#: ../content/administration-area/users-groups-roles/agents.rst:130
+#: ../content/administration-area/users-groups-roles/agents.rst:131
 #: ../content/administration-area/users-groups-roles/customer-users.rst:144
 #: ../content/administration-area/users-groups-roles/customers.rst:97
 #: ../content/administration-area/users-groups-roles/groups.rst:67
@@ -3791,7 +3791,7 @@ msgid "POP3TLS"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:95
-#: ../content/administration-area/users-groups-roles/agents.rst:111
+#: ../content/administration-area/users-groups-roles/agents.rst:112
 #: ../content/administration-area/users-groups-roles/customer-users.rst:104
 msgid "Username \\*"
 msgstr ""
@@ -10429,7 +10429,7 @@ msgstr ""
 msgid "The first name of the agent."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:108
+#: ../content/administration-area/users-groups-roles/agents.rst:109
 #: ../content/administration-area/users-groups-roles/customer-users.rst:101
 msgid "Lastname \\*"
 msgstr ""
@@ -10439,166 +10439,166 @@ msgid "The last name of the agent."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:108
-msgid "The agent display name can be set via the system configuration setting ``FirstnameLastnameOrder``."
+msgid "The agent display name can be set via the system configuration setting ``FirstnameLastnameOrder``. It may also show the user id, which is userful to be able to destiguish between agents with the same name."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:111
+#: ../content/administration-area/users-groups-roles/agents.rst:112
 msgid "The username of the agent to login to the system."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:115
+#: ../content/administration-area/users-groups-roles/agents.rst:116
 #: ../content/administration-area/users-groups-roles/customer-users.rst:108
 msgid "Password"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:114
+#: ../content/administration-area/users-groups-roles/agents.rst:115
 msgid "The password of the agent. This will be auto-generated if left empty."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:124
+#: ../content/administration-area/users-groups-roles/agents.rst:125
 #: ../content/administration-area/users-groups-roles/customer-users.rst:111
 msgid "Email \\*"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:118
+#: ../content/administration-area/users-groups-roles/agents.rst:119
 msgid "The email address of the agent."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:122
+#: ../content/administration-area/users-groups-roles/agents.rst:123
 msgid "The email syntax and validity of an available MX record could prevent you from submitting this form. For some systems it may be acceptable to turn off these checks. See the :ref:`Agent Configuration Options`."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:127
+#: ../content/administration-area/users-groups-roles/agents.rst:128
 #: ../content/administration-area/users-groups-roles/customer-users.rst:124
 msgid "Mobile"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:127
+#: ../content/administration-area/users-groups-roles/agents.rst:128
 msgid "The mobile phone number of the agent."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:135
+#: ../content/administration-area/users-groups-roles/agents.rst:136
 msgid "Agent Back End Sources"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:137
+#: ../content/administration-area/users-groups-roles/agents.rst:138
 msgid "Agents can be read and synchronized from an Active Directory® or LDAP server."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:141
+#: ../content/administration-area/users-groups-roles/agents.rst:142
 msgid "The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otrs.ch or in the `OTOBO Portal <https://portal.otrs.ch/>`__."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:145
+#: ../content/administration-area/users-groups-roles/agents.rst:146
 msgid "Agent Authentication Back End"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:147
+#: ../content/administration-area/users-groups-roles/agents.rst:148
 msgid "The users table houses your agent data per default. You may attach a directory server (LDAP/Active Directory) to your installation for authentication. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:210
-#: ../content/administration-area/users-groups-roles/agents.rst:318
+#: ../content/administration-area/users-groups-roles/agents.rst:211
+#: ../content/administration-area/users-groups-roles/agents.rst:319
 msgid "The minimum required to connect to a directory server is:"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:220
-#: ../content/administration-area/users-groups-roles/agents.rst:328
+#: ../content/administration-area/users-groups-roles/agents.rst:221
+#: ../content/administration-area/users-groups-roles/agents.rst:329
 msgid "``Host``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:220
-#: ../content/administration-area/users-groups-roles/agents.rst:328
+#: ../content/administration-area/users-groups-roles/agents.rst:221
+#: ../content/administration-area/users-groups-roles/agents.rst:329
 msgid "The DNS name or IP of your directory server."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:223
-#: ../content/administration-area/users-groups-roles/agents.rst:331
+#: ../content/administration-area/users-groups-roles/agents.rst:224
+#: ../content/administration-area/users-groups-roles/agents.rst:332
 msgid "``BaseDN``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:223
-#: ../content/administration-area/users-groups-roles/agents.rst:331
+#: ../content/administration-area/users-groups-roles/agents.rst:224
+#: ../content/administration-area/users-groups-roles/agents.rst:332
 msgid "The starting point in your directory tree."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:230
-#: ../content/administration-area/users-groups-roles/agents.rst:338
+#: ../content/administration-area/users-groups-roles/agents.rst:231
+#: ../content/administration-area/users-groups-roles/agents.rst:339
 msgid "``UID``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:226
-#: ../content/administration-area/users-groups-roles/agents.rst:334
+#: ../content/administration-area/users-groups-roles/agents.rst:227
+#: ../content/administration-area/users-groups-roles/agents.rst:335
 msgid "The attribute used for login and identification."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:230
-#: ../content/administration-area/users-groups-roles/agents.rst:338
+#: ../content/administration-area/users-groups-roles/agents.rst:231
+#: ../content/administration-area/users-groups-roles/agents.rst:339
 msgid "This is ``sAMAccountName`` for an Active Directory."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:232
-#: ../content/administration-area/users-groups-roles/agents.rst:259
+#: ../content/administration-area/users-groups-roles/agents.rst:233
+#: ../content/administration-area/users-groups-roles/agents.rst:260
 msgid "To use multiple back ends, add an additional section of the example code to the ``Config.pm``. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:250
+#: ../content/administration-area/users-groups-roles/agents.rst:251
 msgid "All back ends will are used in succession. The UID must be unique to all back ends, otherwise some side effects may occur."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:253
+#: ../content/administration-area/users-groups-roles/agents.rst:254
 msgid "To synchronize with a specific directory server (see :ref:`Agent User Data` below), you must add the appropriate setting to your :ref:`Agent Authentication Back End`. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:265
+#: ../content/administration-area/users-groups-roles/agents.rst:266
 msgid "Reuse of an :ref:`Agent Synchronization Back End` is also possible."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:273
+#: ../content/administration-area/users-groups-roles/agents.rst:274
 msgid "Agent Synchronization Back End"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:275
+#: ../content/administration-area/users-groups-roles/agents.rst:276
 msgid "It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:280
+#: ../content/administration-area/users-groups-roles/agents.rst:281
 msgid "Agent User Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:282
+#: ../content/administration-area/users-groups-roles/agents.rst:283
 msgid "Syncing user data upon login. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:342
+#: ../content/administration-area/users-groups-roles/agents.rst:343
 msgid "Multiple :ref:`Agent Synchronization Back End` blocks can be used. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end. Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:348
+#: ../content/administration-area/users-groups-roles/agents.rst:349
 msgid "Agent Group Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:350
+#: ../content/administration-area/users-groups-roles/agents.rst:351
 msgid "It is possible to use security objects to synchronize users to OTOBO groups. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:355
+#: ../content/administration-area/users-groups-roles/agents.rst:356
 msgid ":doc:`groups` must be available in OTOBO to use this feature."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:359
+#: ../content/administration-area/users-groups-roles/agents.rst:360
 msgid "Agent Role Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:361
+#: ../content/administration-area/users-groups-roles/agents.rst:362
 msgid "It is possible to use security objects to synchronize users to OTOBO roles. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:366
+#: ../content/administration-area/users-groups-roles/agents.rst:367
 msgid ":doc:`roles` must be available in OTOBO to use this feature."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:370
+#: ../content/administration-area/users-groups-roles/agents.rst:371
 msgid "Agent Configuration Options"
 msgstr ""
 
