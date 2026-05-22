@@ -109,6 +109,111 @@ To import a process:
 
    If several processes are added to the system, use the filter box to find a particular process by just typing the name to filter.
 
+Transition Reference for "Fields" Settings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Name
+^^^^
+
+Name of the ticket attribute that should be used for validation.
+
+Example:
+
+If the transition should only be considered ``valid`` when the process
+ticket status is ``closed``, ``State`` must be used as the name.
+
+If a Dynamic Field should be used,
+``DynamicField_<FieldName>`` must be used.
+
+To access a field inside a Dynamic Field of type ``Set``, the following
+syntax can be used:
+
+::
+
+    DynamicField_<FieldNameSet>::<DynamicFieldName>
+
+In general, all attributes returned by the ``TicketGet`` function can
+be used.
+
+
+Type
+^^^^
+
+There are several possibilities to validate whether this transition is valid.
+
+``Exact match - all``
+    In an array (for example: Multi-Value DynamicField or DynamicField of
+    type ``Set``), all values must exactly match the string specified in
+    ``Value``.
+
+``Regular Expression - all``
+    In an array (for example: Multi-Value DynamicField or DynamicField of
+    type ``Set``), all values must match the regular expression specified
+    in ``Value``.
+
+``Exact match``
+    ``Value`` must exactly match the string.
+
+    In an array (for example: Multi-Value DynamicField or DynamicField of
+    type ``Set``), at least one value must exactly match the string
+    specified in ``Value``.
+
+``Regular Expression``
+    ``Value`` must contain a matching regular expression.
+
+    In an array (for example: Multi-Value DynamicField or DynamicField of
+    type ``Set``), at least one value must match the regular expression
+    specified in ``Value``.
+
+``Exact match - negated``
+    ``Value`` must not match the string.
+
+    In an array (for example: Multi-Value DynamicField or DynamicField of
+    type ``Set``), no value may match the string specified in ``Value``.
+
+``Regular Expression - negated``
+    ``Value`` must contain a non-matching regular expression.
+
+    In an array (for example: Multi-Value DynamicField or DynamicField of
+    type ``Set``), no value may match the regular expression specified in
+    ``Value``.
+
+``Transition validation module``
+    ``Name`` is currently irrelevant.
+
+    ``Value`` must contain the path to the module, usually:
+
+    ::
+
+        Kernel::System::Process::Transition::<TA_Name>
+
+
+Value
+^^^^^
+
+Value must always contain a string or a regular expression used for
+comparison.
+
+
+Example
+^^^^^^^
+
+The process ticket should move to the next process step as soon as a
+status containing ``closed`` in its name is set.
+
+Therefore, configure:
+
+- ``Name`` = ``State``
+- ``Type`` = ``Regular Expression``
+- ``Value`` = ``closed``
+
+or use the long form:
+
+::
+
+    ^.*closed.*$
+
+
 Direct Submit functionality
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
