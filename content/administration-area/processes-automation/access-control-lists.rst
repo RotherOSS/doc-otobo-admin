@@ -311,7 +311,7 @@ For properties, keys and values that can be used in ACLs, see the following exam
 
    ---
    - ChangeBy: root@localhost
-     ChangeTime: 2019-01-07 10:42:59
+     ChangeTime: 2026-05-28 13:37:08
      Comment: ACL Reference.
      ConfigMatch:
        Properties:
@@ -341,13 +341,6 @@ For properties, keys and values that can be used in ACLs, see the following exam
            - AgentTicketEmail
            - ...
            - CustomerTicketZoomReply
-           Endpoint:
-           - ExternalFrontend::PersonalPreferences
-           - ExternalFrontend::ProcessTicketCreate
-           - ExternalFrontend::ProcessTicketNextStep
-           - ExternalFrontend::TicketCreate
-           - ExternalFrontend::TicketDetailView
-           - ...
          Owner:
            UserLogin:
            - some login
@@ -478,14 +471,6 @@ For properties, keys and values that can be used in ACLs, see the following exam
          # Limit the number of possible activity dialogs the agent/customer can use in a process ticket.
          - ActivityDialog-aff0ae05fe6803f38de8fff6cf33b7ce
          - ActivityDialog-429d61180a593414789a8087cc4b3c6f
-         - ...
-         Endpoint:
-         # Limit the functions on external interface.
-         - ExternalFrontend::PersonalPreferences
-         - ExternalFrontend::ProcessTicketCreate
-         - ExternalFrontend::ProcessTicketNextStep
-         - ExternalFrontend::TicketCreate
-         - ExternalFrontend::TicketDetailView
          - ...
          Process:
          # Limit the number of possible processes that can be started.
