@@ -9,10 +9,12 @@ Regardless whether OAuth2 is used for sending or fetching email,
 a valid OAuth2 FunctionalAccount and its corresponding OIDC provider settings need to be configured in the Admin UI.
 These can be set up using the 'OAuth Functional Accounts' and 'OIDC Profile Management' modules in the Admin UI, respectively.
 
+
 .. image:: ./images/oauth.png
    :alt: Functional Account Settings
 
-Please refer to the OAuth2 manual for more information on the options for setting up OIDC Profiles and/or OAuth2 Functional Accounts.
+More information on setting up OIDC Profiles and Functional Accounts for OAuth2 pls see the chapter **OIDC bases OAuth2 authentication for Webservies**
+under he category **Process & Automation** in the Administration Area section.
 
 .. note::
    On the OIDC Provider the Functional Account user must have the proper permissions assigned,
@@ -30,10 +32,10 @@ SMTP
 For outgoing email sending via SMTP, OAuth2 authentication has to be enabled in SysConfig under ``Core > Email``:
 
 - The ``SendmailModule`` setting must be one of the SMTP options.
-  Choosing ``SMTPS`` or ``SMTPTLS`` is strongly recommended from a security perspective.
+  Choosing **SMTPS** or **SMTPTLS** is strongly recommended from a security perspective.
   Do *not* use unencrypted SMPT with OAuth2 tokens in a production environment
 - Make sure you use the proper ``SendmailModule::Port`` for the chosen SMTP method
-- The ``SendmailModule::OAuth2Method`` setting must be set to either XOAUTH2 or OAUTHBEARER
+- The ``SendmailModule::OAuth2Method`` setting must be set to either **XOAUTH2** or **OAUTHBEARER**
 - The ``SendmailModule::OAuth2FunctionalAccount`` setting must be set to the name of an OAuth Functional Account configured in the Admin UI as outlined above
 - The ``SendmailModule::AuthUser`` must be set to the username of the FunctionalAccount that is used to send email
 - The ``SendmailModule::AuthPassword`` will *not* be used with XOAUTH2 and/or OAUTHBEARER
@@ -50,9 +52,9 @@ For incoming email fetched via POP3 or IMAP, settings can be provided via the Ad
 .. image:: ./images/mailaccount.png
    :alt: Mailaccount Admin UI
 
-To enable XOAUTH2 or OAUTHBEARER For a given Postmaster mail account, do:
+To enable **XOAUTH2** or **OAUTHBEARER** For a given Postmaster mail account, do:
 
-- Change the authentication option from the default 'Basic Auth' option to either XOAUTH2 or OAUTHBEARER depending on your needs
+- Change the authentication option from the default 'Basic Auth' option to either **XOAUTH2** or **OAUTHBEARER** depending on your needs
 - Select the FunctionalAccount to be used for fetching email that you have configured above from the drop down list
 - Specify the username of the FunctionalAccount that is used to fetch email
 
@@ -73,20 +75,22 @@ Core::Email
 SendmailModule::OAuth2FunctionalAccount
 """""""""""""""""""""""""""""""""""""""
 
-If ``XOAUTH2`` or ``OAUTHBEARER`` is selected in the ``SendmailModule::OAuth2Method`` setting, then this setting needs to be enabled and set to a valid OIDC Functional Account.
+If **XOAUTH2** or **OAUTHBEARER** is selected in the ``SendmailModule::OAuth2Method`` setting, then this setting needs to be enabled and set to a valid OIDC Functional Account.
 OIDC Accounts can be configured in the Admin UI 'OAuth Functional Accounts' Module.
 
 
 SendmailModule::OAuth2Method
 """"""""""""""""""""""""""""
 
-The authentication method to use for SMTP Authentication, defaults to 'Basic Auth'.
-If ``XOAUTH2`` or ``OAUTHBEARER`` is selected, then the ``SendmailModule::OAuth2FunctionalAccount`` setting needs to be enabled and set to a valid OIDC Functional Account.
+The authentication method to use for SMTP Authentication, defaults to **Basic Auth**.
+If **XOAUTH2** or **OAUTHBEARER** is selected, then the ``SendmailModule::OAuth2FunctionalAccount`` setting needs to be enabled and set to a valid OIDC Functional Account.
 OIDC Accounts can be configured in the Admin UI 'OAuth Functional Accounts' Module.
 
 
 Azure Configuration
-~~~~~~~~~~~~~~~~~~~
+-------------------
+
+Here are some notes on configuring an OAuth2 application with MS Azure as OIDC provider.
 
 Go to https://portal.azure.com
 

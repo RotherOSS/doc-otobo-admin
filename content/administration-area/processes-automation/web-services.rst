@@ -280,21 +280,142 @@ XSLT-Mapping for OTOBO as Provider - HTTP\:\:REST
 
 The XSLT standard can be used to transform XML, JSON and CSV data.
 
-In this example, we are going to use the XSLT mapping to transform the response from the webservice into Dynamic Fields.
+In this example, we are going to use the XSLT mapping to transform an incoming JSON structure so that
+OTOBO can understand it.
 
 Create a Dynamic Field of Type Ticket->Text and name it for example "RemoteTicketID".
 
 Given the incoming data:
 
-.. code-block:: none
+.. code-block:: json
 
    { "incidentID" : "12345", "incidentTitle" : "Test Ticket" }
 
-We can save the data in the Dynamic Field as follows:
+which is send via POST to an TicketUpdate Operation which is mapped to
+https://yourfqdn/otobo/nph-genericinterface.pl/Webservice/Test/TicketUpdate/:TicketID
+and you call it like so to update TicketID=1 :
 
 .. code-block:: none
 
-   <example code here>
+   curl -v -k -X POST 'https://yourfqdn/otobo/nph-genericinterface.pl/Webservice/Test/TicketUpdate/1?UserLogin=xouruser&Password=yourpass' -H "Content-Type:application/json" -d '{ "incidentID" : "12345", "incidentTitle" : "Test Ticket" }'
+
+We can save the data in the Dynamic Field using XSLT mapping as follows:
+
+.. code-block:: xml
+
+   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <xsl:template match="/RootElement">
+         <RootElement>
+            <TicketID><xsl:value-of select='/RootElement/TicketID' /></TicketID>
+            <UserLogin><xsl:value-of select='/RootElement/UserLogin' /></UserLogin>
+            <Password><xsl:value-of select='/RootElement/Password' /></Password>
+            <DynamicField>
+               <Name>RemoteTicketID</Name>
+               <Value><xsl:value-of select='/RootElement/incidentID' /></Value>
+            </DynamicField>
+         </RootElement>
+      </xsl:template>
+   </xsl:stylesheet>
+
+Here, TicketID, UserLogin and Password are just copied over, but the incidentID value
+gets transformed into a strcuture OTOBO can understand.
+
+Extended type hints for XSLT Mapping
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Extended XSLT Mapping can be enabled on the XSLT-Mapping Editor page. When enabled,
+the resulting JSON type can be forced by specifying an ``otoboXslType`` XML attribue.
+Possible Values for that attribute are ``int``, ``bool``, ``float``, and ``array``.
+
+Assume an OTOBO Webservice Requester that is triggered by an Article-Edit event
+(synchronously), using Generic::Passthru Invoker, and a custom outgoing
+XSLT-Mapping as follows:
+
+.. code-block:: xml
+
+   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output omit-xml-declaration="yes" indent="yes"/>
+    <xsl:strip-space elements="*"/>
+    <xsl:template match="/">
+     <RootElement>
+      <TicketID otoboXslType="bool"><xsl:value-of select="/RootElement/TicketID" /></TicketID>
+      <ArticleID otoboXslType="int"><xsl:value-of select="/RootElement/ArticleID" /></ArticleID>
+      <Event otoboXslType="array"><xsl:value-of select="/RootElement/Event" /></Event>
+     </RootElement>
+    </xsl:template>
+   </xsl:stylesheet>
+
+This simple takes the 3 data points 'TicketID', 'ArticleID', and 'Event' and
+puts these into the result XML. Now note the typehint attributes named
+``otoboXsltType`` that have been added.
+
+- bool: force the value to be represented as boolean **true/false** values
+  in the resulting JSON. The empty string, Zero as Number or string, and
+  the string 'false' (case-insensitive) will be treated as ``false``, all
+  other values will transform to ``true``
+
+- int: change type of value put into JSON from String to Integer
+
+- float: change type of value put into JSON from String to Floating Point
+  Number
+
+- array: force the element to be represented as a JSON array, even if it has
+  only 1 element
+
+'array' can be combined with the other type values, to force both array and
+a specific type representation.
+
+Specifying 'array' on an element that is contained more then once, and
+therefore already will be represented in JSON as an array, will effectively
+do nothing.
+
+
+More detailed example
+---------------------
+
+Contrieved example just to demonstrate how the mapping with ``otoboXslType``
+works, taken from the unittest:
+
+.. code-block:: xml
+
+   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output omit-xml-declaration="yes" indent="yes"/>
+    <xsl:strip-space elements="*"/>
+    <xsl:template match="/">
+     <RootElement>
+      <Test>
+        <Sub otoboXslType="array">1</Sub>
+        <Item otoboXslType="float">3.2</Item>
+        <Thing otoboXslType="array int">1</Thing>
+        <Thing otoboXslType="array int">2</Thing>
+        <Thing otoboXslType="array int">3</Thing>
+		<Array><Item otoboXslType="bool">0</Item></Array>
+		<Array><Item otoboXslType="bool">1</Item></Array>
+		<Array><Item otoboXslType="bool">false</Item></Array>
+      </Test>
+     </RootElement>
+    </xsl:template>
+   </xsl:stylesheet>
+
+
+This would result in the following JSON:
+
+.. code-block:: JSON
+
+   {
+     "Test": {
+       "Item": 3.2,
+       "Thing": [ 1,2,3 ]
+       "Sub": [ "1" ],
+       "Array": [
+         { "Item": false },
+         { "Item": true },
+         { "Item": false }
+       ]
+     }
+   }
+
+
 
 
 OTOBO as Provider - HTTP\:\:SOAP
@@ -409,7 +530,7 @@ Refer to the examples for configuring OIDC that come with your Otobo installatio
 The examples are in Kernel/Config/Defaults.pm line 518ff,
 and this needs to be configured in ``Config.pm``.
 
-::
+.. code-block:: Perl
 
    # This is an example configuration for authorization via OpenIDConnect
    # see https://openid.net/specs/openid-connect-core-1_0.html
@@ -495,7 +616,7 @@ Usually, you would either restrict to a specific user login, or to a combination
 
 Example for Config.pm:
 
-::
+.. code-block:: Perl
 
    $Self->{'AuthModule::OpenIDConnect::Webservice::Restrictions'} = {
         UserLogin => '',
@@ -534,7 +655,10 @@ but for testing a curl call with client_credentials grant type might look simila
 
    curl -s -k -d 'client_id=someapi' -d 'client_secret=s3cr3t' -d 'username=test1@example.com' -d 'password=test' -d 'grant_type=password' -d 'scope=openid' 'https://localhost:8443/realms/master/protocol/openid-connect/token' |jq
 
-   # outputs
+outputs:
+
+.. code-block:: JSON
+
    {
      "access_token": "eyJhbG .....",
      "expires_in": 60,
@@ -558,7 +682,10 @@ You can pass any TicketID that exists in your system, of course.
 
    curl -k -X GET -H'Authorization: Bearer <token from above>' 'http://localhost/otobo/nph-genericinterface.pl/Webservice/Test/GetTicket/1' | jq
 
-   # Outputs:
+outputs:
+
+.. code-block:: JSON
+
    {
      "Ticket": [
        {
