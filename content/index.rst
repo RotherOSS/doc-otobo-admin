@@ -5,19 +5,34 @@
 OTOBO Administration Manual
 ===========================
 
-This is the OTOBO Administration Manual.
-It serves as a reference to help administrators manage and configure the OTOBO system effectively.
+OTOBO is an open source ticket request system with many features to manage customer telephone calls and emails.
+It is distributed under the GNU General Public License (GPL) and tested on various Linux platforms.
+Do you receive many emails and want to answer them with a team of agents?
 
+About This Manual
+=================
+
+This is the OTOBO Administration Manual.
+The chapters describe the administration of the OTOBO software.
+The main parts of this manual are the Administration Area and the How-Tos.
+How-Tos are step-by-step instructions to solve a particular problem, while the Administration Area chapters describe the configuration possibilities of OTOBO in more detail.
+
+.. important::
+   If you are new to OTOBO, we recommend to start with the :doc:`Getting Startet Guide <getting-started>`.
 
 .. toctree::
    :maxdepth: 3
    :caption: Contents
 
+   getting-started
    administration-area
    how-tos
    glossary
    history
 
+
+License
+=======
 
 This work is copyrighted by OTRS AG (https://otrs.com),
 Zimmersmühlenweg 11, 61440 Oberursel, Germany.
