@@ -25,15 +25,20 @@ and which protocol is used for communication (transport).
 The generic interface is the framework which makes it possible to create web services for OTOBO in a predefined way,
 using ready-made building blocks that are independent from each other and interchangeable.
 
-Use this screen to manage web services in the system.
-A fresh OTOBO installation contains no web service by default.
-The web service management screen is available in the *Web Services* module of the *Processes & Automation* group.
-
 .. figure:: images/web-service-management.png
    :alt: Web Service Management Screen
 
    Web Service Management Screen
 
+Use this screen to manage web services in the system.
+A fresh OTOBO installation contains no web service by default.
+The web service management screen is available in the *Web Services* module of the *Processes & Automation* group.
+
+
+.. contents:: On this page
+   :local:
+   :depth: 4
+   :backlinks: none
 
 Manage Web Services
 -------------------
@@ -146,7 +151,8 @@ Description
    Like comment, but longer text can be added here.
 
 Remote system
-   .. TODO: what is this?
+    The name of the remote system this web service is communicating with.
+    This field is optional and can be used for better organization of web services.
 
 Debug threshold
    The default value is *Debug*. When configured in this manner, all communication logs are registered in the database.
@@ -226,7 +232,7 @@ There are different Ticket Operations which all serve a specific job:
 - `Ticket::TicketUpdate`
 - `Ticket::TicketHistoryGet`
 
-In this example, we are going to use the Ticket::TicketCreate operation.
+In this example, we are going to use the "Ticket::TicketCreate" operation.
 Click on "Add Operation" and choose the "Ticket::TicketCreate" operation.
 Choose a descriptive name, save the operation and go back to the webservice overview.
 
@@ -244,7 +250,8 @@ Here is an example using curl:
 
 .. code-block:: bash
 
-   curl -X POST --header "Content-Type: application/json" \
+   curl --request POST \
+     --header "Content-Type: application/json" \
      --data '{
        "UserLogin": "AgentUser",
        "Password": "Password",
@@ -274,27 +281,6 @@ A full list of all attributes needed for operations can be found here:
  - TicketSearch: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketSearch.pm#L70
  - TicketHistoryGet: https://github.com/RotherOSS/otobo/blob/rel-11_0/Kernel/GenericInterface/Operation/Ticket/TicketHistoryGet.pm#L67
 
-
-XSLT-Mapping for OTOBO as Provider - HTTP\:\:REST
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The XSLT standard can be used to transform XML, JSON and CSV data.
-
-In this example, we are going to use the XSLT mapping to transform the response from the webservice into Dynamic Fields.
-
-Create a Dynamic Field of Type Ticket->Text and name it for example "RemoteTicketID".
-
-Given the incoming data:
-
-.. code-block:: none
-
-   { "incidentID" : "12345", "incidentTitle" : "Test Ticket" }
-
-We can save the data in the Dynamic Field as follows:
-
-.. code-block:: none
-
-   <example code here>
 
 
 OTOBO as Provider - HTTP\:\:SOAP
@@ -356,21 +342,20 @@ OTOBO as Requester - HTTP\:\:SOAP
 
 
 
+.. _oauth2-webservices:
 
-OIDC based OAuth2 authentication for Webservices
-================================================
 
-Basic Configuration (Both Provider and Invoker)
------------------------------------------------
+OIDC-based OAuth2 Authentication
+--------------------------------
 
-Your system-administrator should configure one (or more) OAuth2 Application(s) with their relevant OIDC provider and give you the following configuration details:
+Your system administrator should configure one (or more) OAuth2 Application(s) with their relevant OIDC provider and give you the following configuration details:
 
 - the well-known provider metadata discovery url as described in the `openid spec <https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfigurationRequest>`__  Example: '\https://keycloak:8443/realms/master/.well-known/openid-configuration'
 - ``client_id`` and ``client_secret`` parameters for your OAuth2 Application
-- the ``UID`` identifier of an OAuth2 JWT token claim that can be mapped to an Otobo UserLogin identifier.
+- the ``UID`` identifier of an OAuth2 JWT token claim that can be mapped to an OTOBO UserLogin identifier.
   Usual values include 'sub', 'email', or 'uid'. Use 'sub' if in doubt.
 
-If your planning to use functional accounts (aka System Users) to authorize outgoing API calls triggered by Otobo:
+If your planning to use functional accounts (aka System Users) to authorize outgoing API calls triggered by OTOBO:
 
 - the ``grant_type`` which will be one of: 'client_credentials' or 'password' or 'authorization_code'.
   if grant_type is 'password', you will also get username/password credentials
@@ -381,8 +366,8 @@ If your planning to use functional accounts (aka System Users) to authorize outg
 **Important**
 
 If you are using the 'authorization_code' flow, which will redirect your browser to the Provider login page to authenticate,
-the OIDC Provider will redirect you back to your Otobo instance when the authentication was successful.
-For this to work the 'redirect_uri' that points back to you Otobo instance must be an allowed redirect_uri configured for your OAuth2 OIDC application.
+the OIDC Provider will redirect you back to your OTOBO instance when the authentication was successful.
+For this to work the 'redirect_uri' that points back to you OTOBO instance must be an allowed redirect_uri configured for your OAuth2 OIDC application.
 The generated URL will be
 ``http(s)://your-otobo.fqdn/otobo/index.pl?Action=AdminOAuthTokenStore&Subaction=OAuth'``.
 
@@ -393,23 +378,19 @@ Some Provider allow simple wildcards in the redirect_uri setting, like ``http(s)
 consult your OIDC Provider documentation for details.
 
 
-Otobo as Provider
-=================
+OTOBO as Provider
+~~~~~~~~~~~~~~~~~
 
-Basic OpenID Connect Provider Configuration in Otobo
-----------------------------------------------------
-
-For incoming OAuth2 API calls, Otobo has to authenticate the incoming OAuth2 Tokens and map them to an Otobo user.
+For incoming OAuth2 API calls, OTOBO has to authenticate the incoming OAuth2 Tokens and map them to an OTOBO user.
 For API calls this works using the same Authentication Modules ('AuthModule' in Config.pm) as used for Login via OpenID Connect.
-If you already using Otobo for OIDC based login, you should already have a valid OIDC configuration like from the example above and **you are all set**.
+If you already using OTOBO for OIDC based login, you should already have a valid OIDC configuration like from the example above and **you are all set**.
 
 Otherwise, in case you are not using OIDC for Login, but still want to use OIDC for API calls, or if you want to use a OIDC provider for API calls different from your default OIDC configuration used for login, add an additional AuthModule for OIDC.
 
-Refer to the examples for configuring OIDC that come with your Otobo installation.
-The examples are in Kernel/Config/Defaults.pm line 518ff,
-and this needs to be configured in ``Config.pm``.
+Refer to the examples for configuring OIDC that come with your OTOBO installation.
+The examples are in ``Kernel/Config/Defaults.pm`` line 518ff, and this needs to be configured in ``Config.pm``:
 
-::
+.. code-block:: Perl
 
    # This is an example configuration for authorization via OpenIDConnect
    # see https://openid.net/specs/openid-connect-core-1_0.html
@@ -474,28 +455,32 @@ and this needs to be configured in ``Config.pm``.
     $Self->{'AuthModule::OpenIDConnect::Debug'}->{'LogIDToken'} = 1;
 
 
-Provider Restrictions (optional)
---------------------------------
+Provider Restrictions
+^^^^^^^^^^^^^^^^^^^^^
 
 Every valid Token needs to be mapped to a system user.
 If an API system user does not exist for an incoming webservice call, it will be created provided the Token passes validation and any further restrictions.
 
-To add restrictions which valid tokens are accepted for incoming webservice calls, restrict by these fields in Config.pm:
+To add restrictions which valid tokens are accepted for incoming webservice calls, restrict by these fields in ``Config.pm``:
 
-- ``UserLogin``: only accept tokens of this particular login.
-  This must match the UserLogin value in the Otobo System (UserLogin attribute of the User entity).
+``UserLogin``
+   Only accept tokens of this particular login.
+   This must match the UserLogin value in the OTOBO System (UserLogin attribute of the User entity).
 
-- ``Scope``: a space separated list listing token's 'scope' claims that must be present in incoming tokens to be allowed
+``Scope``
+   A space separated list listing token's 'scope' claims that must be present in incoming tokens to be allowed
 
-- ``Audience``: a space separated list listing token's 'aud' claims that must be present in incoming tokens to be allowed
+``Audience``
+   A space separated list listing token's 'aud' claims that must be present in incoming tokens to be allowed
 
-- ``AuthorizedParty``: simple identifier that must match the token's 'azp' claim to be allowed
+``AuthorizedParty``
+   Simple identifier that must match the token's 'azp' claim to be allowed
 
 Usually, you would either restrict to a specific user login, or to a combination of the other values, depending on your needs.
 
-Example for Config.pm:
+Example for ``Config.pm``:
 
-::
+.. code-block:: Perl
 
    $Self->{'AuthModule::OpenIDConnect::Webservice::Restrictions'} = {
         UserLogin => '',
@@ -507,13 +492,13 @@ Example for Config.pm:
 
 
 Provider Example
-----------------
+^^^^^^^^^^^^^^^^
 
 With above configuration for Providers in place, follow these steps to set up a *Test Provider Webservice* in OTOBO:
 
 - Navigate to **Webservices** in Admin UI
 - Select **Add New Webservice** and give it Name and Description of 'Test'
-- Under **Otobo as Provider**, select '\HTTP::REST' as Transport
+- Under **OTOBO as Provider**, select '\HTTP::REST' as Transport
 - Click **Save**
 - Add an operation and choose 'Ticket::TicketGet'
 - Set Name and Description fields to 'TicketGet'
@@ -524,17 +509,29 @@ With above configuration for Providers in place, follow these steps to set up a 
 - Select 'GET' as the single valid request method
 - Click **Save and Finish**
 
-At this point Otobo should be set up to accept incoming calls with OAuth2 tokens for the ``/GetTicket/:TikcetID`` endpoint.
+At this point OTOBO should be set up to accept incoming calls with OAuth2 tokens for the ``/GetTicket/:TikcetID`` endpoint.
 
 First get a token from your provider.
 How that works in practice depends on your OIDC provider and your remote setup,
-but for testing a curl call with client_credentials grant type might look similar to this example (Keycloak):
+but for testing a ``curl`` call with client_credentials grant type might look similar to this example (Keycloak):
 
-::
+.. code-block:: bash
 
-   curl -s -k -d 'client_id=someapi' -d 'client_secret=s3cr3t' -d 'username=test1@example.com' -d 'password=test' -d 'grant_type=password' -d 'scope=openid' 'https://localhost:8443/realms/master/protocol/openid-connect/token' |jq
+   curl --request GET \
+     --silent \
+     --data 'client_id=someapi' \
+     --data 'client_secret=s3cr3t' \
+     --data 'username=test1@example.com' \
+     --data 'password=test' \
+     --data 'grant_type=password' \
+     --data 'scope=openid' \
+     'https://keycloak:8443/realms/master/protocol/openid-connect/token' \
+   | jq
 
-   # outputs
+outputs:
+
+.. code-block:: JSON
+
    {
      "access_token": "eyJhbG .....",
      "expires_in": 60,
@@ -548,17 +545,24 @@ but for testing a curl call with client_credentials grant type might look simila
    }
 
 You should receive at least an ``access_token``, whether you also get ``refresh_token`` and ``id_token`` depends on your provider settings.
-In most cases you would use the access_token to make webservice calls, but in some environments also passing id tokens can make sense.
+In most cases you would use the ``access_token`` to make webservice calls, but in some environments also passing id tokens can make sense.
 
 Now that we have a token, invoke the *GetTicket* API endpoint we configured above.
-Note we pass ``1`` as the TicketID, which is usually present on all Otobo system-administrator as it is the 'Welcome to OTOBO' test email.
+Note we pass ``1`` as the TicketID, which is usually present on all OTOBO system-administrator as it is the 'Welcome to OTOBO' test email.
 You can pass any TicketID that exists in your system, of course.
 
-::
+.. code-block:: bash
 
-   curl -k -X GET -H'Authorization: Bearer <token from above>' 'http://localhost/otobo/nph-genericinterface.pl/Webservice/Test/GetTicket/1' | jq
+   curl --request GET \
+     --silent \
+     --header 'Authorization: Bearer <token from above>'
+     'http://otobo.fqdn/otobo/nph-genericinterface.pl/Webservice/Test/GetTicket/1' \
+   | jq
 
-   # Outputs:
+outputs:
+
+.. code-block:: JSON
+
    {
      "Ticket": [
        {
@@ -605,7 +609,7 @@ You can pass any TicketID that exists in your system, of course.
 
 
 OTOBO as Invoker
-================
+~~~~~~~~~~~~~~~~
 
 Whereas OTOBO as Provider only has to validate incoming OAuth2 tokens, in order to make outgoing calls as Invoker OTOBO needs to obtain and manage OAuth2 tokens  for one or more functional accounts.
 Functional accounts for Invokers and their tokens can be managed via the dedicated Amin UI module **OAuth Functional Accounts**.
@@ -650,15 +654,20 @@ Choose the ``GrantType`` as instructed by your system administrator, and provide
 
 In the **Advanced** section you can configure additional details, if needed:
 
-- ``Resources`` : a space sperated list of resource ids to request access for, not used in all OIDC environments
-- ``ResoureParamName`` : usually 'resource', but can be overriden here
-- ``TokenType``: usually 'access_token', but in some environments 'id_token' may be used
+``Resources``
+   A space sperated list of resource ids to request access for, not used in all OIDC environments
+
+``ResoureParamName``
+   Usually 'resource', but can be overriden here
+
+``TokenType``
+   Usually 'access_token', but in some environments 'id_token' may be used
 
 Only change advanced settings if instructed by your system administrator.
 
 
 Invoker Example
----------------
+^^^^^^^^^^^^^^^
 
 Assuming you have configured at least one functional account for Invokers as per above paragraph, we can now configure a *Test Invoker Webservice*.
 
@@ -680,7 +689,7 @@ Assuming you have configured at least one functional account for Invokers as per
 - Select 'POST' as value for **valid request commands**
 - Click **Save and Finish**
 
-At this point, Otobo should try to make an outgoing HTTP API call every time an article in a ticket gets updated, and automatically attach an OAuth2 Bearer Token to the request in the Authorization HTTP header.
+At this point, OTOBO should try to make an outgoing HTTP API call every time an article in a ticket gets updated, and automatically attach an OAuth2 Bearer Token to the request in the Authorization HTTP header.
 
 To try it out:
 
@@ -694,18 +703,15 @@ Everytime you modify the note, your API endpoint at ``http://echoservice.mycompa
    :alt: Invoker Webservice Config
 
 
-Appendix
-========
-
 Debugging Webservice Calls
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Please note that Webservice calls using OAuth2 tokens can be debugged as usual using the built in OTOBO webservice Debugger.
 To open the debugger for a specific webservice,
 navigate to **WebServices** in the Admin UI, choose the desired webservice, and click on **Debugger** in the lefthand navigation bar.
 
 Cronjob for updating refresh_tokens
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The Cron job that keeps OAuth2 tokens up to date by making regular use of refresh_tokens ca be configured in the **System Settings** under the key ``Daemon::SchedulerCronTaskManager::Task###TokenStoreUpdater``.
 By default the cronjob executes once very 60 minutes.
@@ -728,7 +734,7 @@ Running the cronjob once per hour gives you 60 \* 60 = 3600 seconds between each
 
 
 Advanced User Import
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 In case of problems with the automated User import for incoming webservice calls (Provider),
 there is a console command to manually import a specific User into the system.
@@ -742,4 +748,151 @@ This console command can also be used for debugging OIDC/OAuth2 problems:
 .. note::
    The command comes with a ``--dry-run`` option that will only simulate the import,
    it will do the actual handshake with the OIDC provider, but it will not actually import the user.
+
+
+XSLT-Mapping
+------------
+
+XSLT stands for "Extensible Stylesheet Language Transformations" and is a language for transforming XML documents into other formats, such as XML, JSON, or plain text like CSV.
+It can be used in OTOBO to transform incoming or outgoing data structures to match the expected format of the provider or requester.
+Find the reference here: https://www.w3.org/TR/xslt
+Aside from the official W3C specification, there are a few specifics when it comes to OTOBO.
+This chapter will cover the basics of XSLT mapping for OTOBO, and then go into some of the specifics and extensions that are available in OTOBO.
+
+
+XSLT-Mapping for OTOBO as Provider - HTTP\:\:REST
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If OTOBO is used as provider, incoming data often needs to be transformed into a format that OTOBO is able to process.
+In this example, we will use the ``TicketUpdate`` operation and pass JSON-formatted data.
+We will use XSLT to transform the incoming data into a format suitable for the ``TicketUpdate`` operation.
+
+Given a Dynamic Field of type ``Ticket->Text`` and name "RemoteTicketID", assume the following incoming data:
+
+.. code-block:: json
+
+   { "incidentID" : "12345", "incidentTitle" : "Test Ticket" }
+
+The data is send via ``POST`` to an ``TicketUpdate`` operation which is mapped to
+``https://yourfqdn/otobo/nph-genericinterface.pl/Webservice/Test/TicketUpdate/:TicketID``
+and you call it like this to update the Ticket with ID ``1``:
+
+.. code-block:: bash
+
+   curl --request POST \
+     --verbose \
+     --header "Content-Type:application/json" \
+     --data '{ "incidentID" : "12345", "incidentTitle" : "Test Ticket" }' \
+     'https://yourfqdn/otobo/nph-genericinterface.pl/Webservice/Test/TicketUpdate/1?UserLogin=xouruser&Password=yourpass'
+
+We can save the data in the Dynamic Field using XSLT mapping as follows:
+
+.. code-block:: xml
+
+   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <xsl:template match="/RootElement">
+         <RootElement>
+            <TicketID><xsl:value-of select='/RootElement/TicketID' /></TicketID>
+            <UserLogin><xsl:value-of select='/RootElement/UserLogin' /></UserLogin>
+            <Password><xsl:value-of select='/RootElement/Password' /></Password>
+            <DynamicField>
+               <Name>RemoteTicketID</Name>
+               <Value><xsl:value-of select='/RootElement/incidentID' /></Value>
+            </DynamicField>
+         </RootElement>
+      </xsl:template>
+   </xsl:stylesheet>
+
+Here, TicketID, UserLogin and Password are just copied over, but the incidentID value gets transformed into a strcuture OTOBO is able to process.
+
+
+Extended Type Hints for XSLT Mapping
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Extended XSLT mapping can be enabled on the XSLT Mapping Editor page.
+If enabled, the resulting JSON type can be forced by specifying an ``otoboXslType`` XML attribute.
+Possible values for that attribute are ``int``, ``bool``, ``float``, and ``array``.
+
+Assume an OTOBO Webservice requester that is triggered by an ``ArticleEdit`` event (synchronously), using the ``Generic::Passthru`` Invoker, and a custom outgoing XSLT mapping as follows:
+
+.. code-block:: xml
+
+   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output omit-xml-declaration="yes" indent="yes"/>
+    <xsl:strip-space elements="*"/>
+    <xsl:template match="/">
+     <RootElement>
+      <TicketID otoboXslType="bool"><xsl:value-of select="/RootElement/TicketID" /></TicketID>
+      <ArticleID otoboXslType="int"><xsl:value-of select="/RootElement/ArticleID" /></ArticleID>
+      <Event otoboXslType="array"><xsl:value-of select="/RootElement/Event" /></Event>
+     </RootElement>
+    </xsl:template>
+   </xsl:stylesheet>
+
+This example considers three data points: 'TicketID', 'ArticleID', and 'Event'.
+Note the type hint attributes named ``otoboXsltType`` that have been added.
+
+``bool``
+   Force the value to be represented as boolean values in the resulting JSON.
+   The empty string, the number ``0``, the string ``Zero`` , and the string "false" (case-insensitive) will be treated as ``false``, all other values will be transformed to ``true``
+
+``int``
+   Change type of value put into JSON from String to Integer.
+   It uses the Perl ``int()`` function, the usual caveats apply.
+   The function consumes charecters left to right and stops consuming at the first non-numeric character, so "42" and "42abc" will both be transformed to the integer 42, while "abc42" will be transformed to 0.
+   However, E notation is fully supported, so "1e3" will be transformed to 1000, and "-300e-2" will be transformed to -3.
+   The empty string will be transformed to 0.
+
+``float``
+   Change type of value put into JSON from String to Float.
+   It accepts ``.`` as the decimal character and cuts at ``,``.
+   E notation is fully supported, so "1e-3" will be transformed to 0.001.
+
+``array``
+   Force the element to be represented as a JSON array, even if it only contains 1 element.
+   ``array`` may be combined with the other type values, to force both array and a specific type representation (refer to examples below).
+   Note, that an element occurring more than once in the document will already be represented as an array in JSON.
+   Specifying ``array`` on that element hat no effect.
+
+
+This illustrative but artificial example demonstrates the mapping with ``otoboXslType``:
+
+.. code-block:: xml
+
+   <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output omit-xml-declaration="yes" indent="yes"/>
+    <xsl:strip-space elements="*"/>
+    <xsl:template match="/">
+     <RootElement>
+      <Test>
+        <Sub otoboXslType="array">1</Sub>
+        <Item otoboXslType="float">3.2</Item>
+        <Thing otoboXslType="array int">1</Thing>
+        <Thing otoboXslType="array int">2</Thing>
+        <Thing otoboXslType="array int">3</Thing>
+          <Array><Item otoboXslType="bool">0</Item></Array>
+          <Array><Item otoboXslType="bool">1</Item></Array>
+          <Array><Item otoboXslType="bool">false</Item></Array>
+      </Test>
+     </RootElement>
+    </xsl:template>
+   </xsl:stylesheet>
+
+
+This results in the following JSON:
+
+.. code-block:: JSON
+
+   {
+     "Test": {
+       "Item": 3.2,
+       "Thing": [ 1,2,3 ]
+       "Sub": [ "1" ],
+       "Array": [
+         { "Item": false },
+         { "Item": true },
+         { "Item": false }
+       ]
+     }
+   }
 
