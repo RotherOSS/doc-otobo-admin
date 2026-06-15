@@ -8,7 +8,7 @@ Getting Started
 After the installation of OTOBO is finished, you can login to the system with user ``root@localhost`` and using the generated password.
 
 A fresh new OTOBO installation contains only the default settings.
-You need to customize your system to work properly and meet your needs.
+p your needs.
 
 First, you need to check some :doc:`administration-area/administration/system-configuration` and modify the values, if needed.
 ``FQDN``, ``SystemID`` and ``SendmailModule`` are the most important.
