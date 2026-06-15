@@ -56,7 +56,7 @@ To install a package from an online repository, follow these steps:
 Install from File
 ~~~~~~~~~~~~~~~~~
 
-Sideloading packages is also posible.
+Sideloading packages is also possible.
 To install a package from file follow these steps:
 
 #. Click on the *Browse…* button in the left sidebar.
@@ -102,7 +102,7 @@ To update all packages:
 #. Follow the update instructions.
 #. After updating, the package is displayed in the *Local Repository* widget.
 
-This feature reads the information of all defined package repositories and determines whether a new version for every installed package exsits in the repository.
+This feature reads the information of all defined package repositories and determines whether a new version for every installed package exists in the repository.
 It calculates the correct order to update the packages respecting all other package dependencies, even if new versions of existing packages require new packages not yet installed in the system.
 
 

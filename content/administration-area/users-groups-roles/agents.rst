@@ -106,7 +106,7 @@ Lastname \*
    .. seealso::
 
       The agent display name can be set via the system configuration setting ``FirstnameLastnameOrder``.
-      It may also show the user id, which is userful to be able to destiguish between agents with the same name.
+      It may also show the user id, which is useful to be able to distinguish between agents with the same name.
 
 
 Username \*
