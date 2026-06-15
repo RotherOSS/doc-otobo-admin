@@ -803,7 +803,7 @@ We can save the data in the Dynamic Field using XSLT mapping as follows:
       </xsl:template>
    </xsl:stylesheet>
 
-Here, TicketID, UserLogin and Password are just copied over, but the incidentID value gets transformed into a strcuture OTOBO is able to process.
+Here, TicketID, UserLogin and Password are just copied over, but the incidentID value gets transformed into a structure OTOBO is able to process.
 
 
 Extended Type Hints for XSLT Mapping
