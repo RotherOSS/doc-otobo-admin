@@ -612,7 +612,7 @@ OTOBO as Invoker
 ~~~~~~~~~~~~~~~~
 
 Whereas OTOBO as Provider only has to validate incoming OAuth2 tokens, in order to make outgoing calls as Invoker OTOBO needs to obtain and manage OAuth2 tokens  for one or more functional accounts.
-Functional accounts for Invokers and their tokens can be managed via the dedicated Amin UI module **OAuth Functional Accounts**.
+Functional accounts for Invokers and their tokens can be managed via the dedicated Admin UI module **OAuth Functional Accounts**.
 Unlike Providers for incoming calls, which use the OIDC Profile configured for authentication,
 the outgoing (Invoker) Webservices require a dedicated OIDC Profile setup,
 which can be done in another dedicated Admin UI module named **OIDC Profile Management**.
@@ -655,10 +655,10 @@ Choose the ``GrantType`` as instructed by your system administrator, and provide
 In the **Advanced** section you can configure additional details, if needed:
 
 ``Resources``
-   A space sperated list of resource ids to request access for, not used in all OIDC environments
+   A space-separated list of resource ids to request access for, not used in all OIDC environments.
 
-``ResoureParamName``
-   Usually 'resource', but can be overriden here
+``ResourceParamName``
+   Usually 'resource', but can be overridden here
 
 ``TokenType``
    Usually 'access_token', but in some environments 'id_token' may be used
@@ -839,7 +839,7 @@ Note the type hint attributes named ``otoboXsltType`` that have been added.
 ``int``
    Change type of value put into JSON from String to Integer.
    It uses the Perl ``int()`` function, the usual caveats apply.
-   The function consumes charecters left to right and stops consuming at the first non-numeric character, so "42" and "42abc" will both be transformed to the integer 42, while "abc42" will be transformed to 0.
+   The function consumes characters left to right and stops consuming at the first non-numeric character, so "42" and "42abc" will both be transformed to the integer 42, while "abc42" will be transformed to 0.
    However, E notation is fully supported, so "1e3" will be transformed to 1000, and "-300e-2" will be transformed to -3.
    The empty string will be transformed to 0.
 
