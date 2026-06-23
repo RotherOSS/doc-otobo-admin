@@ -33,20 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr ""
-"Project-Id-Version: OTOBO\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 14:34+0000\n"
-"PO-Revision-Date: 2026-03-08 14:00+0000\n"
-"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
-"Language-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-05-19 14:34+0000\nPO-Revision-Date: 2026-06-23 16:14+0000\nLast-Translator: Stefan Abel <sta@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:9
 #: ../content/administration-area/administration.rst:9
@@ -10397,7 +10384,7 @@ msgstr "Wird für eingehende und ausgehende Anrufe verwendet."
 
 #: ../content/administration-area/ticket-settings/templates.rst:92
 msgid "Process dialog"
-msgstr "Prozess-Dialog"
+msgstr "Prozessdialog"
 
 #: ../content/administration-area/ticket-settings/templates.rst:92
 msgid "To be used in process management to pre-fill text of articles in user task activity dialogs."
