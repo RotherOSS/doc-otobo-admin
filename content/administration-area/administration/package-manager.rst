@@ -1,7 +1,7 @@
 Package Manager
 ===============
 
-OTOBO is a modular system can be extended by adding additional software packages to the framework.
+OTOBO is a modular system that can be extended by adding additional software packages to the framework.
 Administrators are provided with an easy way to see which features are installed in which version and for sure to add, update and remove packages.
 OTOBO uses a package manager to perform all package-related activities as mentioned above in the graphical interface.
 
