@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 13:29+0000\n"
+"POT-Creation-Date: 2026-07-03 11:10+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\n"
@@ -100,9 +100,6 @@ msgstr "点击左侧边栏中的 *添加日历* 按钮。"
 #: ../content/administration-area/communication-notifications/email-addresses.rst:41
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:29
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:43
-#: ../content/administration-area/external-interface/custom-pages.rst:30
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:35
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:107
 #: ../content/administration-area/processes-automation/access-control-lists.rst:35
 #: ../content/administration-area/processes-automation/dynamicfields.rst:26
 #: ../content/administration-area/processes-automation/dynamicfields.rst:201
@@ -134,9 +131,6 @@ msgstr "填写必填字段。"
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:30
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:44
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:26
-#: ../content/administration-area/external-interface/custom-pages.rst:31
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:36
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:108
 #: ../content/administration-area/processes-automation/access-control-lists.rst:36
 #: ../content/administration-area/processes-automation/dynamicfields.rst:27
 #: ../content/administration-area/processes-automation/dynamicfields.rst:202
@@ -184,9 +178,6 @@ msgstr "单击日历列表中的一个日历。"
 #: ../content/administration-area/communication-notifications/email-addresses.rst:69
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:36
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:54
-#: ../content/administration-area/external-interface/custom-pages.rst:41
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:46
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:118
 #: ../content/administration-area/processes-automation/dynamicfields.rst:37
 #: ../content/administration-area/processes-automation/dynamicfields.rst:212
 #: ../content/administration-area/processes-automation/generic-agent.rst:48
@@ -217,9 +208,6 @@ msgstr "修改字段。"
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:37
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:55
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:32
-#: ../content/administration-area/external-interface/custom-pages.rst:42
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:47
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:119
 #: ../content/administration-area/processes-automation/access-control-lists.rst:48
 #: ../content/administration-area/processes-automation/dynamicfields.rst:38
 #: ../content/administration-area/processes-automation/dynamicfields.rst:213
@@ -327,10 +315,6 @@ msgstr "日历设置"
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:57
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:80
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:64
-#: ../content/administration-area/external-interface/custom-pages.rst:67
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:72
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:144
-#: ../content/administration-area/external-interface/home-page.rst:19
 #: ../content/administration-area/processes-automation/access-control-lists.rst:107
 #: ../content/administration-area/processes-automation/dynamicfields.rst:63
 #: ../content/administration-area/processes-automation/generic-agent.rst:74
@@ -367,7 +351,6 @@ msgstr "日历名称 \\*"
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:85
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:75
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:81
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:76
 #: ../content/administration-area/processes-automation/access-control-lists.rst:111
 #: ../content/administration-area/processes-automation/generic-agent.rst:87
 #: ../content/administration-area/processes-automation/web-services.rst:136
@@ -433,9 +416,6 @@ msgstr "读写：用户可以管理日历。"
 #: ../content/administration-area/communication-notifications/email-addresses.rst:115
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:135
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:116
-#: ../content/administration-area/external-interface/custom-pages.rst:81
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:90
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:154
 #: ../content/administration-area/processes-automation/access-control-lists.rst:129
 #: ../content/administration-area/processes-automation/dynamicfields.rst:95
 #: ../content/administration-area/ticket-settings/attachments.rst:77
@@ -462,9 +442,6 @@ msgstr "有效性 \\*"
 #: ../content/administration-area/communication-notifications/email-addresses.rst:110
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:134
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:114
-#: ../content/administration-area/external-interface/custom-pages.rst:80
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:88
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:153
 #: ../content/administration-area/processes-automation/access-control-lists.rst:127
 #: ../content/administration-area/processes-automation/dynamicfields.rst:94
 #: ../content/administration-area/ticket-settings/attachments.rst:76
@@ -606,7 +583,6 @@ msgid "Manage FAQ Categories"
 msgstr "管理 FAQ 类别"
 
 #: ../content/administration-area/administration/faq-category.rst:17
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:32
 msgid "To add a category:"
 msgstr "若要添加一个服务目录："
 
@@ -623,27 +599,22 @@ msgid "Click on the *Submit* button."
 msgstr "点击 *提交* 按钮。"
 
 #: ../content/administration-area/administration/faq-category.rst:26
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:41
 msgid "Add Category Screen"
 msgstr "添加服务目录屏幕"
 
 #: ../content/administration-area/administration/faq-category.rst:28
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:43
 msgid "To edit a category:"
 msgstr "若要编辑一个服务目录："
 
 #: ../content/administration-area/administration/faq-category.rst:30
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:45
 msgid "Click on a category in the list of categories."
 msgstr "点击服务目录列表中的一个服务目录。"
 
 #: ../content/administration-area/administration/faq-category.rst:37
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:52
 msgid "Edit Category Screen"
 msgstr "编辑服务目录屏幕"
 
 #: ../content/administration-area/administration/faq-category.rst:39
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:54
 msgid "To delete a category:"
 msgstr "若要删除一个服务目录："
 
@@ -657,7 +628,6 @@ msgid "Click on the *Yes* button in the confirmation dialog."
 msgstr "单击确认屏幕上的 *是* 按钮。"
 
 #: ../content/administration-area/administration/faq-category.rst:47
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:62
 msgid "Delete Category Screen"
 msgstr "删除服务目录屏幕"
 
@@ -692,7 +662,6 @@ msgid "Subcategory of"
 msgstr "父类别是"
 
 #: ../content/administration-area/administration/faq-category.rst:62
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:81
 msgid "It is possible to add the new category under an existing one as sub-category. This will be displayed as *Parent Category::Child Category*."
 msgstr "可以在现有目录下添加新目录作为子目录。 这将显示为 *父目录::子目录*。"
 
@@ -1446,9 +1415,6 @@ msgstr "系统配置 - 重置设置"
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:65
 #: ../content/administration-area/communication-notifications/s-mime-certificates.rst:65
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:37
-#: ../content/administration-area/external-interface/custom-pages.rst:52
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:57
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:129
 #: ../content/administration-area/processes-automation/dynamicfields.rst:48
 #: ../content/administration-area/processes-automation/generic-agent.rst:59
 #: ../content/administration-area/ticket-settings/attachments.rst:47
@@ -2824,7 +2790,6 @@ msgid "Select which calendar the related appointment needs to be part of."
 msgstr "选择相关预约需要参与的日历。"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:170
-#: ../content/administration-area/external-interface/home-page.rst:34
 #: ../content/administration-area/processes-automation/process-management.rst:211
 msgid "Title"
 msgstr "标题"
@@ -3122,9 +3087,6 @@ msgstr "特定语言的本地化主题。"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:305
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:391
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:164
-#: ../content/administration-area/external-interface/home-page.rst:104
-#: ../content/administration-area/external-interface/home-page.rst:187
 msgid "Text \\*"
 msgstr "正文 \\*"
 
@@ -4772,816 +4734,6 @@ msgstr "OTRS提供创建和管理需求的访问权限，以及接收有价值�
 msgid "The following chapter describes the administration tools needed to implement corporate identity and manage language-based content."
 msgstr "以下章节介绍了实现企业标识和管理基于语言的内容所需的管理工具。"
 
-#: ../content/administration-area/external-interface/custom-pages.rst:2
-msgid "Custom Pages"
-msgstr "自定义页面"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:6
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:6
-#: ../content/administration-area/external-interface/home-page.rst:6
-#: ../content/administration-area/external-interface/layout.rst:6
-msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution."
-msgstr ""
-
-#: ../content/administration-area/external-interface/custom-pages.rst:9
-#, fuzzy
-msgid "Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group."
-msgstr "使用此屏幕添加自定义页面以在外部人员界面中使用。 默认情况下，新的OTRS安装已包含一些自定义页面。 自定义页面管理屏幕位于 *外部人员界面* 组的 *自定义页面* 模块中。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:16
-msgid "Custom Page Management Screen"
-msgstr "自定义页面管理屏幕"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:20
-msgid "Manage Custom Pages"
-msgstr "管理自定义页面"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:24
-#: ../content/administration-area/external-interface/home-page.rst:16
-#: ../content/administration-area/external-interface/layout.rst:22
-msgid "Make sure to save your changes when you finish. The new configuration will be immediately deployed."
-msgstr "确保在完成后保存更改，会立即部署新的配置。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:27
-msgid "To add a custom page:"
-msgstr "若要添加一个自定义页面："
-
-#: ../content/administration-area/external-interface/custom-pages.rst:29
-msgid "Click on the *Add Custom Page* button in the left sidebar."
-msgstr "点击左侧边栏的 *添加自定义页面* 按钮。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:36
-msgid "Add Custom Page Screen"
-msgstr "添加自定义页面屏幕"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:38
-msgid "To edit a custom page:"
-msgstr "若要编辑一个自定义页面："
-
-#: ../content/administration-area/external-interface/custom-pages.rst:40
-msgid "Click on a custom page in the list of custom pages."
-msgstr "点击自定义页面列表中的一个自定义页面。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:47
-msgid "Edit Custom Page Screen"
-msgstr "编辑自定义页面屏幕"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:49
-msgid "To delete a custom page:"
-msgstr "若要删除一个自定义页面："
-
-#: ../content/administration-area/external-interface/custom-pages.rst:51
-#: ../content/administration-area/processes-automation/generic-agent.rst:58
-msgid "Click on the trash icon in the fourth column of the overview table."
-msgstr "点击概览表第4列的垃圾桶图标。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:57
-msgid "Delete Custom Page Screen"
-msgstr "删除自定义页面屏幕"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:61
-msgid "If several custom pages are added to the system, use the filter box to find a particular custom page by just typing the name to filter."
-msgstr "如果向系统添加了多个自定义页面，请使用过滤器框通过键入要过滤的名称来查找特定的自定义页面。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:65
-msgid "Custom Page Settings"
-msgstr "自定义页面设置"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:73
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:150
-msgid "Internal Title \\*"
-msgstr "内部标题 \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:71
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:148
-msgid "The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
-msgstr "此资源的名称，仅显示在管理界面中。 可以在此字段中输入任何类型的字符，包括大写字母和空格。 名称将显示在概览表中。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:77
-msgid "Slug \\*"
-msgstr "Slug \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:76
-msgid "This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign."
-msgstr "这将是自定义页面的URL。 推荐的字符是小写字母、数字和减号。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-msgid "Custom Page Content"
-msgstr "自定义页面内容"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:84
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:157
-msgid "In this widget can be added some localized content for the item."
-msgstr "在此小部件中可以为此条目添加一些本地化内容。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:88
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:78
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:161
-#: ../content/administration-area/external-interface/home-page.rst:101
-#: ../content/administration-area/external-interface/home-page.rst:133
-#: ../content/administration-area/external-interface/home-page.rst:184
-msgid "Title \\*"
-msgstr "标题 \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:87
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:160
-msgid "The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces."
-msgstr "给定语言中此资源的名称。 可以在此字段中输入任何类型的字符，包括大写字母和空格。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:91
-msgid "Content \\*"
-msgstr "内容 \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:91
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:164
-msgid "The text for this item in the given language."
-msgstr "给定语言中此条目的文本。"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-msgid "Add new custom page content"
-msgstr "添加自定义页面内容"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above."
-msgstr "选择应添加哪些语言以创建本地化的项目内容。 所有添加的语言都可以保存自己的本地化内容，如上所述。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:2
-msgid "Customer Service Catalogue"
-msgstr "客户服务目录"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:9
-#, fuzzy
-msgid "Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group."
-msgstr "使用此屏幕添加用于外部界面的目录和项目。 默认情况下，新的OTRS安装不包含任何目录或项目。 目录管理屏幕位于 *外部界面* 组的 *客户服务目录* 模块中。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:13
-msgid "This module consists of two management screens: a category management screen and an item management screen."
-msgstr "该模块包括两个管理屏幕：服务目录管理屏幕和服务项目管理屏幕。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:18
-msgid "Customer Service Catalogue Management Screen"
-msgstr "客户服务目录管理屏幕"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:22
-msgid "Manage Categories"
-msgstr "管理服务目录"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:24
-msgid "Use this screen to add categories to collect the same items into groups. The *Category Management* screen in available via the *Go to category management* button or via the *Category Management* module."
-msgstr "使用此屏幕添加服务目录以将相同的服务项目收集到组中。 *服务目录管理* 屏幕可通过 *转到服务目录管理* 按钮或通过 *服务目录管理* 模块获得。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:30
-msgid "Category Management Screen"
-msgstr "服务目录管理屏幕"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:34
-msgid "Click on the *Add Category* button in the left sidebar."
-msgstr "点击左侧边栏的 *添加服务目录* 按钮。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:56
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:128
-msgid "Click on the trash icon in the *Delete* column of the overview table."
-msgstr "点击概览表的 *删除* 列中的垃圾桶图标。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:66
-msgid "If several categories are added to the system, use the filter box to find a particular category by just typing the name to filter."
-msgstr "如果系统中添加了多个类别，请使用过滤器框通过键入要过滤的名称来查找特定类别。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:70
-msgid "Category Settings"
-msgstr "服务目录设置"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:82
-msgid "Sub-category of"
-msgstr "父目录"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:85
-msgid "Language \\*"
-msgstr "语言 \\*"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:85
-msgid "Select a language from the available languages of the system."
-msgstr "从系统的可用语言中选择一种语言。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:93
-msgid "Manage Items"
-msgstr "管理服务项目"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:95
-msgid "Use this screen to add items to the catalogue. Items can be collected into categories. The *Item Management* screen in available via the *Go to item management* button or via the *Item Management* module."
-msgstr "使用此屏幕将服务项目添加到服务目录。 可以将服务项目汇集到服务目录中。 *服务项目管理* 屏幕可通过 *转到服务项目管理* 按钮或通过 *服务项目管理* 模块获得。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:102
-msgid "Item Management Screen"
-msgstr "服务项目管理屏幕"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:104
-msgid "To add an item:"
-msgstr "若要添加一个服务项目："
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:106
-msgid "Click on the *Add Item* button in the left sidebar."
-msgstr "点击左侧边栏中的 *添加服务项目* 按钮。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:113
-msgid "Add Item Screen"
-msgstr "添加服务项目屏幕"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:115
-msgid "To edit an item:"
-msgstr "若要编辑一个服务项目："
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:117
-msgid "Click on an item in the list of items."
-msgstr "点击服务项目列表中的一个服务项目。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:124
-msgid "Edit Item Screen"
-msgstr "编辑服务项目屏幕"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:126
-msgid "To delete an item:"
-msgstr "若要删除一个服务项目："
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:134
-msgid "Delete Item Screen"
-msgstr "删除服务项目屏幕"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:138
-msgid "If several items are added to the system, use the filter box to find a particular item by just typing the name to filter."
-msgstr "如果系统中添加了多个服务项目，请使用过滤器框通过键入名称来查找特定的服务项目。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:142
-msgid "Item Settings"
-msgstr "服务项目设置"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Item Content"
-msgstr "服务项目内容"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:171
-msgid "Categories"
-msgstr "服务目录"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:167
-msgid "One ore more categories can be selected for the item in which the item should be visible."
-msgstr "可以为服务项目选择一个或多个服务目录。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:171
-msgid "Only those categories can be selected, that have the same language as the selected language for this widget."
-msgstr "只能选择那些与此小部件的选定语言具有相同语言的服务目录。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:174
-msgid "Link \\*"
-msgstr "链接 \\*"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:174
-msgid "A link to an internal or an external URL."
-msgstr "指向内部或外部URL的链接。"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Add new item content"
-msgstr "新建服务项目内容"
-
-#: ../content/administration-area/external-interface/home-page.rst:2
-msgid "Home Page"
-msgstr "主页"
-
-#: ../content/administration-area/external-interface/home-page.rst:9
-msgid "Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group."
-msgstr "使用此屏幕可以定义外部人员界面中显示的不同用户语言的主页配置。 主页管理屏幕位于 *外部人员界面* 组的 *主页* 模块中。"
-
-#: ../content/administration-area/external-interface/home-page.rst:12
-msgid "This screen contains several widget for each languages, where localized content can be added."
-msgstr "此屏幕包含每种语言的多个小部件，以便添加多种语言的本地化内容。"
-
-#: ../content/administration-area/external-interface/home-page.rst:24
-msgid "Hero Unit"
-msgstr "重点内容"
-
-#: ../content/administration-area/external-interface/home-page.rst:31
-msgid "Hero Unit Widget"
-msgstr "重点内容小部件"
-
-#: ../content/administration-area/external-interface/home-page.rst:34
-msgid "This is the most important sentence or motto of the home page."
-msgstr "这是主页最重要的句子或箴言。"
-
-#: ../content/administration-area/external-interface/home-page.rst:42
-msgid "Background Style"
-msgstr "背景样式"
-
-#: ../content/administration-area/external-interface/home-page.rst:37
-msgid "Define the behavior of background image and background color. The following options are available:"
-msgstr "定义背景图像和背景颜色的行为。 可以使用以下选项："
-
-#: ../content/administration-area/external-interface/home-page.rst:40
-msgid "Only use the background image"
-msgstr "只使用背景图片"
-
-#: ../content/administration-area/external-interface/home-page.rst:41
-msgid "Only use the background color"
-msgstr "只使用背景颜色"
-
-#: ../content/administration-area/external-interface/home-page.rst:42
-msgid "Use the background image and overlay it with the selected color"
-msgstr "使用背景图片并以选中颜色覆盖"
-
-#: ../content/administration-area/external-interface/home-page.rst:46
-msgid "Background Image"
-msgstr "背景图片"
-
-#: ../content/administration-area/external-interface/home-page.rst:45
-msgid "Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr "选择用作重点内容的背景图片的图片。 要选择图片，请单击 *选择上传的图片* 按钮，然后从文件系统中选择一个图片。"
-
-#: ../content/administration-area/external-interface/home-page.rst:51
-msgid "Background Color"
-msgstr "背景色"
-
-#: ../content/administration-area/external-interface/home-page.rst:49
-#: ../content/administration-area/external-interface/home-page.rst:86
-msgid "To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
-msgstr "要更改背景颜色，只需从调色板中选择一种新颜色即可。 您可以从预先选择的颜色中进行选择，也可以通过从颜色选择器中选择颜色或键入十六进制值来定义其它颜色。"
-
-#: ../content/administration-area/external-interface/home-page.rst:54
-msgid "Ticket List"
-msgstr "工单列表"
-
-#: ../content/administration-area/external-interface/home-page.rst:61
-msgid "Ticket List Widget"
-msgstr "工单列表小部件"
-
-#: ../content/administration-area/external-interface/home-page.rst:64
-msgid "Show a ticket list for logged in users"
-msgstr "显示已登录用户的工单列表"
-
-#: ../content/administration-area/external-interface/home-page.rst:64
-msgid "This setting defines if the ticket list should be visible for logged in users or not."
-msgstr "此设置定义是否应为登录的用户显示工单列表。"
-
-#: ../content/administration-area/external-interface/home-page.rst:68
-#: ../content/administration-area/external-interface/home-page.rst:83
-#: ../content/administration-area/external-interface/home-page.rst:123
-#: ../content/administration-area/external-interface/home-page.rst:174
-msgid "Row Title"
-msgstr "行标题"
-
-#: ../content/administration-area/external-interface/home-page.rst:67
-#: ../content/administration-area/external-interface/home-page.rst:83
-#: ../content/administration-area/external-interface/home-page.rst:123
-#: ../content/administration-area/external-interface/home-page.rst:174
-msgid "This is an optional title for the row, that contains this widget in the external interface."
-msgstr "（可选）在外部人员界面中包含此小部件的行的标题。"
-
-#: ../content/administration-area/external-interface/home-page.rst:71
-msgid "Image Teasers"
-msgstr "形象广告图片"
-
-#: ../content/administration-area/external-interface/home-page.rst:75
-msgid "The image teasers are displayed in a separate row in the external interface."
-msgstr "形象广告图片显示在外部人员界面的一个单独行中。"
-
-#: ../content/administration-area/external-interface/home-page.rst:80
-msgid "Image Teasers Widget"
-msgstr "形象广告图片小部件"
-
-#: ../content/administration-area/external-interface/home-page.rst:87
-msgid "Row Background Color"
-msgstr "行背景色"
-
-#: ../content/administration-area/external-interface/home-page.rst:89
-msgid "You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget."
-msgstr "通过单击小部件右上角的 *添加* 按钮，最多可以添加三个形象广告图片。"
-
-#: ../content/administration-area/external-interface/home-page.rst:94
-msgid "Image Teaser"
-msgstr "形象广告图片"
-
-#: ../content/administration-area/external-interface/home-page.rst:98
-msgid "Image"
-msgstr "图片"
-
-#: ../content/administration-area/external-interface/home-page.rst:97
-msgid "Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr "选择要在形象广告图片小部件中显示的图片。要选择图片，请单击 *选择上传的图片* 按钮，然后从文件系统中选择一个图片。"
-
-#: ../content/administration-area/external-interface/home-page.rst:101
-#: ../content/administration-area/external-interface/home-page.rst:133
-#: ../content/administration-area/external-interface/home-page.rst:184
-#, fuzzy
-msgid "The heading text that are displayed in this item."
-msgstr "显示在此条目中的标题文字"
-
-#: ../content/administration-area/external-interface/home-page.rst:104
-#: ../content/administration-area/external-interface/home-page.rst:187
-msgid "The text for this item."
-msgstr "此条目的文本。"
-
-#: ../content/administration-area/external-interface/home-page.rst:108
-msgid "Link Target \\*"
-msgstr "链接目标 \\*"
-
-#: ../content/administration-area/external-interface/home-page.rst:107
-#: ../content/administration-area/external-interface/home-page.rst:193
-msgid "An URL that will be opened after clicking on this item in the external interface."
-msgstr "在外部人员界面中单击此条目后将打开的URL。"
-
-#: ../content/administration-area/external-interface/home-page.rst:111
-msgid "Link Lists"
-msgstr "链接列表"
-
-#: ../content/administration-area/external-interface/home-page.rst:115
-#: ../content/administration-area/external-interface/home-page.rst:166
-msgid "The link lists are displayed in a separate row in the external interface."
-msgstr "链接列表显示在外部人员界面的一个单独行中。"
-
-#: ../content/administration-area/external-interface/home-page.rst:120
-msgid "Link Lists Widget"
-msgstr "链接列表小部件"
-
-#: ../content/administration-area/external-interface/home-page.rst:125
-msgid "You can add up to four link lists by clicking on the *Add* button in the top right corner of the widget."
-msgstr "通过单击小部件右上角的 *添加* 按钮，可以添加多达四个链接列表。"
-
-#: ../content/administration-area/external-interface/home-page.rst:130
-msgid "Link List"
-msgstr "链接列表"
-
-#: ../content/administration-area/external-interface/home-page.rst:136
-#: ../content/administration-area/external-interface/home-page.rst:190
-msgid "Link Text"
-msgstr "链接文本"
-
-#: ../content/administration-area/external-interface/home-page.rst:136
-#: ../content/administration-area/external-interface/home-page.rst:190
-msgid "Add the text for the *show more* link."
-msgstr "为 *显示更多* 链接添加文本。"
-
-#: ../content/administration-area/external-interface/home-page.rst:139
-#: ../content/administration-area/external-interface/home-page.rst:192
-msgid "Link Target"
-msgstr "链接目标"
-
-#: ../content/administration-area/external-interface/home-page.rst:139
-msgid "Add the URL for the *show more* link."
-msgstr "为 *显示更多* 链接添加URL。"
-
-#: ../content/administration-area/external-interface/home-page.rst:159
-msgid "Link List Type \\*"
-msgstr "链接列表类型 \\*"
-
-#: ../content/administration-area/external-interface/home-page.rst:142
-msgid "Specifies the functionality how the item will be added."
-msgstr "指定如何添加此条目的功能。"
-
-#: ../content/administration-area/external-interface/home-page.rst:0
-#: ../content/administration-area/external-interface/home-page.rst:150
-msgid "Add the Items Manually"
-msgstr "手动添加条目"
-
-#: ../content/administration-area/external-interface/home-page.rst:145
-#: ../content/administration-area/external-interface/home-page.rst:153
-msgid "Clicking on the edit button a new widget will be visible to add the items."
-msgstr "点击编辑按钮，将看到一个用来添加条目的新的小部件。"
-
-#: ../content/administration-area/external-interface/home-page.rst:0
-#: ../content/administration-area/external-interface/home-page.rst:158
-#: ../content/administration-area/external-interface/home-page.rst:159
-msgid "Show the Results of a Search"
-msgstr "显示搜索的结果"
-
-#: ../content/administration-area/external-interface/home-page.rst:162
-msgid "Content Cards"
-msgstr "内容卡片"
-
-#: ../content/administration-area/external-interface/home-page.rst:171
-msgid "Content Cards Widget"
-msgstr "内容卡片小部件"
-
-#: ../content/administration-area/external-interface/home-page.rst:176
-msgid "You can add up to three content cards by clicking on the *Add* button in the top right corner of the widget."
-msgstr "通过单击小部件右上角的 *添加* 按钮，最多可以添加三张内容卡片。"
-
-#: ../content/administration-area/external-interface/home-page.rst:181
-msgid "Content Card"
-msgstr "内容卡片"
-
-#: ../content/administration-area/external-interface/layout.rst:2
-msgid "Layout"
-msgstr "排版布局"
-
-#: ../content/administration-area/external-interface/layout.rst:9
-msgid "Use this screen to edit the layout displayed in external interface. The layout management screen is available in the *Layout* module of the *External Interface* group."
-msgstr "使用此屏幕编辑外部人员界面中显示的布局。布局管理屏幕位于 *外部人员界面* 组的 *排版布局* 模块中。"
-
-#: ../content/administration-area/external-interface/layout.rst:15
-msgid "Edit Layout Screen"
-msgstr "编辑布局屏幕"
-
-#: ../content/administration-area/external-interface/layout.rst:17
-#, fuzzy
-msgid "A fresh OTOBO installation already contains a default layout. In this screen all parameters can be changed."
-msgstr "新的OTRS安装已包含默认布局。在此屏幕中，可以更改所有参数。"
-
-#: ../content/administration-area/external-interface/layout.rst:29
-msgid "Logo"
-msgstr "Logo"
-
-#: ../content/administration-area/external-interface/layout.rst:26
-msgid "The logo is a small image that is displayed in the top left corner of the external pages."
-msgstr "Logo（徽标）是显示在外部人员页面左上角的小图片。"
-
-#: ../content/administration-area/external-interface/layout.rst:28
-msgid "To change the logo, click on the *Select image to upload* button, and select a new logo image. Recommended file format is PNG."
-msgstr "要更改Logo，请单击 *选择上传的图片* 按钮，然后选择新的Logo图片。建议的文件格式为PNG。"
-
-#: ../content/administration-area/external-interface/layout.rst:35
-msgid "Favicon"
-msgstr "收藏夹图标"
-
-#: ../content/administration-area/external-interface/layout.rst:32
-msgid "The `favorite icon <https://en.wikipedia.org/wiki/Favicon>`_ is an icon that is displayed in the URL bar of the web browser."
-msgstr "`收藏夹图标 <https://en.wikipedia.org/wiki/Favicon>`__ 是显示在Web浏览器的URL栏中的图标。"
-
-#: ../content/administration-area/external-interface/layout.rst:34
-msgid "To change the favorite icon, click on the *Select image to upload* button, and select a new icon. This is usually a 16×16 pixel image in PNG or ICO format."
-msgstr "要更改收藏夹图标，点击 *选择上传的图片* 按钮，然后选择一个新图标。 这通常是PNG或ICO格式的16×16像素图片。"
-
-#: ../content/administration-area/external-interface/layout.rst:42
-msgid "Primary Color"
-msgstr "基色"
-
-#: ../content/administration-area/external-interface/layout.rst:38
-msgid "Primary color is the most important color of the external pages (see the preview screen)."
-msgstr "基色是外部人员页面最重要的颜色（请参见预览屏幕）。"
-
-#: ../content/administration-area/external-interface/layout.rst:40
-msgid "To change the primary color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr "要更改基色，只需从调色板中选择一种新颜色即可。 您可以从预先选择的颜色中进行选择，也可以通过从颜色选择器中选择颜色或键入十六进制值来定义其它颜色。 新颜色会立即显示在预览窗口小部件中。"
-
-#: ../content/administration-area/external-interface/layout.rst:49
-msgid "Highlight Color"
-msgstr "突出显示颜色"
-
-#: ../content/administration-area/external-interface/layout.rst:45
-msgid "Highlight color is the second color of the external pages using for status badges, links, etc."
-msgstr "突出显示颜色是次要颜色，在外部人员页面中用于状态标记、链接等。"
-
-#: ../content/administration-area/external-interface/layout.rst:47
-msgid "To change the highlight color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr "要更改突出显示颜色，只需从调色板中选择一种新颜色。您可以从预先选择的颜色中进行选择，也可以通过从颜色选择器中进行选择或键入十六进制值来定义其它颜色。新颜色将立即显示在预览小部件中。"
-
-#: ../content/administration-area/external-interface/layout.rst:54
-msgid "Default Avatar"
-msgstr "默认头像"
-
-#: ../content/administration-area/external-interface/layout.rst:52
-msgid "Will be used as the default avatar for all outgoing communication."
-msgstr "将用作所有外出通信的默认头像。"
-
-#: ../content/administration-area/external-interface/layout.rst:54
-msgid "To change the avatar, click on the *Select image to upload* button, and select a new avatar image."
-msgstr "要更改头像，请单击 *选择上传的图片* 按钮，然后选择一个新的头像图片。"
-
-#: ../content/administration-area/external-interface/layout.rst:63
-msgid "Custom CSS"
-msgstr "自定义CSS"
-
-#: ../content/administration-area/external-interface/layout.rst:57
-msgid "Use this text area to add custom CSS to be applied in the external interface."
-msgstr "使用此文本区域添加要在外部人员界面中应用的自定义CSS。"
-
-#: ../content/administration-area/external-interface/layout.rst:0
-#: ../content/administration-area/external-interface/layout.rst:62
-msgid "Custom CSS Widget"
-msgstr "自定义CSS小部件"
-
-#: ../content/administration-area/external-interface/layout.rst:66
-msgid "Include Custom Scripts"
-msgstr "包含自定义脚本"
-
-#: ../content/administration-area/external-interface/layout.rst:68
-#, fuzzy
-msgid "External interface application has been built with security-first mindset in place. It contains several mechanisms to make sure that all code in the front end is provided directly by the OTOBO framework."
-msgstr "外部人员界面应用程序的构建采用了安全第一的思想。它包含几个机制，以确保前端的所有代码都由OTRS框架直接提供。"
-
-#: ../content/administration-area/external-interface/layout.rst:71
-msgid "In addition, a security standard called `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ headers is now leveraged by the built-in web server. It serves as a last line of defense and in case some unexpected code still makes it to the client, it will make sure that the user’s browser simply refuses to run it."
-msgstr "此外，内置 Web 服务器现在利用称为 `内容安全策略 <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ 标头的安全标准。 它作为最后一道防线，如果一些意外的代码仍然发送给客户端，它将确保用户的浏览器只是拒绝运行它。"
-
-#: ../content/administration-area/external-interface/layout.rst:74
-msgid "However, a use-case still exists in which even a modern web application might still need to run some additional code, provided it is vetted and included by the administrators. One example could be an external integrated chat solution, but could also be an inline code snippet used for external web analytics."
-msgstr "但是，仍然存在这样的用例，即使是现代的 WEB 应用程序也可能需要运行一些额外的代码，前提是由管理员审查和包含这些代码。例子可以是外部集成的聊天解决方案，也可以是用于外部 WEB 分析的内联代码片段。"
-
-#: ../content/administration-area/external-interface/layout.rst:79
-msgid "Including custom scripts can be done in the :doc:`../administration/system-configuration` with the following settings:"
-msgstr "包含自定义脚本在 :doc:`../administration/system-configuration` 中通过以下设置完成："
-
-#: ../content/administration-area/external-interface/layout.rst:81
-msgid "``ExternalFrontend::ExternalScripts``"
-msgstr "``ExternalFrontend::ExternalScripts``"
-
-#: ../content/administration-area/external-interface/layout.rst:82
-msgid "``ExternalFrontend::InlineScripts``"
-msgstr "``ExternalFrontend::InlineScripts``"
-
-#: ../content/administration-area/external-interface/layout.rst:83
-msgid "``WebApp::Server::AdditionalOrigins``"
-msgstr "``WebApp::Server::AdditionalOrigins``"
-
-#: ../content/administration-area/external-interface/layout.rst:87
-msgid "Web Analytics Example"
-msgstr "WEB 分析的例子"
-
-#: ../content/administration-area/external-interface/layout.rst:89
-msgid "In this example, we outline the steps to include custom scripts used by a web analytics provider in the external interface application. They will be run each time the application is used in order to track and report the behavior of the user for later analysis."
-msgstr "在本例中，我们概述了在外部人员界面应用程序中包含 WEB 分析提供者使用的自定义脚本的步骤。它们将在每次使用应用程序时运行，以便跟踪和报告用户的行为，供以后分析。"
-
-#: ../content/administration-area/external-interface/layout.rst:92
-msgid "We start with the provided code snippet below, from a third party provider."
-msgstr "我们从下面来自第三方供应商的代码片段开始。"
-
-#: ../content/administration-area/external-interface/layout.rst:105
-msgid "First line of the snippet refers to an *external* resource which should be loaded by the ``script`` tag."
-msgstr "代码片段的第一行引用一个 *外部* 资源，该资源会由 ``script`` 标签加载。"
-
-#: ../content/administration-area/external-interface/layout.rst:107
-msgid "In the script block below, we have some *inline* code which is run immediately when the page is loaded."
-msgstr "在下面的脚本块中，我们有一些 *内联* 代码，在加载页面后立即运行。"
-
-#: ../content/administration-area/external-interface/layout.rst:111
-msgid "Adding External Script Resources"
-msgstr "添加外部脚本资源"
-
-#: ../content/administration-area/external-interface/layout.rst:113
-msgid "First, we need to include the external script location in the appropriate configuration:"
-msgstr "首先，我们需要在适当的配置中包含外部脚本的位置:"
-
-#: ../content/administration-area/external-interface/layout.rst:115
-#: ../content/administration-area/external-interface/layout.rst:131
-#: ../content/administration-area/external-interface/layout.rst:184
-#: ../content/administration-area/external-interface/layout.rst:209
-msgid "Go to the *System Configuration* screen."
-msgstr "转到 *系统配置* 屏幕。"
-
-#: ../content/administration-area/external-interface/layout.rst:116
-msgid "Search for the setting ``ExternalFrontend::ExternalScripts``."
-msgstr "搜索设置 ``ExternalFrontend::ExternalScripts``。"
-
-#: ../content/administration-area/external-interface/layout.rst:117
-#: ../content/administration-area/external-interface/layout.rst:133
-#: ../content/administration-area/external-interface/layout.rst:186
-#: ../content/administration-area/external-interface/layout.rst:211
-msgid "Click on the setting in order to edit it."
-msgstr "点击该设置以编辑它。"
-
-#: ../content/administration-area/external-interface/layout.rst:118
-#: ../content/administration-area/external-interface/layout.rst:134
-msgid "In case a value is already present, click on the plus button. Otherwise, proceed below."
-msgstr "如果已经存在值，则单击加号按钮。否则，继续下面的步骤。"
-
-#: ../content/administration-area/external-interface/layout.rst:120
-msgid "Enter the full location of the *external* resource in the text field. For example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
-msgstr "在文本字段中输入 *外部* 资源的完整位置。例如： ``https://www.example.com/track/js?id=UA-XXXXXX-Y``。"
-
-#: ../content/administration-area/external-interface/layout.rst:122
-#: ../content/administration-area/external-interface/layout.rst:147
-#: ../content/administration-area/external-interface/layout.rst:193
-#: ../content/administration-area/external-interface/layout.rst:216
-msgid "Click on the check mark in order to save the modified setting."
-msgstr "点击复选标记以保存修改后的设置。"
-
-#: ../content/administration-area/external-interface/layout.rst:123
-#: ../content/administration-area/external-interface/layout.rst:148
-#: ../content/administration-area/external-interface/layout.rst:194
-#: ../content/administration-area/external-interface/layout.rst:217
-#: ../content/administration-area/processes-automation/dynamicfields.rst:500
-#: ../content/administration-area/processes-automation/dynamicfields.rst:523
-#: ../content/administration-area/processes-automation/dynamicfields.rst:536
-#: ../content/administration-area/processes-automation/dynamicfields.rst:561
-msgid "Deploy the modified system configuration."
-msgstr "部署修改后的系统配置。"
-
-#: ../content/administration-area/external-interface/layout.rst:127
-msgid "Adding Inline Code Snippets"
-msgstr "添加内联代码片段"
-
-#: ../content/administration-area/external-interface/layout.rst:129
-msgid "Next, we have to also include the inline part of the original snippet:"
-msgstr "接下来，我们还必须包含原始代码段的内联部分："
-
-#: ../content/administration-area/external-interface/layout.rst:132
-msgid "Search for the setting ``ExternalFrontend::InlineScripts``."
-msgstr "搜索设置 ``ExternalFrontend::InlineScripts``。"
-
-#: ../content/administration-area/external-interface/layout.rst:136
-msgid "Enter the full code snippet in the text area, minus any ``script`` tags. For example:"
-msgstr "在文本区域中输入完整的代码片段，去掉任何 ``script`` 标签。例如:"
-
-#: ../content/administration-area/external-interface/layout.rst:152
-msgid "Rebuilding the External Interface Application"
-msgstr "重新构建外部人员界面应用程序"
-
-#: ../content/administration-area/external-interface/layout.rst:154
-msgid "In order to apply the changes, we also need to rebuild the external interface application. Drop down to shell, and execute the following command:"
-msgstr "为了应用更改，我们还需要重新构建外部人员界面应用程序。下拉到 shell，执行以下命令:"
-
-#: ../content/administration-area/external-interface/layout.rst:163
-msgid "Whitelisting Additional Origins in the Security Headers"
-msgstr "将安全标头中的其它源列入白名单"
-
-#: ../content/administration-area/external-interface/layout.rst:165
-msgid "If you now try to access the external interface application, you will be able to verify that the scripts are included in the code. However, your browser will probably block access to all *inline* and *external* resources, therefore the code might fail with some errors."
-msgstr "如果您现在尝试访问外部人员界面应用程序，则可以验证脚本是否包含在代码中。 但是，您的浏览器可能会阻止访问所有 *内联* 和 *外部* 资源，因此代码可能会因某些错误而失败。"
-
-#: ../content/administration-area/external-interface/layout.rst:168
-msgid "This behavior is by design, since external resources can only be loaded if they are specifically whitelisted in the *Content Security Policy* headers."
-msgstr "这种情况是设计使然，因为只有在 *内容安全策略* 标头中明确列入白名单时才能加载外部资源。"
-
-#: ../content/administration-area/external-interface/layout.rst:170
-msgid "To check for blocked code, please use suitable web browser inspection tools. In our example, we will be using Mozilla Firefox and its web console available via *Tools → Web Developer → Web Console* menu item, or via the *F12* shortcut key."
-msgstr "若要检查阻塞代码，请使用适当的 WEB 浏览器检查工具。在我们的示例中，我们将使用 Mozilla Firefox 及其 WEB 控制台，该控制台可通过 *工具→Web 开发者→web 控制台* 菜单项或 *F12* 快捷键获得。"
-
-#: ../content/administration-area/external-interface/layout.rst:173
-msgid "For the example code snippet, you might receive following errors in the console when the application is accessed:"
-msgstr "对于示例代码片段，在访问应用程序时，可能会在控制台收到以下错误:"
-
-#: ../content/administration-area/external-interface/layout.rst:178
-msgid "Browser Console Errors and Warnings"
-msgstr "浏览器控制台错误和警告"
-
-#: ../content/administration-area/external-interface/layout.rst:180
-msgid "From the console errors we can see that the external script resource was prevented from being loaded (lines 1 and 3). In addition to that, two evaluation calls were also blocked (lines 2 and 5). All errors reference a *Content Security Policy* rule under the name of ``script-src``, which signals script resources."
-msgstr "从控制台错误我们可以看到外部脚本资源不能被加载(1和3行)。除此之外,两个评估调用也被封锁(2和5行)。所有错误都引用了一个名为 ``script-src`` 的 *内容安全策略* 规则，该规则表示脚本资源。"
-
-#: ../content/administration-area/external-interface/layout.rst:182
-msgid "We need to add both the external resource and the evaluation calls to the additional origins list of the *Content Security Policy* headers:"
-msgstr "我们需要将外部资源和评估调用添加到 *内容安全策略* 标头的其它源列表中："
-
-#: ../content/administration-area/external-interface/layout.rst:185
-#: ../content/administration-area/external-interface/layout.rst:210
-msgid "Search for the setting ``WebApp::Server::AdditionalOrigins``."
-msgstr "搜索设置 ``WebApp::Server::AdditionalOrigins``。"
-
-#: ../content/administration-area/external-interface/layout.rst:187
-msgid "In case a value for ``script-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr "如果 ``script-src`` 已经存在值，请单击旁边的加号按钮。 否则，继续下面的步骤。"
-
-#: ../content/administration-area/external-interface/layout.rst:189
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external resource to be loaded."
-msgstr "在文本字段中只输入被阻塞资源的域部分。例如: ``https://www.example.com``。这允许加载外部资源。"
-
-#: ../content/administration-area/external-interface/layout.rst:191
-msgid "Click on the plus button next to the field, so another value is added."
-msgstr "点击字段旁边的加号按钮，这样就添加了另一个值。"
-
-#: ../content/administration-area/external-interface/layout.rst:192
-msgid "Enter the following directive in the new field, including the quotes: ``'unsafe-eval'``. This allows the evaluation calls to be executed."
-msgstr "在新字段中输入以下指令，包括引号: ``'unsafe-eval'``。这允许执行评估调用。"
-
-#: ../content/administration-area/external-interface/layout.rst:196
-msgid "There is no need to rebuild the external interface application at this point, as the additional origins configuration should be immediately in effect."
-msgstr "此时不需要重新构建外部人员界面应用程序，因为其它源配置立即生效。"
-
-#: ../content/administration-area/external-interface/layout.rst:198
-msgid "If you reload the external interface application, you might get some additional errors. In our example, it might be the following:"
-msgstr "如果重新加载外部人员界面应用程序，可能会得到一些额外的错误。在我们的例子中，可能是这样的:"
-
-#: ../content/administration-area/external-interface/layout.rst:204
-msgid "Additional Browser Console Errors and Warnings"
-msgstr "其它的浏览器控制台错误和警告"
-
-#: ../content/administration-area/external-interface/layout.rst:206
-msgid "This error points that an additional resource that was also blocked, an image at a specific location (line 1). We can deduce this via the name of the *Content Security Policy* rule ``img-src``, which references an image resource. In order to add it to the whitelist, try the following:"
-msgstr "此错误表示还阻止了另一个资源，即特定位置的图像（第1行）。 我们可以通过引用图像资源的 *内容安全策略* 规则 ``img-src`` 的名称推断出这一点。 要将其添加到白名单，请尝试以下操作："
-
-#: ../content/administration-area/external-interface/layout.rst:212
-msgid "In case a value for ``img-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr "如果已经存在 ``img-src`` 的值，请单击旁边的加号按钮。 否则，继续下面的步骤。"
-
-#: ../content/administration-area/external-interface/layout.rst:214
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external image resource to be loaded."
-msgstr "在文本字段中只输入被阻塞资源的域部分。例如: ``https://www.example.com``。这允许加载外部图片资源。"
-
-#: ../content/administration-area/external-interface/layout.rst:219
-msgid "Try again to reload the external interface application and check if there are more errors. If not, your scripts are now probably working as expected."
-msgstr "再次尝试重新加载外部人员界面应用程序并检查是否有更多错误。 如果没有，您的脚本现在可能正常工作。"
-
-#: ../content/administration-area/external-interface/layout.rst:222
-msgid "Unfortunately, it is not possible to predict what kind of resources your scripts might be requiring. But, no worries, you can whitelist most of them, just make sure to follow the trail of hints shown in the browser console log. Find a corresponding header rule in the configuration and update it accordingly."
-msgstr "不幸的是，无法预测脚本可能需要哪种资源。 但是，不用担心，您可以将其中的大多数列入白名单，只需确保遵循浏览器控制台日志中显示的提示跟踪。 在配置中查找相应的标头规则并相应地进行更新。"
-
-#: ../content/administration-area/external-interface/layout.rst:228
-msgid "Some resources might only be requested by others, hence several iterations might be needed until everything is configured properly."
-msgstr "某些资源可能仅由其他人请求，因此可能需要多次迭代才能正确配置所有内容。"
-
-#: ../content/administration-area/external-interface/layout.rst:232
-#, fuzzy
-msgid "Whitelisting external resources opens potential security risks in your OTOBO application! Only allow those resources that you are sure are not malicious and come from reputable sources. Keep in mind that if something is secure today, does not mean it will be tomorrow. Stay safe!"
-msgstr "外部资源白名单会在您的 OTRS 应用程序中面临潜在的安全风险！只允许那些您确信没有恶意且来自可靠来源的资源。。 请记住，如果某些资源今天是安全的，那并不意味着它在明天仍然安全。 注意安全！"
-
 #: ../content/administration-area/introduction.rst:2
 msgid "Introduction"
 msgstr "介绍"
@@ -6935,6 +6087,13 @@ msgstr "选择 *1 - 启用* 或 *2 - 启用且必填*。"
 msgid "Click on the tick button on the right to save the setting."
 msgstr "点击右侧的勾选按钮以保存设置。"
 
+#: ../content/administration-area/processes-automation/dynamicfields.rst:500
+#: ../content/administration-area/processes-automation/dynamicfields.rst:523
+#: ../content/administration-area/processes-automation/dynamicfields.rst:536
+#: ../content/administration-area/processes-automation/dynamicfields.rst:561
+msgid "Deploy the modified system configuration."
+msgstr "部署修改后的系统配置。"
+
 #: ../content/administration-area/processes-automation/dynamicfields.rst:505
 msgid "Display Dynamic Fields on Screen"
 msgstr "在屏幕中显示动态字段"
@@ -7120,6 +6279,10 @@ msgstr "编辑自动任务屏幕"
 #: ../content/administration-area/processes-automation/generic-agent.rst:56
 msgid "To delete a generic agent job:"
 msgstr "若要删除一个自动任务："
+
+#: ../content/administration-area/processes-automation/generic-agent.rst:58
+msgid "Click on the trash icon in the fourth column of the overview table."
+msgstr "点击概览表第4列的垃圾桶图标。"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:64
 msgid "Delete Generic Agent Job Screen"
@@ -12837,6 +12000,564 @@ msgstr ""
 #: ../content/index.rst:45
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
+
+#~ msgid "Custom Pages"
+#~ msgstr "自定义页面"
+
+#, fuzzy
+#~ msgid "Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group."
+#~ msgstr "使用此屏幕添加自定义页面以在外部人员界面中使用。 默认情况下，新的OTRS安装已包含一些自定义页面。 自定义页面管理屏幕位于 *外部人员界面* 组的 *自定义页面* 模块中。"
+
+#~ msgid "Custom Page Management Screen"
+#~ msgstr "自定义页面管理屏幕"
+
+#~ msgid "Manage Custom Pages"
+#~ msgstr "管理自定义页面"
+
+#~ msgid "Make sure to save your changes when you finish. The new configuration will be immediately deployed."
+#~ msgstr "确保在完成后保存更改，会立即部署新的配置。"
+
+#~ msgid "To add a custom page:"
+#~ msgstr "若要添加一个自定义页面："
+
+#~ msgid "Click on the *Add Custom Page* button in the left sidebar."
+#~ msgstr "点击左侧边栏的 *添加自定义页面* 按钮。"
+
+#~ msgid "Add Custom Page Screen"
+#~ msgstr "添加自定义页面屏幕"
+
+#~ msgid "To edit a custom page:"
+#~ msgstr "若要编辑一个自定义页面："
+
+#~ msgid "Click on a custom page in the list of custom pages."
+#~ msgstr "点击自定义页面列表中的一个自定义页面。"
+
+#~ msgid "Edit Custom Page Screen"
+#~ msgstr "编辑自定义页面屏幕"
+
+#~ msgid "To delete a custom page:"
+#~ msgstr "若要删除一个自定义页面："
+
+#~ msgid "Delete Custom Page Screen"
+#~ msgstr "删除自定义页面屏幕"
+
+#~ msgid "If several custom pages are added to the system, use the filter box to find a particular custom page by just typing the name to filter."
+#~ msgstr "如果向系统添加了多个自定义页面，请使用过滤器框通过键入要过滤的名称来查找特定的自定义页面。"
+
+#~ msgid "Custom Page Settings"
+#~ msgstr "自定义页面设置"
+
+#~ msgid "Internal Title \\*"
+#~ msgstr "内部标题 \\*"
+
+#~ msgid "The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
+#~ msgstr "此资源的名称，仅显示在管理界面中。 可以在此字段中输入任何类型的字符，包括大写字母和空格。 名称将显示在概览表中。"
+
+#~ msgid "Slug \\*"
+#~ msgstr "Slug \\*"
+
+#~ msgid "This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign."
+#~ msgstr "这将是自定义页面的URL。 推荐的字符是小写字母、数字和减号。"
+
+#~ msgid "Custom Page Content"
+#~ msgstr "自定义页面内容"
+
+#~ msgid "In this widget can be added some localized content for the item."
+#~ msgstr "在此小部件中可以为此条目添加一些本地化内容。"
+
+#~ msgid "Title \\*"
+#~ msgstr "标题 \\*"
+
+#~ msgid "The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces."
+#~ msgstr "给定语言中此资源的名称。 可以在此字段中输入任何类型的字符，包括大写字母和空格。"
+
+#~ msgid "Content \\*"
+#~ msgstr "内容 \\*"
+
+#~ msgid "The text for this item in the given language."
+#~ msgstr "给定语言中此条目的文本。"
+
+#~ msgid "Add new custom page content"
+#~ msgstr "添加自定义页面内容"
+
+#~ msgid "Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above."
+#~ msgstr "选择应添加哪些语言以创建本地化的项目内容。 所有添加的语言都可以保存自己的本地化内容，如上所述。"
+
+#~ msgid "Customer Service Catalogue"
+#~ msgstr "客户服务目录"
+
+#, fuzzy
+#~ msgid "Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group."
+#~ msgstr "使用此屏幕添加用于外部界面的目录和项目。 默认情况下，新的OTRS安装不包含任何目录或项目。 目录管理屏幕位于 *外部界面* 组的 *客户服务目录* 模块中。"
+
+#~ msgid "This module consists of two management screens: a category management screen and an item management screen."
+#~ msgstr "该模块包括两个管理屏幕：服务目录管理屏幕和服务项目管理屏幕。"
+
+#~ msgid "Customer Service Catalogue Management Screen"
+#~ msgstr "客户服务目录管理屏幕"
+
+#~ msgid "Manage Categories"
+#~ msgstr "管理服务目录"
+
+#~ msgid "Use this screen to add categories to collect the same items into groups. The *Category Management* screen in available via the *Go to category management* button or via the *Category Management* module."
+#~ msgstr "使用此屏幕添加服务目录以将相同的服务项目收集到组中。 *服务目录管理* 屏幕可通过 *转到服务目录管理* 按钮或通过 *服务目录管理* 模块获得。"
+
+#~ msgid "Category Management Screen"
+#~ msgstr "服务目录管理屏幕"
+
+#~ msgid "Click on the *Add Category* button in the left sidebar."
+#~ msgstr "点击左侧边栏的 *添加服务目录* 按钮。"
+
+#~ msgid "Click on the trash icon in the *Delete* column of the overview table."
+#~ msgstr "点击概览表的 *删除* 列中的垃圾桶图标。"
+
+#~ msgid "If several categories are added to the system, use the filter box to find a particular category by just typing the name to filter."
+#~ msgstr "如果系统中添加了多个类别，请使用过滤器框通过键入要过滤的名称来查找特定类别。"
+
+#~ msgid "Category Settings"
+#~ msgstr "服务目录设置"
+
+#~ msgid "Sub-category of"
+#~ msgstr "父目录"
+
+#~ msgid "Language \\*"
+#~ msgstr "语言 \\*"
+
+#~ msgid "Select a language from the available languages of the system."
+#~ msgstr "从系统的可用语言中选择一种语言。"
+
+#~ msgid "Manage Items"
+#~ msgstr "管理服务项目"
+
+#~ msgid "Use this screen to add items to the catalogue. Items can be collected into categories. The *Item Management* screen in available via the *Go to item management* button or via the *Item Management* module."
+#~ msgstr "使用此屏幕将服务项目添加到服务目录。 可以将服务项目汇集到服务目录中。 *服务项目管理* 屏幕可通过 *转到服务项目管理* 按钮或通过 *服务项目管理* 模块获得。"
+
+#~ msgid "Item Management Screen"
+#~ msgstr "服务项目管理屏幕"
+
+#~ msgid "To add an item:"
+#~ msgstr "若要添加一个服务项目："
+
+#~ msgid "Click on the *Add Item* button in the left sidebar."
+#~ msgstr "点击左侧边栏中的 *添加服务项目* 按钮。"
+
+#~ msgid "Add Item Screen"
+#~ msgstr "添加服务项目屏幕"
+
+#~ msgid "To edit an item:"
+#~ msgstr "若要编辑一个服务项目："
+
+#~ msgid "Click on an item in the list of items."
+#~ msgstr "点击服务项目列表中的一个服务项目。"
+
+#~ msgid "Edit Item Screen"
+#~ msgstr "编辑服务项目屏幕"
+
+#~ msgid "To delete an item:"
+#~ msgstr "若要删除一个服务项目："
+
+#~ msgid "Delete Item Screen"
+#~ msgstr "删除服务项目屏幕"
+
+#~ msgid "If several items are added to the system, use the filter box to find a particular item by just typing the name to filter."
+#~ msgstr "如果系统中添加了多个服务项目，请使用过滤器框通过键入名称来查找特定的服务项目。"
+
+#~ msgid "Item Settings"
+#~ msgstr "服务项目设置"
+
+#~ msgid "Item Content"
+#~ msgstr "服务项目内容"
+
+#~ msgid "Categories"
+#~ msgstr "服务目录"
+
+#~ msgid "One ore more categories can be selected for the item in which the item should be visible."
+#~ msgstr "可以为服务项目选择一个或多个服务目录。"
+
+#~ msgid "Only those categories can be selected, that have the same language as the selected language for this widget."
+#~ msgstr "只能选择那些与此小部件的选定语言具有相同语言的服务目录。"
+
+#~ msgid "Link \\*"
+#~ msgstr "链接 \\*"
+
+#~ msgid "A link to an internal or an external URL."
+#~ msgstr "指向内部或外部URL的链接。"
+
+#~ msgid "Add new item content"
+#~ msgstr "新建服务项目内容"
+
+#~ msgid "Home Page"
+#~ msgstr "主页"
+
+#~ msgid "Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group."
+#~ msgstr "使用此屏幕可以定义外部人员界面中显示的不同用户语言的主页配置。 主页管理屏幕位于 *外部人员界面* 组的 *主页* 模块中。"
+
+#~ msgid "This screen contains several widget for each languages, where localized content can be added."
+#~ msgstr "此屏幕包含每种语言的多个小部件，以便添加多种语言的本地化内容。"
+
+#~ msgid "Hero Unit"
+#~ msgstr "重点内容"
+
+#~ msgid "Hero Unit Widget"
+#~ msgstr "重点内容小部件"
+
+#~ msgid "This is the most important sentence or motto of the home page."
+#~ msgstr "这是主页最重要的句子或箴言。"
+
+#~ msgid "Background Style"
+#~ msgstr "背景样式"
+
+#~ msgid "Define the behavior of background image and background color. The following options are available:"
+#~ msgstr "定义背景图像和背景颜色的行为。 可以使用以下选项："
+
+#~ msgid "Only use the background image"
+#~ msgstr "只使用背景图片"
+
+#~ msgid "Only use the background color"
+#~ msgstr "只使用背景颜色"
+
+#~ msgid "Use the background image and overlay it with the selected color"
+#~ msgstr "使用背景图片并以选中颜色覆盖"
+
+#~ msgid "Background Image"
+#~ msgstr "背景图片"
+
+#~ msgid "Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system."
+#~ msgstr "选择用作重点内容的背景图片的图片。 要选择图片，请单击 *选择上传的图片* 按钮，然后从文件系统中选择一个图片。"
+
+#~ msgid "Background Color"
+#~ msgstr "背景色"
+
+#~ msgid "To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
+#~ msgstr "要更改背景颜色，只需从调色板中选择一种新颜色即可。 您可以从预先选择的颜色中进行选择，也可以通过从颜色选择器中选择颜色或键入十六进制值来定义其它颜色。"
+
+#~ msgid "Ticket List"
+#~ msgstr "工单列表"
+
+#~ msgid "Ticket List Widget"
+#~ msgstr "工单列表小部件"
+
+#~ msgid "Show a ticket list for logged in users"
+#~ msgstr "显示已登录用户的工单列表"
+
+#~ msgid "This setting defines if the ticket list should be visible for logged in users or not."
+#~ msgstr "此设置定义是否应为登录的用户显示工单列表。"
+
+#~ msgid "Row Title"
+#~ msgstr "行标题"
+
+#~ msgid "This is an optional title for the row, that contains this widget in the external interface."
+#~ msgstr "（可选）在外部人员界面中包含此小部件的行的标题。"
+
+#~ msgid "Image Teasers"
+#~ msgstr "形象广告图片"
+
+#~ msgid "The image teasers are displayed in a separate row in the external interface."
+#~ msgstr "形象广告图片显示在外部人员界面的一个单独行中。"
+
+#~ msgid "Image Teasers Widget"
+#~ msgstr "形象广告图片小部件"
+
+#~ msgid "Row Background Color"
+#~ msgstr "行背景色"
+
+#~ msgid "You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "通过单击小部件右上角的 *添加* 按钮，最多可以添加三个形象广告图片。"
+
+#~ msgid "Image Teaser"
+#~ msgstr "形象广告图片"
+
+#~ msgid "Image"
+#~ msgstr "图片"
+
+#~ msgid "Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system."
+#~ msgstr "选择要在形象广告图片小部件中显示的图片。要选择图片，请单击 *选择上传的图片* 按钮，然后从文件系统中选择一个图片。"
+
+#, fuzzy
+#~ msgid "The heading text that are displayed in this item."
+#~ msgstr "显示在此条目中的标题文字"
+
+#~ msgid "The text for this item."
+#~ msgstr "此条目的文本。"
+
+#~ msgid "Link Target \\*"
+#~ msgstr "链接目标 \\*"
+
+#~ msgid "An URL that will be opened after clicking on this item in the external interface."
+#~ msgstr "在外部人员界面中单击此条目后将打开的URL。"
+
+#~ msgid "Link Lists"
+#~ msgstr "链接列表"
+
+#~ msgid "The link lists are displayed in a separate row in the external interface."
+#~ msgstr "链接列表显示在外部人员界面的一个单独行中。"
+
+#~ msgid "Link Lists Widget"
+#~ msgstr "链接列表小部件"
+
+#~ msgid "You can add up to four link lists by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "通过单击小部件右上角的 *添加* 按钮，可以添加多达四个链接列表。"
+
+#~ msgid "Link List"
+#~ msgstr "链接列表"
+
+#~ msgid "Link Text"
+#~ msgstr "链接文本"
+
+#~ msgid "Add the text for the *show more* link."
+#~ msgstr "为 *显示更多* 链接添加文本。"
+
+#~ msgid "Link Target"
+#~ msgstr "链接目标"
+
+#~ msgid "Add the URL for the *show more* link."
+#~ msgstr "为 *显示更多* 链接添加URL。"
+
+#~ msgid "Link List Type \\*"
+#~ msgstr "链接列表类型 \\*"
+
+#~ msgid "Specifies the functionality how the item will be added."
+#~ msgstr "指定如何添加此条目的功能。"
+
+#~ msgid "Add the Items Manually"
+#~ msgstr "手动添加条目"
+
+#~ msgid "Clicking on the edit button a new widget will be visible to add the items."
+#~ msgstr "点击编辑按钮，将看到一个用来添加条目的新的小部件。"
+
+#~ msgid "Show the Results of a Search"
+#~ msgstr "显示搜索的结果"
+
+#~ msgid "Content Cards"
+#~ msgstr "内容卡片"
+
+#~ msgid "Content Cards Widget"
+#~ msgstr "内容卡片小部件"
+
+#~ msgid "You can add up to three content cards by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "通过单击小部件右上角的 *添加* 按钮，最多可以添加三张内容卡片。"
+
+#~ msgid "Content Card"
+#~ msgstr "内容卡片"
+
+#~ msgid "Layout"
+#~ msgstr "排版布局"
+
+#~ msgid "Use this screen to edit the layout displayed in external interface. The layout management screen is available in the *Layout* module of the *External Interface* group."
+#~ msgstr "使用此屏幕编辑外部人员界面中显示的布局。布局管理屏幕位于 *外部人员界面* 组的 *排版布局* 模块中。"
+
+#~ msgid "Edit Layout Screen"
+#~ msgstr "编辑布局屏幕"
+
+#, fuzzy
+#~ msgid "A fresh OTOBO installation already contains a default layout. In this screen all parameters can be changed."
+#~ msgstr "新的OTRS安装已包含默认布局。在此屏幕中，可以更改所有参数。"
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "The logo is a small image that is displayed in the top left corner of the external pages."
+#~ msgstr "Logo（徽标）是显示在外部人员页面左上角的小图片。"
+
+#~ msgid "To change the logo, click on the *Select image to upload* button, and select a new logo image. Recommended file format is PNG."
+#~ msgstr "要更改Logo，请单击 *选择上传的图片* 按钮，然后选择新的Logo图片。建议的文件格式为PNG。"
+
+#~ msgid "Favicon"
+#~ msgstr "收藏夹图标"
+
+#~ msgid "The `favorite icon <https://en.wikipedia.org/wiki/Favicon>`_ is an icon that is displayed in the URL bar of the web browser."
+#~ msgstr "`收藏夹图标 <https://en.wikipedia.org/wiki/Favicon>`__ 是显示在Web浏览器的URL栏中的图标。"
+
+#~ msgid "To change the favorite icon, click on the *Select image to upload* button, and select a new icon. This is usually a 16×16 pixel image in PNG or ICO format."
+#~ msgstr "要更改收藏夹图标，点击 *选择上传的图片* 按钮，然后选择一个新图标。 这通常是PNG或ICO格式的16×16像素图片。"
+
+#~ msgid "Primary Color"
+#~ msgstr "基色"
+
+#~ msgid "Primary color is the most important color of the external pages (see the preview screen)."
+#~ msgstr "基色是外部人员页面最重要的颜色（请参见预览屏幕）。"
+
+#~ msgid "To change the primary color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
+#~ msgstr "要更改基色，只需从调色板中选择一种新颜色即可。 您可以从预先选择的颜色中进行选择，也可以通过从颜色选择器中选择颜色或键入十六进制值来定义其它颜色。 新颜色会立即显示在预览窗口小部件中。"
+
+#~ msgid "Highlight Color"
+#~ msgstr "突出显示颜色"
+
+#~ msgid "Highlight color is the second color of the external pages using for status badges, links, etc."
+#~ msgstr "突出显示颜色是次要颜色，在外部人员页面中用于状态标记、链接等。"
+
+#~ msgid "To change the highlight color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
+#~ msgstr "要更改突出显示颜色，只需从调色板中选择一种新颜色。您可以从预先选择的颜色中进行选择，也可以通过从颜色选择器中进行选择或键入十六进制值来定义其它颜色。新颜色将立即显示在预览小部件中。"
+
+#~ msgid "Default Avatar"
+#~ msgstr "默认头像"
+
+#~ msgid "Will be used as the default avatar for all outgoing communication."
+#~ msgstr "将用作所有外出通信的默认头像。"
+
+#~ msgid "To change the avatar, click on the *Select image to upload* button, and select a new avatar image."
+#~ msgstr "要更改头像，请单击 *选择上传的图片* 按钮，然后选择一个新的头像图片。"
+
+#~ msgid "Custom CSS"
+#~ msgstr "自定义CSS"
+
+#~ msgid "Use this text area to add custom CSS to be applied in the external interface."
+#~ msgstr "使用此文本区域添加要在外部人员界面中应用的自定义CSS。"
+
+#~ msgid "Custom CSS Widget"
+#~ msgstr "自定义CSS小部件"
+
+#~ msgid "Include Custom Scripts"
+#~ msgstr "包含自定义脚本"
+
+#, fuzzy
+#~ msgid "External interface application has been built with security-first mindset in place. It contains several mechanisms to make sure that all code in the front end is provided directly by the OTOBO framework."
+#~ msgstr "外部人员界面应用程序的构建采用了安全第一的思想。它包含几个机制，以确保前端的所有代码都由OTRS框架直接提供。"
+
+#~ msgid "In addition, a security standard called `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ headers is now leveraged by the built-in web server. It serves as a last line of defense and in case some unexpected code still makes it to the client, it will make sure that the user’s browser simply refuses to run it."
+#~ msgstr "此外，内置 Web 服务器现在利用称为 `内容安全策略 <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ 标头的安全标准。 它作为最后一道防线，如果一些意外的代码仍然发送给客户端，它将确保用户的浏览器只是拒绝运行它。"
+
+#~ msgid "However, a use-case still exists in which even a modern web application might still need to run some additional code, provided it is vetted and included by the administrators. One example could be an external integrated chat solution, but could also be an inline code snippet used for external web analytics."
+#~ msgstr "但是，仍然存在这样的用例，即使是现代的 WEB 应用程序也可能需要运行一些额外的代码，前提是由管理员审查和包含这些代码。例子可以是外部集成的聊天解决方案，也可以是用于外部 WEB 分析的内联代码片段。"
+
+#~ msgid "Including custom scripts can be done in the :doc:`../administration/system-configuration` with the following settings:"
+#~ msgstr "包含自定义脚本在 :doc:`../administration/system-configuration` 中通过以下设置完成："
+
+#~ msgid "``ExternalFrontend::ExternalScripts``"
+#~ msgstr "``ExternalFrontend::ExternalScripts``"
+
+#~ msgid "``ExternalFrontend::InlineScripts``"
+#~ msgstr "``ExternalFrontend::InlineScripts``"
+
+#~ msgid "``WebApp::Server::AdditionalOrigins``"
+#~ msgstr "``WebApp::Server::AdditionalOrigins``"
+
+#~ msgid "Web Analytics Example"
+#~ msgstr "WEB 分析的例子"
+
+#~ msgid "In this example, we outline the steps to include custom scripts used by a web analytics provider in the external interface application. They will be run each time the application is used in order to track and report the behavior of the user for later analysis."
+#~ msgstr "在本例中，我们概述了在外部人员界面应用程序中包含 WEB 分析提供者使用的自定义脚本的步骤。它们将在每次使用应用程序时运行，以便跟踪和报告用户的行为，供以后分析。"
+
+#~ msgid "We start with the provided code snippet below, from a third party provider."
+#~ msgstr "我们从下面来自第三方供应商的代码片段开始。"
+
+#~ msgid "First line of the snippet refers to an *external* resource which should be loaded by the ``script`` tag."
+#~ msgstr "代码片段的第一行引用一个 *外部* 资源，该资源会由 ``script`` 标签加载。"
+
+#~ msgid "In the script block below, we have some *inline* code which is run immediately when the page is loaded."
+#~ msgstr "在下面的脚本块中，我们有一些 *内联* 代码，在加载页面后立即运行。"
+
+#~ msgid "Adding External Script Resources"
+#~ msgstr "添加外部脚本资源"
+
+#~ msgid "First, we need to include the external script location in the appropriate configuration:"
+#~ msgstr "首先，我们需要在适当的配置中包含外部脚本的位置:"
+
+#~ msgid "Go to the *System Configuration* screen."
+#~ msgstr "转到 *系统配置* 屏幕。"
+
+#~ msgid "Search for the setting ``ExternalFrontend::ExternalScripts``."
+#~ msgstr "搜索设置 ``ExternalFrontend::ExternalScripts``。"
+
+#~ msgid "Click on the setting in order to edit it."
+#~ msgstr "点击该设置以编辑它。"
+
+#~ msgid "In case a value is already present, click on the plus button. Otherwise, proceed below."
+#~ msgstr "如果已经存在值，则单击加号按钮。否则，继续下面的步骤。"
+
+#~ msgid "Enter the full location of the *external* resource in the text field. For example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
+#~ msgstr "在文本字段中输入 *外部* 资源的完整位置。例如： ``https://www.example.com/track/js?id=UA-XXXXXX-Y``。"
+
+#~ msgid "Click on the check mark in order to save the modified setting."
+#~ msgstr "点击复选标记以保存修改后的设置。"
+
+#~ msgid "Adding Inline Code Snippets"
+#~ msgstr "添加内联代码片段"
+
+#~ msgid "Next, we have to also include the inline part of the original snippet:"
+#~ msgstr "接下来，我们还必须包含原始代码段的内联部分："
+
+#~ msgid "Search for the setting ``ExternalFrontend::InlineScripts``."
+#~ msgstr "搜索设置 ``ExternalFrontend::InlineScripts``。"
+
+#~ msgid "Enter the full code snippet in the text area, minus any ``script`` tags. For example:"
+#~ msgstr "在文本区域中输入完整的代码片段，去掉任何 ``script`` 标签。例如:"
+
+#~ msgid "Rebuilding the External Interface Application"
+#~ msgstr "重新构建外部人员界面应用程序"
+
+#~ msgid "In order to apply the changes, we also need to rebuild the external interface application. Drop down to shell, and execute the following command:"
+#~ msgstr "为了应用更改，我们还需要重新构建外部人员界面应用程序。下拉到 shell，执行以下命令:"
+
+#~ msgid "Whitelisting Additional Origins in the Security Headers"
+#~ msgstr "将安全标头中的其它源列入白名单"
+
+#~ msgid "If you now try to access the external interface application, you will be able to verify that the scripts are included in the code. However, your browser will probably block access to all *inline* and *external* resources, therefore the code might fail with some errors."
+#~ msgstr "如果您现在尝试访问外部人员界面应用程序，则可以验证脚本是否包含在代码中。 但是，您的浏览器可能会阻止访问所有 *内联* 和 *外部* 资源，因此代码可能会因某些错误而失败。"
+
+#~ msgid "This behavior is by design, since external resources can only be loaded if they are specifically whitelisted in the *Content Security Policy* headers."
+#~ msgstr "这种情况是设计使然，因为只有在 *内容安全策略* 标头中明确列入白名单时才能加载外部资源。"
+
+#~ msgid "To check for blocked code, please use suitable web browser inspection tools. In our example, we will be using Mozilla Firefox and its web console available via *Tools → Web Developer → Web Console* menu item, or via the *F12* shortcut key."
+#~ msgstr "若要检查阻塞代码，请使用适当的 WEB 浏览器检查工具。在我们的示例中，我们将使用 Mozilla Firefox 及其 WEB 控制台，该控制台可通过 *工具→Web 开发者→web 控制台* 菜单项或 *F12* 快捷键获得。"
+
+#~ msgid "For the example code snippet, you might receive following errors in the console when the application is accessed:"
+#~ msgstr "对于示例代码片段，在访问应用程序时，可能会在控制台收到以下错误:"
+
+#~ msgid "Browser Console Errors and Warnings"
+#~ msgstr "浏览器控制台错误和警告"
+
+#~ msgid "From the console errors we can see that the external script resource was prevented from being loaded (lines 1 and 3). In addition to that, two evaluation calls were also blocked (lines 2 and 5). All errors reference a *Content Security Policy* rule under the name of ``script-src``, which signals script resources."
+#~ msgstr "从控制台错误我们可以看到外部脚本资源不能被加载(1和3行)。除此之外,两个评估调用也被封锁(2和5行)。所有错误都引用了一个名为 ``script-src`` 的 *内容安全策略* 规则，该规则表示脚本资源。"
+
+#~ msgid "We need to add both the external resource and the evaluation calls to the additional origins list of the *Content Security Policy* headers:"
+#~ msgstr "我们需要将外部资源和评估调用添加到 *内容安全策略* 标头的其它源列表中："
+
+#~ msgid "Search for the setting ``WebApp::Server::AdditionalOrigins``."
+#~ msgstr "搜索设置 ``WebApp::Server::AdditionalOrigins``。"
+
+#~ msgid "In case a value for ``script-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
+#~ msgstr "如果 ``script-src`` 已经存在值，请单击旁边的加号按钮。 否则，继续下面的步骤。"
+
+#~ msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external resource to be loaded."
+#~ msgstr "在文本字段中只输入被阻塞资源的域部分。例如: ``https://www.example.com``。这允许加载外部资源。"
+
+#~ msgid "Click on the plus button next to the field, so another value is added."
+#~ msgstr "点击字段旁边的加号按钮，这样就添加了另一个值。"
+
+#~ msgid "Enter the following directive in the new field, including the quotes: ``'unsafe-eval'``. This allows the evaluation calls to be executed."
+#~ msgstr "在新字段中输入以下指令，包括引号: ``'unsafe-eval'``。这允许执行评估调用。"
+
+#~ msgid "There is no need to rebuild the external interface application at this point, as the additional origins configuration should be immediately in effect."
+#~ msgstr "此时不需要重新构建外部人员界面应用程序，因为其它源配置立即生效。"
+
+#~ msgid "If you reload the external interface application, you might get some additional errors. In our example, it might be the following:"
+#~ msgstr "如果重新加载外部人员界面应用程序，可能会得到一些额外的错误。在我们的例子中，可能是这样的:"
+
+#~ msgid "Additional Browser Console Errors and Warnings"
+#~ msgstr "其它的浏览器控制台错误和警告"
+
+#~ msgid "This error points that an additional resource that was also blocked, an image at a specific location (line 1). We can deduce this via the name of the *Content Security Policy* rule ``img-src``, which references an image resource. In order to add it to the whitelist, try the following:"
+#~ msgstr "此错误表示还阻止了另一个资源，即特定位置的图像（第1行）。 我们可以通过引用图像资源的 *内容安全策略* 规则 ``img-src`` 的名称推断出这一点。 要将其添加到白名单，请尝试以下操作："
+
+#~ msgid "In case a value for ``img-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
+#~ msgstr "如果已经存在 ``img-src`` 的值，请单击旁边的加号按钮。 否则，继续下面的步骤。"
+
+#~ msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external image resource to be loaded."
+#~ msgstr "在文本字段中只输入被阻塞资源的域部分。例如: ``https://www.example.com``。这允许加载外部图片资源。"
+
+#~ msgid "Try again to reload the external interface application and check if there are more errors. If not, your scripts are now probably working as expected."
+#~ msgstr "再次尝试重新加载外部人员界面应用程序并检查是否有更多错误。 如果没有，您的脚本现在可能正常工作。"
+
+#~ msgid "Unfortunately, it is not possible to predict what kind of resources your scripts might be requiring. But, no worries, you can whitelist most of them, just make sure to follow the trail of hints shown in the browser console log. Find a corresponding header rule in the configuration and update it accordingly."
+#~ msgstr "不幸的是，无法预测脚本可能需要哪种资源。 但是，不用担心，您可以将其中的大多数列入白名单，只需确保遵循浏览器控制台日志中显示的提示跟踪。 在配置中查找相应的标头规则并相应地进行更新。"
+
+#~ msgid "Some resources might only be requested by others, hence several iterations might be needed until everything is configured properly."
+#~ msgstr "某些资源可能仅由其他人请求，因此可能需要多次迭代才能正确配置所有内容。"
+
+#, fuzzy
+#~ msgid "Whitelisting external resources opens potential security risks in your OTOBO application! Only allow those resources that you are sure are not malicious and come from reputable sources. Keep in mind that if something is secure today, does not mean it will be tomorrow. Stay safe!"
+#~ msgstr "外部资源白名单会在您的 OTRS 应用程序中面临潜在的安全风险！只允许那些您确信没有恶意且来自可靠来源的资源。。 请记住，如果某些资源今天是安全的，那并不意味着它在明天仍然安全。 注意安全！"
 
 #~ msgid "Chat Channels"
 #~ msgstr "聊天频道"

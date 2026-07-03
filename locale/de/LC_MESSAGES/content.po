@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 13:29+0000\n"
+"POT-Creation-Date: 2026-07-03 11:10+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/de/>\n"
@@ -116,9 +116,6 @@ msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Neuen Kale
 #: ../content/administration-area/communication-notifications/email-addresses.rst:41
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:29
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:43
-#: ../content/administration-area/external-interface/custom-pages.rst:30
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:35
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:107
 #: ../content/administration-area/processes-automation/access-control-lists.rst:35
 #: ../content/administration-area/processes-automation/dynamicfields.rst:26
 #: ../content/administration-area/processes-automation/dynamicfields.rst:201
@@ -150,9 +147,6 @@ msgstr "Füllen Sie die Pflichtfelder aus."
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:30
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:44
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:26
-#: ../content/administration-area/external-interface/custom-pages.rst:31
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:36
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:108
 #: ../content/administration-area/processes-automation/access-control-lists.rst:36
 #: ../content/administration-area/processes-automation/dynamicfields.rst:27
 #: ../content/administration-area/processes-automation/dynamicfields.rst:202
@@ -200,9 +194,6 @@ msgstr "Klicken Sie in der Liste der Kalender auf einen Kalender."
 #: ../content/administration-area/communication-notifications/email-addresses.rst:69
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:36
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:54
-#: ../content/administration-area/external-interface/custom-pages.rst:41
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:46
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:118
 #: ../content/administration-area/processes-automation/dynamicfields.rst:37
 #: ../content/administration-area/processes-automation/dynamicfields.rst:212
 #: ../content/administration-area/processes-automation/generic-agent.rst:48
@@ -233,9 +224,6 @@ msgstr "Ändern Sie die Felder."
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:37
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:55
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:32
-#: ../content/administration-area/external-interface/custom-pages.rst:42
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:47
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:119
 #: ../content/administration-area/processes-automation/access-control-lists.rst:48
 #: ../content/administration-area/processes-automation/dynamicfields.rst:38
 #: ../content/administration-area/processes-automation/dynamicfields.rst:213
@@ -343,10 +331,6 @@ msgstr "Kalendereinstellungen"
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:57
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:80
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:64
-#: ../content/administration-area/external-interface/custom-pages.rst:67
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:72
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:144
-#: ../content/administration-area/external-interface/home-page.rst:19
 #: ../content/administration-area/processes-automation/access-control-lists.rst:107
 #: ../content/administration-area/processes-automation/dynamicfields.rst:63
 #: ../content/administration-area/processes-automation/generic-agent.rst:74
@@ -383,7 +367,6 @@ msgstr "Kalendername \\*"
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:85
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:75
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:81
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:76
 #: ../content/administration-area/processes-automation/access-control-lists.rst:111
 #: ../content/administration-area/processes-automation/generic-agent.rst:87
 #: ../content/administration-area/processes-automation/web-services.rst:136
@@ -449,9 +432,6 @@ msgstr "Lesen/Schreiben: Benutzer können die Kalender an sich verwalten."
 #: ../content/administration-area/communication-notifications/email-addresses.rst:115
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:135
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:116
-#: ../content/administration-area/external-interface/custom-pages.rst:81
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:90
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:154
 #: ../content/administration-area/processes-automation/access-control-lists.rst:129
 #: ../content/administration-area/processes-automation/dynamicfields.rst:95
 #: ../content/administration-area/ticket-settings/attachments.rst:77
@@ -478,9 +458,6 @@ msgstr "Gültigkeit \\*"
 #: ../content/administration-area/communication-notifications/email-addresses.rst:110
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:134
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:114
-#: ../content/administration-area/external-interface/custom-pages.rst:80
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:88
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:153
 #: ../content/administration-area/processes-automation/access-control-lists.rst:127
 #: ../content/administration-area/processes-automation/dynamicfields.rst:94
 #: ../content/administration-area/ticket-settings/attachments.rst:76
@@ -621,7 +598,6 @@ msgid "Manage FAQ Categories"
 msgstr "FAQ-Kategorien verwalten"
 
 #: ../content/administration-area/administration/faq-category.rst:17
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:32
 msgid "To add a category:"
 msgstr "So fügen Sie eine Kategorie hinzu:"
 
@@ -638,27 +614,22 @@ msgid "Click on the *Submit* button."
 msgstr "Klicken Sie auf die Schaltfläche *Übermitteln*."
 
 #: ../content/administration-area/administration/faq-category.rst:26
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:41
 msgid "Add Category Screen"
 msgstr "Kategorie hinzufügen"
 
 #: ../content/administration-area/administration/faq-category.rst:28
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:43
 msgid "To edit a category:"
 msgstr "So bearbeiten Sie eine Kategorie:"
 
 #: ../content/administration-area/administration/faq-category.rst:30
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:45
 msgid "Click on a category in the list of categories."
 msgstr "Klicken Sie in der Liste der Kategorien auf eine Kategorie."
 
 #: ../content/administration-area/administration/faq-category.rst:37
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:52
 msgid "Edit Category Screen"
 msgstr "Kategorien bearbeiten"
 
 #: ../content/administration-area/administration/faq-category.rst:39
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:54
 msgid "To delete a category:"
 msgstr "So löschen Sie eine Kategorie:"
 
@@ -672,7 +643,6 @@ msgid "Click on the *Yes* button in the confirmation dialog."
 msgstr "Klicken Sie im Bestätigungs-Dialog auf die Schaltfläche *Ja*."
 
 #: ../content/administration-area/administration/faq-category.rst:47
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:62
 msgid "Delete Category Screen"
 msgstr "Kategorie löschen"
 
@@ -707,7 +677,6 @@ msgid "Subcategory of"
 msgstr "Unterkategorie von"
 
 #: ../content/administration-area/administration/faq-category.rst:62
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:81
 msgid "It is possible to add the new category under an existing one as sub-category. This will be displayed as *Parent Category::Child Category*."
 msgstr "Es ist möglich, die neue Kategorie unter einer bestehenden Kategorie als Unterkategorie hinzuzufügen. Dies wird als *Eltern-Kategorie::Kind-Kategorie* angezeigt."
 
@@ -1454,9 +1423,6 @@ msgstr "Systemkonfiguration - Einstellung zurücksetzen"
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:65
 #: ../content/administration-area/communication-notifications/s-mime-certificates.rst:65
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:37
-#: ../content/administration-area/external-interface/custom-pages.rst:52
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:57
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:129
 #: ../content/administration-area/processes-automation/dynamicfields.rst:48
 #: ../content/administration-area/processes-automation/generic-agent.rst:59
 #: ../content/administration-area/ticket-settings/attachments.rst:47
@@ -2822,7 +2788,6 @@ msgid "Select which calendar the related appointment needs to be part of."
 msgstr "Wählen Sie aus, zu welchem Kalender der zugehörige Termin gehören soll."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:170
-#: ../content/administration-area/external-interface/home-page.rst:34
 #: ../content/administration-area/processes-automation/process-management.rst:211
 msgid "Title"
 msgstr "Titel"
@@ -3116,9 +3081,6 @@ msgstr "Der lokalisierte Betreff für eine spezifische Sprache."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:305
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:391
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:164
-#: ../content/administration-area/external-interface/home-page.rst:104
-#: ../content/administration-area/external-interface/home-page.rst:187
 msgid "Text \\*"
 msgstr "Text \\*"
 
@@ -4727,827 +4689,6 @@ msgstr "OTOBO bietet Zugriff auf die Erstellung und Verwaltung von Anforderungen
 msgid "The following chapter describes the administration tools needed to implement corporate identity and manage language-based content."
 msgstr "Im folgenden Kapitel werden die Administrationswerkzeuge beschrieben, die zur Implementierung der Unternehmensidentität und zur Verwaltung sprach-basierter Inhalte erforderlich sind."
 
-#: ../content/administration-area/external-interface/custom-pages.rst:2
-msgid "Custom Pages"
-msgstr "Benutzerdefinierte Seiten"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:6
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:6
-#: ../content/administration-area/external-interface/home-page.rst:6
-#: ../content/administration-area/external-interface/layout.rst:6
-msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution."
-msgstr ""
-
-#: ../content/administration-area/external-interface/custom-pages.rst:9
-msgid "Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group."
-msgstr "Verwenden Sie diese Ansicht, um benutzerdefinierte Seiten für das externe Interface hinzuzufügen. Eine neue OTOBO-Installation beinhaltet bereits standardmäßig einige Seiten. Die Seite zur Verwaltung von benutzerdefinierten Seiten ist im Modul *Benutzerdefinierte Seiten* in der Gruppe *Externes Interface* verfügbar."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:16
-msgid "Custom Page Management Screen"
-msgstr "Verwaltung benutzerdefinierter Seiten"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:20
-msgid "Manage Custom Pages"
-msgstr "Benutzerdefinierte Seiten verwalten"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:24
-#: ../content/administration-area/external-interface/home-page.rst:16
-#: ../content/administration-area/external-interface/layout.rst:22
-msgid "Make sure to save your changes when you finish. The new configuration will be immediately deployed."
-msgstr "Achten Sie darauf, dass Sie Ihre Änderungen speichern, wenn Sie fertig sind. Die neue Konfiguration wird sofort in Betrieb genommen."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:27
-msgid "To add a custom page:"
-msgstr "So fügen Sie eine benutzerdefinierte Seite hinzu:"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:29
-#, fuzzy
-msgid "Click on the *Add Custom Page* button in the left sidebar."
-msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Eigene Seiten hinzufügen*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:36
-#, fuzzy
-msgid "Add Custom Page Screen"
-msgstr "So fügen Sie eine eigene Seite hinzu:"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:38
-msgid "To edit a custom page:"
-msgstr "So bearbeiten Sie eine eigene Seite:"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:40
-msgid "Click on a custom page in the list of custom pages."
-msgstr "Klicken Sie in der Liste der benutzerdefinierten Seiten auf eine Seite."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:47
-msgid "Edit Custom Page Screen"
-msgstr "Eigene Seite bearbeiten"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:49
-msgid "To delete a custom page:"
-msgstr "So löschen Sie eine eigene Seite:"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:51
-#: ../content/administration-area/processes-automation/generic-agent.rst:58
-#, fuzzy
-msgid "Click on the trash icon in the fourth column of the overview table."
-msgstr "Klicken Sie in der vierten Spalte der Übersichtstabelle auf das Papierkorb-Symbol"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:57
-msgid "Delete Custom Page Screen"
-msgstr "Eigene Seiten löschen"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:61
-msgid "If several custom pages are added to the system, use the filter box to find a particular custom page by just typing the name to filter."
-msgstr "Wenn dem System mehrere benutzerdefinierte Seiten hinzugefügt werden, verwenden Sie das Filterfeld, um eine bestimmte benutzerdefinierte Seite zu finden, indem Sie einfach den zu filternden Namen eingeben."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:65
-msgid "Custom Page Settings"
-msgstr "Einstellungen für eigene Seiten"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:73
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:150
-msgid "Internal Title \\*"
-msgstr "Interner Titel \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:71
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:148
-msgid "The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
-msgstr "Der Name dieser Ressource, der nur im Admin-Interface angezeigt wird. In dieses Feld können beliebige Zeichen eingegeben werden, einschließlich Großbuchstaben und Leerzeichen. Der Name wird in der Übersichtstabelle angezeigt."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:77
-msgid "Slug \\*"
-msgstr "Pfad \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:76
-msgid "This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign."
-msgstr "Dies ist die URL der benutzerdefinierten Seite. Empfohlene Zeichen sind Kleinbuchstaben, Zahlen und Minuszeichen."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-msgid "Custom Page Content"
-msgstr "Inhalt der eigenen Seite"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:84
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:157
-msgid "In this widget can be added some localized content for the item."
-msgstr "In diesem Widget können einige lokalisierte Inhalte für das Element hinzugefügt werden."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:88
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:78
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:161
-#: ../content/administration-area/external-interface/home-page.rst:101
-#: ../content/administration-area/external-interface/home-page.rst:133
-#: ../content/administration-area/external-interface/home-page.rst:184
-msgid "Title \\*"
-msgstr "Titel \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:87
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:160
-msgid "The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces."
-msgstr "Der Name dieser Ressource in der gegebenen Sprache. In dieses Feld können beliebige Zeichen eingegeben werden, einschließlich Großbuchstaben und Leerzeichen."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:91
-msgid "Content \\*"
-msgstr "Inhalt \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:91
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:164
-msgid "The text for this item in the given language."
-msgstr "Der Inhalt für dieses Element in der gegebenen Sprache."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-msgid "Add new custom page content"
-msgstr "Neuen Inhalt für die eigene Seite hinzufügen"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above."
-msgstr "Wählen Sie aus, welche Sprachen hinzugefügt werden sollen, um lokalisierte Inhalte zu erstellen. Alle hinzugefügten Sprachen können ihre eigenen lokalisierten Inhalte enthalten, die oben erläutert werden."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:2
-msgid "Customer Service Catalogue"
-msgstr "Kunden-Service-Katalog"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:9
-msgid "Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group."
-msgstr "Verwenden Sie diese Ansicht, um Kategorien und Elemente zur Benutzung im externen Internface hinzuuzufügen. Eine neue OTOBO-Installation beinhaltet standardmäßig keine Kategorien und Elemente. Die Seite zur Verwaltung des Katalogs ist im Modul *Kunden-Service-Katalog* in der Gruppe *Externes Interface* verfügbar."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:13
-msgid "This module consists of two management screens: a category management screen and an item management screen."
-msgstr "Diese Modul beinhaltet zwei Bereiche: Ein Bereich zur Verwaltung der Kategorien und einen Bereich zur Verwaltung der Einträge."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:18
-msgid "Customer Service Catalogue Management Screen"
-msgstr "Kunden-Service-Katalog - Verwaltung"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:22
-msgid "Manage Categories"
-msgstr "Kategorien verwalten"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:24
-msgid "Use this screen to add categories to collect the same items into groups. The *Category Management* screen in available via the *Go to category management* button or via the *Category Management* module."
-msgstr "Verwenden Sie diesen Bereich, um Kategorien für die Sammlung gleicher Einträge in Gruppen. Der Bereich *Kategorien-Verwaltung* ist über die Schaltfläche *Gehe zum Kategorie-Mangement* oder über das Modul *Kategorien-Verwaltung* verfügbar."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:30
-msgid "Category Management Screen"
-msgstr "Kategorien-Verwalten"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:34
-msgid "Click on the *Add Category* button in the left sidebar."
-msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Kategorie hinzufügen*."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:56
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:128
-msgid "Click on the trash icon in the *Delete* column of the overview table."
-msgstr "Klicken Sie in der Spalte *Löschen* in der Übersichtstabelle auf das Papierkorb-Symbol."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:66
-msgid "If several categories are added to the system, use the filter box to find a particular category by just typing the name to filter."
-msgstr "Wenn dem System mehrere Kategorien hinzugefügt wurden, verwenden Sie das Filterfeld, um eine bestimmte Kategorie zu finden, indem Sie einfach den zu filternden Namen eingeben."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:70
-msgid "Category Settings"
-msgstr "Kategorie-Einstellungen"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:82
-msgid "Sub-category of"
-msgstr "Unterkategorie von"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:85
-msgid "Language \\*"
-msgstr "Sprache \\*"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:85
-msgid "Select a language from the available languages of the system."
-msgstr "Wählen Sie eine Sprache aus den verfügbaren Sprachen des Systems aus."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:93
-msgid "Manage Items"
-msgstr "Einträge verwalten"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:95
-msgid "Use this screen to add items to the catalogue. Items can be collected into categories. The *Item Management* screen in available via the *Go to item management* button or via the *Item Management* module."
-msgstr "Verwenden Sie diesen Bereich, um Einträge zu einem Katalog hinzuzufügen. Der Bereich *Eintrag-Verwaltung* ist über die Schaltfläche *Gehe zur Eintrag-Verwaltung* oder über das Modul *Eintrag-Verwaltung* verfügbar."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:102
-msgid "Item Management Screen"
-msgstr "Eintrag-Verwaltung"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:104
-msgid "To add an item:"
-msgstr "So fügen Sie ein Einträge hinzu:"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:106
-msgid "Click on the *Add Item* button in the left sidebar."
-msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Eintrag hinzufügen*."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:113
-msgid "Add Item Screen"
-msgstr "Eintrag hinzufügen"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:115
-msgid "To edit an item:"
-msgstr "So bearbeiten Sie einen Eintrag:"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:117
-msgid "Click on an item in the list of items."
-msgstr "Klicken Sie in der Liste mit den Einträgen auf einen Eintrag."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:124
-msgid "Edit Item Screen"
-msgstr "Eintrag bearbeiten"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:126
-msgid "To delete an item:"
-msgstr "So löschen Sie einen Eintrag:"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:134
-msgid "Delete Item Screen"
-msgstr "Eintrag löschen"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:138
-msgid "If several items are added to the system, use the filter box to find a particular item by just typing the name to filter."
-msgstr "Wenn dem System mehrere Einträge hinzugefügt wurden, verwenden Sie das Filterfeld, um einen bestimmten Eintrag zu finden, indem Sie einfach den zu filternden Namen eingeben."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:142
-msgid "Item Settings"
-msgstr "Einstellungen für Einträge"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Item Content"
-msgstr "Eintrag-Inhalt"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:171
-msgid "Categories"
-msgstr "Kategorien"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:167
-msgid "One ore more categories can be selected for the item in which the item should be visible."
-msgstr "Es können eine oder mehrere Kategorien gewählt werden, in denen der Eintrag sichtbar sein soll."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:171
-msgid "Only those categories can be selected, that have the same language as the selected language for this widget."
-msgstr "Es können nur die Kategorien ausgewählt werden, die die gleiche Sprache wie die ausgewählte Sprache für dieses Widget haben."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:174
-msgid "Link \\*"
-msgstr "Verknüpfen \\*"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:174
-msgid "A link to an internal or an external URL."
-msgstr "Eine Verknüpfung auf eine interne oder externe URL."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Add new item content"
-msgstr "Inhalt zum Eintrag hinzufügen"
-
-#: ../content/administration-area/external-interface/home-page.rst:2
-msgid "Home Page"
-msgstr "Homepage"
-
-#: ../content/administration-area/external-interface/home-page.rst:9
-msgid "Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group."
-msgstr "Auf dieser Seite können Sie die Konfiguration der Homepage für verschiedene Benutzersprachen definieren, die im externen Interface angezeigt werden. Die Seite zur Verwaltung der Homepage ist im Modul *Homepage* in der Gruppe *External Interface* verfügbar."
-
-#: ../content/administration-area/external-interface/home-page.rst:12
-msgid "This screen contains several widget for each languages, where localized content can be added."
-msgstr "Diese Seite enthält mehrere Widgets für jede Sprache, in denen lokalisierte Inhalte hinzugefügt werden können."
-
-#: ../content/administration-area/external-interface/home-page.rst:24
-msgid "Hero Unit"
-msgstr "Hauptinhalt"
-
-#: ../content/administration-area/external-interface/home-page.rst:31
-msgid "Hero Unit Widget"
-msgstr "Hauptinhalt Widget"
-
-#: ../content/administration-area/external-interface/home-page.rst:34
-msgid "This is the most important sentence or motto of the home page."
-msgstr "Dies ist der wichtigste Satz oder das wichtigste Motto der Homepage."
-
-#: ../content/administration-area/external-interface/home-page.rst:42
-msgid "Background Style"
-msgstr "Hintergrundstil"
-
-#: ../content/administration-area/external-interface/home-page.rst:37
-msgid "Define the behavior of background image and background color. The following options are available:"
-msgstr "Definieren Sie das Verhalten von Hintergrundbild und Hintergrundfarbe. Die folgenden Optionen stehen zur Verfügung:"
-
-#: ../content/administration-area/external-interface/home-page.rst:40
-#, fuzzy
-msgid "Only use the background image"
-msgstr "Nur das Hintergrundbild verwenden."
-
-#: ../content/administration-area/external-interface/home-page.rst:41
-#, fuzzy
-msgid "Only use the background color"
-msgstr "Nur die Hintergrundfarbe verwenden."
-
-#: ../content/administration-area/external-interface/home-page.rst:42
-#, fuzzy
-msgid "Use the background image and overlay it with the selected color"
-msgstr "Hintergrundbild nutzen und mit der ausgewählten Farbe überlagern."
-
-#: ../content/administration-area/external-interface/home-page.rst:46
-msgid "Background Image"
-msgstr "Hintergrundbild"
-
-#: ../content/administration-area/external-interface/home-page.rst:45
-msgid "Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr "Wählen Sie ein Bild aus, das als Hintergrundbild für den Hauptinhalt verwendet wird. Um ein Bild auszuwählen, klicken Sie auf die Schaltfläche *Bild für Upload auswählen* und wählen Sie ein Bild aus Ihrem Dateisystem."
-
-#: ../content/administration-area/external-interface/home-page.rst:51
-msgid "Background Color"
-msgstr "Hintergrundfarbe"
-
-#: ../content/administration-area/external-interface/home-page.rst:49
-#: ../content/administration-area/external-interface/home-page.rst:86
-msgid "To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
-msgstr "Um die Hintergrundfarbe zu ändern, wählen Sie einfach eine neue Farbe aus der Farbpalette aus. Sie können aus den vorgewählten Farben wählen oder andere Farben definieren, indem Sie sie aus der Farbauswahl auswählen oder den hexadezimalen Wert eingeben."
-
-#: ../content/administration-area/external-interface/home-page.rst:54
-msgid "Ticket List"
-msgstr "Ticket-Liste"
-
-#: ../content/administration-area/external-interface/home-page.rst:61
-msgid "Ticket List Widget"
-msgstr "Ticket-Liste Widget"
-
-#: ../content/administration-area/external-interface/home-page.rst:64
-msgid "Show a ticket list for logged in users"
-msgstr "Eine Ticket-Liste für die angemeldeten Benutzer anzeigen"
-
-#: ../content/administration-area/external-interface/home-page.rst:64
-msgid "This setting defines if the ticket list should be visible for logged in users or not."
-msgstr "Diese Einstellung legt fest, ob die Ticket-Liste für angemeldete Benutzer sichtbar sein soll oder nicht."
-
-#: ../content/administration-area/external-interface/home-page.rst:68
-#: ../content/administration-area/external-interface/home-page.rst:83
-#: ../content/administration-area/external-interface/home-page.rst:123
-#: ../content/administration-area/external-interface/home-page.rst:174
-msgid "Row Title"
-msgstr "Zeilentitel"
-
-#: ../content/administration-area/external-interface/home-page.rst:67
-#: ../content/administration-area/external-interface/home-page.rst:83
-#: ../content/administration-area/external-interface/home-page.rst:123
-#: ../content/administration-area/external-interface/home-page.rst:174
-msgid "This is an optional title for the row, that contains this widget in the external interface."
-msgstr "Dies ist ein optionaler Titel für die Zeile, die dieses Widget im externen Interface enthält."
-
-#: ../content/administration-area/external-interface/home-page.rst:71
-msgid "Image Teasers"
-msgstr "Bild-Teaser"
-
-#: ../content/administration-area/external-interface/home-page.rst:75
-msgid "The image teasers are displayed in a separate row in the external interface."
-msgstr "Die Bild-Teaser werden in einer separaten Zeile im externen Interface angezeigt."
-
-#: ../content/administration-area/external-interface/home-page.rst:80
-msgid "Image Teasers Widget"
-msgstr "Bild-Teaser Widget"
-
-#: ../content/administration-area/external-interface/home-page.rst:87
-msgid "Row Background Color"
-msgstr "Zeilen-Hintergrundfarbe"
-
-#: ../content/administration-area/external-interface/home-page.rst:89
-msgid "You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget."
-msgstr "Sie können bis zu drei Bild-Teaser hinzufügen, wenn Sie auf die Schaltfläche *Hinzufügen* in der rechten oberen Ecke des Widgets klicken."
-
-#: ../content/administration-area/external-interface/home-page.rst:94
-msgid "Image Teaser"
-msgstr "Bild-Teaser"
-
-#: ../content/administration-area/external-interface/home-page.rst:98
-msgid "Image"
-msgstr "Bild"
-
-#: ../content/administration-area/external-interface/home-page.rst:97
-msgid "Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr "Wählen Sie ein Bild aus, um es im Bild-Teaser Widget anzuzeigen. Um ein Bild auszuwählen, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein Bild aus Ihrem Dateisystem."
-
-#: ../content/administration-area/external-interface/home-page.rst:101
-#: ../content/administration-area/external-interface/home-page.rst:133
-#: ../content/administration-area/external-interface/home-page.rst:184
-msgid "The heading text that are displayed in this item."
-msgstr "Der Überschriftentext, der in diesem Element angezeigt wird."
-
-#: ../content/administration-area/external-interface/home-page.rst:104
-#: ../content/administration-area/external-interface/home-page.rst:187
-msgid "The text for this item."
-msgstr "Der Text für dieses Element."
-
-#: ../content/administration-area/external-interface/home-page.rst:108
-msgid "Link Target \\*"
-msgstr "Link-Ziel \\*"
-
-#: ../content/administration-area/external-interface/home-page.rst:107
-#: ../content/administration-area/external-interface/home-page.rst:193
-msgid "An URL that will be opened after clicking on this item in the external interface."
-msgstr "Eine URL, die nach dem Klicken auf dieses Element im externen Interface geöffnet wird."
-
-#: ../content/administration-area/external-interface/home-page.rst:111
-msgid "Link Lists"
-msgstr "Link-Listen"
-
-#: ../content/administration-area/external-interface/home-page.rst:115
-#: ../content/administration-area/external-interface/home-page.rst:166
-msgid "The link lists are displayed in a separate row in the external interface."
-msgstr "Die Link-Listen werden in einer separaten Zeile im externen Interface angezeigt."
-
-#: ../content/administration-area/external-interface/home-page.rst:120
-msgid "Link Lists Widget"
-msgstr "Link-Listen Widget"
-
-#: ../content/administration-area/external-interface/home-page.rst:125
-msgid "You can add up to four link lists by clicking on the *Add* button in the top right corner of the widget."
-msgstr "Sie können bis zu vier Link-Listen hinzufügen, indem Sie auf die Schaltfläche *Hinzufügen* in der oberen rechten Ecke des Widgets klicken."
-
-#: ../content/administration-area/external-interface/home-page.rst:130
-msgid "Link List"
-msgstr "Link-Liste"
-
-#: ../content/administration-area/external-interface/home-page.rst:136
-#: ../content/administration-area/external-interface/home-page.rst:190
-msgid "Link Text"
-msgstr "Link-Text"
-
-#: ../content/administration-area/external-interface/home-page.rst:136
-#: ../content/administration-area/external-interface/home-page.rst:190
-msgid "Add the text for the *show more* link."
-msgstr "Geben Sie den Text für den *Mehr anzeigen*-Link ein."
-
-#: ../content/administration-area/external-interface/home-page.rst:139
-#: ../content/administration-area/external-interface/home-page.rst:192
-msgid "Link Target"
-msgstr "Link-Ziel"
-
-#: ../content/administration-area/external-interface/home-page.rst:139
-msgid "Add the URL for the *show more* link."
-msgstr "Geben Sie die URL für den *Mehr anzeigen*-Link ein."
-
-#: ../content/administration-area/external-interface/home-page.rst:159
-msgid "Link List Type \\*"
-msgstr "Link-Listentyp"
-
-#: ../content/administration-area/external-interface/home-page.rst:142
-msgid "Specifies the functionality how the item will be added."
-msgstr "Gibt die Funktionalität an, wie das Element hinzugefügt wird."
-
-#: ../content/administration-area/external-interface/home-page.rst:0
-#: ../content/administration-area/external-interface/home-page.rst:150
-msgid "Add the Items Manually"
-msgstr "Einträge manuell hinzufügen"
-
-#: ../content/administration-area/external-interface/home-page.rst:145
-#: ../content/administration-area/external-interface/home-page.rst:153
-#, fuzzy
-msgid "Clicking on the edit button a new widget will be visible to add the items."
-msgstr "Wenn Sie auf die Schaltfläche *Bearbeiten* klicken, wird ein neues Widget angezeigt, um die Elemente hinzuzufügen."
-
-#: ../content/administration-area/external-interface/home-page.rst:0
-#: ../content/administration-area/external-interface/home-page.rst:158
-#: ../content/administration-area/external-interface/home-page.rst:159
-msgid "Show the Results of a Search"
-msgstr "Zeige die Ergebnis der Suche"
-
-#: ../content/administration-area/external-interface/home-page.rst:162
-msgid "Content Cards"
-msgstr "Inhaltkarten"
-
-#: ../content/administration-area/external-interface/home-page.rst:171
-msgid "Content Cards Widget"
-msgstr "Inhaltskarten Widget"
-
-#: ../content/administration-area/external-interface/home-page.rst:176
-msgid "You can add up to three content cards by clicking on the *Add* button in the top right corner of the widget."
-msgstr "Sie können bis zu drei Inhaltskarten hinzufügen, wenn Sie auf die Schaltfläche *Hinzufügen* klicken."
-
-#: ../content/administration-area/external-interface/home-page.rst:181
-msgid "Content Card"
-msgstr "Inhaltkarte"
-
-#: ../content/administration-area/external-interface/layout.rst:2
-msgid "Layout"
-msgstr "Layout"
-
-#: ../content/administration-area/external-interface/layout.rst:9
-msgid "Use this screen to edit the layout displayed in external interface. The layout management screen is available in the *Layout* module of the *External Interface* group."
-msgstr "Verwenden Sie diese Ansicht, um das Layout des externen Interface zu bearbeiten. Die Layout-Verwaltung ist im Modul *Layout* in der Gruppe *External Interface* verfügbar."
-
-#: ../content/administration-area/external-interface/layout.rst:15
-msgid "Edit Layout Screen"
-msgstr "Layout bearbeiten"
-
-#: ../content/administration-area/external-interface/layout.rst:17
-msgid "A fresh OTOBO installation already contains a default layout. In this screen all parameters can be changed."
-msgstr "Eine neue OTOBO-Installation beinhaltet bereits ein Standard-Layout. Auf dieser Seite können alle Parameter geändert werden."
-
-#: ../content/administration-area/external-interface/layout.rst:29
-msgid "Logo"
-msgstr "Logo"
-
-#: ../content/administration-area/external-interface/layout.rst:26
-msgid "The logo is a small image that is displayed in the top left corner of the external pages."
-msgstr "Das Logo ist ein kleine Bild, das auf Seiten des externen Interface in der linken, oberen Ecke angezeigt wird."
-
-#: ../content/administration-area/external-interface/layout.rst:28
-msgid "To change the logo, click on the *Select image to upload* button, and select a new logo image. Recommended file format is PNG."
-msgstr "Um das Logo zu ändern, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein neues Bild für das Logo. Empfohlenes Dateiformat ist PNG."
-
-#: ../content/administration-area/external-interface/layout.rst:35
-msgid "Favicon"
-msgstr "Favicon"
-
-#: ../content/administration-area/external-interface/layout.rst:32
-msgid "The `favorite icon <https://en.wikipedia.org/wiki/Favicon>`_ is an icon that is displayed in the URL bar of the web browser."
-msgstr "Das 'Favicon <https://de.wikipedia.org/wiki/Favicon>`- ist ein Icon, dass in der URL-Zeile eines Webbrowsers angezeigt wird."
-
-#: ../content/administration-area/external-interface/layout.rst:34
-msgid "To change the favorite icon, click on the *Select image to upload* button, and select a new icon. This is usually a 16×16 pixel image in PNG or ICO format."
-msgstr "Um das Favicon zu ändern, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein neues Icon. Das ist gewöhnlich ein Bild mit 16x16 Pixel im Format PNG oder ICO."
-
-#: ../content/administration-area/external-interface/layout.rst:42
-msgid "Primary Color"
-msgstr "Hauptfarbe"
-
-#: ../content/administration-area/external-interface/layout.rst:38
-msgid "Primary color is the most important color of the external pages (see the preview screen)."
-msgstr "Die Primärfarbe ist die wichtigste Farbe der externen Seiten (siehe Vorschaufenster)."
-
-#: ../content/administration-area/external-interface/layout.rst:40
-msgid "To change the primary color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr "Um die Hauptfarbe zu ändern, wählen Sie einfach eine Farbe aus der Farbpalette. Sie können aus den vorgewählten Farben wählen oder andere Farben definieren, indem Sie sie aus dem Farbauswahlschalter auswählen oder den hexadezimalen Wert eingeben. Die neue Farbe wird unmittelbar in der Vorschau im Widget angezeigt."
-
-#: ../content/administration-area/external-interface/layout.rst:49
-msgid "Highlight Color"
-msgstr "Hervorhebungsfarbe"
-
-#: ../content/administration-area/external-interface/layout.rst:45
-msgid "Highlight color is the second color of the external pages using for status badges, links, etc."
-msgstr "Die Hervorhebungsfarbe ist die zweite Farbe der externen Seiten, die für Statuskennzeichnungen, Links usw. verwendet wird."
-
-#: ../content/administration-area/external-interface/layout.rst:47
-msgid "To change the highlight color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr "Um die Hervorhebungsfarbe zu ändern, wählen Sie einfach eine Farbe aus der Farbpalette. Sie können aus den vorgewählten Farben wählen oder andere Farben definieren, indem Sie sie aus dem Farbauswahlschalter auswählen oder den hexadezimalen Wert eingeben. Die neue Farbe wird unmittelbar in der Vorschau im Widget angezeigt."
-
-#: ../content/administration-area/external-interface/layout.rst:54
-msgid "Default Avatar"
-msgstr "Standard-Avatar"
-
-#: ../content/administration-area/external-interface/layout.rst:52
-msgid "Will be used as the default avatar for all outgoing communication."
-msgstr "Wird als Standard-Avatar für alle ausgehende Kommunikation verwendet."
-
-#: ../content/administration-area/external-interface/layout.rst:54
-msgid "To change the avatar, click on the *Select image to upload* button, and select a new avatar image."
-msgstr "Um den Avatar zu ändern, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein neues Bild für den Avatar."
-
-#: ../content/administration-area/external-interface/layout.rst:63
-msgid "Custom CSS"
-msgstr "Benutzerdefinierte CSS"
-
-#: ../content/administration-area/external-interface/layout.rst:57
-msgid "Use this text area to add custom CSS to be applied in the external interface."
-msgstr "Verwenden Sie dieses Textfeld, um benutzerdefiniertes CSS hinzuzufügen, das auf das externe Interface angewendet wird."
-
-#: ../content/administration-area/external-interface/layout.rst:0
-#: ../content/administration-area/external-interface/layout.rst:62
-msgid "Custom CSS Widget"
-msgstr "Benutzerdefinierte CSS"
-
-#: ../content/administration-area/external-interface/layout.rst:66
-msgid "Include Custom Scripts"
-msgstr "Benutzerdefinierte Skripte einbinden"
-
-#: ../content/administration-area/external-interface/layout.rst:68
-msgid "External interface application has been built with security-first mindset in place. It contains several mechanisms to make sure that all code in the front end is provided directly by the OTOBO framework."
-msgstr "Das externe Interface wurde mit einer sicherheitskritischen Denkweise entwickelt. Es enthält mehrere Mechanismen, um sicherzustellen, dass der gesamte Code im Frontend direkt vom OTOBO-Framework bereitgestellt wird."
-
-#: ../content/administration-area/external-interface/layout.rst:71
-msgid "In addition, a security standard called `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ headers is now leveraged by the built-in web server. It serves as a last line of defense and in case some unexpected code still makes it to the client, it will make sure that the user’s browser simply refuses to run it."
-msgstr "Zusätzlich wird nun ein Sicherheitsstandard namens `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ Header vom integrierten Webserver genutzt. Es dient als letzte Verteidigungslinie und stellt sicher, falls noch unerwarteter Code zum Client gelangt, dass sich der Browser des Benutzers einfach weigert, den Code auszuführen."
-
-#: ../content/administration-area/external-interface/layout.rst:74
-msgid "However, a use-case still exists in which even a modern web application might still need to run some additional code, provided it is vetted and included by the administrators. One example could be an external integrated chat solution, but could also be an inline code snippet used for external web analytics."
-msgstr "Es gibt jedoch noch einen Anwendungsfall, in dem auch eine moderne Webanwendung möglicherweise noch zusätzlichen Code ausführen muss, vorausgesetzt, er wird von den Administratoren überprüft und eingebunden. Ein Beispiel könnte eine externe integrierte Chat-Lösung sein, aber auch ein Inline-Codeausschnitt, der für externe Web-Analysen verwendet wird."
-
-#: ../content/administration-area/external-interface/layout.rst:79
-msgid "Including custom scripts can be done in the :doc:`../administration/system-configuration` with the following settings:"
-msgstr "Das Einbinden von benutzerdefinierten Skripten kann in der :doc:`../administration/system-configuration` mit den folgenden Einstellungen erfolgen:"
-
-#: ../content/administration-area/external-interface/layout.rst:81
-msgid "``ExternalFrontend::ExternalScripts``"
-msgstr "``ExternalFrontend::ExternalScripts``"
-
-#: ../content/administration-area/external-interface/layout.rst:82
-msgid "``ExternalFrontend::InlineScripts``"
-msgstr "``ExternalFrontend::InlineScripts``"
-
-#: ../content/administration-area/external-interface/layout.rst:83
-msgid "``WebApp::Server::AdditionalOrigins``"
-msgstr "``WebApp::Server::AdditionalOrigins``"
-
-#: ../content/administration-area/external-interface/layout.rst:87
-msgid "Web Analytics Example"
-msgstr "Beispiel für Web-Analysen"
-
-#: ../content/administration-area/external-interface/layout.rst:89
-msgid "In this example, we outline the steps to include custom scripts used by a web analytics provider in the external interface application. They will be run each time the application is used in order to track and report the behavior of the user for later analysis."
-msgstr "Nachfolgend werden die Schritte beschrieben, die erforderlich sind, um benutzerdefinierte Skripte, die von einem Web-Analytics-Anbieter verwendet werden, in die externe Interface-App aufzunehmen. Sie werden bei jeder Nutzung der App ausgeführt, um das Verhalten des Benutzers für eine spätere Analyse zu verfolgen und zu melden."
-
-#: ../content/administration-area/external-interface/layout.rst:92
-msgid "We start with the provided code snippet below, from a third party provider."
-msgstr "Wir beginnen mit dem untenstehenden Code-Ausschnitt eines Drittanbieters."
-
-#: ../content/administration-area/external-interface/layout.rst:105
-#, fuzzy
-msgid "First line of the snippet refers to an *external* resource which should be loaded by the ``script`` tag."
-msgstr "Die erste Zeile des Snippets bezieht sich auf eine **externe** Ressource, die mit dem ``script`` Tag geladen werden soll."
-
-#: ../content/administration-area/external-interface/layout.rst:107
-#, fuzzy
-msgid "In the script block below, we have some *inline* code which is run immediately when the page is loaded."
-msgstr "Im untenstehenden Skriptblock befindet sich **inline** Code, der sofort ausgeführt wird, wenn die Seite geladen wird."
-
-#: ../content/administration-area/external-interface/layout.rst:111
-msgid "Adding External Script Resources"
-msgstr "Externe Skriptressourcen hinzufügen"
-
-#: ../content/administration-area/external-interface/layout.rst:113
-msgid "First, we need to include the external script location in the appropriate configuration:"
-msgstr "Zuerst müssen wir den externen Skript-Speicherort in die entsprechende Konfiguration aufnehmen:"
-
-#: ../content/administration-area/external-interface/layout.rst:115
-#: ../content/administration-area/external-interface/layout.rst:131
-#: ../content/administration-area/external-interface/layout.rst:184
-#: ../content/administration-area/external-interface/layout.rst:209
-#, fuzzy
-msgid "Go to the *System Configuration* screen."
-msgstr "Gehen Sie zur *Systemkonfiguration*"
-
-#: ../content/administration-area/external-interface/layout.rst:116
-msgid "Search for the setting ``ExternalFrontend::ExternalScripts``."
-msgstr "Suchen Sie nach der Einstellung ``ExternalFrontend::ExternalScripts``."
-
-#: ../content/administration-area/external-interface/layout.rst:117
-#: ../content/administration-area/external-interface/layout.rst:133
-#: ../content/administration-area/external-interface/layout.rst:186
-#: ../content/administration-area/external-interface/layout.rst:211
-msgid "Click on the setting in order to edit it."
-msgstr "Klicken Sie auf die Einstellung, um sie zu bearbeiten."
-
-#: ../content/administration-area/external-interface/layout.rst:118
-#: ../content/administration-area/external-interface/layout.rst:134
-msgid "In case a value is already present, click on the plus button. Otherwise, proceed below."
-msgstr "Klicken Sie, wenn bereits ein Wert vorhanden ist, auf die Schaltfläche Plus. Andernfalls gehen Sie wie folgt vor."
-
-#: ../content/administration-area/external-interface/layout.rst:120
-#, fuzzy
-msgid "Enter the full location of the *external* resource in the text field. For example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
-msgstr "Geben Sie den vollständigen Standort der **externen** Ressource in das Textfeld ein, z.B. ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
-
-#: ../content/administration-area/external-interface/layout.rst:122
-#: ../content/administration-area/external-interface/layout.rst:147
-#: ../content/administration-area/external-interface/layout.rst:193
-#: ../content/administration-area/external-interface/layout.rst:216
-msgid "Click on the check mark in order to save the modified setting."
-msgstr "Klicken Sie auf das Kontrollkästchen, um die geänderte Einstellung zu speichern."
-
-#: ../content/administration-area/external-interface/layout.rst:123
-#: ../content/administration-area/external-interface/layout.rst:148
-#: ../content/administration-area/external-interface/layout.rst:194
-#: ../content/administration-area/external-interface/layout.rst:217
-#: ../content/administration-area/processes-automation/dynamicfields.rst:500
-#: ../content/administration-area/processes-automation/dynamicfields.rst:523
-#: ../content/administration-area/processes-automation/dynamicfields.rst:536
-#: ../content/administration-area/processes-automation/dynamicfields.rst:561
-msgid "Deploy the modified system configuration."
-msgstr "Nehmen Sie die geänderte Systemkonfiguration in Betrieb."
-
-#: ../content/administration-area/external-interface/layout.rst:127
-msgid "Adding Inline Code Snippets"
-msgstr "Inline-Codeausschnitte hinzufügen"
-
-#: ../content/administration-area/external-interface/layout.rst:129
-msgid "Next, we have to also include the inline part of the original snippet:"
-msgstr "Als nächstes müssen wir auch den Inline-Teil des Originalausschnitts einbinden:"
-
-#: ../content/administration-area/external-interface/layout.rst:132
-msgid "Search for the setting ``ExternalFrontend::InlineScripts``."
-msgstr "Suchen Sie nach der Einstellung ``ExternalFrontend::InlineScripts``."
-
-#: ../content/administration-area/external-interface/layout.rst:136
-msgid "Enter the full code snippet in the text area, minus any ``script`` tags. For example:"
-msgstr "Geben Sie den vollständigen Code-Ausschnitt in das Textfeld ein, abzüglich aller ``script``-Tags. Zum Beispiel:"
-
-#: ../content/administration-area/external-interface/layout.rst:152
-msgid "Rebuilding the External Interface Application"
-msgstr "Neuaufbau der externen Interface-App"
-
-#: ../content/administration-area/external-interface/layout.rst:154
-msgid "In order to apply the changes, we also need to rebuild the external interface application. Drop down to shell, and execute the following command:"
-msgstr "Um die Änderungen anzuwenden, müssen wir auch die externe Interface-App neu erstellen. Gehen Sie nach unten zur Shell und führen Sie das folgende Kommando aus:"
-
-#: ../content/administration-area/external-interface/layout.rst:163
-msgid "Whitelisting Additional Origins in the Security Headers"
-msgstr "Positivliste zusätzlicher Quellen in den SecurityHeadern"
-
-#: ../content/administration-area/external-interface/layout.rst:165
-#, fuzzy
-msgid "If you now try to access the external interface application, you will be able to verify that the scripts are included in the code. However, your browser will probably block access to all *inline* and *external* resources, therefore the code might fail with some errors."
-msgstr "Wenn Sie nun versuchen, auf die externe Interface-App zuzugreifen, können Sie überprüfen, ob die Skripte im Code enthalten sind. Ihr Browser wird jedoch wahrscheinlich den Zugriff auf alle **inline** und **externen** Ressourcen blockieren, daher kann der Code mit einigen Fehlern fehlschlagen."
-
-#: ../content/administration-area/external-interface/layout.rst:168
-#, fuzzy
-msgid "This behavior is by design, since external resources can only be loaded if they are specifically whitelisted in the *Content Security Policy* headers."
-msgstr "Dieses Verhalten ist von vornherein gegeben, da externe Ressourcen nur dann geladen werden können, wenn sie speziell in den Headern der Content Security Policy auf der Whitelist stehen."
-
-#: ../content/administration-area/external-interface/layout.rst:170
-#, fuzzy
-msgid "To check for blocked code, please use suitable web browser inspection tools. In our example, we will be using Mozilla Firefox and its web console available via *Tools → Web Developer → Web Console* menu item, or via the *F12* shortcut key."
-msgstr "Um nach blockiertem Code zu suchen, verwenden Sie bitte einen geeigneten Webbrowser. In unserem Beispiel verwenden wir Mozilla Firefox und seine Webkonsole, die über den Menüpunkt *Extras → Webentwickler → Web-Konsole* oder über die Tastenkombination **F12**** verfügbar ist."
-
-#: ../content/administration-area/external-interface/layout.rst:173
-msgid "For the example code snippet, you might receive following errors in the console when the application is accessed:"
-msgstr "Für den Beispielcode-Ausschnitt erhalten Sie möglicherweise folgende Fehler in der Konsole, wenn auf die App zugegriffen wird:"
-
-#: ../content/administration-area/external-interface/layout.rst:178
-msgid "Browser Console Errors and Warnings"
-msgstr "Fehler und Warnungen in der Browser-Konsole"
-
-#: ../content/administration-area/external-interface/layout.rst:180
-#, fuzzy
-msgid "From the console errors we can see that the external script resource was prevented from being loaded (lines 1 and 3). In addition to that, two evaluation calls were also blocked (lines 2 and 5). All errors reference a *Content Security Policy* rule under the name of ``script-src``, which signals script resources."
-msgstr "Aus den Konsolenfehlern können wir ersehen, dass das Laden der externen Skript-Ressource verhindert wurde (Zeilen 1 und 3). Darüber hinaus wurden auch zwei Evaluierungsaufrufe gesperrt (Zeilen 2 und 5). Alle Fehler verweisen auf eine CSP-Regel unter dem Namen ``script-src``, die Skript-Ressourcen signalisiert."
-
-#: ../content/administration-area/external-interface/layout.rst:182
-#, fuzzy
-msgid "We need to add both the external resource and the evaluation calls to the additional origins list of the *Content Security Policy* headers:"
-msgstr "Wir müssen sowohl die externe Ressource als auch die Evaluierungsaufrufe in die zusätzliche Herkunftsliste der Header der **Content Security Policy** aufnehmen:"
-
-#: ../content/administration-area/external-interface/layout.rst:185
-#: ../content/administration-area/external-interface/layout.rst:210
-msgid "Search for the setting ``WebApp::Server::AdditionalOrigins``."
-msgstr "Suchen Sie nach der Einstellung ``WebApp::Server::AdditionalOrigins``."
-
-#: ../content/administration-area/external-interface/layout.rst:187
-msgid "In case a value for ``script-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr "Wenn bereits ein Wert für ``script-src`` vorhanden ist, klicken Sie auf die Plus-Taste daneben. Andernfalls gehen Sie wie folgt vor."
-
-#: ../content/administration-area/external-interface/layout.rst:189
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external resource to be loaded."
-msgstr "Geben Sie im Textfeld nur den Domänenteil der blockierten Ressource ein, z.B. ``https://www.example.com```. Dadurch kann die externe Ressource geladen werden."
-
-#: ../content/administration-area/external-interface/layout.rst:191
-msgid "Click on the plus button next to the field, so another value is added."
-msgstr "Klicken Sie auf die Plus-Schaltfläche neben dem Feld. So wird ein weiterer Wert hinzugefügt."
-
-#: ../content/administration-area/external-interface/layout.rst:192
-msgid "Enter the following directive in the new field, including the quotes: ``'unsafe-eval'``. This allows the evaluation calls to be executed."
-msgstr "Geben Sie die folgende Anweisung in das neue Feld ein, einschließlich der Anführungszeichen: ``'unsafe-eval'``. Dies ermöglicht die Ausführung der Testaufrufe."
-
-#: ../content/administration-area/external-interface/layout.rst:196
-msgid "There is no need to rebuild the external interface application at this point, as the additional origins configuration should be immediately in effect."
-msgstr "Ein Neuaufbau der externen Interface-App ist an dieser Stelle nicht erforderlich, da die zusätzliche Ursprungskonfiguration sofort wirksam sein sollte."
-
-#: ../content/administration-area/external-interface/layout.rst:198
-msgid "If you reload the external interface application, you might get some additional errors. In our example, it might be the following:"
-msgstr "Wenn Sie die externe Interface-App neu laden, kann es zu zusätzlichen Fehlern kommen. In unserem Beispiel könnte es folgendermaßen aussehen:"
-
-#: ../content/administration-area/external-interface/layout.rst:204
-msgid "Additional Browser Console Errors and Warnings"
-msgstr "Zusätzliche Browser-Konsolenfehler und Warnungen"
-
-#: ../content/administration-area/external-interface/layout.rst:206
-#, fuzzy
-msgid "This error points that an additional resource that was also blocked, an image at a specific location (line 1). We can deduce this via the name of the *Content Security Policy* rule ``img-src``, which references an image resource. In order to add it to the whitelist, try the following:"
-msgstr "Dieser Fehler zeigt an, dass eine zusätzliche Ressource, die ebenfalls blockiert wurde, ein Bild an einer bestimmten Stelle (Zeile 1). Wir können dies über den Namen der CSP-Regel ``img-src`` ableiten, die auf eine Bildressource verweist. Um es zur Positivliste hinzuzufügen, gehen Sie wie folgt vor:"
-
-#: ../content/administration-area/external-interface/layout.rst:212
-msgid "In case a value for ``img-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr "Wenn bereits ein Wert für ``img-src`` vorhanden ist, klicken Sie auf die Plus-Taste daneben. Andernfalls gehen Sie wie folgt vor."
-
-#: ../content/administration-area/external-interface/layout.rst:214
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external image resource to be loaded."
-msgstr "Geben Sie im Textfeld nur den Domänenteil der blockierten Ressource ein, z.B. ``https://www.example.com```. Dadurch kann die externe Ressource geladen werden."
-
-#: ../content/administration-area/external-interface/layout.rst:219
-msgid "Try again to reload the external interface application and check if there are more errors. If not, your scripts are now probably working as expected."
-msgstr "Versuchen Sie erneut, die externe Interface-App neu zu laden und prüfen Sie, ob weitere Fehler vorliegen. Wenn nicht, funktionieren Ihre Skripte jetzt wahrscheinlich wie erwartet."
-
-#: ../content/administration-area/external-interface/layout.rst:222
-msgid "Unfortunately, it is not possible to predict what kind of resources your scripts might be requiring. But, no worries, you can whitelist most of them, just make sure to follow the trail of hints shown in the browser console log. Find a corresponding header rule in the configuration and update it accordingly."
-msgstr "Leider ist es nicht möglich, vorherzusagen, welche Art von Ressourcen Ihre Skripte benötigen könnten. Aber keine Sorge, Sie können die meisten von ihnen auf die Positivliste setzen. Folgen Sie einfach der Spur der Hinweise, die im Protokoll der Browser-Konsole angezeigt werden. Suchen Sie in der Konfiguration eine entsprechende Regel und aktualisieren Sie diese entsprechend. Beachten Sie, dass einige Ressourcen möglicherweise nur von anderen angefordert werden, weshalb mehrere Iterationen erforderlich sind, bis alles richtig konfiguriert ist."
-
-#: ../content/administration-area/external-interface/layout.rst:228
-msgid "Some resources might only be requested by others, hence several iterations might be needed until everything is configured properly."
-msgstr "Einige Ressourcen werden möglicherweise nur von anderen angefordert, so dass mehrere Iterationen erforderlich sein können, bis alles richtig konfiguriert ist."
-
-#: ../content/administration-area/external-interface/layout.rst:232
-msgid "Whitelisting external resources opens potential security risks in your OTOBO application! Only allow those resources that you are sure are not malicious and come from reputable sources. Keep in mind that if something is secure today, does not mean it will be tomorrow. Stay safe!"
-msgstr "Die Auflistung externer Ressourcen eröffnet potenzielle Sicherheitsrisiken in Ihrer OTOBO-Anwendung! Lassen Sie nur solche Ressourcen zu, von denen Sie sicher sind, dass sie nicht bösartig sind und aus seriösen Quellen stammen. Bedenken Sie, dass, wenn etwas heute sicher ist, nicht bedeutet, dass es morgen sein wird. Bleiben Sie wachsam!"
-
 #: ../content/administration-area/introduction.rst:2
 msgid "Introduction"
 msgstr "Einführung"
@@ -6896,6 +6037,13 @@ msgstr "Wählen Sie *1 - Aktiviert* oder *2 - Aktiviert und verpflichtend* aus."
 msgid "Click on the tick button on the right to save the setting."
 msgstr "Klicken Sie auf die Schaltfläche mit dem grünen Haken, um diese Einstellung zu speichern."
 
+#: ../content/administration-area/processes-automation/dynamicfields.rst:500
+#: ../content/administration-area/processes-automation/dynamicfields.rst:523
+#: ../content/administration-area/processes-automation/dynamicfields.rst:536
+#: ../content/administration-area/processes-automation/dynamicfields.rst:561
+msgid "Deploy the modified system configuration."
+msgstr "Nehmen Sie die geänderte Systemkonfiguration in Betrieb."
+
 #: ../content/administration-area/processes-automation/dynamicfields.rst:505
 msgid "Display Dynamic Fields on Screen"
 msgstr "Angezeigte Dynamische Felder in einer Ansicht"
@@ -7077,6 +6225,11 @@ msgstr "GenericAgent-Auftrag bearbeiten"
 #: ../content/administration-area/processes-automation/generic-agent.rst:56
 msgid "To delete a generic agent job:"
 msgstr "So löschen Sie einen GenericAgent-Auftrag:"
+
+#: ../content/administration-area/processes-automation/generic-agent.rst:58
+#, fuzzy
+msgid "Click on the trash icon in the fourth column of the overview table."
+msgstr "Klicken Sie in der vierten Spalte der Übersichtstabelle auf das Papierkorb-Symbol"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:64
 msgid "Delete Generic Agent Job Screen"
@@ -12737,6 +11890,574 @@ msgstr ""
 #: ../content/index.rst:45
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
+
+#~ msgid "Custom Pages"
+#~ msgstr "Benutzerdefinierte Seiten"
+
+#~ msgid "Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group."
+#~ msgstr "Verwenden Sie diese Ansicht, um benutzerdefinierte Seiten für das externe Interface hinzuzufügen. Eine neue OTOBO-Installation beinhaltet bereits standardmäßig einige Seiten. Die Seite zur Verwaltung von benutzerdefinierten Seiten ist im Modul *Benutzerdefinierte Seiten* in der Gruppe *Externes Interface* verfügbar."
+
+#~ msgid "Custom Page Management Screen"
+#~ msgstr "Verwaltung benutzerdefinierter Seiten"
+
+#~ msgid "Manage Custom Pages"
+#~ msgstr "Benutzerdefinierte Seiten verwalten"
+
+#~ msgid "Make sure to save your changes when you finish. The new configuration will be immediately deployed."
+#~ msgstr "Achten Sie darauf, dass Sie Ihre Änderungen speichern, wenn Sie fertig sind. Die neue Konfiguration wird sofort in Betrieb genommen."
+
+#~ msgid "To add a custom page:"
+#~ msgstr "So fügen Sie eine benutzerdefinierte Seite hinzu:"
+
+#, fuzzy
+#~ msgid "Click on the *Add Custom Page* button in the left sidebar."
+#~ msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Eigene Seiten hinzufügen*"
+
+#, fuzzy
+#~ msgid "Add Custom Page Screen"
+#~ msgstr "So fügen Sie eine eigene Seite hinzu:"
+
+#~ msgid "To edit a custom page:"
+#~ msgstr "So bearbeiten Sie eine eigene Seite:"
+
+#~ msgid "Click on a custom page in the list of custom pages."
+#~ msgstr "Klicken Sie in der Liste der benutzerdefinierten Seiten auf eine Seite."
+
+#~ msgid "Edit Custom Page Screen"
+#~ msgstr "Eigene Seite bearbeiten"
+
+#~ msgid "To delete a custom page:"
+#~ msgstr "So löschen Sie eine eigene Seite:"
+
+#~ msgid "Delete Custom Page Screen"
+#~ msgstr "Eigene Seiten löschen"
+
+#~ msgid "If several custom pages are added to the system, use the filter box to find a particular custom page by just typing the name to filter."
+#~ msgstr "Wenn dem System mehrere benutzerdefinierte Seiten hinzugefügt werden, verwenden Sie das Filterfeld, um eine bestimmte benutzerdefinierte Seite zu finden, indem Sie einfach den zu filternden Namen eingeben."
+
+#~ msgid "Custom Page Settings"
+#~ msgstr "Einstellungen für eigene Seiten"
+
+#~ msgid "Internal Title \\*"
+#~ msgstr "Interner Titel \\*"
+
+#~ msgid "The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
+#~ msgstr "Der Name dieser Ressource, der nur im Admin-Interface angezeigt wird. In dieses Feld können beliebige Zeichen eingegeben werden, einschließlich Großbuchstaben und Leerzeichen. Der Name wird in der Übersichtstabelle angezeigt."
+
+#~ msgid "Slug \\*"
+#~ msgstr "Pfad \\*"
+
+#~ msgid "This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign."
+#~ msgstr "Dies ist die URL der benutzerdefinierten Seite. Empfohlene Zeichen sind Kleinbuchstaben, Zahlen und Minuszeichen."
+
+#~ msgid "Custom Page Content"
+#~ msgstr "Inhalt der eigenen Seite"
+
+#~ msgid "In this widget can be added some localized content for the item."
+#~ msgstr "In diesem Widget können einige lokalisierte Inhalte für das Element hinzugefügt werden."
+
+#~ msgid "Title \\*"
+#~ msgstr "Titel \\*"
+
+#~ msgid "The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces."
+#~ msgstr "Der Name dieser Ressource in der gegebenen Sprache. In dieses Feld können beliebige Zeichen eingegeben werden, einschließlich Großbuchstaben und Leerzeichen."
+
+#~ msgid "Content \\*"
+#~ msgstr "Inhalt \\*"
+
+#~ msgid "The text for this item in the given language."
+#~ msgstr "Der Inhalt für dieses Element in der gegebenen Sprache."
+
+#~ msgid "Add new custom page content"
+#~ msgstr "Neuen Inhalt für die eigene Seite hinzufügen"
+
+#~ msgid "Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above."
+#~ msgstr "Wählen Sie aus, welche Sprachen hinzugefügt werden sollen, um lokalisierte Inhalte zu erstellen. Alle hinzugefügten Sprachen können ihre eigenen lokalisierten Inhalte enthalten, die oben erläutert werden."
+
+#~ msgid "Customer Service Catalogue"
+#~ msgstr "Kunden-Service-Katalog"
+
+#~ msgid "Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group."
+#~ msgstr "Verwenden Sie diese Ansicht, um Kategorien und Elemente zur Benutzung im externen Internface hinzuuzufügen. Eine neue OTOBO-Installation beinhaltet standardmäßig keine Kategorien und Elemente. Die Seite zur Verwaltung des Katalogs ist im Modul *Kunden-Service-Katalog* in der Gruppe *Externes Interface* verfügbar."
+
+#~ msgid "This module consists of two management screens: a category management screen and an item management screen."
+#~ msgstr "Diese Modul beinhaltet zwei Bereiche: Ein Bereich zur Verwaltung der Kategorien und einen Bereich zur Verwaltung der Einträge."
+
+#~ msgid "Customer Service Catalogue Management Screen"
+#~ msgstr "Kunden-Service-Katalog - Verwaltung"
+
+#~ msgid "Manage Categories"
+#~ msgstr "Kategorien verwalten"
+
+#~ msgid "Use this screen to add categories to collect the same items into groups. The *Category Management* screen in available via the *Go to category management* button or via the *Category Management* module."
+#~ msgstr "Verwenden Sie diesen Bereich, um Kategorien für die Sammlung gleicher Einträge in Gruppen. Der Bereich *Kategorien-Verwaltung* ist über die Schaltfläche *Gehe zum Kategorie-Mangement* oder über das Modul *Kategorien-Verwaltung* verfügbar."
+
+#~ msgid "Category Management Screen"
+#~ msgstr "Kategorien-Verwalten"
+
+#~ msgid "Click on the *Add Category* button in the left sidebar."
+#~ msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Kategorie hinzufügen*."
+
+#~ msgid "Click on the trash icon in the *Delete* column of the overview table."
+#~ msgstr "Klicken Sie in der Spalte *Löschen* in der Übersichtstabelle auf das Papierkorb-Symbol."
+
+#~ msgid "If several categories are added to the system, use the filter box to find a particular category by just typing the name to filter."
+#~ msgstr "Wenn dem System mehrere Kategorien hinzugefügt wurden, verwenden Sie das Filterfeld, um eine bestimmte Kategorie zu finden, indem Sie einfach den zu filternden Namen eingeben."
+
+#~ msgid "Category Settings"
+#~ msgstr "Kategorie-Einstellungen"
+
+#~ msgid "Sub-category of"
+#~ msgstr "Unterkategorie von"
+
+#~ msgid "Language \\*"
+#~ msgstr "Sprache \\*"
+
+#~ msgid "Select a language from the available languages of the system."
+#~ msgstr "Wählen Sie eine Sprache aus den verfügbaren Sprachen des Systems aus."
+
+#~ msgid "Manage Items"
+#~ msgstr "Einträge verwalten"
+
+#~ msgid "Use this screen to add items to the catalogue. Items can be collected into categories. The *Item Management* screen in available via the *Go to item management* button or via the *Item Management* module."
+#~ msgstr "Verwenden Sie diesen Bereich, um Einträge zu einem Katalog hinzuzufügen. Der Bereich *Eintrag-Verwaltung* ist über die Schaltfläche *Gehe zur Eintrag-Verwaltung* oder über das Modul *Eintrag-Verwaltung* verfügbar."
+
+#~ msgid "Item Management Screen"
+#~ msgstr "Eintrag-Verwaltung"
+
+#~ msgid "To add an item:"
+#~ msgstr "So fügen Sie ein Einträge hinzu:"
+
+#~ msgid "Click on the *Add Item* button in the left sidebar."
+#~ msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Eintrag hinzufügen*."
+
+#~ msgid "Add Item Screen"
+#~ msgstr "Eintrag hinzufügen"
+
+#~ msgid "To edit an item:"
+#~ msgstr "So bearbeiten Sie einen Eintrag:"
+
+#~ msgid "Click on an item in the list of items."
+#~ msgstr "Klicken Sie in der Liste mit den Einträgen auf einen Eintrag."
+
+#~ msgid "Edit Item Screen"
+#~ msgstr "Eintrag bearbeiten"
+
+#~ msgid "To delete an item:"
+#~ msgstr "So löschen Sie einen Eintrag:"
+
+#~ msgid "Delete Item Screen"
+#~ msgstr "Eintrag löschen"
+
+#~ msgid "If several items are added to the system, use the filter box to find a particular item by just typing the name to filter."
+#~ msgstr "Wenn dem System mehrere Einträge hinzugefügt wurden, verwenden Sie das Filterfeld, um einen bestimmten Eintrag zu finden, indem Sie einfach den zu filternden Namen eingeben."
+
+#~ msgid "Item Settings"
+#~ msgstr "Einstellungen für Einträge"
+
+#~ msgid "Item Content"
+#~ msgstr "Eintrag-Inhalt"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorien"
+
+#~ msgid "One ore more categories can be selected for the item in which the item should be visible."
+#~ msgstr "Es können eine oder mehrere Kategorien gewählt werden, in denen der Eintrag sichtbar sein soll."
+
+#~ msgid "Only those categories can be selected, that have the same language as the selected language for this widget."
+#~ msgstr "Es können nur die Kategorien ausgewählt werden, die die gleiche Sprache wie die ausgewählte Sprache für dieses Widget haben."
+
+#~ msgid "Link \\*"
+#~ msgstr "Verknüpfen \\*"
+
+#~ msgid "A link to an internal or an external URL."
+#~ msgstr "Eine Verknüpfung auf eine interne oder externe URL."
+
+#~ msgid "Add new item content"
+#~ msgstr "Inhalt zum Eintrag hinzufügen"
+
+#~ msgid "Home Page"
+#~ msgstr "Homepage"
+
+#~ msgid "Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group."
+#~ msgstr "Auf dieser Seite können Sie die Konfiguration der Homepage für verschiedene Benutzersprachen definieren, die im externen Interface angezeigt werden. Die Seite zur Verwaltung der Homepage ist im Modul *Homepage* in der Gruppe *External Interface* verfügbar."
+
+#~ msgid "This screen contains several widget for each languages, where localized content can be added."
+#~ msgstr "Diese Seite enthält mehrere Widgets für jede Sprache, in denen lokalisierte Inhalte hinzugefügt werden können."
+
+#~ msgid "Hero Unit"
+#~ msgstr "Hauptinhalt"
+
+#~ msgid "Hero Unit Widget"
+#~ msgstr "Hauptinhalt Widget"
+
+#~ msgid "This is the most important sentence or motto of the home page."
+#~ msgstr "Dies ist der wichtigste Satz oder das wichtigste Motto der Homepage."
+
+#~ msgid "Background Style"
+#~ msgstr "Hintergrundstil"
+
+#~ msgid "Define the behavior of background image and background color. The following options are available:"
+#~ msgstr "Definieren Sie das Verhalten von Hintergrundbild und Hintergrundfarbe. Die folgenden Optionen stehen zur Verfügung:"
+
+#, fuzzy
+#~ msgid "Only use the background image"
+#~ msgstr "Nur das Hintergrundbild verwenden."
+
+#, fuzzy
+#~ msgid "Only use the background color"
+#~ msgstr "Nur die Hintergrundfarbe verwenden."
+
+#, fuzzy
+#~ msgid "Use the background image and overlay it with the selected color"
+#~ msgstr "Hintergrundbild nutzen und mit der ausgewählten Farbe überlagern."
+
+#~ msgid "Background Image"
+#~ msgstr "Hintergrundbild"
+
+#~ msgid "Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system."
+#~ msgstr "Wählen Sie ein Bild aus, das als Hintergrundbild für den Hauptinhalt verwendet wird. Um ein Bild auszuwählen, klicken Sie auf die Schaltfläche *Bild für Upload auswählen* und wählen Sie ein Bild aus Ihrem Dateisystem."
+
+#~ msgid "Background Color"
+#~ msgstr "Hintergrundfarbe"
+
+#~ msgid "To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
+#~ msgstr "Um die Hintergrundfarbe zu ändern, wählen Sie einfach eine neue Farbe aus der Farbpalette aus. Sie können aus den vorgewählten Farben wählen oder andere Farben definieren, indem Sie sie aus der Farbauswahl auswählen oder den hexadezimalen Wert eingeben."
+
+#~ msgid "Ticket List"
+#~ msgstr "Ticket-Liste"
+
+#~ msgid "Ticket List Widget"
+#~ msgstr "Ticket-Liste Widget"
+
+#~ msgid "Show a ticket list for logged in users"
+#~ msgstr "Eine Ticket-Liste für die angemeldeten Benutzer anzeigen"
+
+#~ msgid "This setting defines if the ticket list should be visible for logged in users or not."
+#~ msgstr "Diese Einstellung legt fest, ob die Ticket-Liste für angemeldete Benutzer sichtbar sein soll oder nicht."
+
+#~ msgid "Row Title"
+#~ msgstr "Zeilentitel"
+
+#~ msgid "This is an optional title for the row, that contains this widget in the external interface."
+#~ msgstr "Dies ist ein optionaler Titel für die Zeile, die dieses Widget im externen Interface enthält."
+
+#~ msgid "Image Teasers"
+#~ msgstr "Bild-Teaser"
+
+#~ msgid "The image teasers are displayed in a separate row in the external interface."
+#~ msgstr "Die Bild-Teaser werden in einer separaten Zeile im externen Interface angezeigt."
+
+#~ msgid "Image Teasers Widget"
+#~ msgstr "Bild-Teaser Widget"
+
+#~ msgid "Row Background Color"
+#~ msgstr "Zeilen-Hintergrundfarbe"
+
+#~ msgid "You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "Sie können bis zu drei Bild-Teaser hinzufügen, wenn Sie auf die Schaltfläche *Hinzufügen* in der rechten oberen Ecke des Widgets klicken."
+
+#~ msgid "Image Teaser"
+#~ msgstr "Bild-Teaser"
+
+#~ msgid "Image"
+#~ msgstr "Bild"
+
+#~ msgid "Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system."
+#~ msgstr "Wählen Sie ein Bild aus, um es im Bild-Teaser Widget anzuzeigen. Um ein Bild auszuwählen, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein Bild aus Ihrem Dateisystem."
+
+#~ msgid "The heading text that are displayed in this item."
+#~ msgstr "Der Überschriftentext, der in diesem Element angezeigt wird."
+
+#~ msgid "The text for this item."
+#~ msgstr "Der Text für dieses Element."
+
+#~ msgid "Link Target \\*"
+#~ msgstr "Link-Ziel \\*"
+
+#~ msgid "An URL that will be opened after clicking on this item in the external interface."
+#~ msgstr "Eine URL, die nach dem Klicken auf dieses Element im externen Interface geöffnet wird."
+
+#~ msgid "Link Lists"
+#~ msgstr "Link-Listen"
+
+#~ msgid "The link lists are displayed in a separate row in the external interface."
+#~ msgstr "Die Link-Listen werden in einer separaten Zeile im externen Interface angezeigt."
+
+#~ msgid "Link Lists Widget"
+#~ msgstr "Link-Listen Widget"
+
+#~ msgid "You can add up to four link lists by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "Sie können bis zu vier Link-Listen hinzufügen, indem Sie auf die Schaltfläche *Hinzufügen* in der oberen rechten Ecke des Widgets klicken."
+
+#~ msgid "Link List"
+#~ msgstr "Link-Liste"
+
+#~ msgid "Link Text"
+#~ msgstr "Link-Text"
+
+#~ msgid "Add the text for the *show more* link."
+#~ msgstr "Geben Sie den Text für den *Mehr anzeigen*-Link ein."
+
+#~ msgid "Link Target"
+#~ msgstr "Link-Ziel"
+
+#~ msgid "Add the URL for the *show more* link."
+#~ msgstr "Geben Sie die URL für den *Mehr anzeigen*-Link ein."
+
+#~ msgid "Link List Type \\*"
+#~ msgstr "Link-Listentyp"
+
+#~ msgid "Specifies the functionality how the item will be added."
+#~ msgstr "Gibt die Funktionalität an, wie das Element hinzugefügt wird."
+
+#~ msgid "Add the Items Manually"
+#~ msgstr "Einträge manuell hinzufügen"
+
+#, fuzzy
+#~ msgid "Clicking on the edit button a new widget will be visible to add the items."
+#~ msgstr "Wenn Sie auf die Schaltfläche *Bearbeiten* klicken, wird ein neues Widget angezeigt, um die Elemente hinzuzufügen."
+
+#~ msgid "Show the Results of a Search"
+#~ msgstr "Zeige die Ergebnis der Suche"
+
+#~ msgid "Content Cards"
+#~ msgstr "Inhaltkarten"
+
+#~ msgid "Content Cards Widget"
+#~ msgstr "Inhaltskarten Widget"
+
+#~ msgid "You can add up to three content cards by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "Sie können bis zu drei Inhaltskarten hinzufügen, wenn Sie auf die Schaltfläche *Hinzufügen* klicken."
+
+#~ msgid "Content Card"
+#~ msgstr "Inhaltkarte"
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Use this screen to edit the layout displayed in external interface. The layout management screen is available in the *Layout* module of the *External Interface* group."
+#~ msgstr "Verwenden Sie diese Ansicht, um das Layout des externen Interface zu bearbeiten. Die Layout-Verwaltung ist im Modul *Layout* in der Gruppe *External Interface* verfügbar."
+
+#~ msgid "Edit Layout Screen"
+#~ msgstr "Layout bearbeiten"
+
+#~ msgid "A fresh OTOBO installation already contains a default layout. In this screen all parameters can be changed."
+#~ msgstr "Eine neue OTOBO-Installation beinhaltet bereits ein Standard-Layout. Auf dieser Seite können alle Parameter geändert werden."
+
+#~ msgid "Logo"
+#~ msgstr "Logo"
+
+#~ msgid "The logo is a small image that is displayed in the top left corner of the external pages."
+#~ msgstr "Das Logo ist ein kleine Bild, das auf Seiten des externen Interface in der linken, oberen Ecke angezeigt wird."
+
+#~ msgid "To change the logo, click on the *Select image to upload* button, and select a new logo image. Recommended file format is PNG."
+#~ msgstr "Um das Logo zu ändern, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein neues Bild für das Logo. Empfohlenes Dateiformat ist PNG."
+
+#~ msgid "Favicon"
+#~ msgstr "Favicon"
+
+#~ msgid "The `favorite icon <https://en.wikipedia.org/wiki/Favicon>`_ is an icon that is displayed in the URL bar of the web browser."
+#~ msgstr "Das 'Favicon <https://de.wikipedia.org/wiki/Favicon>`- ist ein Icon, dass in der URL-Zeile eines Webbrowsers angezeigt wird."
+
+#~ msgid "To change the favorite icon, click on the *Select image to upload* button, and select a new icon. This is usually a 16×16 pixel image in PNG or ICO format."
+#~ msgstr "Um das Favicon zu ändern, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein neues Icon. Das ist gewöhnlich ein Bild mit 16x16 Pixel im Format PNG oder ICO."
+
+#~ msgid "Primary Color"
+#~ msgstr "Hauptfarbe"
+
+#~ msgid "Primary color is the most important color of the external pages (see the preview screen)."
+#~ msgstr "Die Primärfarbe ist die wichtigste Farbe der externen Seiten (siehe Vorschaufenster)."
+
+#~ msgid "To change the primary color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
+#~ msgstr "Um die Hauptfarbe zu ändern, wählen Sie einfach eine Farbe aus der Farbpalette. Sie können aus den vorgewählten Farben wählen oder andere Farben definieren, indem Sie sie aus dem Farbauswahlschalter auswählen oder den hexadezimalen Wert eingeben. Die neue Farbe wird unmittelbar in der Vorschau im Widget angezeigt."
+
+#~ msgid "Highlight Color"
+#~ msgstr "Hervorhebungsfarbe"
+
+#~ msgid "Highlight color is the second color of the external pages using for status badges, links, etc."
+#~ msgstr "Die Hervorhebungsfarbe ist die zweite Farbe der externen Seiten, die für Statuskennzeichnungen, Links usw. verwendet wird."
+
+#~ msgid "To change the highlight color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
+#~ msgstr "Um die Hervorhebungsfarbe zu ändern, wählen Sie einfach eine Farbe aus der Farbpalette. Sie können aus den vorgewählten Farben wählen oder andere Farben definieren, indem Sie sie aus dem Farbauswahlschalter auswählen oder den hexadezimalen Wert eingeben. Die neue Farbe wird unmittelbar in der Vorschau im Widget angezeigt."
+
+#~ msgid "Default Avatar"
+#~ msgstr "Standard-Avatar"
+
+#~ msgid "Will be used as the default avatar for all outgoing communication."
+#~ msgstr "Wird als Standard-Avatar für alle ausgehende Kommunikation verwendet."
+
+#~ msgid "To change the avatar, click on the *Select image to upload* button, and select a new avatar image."
+#~ msgstr "Um den Avatar zu ändern, klicken Sie auf die Schaltfläche *Bild zum Upload auswählen* und wählen Sie ein neues Bild für den Avatar."
+
+#~ msgid "Custom CSS"
+#~ msgstr "Benutzerdefinierte CSS"
+
+#~ msgid "Use this text area to add custom CSS to be applied in the external interface."
+#~ msgstr "Verwenden Sie dieses Textfeld, um benutzerdefiniertes CSS hinzuzufügen, das auf das externe Interface angewendet wird."
+
+#~ msgid "Custom CSS Widget"
+#~ msgstr "Benutzerdefinierte CSS"
+
+#~ msgid "Include Custom Scripts"
+#~ msgstr "Benutzerdefinierte Skripte einbinden"
+
+#~ msgid "External interface application has been built with security-first mindset in place. It contains several mechanisms to make sure that all code in the front end is provided directly by the OTOBO framework."
+#~ msgstr "Das externe Interface wurde mit einer sicherheitskritischen Denkweise entwickelt. Es enthält mehrere Mechanismen, um sicherzustellen, dass der gesamte Code im Frontend direkt vom OTOBO-Framework bereitgestellt wird."
+
+#~ msgid "In addition, a security standard called `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ headers is now leveraged by the built-in web server. It serves as a last line of defense and in case some unexpected code still makes it to the client, it will make sure that the user’s browser simply refuses to run it."
+#~ msgstr "Zusätzlich wird nun ein Sicherheitsstandard namens `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ Header vom integrierten Webserver genutzt. Es dient als letzte Verteidigungslinie und stellt sicher, falls noch unerwarteter Code zum Client gelangt, dass sich der Browser des Benutzers einfach weigert, den Code auszuführen."
+
+#~ msgid "However, a use-case still exists in which even a modern web application might still need to run some additional code, provided it is vetted and included by the administrators. One example could be an external integrated chat solution, but could also be an inline code snippet used for external web analytics."
+#~ msgstr "Es gibt jedoch noch einen Anwendungsfall, in dem auch eine moderne Webanwendung möglicherweise noch zusätzlichen Code ausführen muss, vorausgesetzt, er wird von den Administratoren überprüft und eingebunden. Ein Beispiel könnte eine externe integrierte Chat-Lösung sein, aber auch ein Inline-Codeausschnitt, der für externe Web-Analysen verwendet wird."
+
+#~ msgid "Including custom scripts can be done in the :doc:`../administration/system-configuration` with the following settings:"
+#~ msgstr "Das Einbinden von benutzerdefinierten Skripten kann in der :doc:`../administration/system-configuration` mit den folgenden Einstellungen erfolgen:"
+
+#~ msgid "``ExternalFrontend::ExternalScripts``"
+#~ msgstr "``ExternalFrontend::ExternalScripts``"
+
+#~ msgid "``ExternalFrontend::InlineScripts``"
+#~ msgstr "``ExternalFrontend::InlineScripts``"
+
+#~ msgid "``WebApp::Server::AdditionalOrigins``"
+#~ msgstr "``WebApp::Server::AdditionalOrigins``"
+
+#~ msgid "Web Analytics Example"
+#~ msgstr "Beispiel für Web-Analysen"
+
+#~ msgid "In this example, we outline the steps to include custom scripts used by a web analytics provider in the external interface application. They will be run each time the application is used in order to track and report the behavior of the user for later analysis."
+#~ msgstr "Nachfolgend werden die Schritte beschrieben, die erforderlich sind, um benutzerdefinierte Skripte, die von einem Web-Analytics-Anbieter verwendet werden, in die externe Interface-App aufzunehmen. Sie werden bei jeder Nutzung der App ausgeführt, um das Verhalten des Benutzers für eine spätere Analyse zu verfolgen und zu melden."
+
+#~ msgid "We start with the provided code snippet below, from a third party provider."
+#~ msgstr "Wir beginnen mit dem untenstehenden Code-Ausschnitt eines Drittanbieters."
+
+#, fuzzy
+#~ msgid "First line of the snippet refers to an *external* resource which should be loaded by the ``script`` tag."
+#~ msgstr "Die erste Zeile des Snippets bezieht sich auf eine **externe** Ressource, die mit dem ``script`` Tag geladen werden soll."
+
+#, fuzzy
+#~ msgid "In the script block below, we have some *inline* code which is run immediately when the page is loaded."
+#~ msgstr "Im untenstehenden Skriptblock befindet sich **inline** Code, der sofort ausgeführt wird, wenn die Seite geladen wird."
+
+#~ msgid "Adding External Script Resources"
+#~ msgstr "Externe Skriptressourcen hinzufügen"
+
+#~ msgid "First, we need to include the external script location in the appropriate configuration:"
+#~ msgstr "Zuerst müssen wir den externen Skript-Speicherort in die entsprechende Konfiguration aufnehmen:"
+
+#, fuzzy
+#~ msgid "Go to the *System Configuration* screen."
+#~ msgstr "Gehen Sie zur *Systemkonfiguration*"
+
+#~ msgid "Search for the setting ``ExternalFrontend::ExternalScripts``."
+#~ msgstr "Suchen Sie nach der Einstellung ``ExternalFrontend::ExternalScripts``."
+
+#~ msgid "Click on the setting in order to edit it."
+#~ msgstr "Klicken Sie auf die Einstellung, um sie zu bearbeiten."
+
+#~ msgid "In case a value is already present, click on the plus button. Otherwise, proceed below."
+#~ msgstr "Klicken Sie, wenn bereits ein Wert vorhanden ist, auf die Schaltfläche Plus. Andernfalls gehen Sie wie folgt vor."
+
+#, fuzzy
+#~ msgid "Enter the full location of the *external* resource in the text field. For example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
+#~ msgstr "Geben Sie den vollständigen Standort der **externen** Ressource in das Textfeld ein, z.B. ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
+
+#~ msgid "Click on the check mark in order to save the modified setting."
+#~ msgstr "Klicken Sie auf das Kontrollkästchen, um die geänderte Einstellung zu speichern."
+
+#~ msgid "Adding Inline Code Snippets"
+#~ msgstr "Inline-Codeausschnitte hinzufügen"
+
+#~ msgid "Next, we have to also include the inline part of the original snippet:"
+#~ msgstr "Als nächstes müssen wir auch den Inline-Teil des Originalausschnitts einbinden:"
+
+#~ msgid "Search for the setting ``ExternalFrontend::InlineScripts``."
+#~ msgstr "Suchen Sie nach der Einstellung ``ExternalFrontend::InlineScripts``."
+
+#~ msgid "Enter the full code snippet in the text area, minus any ``script`` tags. For example:"
+#~ msgstr "Geben Sie den vollständigen Code-Ausschnitt in das Textfeld ein, abzüglich aller ``script``-Tags. Zum Beispiel:"
+
+#~ msgid "Rebuilding the External Interface Application"
+#~ msgstr "Neuaufbau der externen Interface-App"
+
+#~ msgid "In order to apply the changes, we also need to rebuild the external interface application. Drop down to shell, and execute the following command:"
+#~ msgstr "Um die Änderungen anzuwenden, müssen wir auch die externe Interface-App neu erstellen. Gehen Sie nach unten zur Shell und führen Sie das folgende Kommando aus:"
+
+#~ msgid "Whitelisting Additional Origins in the Security Headers"
+#~ msgstr "Positivliste zusätzlicher Quellen in den SecurityHeadern"
+
+#, fuzzy
+#~ msgid "If you now try to access the external interface application, you will be able to verify that the scripts are included in the code. However, your browser will probably block access to all *inline* and *external* resources, therefore the code might fail with some errors."
+#~ msgstr "Wenn Sie nun versuchen, auf die externe Interface-App zuzugreifen, können Sie überprüfen, ob die Skripte im Code enthalten sind. Ihr Browser wird jedoch wahrscheinlich den Zugriff auf alle **inline** und **externen** Ressourcen blockieren, daher kann der Code mit einigen Fehlern fehlschlagen."
+
+#, fuzzy
+#~ msgid "This behavior is by design, since external resources can only be loaded if they are specifically whitelisted in the *Content Security Policy* headers."
+#~ msgstr "Dieses Verhalten ist von vornherein gegeben, da externe Ressourcen nur dann geladen werden können, wenn sie speziell in den Headern der Content Security Policy auf der Whitelist stehen."
+
+#, fuzzy
+#~ msgid "To check for blocked code, please use suitable web browser inspection tools. In our example, we will be using Mozilla Firefox and its web console available via *Tools → Web Developer → Web Console* menu item, or via the *F12* shortcut key."
+#~ msgstr "Um nach blockiertem Code zu suchen, verwenden Sie bitte einen geeigneten Webbrowser. In unserem Beispiel verwenden wir Mozilla Firefox und seine Webkonsole, die über den Menüpunkt *Extras → Webentwickler → Web-Konsole* oder über die Tastenkombination **F12**** verfügbar ist."
+
+#~ msgid "For the example code snippet, you might receive following errors in the console when the application is accessed:"
+#~ msgstr "Für den Beispielcode-Ausschnitt erhalten Sie möglicherweise folgende Fehler in der Konsole, wenn auf die App zugegriffen wird:"
+
+#~ msgid "Browser Console Errors and Warnings"
+#~ msgstr "Fehler und Warnungen in der Browser-Konsole"
+
+#, fuzzy
+#~ msgid "From the console errors we can see that the external script resource was prevented from being loaded (lines 1 and 3). In addition to that, two evaluation calls were also blocked (lines 2 and 5). All errors reference a *Content Security Policy* rule under the name of ``script-src``, which signals script resources."
+#~ msgstr "Aus den Konsolenfehlern können wir ersehen, dass das Laden der externen Skript-Ressource verhindert wurde (Zeilen 1 und 3). Darüber hinaus wurden auch zwei Evaluierungsaufrufe gesperrt (Zeilen 2 und 5). Alle Fehler verweisen auf eine CSP-Regel unter dem Namen ``script-src``, die Skript-Ressourcen signalisiert."
+
+#, fuzzy
+#~ msgid "We need to add both the external resource and the evaluation calls to the additional origins list of the *Content Security Policy* headers:"
+#~ msgstr "Wir müssen sowohl die externe Ressource als auch die Evaluierungsaufrufe in die zusätzliche Herkunftsliste der Header der **Content Security Policy** aufnehmen:"
+
+#~ msgid "Search for the setting ``WebApp::Server::AdditionalOrigins``."
+#~ msgstr "Suchen Sie nach der Einstellung ``WebApp::Server::AdditionalOrigins``."
+
+#~ msgid "In case a value for ``script-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
+#~ msgstr "Wenn bereits ein Wert für ``script-src`` vorhanden ist, klicken Sie auf die Plus-Taste daneben. Andernfalls gehen Sie wie folgt vor."
+
+#~ msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external resource to be loaded."
+#~ msgstr "Geben Sie im Textfeld nur den Domänenteil der blockierten Ressource ein, z.B. ``https://www.example.com```. Dadurch kann die externe Ressource geladen werden."
+
+#~ msgid "Click on the plus button next to the field, so another value is added."
+#~ msgstr "Klicken Sie auf die Plus-Schaltfläche neben dem Feld. So wird ein weiterer Wert hinzugefügt."
+
+#~ msgid "Enter the following directive in the new field, including the quotes: ``'unsafe-eval'``. This allows the evaluation calls to be executed."
+#~ msgstr "Geben Sie die folgende Anweisung in das neue Feld ein, einschließlich der Anführungszeichen: ``'unsafe-eval'``. Dies ermöglicht die Ausführung der Testaufrufe."
+
+#~ msgid "There is no need to rebuild the external interface application at this point, as the additional origins configuration should be immediately in effect."
+#~ msgstr "Ein Neuaufbau der externen Interface-App ist an dieser Stelle nicht erforderlich, da die zusätzliche Ursprungskonfiguration sofort wirksam sein sollte."
+
+#~ msgid "If you reload the external interface application, you might get some additional errors. In our example, it might be the following:"
+#~ msgstr "Wenn Sie die externe Interface-App neu laden, kann es zu zusätzlichen Fehlern kommen. In unserem Beispiel könnte es folgendermaßen aussehen:"
+
+#~ msgid "Additional Browser Console Errors and Warnings"
+#~ msgstr "Zusätzliche Browser-Konsolenfehler und Warnungen"
+
+#, fuzzy
+#~ msgid "This error points that an additional resource that was also blocked, an image at a specific location (line 1). We can deduce this via the name of the *Content Security Policy* rule ``img-src``, which references an image resource. In order to add it to the whitelist, try the following:"
+#~ msgstr "Dieser Fehler zeigt an, dass eine zusätzliche Ressource, die ebenfalls blockiert wurde, ein Bild an einer bestimmten Stelle (Zeile 1). Wir können dies über den Namen der CSP-Regel ``img-src`` ableiten, die auf eine Bildressource verweist. Um es zur Positivliste hinzuzufügen, gehen Sie wie folgt vor:"
+
+#~ msgid "In case a value for ``img-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
+#~ msgstr "Wenn bereits ein Wert für ``img-src`` vorhanden ist, klicken Sie auf die Plus-Taste daneben. Andernfalls gehen Sie wie folgt vor."
+
+#~ msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external image resource to be loaded."
+#~ msgstr "Geben Sie im Textfeld nur den Domänenteil der blockierten Ressource ein, z.B. ``https://www.example.com```. Dadurch kann die externe Ressource geladen werden."
+
+#~ msgid "Try again to reload the external interface application and check if there are more errors. If not, your scripts are now probably working as expected."
+#~ msgstr "Versuchen Sie erneut, die externe Interface-App neu zu laden und prüfen Sie, ob weitere Fehler vorliegen. Wenn nicht, funktionieren Ihre Skripte jetzt wahrscheinlich wie erwartet."
+
+#~ msgid "Unfortunately, it is not possible to predict what kind of resources your scripts might be requiring. But, no worries, you can whitelist most of them, just make sure to follow the trail of hints shown in the browser console log. Find a corresponding header rule in the configuration and update it accordingly."
+#~ msgstr "Leider ist es nicht möglich, vorherzusagen, welche Art von Ressourcen Ihre Skripte benötigen könnten. Aber keine Sorge, Sie können die meisten von ihnen auf die Positivliste setzen. Folgen Sie einfach der Spur der Hinweise, die im Protokoll der Browser-Konsole angezeigt werden. Suchen Sie in der Konfiguration eine entsprechende Regel und aktualisieren Sie diese entsprechend. Beachten Sie, dass einige Ressourcen möglicherweise nur von anderen angefordert werden, weshalb mehrere Iterationen erforderlich sind, bis alles richtig konfiguriert ist."
+
+#~ msgid "Some resources might only be requested by others, hence several iterations might be needed until everything is configured properly."
+#~ msgstr "Einige Ressourcen werden möglicherweise nur von anderen angefordert, so dass mehrere Iterationen erforderlich sein können, bis alles richtig konfiguriert ist."
+
+#~ msgid "Whitelisting external resources opens potential security risks in your OTOBO application! Only allow those resources that you are sure are not malicious and come from reputable sources. Keep in mind that if something is secure today, does not mean it will be tomorrow. Stay safe!"
+#~ msgstr "Die Auflistung externer Ressourcen eröffnet potenzielle Sicherheitsrisiken in Ihrer OTOBO-Anwendung! Lassen Sie nur solche Ressourcen zu, von denen Sie sicher sind, dass sie nicht bösartig sind und aus seriösen Quellen stammen. Bedenken Sie, dass, wenn etwas heute sicher ist, nicht bedeutet, dass es morgen sein wird. Bleiben Sie wachsam!"
 
 #~ msgid "Chat Channels"
 #~ msgstr "Chat-Kanäle"
