@@ -105,8 +105,6 @@ If external systems need to integrate with OTOBO, :doc:`processes-automation/web
 
 However OTOBO has many features by default, you can extend the functionality by installing packages with the :doc:`administration/package-manager`.
 
-Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface.
-
 
 Become OTOBO Expert
 -------------------
