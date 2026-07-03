@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-25 13:29+0000\n"
+"POT-Creation-Date: 2026-07-03 11:10+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/hu/>\n"
@@ -94,9 +94,6 @@ msgstr "Kattintson a *Naptár hozzáadása* gombra a bal oldalsávban."
 #: ../content/administration-area/communication-notifications/email-addresses.rst:41
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:29
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:43
-#: ../content/administration-area/external-interface/custom-pages.rst:30
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:35
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:107
 #: ../content/administration-area/processes-automation/access-control-lists.rst:35
 #: ../content/administration-area/processes-automation/dynamicfields.rst:26
 #: ../content/administration-area/processes-automation/dynamicfields.rst:201
@@ -128,9 +125,6 @@ msgstr "Töltse ki a szükséges mezőket."
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:30
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:44
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:26
-#: ../content/administration-area/external-interface/custom-pages.rst:31
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:36
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:108
 #: ../content/administration-area/processes-automation/access-control-lists.rst:36
 #: ../content/administration-area/processes-automation/dynamicfields.rst:27
 #: ../content/administration-area/processes-automation/dynamicfields.rst:202
@@ -178,9 +172,6 @@ msgstr "Kattintson egy naptárra a naptárak listájában."
 #: ../content/administration-area/communication-notifications/email-addresses.rst:69
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:36
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:54
-#: ../content/administration-area/external-interface/custom-pages.rst:41
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:46
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:118
 #: ../content/administration-area/processes-automation/dynamicfields.rst:37
 #: ../content/administration-area/processes-automation/dynamicfields.rst:212
 #: ../content/administration-area/processes-automation/generic-agent.rst:48
@@ -211,9 +202,6 @@ msgstr "Módosítsa a mezőket."
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:37
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:55
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:32
-#: ../content/administration-area/external-interface/custom-pages.rst:42
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:47
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:119
 #: ../content/administration-area/processes-automation/access-control-lists.rst:48
 #: ../content/administration-area/processes-automation/dynamicfields.rst:38
 #: ../content/administration-area/processes-automation/dynamicfields.rst:213
@@ -321,10 +309,6 @@ msgstr "Naptár beállításai"
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:57
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:80
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:64
-#: ../content/administration-area/external-interface/custom-pages.rst:67
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:72
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:144
-#: ../content/administration-area/external-interface/home-page.rst:19
 #: ../content/administration-area/processes-automation/access-control-lists.rst:107
 #: ../content/administration-area/processes-automation/dynamicfields.rst:63
 #: ../content/administration-area/processes-automation/generic-agent.rst:74
@@ -361,7 +345,6 @@ msgstr "Naptár neve \\*"
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:85
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:75
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:81
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:76
 #: ../content/administration-area/processes-automation/access-control-lists.rst:111
 #: ../content/administration-area/processes-automation/generic-agent.rst:87
 #: ../content/administration-area/processes-automation/web-services.rst:136
@@ -427,9 +410,6 @@ msgstr "Írás, olvasás: a felhasználók magát a naptárat kezelhetik."
 #: ../content/administration-area/communication-notifications/email-addresses.rst:115
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:135
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:116
-#: ../content/administration-area/external-interface/custom-pages.rst:81
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:90
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:154
 #: ../content/administration-area/processes-automation/access-control-lists.rst:129
 #: ../content/administration-area/processes-automation/dynamicfields.rst:95
 #: ../content/administration-area/ticket-settings/attachments.rst:77
@@ -456,9 +436,6 @@ msgstr "Érvényesség \\*"
 #: ../content/administration-area/communication-notifications/email-addresses.rst:110
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:134
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:114
-#: ../content/administration-area/external-interface/custom-pages.rst:80
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:88
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:153
 #: ../content/administration-area/processes-automation/access-control-lists.rst:127
 #: ../content/administration-area/processes-automation/dynamicfields.rst:94
 #: ../content/administration-area/ticket-settings/attachments.rst:76
@@ -600,7 +577,6 @@ msgid "Manage FAQ Categories"
 msgstr "GyIK kategóriák kezelése"
 
 #: ../content/administration-area/administration/faq-category.rst:17
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:32
 msgid "To add a category:"
 msgstr "Egy kategória hozzáadásához:"
 
@@ -617,27 +593,22 @@ msgid "Click on the *Submit* button."
 msgstr "Kattintson az *Elküldés* gombra."
 
 #: ../content/administration-area/administration/faq-category.rst:26
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:41
 msgid "Add Category Screen"
 msgstr "Kategória hozzáadása képernyő"
 
 #: ../content/administration-area/administration/faq-category.rst:28
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:43
 msgid "To edit a category:"
 msgstr "Egy kategória szerkesztéséhez:"
 
 #: ../content/administration-area/administration/faq-category.rst:30
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:45
 msgid "Click on a category in the list of categories."
 msgstr "Kattintson egy kategóriára a kategóriák listájában."
 
 #: ../content/administration-area/administration/faq-category.rst:37
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:52
 msgid "Edit Category Screen"
 msgstr "Kategória szerkesztése képernyő"
 
 #: ../content/administration-area/administration/faq-category.rst:39
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:54
 msgid "To delete a category:"
 msgstr "Egy kategória törléséhez:"
 
@@ -651,7 +622,6 @@ msgid "Click on the *Yes* button in the confirmation dialog."
 msgstr "Kattintson az *Igen* gombra a megerősítő párbeszédablakban."
 
 #: ../content/administration-area/administration/faq-category.rst:47
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:62
 msgid "Delete Category Screen"
 msgstr "Kategória törlése képernyő"
 
@@ -686,7 +656,6 @@ msgid "Subcategory of"
 msgstr "Alkategóriája ennek"
 
 #: ../content/administration-area/administration/faq-category.rst:62
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:81
 msgid "It is possible to add the new category under an existing one as sub-category. This will be displayed as *Parent Category::Child Category*."
 msgstr "Lehetőség van új kategóriát egy meglévő kategória alá adni alkategóriaként. Ekkor ez *Szülő kategória::Gyermek kategória* formában lesz megjelenítve."
 
@@ -1439,9 +1408,6 @@ msgstr "Rendszerbeállítás – beállítás visszaállítása"
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:65
 #: ../content/administration-area/communication-notifications/s-mime-certificates.rst:65
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:37
-#: ../content/administration-area/external-interface/custom-pages.rst:52
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:57
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:129
 #: ../content/administration-area/processes-automation/dynamicfields.rst:48
 #: ../content/administration-area/processes-automation/generic-agent.rst:59
 #: ../content/administration-area/ticket-settings/attachments.rst:47
@@ -2817,7 +2783,6 @@ msgid "Select which calendar the related appointment needs to be part of."
 msgstr "Annak kiválasztása, hogy a kapcsolódó időpontnak mely naptár részének kell lennie."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:170
-#: ../content/administration-area/external-interface/home-page.rst:34
 #: ../content/administration-area/processes-automation/process-management.rst:211
 msgid "Title"
 msgstr "Cím"
@@ -3113,9 +3078,6 @@ msgstr "A honosított tárgy egy adott nyelvhez."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:305
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:391
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:164
-#: ../content/administration-area/external-interface/home-page.rst:104
-#: ../content/administration-area/external-interface/home-page.rst:187
 msgid "Text \\*"
 msgstr "Szöveg \\*"
 
@@ -4759,815 +4721,6 @@ msgstr "Az OTRS hozzáférést biztosít az igények létrehozásához és kezel
 msgid "The following chapter describes the administration tools needed to implement corporate identity and manage language-based content."
 msgstr "A következő fejezet a vállalati személyazonosság megvalósításához és a nyelvalapú tartalom kezeléséhez szükséges adminisztrációs eszközöket mutatja be."
 
-#: ../content/administration-area/external-interface/custom-pages.rst:2
-msgid "Custom Pages"
-msgstr "Egyéni oldalak"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:6
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:6
-#: ../content/administration-area/external-interface/home-page.rst:6
-#: ../content/administration-area/external-interface/layout.rst:6
-msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution."
-msgstr ""
-
-#: ../content/administration-area/external-interface/custom-pages.rst:9
-#, fuzzy
-msgid "Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group."
-msgstr "Használja ezt a képernyőt, hogy egyéni oldalakat adjon hozzá a külső felületen való használathoz. Egy friss OTRS telepítés alapértelmezetten már tartalmaz néhány egyéni oldalt. Az egyéni oldal kezelésének képernyője a *Külső felület* csoport *Egyéni oldalak* moduljában érhető el."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:16
-msgid "Custom Page Management Screen"
-msgstr "Egyéni oldal kezelése képernyő"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:20
-msgid "Manage Custom Pages"
-msgstr "Egyéni oldalak kezelése"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:24
-#: ../content/administration-area/external-interface/home-page.rst:16
-#: ../content/administration-area/external-interface/layout.rst:22
-msgid "Make sure to save your changes when you finish. The new configuration will be immediately deployed."
-msgstr "Győződjön meg arról, hogy elmentette-e a változtatásokat, ha elkészült. Az új beállítások azonnal üzembe lesznek állítva."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:27
-msgid "To add a custom page:"
-msgstr "Egy egyéni oldal hozzáadásához:"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:29
-msgid "Click on the *Add Custom Page* button in the left sidebar."
-msgstr "Kattintson az *Egyéni oldal hozzáadása* gombra a bal oldalsávban."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:36
-msgid "Add Custom Page Screen"
-msgstr "Egyéni oldal hozzáadása képernyő"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:38
-msgid "To edit a custom page:"
-msgstr "Egy egyéni oldal szerkesztéséhez:"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:40
-msgid "Click on a custom page in the list of custom pages."
-msgstr "Kattintson egy egyéni oldalra az egyéni oldalak listájában."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:47
-msgid "Edit Custom Page Screen"
-msgstr "Egyéni oldal szerkesztése képernyő"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:49
-msgid "To delete a custom page:"
-msgstr "Egy egyéni oldal törléséhez:"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:51
-#: ../content/administration-area/processes-automation/generic-agent.rst:58
-msgid "Click on the trash icon in the fourth column of the overview table."
-msgstr "Kattintson a kuka ikonra az áttekintő táblázat negyedik oszlopában."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:57
-msgid "Delete Custom Page Screen"
-msgstr "Egyéni oldal törlése képernyő"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:61
-msgid "If several custom pages are added to the system, use the filter box to find a particular custom page by just typing the name to filter."
-msgstr "Ha több egyéni oldal van hozzáadva a rendszerhez, akkor használja a szűrődobozt egy bizonyos egyéni oldal megkereséséhez azáltal, hogy egyszerűen begépeli a nevét a szűrőbe."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:65
-msgid "Custom Page Settings"
-msgstr "Egyéni oldal beállításai"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:73
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:150
-msgid "Internal Title \\*"
-msgstr "Belső cím \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:71
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:148
-msgid "The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
-msgstr "Ennek az erőforrásnak a neve, amely csak az adminisztrációs felületen jelenik meg. Bármilyen típusú karakter beírható ebbe a mezőbe, beleértve a nagybetűket és a szóközt is. A név megjelenik az áttekintő táblázatban."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:77
-msgid "Slug \\*"
-msgstr "Keresőbarát URL \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:76
-msgid "This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign."
-msgstr "Ez lesz az egyéni oldal URL-je. Az ajánlott karakterek: kisbetűk, számok és kötőjel."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-msgid "Custom Page Content"
-msgstr "Egyéni oldal tartalma"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:84
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:157
-msgid "In this widget can be added some localized content for the item."
-msgstr "Ebben a felületi elemben adhatók hozzá honosított tartalmak az elemhez."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:88
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:78
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:161
-#: ../content/administration-area/external-interface/home-page.rst:101
-#: ../content/administration-area/external-interface/home-page.rst:133
-#: ../content/administration-area/external-interface/home-page.rst:184
-msgid "Title \\*"
-msgstr "Cím \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:87
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:160
-msgid "The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces."
-msgstr "Ennek az erőforrásnak a neve az adott nyelven. Bármilyen típusú karakter beírható ebbe a mezőbe, beleértve a nagybetűket és a szóközt is."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:91
-msgid "Content \\*"
-msgstr "Tartalom \\*"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:91
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:164
-msgid "The text for this item in the given language."
-msgstr "A szöveg ehhez az elemhez az adott nyelven."
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-msgid "Add new custom page content"
-msgstr "Új egyéni oldal tartalom hozzáadása"
-
-#: ../content/administration-area/external-interface/custom-pages.rst:94
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above."
-msgstr "Annak kiválasztása, hogy mely nyelveket kell hozzáadni a honosított elemtartalom létrehozásához. Az összes hozzáadott nyelv saját honosított tartalommal rendelkezhet, amint azt fent be lett mutatva."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:2
-msgid "Customer Service Catalogue"
-msgstr "Az ügyfél szolgáltatáskatalógusa"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:9
-#, fuzzy
-msgid "Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group."
-msgstr "Használja ezt a képernyőt, hogy kategóriákat és elemek adjon hozzá a külső felületen történő használathoz. Egy friss OTRS telepítés alapértelmezett nem tartalmaz semmilyen kategóriát vagy elemet. A katalóguskezelés képernyő a *Külső felület* csoport *Az ügyfél szolgáltatáskatalógusa* moduljában érhető el."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:13
-msgid "This module consists of two management screens: a category management screen and an item management screen."
-msgstr "Ez a modul két kezelőképernyőből áll: egy kategóriakezelés képernyőből és egy elemkezelés képernyőből."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:18
-msgid "Customer Service Catalogue Management Screen"
-msgstr "Az ügyfél szolgáltatáskatalógus kezelésének képernyője"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:22
-msgid "Manage Categories"
-msgstr "Kategóriák kezelése"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:24
-msgid "Use this screen to add categories to collect the same items into groups. The *Category Management* screen in available via the *Go to category management* button or via the *Category Management* module."
-msgstr "Használja ezt a képernyőt, hogy kategóriákat adjon hozzá az egyforma elemek csoportokba rendezéséhez. A *Kategóriakezelés* képernyő az *Ugrás a kategóriakezeléshez* gombon keresztül vagy a *Kategóriakezelés* modulon keresztül érhető el."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:30
-msgid "Category Management Screen"
-msgstr "Kategóriakezelés képernyő"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:34
-msgid "Click on the *Add Category* button in the left sidebar."
-msgstr "Kattintson a *Kategória hozzáadása* gombra a bal oldalsávban."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:56
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:128
-msgid "Click on the trash icon in the *Delete* column of the overview table."
-msgstr "Kattintson a kuka ikonra az áttekintő táblázat *Törlés* oszlopában."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:66
-msgid "If several categories are added to the system, use the filter box to find a particular category by just typing the name to filter."
-msgstr "Ha több kategória van hozzáadva a rendszerhez, akkor használja a szűrődobozt egy bizonyos kategória megkereséséhez azáltal, hogy egyszerűen begépeli a nevét a szűrőbe."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:70
-msgid "Category Settings"
-msgstr "Kategória beállításai"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:82
-msgid "Sub-category of"
-msgstr "Alkategóriája ennek"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:85
-msgid "Language \\*"
-msgstr "Nyelv \\*"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:85
-msgid "Select a language from the available languages of the system."
-msgstr "Válasszon egy nyelvet a rendszer elérhető nyelvei közül."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:93
-msgid "Manage Items"
-msgstr "Elemek kezelése"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:95
-msgid "Use this screen to add items to the catalogue. Items can be collected into categories. The *Item Management* screen in available via the *Go to item management* button or via the *Item Management* module."
-msgstr "Használja ezt a képernyőt, hogy elemeket adjon a katalógushoz. Az elemek csoportokba rendezhetők. Az *Elemkezelés* képernyő az *Ugrás az elemkezeléshez* gombon keresztül vagy az *Elemkezelés* modulon keresztül érhető el."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:102
-msgid "Item Management Screen"
-msgstr "Elemkezelés képernyő"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:104
-msgid "To add an item:"
-msgstr "Egy elem hozzáadásához:"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:106
-msgid "Click on the *Add Item* button in the left sidebar."
-msgstr "Kattintson az *Elem hozzáadása* gombra a bal oldalsávban."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:113
-msgid "Add Item Screen"
-msgstr "Elem hozzáadása képernyő"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:115
-msgid "To edit an item:"
-msgstr "Egy elem szerkesztéséhez:"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:117
-msgid "Click on an item in the list of items."
-msgstr "Kattintson egy elemre az elemek listájában."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:124
-msgid "Edit Item Screen"
-msgstr "Elem szerkesztése képernyő"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:126
-msgid "To delete an item:"
-msgstr "Egy elem törléséhez:"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:134
-msgid "Delete Item Screen"
-msgstr "Elem törlése képernyő"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:138
-msgid "If several items are added to the system, use the filter box to find a particular item by just typing the name to filter."
-msgstr "Ha több elem van hozzáadva a rendszerhez, akkor használja a szűrődobozt egy bizonyos elem megkereséséhez azáltal, hogy egyszerűen begépeli a nevét a szűrőbe."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:142
-msgid "Item Settings"
-msgstr "Elem beállításai"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Item Content"
-msgstr "Elemtartalom"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:171
-msgid "Categories"
-msgstr "Kategóriák"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:167
-msgid "One ore more categories can be selected for the item in which the item should be visible."
-msgstr "Egy vagy több kategória választható ki az elemhez, amelyben az elemnek láthatónak kell lennie."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:171
-msgid "Only those categories can be selected, that have the same language as the selected language for this widget."
-msgstr "Csak azok a kategóriák választhatók, amelyek ugyanazzal a nyelvvel rendelkeznek mint a választott nyelv ennél a felületi elemnél."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:174
-msgid "Link \\*"
-msgstr "Hivatkozás \\*"
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:174
-msgid "A link to an internal or an external URL."
-msgstr "Egy hivatkozás egy belső vagy egy külső URL-re."
-
-#: ../content/administration-area/external-interface/customer-service-catalogue.rst:177
-msgid "Add new item content"
-msgstr "Új elemtartalom hozzáadása"
-
-#: ../content/administration-area/external-interface/home-page.rst:2
-msgid "Home Page"
-msgstr "Kezdőlap"
-
-#: ../content/administration-area/external-interface/home-page.rst:9
-msgid "Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group."
-msgstr "Használja ezt a képernyőt, hogy kezdőlap-beállítást határozzon meg a különböző felhasználói nyelvekhez, amelyek a külső felületen jelennek meg. A kezdőlap kezelésének képernyője a *Külső felület* csoport *Kezdőlap* moduljában érhető el."
-
-#: ../content/administration-area/external-interface/home-page.rst:12
-msgid "This screen contains several widget for each languages, where localized content can be added."
-msgstr "Ez a képernyő több felületi elemet is tartalmaz egy egyes nyelvekhez, ahol a honosított tartalmat hozzá lehet adni."
-
-#: ../content/administration-area/external-interface/home-page.rst:24
-msgid "Hero Unit"
-msgstr "Legfőbb tartalom"
-
-#: ../content/administration-area/external-interface/home-page.rst:31
-msgid "Hero Unit Widget"
-msgstr "Legfőbb tartalom felületi elem"
-
-#: ../content/administration-area/external-interface/home-page.rst:34
-msgid "This is the most important sentence or motto of the home page."
-msgstr "Ez a legfontosabb mondat vagy a kezdőlap mottója."
-
-#: ../content/administration-area/external-interface/home-page.rst:42
-msgid "Background Style"
-msgstr "Háttérstílus"
-
-#: ../content/administration-area/external-interface/home-page.rst:37
-msgid "Define the behavior of background image and background color. The following options are available:"
-msgstr "A háttérkép és a háttérszín viselkedésének meghatározása. A következő lehetőségek érhetők el:"
-
-#: ../content/administration-area/external-interface/home-page.rst:40
-msgid "Only use the background image"
-msgstr "Csak a háttérkép használata"
-
-#: ../content/administration-area/external-interface/home-page.rst:41
-msgid "Only use the background color"
-msgstr "Csak a háttérszín használata"
-
-#: ../content/administration-area/external-interface/home-page.rst:42
-msgid "Use the background image and overlay it with the selected color"
-msgstr "A háttérkép használata és a választott szín fölé helyezése"
-
-#: ../content/administration-area/external-interface/home-page.rst:46
-msgid "Background Image"
-msgstr "Háttérkép"
-
-#: ../content/administration-area/external-interface/home-page.rst:45
-msgid "Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr "Egy kép kiválasztása a legfőbb tartalom háttérképeként. Egy kép kiválasztásához kattintson a *Kép kiválasztása a feltöltéshez* gombra és válasszon egy képet a fájlrendszerről."
-
-#: ../content/administration-area/external-interface/home-page.rst:51
-msgid "Background Color"
-msgstr "Háttérszín"
-
-#: ../content/administration-area/external-interface/home-page.rst:49
-#: ../content/administration-area/external-interface/home-page.rst:86
-msgid "To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
-msgstr "A háttérszín megváltoztatásához egyszerűen válasszon egy új színt a színpalettáról. Választhat az előre kiválasztott színek közül, vagy meghatározhat egyéb színeket a színválasztóról való választással vagy a hexadecimális érték begépelésével."
-
-#: ../content/administration-area/external-interface/home-page.rst:54
-msgid "Ticket List"
-msgstr "Jegylista"
-
-#: ../content/administration-area/external-interface/home-page.rst:61
-msgid "Ticket List Widget"
-msgstr "Jegylista felületi elem"
-
-#: ../content/administration-area/external-interface/home-page.rst:64
-msgid "Show a ticket list for logged in users"
-msgstr "Jegylista megjelenítése a bejelentkezett felhasználóknak"
-
-#: ../content/administration-area/external-interface/home-page.rst:64
-msgid "This setting defines if the ticket list should be visible for logged in users or not."
-msgstr "Ez a beállítás határozza meg, hogy a jegylista látható legyen-e a bejelentkezett felhasználóknak vagy sem."
-
-#: ../content/administration-area/external-interface/home-page.rst:68
-#: ../content/administration-area/external-interface/home-page.rst:83
-#: ../content/administration-area/external-interface/home-page.rst:123
-#: ../content/administration-area/external-interface/home-page.rst:174
-msgid "Row Title"
-msgstr "Sor címe"
-
-#: ../content/administration-area/external-interface/home-page.rst:67
-#: ../content/administration-area/external-interface/home-page.rst:83
-#: ../content/administration-area/external-interface/home-page.rst:123
-#: ../content/administration-area/external-interface/home-page.rst:174
-msgid "This is an optional title for the row, that contains this widget in the external interface."
-msgstr "Ez egy elhagyható cím annál a sornál, amely ezt a felületi elemet tartalmazza a külső felületen."
-
-#: ../content/administration-area/external-interface/home-page.rst:71
-msgid "Image Teasers"
-msgstr "Képpel ellátott összefoglalók"
-
-#: ../content/administration-area/external-interface/home-page.rst:75
-msgid "The image teasers are displayed in a separate row in the external interface."
-msgstr "A képpel ellátott összefoglalók egy külön sorban jelennek meg a külső felületen."
-
-#: ../content/administration-area/external-interface/home-page.rst:80
-msgid "Image Teasers Widget"
-msgstr "Képpel ellátott összefoglalók felületi elem"
-
-#: ../content/administration-area/external-interface/home-page.rst:87
-msgid "Row Background Color"
-msgstr "Sor háttérszíne"
-
-#: ../content/administration-area/external-interface/home-page.rst:89
-msgid "You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget."
-msgstr "Legfeljebb három képpel ellátott összefoglalót adhat hozzá a felületi elem jobb felső sarkában lévő *Hozzáadás* gombra kattintva."
-
-#: ../content/administration-area/external-interface/home-page.rst:94
-msgid "Image Teaser"
-msgstr "Képpel ellátott összefoglaló"
-
-#: ../content/administration-area/external-interface/home-page.rst:98
-msgid "Image"
-msgstr "Kép"
-
-#: ../content/administration-area/external-interface/home-page.rst:97
-msgid "Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr "Egy kép kiválasztása a képpel ellátott összefoglaló felületi elemben való megjelenítéshez. Egy kép kiválasztásához kattintson a *Kép kiválasztása a feltöltéshez* gombra és válasszon egy képet a fájlrendszerről."
-
-#: ../content/administration-area/external-interface/home-page.rst:101
-#: ../content/administration-area/external-interface/home-page.rst:133
-#: ../content/administration-area/external-interface/home-page.rst:184
-msgid "The heading text that are displayed in this item."
-msgstr "A címsor szövege, amely ebben az elemben jelenik meg."
-
-#: ../content/administration-area/external-interface/home-page.rst:104
-#: ../content/administration-area/external-interface/home-page.rst:187
-msgid "The text for this item."
-msgstr "A szöveg ehhez az elemhez."
-
-#: ../content/administration-area/external-interface/home-page.rst:108
-msgid "Link Target \\*"
-msgstr "Hivatkozás célja \\*"
-
-#: ../content/administration-area/external-interface/home-page.rst:107
-#: ../content/administration-area/external-interface/home-page.rst:193
-msgid "An URL that will be opened after clicking on this item in the external interface."
-msgstr "Egy URL, amely akkor nyílik meg, miután erre az elemre kattintanak a külső felületen."
-
-#: ../content/administration-area/external-interface/home-page.rst:111
-msgid "Link Lists"
-msgstr "Hivatkozáslisták"
-
-#: ../content/administration-area/external-interface/home-page.rst:115
-#: ../content/administration-area/external-interface/home-page.rst:166
-msgid "The link lists are displayed in a separate row in the external interface."
-msgstr "A hivatkozáslisták egy külön sorban jelennek meg a külső felületen."
-
-#: ../content/administration-area/external-interface/home-page.rst:120
-msgid "Link Lists Widget"
-msgstr "Hivatkozáslisták felületi elem"
-
-#: ../content/administration-area/external-interface/home-page.rst:125
-msgid "You can add up to four link lists by clicking on the *Add* button in the top right corner of the widget."
-msgstr "Legfeljebb négy hivatkozáslistát adhat hozzá a felületi elem jobb felső sarkában lévő *Hozzáadás* gombra kattintva."
-
-#: ../content/administration-area/external-interface/home-page.rst:130
-msgid "Link List"
-msgstr "Hivatkozáslista"
-
-#: ../content/administration-area/external-interface/home-page.rst:136
-#: ../content/administration-area/external-interface/home-page.rst:190
-msgid "Link Text"
-msgstr "Hivatkozás szövege"
-
-#: ../content/administration-area/external-interface/home-page.rst:136
-#: ../content/administration-area/external-interface/home-page.rst:190
-msgid "Add the text for the *show more* link."
-msgstr "A szöveg hozzáadása a *több megjelenítése* hivatkozáshoz."
-
-#: ../content/administration-area/external-interface/home-page.rst:139
-#: ../content/administration-area/external-interface/home-page.rst:192
-msgid "Link Target"
-msgstr "Hivatkozás célja"
-
-#: ../content/administration-area/external-interface/home-page.rst:139
-msgid "Add the URL for the *show more* link."
-msgstr "A URL hozzáadása a *több megjelenítése* hivatkozáshoz."
-
-#: ../content/administration-area/external-interface/home-page.rst:159
-msgid "Link List Type \\*"
-msgstr "Hivatkozáslista típusa \\*"
-
-#: ../content/administration-area/external-interface/home-page.rst:142
-msgid "Specifies the functionality how the item will be added."
-msgstr "Annak működését határozza meg, hogy az elem hogyan lesz hozzáadva."
-
-#: ../content/administration-area/external-interface/home-page.rst:0
-#: ../content/administration-area/external-interface/home-page.rst:150
-msgid "Add the Items Manually"
-msgstr "Az elemek hozzáadása kézzel"
-
-#: ../content/administration-area/external-interface/home-page.rst:145
-#: ../content/administration-area/external-interface/home-page.rst:153
-msgid "Clicking on the edit button a new widget will be visible to add the items."
-msgstr "A szerkesztés gombra kattintva egy új felületi elem lesz látható az elemek hozzáadásához."
-
-#: ../content/administration-area/external-interface/home-page.rst:0
-#: ../content/administration-area/external-interface/home-page.rst:158
-#: ../content/administration-area/external-interface/home-page.rst:159
-msgid "Show the Results of a Search"
-msgstr "Egy keresés eredményeinek megjelenítése"
-
-#: ../content/administration-area/external-interface/home-page.rst:162
-msgid "Content Cards"
-msgstr "Tartalomkártyák"
-
-#: ../content/administration-area/external-interface/home-page.rst:171
-msgid "Content Cards Widget"
-msgstr "Tartalomkártyák felületi elem"
-
-#: ../content/administration-area/external-interface/home-page.rst:176
-msgid "You can add up to three content cards by clicking on the *Add* button in the top right corner of the widget."
-msgstr "Legfeljebb három tartalomkártyát adhat hozzá a felületi elem jobb felső sarkában lévő *Hozzáadás* gombra kattintva."
-
-#: ../content/administration-area/external-interface/home-page.rst:181
-msgid "Content Card"
-msgstr "Tartalomkártya"
-
-#: ../content/administration-area/external-interface/layout.rst:2
-msgid "Layout"
-msgstr "Elrendezés"
-
-#: ../content/administration-area/external-interface/layout.rst:9
-msgid "Use this screen to edit the layout displayed in external interface. The layout management screen is available in the *Layout* module of the *External Interface* group."
-msgstr "Használja ezt a képernyőt a külső felületen megjelenő elrendezés szerkesztéséhez. Az elrendezéskezelő képernyő a *Külső felület* csoport *Elrendezés* moduljában érhető el."
-
-#: ../content/administration-area/external-interface/layout.rst:15
-msgid "Edit Layout Screen"
-msgstr "Elrendezés szerkesztése képernyő"
-
-#: ../content/administration-area/external-interface/layout.rst:17
-#, fuzzy
-msgid "A fresh OTOBO installation already contains a default layout. In this screen all parameters can be changed."
-msgstr "Egy friss OTRS telepítés már tartalmaz egy alapértelmezett elrendezést. Ezen a képernyőn az összes paraméter megváltoztatható."
-
-#: ../content/administration-area/external-interface/layout.rst:29
-msgid "Logo"
-msgstr "Logó"
-
-#: ../content/administration-area/external-interface/layout.rst:26
-msgid "The logo is a small image that is displayed in the top left corner of the external pages."
-msgstr "A logó egy kis kép, amely a külső oldalak bal felső sarkában jelenik meg."
-
-#: ../content/administration-area/external-interface/layout.rst:28
-msgid "To change the logo, click on the *Select image to upload* button, and select a new logo image. Recommended file format is PNG."
-msgstr "A logó megváltoztatásához kattintson a *Kép kiválasztása a feltöltéshez* gombra, és válasszon egy új logóképet. Az ajánlott fájlformátum a PNG."
-
-#: ../content/administration-area/external-interface/layout.rst:35
-msgid "Favicon"
-msgstr "Böngészőikon"
-
-#: ../content/administration-area/external-interface/layout.rst:32
-msgid "The `favorite icon <https://en.wikipedia.org/wiki/Favicon>`_ is an icon that is displayed in the URL bar of the web browser."
-msgstr "A `böngészőikon <https://hu.wikipedia.org/wiki/Favicon>`_ egy olyan ikon, amely a webböngésző URL sávjában jelenik meg."
-
-#: ../content/administration-area/external-interface/layout.rst:34
-msgid "To change the favorite icon, click on the *Select image to upload* button, and select a new icon. This is usually a 16×16 pixel image in PNG or ICO format."
-msgstr "A böngészőikon megváltoztatásához kattintson a *Kép kiválasztása a feltöltéshez* gombra, és válasszon egy új ikont. Ez általában egy 16×16 képpont méretű kép PNG vagy ICO formátumban."
-
-#: ../content/administration-area/external-interface/layout.rst:42
-msgid "Primary Color"
-msgstr "Elsődleges szín"
-
-#: ../content/administration-area/external-interface/layout.rst:38
-msgid "Primary color is the most important color of the external pages (see the preview screen)."
-msgstr "Az elsődleges szín a külső oldalak legfontosabb színe (nézze meg az előnézeti képernyőt)."
-
-#: ../content/administration-area/external-interface/layout.rst:40
-msgid "To change the primary color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr "Az elsődleges szín megváltoztatásához egyszerűen válasszon egy új színt a színpalettáról. Választhat az előre kiválasztott színek közül, vagy meghatározhat egyéb színeket a színválasztóról való választással vagy a hexadecimális érték begépelésével. Az új szín azonnal megjelenik az előnézeti felületi elemben."
-
-#: ../content/administration-area/external-interface/layout.rst:49
-msgid "Highlight Color"
-msgstr "Kiemelés színe"
-
-#: ../content/administration-area/external-interface/layout.rst:45
-msgid "Highlight color is the second color of the external pages using for status badges, links, etc."
-msgstr "A kiemelés színe a külső oldalak második színe, amelyet állapotmatricáknál, hivatkozásoknál, stb. használnak."
-
-#: ../content/administration-area/external-interface/layout.rst:47
-msgid "To change the highlight color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr "A kiemelés színének megváltoztatásához egyszerűen válasszon egy új színt a színpalettáról. Választhat az előre kiválasztott színek közül, vagy meghatározhat egyéb színeket a színválasztóról való választással vagy a hexadecimális érték begépelésével. Az új szín azonnal megjelenik az előnézeti felületi elemben."
-
-#: ../content/administration-area/external-interface/layout.rst:54
-msgid "Default Avatar"
-msgstr "Alapértelmezett avatár"
-
-#: ../content/administration-area/external-interface/layout.rst:52
-msgid "Will be used as the default avatar for all outgoing communication."
-msgstr "Az alapértelmezett avatárként lesz használva az összes kimenő kommunikációnál."
-
-#: ../content/administration-area/external-interface/layout.rst:54
-msgid "To change the avatar, click on the *Select image to upload* button, and select a new avatar image."
-msgstr "Az avatár megváltoztatásához kattintson a *Kép kiválasztása a feltöltéshez* gombra, és válasszon egy új avatárképet."
-
-#: ../content/administration-area/external-interface/layout.rst:63
-msgid "Custom CSS"
-msgstr "Egyéni CSS"
-
-#: ../content/administration-area/external-interface/layout.rst:57
-msgid "Use this text area to add custom CSS to be applied in the external interface."
-msgstr "Használja ezt a szövegdobozt a külső felületen alkalmazandó egyéni CSS hozzáadásához."
-
-#: ../content/administration-area/external-interface/layout.rst:0
-#: ../content/administration-area/external-interface/layout.rst:62
-msgid "Custom CSS Widget"
-msgstr "Egyéni CSS felületi elem"
-
-#: ../content/administration-area/external-interface/layout.rst:66
-msgid "Include Custom Scripts"
-msgstr "Egyéni parancsfájlok beágyazása"
-
-#: ../content/administration-area/external-interface/layout.rst:68
-#, fuzzy
-msgid "External interface application has been built with security-first mindset in place. It contains several mechanisms to make sure that all code in the front end is provided directly by the OTOBO framework."
-msgstr "A külső felület alkalmazás biztonságcentrikus gondolkodásmóddal készült. Számos mechanizmust tartalmaz annak biztosításához, hogy az előtétprogramon lévő összes kódot közvetlenül az OTRS keretrendszer biztosítja-e."
-
-#: ../content/administration-area/external-interface/layout.rst:71
-msgid "In addition, a security standard called `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ headers is now leveraged by the built-in web server. It serves as a last line of defense and in case some unexpected code still makes it to the client, it will make sure that the user’s browser simply refuses to run it."
-msgstr "Ezenkívül mostantól egy `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ nevezetű biztonsági szabvány fejléceit is kihasználja a beépített webkiszolgáló. Ez az utolsó védelmi vonalként szolgál, és abban az esetben, ha néhány váratlan kód továbbra is elérhetővé válna az ügyfélnek, akkor biztosítja, hogy a felhasználó böngészője egyszerűen elutasítsa a futtatását."
-
-#: ../content/administration-area/external-interface/layout.rst:74
-msgid "However, a use-case still exists in which even a modern web application might still need to run some additional code, provided it is vetted and included by the administrators. One example could be an external integrated chat solution, but could also be an inline code snippet used for external web analytics."
-msgstr "Azonban továbbra is létezik olyan eset, amikor még egy modern webes alkalmazásnak is szüksége lehet további kód futtatására, feltéve hogy azt az adminisztrátorok ellenőrizték és beágyazták. Példa lehet erre egy külső integrált csevegési megoldás, de lehetne egy külső webelemző eszközhöz használt sorközi kódrészlet is."
-
-#: ../content/administration-area/external-interface/layout.rst:79
-msgid "Including custom scripts can be done in the :doc:`../administration/system-configuration` with the following settings:"
-msgstr "Egyéni parancsfájlok beágyazása a :doc:`../administration/system-configuration` képernyőn végezhető el a következő beállításokkal:"
-
-#: ../content/administration-area/external-interface/layout.rst:81
-msgid "``ExternalFrontend::ExternalScripts``"
-msgstr "``ExternalFrontend::ExternalScripts``"
-
-#: ../content/administration-area/external-interface/layout.rst:82
-msgid "``ExternalFrontend::InlineScripts``"
-msgstr "``ExternalFrontend::InlineScripts``"
-
-#: ../content/administration-area/external-interface/layout.rst:83
-msgid "``WebApp::Server::AdditionalOrigins``"
-msgstr "``WebApp::Server::AdditionalOrigins``"
-
-#: ../content/administration-area/external-interface/layout.rst:87
-msgid "Web Analytics Example"
-msgstr "Webelemző eszköz példa"
-
-#: ../content/administration-area/external-interface/layout.rst:89
-msgid "In this example, we outline the steps to include custom scripts used by a web analytics provider in the external interface application. They will be run each time the application is used in order to track and report the behavior of the user for later analysis."
-msgstr "Ebben a példában felvázoljuk a lépéseket egy webes elemző eszköz szolgáltatója által használt egyedi parancsfájloknak a külső felület alkalmazásba történő beágyazásához. Ezek minden alkalommal le lesznek futtatva, amikor az alkalmazást használják, hogy nyomon követhessék és jelentsék a felhasználó viselkedését a későbbi elemzéshez."
-
-#: ../content/administration-area/external-interface/layout.rst:92
-msgid "We start with the provided code snippet below, from a third party provider."
-msgstr "Egy harmadik fél szolgáltatótól származó lenti kódrészlettel kezdjük."
-
-#: ../content/administration-area/external-interface/layout.rst:105
-msgid "First line of the snippet refers to an *external* resource which should be loaded by the ``script`` tag."
-msgstr "A kódrészlet első sora egy *külső* erőforrásra hivatkozik, amelyet a ``script`` címkének kell betöltenie."
-
-#: ../content/administration-area/external-interface/layout.rst:107
-msgid "In the script block below, we have some *inline* code which is run immediately when the page is loaded."
-msgstr "Az alatta lévő parancsfájlblokkban van néhány *sorközi* kódunk, amely azonnal lefut, ha az oldal betöltődött."
-
-#: ../content/administration-area/external-interface/layout.rst:111
-msgid "Adding External Script Resources"
-msgstr "Külső parancsfájl-erőforrások hozzáadása"
-
-#: ../content/administration-area/external-interface/layout.rst:113
-msgid "First, we need to include the external script location in the appropriate configuration:"
-msgstr "Először be kell ágyaznunk a külső parancsfájl helyét a megfelelő beállításban:"
-
-#: ../content/administration-area/external-interface/layout.rst:115
-#: ../content/administration-area/external-interface/layout.rst:131
-#: ../content/administration-area/external-interface/layout.rst:184
-#: ../content/administration-area/external-interface/layout.rst:209
-msgid "Go to the *System Configuration* screen."
-msgstr "Menjen a *Rendszerbeállítások* képernyőre."
-
-#: ../content/administration-area/external-interface/layout.rst:116
-msgid "Search for the setting ``ExternalFrontend::ExternalScripts``."
-msgstr "Keressen rá az ``ExternalFrontend::ExternalScripts`` beállításra."
-
-#: ../content/administration-area/external-interface/layout.rst:117
-#: ../content/administration-area/external-interface/layout.rst:133
-#: ../content/administration-area/external-interface/layout.rst:186
-#: ../content/administration-area/external-interface/layout.rst:211
-msgid "Click on the setting in order to edit it."
-msgstr "Kattintson rá a beállításra a szerkesztéséhez."
-
-#: ../content/administration-area/external-interface/layout.rst:118
-#: ../content/administration-area/external-interface/layout.rst:134
-msgid "In case a value is already present, click on the plus button. Otherwise, proceed below."
-msgstr "Abban az esetben, ha egy érték már szerepel ott, kattintson a plusz gombra. Egyébként folytassa a továbbiakkal."
-
-#: ../content/administration-area/external-interface/layout.rst:120
-msgid "Enter the full location of the *external* resource in the text field. For example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
-msgstr "Adja meg a *külső* erőforrás teljes helyét a szövegmezőben. Például: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
-
-#: ../content/administration-area/external-interface/layout.rst:122
-#: ../content/administration-area/external-interface/layout.rst:147
-#: ../content/administration-area/external-interface/layout.rst:193
-#: ../content/administration-area/external-interface/layout.rst:216
-msgid "Click on the check mark in order to save the modified setting."
-msgstr "Kattintson a pipa jelre a módosított beállítások elmentéséhez."
-
-#: ../content/administration-area/external-interface/layout.rst:123
-#: ../content/administration-area/external-interface/layout.rst:148
-#: ../content/administration-area/external-interface/layout.rst:194
-#: ../content/administration-area/external-interface/layout.rst:217
-#: ../content/administration-area/processes-automation/dynamicfields.rst:500
-#: ../content/administration-area/processes-automation/dynamicfields.rst:523
-#: ../content/administration-area/processes-automation/dynamicfields.rst:536
-#: ../content/administration-area/processes-automation/dynamicfields.rst:561
-msgid "Deploy the modified system configuration."
-msgstr "Állítsa üzembe a módosított rendszerbeállítást."
-
-#: ../content/administration-area/external-interface/layout.rst:127
-msgid "Adding Inline Code Snippets"
-msgstr "Sorközi kódrészletek hozzáadása"
-
-#: ../content/administration-area/external-interface/layout.rst:129
-msgid "Next, we have to also include the inline part of the original snippet:"
-msgstr "Ezután be kell ágyaznunk az eredeti kódrészlet sorközi részét is:"
-
-#: ../content/administration-area/external-interface/layout.rst:132
-msgid "Search for the setting ``ExternalFrontend::InlineScripts``."
-msgstr "Keressen rá az ``ExternalFrontend::InlineScripts`` beállításra."
-
-#: ../content/administration-area/external-interface/layout.rst:136
-msgid "Enter the full code snippet in the text area, minus any ``script`` tags. For example:"
-msgstr "Adja meg a teljes kódrészletet a szövegterületen a ``script`` címkék nélkül. Például:"
-
-#: ../content/administration-area/external-interface/layout.rst:152
-msgid "Rebuilding the External Interface Application"
-msgstr "A külső felület alkalmazás újraépítése"
-
-#: ../content/administration-area/external-interface/layout.rst:154
-msgid "In order to apply the changes, we also need to rebuild the external interface application. Drop down to shell, and execute the following command:"
-msgstr "A változtatások alkalmazása érdekében a külső felület alkalmazást is újra kell építenünk. Váltson át a parancsértelmezőre, és hajtsa végre a következő parancsot:"
-
-#: ../content/administration-area/external-interface/layout.rst:163
-msgid "Whitelisting Additional Origins in the Security Headers"
-msgstr "További források fehér listára tétele a biztonsági fejlécekben"
-
-#: ../content/administration-area/external-interface/layout.rst:165
-msgid "If you now try to access the external interface application, you will be able to verify that the scripts are included in the code. However, your browser will probably block access to all *inline* and *external* resources, therefore the code might fail with some errors."
-msgstr "Ha most megpróbálja elérni a külső felület alkalmazást, akkor képes lesz leellenőrizni, hogy a parancsfájlok szerepelnek-e a kódban. Azonban a böngésző valószínűleg blokkolja az összes *sorközi* és *külső* erőforrás hozzáférését, ezért a kód sikertelen lehet néhány hibával."
-
-#: ../content/administration-area/external-interface/layout.rst:168
-msgid "This behavior is by design, since external resources can only be loaded if they are specifically whitelisted in the *Content Security Policy* headers."
-msgstr "Ez a viselkedés tervezési okok miatt van, mivel a külső erőforrások csak akkor tölthetők be, ha azok kifejezetten fehér listán vannak a *Content Security Policy* fejléceiben."
-
-#: ../content/administration-area/external-interface/layout.rst:170
-msgid "To check for blocked code, please use suitable web browser inspection tools. In our example, we will be using Mozilla Firefox and its web console available via *Tools → Web Developer → Web Console* menu item, or via the *F12* shortcut key."
-msgstr "A blokkolt kód ellenőrzéséhez használjon megfelelő webböngésző ellenőrző eszközöket. A példánkban a Mozilla Firefoxot és annak webkonzolját fogjuk használni, amely az *Eszközök → Webfejlesztő → Webkonzol* menüpontban vagy az *F12* gyorsbillentyűn keresztül érhető el."
-
-#: ../content/administration-area/external-interface/layout.rst:173
-msgid "For the example code snippet, you might receive following errors in the console when the application is accessed:"
-msgstr "A példában lévő kódrészletnél a következő hibákat kaphatja a konzolban, ha az alkalmazást eléri:"
-
-#: ../content/administration-area/external-interface/layout.rst:178
-msgid "Browser Console Errors and Warnings"
-msgstr "Böngészőkonzol hibák és figyelmeztetések"
-
-#: ../content/administration-area/external-interface/layout.rst:180
-msgid "From the console errors we can see that the external script resource was prevented from being loaded (lines 1 and 3). In addition to that, two evaluation calls were also blocked (lines 2 and 5). All errors reference a *Content Security Policy* rule under the name of ``script-src``, which signals script resources."
-msgstr "A konzolhibákból láthatjuk, hogy a külső parancsfájl-erőforrás betöltését megakadályozták (1. és 3. sor). Emellett két kiértékelési hívást is blokkoltak (2. és 5. sor). Minden hiba egy *Content Security Policy* szabályra hivatkozik a ``script-src`` neve alatt, amely a parancsfájl-erőforrásokat jelzi."
-
-#: ../content/administration-area/external-interface/layout.rst:182
-msgid "We need to add both the external resource and the evaluation calls to the additional origins list of the *Content Security Policy* headers:"
-msgstr "Mind a külső erőforrást, mind a kiértékelési hívásokat hozzá kell adnunk a *Content Security Policy* fejléceinek további forráslistájához:"
-
-#: ../content/administration-area/external-interface/layout.rst:185
-#: ../content/administration-area/external-interface/layout.rst:210
-msgid "Search for the setting ``WebApp::Server::AdditionalOrigins``."
-msgstr "Keressen rá a ``WebApp::Server::AdditionalOrigins`` beállításra."
-
-#: ../content/administration-area/external-interface/layout.rst:187
-msgid "In case a value for ``script-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr "Abban az esetben, ha egy ``script-src`` érték már szerepel ott, kattintson a mellette lévő plusz gombra. Egyébként folytassa a továbbiakkal."
-
-#: ../content/administration-area/external-interface/layout.rst:189
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external resource to be loaded."
-msgstr "Adja meg a blokkolt erőforrásnak csak a tartomány részét a szövegmezőben. Például: ``https://www.example.com``. Ez lehetővé teszi a külső erőforrás betöltését."
-
-#: ../content/administration-area/external-interface/layout.rst:191
-msgid "Click on the plus button next to the field, so another value is added."
-msgstr "Kattintson a mező mellett lévő plusz gombra, így egy másik érték lesz hozzáadva."
-
-#: ../content/administration-area/external-interface/layout.rst:192
-msgid "Enter the following directive in the new field, including the quotes: ``'unsafe-eval'``. This allows the evaluation calls to be executed."
-msgstr "Adja meg a következő irányelvet az új mezőben, beleértve az idézést is: ``'unsafe-eval'``. Ez lehetővé teszi a kiértékelési hívások végrehajtását."
-
-#: ../content/administration-area/external-interface/layout.rst:196
-msgid "There is no need to rebuild the external interface application at this point, as the additional origins configuration should be immediately in effect."
-msgstr "Ezen a ponton nincs szükség a külső felület alkalmazás újraépítésére, mivel a további források beállításának azonnal érvényesülnie kell."
-
-#: ../content/administration-area/external-interface/layout.rst:198
-msgid "If you reload the external interface application, you might get some additional errors. In our example, it might be the following:"
-msgstr "Ha újratölti a külső felület alkalmazást, akkor további hibákat is kaphat. A példánkban ez a következő lehet:"
-
-#: ../content/administration-area/external-interface/layout.rst:204
-msgid "Additional Browser Console Errors and Warnings"
-msgstr "További böngészőkonzol hibák és figyelmeztetések"
-
-#: ../content/administration-area/external-interface/layout.rst:206
-msgid "This error points that an additional resource that was also blocked, an image at a specific location (line 1). We can deduce this via the name of the *Content Security Policy* rule ``img-src``, which references an image resource. In order to add it to the whitelist, try the following:"
-msgstr "Ez a hiba azt jelzi, hogy egy további erőforrás szintén blokkolva volt, amely egy kép egy adott helyen (1. sor). Erre az ``img-src`` *Content Security Policy* szabály nevéből következtethetünk, amely egy képerőforrásra hivatkozik. Annak érdekében, hogy hozzáadja ezt a fehér listához, próbálja meg a következőt:"
-
-#: ../content/administration-area/external-interface/layout.rst:212
-msgid "In case a value for ``img-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr "Abban az esetben, ha egy ``img-src`` érték már szerepel ott, kattintson a mellette lévő plusz gombra. Egyébként folytassa a továbbiakkal."
-
-#: ../content/administration-area/external-interface/layout.rst:214
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external image resource to be loaded."
-msgstr "Adja meg a blokkolt erőforrásnak csak a tartomány részét a szövegmezőben. Például: ``https://www.example.com``. Ez lehetővé teszi a külső képerőforrás betöltését."
-
-#: ../content/administration-area/external-interface/layout.rst:219
-msgid "Try again to reload the external interface application and check if there are more errors. If not, your scripts are now probably working as expected."
-msgstr "Próbálja meg újratölteni a külső felület alkalmazást, és ellenőrizze, hogy van-e további hiba. Ha nincs, akkor a parancsfájlok valószínűleg most már az elvárt módon működnek."
-
-#: ../content/administration-area/external-interface/layout.rst:222
-msgid "Unfortunately, it is not possible to predict what kind of resources your scripts might be requiring. But, no worries, you can whitelist most of them, just make sure to follow the trail of hints shown in the browser console log. Find a corresponding header rule in the configuration and update it accordingly."
-msgstr "Sajnos nincs lehetőség előre megmondani, hogy milyen erőforrásokra lehet szükségük a parancsfájloknak. De nem kell aggódnia, a legtöbbjüket fehér listára teheti, csak győződj meg arról, hogy pontosan követi-e a böngésző konzolnaplójában megjelenő tanácsokat. Keressen egy megfelelő fejlécszabályt a beállításban, és ennek megfelelően frissítse."
-
-#: ../content/administration-area/external-interface/layout.rst:228
-msgid "Some resources might only be requested by others, hence several iterations might be needed until everything is configured properly."
-msgstr "Néhány erőforrást csak más erőforrások kérhetnek, ezért több iterációra lehet szükség, amíg mindent megfelelően beállít."
-
-#: ../content/administration-area/external-interface/layout.rst:232
-#, fuzzy
-msgid "Whitelisting external resources opens potential security risks in your OTOBO application! Only allow those resources that you are sure are not malicious and come from reputable sources. Keep in mind that if something is secure today, does not mean it will be tomorrow. Stay safe!"
-msgstr "A külső erőforrások fehér listára tétele lehetséges biztonsági kockázatokat nyit az OTRS alkalmazásban! Csak azokat az erőforrások engedélyezze, amelyek biztosan nem rosszindulatúak és jól ismert forrásokból származnak. Ne feledje, hogy ha valami ma biztonságos, az nem jelenti azt, hogy holnap is az lesz. Maradjon biztonságban!"
-
 #: ../content/administration-area/introduction.rst:2
 msgid "Introduction"
 msgstr "Bevezetés"
@@ -6920,6 +6073,13 @@ msgstr "Válasszon *1 – Engedélyezve* vagy *2 – Engedélyezve és kötelez�
 msgid "Click on the tick button on the right to save the setting."
 msgstr "Kattintson a pipa gombra a jobb oldalon a beállítás mentéséhez."
 
+#: ../content/administration-area/processes-automation/dynamicfields.rst:500
+#: ../content/administration-area/processes-automation/dynamicfields.rst:523
+#: ../content/administration-area/processes-automation/dynamicfields.rst:536
+#: ../content/administration-area/processes-automation/dynamicfields.rst:561
+msgid "Deploy the modified system configuration."
+msgstr "Állítsa üzembe a módosított rendszerbeállítást."
+
 #: ../content/administration-area/processes-automation/dynamicfields.rst:505
 msgid "Display Dynamic Fields on Screen"
 msgstr "Dinamikus mezők megjelenítése a képernyőn"
@@ -7101,6 +6261,10 @@ msgstr "Általános ügyintéző feladat szerkesztése képernyő"
 #: ../content/administration-area/processes-automation/generic-agent.rst:56
 msgid "To delete a generic agent job:"
 msgstr "Egy általános ügyintéző feladat törléséhez:"
+
+#: ../content/administration-area/processes-automation/generic-agent.rst:58
+msgid "Click on the trash icon in the fourth column of the overview table."
+msgstr "Kattintson a kuka ikonra az áttekintő táblázat negyedik oszlopában."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:64
 msgid "Delete Generic Agent Job Screen"
@@ -12811,6 +11975,563 @@ msgstr ""
 #: ../content/index.rst:45
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
+
+#~ msgid "Custom Pages"
+#~ msgstr "Egyéni oldalak"
+
+#, fuzzy
+#~ msgid "Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group."
+#~ msgstr "Használja ezt a képernyőt, hogy egyéni oldalakat adjon hozzá a külső felületen való használathoz. Egy friss OTRS telepítés alapértelmezetten már tartalmaz néhány egyéni oldalt. Az egyéni oldal kezelésének képernyője a *Külső felület* csoport *Egyéni oldalak* moduljában érhető el."
+
+#~ msgid "Custom Page Management Screen"
+#~ msgstr "Egyéni oldal kezelése képernyő"
+
+#~ msgid "Manage Custom Pages"
+#~ msgstr "Egyéni oldalak kezelése"
+
+#~ msgid "Make sure to save your changes when you finish. The new configuration will be immediately deployed."
+#~ msgstr "Győződjön meg arról, hogy elmentette-e a változtatásokat, ha elkészült. Az új beállítások azonnal üzembe lesznek állítva."
+
+#~ msgid "To add a custom page:"
+#~ msgstr "Egy egyéni oldal hozzáadásához:"
+
+#~ msgid "Click on the *Add Custom Page* button in the left sidebar."
+#~ msgstr "Kattintson az *Egyéni oldal hozzáadása* gombra a bal oldalsávban."
+
+#~ msgid "Add Custom Page Screen"
+#~ msgstr "Egyéni oldal hozzáadása képernyő"
+
+#~ msgid "To edit a custom page:"
+#~ msgstr "Egy egyéni oldal szerkesztéséhez:"
+
+#~ msgid "Click on a custom page in the list of custom pages."
+#~ msgstr "Kattintson egy egyéni oldalra az egyéni oldalak listájában."
+
+#~ msgid "Edit Custom Page Screen"
+#~ msgstr "Egyéni oldal szerkesztése képernyő"
+
+#~ msgid "To delete a custom page:"
+#~ msgstr "Egy egyéni oldal törléséhez:"
+
+#~ msgid "Delete Custom Page Screen"
+#~ msgstr "Egyéni oldal törlése képernyő"
+
+#~ msgid "If several custom pages are added to the system, use the filter box to find a particular custom page by just typing the name to filter."
+#~ msgstr "Ha több egyéni oldal van hozzáadva a rendszerhez, akkor használja a szűrődobozt egy bizonyos egyéni oldal megkereséséhez azáltal, hogy egyszerűen begépeli a nevét a szűrőbe."
+
+#~ msgid "Custom Page Settings"
+#~ msgstr "Egyéni oldal beállításai"
+
+#~ msgid "Internal Title \\*"
+#~ msgstr "Belső cím \\*"
+
+#~ msgid "The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
+#~ msgstr "Ennek az erőforrásnak a neve, amely csak az adminisztrációs felületen jelenik meg. Bármilyen típusú karakter beírható ebbe a mezőbe, beleértve a nagybetűket és a szóközt is. A név megjelenik az áttekintő táblázatban."
+
+#~ msgid "Slug \\*"
+#~ msgstr "Keresőbarát URL \\*"
+
+#~ msgid "This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign."
+#~ msgstr "Ez lesz az egyéni oldal URL-je. Az ajánlott karakterek: kisbetűk, számok és kötőjel."
+
+#~ msgid "Custom Page Content"
+#~ msgstr "Egyéni oldal tartalma"
+
+#~ msgid "In this widget can be added some localized content for the item."
+#~ msgstr "Ebben a felületi elemben adhatók hozzá honosított tartalmak az elemhez."
+
+#~ msgid "Title \\*"
+#~ msgstr "Cím \\*"
+
+#~ msgid "The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces."
+#~ msgstr "Ennek az erőforrásnak a neve az adott nyelven. Bármilyen típusú karakter beírható ebbe a mezőbe, beleértve a nagybetűket és a szóközt is."
+
+#~ msgid "Content \\*"
+#~ msgstr "Tartalom \\*"
+
+#~ msgid "The text for this item in the given language."
+#~ msgstr "A szöveg ehhez az elemhez az adott nyelven."
+
+#~ msgid "Add new custom page content"
+#~ msgstr "Új egyéni oldal tartalom hozzáadása"
+
+#~ msgid "Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above."
+#~ msgstr "Annak kiválasztása, hogy mely nyelveket kell hozzáadni a honosított elemtartalom létrehozásához. Az összes hozzáadott nyelv saját honosított tartalommal rendelkezhet, amint azt fent be lett mutatva."
+
+#~ msgid "Customer Service Catalogue"
+#~ msgstr "Az ügyfél szolgáltatáskatalógusa"
+
+#, fuzzy
+#~ msgid "Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group."
+#~ msgstr "Használja ezt a képernyőt, hogy kategóriákat és elemek adjon hozzá a külső felületen történő használathoz. Egy friss OTRS telepítés alapértelmezett nem tartalmaz semmilyen kategóriát vagy elemet. A katalóguskezelés képernyő a *Külső felület* csoport *Az ügyfél szolgáltatáskatalógusa* moduljában érhető el."
+
+#~ msgid "This module consists of two management screens: a category management screen and an item management screen."
+#~ msgstr "Ez a modul két kezelőképernyőből áll: egy kategóriakezelés képernyőből és egy elemkezelés képernyőből."
+
+#~ msgid "Customer Service Catalogue Management Screen"
+#~ msgstr "Az ügyfél szolgáltatáskatalógus kezelésének képernyője"
+
+#~ msgid "Manage Categories"
+#~ msgstr "Kategóriák kezelése"
+
+#~ msgid "Use this screen to add categories to collect the same items into groups. The *Category Management* screen in available via the *Go to category management* button or via the *Category Management* module."
+#~ msgstr "Használja ezt a képernyőt, hogy kategóriákat adjon hozzá az egyforma elemek csoportokba rendezéséhez. A *Kategóriakezelés* képernyő az *Ugrás a kategóriakezeléshez* gombon keresztül vagy a *Kategóriakezelés* modulon keresztül érhető el."
+
+#~ msgid "Category Management Screen"
+#~ msgstr "Kategóriakezelés képernyő"
+
+#~ msgid "Click on the *Add Category* button in the left sidebar."
+#~ msgstr "Kattintson a *Kategória hozzáadása* gombra a bal oldalsávban."
+
+#~ msgid "Click on the trash icon in the *Delete* column of the overview table."
+#~ msgstr "Kattintson a kuka ikonra az áttekintő táblázat *Törlés* oszlopában."
+
+#~ msgid "If several categories are added to the system, use the filter box to find a particular category by just typing the name to filter."
+#~ msgstr "Ha több kategória van hozzáadva a rendszerhez, akkor használja a szűrődobozt egy bizonyos kategória megkereséséhez azáltal, hogy egyszerűen begépeli a nevét a szűrőbe."
+
+#~ msgid "Category Settings"
+#~ msgstr "Kategória beállításai"
+
+#~ msgid "Sub-category of"
+#~ msgstr "Alkategóriája ennek"
+
+#~ msgid "Language \\*"
+#~ msgstr "Nyelv \\*"
+
+#~ msgid "Select a language from the available languages of the system."
+#~ msgstr "Válasszon egy nyelvet a rendszer elérhető nyelvei közül."
+
+#~ msgid "Manage Items"
+#~ msgstr "Elemek kezelése"
+
+#~ msgid "Use this screen to add items to the catalogue. Items can be collected into categories. The *Item Management* screen in available via the *Go to item management* button or via the *Item Management* module."
+#~ msgstr "Használja ezt a képernyőt, hogy elemeket adjon a katalógushoz. Az elemek csoportokba rendezhetők. Az *Elemkezelés* képernyő az *Ugrás az elemkezeléshez* gombon keresztül vagy az *Elemkezelés* modulon keresztül érhető el."
+
+#~ msgid "Item Management Screen"
+#~ msgstr "Elemkezelés képernyő"
+
+#~ msgid "To add an item:"
+#~ msgstr "Egy elem hozzáadásához:"
+
+#~ msgid "Click on the *Add Item* button in the left sidebar."
+#~ msgstr "Kattintson az *Elem hozzáadása* gombra a bal oldalsávban."
+
+#~ msgid "Add Item Screen"
+#~ msgstr "Elem hozzáadása képernyő"
+
+#~ msgid "To edit an item:"
+#~ msgstr "Egy elem szerkesztéséhez:"
+
+#~ msgid "Click on an item in the list of items."
+#~ msgstr "Kattintson egy elemre az elemek listájában."
+
+#~ msgid "Edit Item Screen"
+#~ msgstr "Elem szerkesztése képernyő"
+
+#~ msgid "To delete an item:"
+#~ msgstr "Egy elem törléséhez:"
+
+#~ msgid "Delete Item Screen"
+#~ msgstr "Elem törlése képernyő"
+
+#~ msgid "If several items are added to the system, use the filter box to find a particular item by just typing the name to filter."
+#~ msgstr "Ha több elem van hozzáadva a rendszerhez, akkor használja a szűrődobozt egy bizonyos elem megkereséséhez azáltal, hogy egyszerűen begépeli a nevét a szűrőbe."
+
+#~ msgid "Item Settings"
+#~ msgstr "Elem beállításai"
+
+#~ msgid "Item Content"
+#~ msgstr "Elemtartalom"
+
+#~ msgid "Categories"
+#~ msgstr "Kategóriák"
+
+#~ msgid "One ore more categories can be selected for the item in which the item should be visible."
+#~ msgstr "Egy vagy több kategória választható ki az elemhez, amelyben az elemnek láthatónak kell lennie."
+
+#~ msgid "Only those categories can be selected, that have the same language as the selected language for this widget."
+#~ msgstr "Csak azok a kategóriák választhatók, amelyek ugyanazzal a nyelvvel rendelkeznek mint a választott nyelv ennél a felületi elemnél."
+
+#~ msgid "Link \\*"
+#~ msgstr "Hivatkozás \\*"
+
+#~ msgid "A link to an internal or an external URL."
+#~ msgstr "Egy hivatkozás egy belső vagy egy külső URL-re."
+
+#~ msgid "Add new item content"
+#~ msgstr "Új elemtartalom hozzáadása"
+
+#~ msgid "Home Page"
+#~ msgstr "Kezdőlap"
+
+#~ msgid "Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group."
+#~ msgstr "Használja ezt a képernyőt, hogy kezdőlap-beállítást határozzon meg a különböző felhasználói nyelvekhez, amelyek a külső felületen jelennek meg. A kezdőlap kezelésének képernyője a *Külső felület* csoport *Kezdőlap* moduljában érhető el."
+
+#~ msgid "This screen contains several widget for each languages, where localized content can be added."
+#~ msgstr "Ez a képernyő több felületi elemet is tartalmaz egy egyes nyelvekhez, ahol a honosított tartalmat hozzá lehet adni."
+
+#~ msgid "Hero Unit"
+#~ msgstr "Legfőbb tartalom"
+
+#~ msgid "Hero Unit Widget"
+#~ msgstr "Legfőbb tartalom felületi elem"
+
+#~ msgid "This is the most important sentence or motto of the home page."
+#~ msgstr "Ez a legfontosabb mondat vagy a kezdőlap mottója."
+
+#~ msgid "Background Style"
+#~ msgstr "Háttérstílus"
+
+#~ msgid "Define the behavior of background image and background color. The following options are available:"
+#~ msgstr "A háttérkép és a háttérszín viselkedésének meghatározása. A következő lehetőségek érhetők el:"
+
+#~ msgid "Only use the background image"
+#~ msgstr "Csak a háttérkép használata"
+
+#~ msgid "Only use the background color"
+#~ msgstr "Csak a háttérszín használata"
+
+#~ msgid "Use the background image and overlay it with the selected color"
+#~ msgstr "A háttérkép használata és a választott szín fölé helyezése"
+
+#~ msgid "Background Image"
+#~ msgstr "Háttérkép"
+
+#~ msgid "Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system."
+#~ msgstr "Egy kép kiválasztása a legfőbb tartalom háttérképeként. Egy kép kiválasztásához kattintson a *Kép kiválasztása a feltöltéshez* gombra és válasszon egy képet a fájlrendszerről."
+
+#~ msgid "Background Color"
+#~ msgstr "Háttérszín"
+
+#~ msgid "To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
+#~ msgstr "A háttérszín megváltoztatásához egyszerűen válasszon egy új színt a színpalettáról. Választhat az előre kiválasztott színek közül, vagy meghatározhat egyéb színeket a színválasztóról való választással vagy a hexadecimális érték begépelésével."
+
+#~ msgid "Ticket List"
+#~ msgstr "Jegylista"
+
+#~ msgid "Ticket List Widget"
+#~ msgstr "Jegylista felületi elem"
+
+#~ msgid "Show a ticket list for logged in users"
+#~ msgstr "Jegylista megjelenítése a bejelentkezett felhasználóknak"
+
+#~ msgid "This setting defines if the ticket list should be visible for logged in users or not."
+#~ msgstr "Ez a beállítás határozza meg, hogy a jegylista látható legyen-e a bejelentkezett felhasználóknak vagy sem."
+
+#~ msgid "Row Title"
+#~ msgstr "Sor címe"
+
+#~ msgid "This is an optional title for the row, that contains this widget in the external interface."
+#~ msgstr "Ez egy elhagyható cím annál a sornál, amely ezt a felületi elemet tartalmazza a külső felületen."
+
+#~ msgid "Image Teasers"
+#~ msgstr "Képpel ellátott összefoglalók"
+
+#~ msgid "The image teasers are displayed in a separate row in the external interface."
+#~ msgstr "A képpel ellátott összefoglalók egy külön sorban jelennek meg a külső felületen."
+
+#~ msgid "Image Teasers Widget"
+#~ msgstr "Képpel ellátott összefoglalók felületi elem"
+
+#~ msgid "Row Background Color"
+#~ msgstr "Sor háttérszíne"
+
+#~ msgid "You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "Legfeljebb három képpel ellátott összefoglalót adhat hozzá a felületi elem jobb felső sarkában lévő *Hozzáadás* gombra kattintva."
+
+#~ msgid "Image Teaser"
+#~ msgstr "Képpel ellátott összefoglaló"
+
+#~ msgid "Image"
+#~ msgstr "Kép"
+
+#~ msgid "Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system."
+#~ msgstr "Egy kép kiválasztása a képpel ellátott összefoglaló felületi elemben való megjelenítéshez. Egy kép kiválasztásához kattintson a *Kép kiválasztása a feltöltéshez* gombra és válasszon egy képet a fájlrendszerről."
+
+#~ msgid "The heading text that are displayed in this item."
+#~ msgstr "A címsor szövege, amely ebben az elemben jelenik meg."
+
+#~ msgid "The text for this item."
+#~ msgstr "A szöveg ehhez az elemhez."
+
+#~ msgid "Link Target \\*"
+#~ msgstr "Hivatkozás célja \\*"
+
+#~ msgid "An URL that will be opened after clicking on this item in the external interface."
+#~ msgstr "Egy URL, amely akkor nyílik meg, miután erre az elemre kattintanak a külső felületen."
+
+#~ msgid "Link Lists"
+#~ msgstr "Hivatkozáslisták"
+
+#~ msgid "The link lists are displayed in a separate row in the external interface."
+#~ msgstr "A hivatkozáslisták egy külön sorban jelennek meg a külső felületen."
+
+#~ msgid "Link Lists Widget"
+#~ msgstr "Hivatkozáslisták felületi elem"
+
+#~ msgid "You can add up to four link lists by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "Legfeljebb négy hivatkozáslistát adhat hozzá a felületi elem jobb felső sarkában lévő *Hozzáadás* gombra kattintva."
+
+#~ msgid "Link List"
+#~ msgstr "Hivatkozáslista"
+
+#~ msgid "Link Text"
+#~ msgstr "Hivatkozás szövege"
+
+#~ msgid "Add the text for the *show more* link."
+#~ msgstr "A szöveg hozzáadása a *több megjelenítése* hivatkozáshoz."
+
+#~ msgid "Link Target"
+#~ msgstr "Hivatkozás célja"
+
+#~ msgid "Add the URL for the *show more* link."
+#~ msgstr "A URL hozzáadása a *több megjelenítése* hivatkozáshoz."
+
+#~ msgid "Link List Type \\*"
+#~ msgstr "Hivatkozáslista típusa \\*"
+
+#~ msgid "Specifies the functionality how the item will be added."
+#~ msgstr "Annak működését határozza meg, hogy az elem hogyan lesz hozzáadva."
+
+#~ msgid "Add the Items Manually"
+#~ msgstr "Az elemek hozzáadása kézzel"
+
+#~ msgid "Clicking on the edit button a new widget will be visible to add the items."
+#~ msgstr "A szerkesztés gombra kattintva egy új felületi elem lesz látható az elemek hozzáadásához."
+
+#~ msgid "Show the Results of a Search"
+#~ msgstr "Egy keresés eredményeinek megjelenítése"
+
+#~ msgid "Content Cards"
+#~ msgstr "Tartalomkártyák"
+
+#~ msgid "Content Cards Widget"
+#~ msgstr "Tartalomkártyák felületi elem"
+
+#~ msgid "You can add up to three content cards by clicking on the *Add* button in the top right corner of the widget."
+#~ msgstr "Legfeljebb három tartalomkártyát adhat hozzá a felületi elem jobb felső sarkában lévő *Hozzáadás* gombra kattintva."
+
+#~ msgid "Content Card"
+#~ msgstr "Tartalomkártya"
+
+#~ msgid "Layout"
+#~ msgstr "Elrendezés"
+
+#~ msgid "Use this screen to edit the layout displayed in external interface. The layout management screen is available in the *Layout* module of the *External Interface* group."
+#~ msgstr "Használja ezt a képernyőt a külső felületen megjelenő elrendezés szerkesztéséhez. Az elrendezéskezelő képernyő a *Külső felület* csoport *Elrendezés* moduljában érhető el."
+
+#~ msgid "Edit Layout Screen"
+#~ msgstr "Elrendezés szerkesztése képernyő"
+
+#, fuzzy
+#~ msgid "A fresh OTOBO installation already contains a default layout. In this screen all parameters can be changed."
+#~ msgstr "Egy friss OTRS telepítés már tartalmaz egy alapértelmezett elrendezést. Ezen a képernyőn az összes paraméter megváltoztatható."
+
+#~ msgid "Logo"
+#~ msgstr "Logó"
+
+#~ msgid "The logo is a small image that is displayed in the top left corner of the external pages."
+#~ msgstr "A logó egy kis kép, amely a külső oldalak bal felső sarkában jelenik meg."
+
+#~ msgid "To change the logo, click on the *Select image to upload* button, and select a new logo image. Recommended file format is PNG."
+#~ msgstr "A logó megváltoztatásához kattintson a *Kép kiválasztása a feltöltéshez* gombra, és válasszon egy új logóképet. Az ajánlott fájlformátum a PNG."
+
+#~ msgid "Favicon"
+#~ msgstr "Böngészőikon"
+
+#~ msgid "The `favorite icon <https://en.wikipedia.org/wiki/Favicon>`_ is an icon that is displayed in the URL bar of the web browser."
+#~ msgstr "A `böngészőikon <https://hu.wikipedia.org/wiki/Favicon>`_ egy olyan ikon, amely a webböngésző URL sávjában jelenik meg."
+
+#~ msgid "To change the favorite icon, click on the *Select image to upload* button, and select a new icon. This is usually a 16×16 pixel image in PNG or ICO format."
+#~ msgstr "A böngészőikon megváltoztatásához kattintson a *Kép kiválasztása a feltöltéshez* gombra, és válasszon egy új ikont. Ez általában egy 16×16 képpont méretű kép PNG vagy ICO formátumban."
+
+#~ msgid "Primary Color"
+#~ msgstr "Elsődleges szín"
+
+#~ msgid "Primary color is the most important color of the external pages (see the preview screen)."
+#~ msgstr "Az elsődleges szín a külső oldalak legfontosabb színe (nézze meg az előnézeti képernyőt)."
+
+#~ msgid "To change the primary color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
+#~ msgstr "Az elsődleges szín megváltoztatásához egyszerűen válasszon egy új színt a színpalettáról. Választhat az előre kiválasztott színek közül, vagy meghatározhat egyéb színeket a színválasztóról való választással vagy a hexadecimális érték begépelésével. Az új szín azonnal megjelenik az előnézeti felületi elemben."
+
+#~ msgid "Highlight Color"
+#~ msgstr "Kiemelés színe"
+
+#~ msgid "Highlight color is the second color of the external pages using for status badges, links, etc."
+#~ msgstr "A kiemelés színe a külső oldalak második színe, amelyet állapotmatricáknál, hivatkozásoknál, stb. használnak."
+
+#~ msgid "To change the highlight color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
+#~ msgstr "A kiemelés színének megváltoztatásához egyszerűen válasszon egy új színt a színpalettáról. Választhat az előre kiválasztott színek közül, vagy meghatározhat egyéb színeket a színválasztóról való választással vagy a hexadecimális érték begépelésével. Az új szín azonnal megjelenik az előnézeti felületi elemben."
+
+#~ msgid "Default Avatar"
+#~ msgstr "Alapértelmezett avatár"
+
+#~ msgid "Will be used as the default avatar for all outgoing communication."
+#~ msgstr "Az alapértelmezett avatárként lesz használva az összes kimenő kommunikációnál."
+
+#~ msgid "To change the avatar, click on the *Select image to upload* button, and select a new avatar image."
+#~ msgstr "Az avatár megváltoztatásához kattintson a *Kép kiválasztása a feltöltéshez* gombra, és válasszon egy új avatárképet."
+
+#~ msgid "Custom CSS"
+#~ msgstr "Egyéni CSS"
+
+#~ msgid "Use this text area to add custom CSS to be applied in the external interface."
+#~ msgstr "Használja ezt a szövegdobozt a külső felületen alkalmazandó egyéni CSS hozzáadásához."
+
+#~ msgid "Custom CSS Widget"
+#~ msgstr "Egyéni CSS felületi elem"
+
+#~ msgid "Include Custom Scripts"
+#~ msgstr "Egyéni parancsfájlok beágyazása"
+
+#, fuzzy
+#~ msgid "External interface application has been built with security-first mindset in place. It contains several mechanisms to make sure that all code in the front end is provided directly by the OTOBO framework."
+#~ msgstr "A külső felület alkalmazás biztonságcentrikus gondolkodásmóddal készült. Számos mechanizmust tartalmaz annak biztosításához, hogy az előtétprogramon lévő összes kódot közvetlenül az OTRS keretrendszer biztosítja-e."
+
+#~ msgid "In addition, a security standard called `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ headers is now leveraged by the built-in web server. It serves as a last line of defense and in case some unexpected code still makes it to the client, it will make sure that the user’s browser simply refuses to run it."
+#~ msgstr "Ezenkívül mostantól egy `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ nevezetű biztonsági szabvány fejléceit is kihasználja a beépített webkiszolgáló. Ez az utolsó védelmi vonalként szolgál, és abban az esetben, ha néhány váratlan kód továbbra is elérhetővé válna az ügyfélnek, akkor biztosítja, hogy a felhasználó böngészője egyszerűen elutasítsa a futtatását."
+
+#~ msgid "However, a use-case still exists in which even a modern web application might still need to run some additional code, provided it is vetted and included by the administrators. One example could be an external integrated chat solution, but could also be an inline code snippet used for external web analytics."
+#~ msgstr "Azonban továbbra is létezik olyan eset, amikor még egy modern webes alkalmazásnak is szüksége lehet további kód futtatására, feltéve hogy azt az adminisztrátorok ellenőrizték és beágyazták. Példa lehet erre egy külső integrált csevegési megoldás, de lehetne egy külső webelemző eszközhöz használt sorközi kódrészlet is."
+
+#~ msgid "Including custom scripts can be done in the :doc:`../administration/system-configuration` with the following settings:"
+#~ msgstr "Egyéni parancsfájlok beágyazása a :doc:`../administration/system-configuration` képernyőn végezhető el a következő beállításokkal:"
+
+#~ msgid "``ExternalFrontend::ExternalScripts``"
+#~ msgstr "``ExternalFrontend::ExternalScripts``"
+
+#~ msgid "``ExternalFrontend::InlineScripts``"
+#~ msgstr "``ExternalFrontend::InlineScripts``"
+
+#~ msgid "``WebApp::Server::AdditionalOrigins``"
+#~ msgstr "``WebApp::Server::AdditionalOrigins``"
+
+#~ msgid "Web Analytics Example"
+#~ msgstr "Webelemző eszköz példa"
+
+#~ msgid "In this example, we outline the steps to include custom scripts used by a web analytics provider in the external interface application. They will be run each time the application is used in order to track and report the behavior of the user for later analysis."
+#~ msgstr "Ebben a példában felvázoljuk a lépéseket egy webes elemző eszköz szolgáltatója által használt egyedi parancsfájloknak a külső felület alkalmazásba történő beágyazásához. Ezek minden alkalommal le lesznek futtatva, amikor az alkalmazást használják, hogy nyomon követhessék és jelentsék a felhasználó viselkedését a későbbi elemzéshez."
+
+#~ msgid "We start with the provided code snippet below, from a third party provider."
+#~ msgstr "Egy harmadik fél szolgáltatótól származó lenti kódrészlettel kezdjük."
+
+#~ msgid "First line of the snippet refers to an *external* resource which should be loaded by the ``script`` tag."
+#~ msgstr "A kódrészlet első sora egy *külső* erőforrásra hivatkozik, amelyet a ``script`` címkének kell betöltenie."
+
+#~ msgid "In the script block below, we have some *inline* code which is run immediately when the page is loaded."
+#~ msgstr "Az alatta lévő parancsfájlblokkban van néhány *sorközi* kódunk, amely azonnal lefut, ha az oldal betöltődött."
+
+#~ msgid "Adding External Script Resources"
+#~ msgstr "Külső parancsfájl-erőforrások hozzáadása"
+
+#~ msgid "First, we need to include the external script location in the appropriate configuration:"
+#~ msgstr "Először be kell ágyaznunk a külső parancsfájl helyét a megfelelő beállításban:"
+
+#~ msgid "Go to the *System Configuration* screen."
+#~ msgstr "Menjen a *Rendszerbeállítások* képernyőre."
+
+#~ msgid "Search for the setting ``ExternalFrontend::ExternalScripts``."
+#~ msgstr "Keressen rá az ``ExternalFrontend::ExternalScripts`` beállításra."
+
+#~ msgid "Click on the setting in order to edit it."
+#~ msgstr "Kattintson rá a beállításra a szerkesztéséhez."
+
+#~ msgid "In case a value is already present, click on the plus button. Otherwise, proceed below."
+#~ msgstr "Abban az esetben, ha egy érték már szerepel ott, kattintson a plusz gombra. Egyébként folytassa a továbbiakkal."
+
+#~ msgid "Enter the full location of the *external* resource in the text field. For example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
+#~ msgstr "Adja meg a *külső* erőforrás teljes helyét a szövegmezőben. Például: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
+
+#~ msgid "Click on the check mark in order to save the modified setting."
+#~ msgstr "Kattintson a pipa jelre a módosított beállítások elmentéséhez."
+
+#~ msgid "Adding Inline Code Snippets"
+#~ msgstr "Sorközi kódrészletek hozzáadása"
+
+#~ msgid "Next, we have to also include the inline part of the original snippet:"
+#~ msgstr "Ezután be kell ágyaznunk az eredeti kódrészlet sorközi részét is:"
+
+#~ msgid "Search for the setting ``ExternalFrontend::InlineScripts``."
+#~ msgstr "Keressen rá az ``ExternalFrontend::InlineScripts`` beállításra."
+
+#~ msgid "Enter the full code snippet in the text area, minus any ``script`` tags. For example:"
+#~ msgstr "Adja meg a teljes kódrészletet a szövegterületen a ``script`` címkék nélkül. Például:"
+
+#~ msgid "Rebuilding the External Interface Application"
+#~ msgstr "A külső felület alkalmazás újraépítése"
+
+#~ msgid "In order to apply the changes, we also need to rebuild the external interface application. Drop down to shell, and execute the following command:"
+#~ msgstr "A változtatások alkalmazása érdekében a külső felület alkalmazást is újra kell építenünk. Váltson át a parancsértelmezőre, és hajtsa végre a következő parancsot:"
+
+#~ msgid "Whitelisting Additional Origins in the Security Headers"
+#~ msgstr "További források fehér listára tétele a biztonsági fejlécekben"
+
+#~ msgid "If you now try to access the external interface application, you will be able to verify that the scripts are included in the code. However, your browser will probably block access to all *inline* and *external* resources, therefore the code might fail with some errors."
+#~ msgstr "Ha most megpróbálja elérni a külső felület alkalmazást, akkor képes lesz leellenőrizni, hogy a parancsfájlok szerepelnek-e a kódban. Azonban a böngésző valószínűleg blokkolja az összes *sorközi* és *külső* erőforrás hozzáférését, ezért a kód sikertelen lehet néhány hibával."
+
+#~ msgid "This behavior is by design, since external resources can only be loaded if they are specifically whitelisted in the *Content Security Policy* headers."
+#~ msgstr "Ez a viselkedés tervezési okok miatt van, mivel a külső erőforrások csak akkor tölthetők be, ha azok kifejezetten fehér listán vannak a *Content Security Policy* fejléceiben."
+
+#~ msgid "To check for blocked code, please use suitable web browser inspection tools. In our example, we will be using Mozilla Firefox and its web console available via *Tools → Web Developer → Web Console* menu item, or via the *F12* shortcut key."
+#~ msgstr "A blokkolt kód ellenőrzéséhez használjon megfelelő webböngésző ellenőrző eszközöket. A példánkban a Mozilla Firefoxot és annak webkonzolját fogjuk használni, amely az *Eszközök → Webfejlesztő → Webkonzol* menüpontban vagy az *F12* gyorsbillentyűn keresztül érhető el."
+
+#~ msgid "For the example code snippet, you might receive following errors in the console when the application is accessed:"
+#~ msgstr "A példában lévő kódrészletnél a következő hibákat kaphatja a konzolban, ha az alkalmazást eléri:"
+
+#~ msgid "Browser Console Errors and Warnings"
+#~ msgstr "Böngészőkonzol hibák és figyelmeztetések"
+
+#~ msgid "From the console errors we can see that the external script resource was prevented from being loaded (lines 1 and 3). In addition to that, two evaluation calls were also blocked (lines 2 and 5). All errors reference a *Content Security Policy* rule under the name of ``script-src``, which signals script resources."
+#~ msgstr "A konzolhibákból láthatjuk, hogy a külső parancsfájl-erőforrás betöltését megakadályozták (1. és 3. sor). Emellett két kiértékelési hívást is blokkoltak (2. és 5. sor). Minden hiba egy *Content Security Policy* szabályra hivatkozik a ``script-src`` neve alatt, amely a parancsfájl-erőforrásokat jelzi."
+
+#~ msgid "We need to add both the external resource and the evaluation calls to the additional origins list of the *Content Security Policy* headers:"
+#~ msgstr "Mind a külső erőforrást, mind a kiértékelési hívásokat hozzá kell adnunk a *Content Security Policy* fejléceinek további forráslistájához:"
+
+#~ msgid "Search for the setting ``WebApp::Server::AdditionalOrigins``."
+#~ msgstr "Keressen rá a ``WebApp::Server::AdditionalOrigins`` beállításra."
+
+#~ msgid "In case a value for ``script-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
+#~ msgstr "Abban az esetben, ha egy ``script-src`` érték már szerepel ott, kattintson a mellette lévő plusz gombra. Egyébként folytassa a továbbiakkal."
+
+#~ msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external resource to be loaded."
+#~ msgstr "Adja meg a blokkolt erőforrásnak csak a tartomány részét a szövegmezőben. Például: ``https://www.example.com``. Ez lehetővé teszi a külső erőforrás betöltését."
+
+#~ msgid "Click on the plus button next to the field, so another value is added."
+#~ msgstr "Kattintson a mező mellett lévő plusz gombra, így egy másik érték lesz hozzáadva."
+
+#~ msgid "Enter the following directive in the new field, including the quotes: ``'unsafe-eval'``. This allows the evaluation calls to be executed."
+#~ msgstr "Adja meg a következő irányelvet az új mezőben, beleértve az idézést is: ``'unsafe-eval'``. Ez lehetővé teszi a kiértékelési hívások végrehajtását."
+
+#~ msgid "There is no need to rebuild the external interface application at this point, as the additional origins configuration should be immediately in effect."
+#~ msgstr "Ezen a ponton nincs szükség a külső felület alkalmazás újraépítésére, mivel a további források beállításának azonnal érvényesülnie kell."
+
+#~ msgid "If you reload the external interface application, you might get some additional errors. In our example, it might be the following:"
+#~ msgstr "Ha újratölti a külső felület alkalmazást, akkor további hibákat is kaphat. A példánkban ez a következő lehet:"
+
+#~ msgid "Additional Browser Console Errors and Warnings"
+#~ msgstr "További böngészőkonzol hibák és figyelmeztetések"
+
+#~ msgid "This error points that an additional resource that was also blocked, an image at a specific location (line 1). We can deduce this via the name of the *Content Security Policy* rule ``img-src``, which references an image resource. In order to add it to the whitelist, try the following:"
+#~ msgstr "Ez a hiba azt jelzi, hogy egy további erőforrás szintén blokkolva volt, amely egy kép egy adott helyen (1. sor). Erre az ``img-src`` *Content Security Policy* szabály nevéből következtethetünk, amely egy képerőforrásra hivatkozik. Annak érdekében, hogy hozzáadja ezt a fehér listához, próbálja meg a következőt:"
+
+#~ msgid "In case a value for ``img-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
+#~ msgstr "Abban az esetben, ha egy ``img-src`` érték már szerepel ott, kattintson a mellette lévő plusz gombra. Egyébként folytassa a továbbiakkal."
+
+#~ msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external image resource to be loaded."
+#~ msgstr "Adja meg a blokkolt erőforrásnak csak a tartomány részét a szövegmezőben. Például: ``https://www.example.com``. Ez lehetővé teszi a külső képerőforrás betöltését."
+
+#~ msgid "Try again to reload the external interface application and check if there are more errors. If not, your scripts are now probably working as expected."
+#~ msgstr "Próbálja meg újratölteni a külső felület alkalmazást, és ellenőrizze, hogy van-e további hiba. Ha nincs, akkor a parancsfájlok valószínűleg most már az elvárt módon működnek."
+
+#~ msgid "Unfortunately, it is not possible to predict what kind of resources your scripts might be requiring. But, no worries, you can whitelist most of them, just make sure to follow the trail of hints shown in the browser console log. Find a corresponding header rule in the configuration and update it accordingly."
+#~ msgstr "Sajnos nincs lehetőség előre megmondani, hogy milyen erőforrásokra lehet szükségük a parancsfájloknak. De nem kell aggódnia, a legtöbbjüket fehér listára teheti, csak győződj meg arról, hogy pontosan követi-e a böngésző konzolnaplójában megjelenő tanácsokat. Keressen egy megfelelő fejlécszabályt a beállításban, és ennek megfelelően frissítse."
+
+#~ msgid "Some resources might only be requested by others, hence several iterations might be needed until everything is configured properly."
+#~ msgstr "Néhány erőforrást csak más erőforrások kérhetnek, ezért több iterációra lehet szükség, amíg mindent megfelelően beállít."
+
+#, fuzzy
+#~ msgid "Whitelisting external resources opens potential security risks in your OTOBO application! Only allow those resources that you are sure are not malicious and come from reputable sources. Keep in mind that if something is secure today, does not mean it will be tomorrow. Stay safe!"
+#~ msgstr "A külső erőforrások fehér listára tétele lehetséges biztonsági kockázatokat nyit az OTRS alkalmazásban! Csak azokat az erőforrások engedélyezze, amelyek biztosan nem rosszindulatúak és jól ismert forrásokból származnak. Ne feledje, hogy ha valami ma biztonságos, az nem jelenti azt, hogy holnap is az lesz. Maradjon biztonságban!"
 
 #~ msgid "Chat Channels"
 #~ msgstr "Csevegőcsatornák"
