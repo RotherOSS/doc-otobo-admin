@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 11:13+0000\n"
+"POT-Creation-Date: 2026-07-03 11:14+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\n"
@@ -4875,16 +4875,12 @@ msgstr "如果外部系统需要与OTRS集成，:doc:`processes-automation/web-s
 msgid "However OTOBO has many features by default, you can extend the functionality by installing packages with the :doc:`administration/package-manager`."
 msgstr "默认情况下，OTRS已有许多功能，但是您可以通过使用 :doc:`administration/package-manager` 安装软件包来扩展功能。"
 
-#: ../content/administration-area/introduction.rst:108
-msgid "Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface."
-msgstr "最后，您可以设置外部人员界面的 :doc:`external-interface/home-page`、:doc:`external-interface/custom-pages` 和 :doc:`external-interface/layout`，还可以定义显示在外部人员界面中的 :doc:`external-interface/customer-service-catalogue`。"
-
-#: ../content/administration-area/introduction.rst:112
+#: ../content/administration-area/introduction.rst:110
 #, fuzzy
 msgid "Become OTOBO Expert"
 msgstr "成为OTRS专家"
 
-#: ../content/administration-area/introduction.rst:114
+#: ../content/administration-area/introduction.rst:112
 #, fuzzy
 msgid "The next chapters of this manual describe the features and configuration settings of OTOBO more detailed and give you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO."
 msgstr "本手册后面的章节将更详细地描述OTRS的特性和配置设置。还有一个单独的手册--`配置选项参考 <https://doc.otrs.com/doc/manual/config-reference/7.0/en/>`__，针对 :doc:`administration/system-configuration` （可以修改OTRS的行为）为您提供了一个很好的概述。"
@@ -11978,6 +11974,9 @@ msgstr ""
 #: ../content/index.rst:45
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
+
+#~ msgid "Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface."
+#~ msgstr "最后，您可以设置外部人员界面的 :doc:`external-interface/home-page`、:doc:`external-interface/custom-pages` 和 :doc:`external-interface/layout`，还可以定义显示在外部人员界面中的 :doc:`external-interface/customer-service-catalogue`。"
 
 #~ msgid "External Interface"
 #~ msgstr "外部人员界面"

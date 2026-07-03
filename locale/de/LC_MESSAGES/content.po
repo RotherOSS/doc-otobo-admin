@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 11:13+0000\n"
+"POT-Creation-Date: 2026-07-03 11:14+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/de/>\n"
@@ -4821,15 +4821,11 @@ msgstr "Wenn externe Systeme in OTOBO integriert werden sollen, sind :doc:`proce
 msgid "However OTOBO has many features by default, you can extend the functionality by installing packages with the :doc:`administration/package-manager`."
 msgstr "OTOBO bringt bereits im Standard viele Funktionen mit. Zusätzlich können Sie über die :doc:`administration/package-manager` Zusatzpakete mit weiteren Features installieren."
 
-#: ../content/administration-area/introduction.rst:108
-msgid "Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface."
-msgstr "Am Ende können Sie die :doc:`external-interface/home-page`, die :doc:`external-interface/custom-pages` und das :doc:`external-interface/layout` des externen Interface einstellen, sowie einen :doc:`external-interface/customer-service-catalogue` definieren, der im externen Interface angezeigt wird."
-
-#: ../content/administration-area/introduction.rst:112
+#: ../content/administration-area/introduction.rst:110
 msgid "Become OTOBO Expert"
 msgstr "Ein OTOBO-Experte werden"
 
-#: ../content/administration-area/introduction.rst:114
+#: ../content/administration-area/introduction.rst:112
 #, fuzzy
 msgid "The next chapters of this manual describe the features and configuration settings of OTOBO more detailed and give you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO."
 msgstr "Die nächsten Kapitel dieses Handbuchs beschreiben die Funktionen und Konfigurationseinstellungen von OTOBO genauer. Es gibt ein separates Handbuch für `Configuration Options References <https://doc.otobo.org/doc/manual/config-reference/7.0/en/>`__, das Ihnen einen guten Überblick über :doc:`administration/system-configuration` gibt, das das Verhalten von OTOBO verändern kann."
@@ -11869,6 +11865,9 @@ msgstr ""
 #: ../content/index.rst:45
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
+
+#~ msgid "Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface."
+#~ msgstr "Am Ende können Sie die :doc:`external-interface/home-page`, die :doc:`external-interface/custom-pages` und das :doc:`external-interface/layout` des externen Interface einstellen, sowie einen :doc:`external-interface/customer-service-catalogue` definieren, der im externen Interface angezeigt wird."
 
 #~ msgid "External Interface"
 #~ msgstr "Externes Interface"

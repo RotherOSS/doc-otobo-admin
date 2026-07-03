@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 11:13+0000\n"
+"POT-Creation-Date: 2026-07-03 11:14+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/hu/>\n"
@@ -4862,16 +4862,12 @@ msgstr "Ha külső rendszereket kell összekötni az OTRS-sel, akkor a :doc:`pro
 msgid "However OTOBO has many features by default, you can extend the functionality by installing packages with the :doc:`administration/package-manager`."
 msgstr "Habár az OTRS nagyon fok funkcióval rendelkezik alapértelmezetten, kibővítheti a funkcionalitást csomagok telepítésével a :doc:`administration/package-manager` segítségével."
 
-#: ../content/administration-area/introduction.rst:108
-msgid "Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface."
-msgstr "Végezetül a :doc:`external-interface/home-page`, az :doc:`external-interface/custom-pages` és az :doc:`external-interface/layout` beállítása maradt hátra a külső felületen, valamint egy :doc:`external-interface/customer-service-catalogue` is meghatározható a külső felületen történő megjelenítéshez."
-
-#: ../content/administration-area/introduction.rst:112
+#: ../content/administration-area/introduction.rst:110
 #, fuzzy
 msgid "Become OTOBO Expert"
 msgstr "Váljon OTRS szakértővé"
 
-#: ../content/administration-area/introduction.rst:114
+#: ../content/administration-area/introduction.rst:112
 #, fuzzy
 msgid "The next chapters of this manual describe the features and configuration settings of OTOBO more detailed and give you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO."
 msgstr "Ennek a kézikönyvnek a következő fejezetei részletesebben leírják az OTRS funkcióit és konfigurációs beállításait. Létezik egy különálló kézikönyv a `beállítási lehetőségek hivatkozásához <https://doc.otrs.com/doc/manual/config-reference/7.0/hu/>`_, amely jó áttekintést ad azon :doc:`administration/system-configuration` használatáról, amelyek módosíthatják az OTRS működését."
@@ -11953,6 +11949,9 @@ msgstr ""
 #: ../content/index.rst:45
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
+
+#~ msgid "Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface."
+#~ msgstr "Végezetül a :doc:`external-interface/home-page`, az :doc:`external-interface/custom-pages` és az :doc:`external-interface/layout` beállítása maradt hátra a külső felületen, valamint egy :doc:`external-interface/customer-service-catalogue` is meghatározható a külső felületen történő megjelenítéshez."
 
 #~ msgid "External Interface"
 #~ msgstr "Külső felület"
