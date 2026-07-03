@@ -15,6 +15,5 @@ OTOBO offers several administration tools to configure, monitor, control and ext
    administration-area/communication-notifications
    administration-area/users-groups-roles
    administration-area/processes-automation
-   administration-area/external-interface
    administration-area/otobo-services
    administration-area/administration
