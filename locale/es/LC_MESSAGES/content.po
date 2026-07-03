@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-03 11:11+0000\n"
+"POT-Creation-Date: 2026-07-03 11:13+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Spanish <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/es/>\n"
@@ -23,7 +23,6 @@ msgstr ""
 #: ../content/administration-area.rst:9
 #: ../content/administration-area/administration.rst:9
 #: ../content/administration-area/communication-notifications.rst:13
-#: ../content/administration-area/external-interface.rst:16
 #: ../content/administration-area/processes-automation.rst:13
 #: ../content/administration-area/ticket-settings.rst:28
 #: ../content/administration-area/users-groups-roles.rst:9
@@ -4469,26 +4468,6 @@ msgstr ""
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:429
 msgid "Use of regular expressions as a filter do not work here."
-msgstr ""
-
-#: ../content/administration-area/external-interface.rst:2
-msgid "External Interface"
-msgstr ""
-
-#: ../content/administration-area/external-interface.rst:6
-msgid "TODO: This part of the documentation is out out of scope and needs someone to help updating the changes introduced with the latest releases."
-msgstr ""
-
-#: ../content/administration-area/external-interface.rst:8
-msgid "The need to transport valuable information about service to users is a major one for a service desk. Not always is it possible or plausible to do this via a corporate internet. The customers of a service desk need a one-stop solution for all their service needs."
-msgstr ""
-
-#: ../content/administration-area/external-interface.rst:12
-msgid "OTOBO provides access to create and manage demands, as well as receive valuable information such as the service catalog and knowledge base."
-msgstr ""
-
-#: ../content/administration-area/external-interface.rst:14
-msgid "The following chapter describes the administration tools needed to implement corporate identity and manage language-based content."
 msgstr ""
 
 #: ../content/administration-area/introduction.rst:2
