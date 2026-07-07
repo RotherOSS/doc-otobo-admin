@@ -9,6 +9,12 @@ OTOBO is an open source ticket request system with many features to manage custo
 It is distributed under the GNU General Public License (GPL) and tested on various Linux platforms.
 Do you receive many emails and want to answer them with a team of agents?
 
+.. warning::
+   This documentation is for the **11.1 beta** version of OTOBO.
+   It may contain incomplete or inaccurate information, and some features may not be fully functional.
+   Please use this documentation with caution and report any issues to the OTOBO development team.
+   You may find the **documentation for the latest stable release** at https://doc.otobo.org/manual/admin/11.0/en/content/index.html.
+
 About This Manual
 =================
 
