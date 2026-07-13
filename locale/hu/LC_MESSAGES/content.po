@@ -8,20 +8,7 @@
 # Balázs Úr, 2014-2018
 # Martin Gruner <martin.gruner@otrs.com>, 2016-2018
 msgid ""
-msgstr ""
-"Project-Id-Version: OTRS\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-13 10:26+0000\n"
-"PO-Revision-Date: 2026-03-08 14:00+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Hungarian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/hu/>\n"
-"Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-07-13 10:26+0000\nPO-Revision-Date: 2026-07-14 03:54+0000\nLast-Translator: Balázs Úr <balazs@urbalazs.hu>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -2816,10 +2803,8 @@ msgid "Do **not** use unencrypted POP3 or IMAP protocols with OAuth tokens in a 
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:69
-#, fuzzy
-#| msgid "Configuration"
 msgid "Configuration Reference"
-msgstr "Beállítás"
+msgstr "Beállítások hivatkozása"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:72
 #, fuzzy
@@ -4128,10 +4113,8 @@ msgid "Use of regular expressions as a filter do not work here."
 msgstr "Reguláris kifejezések szűrőként való használata itt nem működik."
 
 #: ../content/administration-area/customer-interface.rst:2
-#, fuzzy
-#| msgid "External Interface"
 msgid "Customer Interface"
-msgstr "Külső felület"
+msgstr "Ügyfélfelület"
 
 #: ../content/administration-area/customer-interface.rst:4
 msgid "The OTOBO Customer Interface is the dedicated web interface intended to be used by customers to interact with OTOBO. It allows customers to create tickets, search for and view their own tickets or tickets belonging to their organization, and track follow-up information. This interface is configured separately from the Agent Interface."
