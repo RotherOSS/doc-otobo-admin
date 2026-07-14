@@ -8,7 +8,7 @@
 # Balázs Úr, 2014-2018
 # Martin Gruner <martin.gruner@otrs.com>, 2016-2018
 msgid ""
-msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-07-13 10:26+0000\nPO-Revision-Date: 2026-07-14 03:54+0000\nLast-Translator: Balázs Úr <balazs@urbalazs.hu>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-07-13 10:26+0000\nPO-Revision-Date: 2026-07-14 13:26+0000\nLast-Translator: Balázs Úr <balazs@urbalazs.hu>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
