@@ -8,7 +8,7 @@
 # Balázs Úr, 2014-2018
 # Martin Gruner <martin.gruner@otrs.com>, 2016-2018
 msgid ""
-msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-07-13 10:26+0000\nPO-Revision-Date: 2026-07-14 13:26+0000\nLast-Translator: Balázs Úr <balazs@urbalazs.hu>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-07-13 10:26+0000\nPO-Revision-Date: 2026-07-16 14:14+0000\nLast-Translator: Balázs Úr <balazs@urbalazs.hu>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -795,7 +795,7 @@ msgstr "Egy nyelv `ISO 639-1 kódja <https://hu.wikipedia.org/wiki/ISO_639-1_nye
 
 #: ../content/administration-area/administration/import-export.rst:2
 msgid "Import/Export"
-msgstr ""
+msgstr "Importálás/exportálás"
 
 #: ../content/administration-area/administration/package-manager.rst:2
 msgid "Package Manager"
@@ -1772,9 +1772,8 @@ msgid "With these radio buttons can be selected, if a group member needs read-on
 msgstr "Ezekkel a választógombokkal lehet kiválasztani, hogy egy csoporttagnak csak olvasás vagy olvasás-írás jogosultságokkal kell rendelkeznie az üzenet fogadásához."
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:38
-#, fuzzy
 msgid "Send message to role members"
-msgstr "Üzenet küldése a csoport tagjainak"
+msgstr "Üzenet küldése a szerep tagjainak"
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:38
 #, fuzzy
@@ -1782,9 +1781,8 @@ msgid "One or more :doc:`../users-groups-roles/roles` can be selected in this fi
 msgstr "Egy csoport vagy :doc:`../users-groups-roles/groups` választhatók ki ebben a mezőben, amelyek tagjainak az üzenet el lesz küldve."
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:45
-#, fuzzy
 msgid "Also send to customers in groups"
-msgstr "Néhány ügyfélnek egy csoporthoz való rendeléséhez:"
+msgstr "Küldés a csoportokban lévő ügyfeleknek is"
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:41
 #, fuzzy
@@ -2159,7 +2157,7 @@ msgstr "Ügyintéző (erőforrások), aki az időponton belül ki lett jelölve"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:192
 msgid "All agents with (at least) read permission for the appointment (calendar)"
-msgstr "Az összes ügyintéző, akiknek (legalább) olvasási jogosultságuk van az időpontokhoz (naptárhoz)"
+msgstr "Az összes ügyintéző, akiknek (legalább) olvasási jogosultságuk van az időponthoz (naptárhoz)"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:193
 msgid "All agents with write permission for the appointment (calendar)"
@@ -2233,18 +2231,17 @@ msgid "Enable or disable this notification method. A notification method can be 
 msgstr "Ennek az értesítési módszernek az engedélyezése vagy letiltása. Egy értesítési módszer lehet e-mail, webnézet vagy SMS."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:228
-#, fuzzy
 msgid "Active by default in agent preferences"
-msgstr "Megjelenítés az ügyintézői beállításokban"
+msgstr "Alapértelmezetten bekapcsolva az ügyintézői beállításokban"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:227
 msgid "This is the default value for assigned recipient agents who didn't make a choice for this notification in their preferences yet. If the box is enabled, the notification will be sent to such agents."
-msgstr ""
+msgstr "Ez az alapértelmezett érték az olyan hozzárendelt címzett ügyintézőknél, akik még nem választottak ennél az értesítésnél a beállításaikban. Ha a doboz engedélyezve van, akkor az értesítés el lesz küldve az ilyen ügyintézőknek."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:232
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:318
 msgid "Additional recipient email addresses"
-msgstr "További címzett e-mail címek"
+msgstr "További címzett e-mail-címek"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:231
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:317
@@ -2259,7 +2256,7 @@ msgstr "A bejegyzés látható az ügyfélnek"
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:235
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:321
 msgid "An article will be created if the notification is sent to the customer or an additional email address."
-msgstr "Egy bejegyzés lesz létrehozva, ha az értesítés elküldésre került az ügyfélnek vagy egy további e-mail címre."
+msgstr "Egy bejegyzés lesz létrehozva, ha az értesítés elküldésre került az ügyfélnek vagy egy további e-mail-címre."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:242
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:328
@@ -2560,7 +2557,7 @@ msgstr "Szűrheti a naplóbejegyzéseket a prioritásuk szerint, ha kiválasztja
 
 #: ../content/administration-area/communication-notifications/email-addresses.rst:2
 msgid "Email Addresses"
-msgstr "E-mail címek"
+msgstr "E-mail-címek"
 
 #: ../content/administration-area/communication-notifications/email-addresses.rst:4
 #, fuzzy
@@ -3851,7 +3848,7 @@ msgstr "Szűrő a jegy ügyfél-azonosítójához."
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:162
 msgid "Customer User ID"
-msgstr "Ügyfél-felhasználó azonosítója"
+msgstr "Ügyfélfelhasználó-azonosító"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:162
 msgid "Filter for a customer user ID of the ticket."
@@ -3921,7 +3918,7 @@ msgstr "Szűrő a melléklet nevéhez."
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:201
 msgid "Bcc"
-msgstr "Titkos másolat"
+msgstr "Rejtett másolat"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:201
 msgid "Filter for blind carbon copy field."
@@ -4170,10 +4167,8 @@ msgid "For more advanced use cases, there is also the possibility to add Dynamic
 msgstr ""
 
 #: ../content/administration-area/languages.rst:2
-#, fuzzy
-#| msgid "Language \\*"
 msgid "Languages"
-msgstr "Nyelv \\*"
+msgstr "Nyelvek"
 
 #: ../content/administration-area/languages.rst:4
 msgid "OTOBO supports multiple languages. Each user, Customer Users and Agents, may select their preferred language in their user preferences (refer to the User Guide for more information)."
@@ -4185,9 +4180,8 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:2
 #: ../content/administration-area/languages/translations.rst:265
-#, fuzzy
 msgid "Translations"
-msgstr "Megszólítás"
+msgstr "Fordítások"
 
 #: ../content/administration-area/languages/translations.rst:4
 msgid "New or existing translations are managed and administered in the \"Translations\" module, located in the \"Languages\" group of the administration area."
@@ -4240,18 +4234,16 @@ msgid "To add a new translation in the system."
 msgstr "Egy új partneradat hozzáadásához:"
 
 #: ../content/administration-area/languages/translations.rst:34
-#, fuzzy
 msgid "Edit Translations"
-msgstr "Megszólítás"
+msgstr "Fordítások szerkesztése"
 
 #: ../content/administration-area/languages/translations.rst:34
 msgid "To modify an existing translation."
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:37
-#, fuzzy
 msgid "Deploy Translations"
-msgstr "Megszólítás"
+msgstr "Fordítások üzembe állítása"
 
 #: ../content/administration-area/languages/translations.rst:37
 #, fuzzy
@@ -4265,9 +4257,8 @@ msgid "Buttons Translations"
 msgstr "Megszólítás"
 
 #: ../content/administration-area/languages/translations.rst:46
-#, fuzzy
 msgid "Active Translations"
-msgstr "Megszólítás"
+msgstr "Aktív fordítások"
 
 #: ../content/administration-area/languages/translations.rst:46
 msgid "Table with all translations displayed."
@@ -4280,7 +4271,7 @@ msgstr "Tevékenységek létrehozása"
 
 #: ../content/administration-area/languages/translations.rst:55
 msgid "Filter"
-msgstr ""
+msgstr "Szűrő"
 
 #: ../content/administration-area/languages/translations.rst:55
 #, fuzzy
@@ -4294,9 +4285,8 @@ msgid "Filter Active Translations"
 msgstr "Tevékenységek létrehozása"
 
 #: ../content/administration-area/languages/translations.rst:64
-#, fuzzy
 msgid "Translation States"
-msgstr "Megszólítás"
+msgstr "Fordítási állapotok"
 
 #: ../content/administration-area/languages/translations.rst:64
 #, fuzzy
@@ -4332,7 +4322,7 @@ msgstr "Tevékenységek létrehozása"
 #: ../content/administration-area/languages/translations.rst:83
 #: ../content/administration-area/languages/translations.rst:112
 msgid "Hint"
-msgstr ""
+msgstr "Tipp"
 
 #: ../content/administration-area/languages/translations.rst:83
 msgid "This widget contains a short explanatory text about the module."
@@ -4362,10 +4352,8 @@ msgid "When entering the section to add a new translation, a new screen is displ
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:104
-#, fuzzy
-#| msgid "Location"
 msgid "Actions"
-msgstr "Hely"
+msgstr "Műveletek"
 
 #: ../content/administration-area/languages/translations.rst:104
 msgid "This widget contains the \"Go to Overview\" button to return to the main screen of the module."
@@ -4386,10 +4374,8 @@ msgid "Widget Hint Add Translation"
 msgstr "Könyvrendelés – tevékenység hozzáadása"
 
 #: ../content/administration-area/languages/translations.rst:120
-#, fuzzy
-#| msgid "Language \\*"
 msgid "Language"
-msgstr "Nyelv \\*"
+msgstr "Nyelv"
 
 #: ../content/administration-area/languages/translations.rst:120
 msgid "Informative label of the language where the translation will be created."
@@ -4422,8 +4408,6 @@ msgid "This field is displayed only when \"Dynamic Field\" is selected in the \"
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:140
-#, fuzzy
-#| msgid "Contents"
 msgid "Content"
 msgstr "Tartalom"
 
@@ -4438,9 +4422,8 @@ msgid "Content Field"
 msgstr "Tartalomkártya"
 
 #: ../content/administration-area/languages/translations.rst:148
-#, fuzzy
 msgid "Translation"
-msgstr "Megszólítás"
+msgstr "Fordítás"
 
 #: ../content/administration-area/languages/translations.rst:148
 msgid "Text field or table depending on the selected option, where the translation is entered."
@@ -4482,10 +4465,8 @@ msgid "Selectable Options"
 msgstr "Megszólítások"
 
 #: ../content/administration-area/languages/translations.rst:169
-#, fuzzy
-#| msgid "Dynamic Fields"
 msgid "Dynamic Field Contents"
-msgstr "Dinamikus mezők"
+msgstr "Dinamikus mező tartalom"
 
 #: ../content/administration-area/languages/translations.rst:169
 msgid "Displays all existing dynamic fields and a dropdown field with values to translate is chosen"
@@ -4496,10 +4477,8 @@ msgid "Table for translation - Dynamic Field Content"
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:177
-#, fuzzy
-#| msgid "Dynamic Fields"
 msgid "Dynamic Field Labels"
-msgstr "Dinamikus mezők"
+msgstr "Dinamikus mező címkék"
 
 #: ../content/administration-area/languages/translations.rst:177
 msgid "Displays all existing dynamic fields in the system and a field is chosen to translate the label"
@@ -4510,10 +4489,8 @@ msgid "Table for translation - Dynamic Field Labels"
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:186
-#, fuzzy
-#| msgid "General Job Settings"
 msgid "General Label"
-msgstr "Feladat általános beállításai"
+msgstr "Általános címke"
 
 #: ../content/administration-area/languages/translations.rst:186
 #, fuzzy
@@ -4572,7 +4549,7 @@ msgstr "Szűrő egy SMS tranzakciószámhoz."
 
 #: ../content/administration-area/languages/translations.rst:221
 msgid "SLAs"
-msgstr ""
+msgstr "SLA-k"
 
 #: ../content/administration-area/languages/translations.rst:221
 msgid "Allows translation of all SLAs."
@@ -4624,9 +4601,8 @@ msgid "Fields for translation - Ticket Types"
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:259
-#, fuzzy
 msgid "Edit Translation"
-msgstr "Megszólítás"
+msgstr "Fordítás szerkesztése"
 
 #: ../content/administration-area/languages/translations.rst:261
 msgid "This section allows you to edit the translations displayed in the module. When entering the section to edit translations a new screen is displayed with the following elements:"
@@ -4679,10 +4655,8 @@ msgid "This function allows you to import and/or export files with translations 
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:297
-#, fuzzy
-#| msgid "Template"
 msgid "Add Template"
-msgstr "Sablon"
+msgstr "Sablon hozzáadása"
 
 #: ../content/administration-area/languages/translations.rst:297
 msgid "When adding a new template, the new \"Translations\" option is displayed in the \"Object\" input."
@@ -4690,10 +4664,8 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:300
 #: ../content/administration-area/languages/translations.rst:315
-#, fuzzy
-#| msgid "Normal"
 msgid "Format"
-msgstr "Normál"
+msgstr "Formátum"
 
 #: ../content/administration-area/languages/translations.rst:300
 msgid "Allows you to choose the CSV file format."
@@ -4722,10 +4694,8 @@ msgid "Plain text format is selected."
 msgstr "A szöveg ehhez az elemhez."
 
 #: ../content/administration-area/languages/translations.rst:321
-#, fuzzy
-#| msgid "Checked"
 msgid "Checkbox"
-msgstr "Bejelölve"
+msgstr "Jelölőnégyzet"
 
 #: ../content/administration-area/languages/translations.rst:318
 msgid "To indicate whether empty fields keep the current values."
@@ -4737,7 +4707,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:324
 msgid "Column Separator"
-msgstr ""
+msgstr "Oszlopelválasztó"
 
 #: ../content/administration-area/languages/translations.rst:324
 msgid "Allows you to choose the column separator between Colon (:), Comma(,), Period(.), Semicolon(;), Tabulator (TAB)."
@@ -4748,10 +4718,8 @@ msgid "Field Column separator Step 3."
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:333
-#, fuzzy
-#| msgid "Table Charset"
 msgid "Charset"
-msgstr "Tábla karakterkészlete"
+msgstr "Karakterkészlet"
 
 #: ../content/administration-area/languages/translations.rst:333
 msgid "The default character encoding is unmodifiable and according to the previously selected language."
@@ -4762,10 +4730,8 @@ msgid "Field Charset Step 3."
 msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:342
-#, fuzzy
-#| msgid "Include Custom Scripts"
 msgid "Include Column Headers"
-msgstr "Egyéni parancsfájlok beágyazása"
+msgstr "Oszlopfejlécek felvétele"
 
 #: ../content/administration-area/languages/translations.rst:342
 msgid "Allows you to choose between yes/no if the option is whether the file should have the column headers in the file to be imported."
@@ -4786,10 +4752,8 @@ msgid "Information mapping table."
 msgstr "Információk a lemezpartíciók használatáról"
 
 #: ../content/administration-area/languages/translations.rst:360
-#, fuzzy
-#| msgid "Management"
 msgid "Add Mapping Element"
-msgstr "Vezetőség"
+msgstr "Leképezési elem hozzáadása"
 
 #: ../content/administration-area/languages/translations.rst:359
 msgid "To add the sections or columns of the file."
@@ -4797,7 +4761,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:364
 msgid "Key"
-msgstr ""
+msgstr "Kulcs"
 
 #: ../content/administration-area/languages/translations.rst:363
 msgid "Source string: Text string to be translated. Translation English: Language in which the translation will be done."
@@ -4821,7 +4785,7 @@ msgstr "Küldő információk"
 
 #: ../content/administration-area/languages/translations.rst:382
 msgid "Restrict export per search"
-msgstr ""
+msgstr "Exportálás korlátozása keresésenként"
 
 #: ../content/administration-area/languages/translations.rst:382
 msgid "allows you to choose whether you want to restrict the export by searching for specific options."
@@ -4888,10 +4852,8 @@ msgid "List Queues translated to Spanish."
 msgstr ""
 
 #: ../content/administration-area/otobo-services.rst:2
-#, fuzzy
-#| msgid "Web Services"
 msgid "OTOBO Team Services"
-msgstr "Webszolgáltatások"
+msgstr "OTOBO csapatszolgáltatások"
 
 #: ../content/administration-area/otobo-services.rst:4
 msgid "This section describes the functionality of your OTOBO to support you OTOBO service partner. Regardless whether this is Rother OSS, an OTOBO Partner, or any other service provider of your choosing."
@@ -6273,10 +6235,8 @@ msgstr "Ha több általános ügyintéző feladat van hozzáadva a rendszerhez, 
 #: ../content/administration-area/users-groups-roles/groups.rst:49
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:51
 #: ../content/administration-area/users-groups-roles/roles.rst:49
-#, fuzzy
-#| msgid "Import And Export System Configurations"
 msgid "Import / Export"
-msgstr "Rendszerbeállítások importálása és exportálása"
+msgstr "Importálás és exportálás"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:73
 #, fuzzy
@@ -6426,7 +6386,7 @@ msgstr "Feladat-beállítások – eseményalapú végrehajtás"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:151
 msgid "Event Triggers"
-msgstr "Esemény-aktiválók"
+msgstr "Eseményaktiválók"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:149
 msgid "This is a list of already added events. If no events are added yet, the list contains no elements. Elements can be deleted by clicking on the trash icon in the last column."
@@ -6434,7 +6394,7 @@ msgstr "Ez a már hozzáadott események listája. Ha még nem lett esemény hoz
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:155
 msgid "Add Event Trigger"
-msgstr "Esemény-aktiváló hozzáadása"
+msgstr "Eseményaktiváló hozzáadása"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:154
 msgid "Select an object and a related event that will trigger the job."
@@ -6455,7 +6415,7 @@ msgstr "A mezők önmagukat magyarázzák, így itt nincs további magyarázat."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:166
 msgid "Update/Add Ticket Attributes"
-msgstr "Jegyjellemzők frissítése/hozzáadása"
+msgstr "Jegyattribútumok frissítése vagy hozzáadása"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:168
 msgid "Fill in this section to update and/or add ticket attributes."
@@ -6735,7 +6695,7 @@ msgstr "Ha több folyamat van hozzáadva a rendszerhez, akkor használja a szűr
 
 #: ../content/administration-area/processes-automation/process-management.rst:113
 msgid "Transition Reference for \"Fields\" Settings"
-msgstr ""
+msgstr "Átmenethivatkozás a „Mezők” beállításaihoz"
 
 #: ../content/administration-area/processes-automation/process-management.rst:116
 #: ../content/administration-area/processes-automation/process-management.rst:316
@@ -6863,17 +6823,15 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:192
 msgid "Value"
-msgstr ""
+msgstr "Érték"
 
 #: ../content/administration-area/processes-automation/process-management.rst:194
 msgid "Value must always contain a string or a regular expression used for comparison."
 msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:199
-#, fuzzy
-#| msgid "SQL Examples"
 msgid "Example"
-msgstr "SQL példák"
+msgstr "Példa"
 
 #: ../content/administration-area/processes-automation/process-management.rst:201
 msgid "The process ticket should move to the next process step as soon as a status containing ``closed`` in its name is set."
@@ -7950,9 +7908,8 @@ msgid "Any change that is made on the process will require to re-deploy the proc
 msgstr "A folyamatokon elvégzett bármilyen változtatás a folyamat ismételt üzembe állítását igényli annak érdekében, hogy a változtatást visszajuttassa a rendszerbe."
 
 #: ../content/administration-area/processes-automation/ticket-masks.rst:2
-#, fuzzy
 msgid "Ticket Masks"
-msgstr "Jegylista"
+msgstr "Jegymaszkok"
 
 #: ../content/administration-area/processes-automation/ticket-masks.rst:4
 msgid "Ticket masks can be used to define dynamic field arrangements for all ticket edit masks in more sophisticated ways. They enable multi column arrangements of dynamic fields, alternate labels and read only fields. Under Admin->Ticket Masks, for all actions a yaml defining the dynamic field section of the mask can be provided. Dynamic fields added to a mask via SysConfig (e.g. via DynamicField Screens), not present in the yaml definition, will be added as list below the defined fields."
@@ -8308,9 +8265,8 @@ msgid "You should now be able to select an operation."
 msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:225
-#, fuzzy
 msgid "Operations"
-msgstr "Művelet"
+msgstr "Műveletek"
 
 #: ../content/administration-area/processes-automation/web-services.rst:227
 msgid "There are different Ticket Operations which all serve a specific job:"
@@ -8693,10 +8649,8 @@ msgid "To create a new Profile, choose **Add** from the left navigation bar."
 msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:-1
-#, fuzzy
-#| msgid "Add Note"
 msgid "Add Profile"
-msgstr "Jegyzet hozzáadása"
+msgstr "Profil hozzáadása"
 
 #: ../content/administration-area/processes-automation/web-services.rst:631
 msgid "If you are already using OIDC for Login, some values will be pre-populated. You have to provide a valid, unique Profile name and also provide the OAuth2 application client_secret value, which is not pre-populated for security reasons. Usually you can keep all the defaults, especially for the optional SSL and Misc. settings."
@@ -9538,7 +9492,7 @@ msgstr "Az első válaszidő nem lesz aktiválva egy olyan e-mail jegynél vagy 
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:118
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:128
 msgid "Notify by"
-msgstr ""
+msgstr "Értesítés"
 
 #: ../content/administration-area/ticket-settings/queues.rst:138
 #: ../content/administration-area/ticket-settings/queues.rst:144
@@ -11358,7 +11312,7 @@ msgstr "átmozgatás"
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:67
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:80
 msgid "Permissions to move tickets into this group/queue."
-msgstr "Jogosultságok jegyek áthelyezéséhez ebbe a csoportba/várólistába."
+msgstr "Jogosultságok jegyek áthelyezéséhez ebbe a csoportba vagy várólistába."
 
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:70
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:83
@@ -11368,7 +11322,7 @@ msgstr "létrehozás"
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:70
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:83
 msgid "Permissions to create tickets in this group/queue."
-msgstr "Jogosultságok új jegyek létrehozásához ebben a csoportban/várólistában."
+msgstr "Jogosultságok új jegyek létrehozásához ebben a csoportban vagy várólistában."
 
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:73
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:86
@@ -11378,7 +11332,7 @@ msgstr "jegyzet"
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:73
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:86
 msgid "Permissions to add notes to tickets in this group/queue."
-msgstr "Jogosultságok a jegyekhez való jegyzetek hozzáadásához ebben a csoportban/várólistában."
+msgstr "Jogosultságok a jegyekhez való jegyzetek hozzáadásához ebben a csoportban vagy várólistában."
 
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:76
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:89
@@ -11388,7 +11342,7 @@ msgstr "tulajdonos"
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:76
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:89
 msgid "Permissions to change the owner of tickets in this group/queue."
-msgstr "Jogosultságok a jegyek tulajdonosának megváltoztatásához ebben a csoportban/várólistában."
+msgstr "Jogosultságok a jegyek tulajdonosának megváltoztatásához ebben a csoportban vagy várólistában."
 
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:79
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:92
@@ -11398,7 +11352,7 @@ msgstr "prioritás"
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:79
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:92
 msgid "Permissions to change the ticket priority in this group/queue."
-msgstr "Jogosultságok a jegy prioritásnak megváltoztatásához ebben a csoportban/várólistában."
+msgstr "Jogosultságok a jegy prioritásnak megváltoztatásához ebben a csoportban vagy várólistában."
 
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:82
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:101
@@ -11437,7 +11391,7 @@ msgstr "írás, olvasás"
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:91
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:104
 msgid "Full read and write access to the tickets in this group/queue."
-msgstr "Teljes írási és olvasási hozzáférés ebben a csoportban/várólistában lévő jegyekhez."
+msgstr "Teljes olvasási és írási hozzáférés az ebben a csoportban vagy várólistában lévő jegyekhez."
 
 #: ../content/administration-area/users-groups-roles/agents-groups.rst:95
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:108
@@ -11811,9 +11765,8 @@ msgid "Do not modify the file ``Kernel/Config/Defaults.pm``, it will be overwrit
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:174
-#, fuzzy
 msgid "Database"
-msgstr "Adatbázisméret"
+msgstr "Adatbázis"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:176
 msgid "This is the default customer user back end for new installations. The example below shows the configuration of a database customer back end, which uses customer user data stored in the database table ``customer_user``."
@@ -13111,13 +13064,12 @@ msgid "(see also :term:`Ticket`)."
 msgstr "(lásd: :term:`jegy`)."
 
 #: ../content/glossary.rst:78
-#, fuzzy
 msgid "Transition"
-msgstr "Disztribúció"
+msgstr "Átmenet"
 
 #: ../content/glossary.rst:81
 msgid "Transition Action"
-msgstr ""
+msgstr "Átmenet művelet"
 
 #: ../content/glossary.rst:84
 msgid "SLA"
@@ -13143,9 +13095,8 @@ msgid "A transport is the method chosen for communication. OTOBO supports REST a
 msgstr "Az átvitel a kommunikációhoz választott módszer. Az OTRS REST és SOAP támogatással rendelkezik."
 
 #: ../content/glossary.rst:96
-#, fuzzy
 msgid "Activity Dialog"
-msgstr "Felhasználói feladat tevékenység-párbeszédablak"
+msgstr "Tevékenység-párbeszédablak"
 
 #: ../content/glossary.rst:99
 msgid "Working Time"
@@ -13328,7 +13279,7 @@ msgstr ""
 
 #: ../content/index.rst:41
 msgid "License"
-msgstr ""
+msgstr "Licenc"
 
 #: ../content/index.rst:43
 msgid "This work is copyrighted by OTRS AG (https://otrs.com), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
