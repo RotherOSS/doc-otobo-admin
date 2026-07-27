@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-27 09:28+0000\n"
+"POT-Creation-Date: 2026-07-27 12:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 
 #: ../content/administration.rst:8
 #: ../content/communication-notifications.rst:8
-#: ../content/external-interface.rst:14
 #: ../content/index.rst:32
-#: ../content/otobo-services.rst:8
+#: ../content/otobo-team-services.rst:8
 #: ../content/processes-automation.rst:12
 #: ../content/ticket-settings.rst:15
 #: ../content/users-groups-roles.rst:8
@@ -72,16 +71,11 @@ msgid "Click on the *Add Calendar* button in the left sidebar."
 msgstr ""
 
 #: ../content/administration/calendars.rst:22
-#: ../content/administration/chat-channels.rst:24
-#: ../content/administration/faq-category.rst:18
 #: ../content/administration/system-maintenance.rst:22
 #: ../content/communication-notifications/email-addresses.rst:30
 #: ../content/communication-notifications/postmaster-filters.rst:26
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:34
-#: ../content/external-interface/custom-pages.rst:24
-#: ../content/external-interface/customer-service-catalogue.rst:29
-#: ../content/external-interface/customer-service-catalogue.rst:94
-#: ../content/otobo-services/cloud-services.rst:26
+#: ../content/otobo-team-services/cloud-services.rst:26
 #: ../content/processes-automation/access-control-lists.rst:30
 #: ../content/processes-automation/dynamic-fields.rst:22
 #: ../content/processes-automation/dynamic-fields.rst:182
@@ -95,7 +89,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:30
 #: ../content/ticket-settings/services.rst:26
 #: ../content/ticket-settings/signatures.rst:24
-#: ../content/ticket-settings/sms-templates.rst:35
 #: ../content/ticket-settings/states.rst:57
 #: ../content/ticket-settings/templates.rst:26
 #: ../content/ticket-settings/types.rst:31
@@ -108,17 +101,13 @@ msgid "Fill in the required fields."
 msgstr ""
 
 #: ../content/administration/calendars.rst:23
-#: ../content/administration/chat-channels.rst:25
 #: ../content/administration/system-maintenance.rst:23
 #: ../content/communication-notifications/appointment-notifications.rst:29
 #: ../content/communication-notifications/email-addresses.rst:31
 #: ../content/communication-notifications/postmaster-filters.rst:27
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:35
 #: ../content/communication-notifications/ticket-notifications.rst:23
-#: ../content/external-interface/custom-pages.rst:25
-#: ../content/external-interface/customer-service-catalogue.rst:30
-#: ../content/external-interface/customer-service-catalogue.rst:95
-#: ../content/otobo-services/cloud-services.rst:27
+#: ../content/otobo-team-services/cloud-services.rst:27
 #: ../content/processes-automation/access-control-lists.rst:31
 #: ../content/processes-automation/dynamic-fields.rst:23
 #: ../content/processes-automation/dynamic-fields.rst:183
@@ -133,7 +122,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:31
 #: ../content/ticket-settings/services.rst:27
 #: ../content/ticket-settings/signatures.rst:25
-#: ../content/ticket-settings/sms-templates.rst:36
 #: ../content/ticket-settings/states.rst:58
 #: ../content/ticket-settings/templates.rst:27
 #: ../content/ticket-settings/types.rst:32
@@ -162,15 +150,10 @@ msgid "Click on a calendar in the list of calendars."
 msgstr ""
 
 #: ../content/administration/calendars.rst:37
-#: ../content/administration/chat-channels.rst:39
-#: ../content/administration/faq-category.rst:29
 #: ../content/administration/system-maintenance.rst:33
 #: ../content/communication-notifications/email-addresses.rst:54
 #: ../content/communication-notifications/postmaster-filters.rst:33
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:45
-#: ../content/external-interface/custom-pages.rst:35
-#: ../content/external-interface/customer-service-catalogue.rst:40
-#: ../content/external-interface/customer-service-catalogue.rst:105
 #: ../content/processes-automation/dynamic-fields.rst:33
 #: ../content/processes-automation/dynamic-fields.rst:193
 #: ../content/processes-automation/generic-agent.rst:44
@@ -183,7 +166,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:45
 #: ../content/ticket-settings/services.rst:41
 #: ../content/ticket-settings/signatures.rst:39
-#: ../content/ticket-settings/sms-templates.rst:46
 #: ../content/ticket-settings/states.rst:72
 #: ../content/ticket-settings/templates.rst:37
 #: ../content/ticket-settings/types.rst:46
@@ -196,16 +178,12 @@ msgid "Modify the fields."
 msgstr ""
 
 #: ../content/administration/calendars.rst:38
-#: ../content/administration/chat-channels.rst:40
 #: ../content/administration/system-maintenance.rst:34
 #: ../content/communication-notifications/appointment-notifications.rst:35
 #: ../content/communication-notifications/email-addresses.rst:55
 #: ../content/communication-notifications/postmaster-filters.rst:34
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:46
 #: ../content/communication-notifications/ticket-notifications.rst:29
-#: ../content/external-interface/custom-pages.rst:36
-#: ../content/external-interface/customer-service-catalogue.rst:41
-#: ../content/external-interface/customer-service-catalogue.rst:106
 #: ../content/processes-automation/access-control-lists.rst:43
 #: ../content/processes-automation/dynamic-fields.rst:34
 #: ../content/processes-automation/dynamic-fields.rst:194
@@ -221,9 +199,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:46
 #: ../content/ticket-settings/services.rst:42
 #: ../content/ticket-settings/signatures.rst:40
-#: ../content/ticket-settings/sms-templates-queues.rst:25
-#: ../content/ticket-settings/sms-templates-queues.rst:36
-#: ../content/ticket-settings/sms-templates.rst:47
 #: ../content/ticket-settings/states.rst:73
 #: ../content/ticket-settings/templates-attachments.rst:23
 #: ../content/ticket-settings/templates-attachments.rst:34
@@ -310,18 +285,12 @@ msgid "Calendar Settings"
 msgstr ""
 
 #: ../content/administration/calendars.rst:65
-#: ../content/administration/chat-channels.rst:51
-#: ../content/administration/faq-category.rst:51
 #: ../content/administration/sql-box.rst:44
 #: ../content/communication-notifications/appointment-notifications.rst:63
 #: ../content/communication-notifications/email-addresses.rst:70
 #: ../content/communication-notifications/postmaster-filters.rst:54
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:71
 #: ../content/communication-notifications/ticket-notifications.rst:61
-#: ../content/external-interface/custom-pages.rst:61
-#: ../content/external-interface/customer-service-catalogue.rst:66
-#: ../content/external-interface/customer-service-catalogue.rst:131
-#: ../content/external-interface/home-page.rst:14
 #: ../content/processes-automation/access-control-lists.rst:97
 #: ../content/processes-automation/dynamic-fields.rst:59
 #: ../content/processes-automation/generic-agent.rst:70
@@ -337,7 +306,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:61
 #: ../content/ticket-settings/services.rst:61
 #: ../content/ticket-settings/signatures.rst:59
-#: ../content/ticket-settings/sms-templates.rst:72
 #: ../content/ticket-settings/states.rst:108
 #: ../content/ticket-settings/templates.rst:63
 #: ../content/ticket-settings/types.rst:62
@@ -358,12 +326,9 @@ msgid "Calendar name \\*"
 msgstr ""
 
 #: ../content/administration/calendars.rst:72
-#: ../content/administration/chat-channels.rst:54
-#: ../content/administration/faq-category.rst:54
 #: ../content/communication-notifications/appointment-notifications.rst:79
 #: ../content/communication-notifications/postmaster-filters.rst:71
 #: ../content/communication-notifications/ticket-notifications.rst:77
-#: ../content/external-interface/customer-service-catalogue.rst:69
 #: ../content/processes-automation/access-control-lists.rst:100
 #: ../content/processes-automation/generic-agent.rst:82
 #: ../content/processes-automation/web-services.rst:131
@@ -375,7 +340,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:64
 #: ../content/ticket-settings/services.rst:64
 #: ../content/ticket-settings/signatures.rst:62
-#: ../content/ticket-settings/sms-templates.rst:87
 #: ../content/ticket-settings/states.rst:111
 #: ../content/ticket-settings/templates.rst:90
 #: ../content/ticket-settings/types.rst:65
@@ -431,9 +395,6 @@ msgstr ""
 #: ../content/communication-notifications/email-addresses.rst:95
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:117
 #: ../content/communication-notifications/ticket-notifications.rst:104
-#: ../content/external-interface/custom-pages.rst:70
-#: ../content/external-interface/customer-service-catalogue.rst:79
-#: ../content/external-interface/customer-service-catalogue.rst:137
 #: ../content/processes-automation/access-control-lists.rst:113
 #: ../content/processes-automation/dynamic-fields.rst:86
 #: ../content/ticket-settings/attachments.rst:68
@@ -444,7 +405,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:99
 #: ../content/ticket-settings/services.rst:70
 #: ../content/ticket-settings/signatures.rst:68
-#: ../content/ticket-settings/sms-templates.rst:99
 #: ../content/ticket-settings/states.rst:129
 #: ../content/ticket-settings/templates.rst:99
 #: ../content/ticket-settings/types.rst:67
@@ -455,17 +415,12 @@ msgid "Validity \\*"
 msgstr ""
 
 #: ../content/administration/calendars.rst:90
-#: ../content/administration/chat-channels.rst:66
-#: ../content/administration/faq-category.rst:63
 #: ../content/administration/system-maintenance.rst:92
 #: ../content/communication-notifications/appointment-notifications.rst:105
 #: ../content/communication-notifications/email-addresses.rst:91
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:117
 #: ../content/communication-notifications/ticket-notifications.rst:103
-#: ../content/external-interface/custom-pages.rst:70
-#: ../content/external-interface/customer-service-catalogue.rst:78
-#: ../content/external-interface/customer-service-catalogue.rst:137
-#: ../content/otobo-services/cloud-services.rst:64
+#: ../content/otobo-team-services/cloud-services.rst:64
 #: ../content/processes-automation/access-control-lists.rst:112
 #: ../content/processes-automation/dynamic-fields.rst:86
 #: ../content/ticket-settings/attachments.rst:68
@@ -476,7 +431,6 @@ msgstr ""
 #: ../content/ticket-settings/service-level-agreements.rst:99
 #: ../content/ticket-settings/services.rst:70
 #: ../content/ticket-settings/signatures.rst:68
-#: ../content/ticket-settings/sms-templates.rst:99
 #: ../content/ticket-settings/states.rst:129
 #: ../content/ticket-settings/templates.rst:99
 #: ../content/ticket-settings/types.rst:68
@@ -587,408 +541,6 @@ msgstr ""
 
 #: ../content/administration/calendars.rst:143
 msgid "If checked, all existing appointments in the calendar with same ``UniqueID`` will be overwritten."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:2
-msgid "Chat Channels"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:4
-#: ../content/external-interface/custom-pages.rst:4
-#: ../content/external-interface/customer-service-catalogue.rst:4
-#: ../content/external-interface/home-page.rst:4
-#: ../content/external-interface/layout.rst:4
-#: ../content/otobo-services/cloud-services.rst:4
-#: ../content/otobo-services/cloud-services.rst:21
-#: ../content/otobo-services/cloud-services.rst:38
-#: ../content/ticket-settings/sms-templates-queues.rst:4
-msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:6
-msgid "Being able to offer chat possibilities to customers is a must-have for many organizations. Depending on the amount of customer chat requests and the organization's structure, it must be possible to group chat requests."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:8
-msgid "OTOBO offers chat channels with different permissions per channel, so it is, e.g. possible to have different chat channels for registered contract customers and public prospects."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:10
-msgid "Use this screen to add chat channels to the system. A fresh OTOBO installation contains no chat channels by default. The chat channel management screen is available in the *Chat Channels* module of the *Administration* group."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:15
-msgid "Chat Channel Management Screen"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:19
-msgid "Manage Chat Channels"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:21
-msgid "To add a chat channel:"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:23
-msgid "Click on the *Add Chat Channel* button in the left sidebar."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:30
-msgid "Add Chat Channel Screen"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:34
-msgid "Chat channels can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:36
-msgid "To edit a chat channel:"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:38
-msgid "Click on a chat channel in the list of chat channels."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:45
-msgid "Edit Chat Channel Screen"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:49
-msgid "Chat Channel Settings"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:54
-#: ../content/administration/faq-category.rst:54
-#: ../content/administration/faq-language.rst:53
-#: ../content/communication-notifications/appointment-notifications.rst:79
-#: ../content/communication-notifications/postmaster-filters.rst:75
-#: ../content/communication-notifications/ticket-notifications.rst:77
-#: ../content/processes-automation/access-control-lists.rst:100
-#: ../content/processes-automation/dynamic-fields.rst:73
-#: ../content/processes-automation/web-services.rst:131
-#: ../content/ticket-settings/attachments.rst:62
-#: ../content/ticket-settings/auto-responses.rst:62
-#: ../content/ticket-settings/priorities.rst:92
-#: ../content/ticket-settings/queues.rst:76
-#: ../content/ticket-settings/salutations.rst:62
-#: ../content/ticket-settings/signatures.rst:62
-#: ../content/ticket-settings/sms-templates.rst:87
-#: ../content/ticket-settings/states.rst:111
-#: ../content/ticket-settings/templates.rst:90
-#: ../content/ticket-settings/types.rst:65
-#: ../content/users-groups-roles/groups.rst:56
-#: ../content/users-groups-roles/roles.rst:52
-msgid "Name \\*"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:57
-#: ../content/ticket-settings/queues.rst:82
-msgid "Group \\*"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:57
-msgid "Select which :doc:`../users-groups-roles/groups` can access the chat channel."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:60
-msgid "Available to customer users"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:60
-msgid "Select the checkbox if you want to display the chat channel for customer users."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:63
-msgid "Available to public users"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:63
-msgid "Select the checkbox if you want to display the chat channel for public users."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:66
-#: ../content/users-groups-roles/customer-users.rst:129
-#: ../content/users-groups-roles/customers.rst:84
-msgid "Valid \\*"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:70
-#: ../content/communication-notifications/appointment-notifications.rst:82
-#: ../content/communication-notifications/email-addresses.rst:97
-#: ../content/communication-notifications/postmaster-mail-accounts.rst:121
-#: ../content/communication-notifications/ticket-notifications.rst:80
-#: ../content/otobo-services/cloud-services.rst:61
-#: ../content/processes-automation/access-control-lists.rst:103
-#: ../content/ticket-settings/attachments.rst:70
-#: ../content/ticket-settings/auto-responses.rst:96
-#: ../content/ticket-settings/queues.rst:160
-#: ../content/ticket-settings/salutations.rst:72
-#: ../content/ticket-settings/service-level-agreements.rst:102
-#: ../content/ticket-settings/services.rst:73
-#: ../content/ticket-settings/signatures.rst:72
-#: ../content/ticket-settings/sms-templates.rst:103
-#: ../content/ticket-settings/states.rst:133
-#: ../content/ticket-settings/templates.rst:103
-#: ../content/users-groups-roles/customer-users.rst:126
-#: ../content/users-groups-roles/customers.rst:82
-#: ../content/users-groups-roles/groups.rst:67
-#: ../content/users-groups-roles/roles.rst:57
-msgid "Comment"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:69
-#: ../content/administration/faq-category.rst:66
-#: ../content/communication-notifications/appointment-notifications.rst:82
-#: ../content/communication-notifications/email-addresses.rst:98
-#: ../content/communication-notifications/postmaster-mail-accounts.rst:120
-#: ../content/communication-notifications/ticket-notifications.rst:80
-#: ../content/otobo-services/cloud-services.rst:61
-#: ../content/processes-automation/access-control-lists.rst:103
-#: ../content/ticket-settings/attachments.rst:71
-#: ../content/ticket-settings/auto-responses.rst:95
-#: ../content/ticket-settings/queues.rst:160
-#: ../content/ticket-settings/salutations.rst:71
-#: ../content/ticket-settings/service-level-agreements.rst:102
-#: ../content/ticket-settings/services.rst:73
-#: ../content/ticket-settings/signatures.rst:71
-#: ../content/ticket-settings/sms-templates.rst:102
-#: ../content/ticket-settings/states.rst:132
-#: ../content/ticket-settings/templates.rst:102
-#: ../content/users-groups-roles/customer-users.rst:126
-#: ../content/users-groups-roles/customers.rst:82
-#: ../content/users-groups-roles/groups.rst:66
-#: ../content/users-groups-roles/roles.rst:58
-msgid "Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:73
-msgid "Enable Chat Support"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:77
-msgid "The chat feature is not enabled by default."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:79
-msgid "To enable the chat feature:"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:81
-#: ../content/administration/chat-channels.rst:89
-msgid "Go to *System Configuration* screen."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:82
-msgid "Navigate to *Core → Chat* in the navigation tree."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:83
-msgid "Enable the setting ``ChatEngine::Active``."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:85
-msgid "When the chat feature is enabled, the *Default channel* is automatically created if it does not exist."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:87
-msgid "To review all chat related settings:"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:90
-msgid "Search for the term ``ChatEngine`` in the search box."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:91
-msgid "Review the settings."
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:95
-msgid "Agents need to have at least *ro* permissions to the groups set up in the following settings:"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:97
-msgid "``ChatEngine::PermissionGroup::ChatReceivingAgents``"
-msgstr ""
-
-#: ../content/administration/chat-channels.rst:98
-msgid "``ChatEngine::PermissionGroup::ChatStartingAgents``"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:2
-msgid "FAQ Category"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:4
-msgid "Use this screen to manage categories available in FAQ articles. The FAQ package can be installed from the OTOBO addons repository with the :doc:`package-manager`. A fresh OTOBO installation already contains a category by default. The category management screen is available in the *FAQ Category* module of the *Administration* group."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:9
-msgid "FAQ Category Management Screen"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:13
-msgid "Manage FAQ Categories"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:15
-#: ../content/external-interface/customer-service-catalogue.rst:26
-msgid "To add a category:"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:17
-msgid "Click on the *Add category* button in the left sidebar."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:19
-#: ../content/administration/faq-category.rst:30
-#: ../content/administration/faq-language.rst:19
-#: ../content/administration/faq-language.rst:30
-#: ../content/communication-notifications/s-mime-certificates.rst:53
-msgid "Click on the *Submit* button."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:24
-#: ../content/external-interface/customer-service-catalogue.rst:35
-msgid "Add Category Screen"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:26
-#: ../content/external-interface/customer-service-catalogue.rst:37
-msgid "To edit a category:"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:28
-#: ../content/external-interface/customer-service-catalogue.rst:39
-msgid "Click on a category in the list of categories."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:35
-#: ../content/external-interface/customer-service-catalogue.rst:46
-msgid "Edit Category Screen"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:37
-#: ../content/external-interface/customer-service-catalogue.rst:48
-msgid "To delete a category:"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:39
-msgid "Click on the trash icon in the list of categories."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:40
-#: ../content/administration/faq-language.rst:40
-msgid "Click on the *Yes* button in the confirmation dialog."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:45
-#: ../content/external-interface/customer-service-catalogue.rst:56
-msgid "Delete Category Screen"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:49
-msgid "FAQ Category Settings"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:57
-msgid "Subcategory of"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:57
-#: ../content/external-interface/customer-service-catalogue.rst:72
-msgid "It is possible to add the new category under an existing one as sub-category. This will be displayed as *Parent Category::Child Category*."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:60
-msgid "Permission \\*"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:60
-msgid "Agent groups that can access articles in this category."
-msgstr ""
-
-#: ../content/administration/faq-category.rst:63
-#: ../content/otobo-services/cloud-services.rst:64
-#: ../content/processes-automation/generic-agent.rst:86
-#: ../content/processes-automation/web-services.rst:151
-msgid "Validity"
-msgstr ""
-
-#: ../content/administration/faq-category.rst:65
-#: ../content/administration/system-maintenance.rst:66
-msgid "Comment \\*"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:2
-msgid "FAQ Language"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:4
-msgid "Use this screen to manage languages available in FAQ articles. A fresh OTOBO installation already contains some languages by default. The language management screen is available in the *FAQ Language* module of the *Administration* group."
-msgstr ""
-
-#: ../content/administration/faq-language.rst:9
-msgid "FAQ Language Management Screen"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:13
-msgid "Manage FAQ Languages"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:15
-msgid "To add a language:"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:17
-msgid "Click on the *Add language* button in the left sidebar."
-msgstr ""
-
-#: ../content/administration/faq-language.rst:18
-msgid "Fill in the required field."
-msgstr ""
-
-#: ../content/administration/faq-language.rst:24
-msgid "Add Language Screen"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:26
-msgid "To edit a language:"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:28
-msgid "Click on a language in the list of languages."
-msgstr ""
-
-#: ../content/administration/faq-language.rst:29
-msgid "Modify the field."
-msgstr ""
-
-#: ../content/administration/faq-language.rst:35
-msgid "Edit Language Screen"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:37
-msgid "To delete a language:"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:39
-msgid "Click on the trash icon in the list of languages."
-msgstr ""
-
-#: ../content/administration/faq-language.rst:45
-msgid "Delete Language Screen"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:49
-msgid "FAQ Language Settings"
-msgstr ""
-
-#: ../content/administration/faq-language.rst:51
-msgid "The following setting is available when adding or editing this resource. The fields marked with an asterisk are mandatory."
-msgstr ""
-
-#: ../content/administration/faq-language.rst:54
-msgid "The `ISO 639-1 code <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`__ of a language."
 msgstr ""
 
 #: ../content/administration/package-manager.rst:2
@@ -1592,13 +1144,9 @@ msgstr ""
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:56
 #: ../content/communication-notifications/s-mime-certificates.rst:63
 #: ../content/communication-notifications/ticket-notifications.rst:34
-#: ../content/external-interface/custom-pages.rst:46
-#: ../content/external-interface/customer-service-catalogue.rst:51
-#: ../content/external-interface/customer-service-catalogue.rst:116
 #: ../content/processes-automation/dynamic-fields.rst:44
 #: ../content/processes-automation/generic-agent.rst:55
 #: ../content/ticket-settings/attachments.rst:44
-#: ../content/ticket-settings/sms-templates.rst:57
 #: ../content/ticket-settings/templates.rst:48
 msgid "Click on the *Confirm* button."
 msgstr ""
@@ -1791,6 +1339,10 @@ msgstr ""
 
 #: ../content/administration/system-maintenance.rst:63
 msgid "Select a date when the system maintenance is planned to finish."
+msgstr ""
+
+#: ../content/administration/system-maintenance.rst:66
+msgid "Comment \\*"
 msgstr ""
 
 #: ../content/administration/system-maintenance.rst:66
@@ -2086,6 +1638,70 @@ msgstr ""
 msgid "Appointment Notification Settings - Basic"
 msgstr ""
 
+#: ../content/communication-notifications/appointment-notifications.rst:79
+#: ../content/communication-notifications/postmaster-filters.rst:75
+#: ../content/communication-notifications/ticket-notifications.rst:77
+#: ../content/processes-automation/access-control-lists.rst:100
+#: ../content/processes-automation/dynamic-fields.rst:73
+#: ../content/processes-automation/web-services.rst:131
+#: ../content/ticket-settings/attachments.rst:62
+#: ../content/ticket-settings/auto-responses.rst:62
+#: ../content/ticket-settings/priorities.rst:92
+#: ../content/ticket-settings/queues.rst:76
+#: ../content/ticket-settings/salutations.rst:62
+#: ../content/ticket-settings/signatures.rst:62
+#: ../content/ticket-settings/states.rst:111
+#: ../content/ticket-settings/templates.rst:90
+#: ../content/ticket-settings/types.rst:65
+#: ../content/users-groups-roles/groups.rst:56
+#: ../content/users-groups-roles/roles.rst:52
+msgid "Name \\*"
+msgstr ""
+
+#: ../content/communication-notifications/appointment-notifications.rst:82
+#: ../content/communication-notifications/email-addresses.rst:97
+#: ../content/communication-notifications/postmaster-mail-accounts.rst:121
+#: ../content/communication-notifications/ticket-notifications.rst:80
+#: ../content/otobo-team-services/cloud-services.rst:61
+#: ../content/processes-automation/access-control-lists.rst:103
+#: ../content/ticket-settings/attachments.rst:70
+#: ../content/ticket-settings/auto-responses.rst:96
+#: ../content/ticket-settings/queues.rst:160
+#: ../content/ticket-settings/salutations.rst:72
+#: ../content/ticket-settings/service-level-agreements.rst:102
+#: ../content/ticket-settings/services.rst:73
+#: ../content/ticket-settings/signatures.rst:72
+#: ../content/ticket-settings/states.rst:133
+#: ../content/ticket-settings/templates.rst:103
+#: ../content/users-groups-roles/customer-users.rst:126
+#: ../content/users-groups-roles/customers.rst:82
+#: ../content/users-groups-roles/groups.rst:67
+#: ../content/users-groups-roles/roles.rst:57
+msgid "Comment"
+msgstr ""
+
+#: ../content/communication-notifications/appointment-notifications.rst:82
+#: ../content/communication-notifications/email-addresses.rst:98
+#: ../content/communication-notifications/postmaster-mail-accounts.rst:120
+#: ../content/communication-notifications/ticket-notifications.rst:80
+#: ../content/otobo-team-services/cloud-services.rst:61
+#: ../content/processes-automation/access-control-lists.rst:103
+#: ../content/ticket-settings/attachments.rst:71
+#: ../content/ticket-settings/auto-responses.rst:95
+#: ../content/ticket-settings/queues.rst:160
+#: ../content/ticket-settings/salutations.rst:71
+#: ../content/ticket-settings/service-level-agreements.rst:102
+#: ../content/ticket-settings/services.rst:73
+#: ../content/ticket-settings/signatures.rst:71
+#: ../content/ticket-settings/states.rst:132
+#: ../content/ticket-settings/templates.rst:102
+#: ../content/users-groups-roles/customer-users.rst:126
+#: ../content/users-groups-roles/customers.rst:82
+#: ../content/users-groups-roles/groups.rst:66
+#: ../content/users-groups-roles/roles.rst:58
+msgid "Add additional information to this resource. It is recommended to always fill this field as a description of the resource with a full sentence for better clarity, because the comment will be also displayed in the overview table."
+msgstr ""
+
 #: ../content/communication-notifications/appointment-notifications.rst:99
 #: ../content/communication-notifications/ticket-notifications.rst:97
 msgid "Show in agent preferences"
@@ -2235,7 +1851,6 @@ msgid "Select which calendar the related appointment needs to be part of."
 msgstr ""
 
 #: ../content/communication-notifications/appointment-notifications.rst:154
-#: ../content/external-interface/home-page.rst:28
 #: ../content/processes-automation/process-management.rst:272
 msgid "Title"
 msgstr ""
@@ -2528,9 +2143,6 @@ msgstr ""
 
 #: ../content/communication-notifications/appointment-notifications.rst:274
 #: ../content/communication-notifications/ticket-notifications.rst:325
-#: ../content/external-interface/customer-service-catalogue.rst:146
-#: ../content/external-interface/home-page.rst:93
-#: ../content/external-interface/home-page.rst:176
 msgid "Text \\*"
 msgstr ""
 
@@ -2564,7 +2176,6 @@ msgstr ""
 #: ../content/ticket-settings/auto-responses.rst:101
 #: ../content/ticket-settings/salutations.rst:77
 #: ../content/ticket-settings/signatures.rst:77
-#: ../content/ticket-settings/sms-templates.rst:108
 #: ../content/ticket-settings/templates.rst:108
 msgid "Using variables in the text makes it possible to personalize messages. Variables, known as OTOBO tags, are replaced by OTOBO when generating the message. Find a list of available tags stems for this resource at the bottom of both add and edit screens."
 msgstr ""
@@ -2578,13 +2189,12 @@ msgstr ""
 #: ../content/ticket-settings/auto-responses.rst:114
 #: ../content/ticket-settings/salutations.rst:90
 #: ../content/ticket-settings/signatures.rst:92
-#: ../content/ticket-settings/sms-templates.rst:121
 #: ../content/ticket-settings/templates.rst:121
 msgid "This tag expands, for example to:"
 msgstr ""
 
 #: ../content/communication-notifications/communication-log.rst:2
-#: ../content/otobo-services/support-data-collector.rst:171
+#: ../content/otobo-team-services/support-data-collector.rst:171
 msgid "Communication Log"
 msgstr ""
 
@@ -3353,7 +2963,6 @@ msgstr ""
 
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:81
 #: ../content/ticket-settings/auto-responses.rst:86
-#: ../content/ticket-settings/sms-templates.rst:84
 #: ../content/ticket-settings/templates.rst:87
 msgid "Type \\*"
 msgstr ""
@@ -3637,6 +3246,10 @@ msgstr ""
 
 #: ../content/communication-notifications/s-mime-certificates.rst:52
 msgid "Select a private key from the file system."
+msgstr ""
+
+#: ../content/communication-notifications/s-mime-certificates.rst:53
+msgid "Click on the *Submit* button."
 msgstr ""
 
 #: ../content/communication-notifications/s-mime-certificates.rst:58
@@ -4056,825 +3669,6 @@ msgstr ""
 msgid "Use of regular expressions as a filter do not work here."
 msgstr ""
 
-#: ../content/external-interface.rst:2
-#: ../content/processes-automation/process-management.rst:135
-#: ../content/processes-automation/process-management.rst:171
-msgid "External Interface"
-msgstr ""
-
-#: ../content/external-interface.rst:6
-msgid "TODO: This part of the documentation is out out of scope and needs someone to help updating the changes introduced with the latest releases."
-msgstr ""
-
-#: ../content/external-interface.rst:8
-msgid "The need to transport valuable information about service to users is a major one for a service desk. Not always is it possible or plausible to do this via a corporate internet. The customers of a service desk need a one-stop solution for all their service needs."
-msgstr ""
-
-#: ../content/external-interface.rst:10
-msgid "OTOBO provides access to create and manage demands, as well as receive valuable information such as the service catalog and knowledge base."
-msgstr ""
-
-#: ../content/external-interface.rst:12
-msgid "The following chapter describes the administration tools needed to implement corporate identity and manage language-based content."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:2
-msgid "Custom Pages"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:6
-msgid "Use this screen to add custom pages for use in external interface. A fresh OTOBO installation already contains some custom pages by default. The custom page management screen is available in the *Custom Pages* module of the *External Interface* group."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:11
-msgid "Custom Page Management Screen"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:15
-msgid "Manage Custom Pages"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:19
-#: ../content/external-interface/home-page.rst:12
-#: ../content/external-interface/layout.rst:17
-msgid "Make sure to save your changes when you finish. The new configuration will be immediately deployed."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:21
-msgid "To add a custom page:"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:23
-msgid "Click on the *Add Custom Page* button in the left sidebar."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:30
-msgid "Add Custom Page Screen"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:32
-msgid "To edit a custom page:"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:34
-msgid "Click on a custom page in the list of custom pages."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:41
-msgid "Edit Custom Page Screen"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:43
-msgid "To delete a custom page:"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:45
-#: ../content/processes-automation/generic-agent.rst:54
-msgid "Click on the trash icon in the fourth column of the overview table."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:51
-msgid "Delete Custom Page Screen"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:55
-msgid "If several custom pages are added to the system, use the filter box to find a particular custom page by just typing the name to filter."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:59
-msgid "Custom Page Settings"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:64
-#: ../content/external-interface/customer-service-catalogue.rst:134
-msgid "Internal Title \\*"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:64
-#: ../content/external-interface/customer-service-catalogue.rst:134
-msgid "The name of this resource, that is only displayed in the admin interface. Any type of characters can be entered to this field including uppercase letters and spaces. The name will be displayed in the overview table."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:67
-msgid "Slug \\*"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:67
-msgid "This will be the URL of the custom page. Recommended characters are lowercase letters, numbers and minus sign."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:81
-msgid "Custom Page Content"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:73
-#: ../content/external-interface/customer-service-catalogue.rst:140
-msgid "In this widget can be added some localized content for the item."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:76
-#: ../content/external-interface/customer-service-catalogue.rst:69
-#: ../content/external-interface/customer-service-catalogue.rst:143
-#: ../content/external-interface/home-page.rst:90
-#: ../content/external-interface/home-page.rst:122
-#: ../content/external-interface/home-page.rst:173
-msgid "Title \\*"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:76
-#: ../content/external-interface/customer-service-catalogue.rst:143
-msgid "The name of this resource in the given language. Any type of characters can be entered to this field including uppercase letters and spaces."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:79
-msgid "Content \\*"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:79
-#: ../content/external-interface/customer-service-catalogue.rst:146
-msgid "The text for this item in the given language."
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:81
-msgid "Add new custom page content"
-msgstr ""
-
-#: ../content/external-interface/custom-pages.rst:82
-#: ../content/external-interface/customer-service-catalogue.rst:159
-msgid "Select which languages should be added to create localized item content. All added languages can hold its own localized content, that are explained above."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:2
-msgid "Customer Service Catalogue"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:6
-msgid "Use this screen to add categories and items for use in external interface. A fresh OTOBO installation doesn't contain any categories or items by default. The catalogue management screen is available in the *Customer Service Catalogue* module of the *External Interface* group."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:8
-msgid "This module consists of two management screens: a category management screen and an item management screen."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:13
-msgid "Customer Service Catalogue Management Screen"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:17
-msgid "Manage Categories"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:19
-msgid "Use this screen to add categories to collect the same items into groups. The *Category Management* screen in available via the *Go to category management* button or via the *Category Management* module."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:24
-msgid "Category Management Screen"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:28
-msgid "Click on the *Add Category* button in the left sidebar."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:50
-#: ../content/external-interface/customer-service-catalogue.rst:115
-msgid "Click on the trash icon in the *Delete* column of the overview table."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:60
-msgid "If several categories are added to the system, use the filter box to find a particular category by just typing the name to filter."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:64
-msgid "Category Settings"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:72
-msgid "Sub-category of"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:75
-msgid "Language \\*"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:75
-msgid "Select a language from the available languages of the system."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:82
-msgid "Manage Items"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:84
-msgid "Use this screen to add items to the catalogue. Items can be collected into categories. The *Item Management* screen in available via the *Go to item management* button or via the *Item Management* module."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:89
-msgid "Item Management Screen"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:91
-msgid "To add an item:"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:93
-msgid "Click on the *Add Item* button in the left sidebar."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:100
-msgid "Add Item Screen"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:102
-msgid "To edit an item:"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:104
-msgid "Click on an item in the list of items."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:111
-msgid "Edit Item Screen"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:113
-msgid "To delete an item:"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:121
-msgid "Delete Item Screen"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:125
-msgid "If several items are added to the system, use the filter box to find a particular item by just typing the name to filter."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:129
-msgid "Item Settings"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:158
-msgid "Item Content"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:153
-msgid "Categories"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:149
-msgid "One ore more categories can be selected for the item in which the item should be visible."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:153
-msgid "Only those categories can be selected, that have the same language as the selected language for this widget."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:156
-msgid "Link \\*"
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:156
-msgid "A link to an internal or an external URL."
-msgstr ""
-
-#: ../content/external-interface/customer-service-catalogue.rst:158
-msgid "Add new item content"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:2
-msgid "Home Page"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:6
-msgid "Use this screen to define home page configuration for different user languages, that are displayed in the external interface. The home page management screen is available in the *Home Page* module of the *External Interface* group."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:8
-msgid "This screen contains several widget for each languages, where localized content can be added."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:18
-msgid "Hero Unit"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:25
-msgid "Hero Unit Widget"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:28
-msgid "This is the most important sentence or motto of the home page."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:35
-msgid "Background Style"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:31
-msgid "Define the behavior of background image and background color. The following options are available:"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:33
-msgid "Only use the background image"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:34
-msgid "Only use the background color"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:35
-msgid "Use the background image and overlay it with the selected color"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:38
-msgid "Background Image"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:38
-msgid "Select an image used as background image for the hero unit. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:42
-msgid "Background Color"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:41
-#: ../content/external-interface/home-page.rst:77
-msgid "To change the background color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:45
-msgid "Ticket List"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:52
-msgid "Ticket List Widget"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:55
-msgid "Show a ticket list for logged in users"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:55
-msgid "This setting defines if the ticket list should be visible for logged in users or not."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:59
-#: ../content/external-interface/home-page.rst:74
-#: ../content/external-interface/home-page.rst:112
-#: ../content/external-interface/home-page.rst:163
-msgid "Row Title"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:58
-#: ../content/external-interface/home-page.rst:74
-#: ../content/external-interface/home-page.rst:112
-#: ../content/external-interface/home-page.rst:163
-msgid "This is an optional title for the row, that contains this widget in the external interface."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:62
-msgid "Image Teasers"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:66
-msgid "The image teasers are displayed in a separate row in the external interface."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:71
-msgid "Image Teasers Widget"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:77
-msgid "Row Background Color"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:79
-msgid "You can add up to three image teasers by clicking on the *Add* button in the top right corner of the widget."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:84
-msgid "Image Teaser"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:87
-msgid "Image"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:87
-msgid "Select an image to display it in the image teaser widget. To select an image, click on the *Select image to upload* button and chose an image from your file system."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:90
-#: ../content/external-interface/home-page.rst:122
-#: ../content/external-interface/home-page.rst:173
-msgid "The heading text that are displayed in this item."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:93
-#: ../content/external-interface/home-page.rst:176
-msgid "The text for this item."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:97
-msgid "Link Target \\*"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:96
-#: ../content/external-interface/home-page.rst:182
-msgid "An URL that will be opened after clicking on this item in the external interface."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:100
-msgid "Link Lists"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:104
-#: ../content/external-interface/home-page.rst:155
-msgid "The link lists are displayed in a separate row in the external interface."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:109
-msgid "Link Lists Widget"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:114
-msgid "You can add up to four link lists by clicking on the *Add* button in the top right corner of the widget."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:119
-msgid "Link List"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:125
-#: ../content/external-interface/home-page.rst:179
-msgid "Link Text"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:125
-#: ../content/external-interface/home-page.rst:179
-msgid "Add the text for the *show more* link."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:128
-#: ../content/external-interface/home-page.rst:181
-msgid "Link Target"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:128
-msgid "Add the URL for the *show more* link."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:148
-msgid "Link List Type \\*"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:131
-msgid "Specifies the functionality how the item will be added."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:0
-#: ../content/external-interface/home-page.rst:139
-msgid "Add the Items Manually"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:134
-#: ../content/external-interface/home-page.rst:142
-msgid "Clicking on the edit button a new widget will be visible to add the items."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:0
-#: ../content/external-interface/home-page.rst:147
-#: ../content/external-interface/home-page.rst:148
-msgid "Show the Results of a Search"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:151
-msgid "Content Cards"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:160
-msgid "Content Cards Widget"
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:165
-msgid "You can add up to three content cards by clicking on the *Add* button in the top right corner of the widget."
-msgstr ""
-
-#: ../content/external-interface/home-page.rst:170
-msgid "Content Card"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:2
-msgid "Layout"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:6
-msgid "Use this screen to edit the layout displayed in external interface. The layout management screen is available in the *Layout* module of the *External Interface* group."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:11
-msgid "Edit Layout Screen"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:13
-msgid "A fresh OTOBO installation already contains a default layout. In this screen all parameters can be changed."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:22
-msgid "Logo"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:20
-msgid "The logo is a small image that is displayed in the top left corner of the external pages."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:22
-msgid "To change the logo, click on the *Select image to upload* button, and select a new logo image. Recommended file format is PNG."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:27
-msgid "Favicon"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:25
-msgid "The `favorite icon <https://en.wikipedia.org/wiki/Favicon>`_ is an icon that is displayed in the URL bar of the web browser."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:27
-msgid "To change the favorite icon, click on the *Select image to upload* button, and select a new icon. This is usually a 16×16 pixel image in PNG or ICO format."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:32
-msgid "Primary Color"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:30
-msgid "Primary color is the most important color of the external pages (see the preview screen)."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:32
-msgid "To change the primary color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:37
-msgid "Highlight Color"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:35
-msgid "Highlight color is the second color of the external pages using for status badges, links, etc."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:37
-msgid "To change the highlight color, just select a new color from the color palette. You can chose from the pre-selected colors or define other colors by choosing it from the color selector or typing the hexadecimal value. The new color will be displayed in the preview widget immediately."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:42
-msgid "Default Avatar"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:40
-msgid "Will be used as the default avatar for all outgoing communication."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:42
-msgid "To change the avatar, click on the *Select image to upload* button, and select a new avatar image."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:51
-msgid "Custom CSS"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:45
-msgid "Use this text area to add custom CSS to be applied in the external interface."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:0
-#: ../content/external-interface/layout.rst:50
-msgid "Custom CSS Widget"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:54
-msgid "Include Custom Scripts"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:56
-msgid "External interface application has been built with security-first mindset in place. It contains several mechanisms to make sure that all code in the front end is provided directly by the OTOBO framework."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:58
-msgid "In addition, a security standard called `Content Security Policy <https://en.wikipedia.org/wiki/Content_Security_Policy>`__ headers is now leveraged by the built-in web server. It serves as a last line of defense and in case some unexpected code still makes it to the client, it will make sure that the user’s browser simply refuses to run it."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:60
-msgid "However, a use-case still exists in which even a modern web application might still need to run some additional code, provided it is vetted and included by the administrators. One example could be an external integrated chat solution, but could also be an inline code snippet used for external web analytics."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:64
-msgid "Including custom scripts can be done in the :doc:`../administration/system-configuration` with the following settings:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:66
-msgid "``ExternalFrontend::ExternalScripts``"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:67
-msgid "``ExternalFrontend::InlineScripts``"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:68
-msgid "``WebApp::Server::AdditionalOrigins``"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:72
-msgid "Web Analytics Example"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:74
-msgid "In this example, we outline the steps to include custom scripts used by a web analytics provider in the external interface application. They will be run each time the application is used in order to track and report the behavior of the user for later analysis."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:76
-msgid "We start with the provided code snippet below, from a third party provider."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:89
-msgid "First line of the snippet refers to an *external* resource which should be loaded by the ``script`` tag."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:91
-msgid "In the script block below, we have some *inline* code which is run immediately when the page is loaded."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:95
-msgid "Adding External Script Resources"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:97
-msgid "First, we need to include the external script location in the appropriate configuration:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:99
-#: ../content/external-interface/layout.rst:113
-#: ../content/external-interface/layout.rst:161
-#: ../content/external-interface/layout.rst:182
-msgid "Go to the *System Configuration* screen."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:100
-msgid "Search for the setting ``ExternalFrontend::ExternalScripts``."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:101
-#: ../content/external-interface/layout.rst:115
-#: ../content/external-interface/layout.rst:163
-#: ../content/external-interface/layout.rst:184
-msgid "Click on the setting in order to edit it."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:102
-#: ../content/external-interface/layout.rst:116
-msgid "In case a value is already present, click on the plus button. Otherwise, proceed below."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:103
-msgid "Enter the full location of the *external* resource in the text field. For example: ``https://www.example.com/track/js?id=UA-XXXXXX-Y``."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:104
-#: ../content/external-interface/layout.rst:127
-#: ../content/external-interface/layout.rst:168
-#: ../content/external-interface/layout.rst:187
-msgid "Click on the check mark in order to save the modified setting."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:105
-#: ../content/external-interface/layout.rst:128
-#: ../content/external-interface/layout.rst:169
-#: ../content/external-interface/layout.rst:188
-#: ../content/processes-automation/dynamic-fields.rst:458
-#: ../content/processes-automation/dynamic-fields.rst:479
-#: ../content/processes-automation/dynamic-fields.rst:492
-#: ../content/processes-automation/dynamic-fields.rst:516
-msgid "Deploy the modified system configuration."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:109
-msgid "Adding Inline Code Snippets"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:111
-msgid "Next, we have to also include the inline part of the original snippet:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:114
-msgid "Search for the setting ``ExternalFrontend::InlineScripts``."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:117
-msgid "Enter the full code snippet in the text area, minus any ``script`` tags. For example:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:132
-msgid "Rebuilding the External Interface Application"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:134
-msgid "In order to apply the changes, we also need to rebuild the external interface application. Drop down to shell, and execute the following command:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:142
-msgid "Whitelisting Additional Origins in the Security Headers"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:144
-msgid "If you now try to access the external interface application, you will be able to verify that the scripts are included in the code. However, your browser will probably block access to all *inline* and *external* resources, therefore the code might fail with some errors."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:146
-msgid "This behavior is by design, since external resources can only be loaded if they are specifically whitelisted in the *Content Security Policy* headers."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:148
-msgid "To check for blocked code, please use suitable web browser inspection tools. In our example, we will be using Mozilla Firefox and its web console available via *Tools → Web Developer → Web Console* menu item, or via the *F12* shortcut key."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:150
-msgid "For the example code snippet, you might receive following errors in the console when the application is accessed:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:155
-msgid "Browser Console Errors and Warnings"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:157
-msgid "From the console errors we can see that the external script resource was prevented from being loaded (lines 1 and 3). In addition to that, two evaluation calls were also blocked (lines 2 and 5). All errors reference a *Content Security Policy* rule under the name of ``script-src``, which signals script resources."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:159
-msgid "We need to add both the external resource and the evaluation calls to the additional origins list of the *Content Security Policy* headers:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:162
-#: ../content/external-interface/layout.rst:183
-msgid "Search for the setting ``WebApp::Server::AdditionalOrigins``."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:164
-msgid "In case a value for ``script-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:165
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external resource to be loaded."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:166
-msgid "Click on the plus button next to the field, so another value is added."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:167
-msgid "Enter the following directive in the new field, including the quotes: ``'unsafe-eval'``. This allows the evaluation calls to be executed."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:171
-msgid "There is no need to rebuild the external interface application at this point, as the additional origins configuration should be immediately in effect."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:173
-msgid "If you reload the external interface application, you might get some additional errors. In our example, it might be the following:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:178
-msgid "Additional Browser Console Errors and Warnings"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:180
-msgid "This error points that an additional resource that was also blocked, an image at a specific location (line 1). We can deduce this via the name of the *Content Security Policy* rule ``img-src``, which references an image resource. In order to add it to the whitelist, try the following:"
-msgstr ""
-
-#: ../content/external-interface/layout.rst:185
-msgid "In case a value for ``img-src`` is already present, click on the plus button next to it. Otherwise, proceed below."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:186
-msgid "Enter the domain part only of the blocked resource in the text field. For example: ``https://www.example.com``. This allows the external image resource to be loaded."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:190
-msgid "Try again to reload the external interface application and check if there are more errors. If not, your scripts are now probably working as expected."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:192
-msgid "Unfortunately, it is not possible to predict what kind of resources your scripts might be requiring. But, no worries, you can whitelist most of them, just make sure to follow the trail of hints shown in the browser console log. Find a corresponding header rule in the configuration and update it accordingly."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:196
-msgid "Some resources might only be requested by others, hence several iterations might be needed until everything is configured properly."
-msgstr ""
-
-#: ../content/external-interface/layout.rst:200
-msgid "Whitelisting external resources opens potential security risks in your OTOBO application! Only allow those resources that you are sure are not malicious and come from reputable sources. Keep in mind that if something is secure today, does not mean it will be tomorrow. Stay safe!"
-msgstr ""
-
 #: ../content/glossary.rst:2
 msgid "Glossary"
 msgstr ""
@@ -5245,7 +4039,7 @@ msgid "Now you can add :doc:`ticket-settings/auto-responses` and assign them to 
 msgstr ""
 
 #: ../content/introduction.rst:62
-msgid "To reduce the time needed for answering the tickets, :doc:`ticket-settings/templates` or :doc:`ticket-settings/sms-templates` can be created."
+msgid "To reduce the time needed for answering the tickets, :doc:`ticket-settings/templates` can be created."
 msgstr ""
 
 #: ../content/introduction.rst:64
@@ -5253,7 +4047,7 @@ msgid "Normal templates can contain :doc:`ticket-settings/attachments`, and you 
 msgstr ""
 
 #: ../content/introduction.rst:66
-msgid "When templates are created, you can set the templates to use in queues in the :doc:`ticket-settings/templates-queues` or :doc:`ticket-settings/sms-templates-queues` management screens."
+msgid "When templates are created, you can set the templates to use in queues in the :doc:`ticket-settings/templates-queues` management screens."
 msgstr ""
 
 #: ../content/introduction.rst:68
@@ -5288,723 +4082,729 @@ msgstr ""
 msgid "However OTOBO has many features by default, you can extend the functionality by installing packages with the :doc:`administration/package-manager`."
 msgstr ""
 
-#: ../content/introduction.rst:84
-msgid "Finally, you can set the :doc:`external-interface/home-page`, the :doc:`external-interface/custom-pages` and the :doc:`external-interface/layout` of the external interface, as well as you can define a :doc:`external-interface/customer-service-catalogue` displayed in the external interface."
-msgstr ""
-
-#: ../content/introduction.rst:88
+#: ../content/introduction.rst:86
 msgid "Become OTOBO Expert"
 msgstr ""
 
-#: ../content/introduction.rst:90
-msgid "The next chapters of this manual describe the features and configuration settings of OTOBO more detailed. There is a separated manual for `Configuration Options References <https://doc.otobo.org/doc/manual/config-reference/7.0/en/>`__, that gives you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO."
+#: ../content/introduction.rst:88
+msgid "The next chapters of this manual describe the features and configuration settings of OTOBO more detailed and give you a good overview of :doc:`administration/system-configuration`, that can be adjusted to modify the behavior of OTOBO."
 msgstr ""
 
-#: ../content/otobo-services.rst:2
-msgid "Rother OSS Services"
+#: ../content/otobo-team-services.rst:2
+msgid "OTOBO Team Services"
 msgstr ""
 
-#: ../content/otobo-services.rst:4
+#: ../content/otobo-team-services.rst:4
 msgid "A strong partner is good to have when dealing with mission-critical systems. Whether it be maintenance or for consuming cloud services, your partner should be tightly integrated."
 msgstr ""
 
-#: ../content/otobo-services.rst:6
+#: ../content/otobo-team-services.rst:6
 msgid "The following chapter describes the tools you have available to integrate your system with the powerful cloud service offered by *Rother OSS*."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:2
+#: ../content/otobo-team-services/cloud-services.rst:2
 msgid "Cloud Services"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:6
+#: ../content/otobo-team-services/cloud-services.rst:4
+#: ../content/otobo-team-services/cloud-services.rst:21
+#: ../content/otobo-team-services/cloud-services.rst:38
+msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otobo.de, we will find a solution."
+msgstr ""
+
+#: ../content/otobo-team-services/cloud-services.rst:6
 msgid "Use this screen to add cloud services to the system. A fresh OTOBO installation doesn't contain any configured cloud services by default. The cloud service management screen is available in the *Cloud Services* module of the *Rother OSS Services* group."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:11
+#: ../content/otobo-team-services/cloud-services.rst:11
 msgid "Cloud Service Management Screen"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:15
+#: ../content/otobo-team-services/cloud-services.rst:15
 msgid "Manage Cloud Services"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:19
-#: ../content/ticket-settings/sms-templates.rst:0
-#: ../content/ticket-settings/sms-templates.rst:30
+#: ../content/otobo-team-services/cloud-services.rst:19
 msgid "Activate SMS Cloud Service"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:23
+#: ../content/otobo-team-services/cloud-services.rst:23
 msgid "To be able to use SMS cloud service in OTOBO, you have to activate it first. To activate the SMS cloud service:"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:25
+#: ../content/otobo-team-services/cloud-services.rst:25
 msgid "Click on the *Activate SMS Cloud Service* button in the left sidebar."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:32
+#: ../content/otobo-team-services/cloud-services.rst:32
 msgid "Add Cloud Service Screen"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:36
+#: ../content/otobo-team-services/cloud-services.rst:36
 #: ../content/processes-automation/web-services.rst:177
 #: ../content/processes-automation/web-services.rst:306
 msgid "Configuration"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:40
+#: ../content/otobo-team-services/cloud-services.rst:40
 msgid "The following settings are available when adding an SMS cloud service. The fields marked with an asterisk are mandatory."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:43
+#: ../content/otobo-team-services/cloud-services.rst:43
 msgid "Phone field for agent \\*"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:43
+#: ../content/otobo-team-services/cloud-services.rst:43
 msgid "Agent data field from which the mobile phone number for sending messages via SMS should be taken."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:46
+#: ../content/otobo-team-services/cloud-services.rst:46
 msgid "Phone field for customer \\*"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:46
+#: ../content/otobo-team-services/cloud-services.rst:46
 msgid "Customer data field from which the mobile phone number for sending messages via SMS should be taken."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:49
+#: ../content/otobo-team-services/cloud-services.rst:49
 msgid "Sender string \\*"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:49
+#: ../content/otobo-team-services/cloud-services.rst:49
 msgid "Will be shown as sender name of the SMS (Not longer than 11 characters)."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:52
+#: ../content/otobo-team-services/cloud-services.rst:52
 msgid "Allowed role members"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:52
+#: ../content/otobo-team-services/cloud-services.rst:52
 msgid "If selected, only agents assigned to these roles will be able to receive notifications via SMS."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:55
+#: ../content/otobo-team-services/cloud-services.rst:55
 msgid "Perform URL shortening"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:55
+#: ../content/otobo-team-services/cloud-services.rst:55
 msgid "Perform URL shortening before sending the message."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:58
+#: ../content/otobo-team-services/cloud-services.rst:58
 msgid "Phone black list"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:58
+#: ../content/otobo-team-services/cloud-services.rst:58
 msgid "A blacklist of telephone numbers where it is forbidden to send SMS messages to. Phone numbers must be added in international format without spaces, e.g. +491791234567, one number per field."
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:66
+#: ../content/otobo-team-services/cloud-services.rst:64
+#: ../content/processes-automation/generic-agent.rst:86
+#: ../content/processes-automation/web-services.rst:151
+msgid "Validity"
+msgstr ""
+
+#: ../content/otobo-team-services/cloud-services.rst:66
 msgid "Data Protection Information"
 msgstr ""
 
-#: ../content/otobo-services/cloud-services.rst:67
+#: ../content/otobo-team-services/cloud-services.rst:67
 msgid "In order to be able to use the SMS transmission feature of the Rother OSS GmbH, the Data Protection Information needs to be read and understood."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:2
+#: ../content/otobo-team-services/support-data-collector.rst:2
 msgid "Support Data Collector"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:4
+#: ../content/otobo-team-services/support-data-collector.rst:4
 msgid "Support data collector is used to collect some data and sent to Rother OSS on a regular basis."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:6
+#: ../content/otobo-team-services/support-data-collector.rst:6
 msgid "Use this screen to review the data to be sent to Rother OSS."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:11
+#: ../content/otobo-team-services/support-data-collector.rst:11
 msgid "Download Support Bundle Screen"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:15
+#: ../content/otobo-team-services/support-data-collector.rst:15
 msgid "Manage Support Data Collector"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:17
+#: ../content/otobo-team-services/support-data-collector.rst:17
 msgid "Support data collector is used to collect some data and sent to Rother OSS on a regular basis, if the system is registered. To register your system:"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:19
+#: ../content/otobo-team-services/support-data-collector.rst:19
 msgid "Click on the *System Registration* button in the left sidebar."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:20
+#: ../content/otobo-team-services/support-data-collector.rst:20
 msgid "Follow the registration instructions."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:22
+#: ../content/otobo-team-services/support-data-collector.rst:22
 msgid "To show what kind of data will be sent:"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:24
+#: ../content/otobo-team-services/support-data-collector.rst:24
 msgid "Click on the *Show transmitted data* button in the left sidebar."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:25
+#: ../content/otobo-team-services/support-data-collector.rst:25
 msgid "Review the *System Registration Data* and *Support Data* in the newly opened screen."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:27
+#: ../content/otobo-team-services/support-data-collector.rst:27
 msgid "To manually trigger the support data sending:"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:29
+#: ../content/otobo-team-services/support-data-collector.rst:29
 msgid "Click on the *Send Update* button in the left sidebar."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:31
+#: ../content/otobo-team-services/support-data-collector.rst:31
 msgid "To generate a support bundle:"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:33
+#: ../content/otobo-team-services/support-data-collector.rst:33
 msgid "Click on the *Generate Support Bundle* button in the left sidebar."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:34
+#: ../content/otobo-team-services/support-data-collector.rst:34
 msgid "Download the generated support bundle."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:35
+#: ../content/otobo-team-services/support-data-collector.rst:35
 msgid "Open it with an archive manager and review the content."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:40
+#: ../content/otobo-team-services/support-data-collector.rst:40
 msgid "Download Support Bundle Dialog"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:44
+#: ../content/otobo-team-services/support-data-collector.rst:44
 msgid "Collected Data"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:46
+#: ../content/otobo-team-services/support-data-collector.rst:46
 msgid "The screen contains several sections. Each section has some entries with a traffic light, that indicates the following:"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:48
+#: ../content/otobo-team-services/support-data-collector.rst:48
 msgid "Gray LED means information, just displays a value."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:49
+#: ../content/otobo-team-services/support-data-collector.rst:49
 msgid "Green LED means OK, the entry has a good value."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:50
+#: ../content/otobo-team-services/support-data-collector.rst:50
 msgid "Yellow LED means notification, you have to check the value, but it is not an error."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:51
+#: ../content/otobo-team-services/support-data-collector.rst:51
 msgid "Red LED means error, you have to do something to solve the issue."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:55
+#: ../content/otobo-team-services/support-data-collector.rst:55
 msgid "Cloud Services Section"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:57
+#: ../content/otobo-team-services/support-data-collector.rst:57
 msgid "This section displays information about OTOBO cloud services."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:61
+#: ../content/otobo-team-services/support-data-collector.rst:61
 msgid "Available SMS"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:60
+#: ../content/otobo-team-services/support-data-collector.rst:60
 msgid "This entry shows information about your available SMS messages. If they are getting low, the LED changes to red."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:64
+#: ../content/otobo-team-services/support-data-collector.rst:64
 msgid "Database Section"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:66
+#: ../content/otobo-team-services/support-data-collector.rst:66
 msgid "This section displays information about the database used by OTOBO."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:69
+#: ../content/otobo-team-services/support-data-collector.rst:69
 msgid "Outdated Tables"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:69
+#: ../content/otobo-team-services/support-data-collector.rst:69
 msgid "Display the outdated database tables. Green LED means, there are no outdated tables."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:72
+#: ../content/otobo-team-services/support-data-collector.rst:72
 msgid "Table Presence"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:72
+#: ../content/otobo-team-services/support-data-collector.rst:72
 msgid "Display whether all needed tables exist in the database or not."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:75
+#: ../content/otobo-team-services/support-data-collector.rst:75
 msgid "Client Connection Charset"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:75
+#: ../content/otobo-team-services/support-data-collector.rst:75
 msgid "Display the character set for the client connection. It must be ``utf8``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:78
+#: ../content/otobo-team-services/support-data-collector.rst:78
 msgid "Server Database Charset"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:78
+#: ../content/otobo-team-services/support-data-collector.rst:78
 msgid "Display the character set of the database server. It must be ``utf8``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:81
+#: ../content/otobo-team-services/support-data-collector.rst:81
 msgid "Table Charset"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:81
+#: ../content/otobo-team-services/support-data-collector.rst:81
 msgid "Display the character set of the database table. It must be ``utf8``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:84
+#: ../content/otobo-team-services/support-data-collector.rst:84
 msgid "InnoDB Log File Size"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:84
+#: ../content/otobo-team-services/support-data-collector.rst:84
 msgid "Display the log file size for InnoDB driver. It must be at least ``512 MB``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:87
+#: ../content/otobo-team-services/support-data-collector.rst:87
 msgid "Invalid Default Values"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:87
+#: ../content/otobo-team-services/support-data-collector.rst:87
 msgid "Display the invalid default values. Green LED means, there are no invalid default values."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:90
+#: ../content/otobo-team-services/support-data-collector.rst:90
 msgid "Maximum Query Size"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:90
+#: ../content/otobo-team-services/support-data-collector.rst:90
 msgid "Display the maximum size of a database query. It must be at least ``1024 MB``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:93
+#: ../content/otobo-team-services/support-data-collector.rst:93
 msgid "Database Size"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:93
+#: ../content/otobo-team-services/support-data-collector.rst:93
 msgid "Display the size of database. This is just an information."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:96
+#: ../content/otobo-team-services/support-data-collector.rst:96
 msgid "Default Storage Engine"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:96
+#: ../content/otobo-team-services/support-data-collector.rst:96
 msgid "Display the default storage engine of the database. It must be ``InnoDB``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:99
+#: ../content/otobo-team-services/support-data-collector.rst:99
 msgid "Table Storage Engine"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:99
+#: ../content/otobo-team-services/support-data-collector.rst:99
 msgid "Display the storage engine of the database tables. It must be ``InnoDB``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:103
+#: ../content/otobo-team-services/support-data-collector.rst:103
 msgid "Database Version"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:102
+#: ../content/otobo-team-services/support-data-collector.rst:102
 msgid "Display the database driver version. Green LED means, the version is high enough."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:106
+#: ../content/otobo-team-services/support-data-collector.rst:106
 msgid "Document Search Section"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:108
+#: ../content/otobo-team-services/support-data-collector.rst:108
 msgid "This section displays information about document search and the used cluster."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:111
+#: ../content/otobo-team-services/support-data-collector.rst:111
 msgid "Cluster"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:111
+#: ../content/otobo-team-services/support-data-collector.rst:111
 msgid "The name of the used cluster."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:114
+#: ../content/otobo-team-services/support-data-collector.rst:114
 msgid "Cluster Health Details"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:114
+#: ../content/otobo-team-services/support-data-collector.rst:114
 msgid "Display some internal variables of the used cluster."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:117
+#: ../content/otobo-team-services/support-data-collector.rst:117
 msgid "Indices Health"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:117
+#: ../content/otobo-team-services/support-data-collector.rst:117
 msgid "Display information about indices."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:120
+#: ../content/otobo-team-services/support-data-collector.rst:120
 msgid "Indices Size"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:120
+#: ../content/otobo-team-services/support-data-collector.rst:120
 msgid "Display the size of each index."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:124
+#: ../content/otobo-team-services/support-data-collector.rst:124
 msgid "Node Health"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:123
+#: ../content/otobo-team-services/support-data-collector.rst:123
 msgid "Display information about the used node."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:127
+#: ../content/otobo-team-services/support-data-collector.rst:127
 msgid "Operating System Section"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:129
+#: ../content/otobo-team-services/support-data-collector.rst:129
 msgid "This section displays information about the running operating system and installed software components."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:132
+#: ../content/otobo-team-services/support-data-collector.rst:132
 msgid "Environment Dependencies"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:132
+#: ../content/otobo-team-services/support-data-collector.rst:132
 msgid "Display information about environment dependencies."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:135
+#: ../content/otobo-team-services/support-data-collector.rst:135
 msgid "OTOBO Disk Partition"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:135
+#: ../content/otobo-team-services/support-data-collector.rst:135
 msgid "Display the disk partition to where OTOBO is installed."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:138
+#: ../content/otobo-team-services/support-data-collector.rst:138
 msgid "Information Disk Partitions Usage"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:138
+#: ../content/otobo-team-services/support-data-collector.rst:138
 msgid "Display the used space per disk partitions."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:141
+#: ../content/otobo-team-services/support-data-collector.rst:141
 msgid "Distribution"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:141
+#: ../content/otobo-team-services/support-data-collector.rst:141
 msgid "Display the distribution name of the operating system."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:144
+#: ../content/otobo-team-services/support-data-collector.rst:144
 msgid "Kernel Version"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:144
+#: ../content/otobo-team-services/support-data-collector.rst:144
 msgid "Display the kernel version of the operating system."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:147
+#: ../content/otobo-team-services/support-data-collector.rst:147
 msgid "System Load"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:147
+#: ../content/otobo-team-services/support-data-collector.rst:147
 msgid "Display the system load of the operating system. The system load should be at maximum the number of CPUs the system has (e.g. a load of 8 or less on a system with 8 CPUs is OK)."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:150
+#: ../content/otobo-team-services/support-data-collector.rst:150
 msgid "Perl Version"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:150
+#: ../content/otobo-team-services/support-data-collector.rst:150
 msgid "Display the version of Perl."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:153
+#: ../content/otobo-team-services/support-data-collector.rst:153
 msgid "Free Swap Space (%)"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:153
+#: ../content/otobo-team-services/support-data-collector.rst:153
 msgid "Display the free swap space as percentages. There should be more than 60% free swap space."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:157
+#: ../content/otobo-team-services/support-data-collector.rst:157
 msgid "Used Swap Space (MB)"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:156
+#: ../content/otobo-team-services/support-data-collector.rst:156
 msgid "Display the used swap space in megabytes. There should be no more than 200 MB swap space used."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:160
+#: ../content/otobo-team-services/support-data-collector.rst:160
 msgid "OTOBO Section"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:162
+#: ../content/otobo-team-services/support-data-collector.rst:162
 msgid "This section displays information about the OTOBO instance."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:165
+#: ../content/otobo-team-services/support-data-collector.rst:165
 msgid "Article Search Index Status"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:165
+#: ../content/otobo-team-services/support-data-collector.rst:165
 msgid "Display information about indexed articles."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:168
+#: ../content/otobo-team-services/support-data-collector.rst:168
 msgid "Articles Per Communication Channel"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:168
+#: ../content/otobo-team-services/support-data-collector.rst:168
 msgid "Display the number of articles per communication channels."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:171
+#: ../content/otobo-team-services/support-data-collector.rst:171
 msgid "Display aggregated information about communications."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:174
+#: ../content/otobo-team-services/support-data-collector.rst:174
 msgid "Communication Log Account Status (last 24 hours)"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:174
+#: ../content/otobo-team-services/support-data-collector.rst:174
 msgid "Display information about communication log account status in the last 24 hours."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:177
+#: ../content/otobo-team-services/support-data-collector.rst:177
 msgid "Concurrent Users Details"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:177
+#: ../content/otobo-team-services/support-data-collector.rst:177
 msgid "Display information about the logged in users at the same time separated by hourly."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:180
+#: ../content/otobo-team-services/support-data-collector.rst:180
 msgid "Concurrent Users"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:180
+#: ../content/otobo-team-services/support-data-collector.rst:180
 msgid "Display information about the number of maximum logged in users in the same time."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:183
+#: ../content/otobo-team-services/support-data-collector.rst:183
 msgid "Config Settings"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:183
+#: ../content/otobo-team-services/support-data-collector.rst:183
 msgid "Display some important configuration settings from system configurations."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:186
+#: ../content/otobo-team-services/support-data-collector.rst:186
 msgid "Daemon"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:186
+#: ../content/otobo-team-services/support-data-collector.rst:186
 msgid "Display whether the OTOBO daemon is running or not."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:189
+#: ../content/otobo-team-services/support-data-collector.rst:189
 msgid "Database Records"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:189
+#: ../content/otobo-team-services/support-data-collector.rst:189
 msgid "Display the main OTOBO object and the related number of records in the database."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:192
+#: ../content/otobo-team-services/support-data-collector.rst:192
 msgid "Default Admin Password"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:192
+#: ../content/otobo-team-services/support-data-collector.rst:192
 msgid "Green LED means, that the default administrator password was changed."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:195
+#: ../content/otobo-team-services/support-data-collector.rst:195
 msgid "Email Sending Queue"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:195
+#: ../content/otobo-team-services/support-data-collector.rst:195
 msgid "Display the number of emails that are queued for sending."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:198
+#: ../content/otobo-team-services/support-data-collector.rst:198
 msgid "Domain Name"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:198
+#: ../content/otobo-team-services/support-data-collector.rst:198
 msgid "Display the fully qualified domain name set in system configuration setting ``FQDN``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:201
+#: ../content/otobo-team-services/support-data-collector.rst:201
 msgid "File System Writable"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:201
+#: ../content/otobo-team-services/support-data-collector.rst:201
 msgid "Display whether the file system is writable or not."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:204
+#: ../content/otobo-team-services/support-data-collector.rst:204
 msgid "Legacy Configuration Backups"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:204
+#: ../content/otobo-team-services/support-data-collector.rst:204
 msgid "Green LED means, there are no legacy configuration backup files found."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:207
+#: ../content/otobo-team-services/support-data-collector.rst:207
 msgid "Package Installation Status"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:207
+#: ../content/otobo-team-services/support-data-collector.rst:207
 msgid "Green LED means, that all packages are installed correctly."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:210
+#: ../content/otobo-team-services/support-data-collector.rst:210
 msgid "Package Framework Version Status"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:210
+#: ../content/otobo-team-services/support-data-collector.rst:210
 msgid "Green LED means, that the OTOBO framework version is suitable for the installed packages."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:213
+#: ../content/otobo-team-services/support-data-collector.rst:213
 msgid "Package Verification Status"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:213
+#: ../content/otobo-team-services/support-data-collector.rst:213
 msgid "Green LED means, that all installed packages are verified by the Rother OSS."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:216
+#: ../content/otobo-team-services/support-data-collector.rst:216
 msgid "Session Config Settings"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:216
+#: ../content/otobo-team-services/support-data-collector.rst:216
 msgid "Display the maximum allowed sessions per agents and customers."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:219
+#: ../content/otobo-team-services/support-data-collector.rst:219
 msgid "Spooled Emails"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:219
+#: ../content/otobo-team-services/support-data-collector.rst:219
 msgid "Display the number of emails that are in the sending pool."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:222
+#: ../content/otobo-team-services/support-data-collector.rst:222
 msgid "SystemID"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:222
+#: ../content/otobo-team-services/support-data-collector.rst:222
 msgid "Display the system identifier set in system configuration setting ``SystemID``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:225
+#: ../content/otobo-team-services/support-data-collector.rst:225
 msgid "Ticket Index Module"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:225
+#: ../content/otobo-team-services/support-data-collector.rst:225
 msgid "Display the ticket index module set in system configuration setting ``Ticket::IndexModule``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:228
+#: ../content/otobo-team-services/support-data-collector.rst:228
 msgid "Invalid Users with Locked Tickets"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:228
+#: ../content/otobo-team-services/support-data-collector.rst:228
 msgid "Display the number of users, who are set to invalid, but have some ticket locked for him."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:231
+#: ../content/otobo-team-services/support-data-collector.rst:231
 msgid "Open Tickets"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:231
+#: ../content/otobo-team-services/support-data-collector.rst:231
 msgid "Display the number of open tickets in the system. You will not have performance trouble until you have about 60,000 open tickets in your system."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:234
+#: ../content/otobo-team-services/support-data-collector.rst:234
 msgid "Ticket Search Index Module"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:234
+#: ../content/otobo-team-services/support-data-collector.rst:234
 msgid "Display the ticket search index module set in system configuration setting ``Ticket::SearchIndex::ForceUnfilteredStorage``."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:237
+#: ../content/otobo-team-services/support-data-collector.rst:237
 msgid "Orphaned Records In ticket_index Table"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:237
+#: ../content/otobo-team-services/support-data-collector.rst:237
 msgid "Display the number of orphaned records in ``ticket_index`` table."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:240
+#: ../content/otobo-team-services/support-data-collector.rst:240
 msgid "Orphaned Records In ticket_lock_index Table"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:240
+#: ../content/otobo-team-services/support-data-collector.rst:240
 msgid "Display the number of orphaned records in ``ticket_lock_index`` table."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:243
+#: ../content/otobo-team-services/support-data-collector.rst:243
 msgid "Time Settings"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:243
+#: ../content/otobo-team-services/support-data-collector.rst:243
 msgid "Display timezone information for OTOBO, for the calendars and for users."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:246
+#: ../content/otobo-team-services/support-data-collector.rst:246
 msgid "UI - Agent Skin Usage"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:246
+#: ../content/otobo-team-services/support-data-collector.rst:246
 msgid "Display the used skins per agents."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:249
+#: ../content/otobo-team-services/support-data-collector.rst:249
 msgid "UI - Agent Theme Usage"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:249
+#: ../content/otobo-team-services/support-data-collector.rst:249
 msgid "Display the used theme on the agent interface."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:252
+#: ../content/otobo-team-services/support-data-collector.rst:252
 msgid "UI - Special Statistics"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:252
+#: ../content/otobo-team-services/support-data-collector.rst:252
 msgid "Display some statistics about personal modifications like using favorites, custom menu ordering, etc."
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:254
+#: ../content/otobo-team-services/support-data-collector.rst:254
 msgid "OTOBO Version"
 msgstr ""
 
-#: ../content/otobo-services/support-data-collector.rst:255
+#: ../content/otobo-team-services/support-data-collector.rst:255
 msgid "Display the version number of OTOBO."
 msgstr ""
 
@@ -7066,6 +5866,13 @@ msgstr ""
 msgid "Click on the tick button on the right to save the setting."
 msgstr ""
 
+#: ../content/processes-automation/dynamic-fields.rst:458
+#: ../content/processes-automation/dynamic-fields.rst:479
+#: ../content/processes-automation/dynamic-fields.rst:492
+#: ../content/processes-automation/dynamic-fields.rst:516
+msgid "Deploy the modified system configuration."
+msgstr ""
+
 #: ../content/processes-automation/dynamic-fields.rst:463
 msgid "Display Dynamic Fields on Screen"
 msgstr ""
@@ -7242,6 +6049,10 @@ msgstr ""
 
 #: ../content/processes-automation/generic-agent.rst:52
 msgid "To delete a generic agent job:"
+msgstr ""
+
+#: ../content/processes-automation/generic-agent.rst:54
+msgid "Click on the trash icon in the fourth column of the overview table."
 msgstr ""
 
 #: ../content/processes-automation/generic-agent.rst:60
@@ -7719,6 +6530,11 @@ msgstr ""
 #: ../content/processes-automation/process-management.rst:134
 #: ../content/processes-automation/process-management.rst:170
 msgid "Agent and External Interface"
+msgstr ""
+
+#: ../content/processes-automation/process-management.rst:135
+#: ../content/processes-automation/process-management.rst:171
+msgid "External Interface"
 msgstr ""
 
 #: ../content/processes-automation/process-management.rst:138
@@ -9353,7 +8169,6 @@ msgid "Response"
 msgstr ""
 
 #: ../content/ticket-settings/auto-responses.rst:68
-#: ../content/ticket-settings/sms-templates.rst:90
 msgid "The body of the email sent to the users."
 msgstr ""
 
@@ -9632,6 +8447,10 @@ msgid "It is possible to add the new queue under an existing one as sub-queue. T
 msgstr ""
 
 #: ../content/ticket-settings/queues.rst:82
+msgid "Group \\*"
+msgstr ""
+
+#: ../content/ticket-settings/queues.rst:82
 msgid "It is possible to limit access to the selected group. The group creates a permission link between the queue and an agent or a customer user."
 msgstr ""
 
@@ -9829,7 +8648,6 @@ msgid "To assign an automatic response to a queue:"
 msgstr ""
 
 #: ../content/ticket-settings/queues-auto-responses.rst:21
-#: ../content/ticket-settings/sms-templates-queues.rst:34
 #: ../content/ticket-settings/templates-queues.rst:32
 msgid "Click on a queue in the *Queues* column."
 msgstr ""
@@ -10202,206 +9020,6 @@ msgstr ""
 msgid "For example, the variable ``<OTOBO_CURRENT_UserFirstname> <OTOBO_CURRENT_UserLastname>`` expands to the agent's first and last name allowing a template to include something like the following."
 msgstr ""
 
-#: ../content/ticket-settings/sms-templates.rst:2
-msgid "SMS Templates"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:4
-msgid "Rother OSS TODO: This feature will be included in one of the next OTOBO releases. If you need it beforehand, please contact sales@otrs.ch, we will find a solution."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:6
-msgid "An on-call duty should be alarmed about incidents on an email servers, therefore cannot get an email from OTOBO. Additionally, in the case where customers have no internet access, it's imperative to ensure good contact."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:8
-msgid "OTOBO provides SMS as a cloud service and allows, as with email, management of this communication via templates."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:10
-msgid "An SMS template is a default text which helps your agents to write faster tickets or answers."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:12
-msgid "Use this screen to add SMS templates for use in communications. A fresh OTOBO installation doesn't contain any SMS templates by default. The SMS template management screen is available in the *SMS Templates* module of the *Ticket Settings* group."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:17
-msgid "SMS Template Management Screen"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:21
-msgid "Manage SMS Templates"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:25
-msgid "To be able to use SMS cloud service in OTOBO, you have to activate it first in :doc:`../otobo-services/cloud-services` module."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:32
-msgid "To add an SMS template:"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:34
-msgid "Click on the *Add SMS Template* button in the left sidebar."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:41
-msgid "Add SMS Template Screen"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:43
-msgid "To edit an SMS template:"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:45
-msgid "Click on an SMS template in the list of SMS templates."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:52
-msgid "Edit SMS Template Screen"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:54
-msgid "To delete an SMS template:"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:56
-msgid "Click on the trash icon in the list of SMS templates."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:62
-msgid "Delete SMS Template Screen"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:66
-msgid "If several SMS templates are added to the system, a filter box is useful to find a particular SMS template by just typing to filter."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:70
-msgid "SMS Template Settings"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:75
-msgid "There are different kind of SMS templates that are used for different purposes. A template can be:"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:78
-#: ../content/ticket-settings/templates.rst:69
-msgid "Answer"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:78
-msgid "To be used as a ticket response with *Reply via SMS* in the article menu of the ticket screen."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:81
-#: ../content/ticket-settings/templates.rst:72
-msgid "Create"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:81
-msgid "To be used for a new SMS ticket."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:84
-msgid "SMSOutbound"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:84
-msgid "To be used for sending a new SMS to a customer user from within the ticket menu of the ticket screen."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:90
-#: ../content/ticket-settings/templates.rst:93
-msgid "Template"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:93
-msgid "The maximum length of text message that you can send is 918 characters. However, if you send more than 160 characters then your message will be broken down in to chunks of 153 characters before being sent to the recipient's handset. We recommend keeping the messages to less than 160 characters."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:96
-msgid "Flash message"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:96
-msgid "Show message directly without user interaction and do not store it automatically (support may vary by device and provider)."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:106
-#: ../content/ticket-settings/sms-templates.rst:113
-msgid "SMS Template Variables"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates.rst:115
-msgid "For example, the variable ``<OTOBO_TICKET_TicketNumber>`` expands to the ticket number allowing an SMS template to include something like the following."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:2
-msgid "SMS Templates ↔ Queues"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:6
-msgid "Communicating a change to a template, or distribution of a new communication requirement, can be tedious and error-ridden because it requires that all teams pull the information and publish it appropriately."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:8
-msgid "OTOBO gives you the power to quickly assign the appropriate SMS templates to any queue, containing pertinent ticket information, ensuring this information reaches your customers and agents."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:10
-msgid "Use this screen to add one or more SMS templates to one or more queues. The management screen is available in the *SMS Templates ↔ Queues* module of the *Ticket Settings* group."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:15
-msgid "Manage SMS Template-Queue Relations"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:19
-msgid "Manage SMS Templates ↔ Queues Relations"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:21
-msgid "To assign an SMS template to one or more queues:"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:23
-msgid "Click on an SMS template in the *SMS Templates* column."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:24
-msgid "Select the queues you would like to add the SMS template to."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:30
-msgid "Change Queue Relations for SMS Template"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:32
-msgid "To assign a queue to one or more SMS templates:"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:35
-msgid "Select the SMS templates you would like to add the queue to."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:41
-msgid "Change SMS Template Relations for Queue"
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:45
-msgid "If several SMS templates or queues are added to the system, use the filter box to find a particular SMS template or queue by just typing the name to filter."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:47
-msgid "Multiple SMS templates or queues can be assigned in both screens at the same time. Additionally clicking on an SMS template or clicking on a queue in the relations screen will open the *Edit SMS Template* screen or the *Edit Queue* screen accordingly."
-msgstr ""
-
-#: ../content/ticket-settings/sms-templates-queues.rst:51
-msgid "Accessing a queue or an SMS template provides no back link to the relations screen."
-msgstr ""
-
 #: ../content/ticket-settings/states.rst:2
 msgid "States"
 msgstr ""
@@ -10672,7 +9290,15 @@ msgid "There are different kind of templates that are used for different purpose
 msgstr ""
 
 #: ../content/ticket-settings/templates.rst:69
+msgid "Answer"
+msgstr ""
+
+#: ../content/ticket-settings/templates.rst:69
 msgid "To be used as a ticket response or reply."
+msgstr ""
+
+#: ../content/ticket-settings/templates.rst:72
+msgid "Create"
 msgstr ""
 
 #: ../content/ticket-settings/templates.rst:72
@@ -10717,6 +9343,10 @@ msgstr ""
 
 #: ../content/ticket-settings/templates.rst:87
 msgid "To be used in process management to pre-fill text of articles in user task activity dialogs."
+msgstr ""
+
+#: ../content/ticket-settings/templates.rst:93
+msgid "Template"
 msgstr ""
 
 #: ../content/ticket-settings/templates.rst:93
@@ -11743,6 +10373,11 @@ msgstr ""
 
 #: ../content/users-groups-roles/customer-users.rst:123
 msgid "The country of the customer user."
+msgstr ""
+
+#: ../content/users-groups-roles/customer-users.rst:129
+#: ../content/users-groups-roles/customers.rst:84
+msgid "Valid \\*"
 msgstr ""
 
 #: ../content/users-groups-roles/customer-users.rst:133
