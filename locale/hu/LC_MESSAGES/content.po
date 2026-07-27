@@ -8,20 +8,7 @@
 # Balázs Úr, 2014-2018
 # Martin Gruner <martin.gruner@otrs.com>, 2016-2018
 msgid ""
-msgstr ""
-"Project-Id-Version: OTRS\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 15:45+0000\n"
-"PO-Revision-Date: 2026-07-16 14:14+0000\n"
-"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
-"Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\n"
-"Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-07-27 15:45+0000\nPO-Revision-Date: 2026-07-27 15:48+0000\nLast-Translator: Balázs Úr <balazs@urbalazs.hu>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -6750,7 +6737,7 @@ msgstr "Típus"
 
 #: ../content/administration-area/processes-automation/process-management.rst:142
 msgid "There are several possibilities to validate whether this transition is valid."
-msgstr ""
+msgstr "Számos lehetőség van annak ellenőrzésére, hogy ez az átmenet érvényes-e."
 
 #: ../content/administration-area/processes-automation/process-management.rst:147
 msgid "``Exact match - all``"
@@ -6840,7 +6827,7 @@ msgstr "Érték"
 
 #: ../content/administration-area/processes-automation/process-management.rst:194
 msgid "Value must always contain a string or a regular expression used for comparison."
-msgstr ""
+msgstr "Az értéknek mindig tartalmaznia kell az összehasonlításhoz használt karakterláncot vagy reguláris kifejezést."
 
 #: ../content/administration-area/processes-automation/process-management.rst:199
 msgid "Example"
