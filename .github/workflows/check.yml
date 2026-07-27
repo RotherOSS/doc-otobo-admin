@@ -1,11 +1,11 @@
-name: PR Check
+name: Check
 
 on:
+  workflow_dispatch:
+  pull_request:
   push:
     branches:
-      - "ref-*"
-  pull_request:
-  workflow_dispatch:
+      - 'rel-**'
 
 jobs:
   check:
@@ -26,5 +26,6 @@ jobs:
         with:
           path: .venv
           key: ${{ steps.cache-venv-restore.outputs.cache-primary-key }}
+
 
       - run: make check
