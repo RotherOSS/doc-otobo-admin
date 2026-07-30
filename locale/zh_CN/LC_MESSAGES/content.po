@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 15:45+0000\n"
+"POT-Creation-Date: 2026-07-30 10:32+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\n"
@@ -6467,7 +6467,7 @@ msgstr "事件触发器"
 msgid "This is a list of already added events. If no events are added yet, the list contains no elements. Elements can be deleted by clicking on the trash icon in the last column."
 msgstr "这是已添加的事件列表。 如果尚未添加任何事件，则列表不包含任何元素。 单击最后一列中的垃圾桶图标可以删除元素。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:155
+#: ../content/administration-area/processes-automation/generic-agent.rst:154
 msgid "Add Event Trigger"
 msgstr "添加事件触发器"
 
@@ -6476,116 +6476,120 @@ msgid "Select an object and a related event that will trigger the job."
 msgstr "选择将触发任务的对象和相关事件。"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:158
+msgid "If multiple Generic Agents are triggered by the same event, they will be executed in the lexicographical order, i.e. `1-Agent` before `A-Agent`."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/generic-agent.rst:162
 msgid "Select Tickets"
 msgstr "选择工单"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:160
+#: ../content/administration-area/processes-automation/generic-agent.rst:164
 msgid "This section contains all the attributes, that you can use to select the affected tickets."
 msgstr "此部分包含可用于选择受影响的工单的所有属性。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:162
-#: ../content/administration-area/processes-automation/generic-agent.rst:170
+#: ../content/administration-area/processes-automation/generic-agent.rst:166
+#: ../content/administration-area/processes-automation/generic-agent.rst:174
 msgid "Fields are self-explained, so there is no additional explanation here."
 msgstr "字段是自我解释的，所以这里没有附加的解释。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:166
+#: ../content/administration-area/processes-automation/generic-agent.rst:170
 msgid "Update/Add Ticket Attributes"
 msgstr "更新/添加工单属性"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:168
+#: ../content/administration-area/processes-automation/generic-agent.rst:172
 msgid "Fill in this section to update and/or add ticket attributes."
 msgstr "填写此部分以更新和/或添加工单属性。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:174
+#: ../content/administration-area/processes-automation/generic-agent.rst:178
 msgid "Add Note"
 msgstr "添加备注"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:176
+#: ../content/administration-area/processes-automation/generic-agent.rst:180
 msgid "Fill in this section to add a note to tickets that are affected by job execution."
 msgstr "填写此部分以向受任务执行影响的工单添加注释。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:181
+#: ../content/administration-area/processes-automation/generic-agent.rst:185
 msgid "Job Settings - Add Note"
 msgstr "任务设置 - 添加备注"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:185
+#: ../content/administration-area/processes-automation/generic-agent.rst:189
 msgid "Execute Ticket Commands"
 msgstr "执行工单指令"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:187
+#: ../content/administration-area/processes-automation/generic-agent.rst:191
 msgid "Fill in this section, if you would like to make execute a custom command with the job."
 msgstr "如果您想使用该任务执行自定义命令，请填写此部分。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:192
+#: ../content/administration-area/processes-automation/generic-agent.rst:196
 msgid "Job Settings - Execute Ticket Commands"
 msgstr "任务设置 - 执行工单指令"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:195
+#: ../content/administration-area/processes-automation/generic-agent.rst:199
 msgid "Send agent/customer notifications on changes"
 msgstr "给服务人员/客户发送通知"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:195
+#: ../content/administration-area/processes-automation/generic-agent.rst:199
 msgid "If *Yes* is selected, a notification will be sent to agents and customers about ticket changes."
 msgstr "如果选择了 *Yes/是*，则会向服务人员和客户发送有关工单更改的通知。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:204
+#: ../content/administration-area/processes-automation/generic-agent.rst:208
 msgid "CMD"
 msgstr "命令"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:198
+#: ../content/administration-area/processes-automation/generic-agent.rst:202
 msgid "Enter a command here, that will be executed. ARG[0] will be the ticket number. ARG[1] the ticket ID."
 msgstr "在此处输入将执行的命令。 ARG[0]将是工单编号。 ARG[1]是工单ID。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:204
-#: ../content/administration-area/processes-automation/generic-agent.rst:229
+#: ../content/administration-area/processes-automation/generic-agent.rst:208
+#: ../content/administration-area/processes-automation/generic-agent.rst:233
 msgid "Use ``::`` as directory separator, if the value contains a path."
 msgstr "如果值包含路径，请使用 ``::`` 作为目录分隔符。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:212
+#: ../content/administration-area/processes-automation/generic-agent.rst:216
 msgid "Delete tickets"
 msgstr "删除工单"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:207
+#: ../content/administration-area/processes-automation/generic-agent.rst:211
 msgid "If *Yes* is selected, the generic agent job will delete the matched tickets."
 msgstr "如果选择了 *Yes/是*，则自动任务将删除匹配的工单。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:211
+#: ../content/administration-area/processes-automation/generic-agent.rst:215
 msgid "All affected tickets will be removed from the database and cannot be restored!"
 msgstr "所有受影响的工单将从数据库中删除，无法恢复！"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:215
+#: ../content/administration-area/processes-automation/generic-agent.rst:219
 msgid "Execute Custom Module"
 msgstr "执行定制模块"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:217
+#: ../content/administration-area/processes-automation/generic-agent.rst:221
 msgid "Fill in this section, if you would like to make execute a custom module with the job."
 msgstr "如果您想在该任务执行自定义模块，请填写此部分。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:222
+#: ../content/administration-area/processes-automation/generic-agent.rst:226
 msgid "Job Settings - Execute Custom Module"
 msgstr "任务设置 - 执行自定义模块"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:229
+#: ../content/administration-area/processes-automation/generic-agent.rst:233
 msgid "Module"
 msgstr "模块"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:225
+#: ../content/administration-area/processes-automation/generic-agent.rst:229
 msgid "This is the path for the module to be executed."
 msgstr "这是模块执行的路径。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:232
+#: ../content/administration-area/processes-automation/generic-agent.rst:236
 msgid "Param key"
 msgstr "参数 键"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:232
+#: ../content/administration-area/processes-automation/generic-agent.rst:236
 msgid "Enter the key of the parameter, that should be passed to the module."
 msgstr "输入应传递给模块的参数的键。"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:234
+#: ../content/administration-area/processes-automation/generic-agent.rst:238
 msgid "Param value"
 msgstr "参数 值"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:235
+#: ../content/administration-area/processes-automation/generic-agent.rst:239
 msgid "Enter the value of the parameter, that should be passed to the module."
 msgstr "输入应传递给模块的参数的值。"
 

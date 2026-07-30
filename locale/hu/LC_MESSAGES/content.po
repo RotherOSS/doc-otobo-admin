@@ -8,7 +8,20 @@
 # Balázs Úr, 2014-2018
 # Martin Gruner <martin.gruner@otrs.com>, 2016-2018
 msgid ""
-msgstr "Project-Id-Version: OTRS\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-07-27 15:45+0000\nPO-Revision-Date: 2026-07-27 15:48+0000\nLast-Translator: Balázs Úr <balazs@urbalazs.hu>\nLanguage-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\nLanguage: hu\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.16\nGenerated-By: Babel 2.4.0\n"
+msgstr ""
+"Project-Id-Version: OTRS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-30 10:32+0000\n"
+"PO-Revision-Date: 2026-07-27 15:48+0000\n"
+"Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
+"Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16\n"
+"Generated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -6392,7 +6405,7 @@ msgstr "Eseményaktiválók"
 msgid "This is a list of already added events. If no events are added yet, the list contains no elements. Elements can be deleted by clicking on the trash icon in the last column."
 msgstr "Ez a már hozzáadott események listája. Ha még nem lett esemény hozzáadva, akkor a lista nem tartalmaz elemeket. Az elemek az utolsó oszlopban lévő kuka ikonra kattintva törölhetők."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:155
+#: ../content/administration-area/processes-automation/generic-agent.rst:154
 msgid "Add Event Trigger"
 msgstr "Eseményaktiváló hozzáadása"
 
@@ -6401,116 +6414,120 @@ msgid "Select an object and a related event that will trigger the job."
 msgstr "Egy objektum és egy kapcsolódó esemény kiválasztása, amelyek aktiválják a feladatot."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:158
+msgid "If multiple Generic Agents are triggered by the same event, they will be executed in the lexicographical order, i.e. `1-Agent` before `A-Agent`."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/generic-agent.rst:162
 msgid "Select Tickets"
 msgstr "Jegyek kijelölése"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:160
+#: ../content/administration-area/processes-automation/generic-agent.rst:164
 msgid "This section contains all the attributes, that you can use to select the affected tickets."
 msgstr "Ez a szakasz tartalmazza az összes olyan attribútumot, amelyeket az érintett jegyek kijelöléséhez használhat."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:162
-#: ../content/administration-area/processes-automation/generic-agent.rst:170
+#: ../content/administration-area/processes-automation/generic-agent.rst:166
+#: ../content/administration-area/processes-automation/generic-agent.rst:174
 msgid "Fields are self-explained, so there is no additional explanation here."
 msgstr "A mezők önmagukat magyarázzák, így itt nincs további magyarázat."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:166
+#: ../content/administration-area/processes-automation/generic-agent.rst:170
 msgid "Update/Add Ticket Attributes"
 msgstr "Jegyattribútumok frissítése vagy hozzáadása"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:168
+#: ../content/administration-area/processes-automation/generic-agent.rst:172
 msgid "Fill in this section to update and/or add ticket attributes."
 msgstr "Töltse ki ezt a szakaszt jegyjellemzők frissítéséhez és/vagy hozzáadásához."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:174
+#: ../content/administration-area/processes-automation/generic-agent.rst:178
 msgid "Add Note"
 msgstr "Jegyzet hozzáadása"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:176
+#: ../content/administration-area/processes-automation/generic-agent.rst:180
 msgid "Fill in this section to add a note to tickets that are affected by job execution."
 msgstr "Töltse ki ezt a szakaszt, hogy egy jegyzetet adjon azokhoz a jegyekhez, amelyeket érint a feladat-végrehajtás."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:181
+#: ../content/administration-area/processes-automation/generic-agent.rst:185
 msgid "Job Settings - Add Note"
 msgstr "Feladat-beállítások – jegyzet hozzáadása"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:185
+#: ../content/administration-area/processes-automation/generic-agent.rst:189
 msgid "Execute Ticket Commands"
 msgstr "Jegyparancsok végrehajtása"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:187
+#: ../content/administration-area/processes-automation/generic-agent.rst:191
 msgid "Fill in this section, if you would like to make execute a custom command with the job."
 msgstr "Töltse ki ezt a szakaszt, ha végre szeretne hajtatni egy egyéni parancsot a feladattal."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:192
+#: ../content/administration-area/processes-automation/generic-agent.rst:196
 msgid "Job Settings - Execute Ticket Commands"
 msgstr "Feladat-beállítások – jegyparancsok végrehajtása"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:195
+#: ../content/administration-area/processes-automation/generic-agent.rst:199
 msgid "Send agent/customer notifications on changes"
 msgstr "Ügyintéző/ügyfél értesítések küldése módosításkor"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:195
+#: ../content/administration-area/processes-automation/generic-agent.rst:199
 msgid "If *Yes* is selected, a notification will be sent to agents and customers about ticket changes."
 msgstr "Ha *Igen* lett kiválasztva, akkor értesítés lesz küldve az ügyintézőknek és az ügyfeleknek a jegyváltozásokról."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:204
+#: ../content/administration-area/processes-automation/generic-agent.rst:208
 msgid "CMD"
 msgstr "PARANCS"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:198
+#: ../content/administration-area/processes-automation/generic-agent.rst:202
 msgid "Enter a command here, that will be executed. ARG[0] will be the ticket number. ARG[1] the ticket ID."
 msgstr "Adjon meg egy parancsot itt, amely végrehajtásra kerül. Az ARG[0] lesz a jegy száma. Az ARG[1] lesz a jegy azonosítója."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:204
-#: ../content/administration-area/processes-automation/generic-agent.rst:229
+#: ../content/administration-area/processes-automation/generic-agent.rst:208
+#: ../content/administration-area/processes-automation/generic-agent.rst:233
 msgid "Use ``::`` as directory separator, if the value contains a path."
 msgstr "Használjon ``::`` karaktereket könyvtárelválasztóként, ha az érték útvonalat tartalmaz."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:212
+#: ../content/administration-area/processes-automation/generic-agent.rst:216
 msgid "Delete tickets"
 msgstr "Jegyek törlése"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:207
+#: ../content/administration-area/processes-automation/generic-agent.rst:211
 msgid "If *Yes* is selected, the generic agent job will delete the matched tickets."
 msgstr "Ha *Igen* lett kiválasztva, akkor az általános ügyintéző feladat törölni fogja a megtalált jegyeket."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:211
+#: ../content/administration-area/processes-automation/generic-agent.rst:215
 msgid "All affected tickets will be removed from the database and cannot be restored!"
 msgstr "Minden érintett jegy el lesz távolítva az adatbázisból, és nem lehet visszaállítani!"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:215
+#: ../content/administration-area/processes-automation/generic-agent.rst:219
 msgid "Execute Custom Module"
 msgstr "Egyéni modul végrehajtása"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:217
+#: ../content/administration-area/processes-automation/generic-agent.rst:221
 msgid "Fill in this section, if you would like to make execute a custom module with the job."
 msgstr "Töltse ki ezt a szakaszt, ha végre szeretne hajtatni egy egyéni modult a feladattal."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:222
+#: ../content/administration-area/processes-automation/generic-agent.rst:226
 msgid "Job Settings - Execute Custom Module"
 msgstr "Feladat-beállítások – egyéni modul végrehajtása"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:229
+#: ../content/administration-area/processes-automation/generic-agent.rst:233
 msgid "Module"
 msgstr "Modul"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:225
+#: ../content/administration-area/processes-automation/generic-agent.rst:229
 msgid "This is the path for the module to be executed."
 msgstr "Ez a végrehajtandó modul útvonala."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:232
+#: ../content/administration-area/processes-automation/generic-agent.rst:236
 msgid "Param key"
 msgstr "Paraméter kulcsa"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:232
+#: ../content/administration-area/processes-automation/generic-agent.rst:236
 msgid "Enter the key of the parameter, that should be passed to the module."
 msgstr "Adja meg a paraméter kulcsát, amelyet át kell adni a modulnak."
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:234
+#: ../content/administration-area/processes-automation/generic-agent.rst:238
 msgid "Param value"
 msgstr "Paraméter értéke"
 
-#: ../content/administration-area/processes-automation/generic-agent.rst:235
+#: ../content/administration-area/processes-automation/generic-agent.rst:239
 msgid "Enter the value of the parameter, that should be passed to the module."
 msgstr "Adja meg a paraméter értékét, amelyet át kell adni a modulnak."
 
