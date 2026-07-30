@@ -134,6 +134,10 @@ Event Triggers
 Add Event Trigger
    Select an object and a related event that will trigger the job.
 
+.. note::
+
+   If multiple Generic Agents are triggered by the same event, they will be executed in the lexicographical order, i.e. `1-Agent` before `A-Agent`.
+
 
 Select Tickets
 ~~~~~~~~~~~~~~
