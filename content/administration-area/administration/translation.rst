@@ -43,7 +43,7 @@ Deploy Translations
     Buttons Translations
 
 
-Active Translations 
+Active Translations
     Table with all translations displayed.
 
 .. figure:: images/ActiveTranslations.png
@@ -68,7 +68,7 @@ Translation States
    :alt: Widget States Translations
 
     Widget States Translations
-   
+
 - New translation: New translations pending to be deployed.
 - Editing Translation: Edited translations pending deployment.
 - Translation Marked for Deletion: Translations marked for deletion pending deployment.
@@ -117,7 +117,7 @@ Hint
 
     Widget Hint Add Translation
 
-Language 
+Language
     Informative label of the language where the translation will be created.
 
 Object
@@ -129,7 +129,8 @@ Object
     Object field
 
 Dynamic Field List
-    This field is displayed only when "Dynamic Field" is selected in the "Object" field. It contains the names of the dynamic fields.
+    This field is displayed only when "Dynamic Field" is selected in the "Object" field.
+    It contains the names of the dynamic fields.
 
 .. figure:: images/DynamicFieldList.png
    :alt: Dynamic Field List
@@ -148,7 +149,7 @@ Translation
     Text field or table depending on the selected option, where the translation is entered.
 
 .. figure:: images/TranslationField.png
-   :alt: Translation Field  
+   :alt: Translation Field
 
     Translation Field
 
@@ -180,7 +181,7 @@ Dynamic Field Labels
    :alt: Table for translation - Dynamic Field Labels
 
     Table for translation - Dynamic Field Labels
-    
+
 
 General Label
     Allows to translate any existing label in the system.
@@ -189,7 +190,7 @@ General Label
    :alt: Fields for translation - General labes
 
     Fields for translation - General labes
-   
+
 
 Priorities
     Allows to translate the existing priorities in the system.
@@ -221,9 +222,9 @@ SLAs
     Allows translation of all SLAs.
 
 .. figure:: images/OptionSLAs.png
-   :alt: Fields for translation - SLAs  
+   :alt: Fields for translation - SLAs
 
-    Fields for translation - SLAs  
+    Fields for translation - SLAs
 
 
 Templates
@@ -257,7 +258,7 @@ Tickets Types
 
 Edit Translation
 ----------------
-    This section allows you to edit the translations displayed in the module. 
+    This section allows you to edit the translations displayed in the module.
 
     When entering the section to edit translations a new screen is displayed with the following elements:
 
@@ -289,7 +290,7 @@ Deploy Translation
 Import/Export Translations
 --------------------------
 
-    This function allows you to import and/or export files with translations using templates for the different languages configured. 
+    This function allows you to import and/or export files with translations using templates for the different languages configured.
 
     When going to the Import/Export module, a new section "Translations" is displayed, a table with the existing templates for importing files.
 
