@@ -6,7 +6,7 @@ This need is covered by defined processes and workflows, for recurring tasks.
 Ensuring all required information is available in the right place, and contacts are informed about their responsibilities like adding information, approving requests, etc.
 
 OTOBO supports this requirement by process management.
-Process tickets help by using the required mandatory and optional fields (see :doc:`dynamic-fields`) that information is not forgotten upon ticket creation or during later steps of the process.
+Process tickets help by using the required mandatory and optional fields (see :doc:`dynamicfields`) that information is not forgotten upon ticket creation or during later steps of the process.
 Process tickets are simple to handle for customer users and agents, so no intensive training is required.
 
 Processes are designed completely and efficiently within the OTOBO front end to fit the requirements of your organization.
@@ -88,10 +88,7 @@ To export a process:
 
 .. warning::
 
-   The exported file contains only the process itself,
-   and doesn't contain the :doc:`../ticket-settings/queues`,
-   :doc:`../users-groups-roles/agents`,
-   :doc:`dynamic-fields`, etc., needed for the process.
+   The exported file contains only the process itself, and doesn't contain the :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents`, :doc:`dynamicfields`, etc., needed for the process.
 
 To import a process:
 
@@ -102,7 +99,7 @@ To import a process:
 
 .. note::
 
-   Before import of a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import.
+   Before import of a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamicfields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import.
    If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually.
 
 .. note::
@@ -191,7 +188,7 @@ Create Necessary Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Before the creation of the process and its parts is necessary to prepare the system.
-We need to define some :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields` as well as set some :doc:`../administration/system-configuration` settings.
+We need to define some :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamicfields` as well as set some :doc:`../administration/system-configuration` settings.
 
 Create the following :doc:`../ticket-settings/queues`:
 
@@ -205,7 +202,7 @@ Create the following :doc:`../users-groups-roles/agents`:
 - Manager
 - Employee
 
-Create the following :doc:`dynamic-fields`:
+Create the following :doc:`dynamicfields`:
 
 +--------+----------+-------------------+-----------------+---------------------+
 | Object | Type     | Name              | Label           | Possible values     |
