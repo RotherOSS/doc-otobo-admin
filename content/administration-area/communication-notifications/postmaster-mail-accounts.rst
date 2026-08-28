@@ -154,7 +154,7 @@ Please install the package **MailAccount-OAuth2** in the OTOBO package managemen
 Azure Configuration
 ~~~~~~~~~~~~~~~~~~~
 
-Go to https://azure.microsoft.com
+Go to https://azure.microsoft.comi/en-us
 
 **In the next step switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:**
 
