@@ -141,7 +141,7 @@ This widget can optionally be used to narrow the list of tickets by matching con
 .. note::
 
    The values in this list can grow as your system grows.
-   The more :doc:`../processes-automation/dynamic-fields` are and features you have in your system, the longer the list will be.
+   The more :doc:`../processes-automation/dynamicfields` are and features you have in your system, the longer the list will be.
 
 State
    Filter for a state of the ticket.
@@ -163,7 +163,7 @@ Customer User ID
 
 Dynamic Fields
    Filter for some dynamic fields added to the system.
-   For the complete list of dynamic fields see the :doc:`../processes-automation/dynamic-fields` chapter.
+   For the complete list of dynamic fields see the :doc:`../processes-automation/dynamicfields` chapter.
 
 
 Article Filter [1]_
