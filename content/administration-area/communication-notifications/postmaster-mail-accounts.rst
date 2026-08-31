@@ -192,7 +192,7 @@ You will need the Application ID lateron in OTOBO (Attention, the application ID
 
 **Create a Redirect URL of type Web and a secret client key.**
 
-Redirect URL = https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount
+Redirect URL = https://OTOBO_FQDN/otobo/index.pl?Action=AdminMailAccount
 
 .. figure:: images/oauth2-008.png
    :alt: OAuth2 Azure Configuration
