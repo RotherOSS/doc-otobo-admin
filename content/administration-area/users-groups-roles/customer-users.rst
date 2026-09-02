@@ -330,7 +330,7 @@ For example, to add a new field for room number:
    .. seealso::
 
       Names can be translated into other languages with custom translation files.
-      See the `Custom Translation File <http://doc.otobo.org/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
+      See the `Custom Translation File <https://doc.otobo.org/manual/dev/11.1/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
 
 
 LDAP
@@ -438,7 +438,7 @@ To display additional customer user attributes from LDAP directory:
    .. seealso::
 
       Names can be translated into other languages with custom translation files.
-      See the `Custom Translation File <http://doc.otobo.org/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
+      See the `Custom Translation File <https://doc.otobo.org/manual/dev/11.1/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual.
 
 
 Multiple Customer User Back Ends

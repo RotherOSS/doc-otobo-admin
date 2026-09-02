@@ -27,12 +27,12 @@ How-Tos are step-by-step instructions to solve a particular problem, while the A
    If you are new to OTOBO, we recommend to start with the :doc:`Getting Startet Guide <getting-started>`.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents
 
    getting-started
    administration-area
-   how-tos
+   how-tos/index
    glossary
    history
 

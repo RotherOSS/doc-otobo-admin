@@ -21,6 +21,7 @@ To activate this feature, enable the system config ``Frontend::Module###Customer
 The feature can then be accessed through an icon in the Customer Interface main menu.
 
 For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface.
-For more information on this, please refer to the `Dynamic Fields section on this manual <https://doc.otobo.de/manual/admin/11.0/en/content/administration-area/processes-automation/dynamic-fields.html#>`_.
+For more information on this, please refer to the `Dynamic Fields section on
+this manual <https://doc.otobo.de/manual/admin/11.1/en/content/administration-area/processes-automation/dynamic-fields.html#>`_.
 
 

@@ -11,4 +11,5 @@ For this purpose have a look at these resources:
    :maxdepth: 3
    :caption: Contents
 
-   how-tos/ckeditor-agent
+   ckeditor-agent
+   how-to-migrate-email-oauth2-from-11-0-to-11-1
