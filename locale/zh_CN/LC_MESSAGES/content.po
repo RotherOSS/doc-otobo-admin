@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-31 06:55+0000\n"
+"POT-Creation-Date: 2026-09-04 06:35+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\n"
@@ -452,7 +452,7 @@ msgstr "读写：用户可以管理日历。"
 #: ../content/administration-area/processes-automation/access-control-lists.rst:129
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:95
 #: ../content/administration-area/ticket-settings/attachments.rst:77
-#: ../content/administration-area/ticket-settings/auto-responses.rst:109
+#: ../content/administration-area/ticket-settings/auto-responses.rst:110
 #: ../content/administration-area/ticket-settings/priorities.rst:109
 #: ../content/administration-area/ticket-settings/queues.rst:206
 #: ../content/administration-area/ticket-settings/salutations.rst:77
@@ -478,7 +478,7 @@ msgstr "有效性 \\*"
 #: ../content/administration-area/processes-automation/access-control-lists.rst:127
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:94
 #: ../content/administration-area/ticket-settings/attachments.rst:76
-#: ../content/administration-area/ticket-settings/auto-responses.rst:108
+#: ../content/administration-area/ticket-settings/auto-responses.rst:109
 #: ../content/administration-area/ticket-settings/priorities.rst:109
 #: ../content/administration-area/ticket-settings/queues.rst:205
 #: ../content/administration-area/ticket-settings/salutations.rst:76
@@ -725,7 +725,7 @@ msgstr "注释 \\*"
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:86
 #: ../content/administration-area/processes-automation/access-control-lists.rst:116
 #: ../content/administration-area/ticket-settings/attachments.rst:80
-#: ../content/administration-area/ticket-settings/auto-responses.rst:112
+#: ../content/administration-area/ticket-settings/auto-responses.rst:113
 #: ../content/administration-area/ticket-settings/queues.rst:209
 #: ../content/administration-area/ticket-settings/salutations.rst:80
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:135
@@ -1964,7 +1964,7 @@ msgstr "预约通知设置 - 基本"
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:87
 #: ../content/administration-area/processes-automation/access-control-lists.rst:117
 #: ../content/administration-area/ticket-settings/attachments.rst:80
-#: ../content/administration-area/ticket-settings/auto-responses.rst:114
+#: ../content/administration-area/ticket-settings/auto-responses.rst:115
 #: ../content/administration-area/ticket-settings/queues.rst:210
 #: ../content/administration-area/ticket-settings/salutations.rst:82
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:136
@@ -2457,7 +2457,7 @@ msgstr "预约通知变量"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:322
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:408
-#: ../content/administration-area/ticket-settings/auto-responses.rst:119
+#: ../content/administration-area/ticket-settings/auto-responses.rst:120
 #: ../content/administration-area/ticket-settings/salutations.rst:87
 #: ../content/administration-area/ticket-settings/signatures.rst:87
 #: ../content/administration-area/ticket-settings/templates.rst:137
@@ -2472,7 +2472,7 @@ msgstr "例如，变量 ``<OTRS_APPOINTMENT_TITLE[20]>`` 扩展为标题的前20
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:337
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:423
-#: ../content/administration-area/ticket-settings/auto-responses.rst:134
+#: ../content/administration-area/ticket-settings/auto-responses.rst:135
 #: ../content/administration-area/ticket-settings/salutations.rst:102
 #: ../content/administration-area/ticket-settings/signatures.rst:104
 #: ../content/administration-area/ticket-settings/templates.rst:152
@@ -3510,7 +3510,7 @@ msgid "Mail Account Settings"
 msgstr "邮件帐户设置"
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:95
-#: ../content/administration-area/ticket-settings/auto-responses.rst:102
+#: ../content/administration-area/ticket-settings/auto-responses.rst:103
 #: ../content/administration-area/ticket-settings/templates.rst:111
 msgid "Type \\*"
 msgstr "类型 \\*"
@@ -4130,7 +4130,7 @@ msgid "Ticket Notification Variables"
 msgstr "工单通知变量"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:417
-#: ../content/administration-area/ticket-settings/auto-responses.rst:128
+#: ../content/administration-area/ticket-settings/auto-responses.rst:129
 #: ../content/administration-area/ticket-settings/templates.rst:146
 #, fuzzy
 msgid "For example, the variable ``<OTOBO_TICKET_TicketNumber>`` expands to the ticket number allowing a template to include something like the following."
@@ -9247,43 +9247,43 @@ msgstr "auto reject 自动拒绝"
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:93
+#: ../content/administration-area/ticket-settings/auto-responses.rst:94
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:60
 msgid "auto remove"
 msgstr "auto remove-自动移除"
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:93
-msgid "If a ticket is deleted by the system, the customer gets this automatic response."
+msgid "Has currently no effect. No response will be generated."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:98
+#: ../content/administration-area/ticket-settings/auto-responses.rst:99
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:48
 msgid "auto reply"
 msgstr "auto reply-自动回复"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:96
+#: ../content/administration-area/ticket-settings/auto-responses.rst:97
 msgid "If a new ticket is generated the customer will get this auto response. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for new tickets created through the customer web interface or through a telephone call (telephone ticket) otherwise only for new tickets created from a customer email. This automatic repsonse does not apply if the 'auto reply/new ticket' event type occours."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:102
+#: ../content/administration-area/ticket-settings/auto-responses.rst:103
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:57
 msgid "auto reply/new ticket"
 msgstr "自动回复/新工单"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:101
+#: ../content/administration-area/ticket-settings/auto-responses.rst:102
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'new ticket' this event will be triggered if a customer answers in a ticket, that is already closed. You can use this message to inform the customer of the new ticket number."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:105
+#: ../content/administration-area/ticket-settings/auto-responses.rst:106
 msgid "Auto response from \\*"
 msgstr "自动响应的发件人 \\*"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:105
+#: ../content/administration-area/ticket-settings/auto-responses.rst:106
 msgid "The sender email address, from which the automatic response will be sent."
 msgstr "发件人电子邮件地址，将从中发送自动回复。"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:117
-#: ../content/administration-area/ticket-settings/auto-responses.rst:126
+#: ../content/administration-area/ticket-settings/auto-responses.rst:118
+#: ../content/administration-area/ticket-settings/auto-responses.rst:127
 msgid "Auto Response Variables"
 msgstr "自动响应变量"
 
