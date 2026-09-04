@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-31 06:56+0000\n"
+"POT-Creation-Date: 2026-09-04 06:32+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-10/de/>\n"
@@ -427,7 +427,7 @@ msgstr "Lesen/Schreiben: Benutzer können die Kalender an sich verwalten."
 #: ../content/processes-automation/access-control-lists.rst:113
 #: ../content/processes-automation/dynamic-fields.rst:86
 #: ../content/ticket-settings/attachments.rst:68
-#: ../content/ticket-settings/auto-responses.rst:92
+#: ../content/ticket-settings/auto-responses.rst:93
 #: ../content/ticket-settings/priorities.rst:94
 #: ../content/ticket-settings/queues.rst:157
 #: ../content/ticket-settings/salutations.rst:68
@@ -453,7 +453,7 @@ msgstr "Gültigkeit \\*"
 #: ../content/processes-automation/access-control-lists.rst:112
 #: ../content/processes-automation/dynamic-fields.rst:86
 #: ../content/ticket-settings/attachments.rst:68
-#: ../content/ticket-settings/auto-responses.rst:92
+#: ../content/ticket-settings/auto-responses.rst:93
 #: ../content/ticket-settings/priorities.rst:95
 #: ../content/ticket-settings/queues.rst:157
 #: ../content/ticket-settings/salutations.rst:68
@@ -1712,7 +1712,7 @@ msgstr "Name \\*"
 #: ../content/otobo-team-services/cloud-services.rst:61
 #: ../content/processes-automation/access-control-lists.rst:103
 #: ../content/ticket-settings/attachments.rst:70
-#: ../content/ticket-settings/auto-responses.rst:96
+#: ../content/ticket-settings/auto-responses.rst:97
 #: ../content/ticket-settings/queues.rst:160
 #: ../content/ticket-settings/salutations.rst:72
 #: ../content/ticket-settings/service-level-agreements.rst:102
@@ -1734,7 +1734,7 @@ msgstr "Kommentar"
 #: ../content/otobo-team-services/cloud-services.rst:61
 #: ../content/processes-automation/access-control-lists.rst:103
 #: ../content/ticket-settings/attachments.rst:71
-#: ../content/ticket-settings/auto-responses.rst:95
+#: ../content/ticket-settings/auto-responses.rst:96
 #: ../content/ticket-settings/queues.rst:160
 #: ../content/ticket-settings/salutations.rst:71
 #: ../content/ticket-settings/service-level-agreements.rst:102
@@ -2221,7 +2221,7 @@ msgstr "Variablen für Terminbenachrichtigungen"
 
 #: ../content/communication-notifications/appointment-notifications.rst:287
 #: ../content/communication-notifications/ticket-notifications.rst:338
-#: ../content/ticket-settings/auto-responses.rst:101
+#: ../content/ticket-settings/auto-responses.rst:102
 #: ../content/ticket-settings/salutations.rst:77
 #: ../content/ticket-settings/signatures.rst:77
 #: ../content/ticket-settings/templates.rst:108
@@ -2235,7 +2235,7 @@ msgstr "Die Variable ``<OTOBO_APPOINTMENT_TITLE[20]>`` enthält bspw. die ersten
 
 #: ../content/communication-notifications/appointment-notifications.rst:300
 #: ../content/communication-notifications/ticket-notifications.rst:351
-#: ../content/ticket-settings/auto-responses.rst:114
+#: ../content/ticket-settings/auto-responses.rst:115
 #: ../content/ticket-settings/salutations.rst:90
 #: ../content/ticket-settings/signatures.rst:92
 #: ../content/ticket-settings/templates.rst:121
@@ -3028,7 +3028,7 @@ msgid "Mail Account Settings"
 msgstr "Einstellungen für E-Mail-Konten"
 
 #: ../content/communication-notifications/postmaster-mail-accounts.rst:81
-#: ../content/ticket-settings/auto-responses.rst:86
+#: ../content/ticket-settings/auto-responses.rst:87
 #: ../content/ticket-settings/templates.rst:87
 msgid "Type \\*"
 msgstr "Typ \\*"
@@ -3742,7 +3742,7 @@ msgid "Ticket Notification Variables"
 msgstr "Ticket-Benachrichtigungsvariablen"
 
 #: ../content/communication-notifications/ticket-notifications.rst:345
-#: ../content/ticket-settings/auto-responses.rst:108
+#: ../content/ticket-settings/auto-responses.rst:109
 #: ../content/ticket-settings/templates.rst:115
 msgid "For example, the variable ``<OTOBO_TICKET_TicketNumber>`` expands to the ticket number allowing a template to include something like the following."
 msgstr "Die Variable ``<OTOBO_TICKET_TicketNumber>`` beinhaltet beispielsweise die Ticketnummer, so dass eine Vorlage etwa Folgendes enthalten kann."
@@ -8442,43 +8442,43 @@ msgstr "Automatische Ablehnung"
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed."
 msgstr ""
 
-#: ../content/ticket-settings/auto-responses.rst:80
+#: ../content/ticket-settings/auto-responses.rst:81
 #: ../content/ticket-settings/queues-auto-responses.rst:57
 msgid "auto remove"
 msgstr "Automatisches Entfernen"
 
 #: ../content/ticket-settings/auto-responses.rst:80
-msgid "If a ticket is deleted by the system, the customer gets this automatic response."
+msgid "Has currently no effect. No response will be generated."
 msgstr ""
 
-#: ../content/ticket-settings/auto-responses.rst:83
+#: ../content/ticket-settings/auto-responses.rst:84
 #: ../content/ticket-settings/queues-auto-responses.rst:45
 msgid "auto reply"
 msgstr "Automatische Antwort"
 
-#: ../content/ticket-settings/auto-responses.rst:83
+#: ../content/ticket-settings/auto-responses.rst:84
 msgid "If a new ticket is generated the customer will get this auto response. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for new tickets created through the customer web interface or through a telephone call (telephone ticket) otherwise only for new tickets created from a customer email. This automatic repsonse does not apply if the 'auto reply/new ticket' event type occours."
 msgstr ""
 
-#: ../content/ticket-settings/auto-responses.rst:86
+#: ../content/ticket-settings/auto-responses.rst:87
 #: ../content/ticket-settings/queues-auto-responses.rst:54
 msgid "auto reply/new ticket"
 msgstr "Automatische Antwort / neues Ticket"
 
-#: ../content/ticket-settings/auto-responses.rst:86
+#: ../content/ticket-settings/auto-responses.rst:87
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'new ticket' this event will be triggered if a customer answers in a ticket, that is already closed. You can use this message to inform the customer of the new ticket number."
 msgstr ""
 
-#: ../content/ticket-settings/auto-responses.rst:89
+#: ../content/ticket-settings/auto-responses.rst:90
 msgid "Auto response from \\*"
 msgstr "Automatische Antwort von \\*"
 
-#: ../content/ticket-settings/auto-responses.rst:89
+#: ../content/ticket-settings/auto-responses.rst:90
 msgid "The sender email address, from which the automatic response will be sent."
 msgstr "Die Sender-E-Mail-Adresse von der die Automatische Antwort gesendet wird."
 
-#: ../content/ticket-settings/auto-responses.rst:99
-#: ../content/ticket-settings/auto-responses.rst:106
+#: ../content/ticket-settings/auto-responses.rst:100
+#: ../content/ticket-settings/auto-responses.rst:107
 msgid "Auto Response Variables"
 msgstr "Variablen für Automatische Antworten"
 
