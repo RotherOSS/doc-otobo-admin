@@ -77,7 +77,8 @@ Type \*
       If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed.
 
    auto remove
-      If a ticket is deleted by the system, the customer gets this automatic response.
+      Has currently no effect.
+      No response will be generated.
 
    auto reply
       If a new ticket is generated the customer will get this auto response. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for new tickets created through the customer web interface or through a telephone call (telephone ticket) otherwise only for new tickets created from a customer email. This automatic repsonse does not apply if the 'auto reply/new ticket' event type occours.
