@@ -90,7 +90,8 @@ Type \*
       If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed.
 
    auto remove
-      If a ticket is deleted by the system, the customer gets this automatic response.
+      Has currently no effect.
+      No response will be generated.
 
    auto reply
       If a new ticket is generated the customer will get this auto response.
