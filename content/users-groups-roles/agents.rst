@@ -244,6 +244,37 @@ Reuse of an :ref:`Agent Synchronization Back End` is also possible.
    $Self->{'AuthModule::UseSyncBackend1'} = 'AuthSyncBackend';
 
 
+External Authentication with HTTPBasicAuth
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+External authentication (e.g. Kerberos or LDAP based) can optionally be
+configured outside of OTOBO. Examples would include configuringg nginx to
+do Kerberos based authentication within nginx itself, and pass on the
+user identity to OTOBO.
+
+Two sources for passing the external user identity to OTOBO are supported 
+using the HTTPBasicAuth Auth Module.:
+
+ 1. The PSGI variable REMOTE_USER. It is set by the web server itself after it has
+    authenticated the request (e.g. Apache with mod_auth_gssapi in CGI, FCGI or mod_perl
+    mode). A HTTP client can not supply this value, so it is always trusted.
+
+ 2. The HTTP header "Remote-User". This is the only way a reverse proxy (nginx, Apache
+    mod_proxy, Traefik) can forward the identity. Because any client can send this header,
+    it is ignored unless BOTH of the following are configured in Config.pm:
+
+      ``$Self->{'AuthModule::HTTPBasicAuth::TrustProxyHeader'} = 1;``
+
+    and the request carries the shared secret configured in
+
+      ``$Self->{'WebServer::ProxySecret'} = 'long random string';``
+
+which the reverse proxy sends in the header X-OTOBO-Proxy-Secret. The proxy MUST also
+remove any client supplied "Remote-User" header before adding its own. See
+scripts/nginx/templates/otobo_nginx-kerberos.conf.template and
+scripts/apache2-httpd*.include.conf for examples.
+
+
 Agent Synchronization Back End
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
