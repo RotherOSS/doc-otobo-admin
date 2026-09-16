@@ -252,7 +252,7 @@ configured outside of OTOBO. Examples would include configuringg nginx to
 do Kerberos based authentication within nginx itself, and pass on the
 user identity to OTOBO.
 
-Two sources for passing the external user identity to OTOBO are supported 
+Two sources for passing the external user identity to OTOBO are supported
 using the HTTPBasicAuth Auth Module.:
 
  1. The PSGI variable REMOTE_USER. It is set by the web server itself after it has
