@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 14:06+0000\n"
+"POT-Creation-Date: 2026-09-16 14:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10536,42 +10536,42 @@ msgid "The users table houses your agent data per default. You may attach a dire
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:212
-#: ../content/administration-area/users-groups-roles/agents.rst:320
+#: ../content/administration-area/users-groups-roles/agents.rst:346
 msgid "The minimum required to connect to a directory server is:"
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:222
-#: ../content/administration-area/users-groups-roles/agents.rst:330
+#: ../content/administration-area/users-groups-roles/agents.rst:356
 msgid "``Host``"
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:222
-#: ../content/administration-area/users-groups-roles/agents.rst:330
+#: ../content/administration-area/users-groups-roles/agents.rst:356
 msgid "The DNS name or IP of your directory server."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:225
-#: ../content/administration-area/users-groups-roles/agents.rst:333
+#: ../content/administration-area/users-groups-roles/agents.rst:359
 msgid "``BaseDN``"
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:225
-#: ../content/administration-area/users-groups-roles/agents.rst:333
+#: ../content/administration-area/users-groups-roles/agents.rst:359
 msgid "The starting point in your directory tree."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:232
-#: ../content/administration-area/users-groups-roles/agents.rst:340
+#: ../content/administration-area/users-groups-roles/agents.rst:366
 msgid "``UID``"
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:228
-#: ../content/administration-area/users-groups-roles/agents.rst:336
+#: ../content/administration-area/users-groups-roles/agents.rst:362
 msgid "The attribute used for login and identification."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:232
-#: ../content/administration-area/users-groups-roles/agents.rst:340
+#: ../content/administration-area/users-groups-roles/agents.rst:366
 msgid "This is ``sAMAccountName`` for an Active Directory."
 msgstr ""
 
@@ -10592,51 +10592,71 @@ msgstr ""
 msgid "Reuse of an :ref:`Agent Synchronization Back End` is also possible."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:275
-msgid "Agent Synchronization Back End"
+#: ../content/administration-area/users-groups-roles/agents.rst:274
+msgid "External Authentication with ``HTTPBasicAuth``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:277
-msgid "It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server."
+#: ../content/administration-area/users-groups-roles/agents.rst:276
+msgid "External authentication (e.g. Kerberos or LDAP based) can optionally be configured outside of OTOBO. Examples may include configuring NGINX to handle authentication and pass the user identity on to OTOBO. Two sources for passing the external user identity to OTOBO are supported using the ``HTTPBasicAuth`` authentication module:"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:282
-msgid "Agent User Data"
+#: ../content/administration-area/users-groups-roles/agents.rst:280
+msgid "The PSGI variable ``REMOTE_USER``. It is set by the web server itself after it has authenticated the request (e.g., Apache with ``mod_auth_gssapi`` in CGI, FCGI or ``mod_perl`` mode). A HTTP client can not supply this value, so it is always trusted."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:284
+msgid "The HTTP header ``Remote-User``. This is the only way a reverse proxy (e.g., NGINX, Apache ``mod_proxy``, or Traefik) can forward the identity of the requester. Because any HTTP client is able to set this header, it is ignored unless *BOTH* of the following are configured in ``Config.pm``:"
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:296
+msgid "The proxy *MUST* also remove any client supplied ``Remote-User`` header before adding its own. See ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` and  ``scripts/apache2-httpd*.include.conf`` in `OTOBO on GitHub <https://github.com/RotherOSS/otobo>`_ for examples."
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:301
+msgid "Agent Synchronization Back End"
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:303
+msgid "It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server."
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:308
+msgid "Agent User Data"
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:310
 msgid "Syncing user data upon login. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:344
+#: ../content/administration-area/users-groups-roles/agents.rst:370
 msgid "Multiple :ref:`Agent Synchronization Back End` blocks can be used. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end. Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:350
+#: ../content/administration-area/users-groups-roles/agents.rst:376
 msgid "Agent Group Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:352
+#: ../content/administration-area/users-groups-roles/agents.rst:378
 msgid "It is possible to use security objects to synchronize users to OTOBO groups. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:357
+#: ../content/administration-area/users-groups-roles/agents.rst:383
 msgid ":doc:`groups` must be available in OTOBO to use this feature."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:361
+#: ../content/administration-area/users-groups-roles/agents.rst:387
 msgid "Agent Role Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:363
+#: ../content/administration-area/users-groups-roles/agents.rst:389
 msgid "It is possible to use security objects to synchronize users to OTOBO roles. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:368
+#: ../content/administration-area/users-groups-roles/agents.rst:394
 msgid ":doc:`roles` must be available in OTOBO to use this feature."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:372
+#: ../content/administration-area/users-groups-roles/agents.rst:398
 msgid "Agent Configuration Options"
 msgstr ""
 
