@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 14:25+0000\n"
+"POT-Creation-Date: 2026-09-16 14:28+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\n"
@@ -2863,7 +2863,7 @@ msgid "This description in based on our experience with Microsoft Azure as OIDC 
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:99
-msgid "Go to https://portal.azure.com Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
+msgid "Go to ``https://portal.azure.com`` Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1

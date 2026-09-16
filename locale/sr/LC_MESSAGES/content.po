@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 14:25+0000\n"
+"POT-Creation-Date: 2026-09-16 14:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -2751,7 +2751,7 @@ msgid "This description in based on our experience with Microsoft Azure as OIDC 
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:99
-msgid "Go to https://portal.azure.com Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
+msgid "Go to ``https://portal.azure.com`` Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
