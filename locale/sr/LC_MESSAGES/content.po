@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 06:35+0000\n"
+"POT-Creation-Date: 2026-09-16 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -4016,7 +4016,7 @@ msgid "To activate this feature, enable the system config ``Frontend::Module###C
 msgstr ""
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:23
-msgid "For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface. For more information on this, please refer to the `Dynamic Fields section on this manual <https://doc.otobo.de/manual/admin/11.0/en/content/administration-area/processes-automation/dynamic-fields.html#>`_."
+msgid "For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface. For more information on this, please refer to the `Dynamic Fields section on this manual <https://doc.otobo.org/manual/admin/11.1/en/content/administration-area/processes-automation/dynamic-fields.html>`_."
 msgstr ""
 
 #: ../content/administration-area/languages.rst:2
