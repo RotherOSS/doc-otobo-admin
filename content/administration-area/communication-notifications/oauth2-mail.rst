@@ -96,7 +96,7 @@ Azure Configuration
    However, for more detailed information always consult the official Microsoft Azure documentation.
 
 
-Go to https://portal.azure.com
+Go to ``https://portal.azure.com``
 Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:
 
 .. figure:: images/oauth2-001.png
