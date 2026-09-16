@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 14:28+0000\n"
+"POT-Creation-Date: 2026-09-16 14:30+0000\n"
 "PO-Revision-Date: 2023-12-29 23:35+0000\n"
 "Last-Translator: khh <khh@rother-oss.com>\n"
 "Language-Team: Arabic (Saudi Arabia) <https://translate.otobo.org/projects/otobo10/admin-manual/ar_SA/>\n"
@@ -10524,7 +10524,7 @@ msgid "Agents can be read and synchronized from an Active Directory® or LDAP se
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:143
-msgid "The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otrs.ch or in the `OTOBO Portal <https://portal.otrs.ch/>`__."
+msgid "The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otobo.io or in the `OTOBO Portal <https://portal.rother-oss.com/>`__."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:147
