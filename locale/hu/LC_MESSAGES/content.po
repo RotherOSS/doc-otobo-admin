@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 06:35+0000\n"
+"POT-Creation-Date: 2026-09-16 13:25+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-10/hu/>\n"
@@ -10118,42 +10118,42 @@ msgid "The users table houses your agent data per default. You may attach a dire
 msgstr "Alapértelmezetten a felhasználók tábla tárolja az ügyintéző adatait. A hitelesítéshez csatolhat egy könyvtárkiszolgálót (LDAP vagy Active Directory) a telepítéséhez. Ehhez másolja le a következő blokkot a ``Defaults.pm`` fájlból, és illessze be a ``Config.pm`` fájlba."
 
 #: ../content/users-groups-roles/agents.rst:186
-#: ../content/users-groups-roles/agents.rst:290
+#: ../content/users-groups-roles/agents.rst:317
 msgid "The minimum required to connect to a directory server is:"
 msgstr "A minimum követelmény egy könyvtárkiszolgálóhoz történő csatlakozáshoz:"
 
 #: ../content/users-groups-roles/agents.rst:196
-#: ../content/users-groups-roles/agents.rst:300
+#: ../content/users-groups-roles/agents.rst:327
 msgid "``Host``"
 msgstr "``Host``"
 
 #: ../content/users-groups-roles/agents.rst:196
-#: ../content/users-groups-roles/agents.rst:300
+#: ../content/users-groups-roles/agents.rst:327
 msgid "The DNS name or IP of your directory server."
 msgstr "A könyvtárkiszolgáló DNS-neve vagy IP-címe."
 
 #: ../content/users-groups-roles/agents.rst:199
-#: ../content/users-groups-roles/agents.rst:303
+#: ../content/users-groups-roles/agents.rst:330
 msgid "``BaseDN``"
 msgstr "``BaseDN``"
 
 #: ../content/users-groups-roles/agents.rst:199
-#: ../content/users-groups-roles/agents.rst:303
+#: ../content/users-groups-roles/agents.rst:330
 msgid "The starting point in your directory tree."
 msgstr "A kezdőpont a könyvtárfában."
 
 #: ../content/users-groups-roles/agents.rst:206
-#: ../content/users-groups-roles/agents.rst:310
+#: ../content/users-groups-roles/agents.rst:337
 msgid "``UID``"
 msgstr "``UID``"
 
 #: ../content/users-groups-roles/agents.rst:202
-#: ../content/users-groups-roles/agents.rst:306
+#: ../content/users-groups-roles/agents.rst:333
 msgid "The attribute used for login and identification."
 msgstr "A bejelentkezéshez és azonosításhoz használt attribútum."
 
 #: ../content/users-groups-roles/agents.rst:206
-#: ../content/users-groups-roles/agents.rst:310
+#: ../content/users-groups-roles/agents.rst:337
 msgid "This is ``sAMAccountName`` for an Active Directory."
 msgstr "Ez a ``sAMAccountName`` egy Active Directory használatakor."
 
@@ -10175,54 +10175,74 @@ msgid "Reuse of an :ref:`Agent Synchronization Back End` is also possible."
 msgstr "Egy :ref:`Agent Synchronization Back End` újrahasználata is lehetséges."
 
 #: ../content/users-groups-roles/agents.rst:248
+msgid "External Authentication with ``HTTPBasicAuth``"
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:250
+msgid "External authentication (e.g. Kerberos or LDAP based) can optionally be configured outside of OTOBO. Examples may include configuring NGINX to handle authentication and pass the user identity on to OTOBO. Two sources for passing the external user identity to OTOBO are supported using the ``HTTPBasicAuth`` authentication module:"
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:254
+msgid "The PSGI variable ``REMOTE_USER``. It is set by the web server itself after it has authenticated the request (e.g., Apache with ``mod_auth_gssapi`` in CGI, FCGI or ``mod_perl`` mode). A HTTP client can not supply this value, so it is always trusted."
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:258
+msgid "The HTTP header ``Remote-User``. This is the only way a reverse proxy (e.g., NGINX, Apache ``mod_proxy``, or Traefik) can forward the identity of the requester. Because any HTTP client is able to set this header, it is ignored unless *BOTH* of the following are configured in ``Config.pm``:"
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:270
+msgid "The proxy *MUST* also remove any client supplied ``Remote-User`` header before adding its own. See ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` and  ``scripts/apache2-httpd*.include.conf`` in `OTOBO on GitHub <https://github.com/RotherOSS/otobo>`_ for examples."
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:275
 msgid "Agent Synchronization Back End"
 msgstr "Ügyintézői szinkronizációs háttérprogram"
 
-#: ../content/users-groups-roles/agents.rst:250
+#: ../content/users-groups-roles/agents.rst:277
 msgid "It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server."
 msgstr "Ajánlott az ügyintézői adatok szinkronizálása, azért hogy az ügyintézőket ne kelljen kézzel hozzáadni a felhasználók táblájához az engedélyezés előtt. Ezenkívül a könyvtárkiszolgáló biztonsági objektumainak használatával csoportok és szerepek is automatikusan hozzáadhatók."
 
-#: ../content/users-groups-roles/agents.rst:254
+#: ../content/users-groups-roles/agents.rst:281
 msgid "Agent User Data"
 msgstr "Ügyintézői felhasználó-adatok"
 
-#: ../content/users-groups-roles/agents.rst:256
+#: ../content/users-groups-roles/agents.rst:283
 msgid "Syncing user data upon login. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "Felhasználói adatok szinkronizálása bejelentkezéskor. Ehhez másolja le a következő blokkot a ``Defaults.pm`` fájlból, és illessze be a ``Config.pm`` fájlba."
 
-#: ../content/users-groups-roles/agents.rst:314
+#: ../content/users-groups-roles/agents.rst:341
 msgid "Multiple :ref:`Agent Synchronization Back End` blocks can be used. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end. Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`."
 msgstr "Több :ref:`Agent Synchronization Back End` blokk is használható. Győződjön meg arról, hogy hozzáadott-e egy számszerű értéket [1-9] az összes beállításhoz, hogy jelezze, mely beállítások mely háttérprogramhoz tartoznak. Minden egyes ``AuthSyncModule`` beállítást kifejezetten használni kell egy :ref:`Agent Authentication Back End` beállításnál."
 
-#: ../content/users-groups-roles/agents.rst:318
+#: ../content/users-groups-roles/agents.rst:345
 msgid "Agent Group Data"
 msgstr "Ügyintézői csoportadatok"
 
-#: ../content/users-groups-roles/agents.rst:320
+#: ../content/users-groups-roles/agents.rst:347
 #, fuzzy
 msgid "It is possible to use security objects to synchronize users to OTOBO groups. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "Lehetőség van biztonsági objektumok használatára a felhasználók és az OTRS csoportok szinkronizálásához. Ehhez másolja le a következő blokkot a ``Defaults.pm`` fájlból, és illessze be a ``Config.pm`` fájlba."
 
-#: ../content/users-groups-roles/agents.rst:324
+#: ../content/users-groups-roles/agents.rst:351
 #, fuzzy
 msgid ":doc:`groups` must be available in OTOBO to use this feature."
 msgstr "A :doc:`groups` elérhetővé tétele szükséges az OTRS-ben a funkció használatához."
 
-#: ../content/users-groups-roles/agents.rst:328
+#: ../content/users-groups-roles/agents.rst:355
 msgid "Agent Role Data"
 msgstr "Ügyintézői szerepadatok"
 
-#: ../content/users-groups-roles/agents.rst:330
+#: ../content/users-groups-roles/agents.rst:357
 #, fuzzy
 msgid "It is possible to use security objects to synchronize users to OTOBO roles. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "Lehetőség van biztonsági objektumok használatára a felhasználók és az OTRS szerepek szinkronizálásához. Ehhez másolja le a következő blokkot a ``Defaults.pm`` fájlból, és illessze be a ``Config.pm`` fájlba."
 
-#: ../content/users-groups-roles/agents.rst:334
+#: ../content/users-groups-roles/agents.rst:361
 #, fuzzy
 msgid ":doc:`roles` must be available in OTOBO to use this feature."
 msgstr "A :doc:`roles` elérhetővé tétele szükséges az OTRS-ben a funkció használatához."
 
-#: ../content/users-groups-roles/agents.rst:338
+#: ../content/users-groups-roles/agents.rst:365
 msgid "Agent Configuration Options"
 msgstr "Ügyintéző beállítási lehetőségei"
 

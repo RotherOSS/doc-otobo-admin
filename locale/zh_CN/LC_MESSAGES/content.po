@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 06:35+0000\n"
+"POT-Creation-Date: 2026-09-16 13:25+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-10/zh_Hans/>\n"
@@ -10143,42 +10143,42 @@ msgid "The users table houses your agent data per default. You may attach a dire
 msgstr "默认情况下users表存储您的服务人员数据。 您可以将目录服务器（LDAP/Active Directory）附加到您的系统以进行身份验证。 为了实现这个，从 ``Defaults.pm`` 复制下面的内容并将其粘贴到 ``Config.pm`` 中。"
 
 #: ../content/users-groups-roles/agents.rst:186
-#: ../content/users-groups-roles/agents.rst:290
+#: ../content/users-groups-roles/agents.rst:317
 msgid "The minimum required to connect to a directory server is:"
 msgstr "连接目录服务器所必需的最少信息是："
 
 #: ../content/users-groups-roles/agents.rst:196
-#: ../content/users-groups-roles/agents.rst:300
+#: ../content/users-groups-roles/agents.rst:327
 msgid "``Host``"
 msgstr "``Host``"
 
 #: ../content/users-groups-roles/agents.rst:196
-#: ../content/users-groups-roles/agents.rst:300
+#: ../content/users-groups-roles/agents.rst:327
 msgid "The DNS name or IP of your directory server."
 msgstr "目录服务器的DNS名称或IP。"
 
 #: ../content/users-groups-roles/agents.rst:199
-#: ../content/users-groups-roles/agents.rst:303
+#: ../content/users-groups-roles/agents.rst:330
 msgid "``BaseDN``"
 msgstr "``BaseDN``"
 
 #: ../content/users-groups-roles/agents.rst:199
-#: ../content/users-groups-roles/agents.rst:303
+#: ../content/users-groups-roles/agents.rst:330
 msgid "The starting point in your directory tree."
 msgstr "目录树中的起点。"
 
 #: ../content/users-groups-roles/agents.rst:206
-#: ../content/users-groups-roles/agents.rst:310
+#: ../content/users-groups-roles/agents.rst:337
 msgid "``UID``"
 msgstr "``UID``"
 
 #: ../content/users-groups-roles/agents.rst:202
-#: ../content/users-groups-roles/agents.rst:306
+#: ../content/users-groups-roles/agents.rst:333
 msgid "The attribute used for login and identification."
 msgstr "用于登录和识别的属性。"
 
 #: ../content/users-groups-roles/agents.rst:206
-#: ../content/users-groups-roles/agents.rst:310
+#: ../content/users-groups-roles/agents.rst:337
 msgid "This is ``sAMAccountName`` for an Active Directory."
 msgstr "对于Active Directory这里是 ``sAMAccountName``。"
 
@@ -10200,54 +10200,74 @@ msgid "Reuse of an :ref:`Agent Synchronization Back End` is also possible."
 msgstr "也可以重复使用 :ref:`Agent Synchronization Back End`。"
 
 #: ../content/users-groups-roles/agents.rst:248
+msgid "External Authentication with ``HTTPBasicAuth``"
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:250
+msgid "External authentication (e.g. Kerberos or LDAP based) can optionally be configured outside of OTOBO. Examples may include configuring NGINX to handle authentication and pass the user identity on to OTOBO. Two sources for passing the external user identity to OTOBO are supported using the ``HTTPBasicAuth`` authentication module:"
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:254
+msgid "The PSGI variable ``REMOTE_USER``. It is set by the web server itself after it has authenticated the request (e.g., Apache with ``mod_auth_gssapi`` in CGI, FCGI or ``mod_perl`` mode). A HTTP client can not supply this value, so it is always trusted."
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:258
+msgid "The HTTP header ``Remote-User``. This is the only way a reverse proxy (e.g., NGINX, Apache ``mod_proxy``, or Traefik) can forward the identity of the requester. Because any HTTP client is able to set this header, it is ignored unless *BOTH* of the following are configured in ``Config.pm``:"
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:270
+msgid "The proxy *MUST* also remove any client supplied ``Remote-User`` header before adding its own. See ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` and  ``scripts/apache2-httpd*.include.conf`` in `OTOBO on GitHub <https://github.com/RotherOSS/otobo>`_ for examples."
+msgstr ""
+
+#: ../content/users-groups-roles/agents.rst:275
 msgid "Agent Synchronization Back End"
 msgstr "服务人员同步后端"
 
-#: ../content/users-groups-roles/agents.rst:250
+#: ../content/users-groups-roles/agents.rst:277
 msgid "It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server."
 msgstr "建议同步服务人员数据，以便在授权之前不必手动将服务人员添加到用户表中。此外，可以使用目录服务器的安全对象自动添加组和角色。"
 
-#: ../content/users-groups-roles/agents.rst:254
+#: ../content/users-groups-roles/agents.rst:281
 msgid "Agent User Data"
 msgstr "服务人员用户数据"
 
-#: ../content/users-groups-roles/agents.rst:256
+#: ../content/users-groups-roles/agents.rst:283
 msgid "Syncing user data upon login. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "登录时同步用户数据。要实现此操作，请复制 ``Defaults.pm`` 中的以下内容并将其粘贴到 ``Config.pm`` 中。"
 
-#: ../content/users-groups-roles/agents.rst:314
+#: ../content/users-groups-roles/agents.rst:341
 msgid "Multiple :ref:`Agent Synchronization Back End` blocks can be used. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end. Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`."
 msgstr "可以使用多个 :ref:`Agent Synchronization Back End` 块。请确保在所有设置后添加一个数字值[1-9]以指示哪些设置属于哪个后端。每个 ``AuthSyncModule`` 必须在 :ref:`Agent Authentication Back End` 中明确使用。"
 
-#: ../content/users-groups-roles/agents.rst:318
+#: ../content/users-groups-roles/agents.rst:345
 msgid "Agent Group Data"
 msgstr "服务人员组数据"
 
-#: ../content/users-groups-roles/agents.rst:320
+#: ../content/users-groups-roles/agents.rst:347
 #, fuzzy
 msgid "It is possible to use security objects to synchronize users to OTOBO groups. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "可以使用安全对象将用户同步到OTRS组。 为了实现这个，从 ``Defaults.pm`` 复制下面的内容并将其粘贴到 ``Config.pm`` 中。"
 
-#: ../content/users-groups-roles/agents.rst:324
+#: ../content/users-groups-roles/agents.rst:351
 #, fuzzy
 msgid ":doc:`groups` must be available in OTOBO to use this feature."
 msgstr ":doc:`groups` 必须在OTRS中可用才能使用此功能。"
 
-#: ../content/users-groups-roles/agents.rst:328
+#: ../content/users-groups-roles/agents.rst:355
 msgid "Agent Role Data"
 msgstr "服务人员角色数据"
 
-#: ../content/users-groups-roles/agents.rst:330
+#: ../content/users-groups-roles/agents.rst:357
 #, fuzzy
 msgid "It is possible to use security objects to synchronize users to OTOBO roles. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "可以使用安全对象将用户同步到OTRS角色。 为了实现这个，从 ``Defaults.pm`` 复制下面的内容并将其粘贴到 ``Config.pm`` 中。"
 
-#: ../content/users-groups-roles/agents.rst:334
+#: ../content/users-groups-roles/agents.rst:361
 #, fuzzy
 msgid ":doc:`roles` must be available in OTOBO to use this feature."
 msgstr ":doc:`roles` 必须在OTRS中可用才能使用此功能。"
 
-#: ../content/users-groups-roles/agents.rst:338
+#: ../content/users-groups-roles/agents.rst:365
 msgid "Agent Configuration Options"
 msgstr "服务人员配置选项"
 
