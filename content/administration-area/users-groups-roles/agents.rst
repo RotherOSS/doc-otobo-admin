@@ -140,7 +140,7 @@ Agents can be read and synchronized from an Active Directory® or LDAP server.
 
 .. note::
 
-   The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otrs.ch or in the `OTOBO Portal <https://portal.otrs.ch/>`__.
+   The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otobo.io or in the `OTOBO Portal <https://portal.rother-oss.com/>`__.
 
 
 Agent Authentication Back End
