@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 14:10+0000\n"
+"POT-Creation-Date: 2026-09-16 14:25+0000\n"
 "PO-Revision-Date: 2026-07-27 15:48+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/hu/>\n"
@@ -11848,8 +11848,7 @@ msgid "It is recommended to always use English words for names."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:332
-#: ../content/administration-area/users-groups-roles/customer-users.rst:440
-msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otobo.org/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
+msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otobo.org/manual/dev/11.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:337
@@ -11878,6 +11877,10 @@ msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:428
 msgid "Expand the ``Map`` array in ``Kernel/Config.pm`` with the entries for these attributes."
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/customer-users.rst:440
+msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otobo.org/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:445
