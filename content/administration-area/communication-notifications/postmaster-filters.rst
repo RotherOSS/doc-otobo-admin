@@ -109,7 +109,7 @@ Search header field … for value
    Select a mail header or an ``X-OTOBO`` header from the first drop-down list, and enter a value as search term for the selected mail header to the second field.
    Even regular expressions can be used for extended pattern matching.
 
-   A list of mail header entries can be found in `RFC5322 <https://tools.ietf.org/html/rfc5322>`_. It is also possible to define ``X-OTOBO`` headers as filter condition.
+   A list of mail header entries can be found in `RFC5322 <https://www.rfc-editor.org/info/rfc5322/>`_. It is also possible to define ``X-OTOBO`` headers as filter condition.
    The different ``X-OTOBO`` headers and their meaning are the following:
 
    ``X-OTOBO-AttachmentCount``
