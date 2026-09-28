@@ -134,7 +134,7 @@ Add a new Application in "App registrations":
    :alt: OAuth2 Azure Configuration
 
 Create a Redirect URL of type "Web" and a secret client key.
-The Redirect URL should look like: ``https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount``
+The Redirect URL should look like: ``https://<OTOBO address>/otobo/index.pl?Action=AdminOAuthTokenStore&Subaction=OAuth&code=``
 
 .. figure:: images/oauth2-008.png
    :alt: OAuth2 Azure Configuration
