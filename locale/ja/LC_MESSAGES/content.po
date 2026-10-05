@@ -5,19 +5,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: OTOBO Administration Manual 10.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 14:30+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO Administration Manual 10.1\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-09-16 14:30+0000\nPO-Revision-Date: 2026-10-06 03:41+0000\nLast-Translator: Kozo Sakurai <sakurai@io-architect.com>\nLanguage-Team: Japanese <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/ja/>\nLanguage: ja\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=1; plural=0;\nGenerated-By: Babel 2.4.0\nX-Generator: Weblate 2026.9\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -30,7 +18,7 @@ msgstr ""
 #: ../content/administration-area/users-groups-roles.rst:9
 #: ../content/how-tos.rst:10 ../content/index.rst:29
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../content/administration-area.rst:2
 msgid "Administration Area"
@@ -42,7 +30,7 @@ msgstr ""
 
 #: ../content/administration-area.rst:10
 msgid "Administrator Interface"
-msgstr ""
+msgstr "管理者インタフェース"
 
 #: ../content/administration-area.rst:12
 msgid "The administrator interface contains several modules collected into groups. Use the filter box in the left sidebar to find a particular module by just typing the name to filter."
@@ -792,7 +780,7 @@ msgstr ""
 
 #: ../content/administration-area/administration/import-export.rst:2
 msgid "Import/Export"
-msgstr ""
+msgstr "インポート/エクスポート"
 
 #: ../content/administration-area/administration/package-manager.rst:2
 msgid "Package Manager"
@@ -1190,7 +1178,7 @@ msgstr ""
 #: ../content/administration-area/administration/sql-box.rst:73
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:13
 msgid "CSV"
-msgstr ""
+msgstr "CSV"
 
 #: ../content/administration-area/administration/sql-box.rst:73
 msgid "The results can be downloaded in comma separated plain text format."
@@ -2723,7 +2711,7 @@ msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:69
 msgid "Configuration Reference"
-msgstr ""
+msgstr "設定リファレンス"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:72
 msgid "Core::Email"
@@ -3972,7 +3960,7 @@ msgstr ""
 
 #: ../content/administration-area/customer-interface.rst:2
 msgid "Customer Interface"
-msgstr ""
+msgstr "顧客インタフェース"
 
 #: ../content/administration-area/customer-interface.rst:4
 msgid "The OTOBO Customer Interface is the dedicated web interface intended to be used by customers to interact with OTOBO. It allows customers to create tickets, search for and view their own tickets or tickets belonging to their organization, and track follow-up information. This interface is configured separately from the Agent Interface."
@@ -4024,7 +4012,7 @@ msgstr ""
 
 #: ../content/administration-area/languages.rst:2
 msgid "Languages"
-msgstr ""
+msgstr "言語"
 
 #: ../content/administration-area/languages.rst:4
 msgid "OTOBO supports multiple languages. Each user, Customer Users and Agents, may select their preferred language in their user preferences (refer to the User Guide for more information)."
@@ -4125,7 +4113,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:64
 msgid "Translation States"
-msgstr ""
+msgstr "翻訳の状態"
 
 #: ../content/administration-area/languages/translations.rst:64
 msgid "Possible translation statuses."
@@ -4248,7 +4236,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:148
 msgid "Translation"
-msgstr ""
+msgstr "翻訳"
 
 #: ../content/administration-area/languages/translations.rst:148
 msgid "Text field or table depending on the selected option, where the translation is entered."
@@ -4284,7 +4272,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:169
 msgid "Dynamic Field Contents"
-msgstr ""
+msgstr "ダイナミックフィールドの内容"
 
 #: ../content/administration-area/languages/translations.rst:169
 msgid "Displays all existing dynamic fields and a dropdown field with values to translate is chosen"
@@ -4296,7 +4284,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:177
 msgid "Dynamic Field Labels"
-msgstr ""
+msgstr "ダイナミックフィールドのラベル"
 
 #: ../content/administration-area/languages/translations.rst:177
 msgid "Displays all existing dynamic fields in the system and a field is chosen to translate the label"
@@ -4308,7 +4296,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:186
 msgid "General Label"
-msgstr ""
+msgstr "全般ラベル"
 
 #: ../content/administration-area/languages/translations.rst:186
 msgid "Allows to translate any existing label in the system."
@@ -4359,7 +4347,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:221
 msgid "SLAs"
-msgstr ""
+msgstr "SLA"
 
 #: ../content/administration-area/languages/translations.rst:221
 msgid "Allows translation of all SLAs."
@@ -4408,7 +4396,7 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:259
 msgid "Edit Translation"
-msgstr ""
+msgstr "翻訳を編集"
 
 #: ../content/administration-area/languages/translations.rst:261
 msgid "This section allows you to edit the translations displayed in the module. When entering the section to edit translations a new screen is displayed with the following elements:"
@@ -4900,7 +4888,7 @@ msgstr ""
 #: ../content/administration-area/processes-automation/access-control-lists.rst:120
 #: ../content/administration-area/processes-automation/web-services.rst:151
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:120
 #: ../content/administration-area/processes-automation/web-services.rst:151
@@ -4925,7 +4913,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:141
 msgid "Match settings"
-msgstr ""
+msgstr "条件設定"
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:146
 msgid "``Properties``"
@@ -4945,7 +4933,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:154
 msgid "Change settings"
-msgstr ""
+msgstr "変更設定"
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:157
 msgid "``Possible``"
@@ -6431,7 +6419,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:113
 msgid "Transition Reference for \"Fields\" Settings"
-msgstr ""
+msgstr "\"Fields\" 設定の遷移リファレンス"
 
 #: ../content/administration-area/processes-automation/process-management.rst:116
 #: ../content/administration-area/processes-automation/process-management.rst:316
@@ -6469,7 +6457,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:142
 msgid "There are several possibilities to validate whether this transition is valid."
-msgstr ""
+msgstr "この遷移が有効かどうかを検証する方法はいくつかあります。"
 
 #: ../content/administration-area/processes-automation/process-management.rst:147
 msgid "``Exact match - all``"
@@ -6553,7 +6541,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:194
 msgid "Value must always contain a string or a regular expression used for comparison."
-msgstr ""
+msgstr "Value には、比較に使用する文字列または正規表現を常に指定する必要があります。"
 
 #: ../content/administration-area/processes-automation/process-management.rst:199
 msgid "Example"
@@ -6717,7 +6705,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:310
 msgid "Manager"
-msgstr ""
+msgstr "マネージャー"
 
 #: ../content/administration-area/processes-automation/process-management.rst:311
 msgid "Employee"
@@ -6749,7 +6737,7 @@ msgstr ""
 #: ../content/administration-area/processes-automation/process-management.rst:331
 #: ../content/administration-area/processes-automation/process-management.rst:333
 msgid "Text"
-msgstr ""
+msgstr "本文"
 
 #: ../content/administration-area/processes-automation/process-management.rst:318
 msgid "``Title``"
@@ -7860,7 +7848,7 @@ msgstr ""
 #: ../content/administration-area/processes-automation/web-services.rst:201
 #: ../content/administration-area/processes-automation/web-services.rst:314
 msgid "Configuration"
-msgstr ""
+msgstr "設定"
 
 #: ../content/administration-area/processes-automation/web-services.rst:200
 msgid "The *Configuration* button is visible only after a network transport was selected and saved. See the configuration for *OTOBO as Provider - HTTP\\:\\:REST* and *OTOBO as Provider - HTTP\\:\\:SOAP* below."
@@ -7897,7 +7885,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:225
 msgid "Operations"
-msgstr ""
+msgstr "オペレーション"
 
 #: ../content/administration-area/processes-automation/web-services.rst:227
 msgid "There are different Ticket Operations which all serve a specific job:"
@@ -8255,7 +8243,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/web-services.rst:-1
 msgid "Add Profile"
-msgstr ""
+msgstr "プロファイルを追加"
 
 #: ../content/administration-area/processes-automation/web-services.rst:631
 msgid "If you are already using OIDC for Login, some values will be pre-populated. You have to provide a valid, unique Profile name and also provide the OAuth2 application client_secret value, which is not pre-populated for security reasons. Usually you can keep all the defaults, especially for the optional SSL and Misc. settings."
@@ -9974,7 +9962,7 @@ msgstr ""
 
 #: ../content/administration-area/ticket-settings/templates.rst:111
 msgid "Process dialog"
-msgstr ""
+msgstr "プロセスダイアログ"
 
 #: ../content/administration-area/ticket-settings/templates.rst:111
 msgid "To be used in process management to pre-fill text of articles in user task activity dialogs."
@@ -11206,7 +11194,7 @@ msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:174
 msgid "Database"
-msgstr ""
+msgstr "データベース"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:176
 msgid "This is the default customer user back end for new installations. The example below shows the configuration of a database customer back end, which uses customer user data stored in the database table ``customer_user``."
@@ -11256,7 +11244,7 @@ msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:337
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:339
 msgid "If you have an LDAP directory with your customer user data, you can use it as the customer user back end. The example below shows the configuration of a LDAP customer user back end."
@@ -12263,7 +12251,7 @@ msgstr ""
 
 #: ../content/glossary.rst:7
 msgid "Agent"
-msgstr ""
+msgstr "担当者"
 
 #: ../content/glossary.rst:9
 msgid "An agent is a user which services customer users. The person working for your organization."
@@ -12283,7 +12271,7 @@ msgstr ""
 
 #: ../content/glossary.rst:17
 msgid "Customer"
-msgstr ""
+msgstr "顧客"
 
 #: ../content/glossary.rst:19
 msgid "Physical organizations to which customer users are assigned. These provide the function to group users together which belong to a single organization."
@@ -12291,7 +12279,7 @@ msgstr ""
 
 #: ../content/glossary.rst:21
 msgid "Customer User"
-msgstr ""
+msgstr "顧客ユーザー"
 
 #: ../content/glossary.rst:23
 msgid "Physical persons, and their contact data, which belong to a customer. These are the people raising tickets."
@@ -12331,7 +12319,7 @@ msgstr ""
 
 #: ../content/glossary.rst:40
 msgid "Invoker"
-msgstr ""
+msgstr "呼び出し元"
 
 #: ../content/glossary.rst:42
 msgid "An invoker is a special Perl module which allows OTOBO to provide information to a remote system via REST or HTTP. Invokers must be developed in Perl by a back end developer."
