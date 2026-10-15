@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-31 06:55+0000\n"
+"POT-Creation-Date: 2026-09-16 14:30+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\n"
@@ -452,7 +452,7 @@ msgstr "读写：用户可以管理日历。"
 #: ../content/administration-area/processes-automation/access-control-lists.rst:129
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:95
 #: ../content/administration-area/ticket-settings/attachments.rst:77
-#: ../content/administration-area/ticket-settings/auto-responses.rst:109
+#: ../content/administration-area/ticket-settings/auto-responses.rst:110
 #: ../content/administration-area/ticket-settings/priorities.rst:109
 #: ../content/administration-area/ticket-settings/queues.rst:206
 #: ../content/administration-area/ticket-settings/salutations.rst:77
@@ -478,7 +478,7 @@ msgstr "有效性 \\*"
 #: ../content/administration-area/processes-automation/access-control-lists.rst:127
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:94
 #: ../content/administration-area/ticket-settings/attachments.rst:76
-#: ../content/administration-area/ticket-settings/auto-responses.rst:108
+#: ../content/administration-area/ticket-settings/auto-responses.rst:109
 #: ../content/administration-area/ticket-settings/priorities.rst:109
 #: ../content/administration-area/ticket-settings/queues.rst:205
 #: ../content/administration-area/ticket-settings/salutations.rst:76
@@ -725,7 +725,7 @@ msgstr "注释 \\*"
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:86
 #: ../content/administration-area/processes-automation/access-control-lists.rst:116
 #: ../content/administration-area/ticket-settings/attachments.rst:80
-#: ../content/administration-area/ticket-settings/auto-responses.rst:112
+#: ../content/administration-area/ticket-settings/auto-responses.rst:113
 #: ../content/administration-area/ticket-settings/queues.rst:209
 #: ../content/administration-area/ticket-settings/salutations.rst:80
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:135
@@ -1964,7 +1964,7 @@ msgstr "预约通知设置 - 基本"
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:87
 #: ../content/administration-area/processes-automation/access-control-lists.rst:117
 #: ../content/administration-area/ticket-settings/attachments.rst:80
-#: ../content/administration-area/ticket-settings/auto-responses.rst:114
+#: ../content/administration-area/ticket-settings/auto-responses.rst:115
 #: ../content/administration-area/ticket-settings/queues.rst:210
 #: ../content/administration-area/ticket-settings/salutations.rst:82
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:136
@@ -2457,7 +2457,7 @@ msgstr "预约通知变量"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:322
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:408
-#: ../content/administration-area/ticket-settings/auto-responses.rst:119
+#: ../content/administration-area/ticket-settings/auto-responses.rst:120
 #: ../content/administration-area/ticket-settings/salutations.rst:87
 #: ../content/administration-area/ticket-settings/signatures.rst:87
 #: ../content/administration-area/ticket-settings/templates.rst:137
@@ -2472,7 +2472,7 @@ msgstr "例如，变量 ``<OTRS_APPOINTMENT_TITLE[20]>`` 扩展为标题的前20
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:337
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:423
-#: ../content/administration-area/ticket-settings/auto-responses.rst:134
+#: ../content/administration-area/ticket-settings/auto-responses.rst:135
 #: ../content/administration-area/ticket-settings/salutations.rst:102
 #: ../content/administration-area/ticket-settings/signatures.rst:104
 #: ../content/administration-area/ticket-settings/templates.rst:152
@@ -2863,7 +2863,7 @@ msgid "This description in based on our experience with Microsoft Azure as OIDC 
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:99
-msgid "Go to https://portal.azure.com Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
+msgid "Go to ``https://portal.azure.com`` Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
@@ -3510,7 +3510,7 @@ msgid "Mail Account Settings"
 msgstr "邮件帐户设置"
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:95
-#: ../content/administration-area/ticket-settings/auto-responses.rst:102
+#: ../content/administration-area/ticket-settings/auto-responses.rst:103
 #: ../content/administration-area/ticket-settings/templates.rst:111
 msgid "Type \\*"
 msgstr "类型 \\*"
@@ -4130,7 +4130,7 @@ msgid "Ticket Notification Variables"
 msgstr "工单通知变量"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:417
-#: ../content/administration-area/ticket-settings/auto-responses.rst:128
+#: ../content/administration-area/ticket-settings/auto-responses.rst:129
 #: ../content/administration-area/ticket-settings/templates.rst:146
 #, fuzzy
 msgid "For example, the variable ``<OTOBO_TICKET_TicketNumber>`` expands to the ticket number allowing a template to include something like the following."
@@ -4196,7 +4196,7 @@ msgid "To activate this feature, enable the system config ``Frontend::Module###C
 msgstr ""
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:23
-msgid "For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface. For more information on this, please refer to the `Dynamic Fields section on this manual <https://doc.otobo.de/manual/admin/11.0/en/content/administration-area/processes-automation/dynamic-fields.html#>`_."
+msgid "For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface. For more information on this, please refer to the `Dynamic Fields section on this manual <https://doc.otobo.org/manual/admin/11.1/en/content/administration-area/processes-automation/dynamic-fields.html>`_."
 msgstr ""
 
 #: ../content/administration-area/languages.rst:2
@@ -9247,43 +9247,43 @@ msgstr "auto reject 自动拒绝"
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:93
+#: ../content/administration-area/ticket-settings/auto-responses.rst:94
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:60
 msgid "auto remove"
 msgstr "auto remove-自动移除"
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:93
-msgid "If a ticket is deleted by the system, the customer gets this automatic response."
+msgid "Has currently no effect. No response will be generated."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:98
+#: ../content/administration-area/ticket-settings/auto-responses.rst:99
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:48
 msgid "auto reply"
 msgstr "auto reply-自动回复"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:96
+#: ../content/administration-area/ticket-settings/auto-responses.rst:97
 msgid "If a new ticket is generated the customer will get this auto response. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for new tickets created through the customer web interface or through a telephone call (telephone ticket) otherwise only for new tickets created from a customer email. This automatic repsonse does not apply if the 'auto reply/new ticket' event type occours."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:102
+#: ../content/administration-area/ticket-settings/auto-responses.rst:103
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:57
 msgid "auto reply/new ticket"
 msgstr "自动回复/新工单"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:101
+#: ../content/administration-area/ticket-settings/auto-responses.rst:102
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'new ticket' this event will be triggered if a customer answers in a ticket, that is already closed. You can use this message to inform the customer of the new ticket number."
 msgstr ""
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:105
+#: ../content/administration-area/ticket-settings/auto-responses.rst:106
 msgid "Auto response from \\*"
 msgstr "自动响应的发件人 \\*"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:105
+#: ../content/administration-area/ticket-settings/auto-responses.rst:106
 msgid "The sender email address, from which the automatic response will be sent."
 msgstr "发件人电子邮件地址，将从中发送自动回复。"
 
-#: ../content/administration-area/ticket-settings/auto-responses.rst:117
-#: ../content/administration-area/ticket-settings/auto-responses.rst:126
+#: ../content/administration-area/ticket-settings/auto-responses.rst:118
+#: ../content/administration-area/ticket-settings/auto-responses.rst:127
 msgid "Auto Response Variables"
 msgstr "自动响应变量"
 
@@ -11181,7 +11181,7 @@ msgid "Agents can be read and synchronized from an Active Directory® or LDAP se
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:143
-msgid "The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otrs.ch or in the `OTOBO Portal <https://portal.otrs.ch/>`__."
+msgid "The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otobo.io or in the `OTOBO Portal <https://portal.rother-oss.com/>`__."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:147
@@ -11193,42 +11193,42 @@ msgid "The users table houses your agent data per default. You may attach a dire
 msgstr "默认情况下users表存储您的服务人员数据。 您可以将目录服务器（LDAP/Active Directory）附加到您的系统以进行身份验证。 为了实现这个，从 ``Defaults.pm`` 复制下面的内容并将其粘贴到 ``Config.pm`` 中。"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:212
-#: ../content/administration-area/users-groups-roles/agents.rst:320
+#: ../content/administration-area/users-groups-roles/agents.rst:346
 msgid "The minimum required to connect to a directory server is:"
 msgstr "连接目录服务器所必需的最少信息是："
 
 #: ../content/administration-area/users-groups-roles/agents.rst:222
-#: ../content/administration-area/users-groups-roles/agents.rst:330
+#: ../content/administration-area/users-groups-roles/agents.rst:356
 msgid "``Host``"
 msgstr "``Host``"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:222
-#: ../content/administration-area/users-groups-roles/agents.rst:330
+#: ../content/administration-area/users-groups-roles/agents.rst:356
 msgid "The DNS name or IP of your directory server."
 msgstr "目录服务器的DNS名称或IP。"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:225
-#: ../content/administration-area/users-groups-roles/agents.rst:333
+#: ../content/administration-area/users-groups-roles/agents.rst:359
 msgid "``BaseDN``"
 msgstr "``BaseDN``"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:225
-#: ../content/administration-area/users-groups-roles/agents.rst:333
+#: ../content/administration-area/users-groups-roles/agents.rst:359
 msgid "The starting point in your directory tree."
 msgstr "目录树中的起点。"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:232
-#: ../content/administration-area/users-groups-roles/agents.rst:340
+#: ../content/administration-area/users-groups-roles/agents.rst:366
 msgid "``UID``"
 msgstr "``UID``"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:228
-#: ../content/administration-area/users-groups-roles/agents.rst:336
+#: ../content/administration-area/users-groups-roles/agents.rst:362
 msgid "The attribute used for login and identification."
 msgstr "用于登录和识别的属性。"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:232
-#: ../content/administration-area/users-groups-roles/agents.rst:340
+#: ../content/administration-area/users-groups-roles/agents.rst:366
 msgid "This is ``sAMAccountName`` for an Active Directory."
 msgstr "对于Active Directory这里是 ``sAMAccountName``。"
 
@@ -11249,55 +11249,75 @@ msgstr "要与特定目录服务器同步（请参阅下面的 :ref:`Agent User 
 msgid "Reuse of an :ref:`Agent Synchronization Back End` is also possible."
 msgstr "也可以重复使用 :ref:`Agent Synchronization Back End`。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:275
+#: ../content/administration-area/users-groups-roles/agents.rst:274
+msgid "External Authentication with ``HTTPBasicAuth``"
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:276
+msgid "External authentication (e.g. Kerberos or LDAP based) can optionally be configured outside of OTOBO. Examples may include configuring NGINX to handle authentication and pass the user identity on to OTOBO. Two sources for passing the external user identity to OTOBO are supported using the ``HTTPBasicAuth`` authentication module:"
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:280
+msgid "The PSGI variable ``REMOTE_USER``. It is set by the web server itself after it has authenticated the request (e.g., Apache with ``mod_auth_gssapi`` in CGI, FCGI or ``mod_perl`` mode). A HTTP client can not supply this value, so it is always trusted."
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:284
+msgid "The HTTP header ``Remote-User``. This is the only way a reverse proxy (e.g., NGINX, Apache ``mod_proxy``, or Traefik) can forward the identity of the requester. Because any HTTP client is able to set this header, it is ignored unless *BOTH* of the following are configured in ``Config.pm``:"
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:296
+msgid "The proxy *MUST* also remove any client supplied ``Remote-User`` header before adding its own. See ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` and  ``scripts/apache2-httpd*.include.conf`` in `OTOBO on GitHub <https://github.com/RotherOSS/otobo>`_ for examples."
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/agents.rst:301
 msgid "Agent Synchronization Back End"
 msgstr "服务人员同步后端"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:277
+#: ../content/administration-area/users-groups-roles/agents.rst:303
 msgid "It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server."
 msgstr "建议同步服务人员数据，以便在授权之前不必手动将服务人员添加到用户表中。此外，可以使用目录服务器的安全对象自动添加组和角色。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:282
+#: ../content/administration-area/users-groups-roles/agents.rst:308
 msgid "Agent User Data"
 msgstr "服务人员用户数据"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:284
+#: ../content/administration-area/users-groups-roles/agents.rst:310
 msgid "Syncing user data upon login. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "登录时同步用户数据。要实现此操作，请复制 ``Defaults.pm`` 中的以下内容并将其粘贴到 ``Config.pm`` 中。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:344
+#: ../content/administration-area/users-groups-roles/agents.rst:370
 msgid "Multiple :ref:`Agent Synchronization Back End` blocks can be used. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end. Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`."
 msgstr "可以使用多个 :ref:`Agent Synchronization Back End` 块。请确保在所有设置后添加一个数字值[1-9]以指示哪些设置属于哪个后端。每个 ``AuthSyncModule`` 必须在 :ref:`Agent Authentication Back End` 中明确使用。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:350
+#: ../content/administration-area/users-groups-roles/agents.rst:376
 msgid "Agent Group Data"
 msgstr "服务人员组数据"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:352
+#: ../content/administration-area/users-groups-roles/agents.rst:378
 #, fuzzy
 msgid "It is possible to use security objects to synchronize users to OTOBO groups. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "可以使用安全对象将用户同步到OTRS组。 为了实现这个，从 ``Defaults.pm`` 复制下面的内容并将其粘贴到 ``Config.pm`` 中。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:357
+#: ../content/administration-area/users-groups-roles/agents.rst:383
 #, fuzzy
 msgid ":doc:`groups` must be available in OTOBO to use this feature."
 msgstr ":doc:`groups` 必须在OTRS中可用才能使用此功能。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:361
+#: ../content/administration-area/users-groups-roles/agents.rst:387
 msgid "Agent Role Data"
 msgstr "服务人员角色数据"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:363
+#: ../content/administration-area/users-groups-roles/agents.rst:389
 #, fuzzy
 msgid "It is possible to use security objects to synchronize users to OTOBO roles. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr "可以使用安全对象将用户同步到OTRS角色。 为了实现这个，从 ``Defaults.pm`` 复制下面的内容并将其粘贴到 ``Config.pm`` 中。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:368
+#: ../content/administration-area/users-groups-roles/agents.rst:394
 #, fuzzy
 msgid ":doc:`roles` must be available in OTOBO to use this feature."
 msgstr ":doc:`roles` 必须在OTRS中可用才能使用此功能。"
 
-#: ../content/administration-area/users-groups-roles/agents.rst:372
+#: ../content/administration-area/users-groups-roles/agents.rst:398
 msgid "Agent Configuration Options"
 msgstr "服务人员配置选项"
 
@@ -11902,8 +11922,7 @@ msgid "It is recommended to always use English words for names."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:332
-#: ../content/administration-area/users-groups-roles/customer-users.rst:440
-msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otobo.org/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
+msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otobo.org/manual/dev/11.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:337
@@ -11932,6 +11951,10 @@ msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:428
 msgid "Expand the ``Map`` array in ``Kernel/Config.pm`` with the entries for these attributes."
+msgstr ""
+
+#: ../content/administration-area/users-groups-roles/customer-users.rst:440
+msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otobo.org/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:445
