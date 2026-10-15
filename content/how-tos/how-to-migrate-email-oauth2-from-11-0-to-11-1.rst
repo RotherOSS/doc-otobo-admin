@@ -182,12 +182,11 @@ Additionally, the *Communication Log* must show the communication without errors
 
    An Error-free Communcation
 
-Start the Daemon again
-----------------------
+Start the Daemon
+----------------
 
-Start the Daemon to enable background activities stopped in section "Update the PostMaster Mail Accounts".
-
-  | Use the following shell-command:
+Start the Daemon again to enable background activities.
+Use the following shell-command:
 
 ::
 
