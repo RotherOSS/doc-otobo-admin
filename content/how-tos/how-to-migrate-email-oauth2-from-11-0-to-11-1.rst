@@ -13,7 +13,8 @@ In order to update OTOBO 11.0.x to 11.1.x and transfer the OAuth2-settings from 
 Save Settings from System Configuration
 ---------------------------------------
 
-At first, some System Configuration settings of the *MailAccount-OAuth2*-package Configuration need to be stored in order to configure the package-settings in the framework after the upgrade.
+If an OTOBO package is removd, its settings will be remove.
+In order to be able to migrate your configuration from the *MailAccount-OAuth2* package to the framework, store the following settings.
 
 #. From the System Configuration setting ``OAuth2::MailAccount::Profiles###Custom1``, store the following information:
 
