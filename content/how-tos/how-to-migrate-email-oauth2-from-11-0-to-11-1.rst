@@ -1,7 +1,8 @@
 Migrate Email OAuth2 from OTOBO 11.0 to 11.1
 ============================================
 
-OTOBO 11.0.x requires the package *MailAccount-OAuth2* to use OAuth2-authentication for e-mail-fetching, while OTOBO 11.1.x has this functionality included into the framework an no longer requires the package.
+OTOBO 11.0.x requires the package *MailAccount-OAuth2* to use OAuth2-based authentication for email fetching.
+This functionality is included in OTOBO 11.1.x, hence the framework does no longer require the package.
 
 In order to update OTOBO 11.0.x to 11.1.x and transfer the OAuth2-settings from the package into the framework settings, the following steps are required.
 
