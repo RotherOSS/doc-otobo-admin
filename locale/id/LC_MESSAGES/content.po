@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-16 14:30+0000\n"
+"POT-Creation-Date: 2026-10-16 10:58+0000\n"
 "PO-Revision-Date: 2025-04-10 10:08+0000\n"
 "Last-Translator: Firman Arrow <firman.arrow@gmail.com>\n"
 "Language-Team: Indonesian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/id/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 #: ../content/administration-area/processes-automation.rst:13
 #: ../content/administration-area/ticket-settings.rst:28
 #: ../content/administration-area/users-groups-roles.rst:9
-#: ../content/how-tos.rst:10 ../content/index.rst:29
+#: ../content/how-tos/index.rst:10 ../content/index.rst:29
 msgid "Contents"
 msgstr ""
 
@@ -2756,7 +2756,7 @@ msgid "This description in based on our experience with Microsoft Azure as OIDC 
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:99
-msgid "Go to ``https://portal.azure.com`` Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
+msgid "Go to https://azure.microsoft.com/en-us Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
@@ -2784,7 +2784,7 @@ msgid "Add a new Application in \"App registrations\":"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:136
-msgid "Create a Redirect URL of type \"Web\" and a secret client key. The Redirect URL should look like: ``https://<OTOBO address>/otobo/index.pl?Action=AdminMailAccount``"
+msgid "Create a Redirect URL of type \"Web\" and a secret client key. The Redirect URL should look like: ``https://<OTOBO address>/otobo/index.pl?Action=AdminOAuthTokenStore&Subaction=OAuth&code=``"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:145
@@ -3010,7 +3010,7 @@ msgid "Select a mail header or an ``X-OTOBO`` header from the first drop-down li
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:112
-msgid "A list of mail header entries can be found in `RFC5322 <https://tools.ietf.org/html/rfc5322>`_. It is also possible to define ``X-OTOBO`` headers as filter condition. The different ``X-OTOBO`` headers and their meaning are the following:"
+msgid "A list of mail header entries can be found in `RFC5322 <https://www.rfc-editor.org/info/rfc5322/>`_. It is also possible to define ``X-OTOBO`` headers as filter condition. The different ``X-OTOBO`` headers and their meaning are the following:"
 msgstr ""
 
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:117
@@ -4021,7 +4021,7 @@ msgid "To activate this feature, enable the system config ``Frontend::Module###C
 msgstr ""
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:23
-msgid "For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface. For more information on this, please refer to the `Dynamic Fields section on this manual <https://doc.otobo.org/manual/admin/11.1/en/content/administration-area/processes-automation/dynamic-fields.html>`_."
+msgid "For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface. For more information on this, please refer to the `Dynamic Fields Section <https://doc.otobo.de/manual/admin/11.1/en/content/administration-area/processes-automation/dynamic-fields.html#>`_."
 msgstr ""
 
 #: ../content/administration-area/languages.rst:2
@@ -6437,6 +6437,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:116
 #: ../content/administration-area/processes-automation/process-management.rst:316
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:23
 msgid "Name"
 msgstr ""
 
@@ -10488,6 +10489,7 @@ msgstr ""
 
 #: ../content/administration-area/users-groups-roles/agents.rst:117
 #: ../content/administration-area/users-groups-roles/customer-users.rst:108
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:85
 msgid "Password"
 msgstr ""
 
@@ -10525,140 +10527,136 @@ msgstr ""
 msgid "Agents can be read and synchronized from an Active Directory® or LDAP server."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:143
-msgid "The following configurations are taken care of by the *Customer Solution Team* in **OTOBO**. Please contact the *Customer Solution Team* via support@otobo.io or in the `OTOBO Portal <https://portal.rother-oss.com/>`__."
-msgstr ""
-
-#: ../content/administration-area/users-groups-roles/agents.rst:147
+#: ../content/administration-area/users-groups-roles/agents.rst:142
 msgid "Agent Authentication Back End"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:149
+#: ../content/administration-area/users-groups-roles/agents.rst:144
 msgid "The users table houses your agent data per default. You may attach a directory server (LDAP/Active Directory) to your installation for authentication. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:212
-#: ../content/administration-area/users-groups-roles/agents.rst:346
+#: ../content/administration-area/users-groups-roles/agents.rst:207
+#: ../content/administration-area/users-groups-roles/agents.rst:341
 msgid "The minimum required to connect to a directory server is:"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:222
-#: ../content/administration-area/users-groups-roles/agents.rst:356
+#: ../content/administration-area/users-groups-roles/agents.rst:217
+#: ../content/administration-area/users-groups-roles/agents.rst:351
 msgid "``Host``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:222
-#: ../content/administration-area/users-groups-roles/agents.rst:356
+#: ../content/administration-area/users-groups-roles/agents.rst:217
+#: ../content/administration-area/users-groups-roles/agents.rst:351
 msgid "The DNS name or IP of your directory server."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:225
-#: ../content/administration-area/users-groups-roles/agents.rst:359
+#: ../content/administration-area/users-groups-roles/agents.rst:220
+#: ../content/administration-area/users-groups-roles/agents.rst:354
 msgid "``BaseDN``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:225
-#: ../content/administration-area/users-groups-roles/agents.rst:359
+#: ../content/administration-area/users-groups-roles/agents.rst:220
+#: ../content/administration-area/users-groups-roles/agents.rst:354
 msgid "The starting point in your directory tree."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:232
-#: ../content/administration-area/users-groups-roles/agents.rst:366
+#: ../content/administration-area/users-groups-roles/agents.rst:227
+#: ../content/administration-area/users-groups-roles/agents.rst:361
 msgid "``UID``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:228
-#: ../content/administration-area/users-groups-roles/agents.rst:362
+#: ../content/administration-area/users-groups-roles/agents.rst:223
+#: ../content/administration-area/users-groups-roles/agents.rst:357
 msgid "The attribute used for login and identification."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:232
-#: ../content/administration-area/users-groups-roles/agents.rst:366
+#: ../content/administration-area/users-groups-roles/agents.rst:227
+#: ../content/administration-area/users-groups-roles/agents.rst:361
 msgid "This is ``sAMAccountName`` for an Active Directory."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:234
-#: ../content/administration-area/users-groups-roles/agents.rst:261
+#: ../content/administration-area/users-groups-roles/agents.rst:229
+#: ../content/administration-area/users-groups-roles/agents.rst:256
 msgid "To use multiple back ends, add an additional section of the example code to the ``Config.pm``. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:252
+#: ../content/administration-area/users-groups-roles/agents.rst:247
 msgid "All back ends will are used in succession. The UID must be unique to all back ends, otherwise some side effects may occur."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:255
+#: ../content/administration-area/users-groups-roles/agents.rst:250
 msgid "To synchronize with a specific directory server (see :ref:`Agent User Data` below), you must add the appropriate setting to your :ref:`Agent Authentication Back End`. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:267
+#: ../content/administration-area/users-groups-roles/agents.rst:262
 msgid "Reuse of an :ref:`Agent Synchronization Back End` is also possible."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:274
+#: ../content/administration-area/users-groups-roles/agents.rst:269
 msgid "External Authentication with ``HTTPBasicAuth``"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:276
+#: ../content/administration-area/users-groups-roles/agents.rst:271
 msgid "External authentication (e.g. Kerberos or LDAP based) can optionally be configured outside of OTOBO. Examples may include configuring NGINX to handle authentication and pass the user identity on to OTOBO. Two sources for passing the external user identity to OTOBO are supported using the ``HTTPBasicAuth`` authentication module:"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:280
+#: ../content/administration-area/users-groups-roles/agents.rst:275
 msgid "The PSGI variable ``REMOTE_USER``. It is set by the web server itself after it has authenticated the request (e.g., Apache with ``mod_auth_gssapi`` in CGI, FCGI or ``mod_perl`` mode). A HTTP client can not supply this value, so it is always trusted."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:284
+#: ../content/administration-area/users-groups-roles/agents.rst:279
 msgid "The HTTP header ``Remote-User``. This is the only way a reverse proxy (e.g., NGINX, Apache ``mod_proxy``, or Traefik) can forward the identity of the requester. Because any HTTP client is able to set this header, it is ignored unless *BOTH* of the following are configured in ``Config.pm``:"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:296
+#: ../content/administration-area/users-groups-roles/agents.rst:291
 msgid "The proxy *MUST* also remove any client supplied ``Remote-User`` header before adding its own. See ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` and  ``scripts/apache2-httpd*.include.conf`` in `OTOBO on GitHub <https://github.com/RotherOSS/otobo>`_ for examples."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:301
+#: ../content/administration-area/users-groups-roles/agents.rst:296
 msgid "Agent Synchronization Back End"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:303
+#: ../content/administration-area/users-groups-roles/agents.rst:298
 msgid "It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization. Additionally, groups and roles can be added automatically using security objects of the directory server."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:308
+#: ../content/administration-area/users-groups-roles/agents.rst:303
 msgid "Agent User Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:310
+#: ../content/administration-area/users-groups-roles/agents.rst:305
 msgid "Syncing user data upon login. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:370
+#: ../content/administration-area/users-groups-roles/agents.rst:365
 msgid "Multiple :ref:`Agent Synchronization Back End` blocks can be used. Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end. Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:376
+#: ../content/administration-area/users-groups-roles/agents.rst:371
 msgid "Agent Group Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:378
+#: ../content/administration-area/users-groups-roles/agents.rst:373
 msgid "It is possible to use security objects to synchronize users to OTOBO groups. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:383
+#: ../content/administration-area/users-groups-roles/agents.rst:378
 msgid ":doc:`groups` must be available in OTOBO to use this feature."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:387
+#: ../content/administration-area/users-groups-roles/agents.rst:382
 msgid "Agent Role Data"
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:389
+#: ../content/administration-area/users-groups-roles/agents.rst:384
 msgid "It is possible to use security objects to synchronize users to OTOBO roles. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:394
+#: ../content/administration-area/users-groups-roles/agents.rst:389
 msgid ":doc:`roles` must be available in OTOBO to use this feature."
 msgstr ""
 
-#: ../content/administration-area/users-groups-roles/agents.rst:398
+#: ../content/administration-area/users-groups-roles/agents.rst:393
 msgid "Agent Configuration Options"
 msgstr ""
 
@@ -11253,7 +11251,8 @@ msgid "It is recommended to always use English words for names."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:332
-msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otobo.org/manual/dev/11.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
+#: ../content/administration-area/users-groups-roles/customer-users.rst:440
+msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otobo.org/manual/dev/11.1/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the Developer Manual."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:337
@@ -11282,10 +11281,6 @@ msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:428
 msgid "Expand the ``Map`` array in ``Kernel/Config.pm`` with the entries for these attributes."
-msgstr ""
-
-#: ../content/administration-area/users-groups-roles/customer-users.rst:440
-msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <http://doc.otobo.org/doc/manual/developer/7.0/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the developer manual."
 msgstr ""
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:445
@@ -12467,18 +12462,6 @@ msgstr ""
 msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be found on the `GNU website <https://www.gnu.org/licenses/fdl-1.3.txt>`__."
 msgstr ""
 
-#: ../content/how-tos.rst:2
-msgid "How-Tos"
-msgstr ""
-
-#: ../content/how-tos.rst:4
-msgid "While this documentation serves as a reference, it does not directly provide solutions or give recipes for common configurations. For this purpose have a look at these resources:"
-msgstr ""
-
-#: ../content/how-tos.rst:8
-msgid "You may find answers to less complex questions in the public section of our customer portal: https://portal.rother-oss.com/otobo/public.pl"
-msgstr ""
-
 #: ../content/how-tos/ckeditor-agent.rst:2
 msgid "Configuring CKEditor Plugins and Toolbar"
 msgstr ""
@@ -12580,6 +12563,312 @@ msgstr ""
 
 #: ../content/how-tos/ckeditor-agent.rst:65
 msgid "CKEditor in AgentTicketPhone with enhanced mode enabled and Strikethrough removed"
+msgstr ""
+
+#: ../content/how-tos/index.rst:2
+msgid "How-Tos"
+msgstr ""
+
+#: ../content/how-tos/index.rst:4
+msgid "While this documentation serves as a reference, it does not directly provide solutions or give recipes for common configurations. For this purpose have a look at these resources:"
+msgstr ""
+
+#: ../content/how-tos/index.rst:8
+msgid "You may find answers to less complex questions in the public section of our customer portal: https://portal.rother-oss.com/otobo/public.pl"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:2
+msgid "Migrate Email OAuth2 from OTOBO 11.0 to 11.1"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:4
+msgid "OTOBO 11.0.x requires the package *MailAccount-OAuth2* to use OAuth2-based authentication for email fetching. This functionality is included in OTOBO 11.1.x, hence the framework does no longer require the package."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:7
+msgid "In order to update OTOBO 11.0.x to 11.1.x and transfer the OAuth2-settings from the package into the framework settings, the following steps are required."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:11
+msgid "Page Contents"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:14
+msgid "Save Settings from System Configuration"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:16
+msgid "If an OTOBO package is removed, its settings will be removed as well. In order to be able to migrate your configuration from the *MailAccount-OAuth2* package to the framework, store the following settings."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:19
+msgid "From the System Configuration setting ``OAuth2::MailAccount::Profiles###Custom1``, store the following information:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:21
+msgid "ClientID"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:22
+msgid "ClientSecret"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:24
+msgid "ProviderName"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
+msgid "System Configuration Setting OAuth2::MailAccount::Profiles###Custom1"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:29
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:39
+msgid "Fields from System Configuration that must be stored"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:31
+msgid "From the setting ``OAuth2::MailAccount::Providers###MicrosoftAzure``, store the follwing information:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:33
+msgid "AuthURL"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:34
+msgid "TokenURL"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
+msgid "System Configuration Setting OAuth2::MailAccount::Providers###MicrosoftAzure"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:44
+msgid "Create a Provider Profile"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:46
+msgid "The Provider Profile defines the communication with your E-Mail provider."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:48
+msgid "In the admin area, navigate to *OIDC Profile Management* and add a profile:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:50
+msgid "Profile Name - Define a name for this profile"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:51
+msgid "Metadata Url - The Well-Known Provider Metadata Url."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:52
+msgid "Client ID - from section \"Save Settings from System Configuration\" above"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:53
+msgid "Client Secret - section \"Save Settings from System Configuration\" above"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
+msgid "Admin->OIDC Profile Management"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:60
+msgid "Creating a new Profile in the OIDC Profile Management"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:63
+msgid "Create a Functional Account"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:65
+msgid "The Functional Account connects your *PostMaster Mail Account* to the *Provider Profile*."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:67
+msgid "In the admin area, navigate to *OAuth Functional Accounts* and add an account:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:69
+msgid "Account Name - Define a name for this account"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:70
+msgid "OIDC Profile - as defined in \"Create a Provider Profile\" above"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:71
+msgid "Grant Type - select ``authorization_code`` from the dropdown-list"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:72
+msgid "OAuth2 Scopes - ``openid offline_access``"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:73
+msgid "Resource Parameter name - ``resource``"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:74
+msgid "Token Type - ``access_token``"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
+msgid "Admin->OAuth Functional Account"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:79
+msgid "Creating a new Account in OAuth Functional Account"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:81
+msgid "Click [Save] and login to your Microsoft account:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:83
+msgid "Email, phone or Skype"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:87
+msgid "2FA"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:89
+msgid "In the overview of OIDC Functional Accounts, click the [Renew] button for the created account"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:90
+msgid "If everything is correct, the following message appears: \"Token OAuth2TestNeuAccount updated!\""
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:95
+msgid "Check the Token Presence in the Database"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:97
+msgid "After the steps above, the token must be in the database. If it is not present here, verify/repeat the steps done until here."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:100
+msgid "Navigate to Admin->SQL Box and verify the presence ot the token in the database with the following SQL-statement:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:111
+msgid "Admin->SQL Box"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:111
+msgid "When the token is stored in the database, it will look like in the screenshot above"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:114
+msgid "Update the PostMaster Mail Accounts"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:116
+msgid "The *PostMasterMail Account* settings must be changed from the former package setting to a type understandable for OTOBO also after package removal."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:118
+msgid "Before the change, stop the daemon to prevent E-Mails from being fetched after the temporary change of the *Type* below."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:120
+msgid "Stop the docker container for the daemon"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
+msgid "Use the following shell-command:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:128
+msgid "In the admin interface, navigate to *PostMaster Mail Accounts*"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
+msgid "For each account, change the type from *IMAPOAuth2* to *IMAP* (or from *POP3OAuth2* to *POP3*) before removing the *MailAccount-OAuth2*-package."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:135
+msgid "Mail Account to change Type"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:135
+msgid "Change \"Type\" on each Mail Account to \"IMAP\" or \"POP3\" (depending on protocol used)"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:138
+msgid "Uninstall the no longer required Package"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:140
+msgid "Uninstall the package *MailAccount-OAuth2* with the Package Manager, as it will no longer be required with OTOBO 11.1.x."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:145
+msgid "Changes in Microsoft Azure"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:147
+msgid "In Microsoft Azure, remove the old URI and keep only the new URI which is needed after the OTOBO upgrade:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:154
+msgid "Upgrade OTOBO from 11.0.x to 11.1.x"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:156
+msgid "Follow the `Documentation <https://doc.otobo.org/manual/installation/11.1/en/content/updating.html>`__ for upgrade guidance."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:159
+msgid "Clean Up PostMaster Mail Account Settings after Upgrading"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:161
+msgid "After the upgrade, change the authentication for all *PostMaster Mail Accounts* from *Basic Auth* to *XOAUTH2* and select *Username* and *OIDC Account* needed now for OAuth2-Authentication:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:166
+msgid "Mail Account to change Authentication"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:166
+msgid "Change \"Authentication\" on each Mail Account to \"XOAUTH2\""
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:169
+msgid "Test after the Upgrade"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:171
+msgid "In the admin interface, navigate to *PostMaster Mail Accounts*. For each account, click [Fetch mail] in the *RUN NOW!*-column"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:177
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:185
+msgid "List of Mail Accounts"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:177
+msgid "Click [Fetch mail] here."
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:179
+msgid "The message \"Finished\" should appear on top of the screen, Additionally, the *Communication Log* must show the communication without errors:"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:185
+msgid "An Error-free Communcation"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:189
+msgid "Start the Daemon"
+msgstr ""
+
+#: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:190
+msgid "Start the Daemon again to enable background activities. Use the following shell-command:"
 msgstr ""
 
 #: ../content/index.rst:6
