@@ -1,7 +1,8 @@
 Migrate Email OAuth2 from OTOBO 11.0 to 11.1
 ============================================
 
-OTOBO 11.0.x requires the package *MailAccount-OAuth2* to use OAuth2-authentication for e-mail-fetching, while OTOBO 11.1.x has this functionality included into the framework an no longer requires the package.
+OTOBO 11.0.x requires the package *MailAccount-OAuth2* to use OAuth2-based authentication for email fetching.
+This functionality is included in OTOBO 11.1.x, hence the framework does no longer require the package.
 
 In order to update OTOBO 11.0.x to 11.1.x and transfer the OAuth2-settings from the package into the framework settings, the following steps are required.
 
@@ -12,7 +13,8 @@ In order to update OTOBO 11.0.x to 11.1.x and transfer the OAuth2-settings from 
 Save Settings from System Configuration
 ---------------------------------------
 
-At first, some System Configuration settings of the *MailAccount-OAuth2*-package Configuration need to be stored in order to configure the package-settings in the framework after the upgrade.
+If an OTOBO package is removed, its settings will be removed as well.
+In order to be able to migrate your configuration from the *MailAccount-OAuth2* package to the framework, store the following settings.
 
 #. From the System Configuration setting ``OAuth2::MailAccount::Profiles###Custom1``, store the following information:
 
@@ -182,13 +184,12 @@ Additionally, the *Communication Log* must show the communication without errors
 
    An Error-free Communcation
 
-Start the Daemon again
-----------------------
 
-Start the Daemon to enable background activities stopped in section "Update the PostMaster Mail Accounts".
+Start the Daemon
+----------------
+Start the Daemon again to enable background activities.
+Use the following shell-command:
 
-  | Use the following shell-command:
-
-::
+.. code-block:: sh
 
    docker compose up -d daemon
