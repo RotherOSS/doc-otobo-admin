@@ -12,4 +12,4 @@ For this purpose have a look at these resources:
    :caption: Contents
 
    ckeditor-agent
-   how-to-migrate-email-oauth2-from-11-0-to-11-1
+   migrate-email-oauth2-from-11-0-to-11-1
