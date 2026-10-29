@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTOBO Administration Manual 10.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-16 10:58+0000\n"
+"POT-Creation-Date: 2026-10-29 15:04+0000\n"
 "PO-Revision-Date: 2024-01-31 08:22+0000\n"
 "Last-Translator: Rune Bjørnerås <rune@bibsyst.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.otobo.org/projects/otobo10/admin-manual/nb_NO/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 #: ../content/administration-area/processes-automation.rst:13
 #: ../content/administration-area/ticket-settings.rst:28
 #: ../content/administration-area/users-groups-roles.rst:9
-#: ../content/how-tos/index.rst:10 ../content/index.rst:29
+#: ../content/how-tos/index.rst:10 ../content/index.rst:23
 msgid "Contents"
 msgstr ""
 
@@ -12904,45 +12904,41 @@ msgid "OTOBO is an open source ticket request system with many features to manag
 msgstr ""
 
 #: ../content/index.rst:13
-msgid "This documentation is for the **11.1 beta** version of OTOBO. It may contain incomplete or inaccurate information, and some features may not be fully functional. Please use this documentation with caution and report any issues to the OTOBO development team. You may find the **documentation for the latest stable release** at https://doc.otobo.org/manual/admin/11.0/en/content/index.html."
-msgstr ""
-
-#: ../content/index.rst:19
 msgid "About This Manual"
 msgstr ""
 
-#: ../content/index.rst:21
+#: ../content/index.rst:15
 msgid "This is the OTOBO Administration Manual. The chapters describe the administration of the OTOBO software. The main parts of this manual are the Administration Area and the How-Tos. How-Tos are step-by-step instructions to solve a particular problem, while the Administration Area chapters describe the configuration possibilities of OTOBO in more detail."
 msgstr ""
 
-#: ../content/index.rst:27
+#: ../content/index.rst:21
 msgid "If you are new to OTOBO, we recommend to start with the :doc:`Getting Startet Guide <getting-started>`."
 msgstr ""
 
-#: ../content/index.rst:41
+#: ../content/index.rst:35
 msgid "License"
 msgstr ""
 
-#: ../content/index.rst:43
+#: ../content/index.rst:37
 msgid "This work is copyrighted by OTRS AG (https://otrs.com), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
 msgstr ""
 
-#: ../content/index.rst:46
+#: ../content/index.rst:40
 msgid "Copyright © for modifications and amendments 2019-2024 ROTHER OSS GmbH (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany"
 msgstr ""
 
-#: ../content/index.rst:49
+#: ../content/index.rst:43
 msgid "Terms and Conditions OTRS: Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be found on the GNU website."
 msgstr ""
 
-#: ../content/index.rst:56
+#: ../content/index.rst:50
 msgid "Terms and Conditions Rother OSS: Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled \"COPYING\"."
 msgstr ""
 
-#: ../content/index.rst:63
+#: ../content/index.rst:57
 msgid "Published by: Rother OSS GmbH, (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany."
 msgstr ""
 
-#: ../content/index.rst:66
+#: ../content/index.rst:60
 msgid "Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)."
 msgstr ""
