@@ -311,7 +311,7 @@ For properties, keys and values that can be used in ACLs, see the following exam
 
    ---
    - ChangeBy: root@localhost
-     ChangeTime: 2019-01-07 10:42:59
+     ChangeTime: 2026-11-02 10:42:59
      Comment: ACL Reference.
      ConfigMatch:
        Properties:
@@ -328,25 +328,19 @@ For properties, keys and values that can be used in ACLs, see the following exam
            # Values for dynamic fields must always be the untranslated internal
            #   data keys specified in the dynamic field definition and not the
            #   data values shown to the user.
-           DynamicField_Field1:
-           - some value
-           DynamicField_OtherField:
-           - some value
-           DynamicField_TicketFreeText2:
-           - some value
+           DynamicField_MyField:
+           - some value(s) within the field
+           DynamicField_MyOtherField:
+           - some value(s) within the field
            # more dynamic fields
          Frontend:
            Action:
            - AgentTicketPhone
            - AgentTicketEmail
+           - AgentTicketZoom
            - ...
+           - CustomerTicketMessage
            - CustomerTicketZoomReply
-           Endpoint:
-           - ExternalFrontend::PersonalPreferences
-           - ExternalFrontend::ProcessTicketCreate
-           - ExternalFrontend::ProcessTicketNextStep
-           - ExternalFrontend::TicketCreate
-           - ExternalFrontend::TicketDetailView
            - ...
          Owner:
            UserLogin:
@@ -434,10 +428,10 @@ For properties, keys and values that can be used in ACLs, see the following exam
            - some ID
            Owner:
            - some owner
-           DynamicField_Field1:
-           - some value
            DynamicField_MyField:
-           - some value
+           - some value(s) within the field
+           DynamicField_MyOtherField:
+           - some value(s) within the field
            # more ticket attributes
          Type:
            ID:
@@ -459,33 +453,28 @@ For properties, keys and values that can be used in ACLs, see the following exam
      ConfigChange:
        Possible:
          # Reset possible options (white list).
-         # Hide or show Dynamicfields
-         # Please just enter the name of the Dynamic Fields, they don't need any prefix.
+         # Hide or show Dynamic Fields (not just the value of them).
+         # Please just enter the name of the Dynamic Fields, they don't need any prefix like "DynamicField_".
+         # If you use namespaces, the namespace is part of the DynamicField name.
          Form:
-         - SomeDynamicFieldName
-         - someOtherDynamicFieldName
+         - MyFieldName
+         - MyOtherFieldName
+         - MyNamespace-MyOneFieldName
          # Hide or show Standard Fields like Article (in the future Queue, Service, etc.)
          FormStd:
          # Hide or show Article in CustomerTicketMessage (including all three: Subject, Body and Attachment)
          - Article
          Action:
-         # Possible action options (white list).
+         # Possible action options (white list). Could be used to show or hide buttons in the ticket actions in AgentTicketZoom or to make it (im)possible to access different views.
          - AgentTicketBounce
          - AgentTicketPhone   # only used to show/hide the Split action
          - AgentLinkObject    # only used to show/hide the Link action
+         - AgentTicketMove
          - ...
          ActivityDialog:
          # Limit the number of possible activity dialogs the agent/customer can use in a process ticket.
          - ActivityDialog-aff0ae05fe6803f38de8fff6cf33b7ce
          - ActivityDialog-429d61180a593414789a8087cc4b3c6f
-         - ...
-         Endpoint:
-         # Limit the functions on external interface.
-         - ExternalFrontend::PersonalPreferences
-         - ExternalFrontend::ProcessTicketCreate
-         - ExternalFrontend::ProcessTicketNextStep
-         - ExternalFrontend::TicketCreate
-         - ExternalFrontend::TicketDetailView
          - ...
          Process:
          # Limit the number of possible processes that can be started.
@@ -501,10 +490,10 @@ For properties, keys and values that can be used in ACLs, see the following exam
            - some state
            Priority:
            - 5 very high
-           DynamicField_Field1:
-           - some value
            DynamicField_MyField:
-           - some value
+           - some value(s) within the field
+           DynamicField_MyOtherField:
+           - some value(s) within the field
            # more dynamic fields
            NewOwner:
            # For ticket action screens, where the Owner is already set.
