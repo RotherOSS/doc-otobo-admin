@@ -4655,7 +4655,7 @@ msgstr "Systemkonfigurationen importieren und exportieren"
 
 #: ../content/administration-area/languages/translations.rst:292
 msgid "This function allows you to import and/or export files with translations using templates for the different languages configured. When going to the Import/Export module, a new section \"Translations\" is displayed, a table with the existing templates for importing files."
-msgstr ""
+msgstr "Diese Funktion ermöglicht es Ihnen, Dateien mit Übersetzungen über Vorlagen für die verschiedenen konfigurierten Sprachen zu importieren und/oder zu exportieren. Im Modul „Import/Export“ steht im Dropdown-Feld „Object“ nun zusätzlich der Wert „Translations“ zur Auswahl, mit dem Sie eine Importvorlage für diesen Objekttyp erstellen können."
 
 #: ../content/administration-area/languages/translations.rst:297
 #, fuzzy
@@ -4776,11 +4776,11 @@ msgstr ""
 
 #: ../content/administration-area/languages/translations.rst:364
 msgid "Key"
-msgstr ""
+msgstr "Schlüssel"
 
 #: ../content/administration-area/languages/translations.rst:363
 msgid "Source string: Text string to be translated. Translation English: Language in which the translation will be done."
-msgstr ""
+msgstr "Quellstring: Zu übersetzende Zeichenfolge. Übersetzung Englisch: Sprache, in der die Übersetzung erfolgt."
 
 #: ../content/administration-area/languages/translations.rst:369
 #, fuzzy
@@ -4790,7 +4790,7 @@ msgstr "Senderinformationen"
 
 #: ../content/administration-area/languages/translations.rst:373
 msgid "In the fifth step you define whether you want to export untranslated strings of specific objects:"
-msgstr ""
+msgstr "Im fünften Schritt legen Sie fest, ob Sie nicht übersetzte Zeichenfolgen bestimmter Objekte exportieren möchten:"
 
 #: ../content/administration-area/languages/translations.rst:378
 #, fuzzy
@@ -4800,31 +4800,31 @@ msgstr "Senderinformationen"
 
 #: ../content/administration-area/languages/translations.rst:382
 msgid "Restrict export per search"
-msgstr ""
+msgstr "Export mittels Suche einschränken"
 
 #: ../content/administration-area/languages/translations.rst:382
 msgid "allows you to choose whether you want to restrict the export by searching for specific options."
-msgstr ""
+msgstr "ermöglicht die Auswahl, ob Sie den Export durch Suche nach bestimmten Optionen einschränken möchten."
 
 #: ../content/administration-area/languages/translations.rst:385
 msgid "Export Untranslated strings of"
-msgstr ""
+msgstr "Nicht übersetzte Zeichenfolgen exportieren von"
 
 #: ../content/administration-area/languages/translations.rst:385
 msgid "allows you to choose the option from which the untranslated strings will be exported."
-msgstr ""
+msgstr "ermöglicht die Auswahl der Option, aus der die nicht übersetzten Zeichenfolgen exportiert werden sollen."
 
 #: ../content/administration-area/languages/translations.rst:390
 msgid "Field Export Untraslated."
-msgstr ""
+msgstr "Feld nicht übersetzter Export."
 
 #: ../content/administration-area/languages/translations.rst:395
 msgid "Ticket Information (Translation)"
-msgstr ""
+msgstr "Ticket Information (Übersetzung)"
 
 #: ../content/administration-area/languages/translations.rst:397
 msgid "Attributes of the ticket such as Queues and Services that are translated using the translation module will be visible in the selection tree views of the fields."
-msgstr ""
+msgstr "Attribute des Tickets wie Queues und Services, die über das Übersetzungsmodul übersetzt werden, sind in den Auswahl-Baumstrukturen der Felder sichtbar."
 
 #: ../content/administration-area/languages/translations.rst:400
 #, fuzzy
@@ -4840,11 +4840,11 @@ msgstr "Services"
 
 #: ../content/administration-area/languages/translations.rst:407
 msgid "Services translated to Spanish in tree view"
-msgstr ""
+msgstr "Services in der Baumansicht ins Spanische übersetzt"
 
 #: ../content/administration-area/languages/translations.rst:412
 msgid "List Services translated to Spanish."
-msgstr ""
+msgstr "Liste der ins Spanische übersetzten Services."
 
 #: ../content/administration-area/languages/translations.rst:415
 #, fuzzy
@@ -4860,11 +4860,11 @@ msgstr "Queues"
 
 #: ../content/administration-area/languages/translations.rst:422
 msgid "Queues translated to Spanish in tree view"
-msgstr ""
+msgstr "Queues in der Baumansicht ins Spanische übersetzt"
 
 #: ../content/administration-area/languages/translations.rst:427
 msgid "List Queues translated to Spanish."
-msgstr ""
+msgstr "Liste der ins Spanische übersetzten Queues."
 
 #: ../content/administration-area/otobo-services.rst:2
 #, fuzzy
@@ -4874,7 +4874,7 @@ msgstr "Web-Services"
 
 #: ../content/administration-area/otobo-services.rst:4
 msgid "This section describes the functionality of your OTOBO to support you OTOBO service partner. Regardless whether this is Rother OSS, an OTOBO Partner, or any other service provider of your choosing."
-msgstr ""
+msgstr "Dieser Abschnitt beschreibt die Funktionalität Ihres OTOBO, um Ihren OTOBO Servicepartner zu unterstützen – unabhängig davon, ob es sich dabei um Rother OSS, einen OTOBO Partner oder einen anderen Dienstleister Ihrer Wahl handelt."
 
 #: ../content/administration-area/otobo-services.rst:9
 msgid "Support Data Collector"
