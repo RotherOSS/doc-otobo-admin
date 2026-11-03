@@ -33,20 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr ""
-"Project-Id-Version: OTOBO\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-02 13:12+0000\n"
-"PO-Revision-Date: 2026-11-02 13:12+0000\n"
-"Last-Translator: Stefan Abel <sta@rother-oss.com>\n"
-"Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-11-02 13:12+0000\nPO-Revision-Date: 2026-11-03 15:59+0000\nLast-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.9\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -844,7 +831,7 @@ msgstr "Modulare Systeme können durch Hinzufügen zusätzlicher Softwarepakete 
 
 #: ../content/administration-area/administration/package-manager.rst:8
 msgid "The package manager is listed in the *Package Manager* tile of the *Administration* group of the Admin Interface. Use this interface to install, remove and manage packages that extend the functionality of OTOBO."
-msgstr ""
+msgstr "Der Paketmanager befindet sich in der Kachel *Paketmanager* in der Gruppe *Verwaltung* der Admin-Oberfläche. Verwenden Sie diese Oberfläche, um Pakete zu installieren, zu entfernen und zu verwalten, die die Funktionalität von OTOBO erweitern."
 
 #: ../content/administration-area/administration/package-manager.rst:15
 msgid "Package Manager Screen"
@@ -852,7 +839,7 @@ msgstr "Paketverwaltung"
 
 #: ../content/administration-area/administration/package-manager.rst:19
 msgid "You may view the package documentation of each package even prior to installation by clicking the PDF-symbol next to the package name."
-msgstr ""
+msgstr "Sie können die Paketdokumentation eines jeden Pakets bereits vor der Installation einsehen, indem Sie auf das PDF-Symbol neben dem Paketnamen klicken."
 
 #: ../content/administration-area/administration/package-manager.rst:23
 msgid "Install Packages"
@@ -860,7 +847,7 @@ msgstr "Pakete installieren"
 
 #: ../content/administration-area/administration/package-manager.rst:25
 msgid "You have two options to install new packages to your OTOBO, either from an online repository or by installation of a local package file. You should prefer package from an repository as it eases consuming of updates if available."
-msgstr ""
+msgstr "Sie haben zwei Möglichkeiten, neue Pakete in Ihrem OTOBO zu installieren: entweder aus einem Online-Repository oder durch die Installation einer lokalen Paketdatei. Sie sollten Pakete aus einem Repository bevorzugen, da dies das Einspielen verfügbarer Updates erleichtert."
 
 #: ../content/administration-area/administration/package-manager.rst:30
 #, fuzzy
@@ -967,7 +954,7 @@ msgstr "Pakete aktualisieren"
 
 #: ../content/administration-area/administration/package-manager.rst:90
 msgid "Using the online repository to install packages, provides you a hint, if an update to the package is available in the *Action* column. To update a package from online repository follow these steps:"
-msgstr ""
+msgstr "Bei der Installation von Paketen über das Online-Repository erhalten Sie in der Spalte *Aktion* einen Hinweis, falls ein Update für das Paket verfügbar ist. Um ein Paket aus dem Online-Repository zu aktualisieren, gehen Sie wie folgt vor:"
 
 #: ../content/administration-area/administration/package-manager.rst:93
 #, fuzzy
@@ -1005,7 +992,7 @@ msgstr "Diese Funktion liest die Informationen aller definierten Paketverzeichni
 
 #: ../content/administration-area/administration/package-manager.rst:111
 msgid "To update a package that was installed from a file, simply install the newer version as explained above. However, they may not be updated by the button in the sidebar."
-msgstr ""
+msgstr "Um ein Paket zu aktualisieren, das aus einer Datei installiert wurde, installieren Sie einfach die neuere Version wie oben beschrieben. Diese lassen sich jedoch möglicherweise nicht über die Schaltfläche in der Seitenleiste aktualisieren."
 
 #: ../content/administration-area/administration/package-manager.rst:116
 #, fuzzy
@@ -1015,11 +1002,11 @@ msgstr "Pakete verwalten"
 
 #: ../content/administration-area/administration/package-manager.rst:120
 msgid "If you remove a package you also delete all data managed by that package."
-msgstr ""
+msgstr "Wenn Sie ein Paket entfernen, löschen Sie auch alle von diesem Paket verwalteten Daten."
 
 #: ../content/administration-area/administration/package-manager.rst:122
 msgid "If a certain package is no longer required, you may remove it. To uninstall a package follow these steps:"
-msgstr ""
+msgstr "Wenn ein bestimmtes Paket nicht mehr benötigt wird, können Sie es entfernen. Um ein Paket zu deinstallieren, gehen Sie wie folgt vor:"
 
 #: ../content/administration-area/administration/package-manager.rst:125
 msgid "Select the package from the *Local Repository* widget."
@@ -1309,7 +1296,7 @@ msgstr "Die komfortable Suche ermöglicht ein schnelles und einfaches Auffinden 
 
 #: ../content/administration-area/administration/system-configuration.rst:16
 msgid "By using the `System Configuration History` package, you can easily roll back changes made by users. Contact sales@otobo.de to add this feature to your system. In one of the next OTOBO releases this feature is included in the standard framework."
-msgstr ""
+msgstr "Mit dem Paket `System Configuration History` können Sie von Benutzern vorgenommene Änderungen ganz einfach zurücksetzen. Kontaktieren Sie sales@otobo.de, um diese Funktion in Ihr System zu integrieren. In einer der kommenden OTOBO Versionen wird diese Funktion standardmäßig im Framework enthalten sein."
 
 #: ../content/administration-area/administration/system-configuration.rst:20
 msgid "Use this screen to manage the system configuration settings. OTOBO brings about 2200 configuration settings. The system configuration management screen is available in the *System Configuration* module of the *Administration* group."
@@ -1576,7 +1563,7 @@ msgstr "Systemprotokoll - -Konfigurationsoptionen"
 
 #: ../content/administration-area/administration/system-log.rst:28
 msgid "``Core → Log``"
-msgstr ""
+msgstr "``Core → Log``"
 
 #: ../content/administration-area/administration/system-maintenance.rst:2
 msgid "System Maintenance"
@@ -1680,15 +1667,15 @@ msgstr "In der Systemkonfiguration gibt es einige Standardmeldungen für Systemw
 
 #: ../content/administration-area/administration/system-maintenance.rst:82
 msgid "``SystemMaintenance::IsActiveDefaultLoginErrorMessage``"
-msgstr ""
+msgstr "``SystemMaintenance::IsActiveDefaultLoginErrorMessage``"
 
 #: ../content/administration-area/administration/system-maintenance.rst:83
 msgid "``SystemMaintenance::IsActiveDefaultLoginMessage``"
-msgstr ""
+msgstr "``SystemMaintenance::IsActiveDefaultLoginMessage``"
 
 #: ../content/administration-area/administration/system-maintenance.rst:84
 msgid "``SystemMaintenance::IsActiveDefaultNotification``"
-msgstr ""
+msgstr "``SystemMaintenance::IsActiveDefaultNotification``"
 
 #: ../content/administration-area/administration/system-maintenance.rst:87
 msgid "Show login message"
@@ -1712,7 +1699,7 @@ msgstr "Legen Sie die Minuten fest, in denen ein Hinweistext zur Benachrichtigun
 
 #: ../content/administration-area/administration/system-maintenance.rst:96
 msgid "``SystemMaintenance::TimeNotifyUpcomingMaintenance``"
-msgstr ""
+msgstr "``SystemMaintenance::TimeNotifyUpcomingMaintenance``"
 
 #: ../content/administration-area/administration/system-maintenance.rst:103
 msgid "This widget gives an overview about the currently logged in users. It is possible to kill each sessions by clicking on the *Kill this session* links. You can also kill all sessions except yours by clicking on the *Kill all Sessions, except for your own* button."
@@ -1817,7 +1804,7 @@ msgstr "Aktivieren Sie das Kontrollkästchen, wenn Sie den Chat-Kanal für Kunde
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:45
 msgid "This option is available only, if ``CustomerGroupSupport`` setting is enabled."
-msgstr ""
+msgstr "Diese Option ist nur verfügbar, wenn die Einstellung ``CustomerGroupSupport`` aktiviert ist."
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:48
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:302
@@ -2233,7 +2220,7 @@ msgstr "Einmal pro Tag"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:208
 msgid "Notify users just once per day about a single appointment using a selected transport. If this is the first notification about an appointment, then the notification will be sent. If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent. If there was no notification sent in the last 24 hours, the notification will be sent again."
-msgstr ""
+msgstr "Benachrichtigen Sie Benutzer nur einmal pro Tag über einen einzelnen Termin über einen ausgewählten Transportweg. Wenn dies die erste Benachrichtigung zu einem Termin ist, wird die Benachrichtigung versendet. Wurde bereits zuvor eine Benachrichtigung gesendet und diese Option ist aktiviert, prüft der OTOBO Daemon den Zeitpunkt der letzten gesendeten Benachrichtigung. Wurde innerhalb der letzten 24 Stunden keine Benachrichtigung gesendet, wird die Benachrichtigung erneut versendet."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:215
 msgid "Appointment Notification Methods"
@@ -2260,7 +2247,7 @@ msgstr "In Agenteinstellungen anzeigen"
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:227
 msgid "This is the default value for assigned recipient agents who didn't make a choice for this notification in their preferences yet. If the box is enabled, the notification will be sent to such agents."
-msgstr ""
+msgstr "Dies ist der Standardwert für zugewiesene Agenten, die noch keine Auswahl für diese Benachrichtigung in ihren Einstellungen getroffen haben. Wenn das Kontrollkästchen aktiviert ist, wird die Benachrichtigung an diese Agenten gesendet."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:232
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:318
@@ -2270,7 +2257,7 @@ msgstr "Zusätzliche Empfänger - E-Mail-Adressen"
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:231
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:317
 msgid "Additional recipients can be added here. Use comma or semicolon to separate the email addresses."
-msgstr ""
+msgstr "Hier können zusätzliche Empfänger hinzugefügt werden. Trennen Sie die E-Mail-Adressen durch Komma oder Semikolon."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:235
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:321
@@ -2445,7 +2432,7 @@ msgstr "Wählen Sie aus, welche Sprachen hinzugefügt werden sollen, um lokalisi
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:315
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:401
 msgid "Deleting a language in ``DefaultUsedLanguages`` setting that already has a notification text here will make the notification text unusable. If a language is not present or enabled on the system, the corresponding notification text could be deleted if it is not needed anymore."
-msgstr ""
+msgstr "Das Löschen einer Sprache in der Einstellung ``DefaultUsedLanguages``, für die hier bereits ein Benachrichtigungstext existiert, macht diesen Benachrichtigungstext unbrauchbar. Wenn eine Sprache im System nicht vorhanden oder nicht aktiviert ist, kann der entsprechende Benachrichtigungstext gelöscht werden, falls er nicht mehr benötigt wird."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:320
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:329
@@ -2715,7 +2702,7 @@ msgstr "So importieren Sie Ticket-Benachrichtungen:"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:8
 msgid "Regardless whether OAuth2 is used for sending or fetching email, a valid OAuth2 FunctionalAccount and its corresponding OIDC provider settings need to be configured in the Admin UI. These can be set up using the 'OAuth Functional Accounts' and 'OIDC Profile Management' modules in the Admin UI, respectively."
-msgstr ""
+msgstr "Unabhängig davon, ob OAuth2 zum Senden oder Abrufen von E-Mails verwendet wird, müssen ein gültiges OAuth2-Konto sowie die zugehörigen OIDC-Provider-Einstellungen in der Admin-Oberfläche konfiguriert werden. Diese können über die Module „OAuth Functional Accounts\" bzw. „OIDC Profile Management\" in der Admin-Oberfläche eingerichtet werden."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
 #, fuzzy
@@ -2725,47 +2712,47 @@ msgstr "Einstellungen für E-Mail-Konten"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:16
 msgid "For more information on setting up OIDC Profiles and Functional Accounts for OAuth2, please refer to the section :ref:`OIDC-based OAuth2 authentication<oauth2-webservices>`."
-msgstr ""
+msgstr "Weitere Informationen zur Einrichtung von OIDC-Profilen und Konten für OAuth2 finden Sie im Abschnitt :ref:`OIDC-basierte OAuth2-Authentifizierung<oauth2-webservices>`."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:19
 msgid "On the OIDC Provider the Functional Account user must have the proper permissions assigned, as these will be specific to mail server and OIDC Provider used please refer to your email provider's instructions on how to setup authentication via OIDC."
-msgstr ""
+msgstr "Beim OIDC-Provider muss dem Functional-Account-Benutzer die passenden Berechtigungen zugewiesen sein. Da diese vom verwendeten Mailserver und OIDC-Provider abhängen, konsultieren Sie bitte die Anleitung Ihres E-Mail-Providers zur Einrichtung der Authentifizierung über OIDC."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:24
 msgid "The Functional Account configured in OTOBO will possibly need to have the proper OAuth2 scopes and/or resource ids configured specific to the mail server and OIDC Provider used. Again please refer to your email provider's documentation to determine the necessary settings."
-msgstr ""
+msgstr "Für das in OTOBO konfigurierte Konto müssen möglicherweise die passenden OAuth2-Scopes und/oder Resource-IDs festgelegt werden, abhängig vom verwendeten Mailserver und OIDC-Provider. Auch hierfür konsultieren Sie bitte die Dokumentation Ihres E-Mail-Providers, um die erforderlichen Einstellungen zu ermitteln."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:29
 msgid "SMTP"
-msgstr ""
+msgstr "SMTP"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:31
 msgid "For outgoing email sending via SMTP, OAuth2 authentication has to be enabled in System Configuration under *Core > Email*:"
-msgstr ""
+msgstr "Für den Versand ausgehender E-Mails über SMTP muss die OAuth2-Authentifizierung in der Systemkonfiguration unter *Core > Email* aktiviert werden:"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:33
 msgid "The ``SendmailModule`` setting must be one of the SMTP options. Choosing ``SMTPS`` or ``SMTPTLS`` is strongly recommended from a security perspective. Do **not** use unencrypted SMTP with OAuth2 tokens in a production environment"
-msgstr ""
+msgstr "Die Einstellung ``SendmailModule`` muss eine der SMTP-Optionen sein. Aus Sicherheitsgründen wird dringend empfohlen, ``SMTPS`` oder ``SMTPTLS`` zu wählen. Verwenden Sie **keinesfalls** unverschlüsseltes SMTP mit OAuth2-Tokens in einer Produktivumgebung."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:36
 msgid "Make sure you use the proper ``SendmailModule::Port`` for the chosen SMTP method"
-msgstr ""
+msgstr "Stellen Sie sicher, dass Sie den passenden ``SendmailModule::Port`` für die gewählte SMTP-Methode verwenden."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:37
 msgid "The ``SendmailModule::OAuth2Method`` setting must be set to either ``XOAUTH2`` or ``OAUTHBEARER``"
-msgstr ""
+msgstr "Die Einstellung ``SendmailModule::OAuth2Method`` muss entweder auf ``XOAUTH2`` oder ``OAUTHBEARER`` gesetzt sein."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:38
 msgid "The ``SendmailModule::OAuth2FunctionalAccount`` setting must be set to the name of an OAuth Functional Account configured in the Admin UI as outlined above"
-msgstr ""
+msgstr "Die Einstellung ``SendmailModule::OAuth2FunctionalAccount`` muss auf den Namen eines in der Admin-Oberfläche konfigurierten OAuth-Kontos gesetzt sein, wie oben beschrieben."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:39
 msgid "The ``SendmailModule::AuthUser`` must be set to the username of the Functional Account that is used to send email"
-msgstr ""
+msgstr "Die Einstellung ``SendmailModule::AuthUser`` muss auf den Benutzernamen des OAuth-Kontos gesetzt werden, der zum Versenden von E-Mails verwendet wird."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:40
 msgid "The ``SendmailModule::AuthPassword`` will **not** be used with ``XOAUTH2`` and/or ``OAUTHBEARER``"
-msgstr ""
+msgstr "Die Einstellung ``SendmailModule::AuthPassword`` wird bei ``XOAUTH2`` und/oder ``OAUTHBEARER`` **nicht** verwendet."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
 #, fuzzy
@@ -2781,7 +2768,7 @@ msgstr "IMAP"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:49
 msgid "For incoming email fetched via POP3 or IMAP, settings can be provided via the Admin UI Postmaster Mailaccounts module."
-msgstr ""
+msgstr "Für eingehende E-Mails, die über POP3 oder IMAP abgerufen werden, können die Einstellungen über das Admin-UI-Modul „Postmaster Mailaccounts“ vorgenommen werden."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
 #, fuzzy
@@ -2791,19 +2778,19 @@ msgstr "Einstellungen für E-Mail-Konten"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:54
 msgid "To enable ``XOAUTH2`` or ``OAUTHBEARER`` for a given Postmaster mail account, do:"
-msgstr ""
+msgstr "Um ``XOAUTH2`` oder ``OAUTHBEARER`` für ein bestimmtes Postmaster-Emailkonto zu aktivieren, gehen Sie wie folgt vor:"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:56
 msgid "Change the authentication option from the default ``Basic Auth`` option to either ``XOAUTH2`` or ``OAUTHBEARER`` depending on your needs"
-msgstr ""
+msgstr "Ändern Sie die Authentifizierungsoption von der Standardeinstellung ``Basic Auth`` auf entweder ``XOAUTH2`` oder ``OAUTHBEARER``, je nach Bedarf."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:57
 msgid "Select the Functional Account to be used for fetching email that you have configured above from the drop down list"
-msgstr ""
+msgstr "Wählen Sie aus der Dropdown-Liste das oben konfigurierte OAuth-Konto (Functional Account) aus, das zum Abrufen von E-Mails verwendet werden soll."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:58
 msgid "Specify the username of the Functional Account that is used to fetch email"
-msgstr ""
+msgstr "Geben Sie den Benutzernamen des OAuth-Kontos (Functional Account) an, der zum Abrufen von E-Mails verwendet wird."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
 #, fuzzy
@@ -2813,7 +2800,7 @@ msgstr "ACL-Einstellungen"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:64
 msgid "Do **not** use unencrypted POP3 or IMAP protocols with OAuth tokens in a production environment. Always prefer to use the encrypted TLS or STARTTLS protocols for POP3 (POP3S or POP3TLS) or for IMAP (IMAPS or IMAPTLS)."
-msgstr ""
+msgstr "Verwenden Sie **keinesfalls** unverschlüsselte POP3- oder IMAP-Protokolle mit OAuth-Tokens in einer Produktivumgebung. Bevorzugen Sie stets die verschlüsselten TLS- oder STARTTLS-Protokolle für POP3 (POP3S oder POP3TLS) bzw. für IMAP (IMAPS oder IMAPTLS)."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:69
 #, fuzzy
@@ -2829,19 +2816,19 @@ msgstr "E-Mail"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:75
 msgid "SendmailModule::OAuth2FunctionalAccount"
-msgstr ""
+msgstr "SendmailModule::OAuth2FunctionalAccount"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:77
 msgid "If ``XOAUTH2`` or ``OAUTHBEARER`` is selected in the ``SendmailModule::OAuth2Method`` setting, then this setting needs to be enabled and set to a valid OIDC Functional Account. OIDC Accounts can be configured in the Admin UI *OAuth Functional Accounts* Module."
-msgstr ""
+msgstr "Wenn in der Einstellung ``SendmailModule::OAuth2Method`` ``XOAUTH2`` oder ``OAUTHBEARER`` ausgewählt ist, muss diese Einstellung aktiviert und auf ein gültiges OIDC Functional Account gesetzt werden. OIDC-Accounts können im Admin-UI-Modul *OAuth Functional Accounts* konfiguriert werden."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:82
 msgid "SendmailModule::OAuth2Method"
-msgstr ""
+msgstr "SendmailModule::OAuth2Method"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:84
 msgid "The authentication method to use for SMTP Authentication, defaults to ``Basic Auth``. If ``XOAUTH2`` or ``OAUTHBEARER`` is selected, then the ``SendmailModule::OAuth2FunctionalAccount`` setting needs to be enabled and set to a valid OIDC Functional Account. OIDC Accounts can be configured in the Admin UI *OAuth Functional Accounts* Module."
-msgstr ""
+msgstr "Die zu verwendende Authentifizierungsmethode für die SMTP-Authentifizierung, standardmäßig ``Basic Auth``. Wenn ``XOAUTH2`` oder ``OAUTHBEARER`` ausgewählt ist, muss die Einstellung ``SendmailModule::OAuth2FunctionalAccount`` aktiviert und auf ein gültiges OIDC Functional Account gesetzt werden. OIDC-Accounts können im Admin-UI-Modul *OAuth Functional Accounts* konfiguriert werden."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:90
 #, fuzzy
@@ -2850,11 +2837,11 @@ msgstr "Konfiguration"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:93
 msgid "This description in based on our experience with Microsoft Azure as OIDC provider for OAuth2 authentication with our customers. In no way does Rother OSS endorse the use of Microsoft Azure. It may guide and inform your own configuration. However, for more detailed information always consult the official Microsoft Azure documentation."
-msgstr ""
+msgstr "Diese Beschreibung basiert auf unserer Erfahrung mit Microsoft Azure als OIDC-Provider für die OAuth2-Authentifizierung bei unseren Kunden. Rother OSS befürwortet in keiner Weise die Verwendung von Microsoft Azure. Sie kann Ihnen als Orientierung für Ihre eigene Konfiguration dienen. Für detailliertere Informationen konsultieren Sie jedoch stets die offizielle Microsoft-Azure-Dokumentation."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:99
 msgid "Go to https://azure.microsoft.com/en-us Switch to ``Azure Active Directory`` and add a new ``Enterprise Application``:"
-msgstr ""
+msgstr "Gehen Sie zu https://azure.microsoft.com/en-us. Wechseln Sie zu ``Azure Active Directory`` und fügen Sie eine neue ``Enterprise Application`` hinzu:"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:-1
 #, fuzzy
@@ -2873,7 +2860,7 @@ msgstr "So ordnen Sie eine Queue zu einer Vorlage hinzu:"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:118
 msgid "**The mailbox user must be assigned to the application.** You will need the Application ID lateron in OTOBO. Please note, the Application ID of the \"Enterprise APP\" may differ from that of the \"Application Registration\". In this case, please use the Application/Client ID of the registration."
-msgstr ""
+msgstr "**Der Mailbox-Benutzer muss der Anwendung zugewiesen werden.** Sie benötigen die Application ID später in OTOBO. Bitte beachten Sie, dass die Application ID der „Enterprise APP\" von jener der „Application Registration\" abweichen kann. Verwenden Sie in diesem Fall die Application/Client ID der Registration."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:126
 msgid "ou will also need the domain's \"Tenant ID\"."
@@ -2881,27 +2868,28 @@ msgstr ""
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:131
 msgid "Add a new Application in \"App registrations\":"
-msgstr ""
+msgstr "Fügen Sie eine neue Anwendung unter „App registrations\" hinzu:"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:136
 msgid "Create a Redirect URL of type \"Web\" and a secret client key. The Redirect URL should look like: ``https://<OTOBO address>/otobo/index.pl?Action=AdminOAuthTokenStore&Subaction=OAuth&code=``"
-msgstr ""
+msgstr "Erstellen Sie eine Redirect URL vom Typ „Web\" sowie einen geheimen Client-Schlüssel. Die Redirect URL sollte wie folgt aussehen: ``https://<OTOBO-Adresse>/otobo/index.pl?Action=AdminOAuthTokenStore&Subaction=OAuth&code=``"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:145
+#, fuzzy
 msgid "Please add a new client secret and note the value (not the \"Secret ID\") as we need it later. It will only appear during the creation and you will not be able to see it afterwards anymore. Apparently, Microsoft only allows a time of validity for two years max."
-msgstr ""
+msgstr "Fügen Sie ein neues Client Secret hinzu und notieren Sie sich den *Wert* (nicht die „Secret ID\"), da wir ihn später benötigen. Dieser wird *nur bei der Erstellung angezeigt* und ist danach nicht mehr einsehbar. Microsoft erlaubt anscheinend eine Gültigkeitsdauer von maximal zwei Jahren."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:152
 msgid "Switch to ``API permissions`` and add ``IMAP.AccessAsUser.All`` and ``POP.AccessAsUser.All``:"
-msgstr ""
+msgstr "Wechseln Sie zu ``API permissions`` und fügen Sie ``IMAP.AccessAsUser.All`` und ``POP.AccessAsUser.All`` hinzu:"
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:157
 msgid "Please click on \"Add permission\" and choose Microsoft Graph, then new delegated permissions in the bar on the right, if Microsoft Graph does not show up like depicted in the screenshot."
-msgstr ""
+msgstr "Klicken Sie auf „Add permission\" und wählen Sie \"Microsoft Graph\" aus. Falls \"Microsoft Graph\" nicht wie im Screenshot dargestellt angezeigt wird, wählen Sie anschließend in der rechten Seitenleiste neue delegierte Berechtigungen aus."
 
 #: ../content/administration-area/communication-notifications/oauth2-mail.rst:160
 msgid "The Azure configuration is now complete. Please check whether port 143 and 993 are enabled."
-msgstr ""
+msgstr "Die Azure-Konfiguration ist nun abgeschlossen. Bitte prüfen Sie, ob die Ports 143 und 993 freigegeben sind."
 
 #: ../content/administration-area/communication-notifications/pgp-keys.rst:2
 msgid "PGP Keys"
@@ -2991,7 +2979,7 @@ msgstr "PGP-Konfigurationsoptionen"
 
 #: ../content/administration-area/communication-notifications/pgp-keys.rst:65
 msgid "``Core → Crypt → PGP``"
-msgstr ""
+msgstr "``Core → Crypt → PGP``"
 
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:2
 msgid "Postmaster Filters"
@@ -3111,7 +3099,7 @@ msgstr "Header-Feld durchsuchen"
 
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:109
 msgid "Select a mail header or an ``X-OTOBO`` header from the first drop-down list, and enter a value as search term for the selected mail header to the second field. Even regular expressions can be used for extended pattern matching."
-msgstr ""
+msgstr "Wählen Sie einen Mail-Header oder einen ``X-OTOBO``-Header aus der ersten Dropdown-Liste aus und geben Sie im zweiten Feld einen Wert als Suchbegriff für den ausgewählten Mail-Header ein. Es können auch reguläre Ausdrücke für erweiterte Mustererkennung verwendet werden."
 
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:112
 #, fuzzy
@@ -3192,7 +3180,7 @@ msgstr "``X-OTOBO-Lock``"
 
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:143
 msgid "Set the ``From`` attribute of the ticket. Either a fixed string can be used or a named capture, e.g. to extract the attribute from the body."
-msgstr ""
+msgstr "Legen Sie das Attribut ``From`` des Tickets fest. Es kann entweder eine feste Zeichenfolge oder eine benannte Erfassungsgruppe (Named Capture) verwendet werden, z. B. um das Attribut aus dem Body zu extrahieren."
 
 #: ../content/administration-area/communication-notifications/postmaster-filters.rst:147
 msgid "``X-OTOBO-Ignore``"
@@ -3388,7 +3376,7 @@ msgstr "Postmaster-E-Mail-Konten"
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:5
 msgid "For OIDC-based auth see also :doc:`oauth2-mail`."
-msgstr ""
+msgstr "Für OIDC-basierte Authentifizierung siehe auch :doc:`oauth2-mail`."
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:7
 msgid "Just as a company doesn't just have one department which receives traditional mail, your service desk will also serve multiple teams. Each team can have its physical email mailbox."
@@ -3671,7 +3659,7 @@ msgstr "S/MIME-Einstellungsoptionen"
 
 #: ../content/administration-area/communication-notifications/s-mime-certificates.rst:80
 msgid "``Core → Crypt → SMIME``"
-msgstr ""
+msgstr "``Core → Crypt → SMIME``"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:2
 msgid "Ticket Notifications"
@@ -4036,15 +4024,15 @@ msgstr "Kundenbenutzer des Tickets"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:265
 msgid "Notify users just once per day about a single ticket using a selected transport. If this is the first notification about a ticket, then the notification will be sent. If a notification was already sent before and this option is checked, the OTOBO daemon will check the time the last notification was sent. If there was no notification sent in the last 24 hours, the notification will be sent again."
-msgstr ""
+msgstr "Benachrichtigen Sie Benutzer nur einmal pro Tag über ein einzelnes Ticket über einen ausgewählten Transportweg. Wenn dies die erste Benachrichtigung zu einem Ticket ist, wird die Benachrichtigung versendet. Wurde bereits zuvor eine Benachrichtigung gesendet und diese Option ist aktiviert, prüft der OTOBO Daemon den Zeitpunkt der letzten gesendeten Benachrichtigung. Wurde innerhalb der letzten 24 Stunden keine Benachrichtigung gesendet, wird die Benachrichtigung erneut versendet."
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:272
 msgid "Capability to Send Ticket Notifications Only During Working Hours"
-msgstr ""
+msgstr "Fähigkeit, Ticket-Benachrichtigungen nur innerhalb der Geschäftszeiten zu versenden"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:274
 msgid "A new option has been added to the ticket notification settings. Now, within the recipient's section, an additional field named \"Calendar\" is displayed."
-msgstr ""
+msgstr "Eine neue Option wurde zu den Ticket-Benachrichtigungseinstellungen hinzugefügt. Nun wird im Empfängerbereich ein zusätzliches Feld namens „Calendar\" angezeigt."
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:281
 #, fuzzy
@@ -4053,23 +4041,23 @@ msgstr "Konfiguration"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:284
 msgid "This field allows for the selection of whether notifications should be sent to recipients during working hours or outside of them:"
-msgstr ""
+msgstr "Dieses Feld ermöglicht die Auswahl, ob Benachrichtigungen an Empfänger innerhalb oder außerhalb der Geschäftszeiten versendet werden sollen:"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:286
 msgid "Selecting the option for working hours will result in notifications being sent only during the established work schedule."
-msgstr ""
+msgstr "Die Auswahl der Option für Geschäftszeiten führt dazu, dass Benachrichtigungen nur innerhalb der festgelegten Arbeitszeiten versendet werden."
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:292
 msgid "Option working hours"
-msgstr ""
+msgstr "Option Geschäftszeiten"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:295
 msgid "Conversely, choosing the non-working hours option will result in notifications being sent outside of the defined working hours."
-msgstr ""
+msgstr "Im Gegensatz dazu führt die Auswahl der Option für Nicht-Geschäftszeiten dazu, dass Benachrichtigungen außerhalb der festgelegten Geschäftszeiten versendet werden."
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:301
 msgid "Option outside working hours"
-msgstr ""
+msgstr "Option außerhalb der Geschäftszeiten"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:305
 msgid "Ticket Notification Methods"
@@ -4110,7 +4098,7 @@ msgstr "Externes Interface"
 
 #: ../content/administration-area/customer-interface.rst:4
 msgid "The OTOBO Customer Interface is the dedicated web interface intended to be used by customers to interact with OTOBO. It allows customers to create tickets, search for and view their own tickets or tickets belonging to their organization, and track follow-up information. This interface is configured separately from the Agent Interface."
-msgstr ""
+msgstr "Die OTOBO Kundenoberfläche ist die dedizierte Weboberfläche, die für die Interaktion von Kunden mit OTOBO vorgesehen ist. Sie ermöglicht es Kunden, Tickets zu erstellen, ihre eigenen Tickets oder Tickets ihrer Organisation zu suchen und einzusehen, sowie den Bearbeitungsstand im Blick zu behalten. Diese Oberfläche wird separat von der Agentenoberfläche konfiguriert."
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:2
 #, fuzzy
@@ -4120,7 +4108,7 @@ msgstr "Kundenbenutzer"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:4
 msgid "The Customer Ticket Search allows a customer to find tickets by various filters, namely:"
-msgstr ""
+msgstr "Die Kunden-Ticketsuche ermöglicht es Kunden, Tickets anhand verschiedener Filter zu finden, nämlich:"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:6
 #, fuzzy
@@ -4130,7 +4118,7 @@ msgstr "Ticket"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:8
 msgid "Fulltext search in Attachments, Body, Cc, From, Subject, To, Priority, and State"
-msgstr ""
+msgstr "Volltextsuche in Anhängen, Nachrichtentext, Cc, Von, Betreff, An, Priorität und Status"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:9
 #, fuzzy
@@ -4139,27 +4127,27 @@ msgstr "Anrede"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:11
 msgid "It provides also several different types of output redirection:"
-msgstr ""
+msgstr "Sie bietet außerdem verschiedene Arten der Ausgabeumleitung:"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:15
 msgid "Normal (a list within the UI)"
-msgstr ""
+msgstr "Normal (eine Liste innerhalb der Benutzeroberfläche)"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:16
 msgid "Print (a PDF)"
-msgstr ""
+msgstr "Drucken (PDF)"
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:18
 msgid "In addition, similar to the Agent Interface, it supports search profiles through Search Templates, which are sets of predefined filters with specific search criteria for repeated use."
-msgstr ""
+msgstr "Ähnlich wie die Agentenoberfläche unterstützt sie außerdem Suchprofile über Suchvorlagen, also Sammlungen vordefinierter Filter mit festgelegten Suchkriterien für die Wiederverwendung."
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:20
 msgid "To activate this feature, enable the system config ``Frontend::Module###CustomerTicketSearch``. The feature can then be accessed through an icon in the Customer Interface main menu."
-msgstr ""
+msgstr "Um diese Funktion zu aktivieren, schalten Sie die Systemkonfiguration ``Frontend::Module###CustomerTicketSearch`` ein. Die Funktion kann anschließend über ein Symbol im Hauptmenü der Kundenoberfläche aufgerufen werden."
 
 #: ../content/administration-area/customer-interface/customer-ticket-search.rst:23
 msgid "For more advanced use cases, there is also the possibility to add Dynamic Fields to the Search Mask, e.g. by utilizing the Dynamic Field Screens feature of the Admin Interface. For more information on this, please refer to the `Dynamic Fields Section <https://doc.otobo.de/manual/admin/11.1/en/content/administration-area/processes-automation/dynamic-fields.html#>`_."
-msgstr ""
+msgstr "Für fortgeschrittenere Anwendungsfälle besteht zudem die Möglichkeit, der Suchmaske Dynamische Felder hinzuzufügen, z. B. durch Nutzung der Funktion „Dynamic Field Screens\" der Admin-Oberfläche. Weitere Informationen hierzu finden Sie im Abschnitt `Dynamische Felder <https://doc.otobo.de/manual/admin/11.1/en/content/administration-area/processes-automation/dynamic-fields.html#>`_."
 
 #: ../content/administration-area/languages.rst:2
 #, fuzzy
@@ -4169,11 +4157,11 @@ msgstr "Sprache \\*"
 
 #: ../content/administration-area/languages.rst:4
 msgid "OTOBO supports multiple languages. Each user, Customer Users and Agents, may select their preferred language in their user preferences (refer to the User Guide for more information)."
-msgstr ""
+msgstr "OTOBO unterstützt mehrere Sprachen. Jeder Benutzer – Kunden-Benutzer und Agenten – kann seine bevorzugte Sprache in den Benutzereinstellungen auswählen (weitere Informationen finden Sie im Benutzerhandbuch)."
 
 #: ../content/administration-area/languages.rst:7
 msgid "However, the generic translation of specific terms might not fit the domain of information managed with a specific OTOBO instance. Hence, OTOBO support the customization of the translation. Existing translations can be customized and new translations can be added."
-msgstr ""
+msgstr "Allerdings passt die generische Übersetzung bestimmter Begriffe möglicherweise nicht zum fachlichen Kontext der mit einer bestimmten OTOBO-Instanz verwalteten Informationen. Daher unterstützt OTOBO die Anpassung der Übersetzung. Bestehende Übersetzungen können verändert und neue Übersetzungen hinzugefügt werden."
 
 #: ../content/administration-area/languages/translations.rst:2
 #: ../content/administration-area/languages/translations.rst:265
@@ -4183,7 +4171,7 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:4
 msgid "New or existing translations are managed and administered in the \"Translations\" module, located in the \"Languages\" group of the administration area."
-msgstr ""
+msgstr "Neue oder bestehende Übersetzungen werden im Modul „Übersertzungen\" verwaltet, das sich in der Gruppe „Sprachen\" in der Administrator-Oberfläche befindet."
 
 #: ../content/administration-area/languages/translations.rst:9
 #, fuzzy
@@ -4193,7 +4181,7 @@ msgstr "FAQ-Sprachen verwalten"
 
 #: ../content/administration-area/languages/translations.rst:12
 msgid "By clicking on the Translations item, the user displays the subaction \"Overview\"."
-msgstr ""
+msgstr "Durch Klicken auf die Kachel „Übersetzungen\" gelangt der Benutzer in die Übersicht der \"Übersetzungsverwaltung\"."
 
 #: ../content/administration-area/languages/translations.rst:17
 #, fuzzy
@@ -4202,7 +4190,7 @@ msgstr "Aktivitäten erstellen"
 
 #: ../content/administration-area/languages/translations.rst:19
 msgid "It contains the following elements:"
-msgstr ""
+msgstr "Sie enthält folgende Elemente:"
 
 #: ../content/administration-area/languages/translations.rst:22
 #, fuzzy
@@ -4212,7 +4200,7 @@ msgstr "Sprache \\*"
 
 #: ../content/administration-area/languages/translations.rst:22
 msgid "To select the working language (By default the language of the User in session is selected)."
-msgstr ""
+msgstr "Zur Auswahl der Arbeitssprache (standardmäßig ist die Sprache des angemeldeten Benutzers ausgewählt)."
 
 #: ../content/administration-area/languages/translations.rst:27
 #, fuzzy
@@ -4237,7 +4225,7 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:34
 msgid "To modify an existing translation."
-msgstr ""
+msgstr "Zum Bearbeiten einer bestehenden Übersetzung."
 
 #: ../content/administration-area/languages/translations.rst:37
 #, fuzzy
@@ -4262,7 +4250,7 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:46
 msgid "Table with all translations displayed."
-msgstr ""
+msgstr "Tabelle mit allen angezeigten Übersetzungen."
 
 #: ../content/administration-area/languages/translations.rst:51
 #, fuzzy
@@ -4271,7 +4259,7 @@ msgstr "Aktivitäten erstellen"
 
 #: ../content/administration-area/languages/translations.rst:55
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: ../content/administration-area/languages/translations.rst:55
 #, fuzzy
@@ -4301,19 +4289,19 @@ msgstr "Aktivitäten erstellen"
 
 #: ../content/administration-area/languages/translations.rst:71
 msgid "New translation: New translations pending to be deployed."
-msgstr ""
+msgstr "Neue Übersetzung: Neue Übersetzungen, die noch in Betrieb genommen werden müssen."
 
 #: ../content/administration-area/languages/translations.rst:72
 msgid "Editing Translation: Edited translations pending deployment."
-msgstr ""
+msgstr "Bearbeitete Übersetzung: Bearbeitete Übersetzungen, die noch in Betrieb genommen werden müssen."
 
 #: ../content/administration-area/languages/translations.rst:73
 msgid "Translation Marked for Deletion: Translations marked for deletion pending deployment."
-msgstr ""
+msgstr "Zum Löschen markierte Übersetzung: Zum Löschen markierte Übersetzungen, deren Löschung noch übernommen werden muss."
 
 #: ../content/administration-area/languages/translations.rst:74
 msgid "Deployed Translation: Active translations that have already been deployed."
-msgstr ""
+msgstr "Bereitgestellte Übersetzung: Aktive Übersetzungen, die bereits in Betrieb genommen wurden."
 
 #: ../content/administration-area/languages/translations.rst:79
 #, fuzzy
@@ -4323,15 +4311,15 @@ msgstr "Aktivitäten erstellen"
 #: ../content/administration-area/languages/translations.rst:83
 #: ../content/administration-area/languages/translations.rst:112
 msgid "Hint"
-msgstr ""
+msgstr "Hinweis"
 
 #: ../content/administration-area/languages/translations.rst:83
 msgid "This widget contains a short explanatory text about the module."
-msgstr ""
+msgstr "Dieses Widget enthält einen kurzen erläuternden Text zum Modul."
 
 #: ../content/administration-area/languages/translations.rst:88
 msgid "Widget Hint"
-msgstr ""
+msgstr "Widget-Hinweis"
 
 #: ../content/administration-area/languages/translations.rst:93
 #, fuzzy
@@ -4341,7 +4329,7 @@ msgstr "Anrede hinzufügen"
 
 #: ../content/administration-area/languages/translations.rst:94
 msgid "This function allows you to add a new translation to OTOBO and allows you to select each of the translatable data elements in the system."
-msgstr ""
+msgstr "Diese Funktion ermöglicht es Ihnen, eine neue Übersetzung zu OTOBO hinzuzufügen und jedes der übersetzbaren Datenelemente im System auszuwählen."
 
 #: ../content/administration-area/languages/translations.rst:99
 #, fuzzy
@@ -4350,7 +4338,7 @@ msgstr "Buchbestellung - Aktivität hinzufügen"
 
 #: ../content/administration-area/languages/translations.rst:101
 msgid "When entering the section to add a new translation, a new screen is displayed with the following elements:"
-msgstr ""
+msgstr "Beim Aufrufen der Funktion zum Hinzufügen einer neuen Übersetzung wird ein neuer Bildschirm mit folgenden Elementen angezeigt:"
 
 #: ../content/administration-area/languages/translations.rst:104
 #, fuzzy
@@ -4360,7 +4348,7 @@ msgstr "Standort"
 
 #: ../content/administration-area/languages/translations.rst:104
 msgid "This widget contains the \"Go to Overview\" button to return to the main screen of the module."
-msgstr ""
+msgstr "Dieses Widget enthält die Schaltfläche „Zur Übersicht gehen\", um zum Hauptbildschirm des Moduls zurückzukehren."
 
 #: ../content/administration-area/languages/translations.rst:109
 #, fuzzy
@@ -4369,7 +4357,7 @@ msgstr "Buchbestellung - Aktivität hinzufügen"
 
 #: ../content/administration-area/languages/translations.rst:112
 msgid "This widget contains a short explanatory text about the section the user is in."
-msgstr ""
+msgstr "Dieses Widget enthält einen kurzen erläuternden Text zum Bereich, in dem sich der Benutzer befindet."
 
 #: ../content/administration-area/languages/translations.rst:117
 #, fuzzy
@@ -4384,7 +4372,7 @@ msgstr "Sprache \\*"
 
 #: ../content/administration-area/languages/translations.rst:120
 msgid "Informative label of the language where the translation will be created."
-msgstr ""
+msgstr "Informatives Label der Sprache, für die die Übersetzung erstellt wird."
 
 #: ../content/administration-area/languages/translations.rst:123
 #: ../content/administration-area/processes-automation/process-management.rst:316
@@ -4393,7 +4381,7 @@ msgstr "Objekt"
 
 #: ../content/administration-area/languages/translations.rst:123
 msgid "Selectable options with element to translate: Dynamic field content, Dynamic field labels, General label, Priorities, Queue, Services, SLA, Templates, Ticket status, Ticket types."
-msgstr ""
+msgstr "Auswählbare Optionen für das zu übersetzende Element: Dynamische Feldinhalte, Dynamische Feldbeschriftungen, Allgemeine Beschriftung, Prioritäten, Queue, Services, SLA, Vorlagen, Ticket-Status, Tickettypen."
 
 #: ../content/administration-area/languages/translations.rst:128
 #, fuzzy
@@ -4410,7 +4398,7 @@ msgstr "Dynamische Felder"
 
 #: ../content/administration-area/languages/translations.rst:131
 msgid "This field is displayed only when \"Dynamic Field\" is selected in the \"Object\" field. It contains the names of the dynamic fields."
-msgstr ""
+msgstr "Dieses Feld wird nur angezeigt, wenn im Feld „Object\" die Option „Dynamic Field\" ausgewählt ist. Es enthält die Namen der dynamischen Felder."
 
 #: ../content/administration-area/languages/translations.rst:140
 #, fuzzy
@@ -4420,7 +4408,7 @@ msgstr "Inhalt"
 
 #: ../content/administration-area/languages/translations.rst:140
 msgid "This text field contains the tags to translate."
-msgstr ""
+msgstr "Dieses Textfeld enthält die zu übersetzenden Tags."
 
 #: ../content/administration-area/languages/translations.rst:145
 #, fuzzy
@@ -4435,7 +4423,7 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:148
 msgid "Text field or table depending on the selected option, where the translation is entered."
-msgstr ""
+msgstr "Textfeld oder Tabelle, abhängig von der ausgewählten Option, in dem die Übersetzung eingegeben wird."
 
 #: ../content/administration-area/languages/translations.rst:153
 #, fuzzy
@@ -4444,11 +4432,11 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:156
 msgid "Button Save and Finish"
-msgstr ""
+msgstr "Schaltfläche Speichern und Abschließen"
 
 #: ../content/administration-area/languages/translations.rst:156
 msgid "To save the translation and finish."
-msgstr ""
+msgstr "Zum Speichern der Übersetzung und zum Abschließen."
 
 #: ../content/administration-area/languages/translations.rst:159
 #, fuzzy
@@ -4464,7 +4452,7 @@ msgstr "Aktion abbrechen."
 
 #: ../content/administration-area/languages/translations.rst:-1
 msgid "Button - Save or Cancel"
-msgstr ""
+msgstr "Schaltfläche – Speichern oder Abbrechen"
 
 #: ../content/administration-area/languages/translations.rst:166
 #, fuzzy
@@ -4480,11 +4468,11 @@ msgstr "Dynamische Felder"
 
 #: ../content/administration-area/languages/translations.rst:169
 msgid "Displays all existing dynamic fields and a dropdown field with values to translate is chosen"
-msgstr ""
+msgstr "Zeigt alle vorhandenen dynamischen Felder an, wobei ein Dropdown-Feld mit zu übersetzenden Werten ausgewählt wird."
 
 #: ../content/administration-area/languages/translations.rst:174
 msgid "Table for translation - Dynamic Field Content"
-msgstr ""
+msgstr "Tabelle für Übersetzung – Dynamischer Feldinhalt"
 
 #: ../content/administration-area/languages/translations.rst:177
 #, fuzzy
@@ -4494,11 +4482,11 @@ msgstr "Dynamische Felder"
 
 #: ../content/administration-area/languages/translations.rst:177
 msgid "Displays all existing dynamic fields in the system and a field is chosen to translate the label"
-msgstr ""
+msgstr "Zeigt alle vorhandenen dynamischen Felder im System an, wobei ein Feld zur Übersetzung der Beschriftung ausgewählt wird."
 
 #: ../content/administration-area/languages/translations.rst:182
 msgid "Table for translation - Dynamic Field Labels"
-msgstr ""
+msgstr "Tabelle für Übersetzung – Dynamische Feldbeschriftungen"
 
 #: ../content/administration-area/languages/translations.rst:186
 #, fuzzy
@@ -4514,7 +4502,7 @@ msgstr "Gruppe für die Benutzer mit Administrationsrechten."
 
 #: ../content/administration-area/languages/translations.rst:191
 msgid "Fields for translation - General labes"
-msgstr ""
+msgstr "Felder für Übersetzung – Allgemeine Beschriftungen"
 
 #: ../content/administration-area/languages/translations.rst:195
 #: ../content/administration-area/ticket-settings/priorities.rst:2
@@ -4529,7 +4517,7 @@ msgstr "Gruppe für die Benutzer mit Administrationsrechten."
 
 #: ../content/administration-area/languages/translations.rst:200
 msgid "Fields for translation - Priorities"
-msgstr ""
+msgstr "Felder für Übersetzung – Prioritäten"
 
 #: ../content/administration-area/languages/translations.rst:203
 #: ../content/administration-area/ticket-settings/queues.rst:2
@@ -4538,7 +4526,7 @@ msgstr "Queues"
 
 #: ../content/administration-area/languages/translations.rst:203
 msgid "Allows to translate all existing queues."
-msgstr ""
+msgstr "Ermöglicht die Übersetzung aller vorhandenen Queues."
 
 #: ../content/administration-area/languages/translations.rst:208
 #, fuzzy
@@ -4553,7 +4541,7 @@ msgstr "Services"
 
 #: ../content/administration-area/languages/translations.rst:212
 msgid "Allows translation of all services."
-msgstr ""
+msgstr "Ermöglicht die Übersetzung aller Services."
 
 #: ../content/administration-area/languages/translations.rst:217
 #, fuzzy
@@ -4567,11 +4555,11 @@ msgstr "SLAs"
 
 #: ../content/administration-area/languages/translations.rst:221
 msgid "Allows translation of all SLAs."
-msgstr ""
+msgstr "Ermöglicht die Übersetzung aller SLAs."
 
 #: ../content/administration-area/languages/translations.rst:226
 msgid "Fields for translation - SLAs"
-msgstr ""
+msgstr "Felder für Übersetzung – SLAs"
 
 #: ../content/administration-area/languages/translations.rst:230
 #: ../content/administration-area/ticket-settings/templates.rst:2
@@ -4580,11 +4568,11 @@ msgstr "Vorlagen"
 
 #: ../content/administration-area/languages/translations.rst:230
 msgid "Allows you to translate templates."
-msgstr ""
+msgstr "Ermöglicht die Übersetzung von Vorlagen."
 
 #: ../content/administration-area/languages/translations.rst:235
 msgid "Fields for translation - Templates"
-msgstr ""
+msgstr "Felder für Übersetzung – Vorlagen"
 
 #: ../content/administration-area/languages/translations.rst:239
 #, fuzzy
@@ -4594,11 +4582,11 @@ msgstr "Ticket-Einstellungen"
 
 #: ../content/administration-area/languages/translations.rst:239
 msgid "Allows translation of ticket statuses."
-msgstr ""
+msgstr "Ermöglicht die Übersetzung von Ticket-Status."
 
 #: ../content/administration-area/languages/translations.rst:244
 msgid "Fields for translation - Ticket States"
-msgstr ""
+msgstr "Felder für Übersetzung – Ticket-Status"
 
 #: ../content/administration-area/languages/translations.rst:249
 #, fuzzy
@@ -4608,11 +4596,11 @@ msgstr "Ticket-Liste"
 
 #: ../content/administration-area/languages/translations.rst:249
 msgid "Allows translation of ticket types."
-msgstr ""
+msgstr "Ermöglicht die Übersetzung von Tickettypen."
 
 #: ../content/administration-area/languages/translations.rst:254
 msgid "Fields for translation - Ticket Types"
-msgstr ""
+msgstr "Felder für Übersetzung – Tickettypen"
 
 #: ../content/administration-area/languages/translations.rst:259
 #, fuzzy
@@ -4621,7 +4609,7 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:261
 msgid "This section allows you to edit the translations displayed in the module. When entering the section to edit translations a new screen is displayed with the following elements:"
-msgstr ""
+msgstr "Dieser Bereich ermöglicht es Ihnen, die im Modul angezeigten Übersetzungen zu bearbeiten. Beim Aufrufen der Funktion zum Bearbeiten von Übersetzungen wird ein neuer Bildschirm mit folgenden Elementen angezeigt:"
 
 #: ../content/administration-area/languages/translations.rst:265
 #, fuzzy
@@ -4630,7 +4618,7 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:270
 msgid "List of translations for editing"
-msgstr ""
+msgstr "Liste der Übersetzungen zur Bearbeitung"
 
 #: ../content/administration-area/languages/translations.rst:272
 #, fuzzy
@@ -4640,11 +4628,11 @@ msgstr "Filtert nach den Hauptempfängern."
 
 #: ../content/administration-area/languages/translations.rst:273
 msgid "Content: content column with all the translated tags in the module."
-msgstr ""
+msgstr "Inhalt: Inhaltsspalte mit allen übersetzten Tags im Modul."
 
 #: ../content/administration-area/languages/translations.rst:274
 msgid "Translation: input column with all translations displayed with the possibility to edit and add a new translation."
-msgstr ""
+msgstr "Übersetzung: Eingabespalte mit allen angezeigten Übersetzungen, mit der Möglichkeit, diese zu bearbeiten oder eine neue Übersetzung hinzuzufügen."
 
 #: ../content/administration-area/languages/translations.rst:279
 #, fuzzy
@@ -4653,11 +4641,11 @@ msgstr "Anrede"
 
 #: ../content/administration-area/languages/translations.rst:280
 msgid "This function allows you to deploy translations, changing their status to deployed and adding them to the database or deleting them from the module when they are marked for deletion."
-msgstr ""
+msgstr "Diese Funktion ermöglicht es Ihnen, Übersetzungen bereitzustellen, wodurch deren Status auf „bereitgestellt\" geändert und sie der Datenbank hinzugefügt werden, oder sie aus dem Modul zu löschen, wenn sie zum Löschen markiert sind."
 
 #: ../content/administration-area/languages/translations.rst:285
 msgid "Table of displayed translations."
-msgstr ""
+msgstr "Tabelle der angezeigten Übersetzungen."
 
 #: ../content/administration-area/languages/translations.rst:290
 #, fuzzy
@@ -4677,7 +4665,7 @@ msgstr "Vorlage"
 
 #: ../content/administration-area/languages/translations.rst:297
 msgid "When adding a new template, the new \"Translations\" option is displayed in the \"Object\" input."
-msgstr ""
+msgstr "Beim Hinzufügen einer neuen Vorlage wird im Eingabefeld „Object\" die neue Option „Übersetzungen\" angezeigt."
 
 #: ../content/administration-area/languages/translations.rst:300
 #: ../content/administration-area/languages/translations.rst:315
@@ -4688,7 +4676,7 @@ msgstr "Normal"
 
 #: ../content/administration-area/languages/translations.rst:300
 msgid "Allows you to choose the CSV file format."
-msgstr ""
+msgstr "Ermöglicht die Auswahl des CSV-Dateiformats."
 
 #: ../content/administration-area/languages/translations.rst:305
 #, fuzzy
@@ -4698,7 +4686,7 @@ msgstr "E-Mail-Vorlage"
 
 #: ../content/administration-area/languages/translations.rst:307
 msgid "In the second step, the following fields are displayed:"
-msgstr ""
+msgstr "Im zweiten Schritt werden folgende Felder angezeigt:"
 
 #: ../content/administration-area/languages/translations.rst:312
 #, fuzzy
@@ -4720,23 +4708,23 @@ msgstr "Ausgewählt"
 
 #: ../content/administration-area/languages/translations.rst:318
 msgid "To indicate whether empty fields keep the current values."
-msgstr ""
+msgstr "Zur Angabe, ob leere Felder die aktuellen Werte beibehalten."
 
 #: ../content/administration-area/languages/translations.rst:321
 msgid "In the third step the following new fields are displayed:"
-msgstr ""
+msgstr "Im dritten Schritt werden folgende neuen Felder angezeigt:"
 
 #: ../content/administration-area/languages/translations.rst:324
 msgid "Column Separator"
-msgstr ""
+msgstr "Spaltentrennzeichen"
 
 #: ../content/administration-area/languages/translations.rst:324
 msgid "Allows you to choose the column separator between Colon (:), Comma(,), Period(.), Semicolon(;), Tabulator (TAB)."
-msgstr ""
+msgstr "Ermöglicht die Auswahl des Spaltentrennzeichens zwischen Doppelpunkt (:), Komma (,), Punkt (.), Semikolon (;) und Tabulator (TAB)."
 
 #: ../content/administration-area/languages/translations.rst:329
 msgid "Field Column separator Step 3."
-msgstr ""
+msgstr "Feld „Column Separator\" – Schritt 3."
 
 #: ../content/administration-area/languages/translations.rst:333
 #, fuzzy
@@ -4746,11 +4734,11 @@ msgstr "Zeichensatz der Tabellen"
 
 #: ../content/administration-area/languages/translations.rst:333
 msgid "The default character encoding is unmodifiable and according to the previously selected language."
-msgstr ""
+msgstr "Die Standard-Zeichenkodierung ist nicht veränderbar und richtet sich nach der zuvor ausgewählten Sprache."
 
 #: ../content/administration-area/languages/translations.rst:338
 msgid "Field Charset Step 3."
-msgstr ""
+msgstr "Feld „Charset\" – Schritt 3."
 
 #: ../content/administration-area/languages/translations.rst:342
 #, fuzzy
@@ -4760,15 +4748,15 @@ msgstr "Benutzerdefinierte Skripte einbinden"
 
 #: ../content/administration-area/languages/translations.rst:342
 msgid "Allows you to choose between yes/no if the option is whether the file should have the column headers in the file to be imported."
-msgstr ""
+msgstr "Ermöglicht die Auswahl zwischen Ja/Nein, ob die zu importierende Datei Spaltenüberschriften enthalten soll."
 
 #: ../content/administration-area/languages/translations.rst:347
 msgid "Field Include Column Headers Step 3."
-msgstr ""
+msgstr "Feld „Mit Spaltenüberschrift\" – Schritt 3."
 
 #: ../content/administration-area/languages/translations.rst:351
 msgid "In the fourth step, the order of the file columns is defined:"
-msgstr ""
+msgstr "Im vierten Schritt wird die Reihenfolge der Dateispalten festgelegt:"
 
 #: ../content/administration-area/languages/translations.rst:356
 #, fuzzy
