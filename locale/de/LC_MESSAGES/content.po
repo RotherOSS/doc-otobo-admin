@@ -33,7 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-11-03 16:09+0000\nPO-Revision-Date: 2026-11-04 16:59+0000\nLast-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.9\nGenerated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-11-03 16:09+0000\nPO-Revision-Date: 2026-11-04 16:59+0000\nLast-Translator: Stefan Abel <sta@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.9\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -710,7 +710,7 @@ msgstr "Gültigkeit"
 #: ../content/administration-area/administration/faq-category.rst:73
 #: ../content/administration-area/administration/system-maintenance.rst:72
 msgid "Comment \\*"
-msgstr "Comment \\*"
+msgstr "Kommentar \\*"
 
 #: ../content/administration-area/administration/faq-category.rst:73
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:90
@@ -820,7 +820,7 @@ msgstr "OTOBO ist ein modulares System. Modulare Systeme können durch Hinzufüg
 
 #: ../content/administration-area/administration/package-manager.rst:8
 msgid "The package manager is listed in the *Package Manager* tile of the *Administration* group of the Admin Interface. Use this interface to install, remove and manage packages that extend the functionality of OTOBO."
-msgstr "Der Paketmanager befindet sich in der Kachel *Paketmanager* in der Gruppe *Verwaltung* der Admin-Oberfläche. Verwenden Sie diese Oberfläche, um Pakete zu installieren, zu entfernen und zu verwalten, die die Funktionalität von OTOBO erweitern."
+msgstr "Der Paketmanager befindet sich in der Kachel *Paketmanager* in der Gruppe *Verwaltung* der Admin-Oberfläche. Verwenden Sie diese Oberfläche, um Pakete zu installieren, zu entfernen und zu verwalten, welche die Funktionalität von OTOBO erweitern."
 
 #: ../content/administration-area/administration/package-manager.rst:15
 msgid "Package Manager Screen"
@@ -1722,7 +1722,7 @@ msgstr "Nachricht an Benutzer senden"
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:29
 msgid "One or more :doc:`../users-groups-roles/agents` can be selected in this field, to whom the message will be sent."
-msgstr "In diesem Feld können eine oder mehrere :doc:`../users-groups-roles/agents` ausgewählt werden, an die die Nachricht gesendet wird."
+msgstr "In diesem Feld können eine oder mehrere :doc:`../users-groups-roles/agents` ausgewählt werden, an welche die Nachricht gesendet wird."
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:32
 msgid "Send message to group members"
@@ -1730,7 +1730,7 @@ msgstr "Nachricht an Gruppenmitglieder senden"
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:32
 msgid "One or more :doc:`../users-groups-roles/groups` can be selected in this field, to whose members the message will be sent."
-msgstr "In diesem Feld können eine oder mehrere :doc:`../users-groups-roles/groups` ausgewählt werden, an die die Nachricht gesendet wird."
+msgstr "In diesem Feld können eine oder mehrere :doc:`../users-groups-roles/groups` ausgewählt werden, an welche die Nachricht gesendet wird."
 
 #: ../content/administration-area/communication-notifications/admin-notification.rst:35
 msgid "Group members need to have permission"
@@ -2133,7 +2133,7 @@ msgstr "An diese Agenten senden"
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:196
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:253
 msgid "One or more agents can be selected who should receive the notifications."
-msgstr "Es können ein oder mehrere Agenten ausgewählt werden, die die Benachrichtigungen erhalten sollen."
+msgstr "Es können ein oder mehrere Agenten ausgewählt werden, welche die Benachrichtigungen erhalten sollen."
 
 #: ../content/administration-area/communication-notifications/appointment-notifications.rst:199
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:256
@@ -3473,7 +3473,7 @@ msgstr "Verteilung durch ausgewählte Queue"
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:133
 msgid "All incoming messages will be sorted into the specified queue. The address where the mail was sent to is disregarded in this case."
-msgstr "Alle eingehenden Nachrichten werden in die angegebene Queue sortiert. Die Adresse, an die die E-Mail geschickt wurde, wird in diesem Fall nicht berücksichtigt."
+msgstr "Alle eingehenden Nachrichten werden in die angegebene Queue sortiert. Die Adresse, an welche die E-Mail geschickt wurde, wird in diesem Fall nicht berücksichtigt."
 
 #: ../content/administration-area/communication-notifications/s-mime-certificates.rst:2
 msgid "S/MIME Certificates"
@@ -3893,7 +3893,7 @@ msgstr "Alle Agenten, die sowohl Queue als auch Service des Tickets abonniert ha
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:244
 msgid "All agents subscribed to the ticket's queue"
-msgstr "Alle Agenten, die die Queue des Tickets abonniert haben"
+msgstr "Alle Agenten, welche die Queue des Tickets abonniert haben"
 
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:245
 msgid "All agents subscribed to the ticket's service"
@@ -4226,7 +4226,7 @@ msgstr "Sprache"
 
 #: ../content/administration-area/languages/translations.rst:120
 msgid "Informative label of the language where the translation will be created."
-msgstr "Informatives Label der Sprache, für die die Übersetzung erstellt wird."
+msgstr "Informatives Label der Sprache, für welche die Übersetzung erstellt wird."
 
 #: ../content/administration-area/languages/translations.rst:123
 #: ../content/administration-area/processes-automation/process-management.rst:316
@@ -5164,9 +5164,8 @@ msgid "Beside general information required for all tickets, organizations have i
 msgstr "Neben allgemeinen Informationen, die für alle Tickets erforderlich sind, haben Unternehmen individuelle Bedürfnisse, um spezifische Details zu Tickets hinzuzufügen. Diese benötigten Informationen nehmen verschiedene Formate wie an, wie bspw. Text, Ganzzahlen, Datum-Uhrzeit und mehr."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:7
-#, fuzzy
 msgid "OTOBO supports adding a so-called :term:`dynamic field` to handle texts, integers, drop-down lists, multi-select fields, date-time, checkboxes and more. OTOBO administrators can define where those fields should be visible or editable, and of course, the dynamic fields are also available in statistics and reports."
-msgstr "OTOBO unterstützt das Hinzufügen eines sogenannten :term:`Dynamisches Feld`, um Texte, Ganzzahlen, Dropdown-Listen, Mehrfach-Auswahlfelder, Datum/Uhrzeit, Kontrollkästchen und mehr zu verarbeiten. OTOBO-Administratoren können definieren, wo diese Felder sichtbar oder editierbar sein sollen, und natürlich sind die Dynamischen Felder auch in Statistiken und Berichten verfügbar."
+msgstr "OTOBO unterstützt das Hinzufügen eines sogenannten :term:`dynamic field`, um Texte, Ganzzahlen, Dropdown-Listen, Mehrfach-Auswahlfelder, Datum/Uhrzeit, Kontrollkästchen und mehr zu verarbeiten. OTOBO-Administratoren können definieren, wo diese Felder sichtbar oder editierbar sein sollen, und natürlich sind die Dynamischen Felder auch in Statistiken und Berichten verfügbar."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:10
 msgid "Use this screen to manage dynamic fields in the system. A fresh OTOBO installation contains two dynamic fields by default. The dynamic field management screen is available in the *Dynamic Fields* module of the *Processes & Automation* group."
@@ -5520,7 +5519,7 @@ msgstr "Standard-Datumsunterschied"
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:255
 msgid "The difference from **now** (in seconds) to calculate the field default value (e.g. 3600 or -60)."
-msgstr "Der Unterschied zu **JETZT** in Sekunden, mit dem der Standardwert des Feldes berechnet wird (z. B. 3600 oder -60)."
+msgstr "Der Unterschied zu **jetzt** (in Sekunden), mit dem der Standardwert des Feldes berechnet wird (z. B. 3600 oder -60)."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:266
 msgid "Define years period"
@@ -6038,10 +6037,8 @@ msgid "Generic Agent Job Export Screen"
 msgstr "Ansicht zum Export von Generic Agent Jobs"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:84
-#, fuzzy
-#| msgid "To edit a generic agent job:"
 msgid "To import a set of generic agent jobs:"
-msgstr "So bearbeiten Sie einen GenericAgent-Auftrag:"
+msgstr "So importieren Sie mehrere GenericAgent-Aufträge:"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:86
 #: ../content/administration-area/ticket-settings/queues.rst:75
@@ -6070,10 +6067,8 @@ msgid "Optionally tick the *Override existing entities* checkbox."
 msgstr "Aktivieren Sie optional das Kontrollkästchen *Override existing entities*."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:88
-#, fuzzy
-#| msgid "Click on the *Import* button."
 msgid "Click on the *Generic Agents Import* button."
-msgstr "Klicken Sie auf die Schaltfläche *Importieren*."
+msgstr "Klicken Sie auf die Schaltfläche *Import von Generic Agents*."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:91
 msgid "Generic Agent Job Settings"
@@ -6092,9 +6087,8 @@ msgid "Job Name \\*"
 msgstr "Auftragsname \\*"
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:111
-#, fuzzy
 msgid "Set the validity of this resource. This resource can be used in OTOBO only, if this field is set to *Yes*. Setting this field to *No* will disable the use of the resource."
-msgstr "Setzt die Gültigkeit dieser Ressource. Jede Ressource kann nur in OTOBO verwendet werden, wenn dieses Feld auf *gültig* gesetzt ist. Wenn Sie dieses Feld auf *ungültig* oder *ungültig-temporär* setzen, wird die Nutzung der Ressource deaktiviert."
+msgstr "Setzt die Gültigkeit dieser Ressource. Diese Ressource kann in OTOBO nur dann verwendet werden, wenn dieses Feld auf *Ja* gesetzt ist. Wenn Sie dieses Feld auf *Nein* setzen, wird die Nutzung der Ressource deaktiviert."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:116
 msgid "Automatic Execution"
@@ -6312,9 +6306,8 @@ msgid "Click on the *Create New Process* button in the left sidebar."
 msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Neuen Prozess erstellen*."
 
 #: ../content/administration-area/processes-automation/process-management.rst:26
-#, fuzzy
 msgid "Add activities, activity dialogs, transitions and transition actions."
-msgstr "Fügen Sie Aktivitäten, \"Benutzer-Task\"-Aktivitätsdialoge, Sequenzflüsse und Sequenzfluss-Aktionen hinzu."
+msgstr "Fügen Sie Aktivitäten, Aktivitätsdialoge, Übergänge und Übergangsaktionen hinzu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:27
 msgid "Set *State* to *Active*."
@@ -6429,10 +6422,8 @@ msgid "Choose a location in your computer to save the ``Export_ProcessEntityID_x
 msgstr "Wählen Sie einen Speicherort auf ihrem Computer, um die Datei ``Export_ProcessEntityID_xxx.yml`` zu speichern."
 
 #: ../content/administration-area/processes-automation/process-management.rst:91
-#, fuzzy
-#| msgid "The exported file contains only the process itself, and doesn't contain the :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents`, :doc:`dynamic-fields`, etc. needed for the process."
 msgid "The exported file contains only the process itself, and doesn't contain the :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents`, :doc:`dynamic-fields`, etc., needed for the process."
-msgstr "Die exportierte Datei enthält nur den Prozess selbst und nicht :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents`, :doc:`dynamic-fields`, etc, die ggf. für den Prozess benötigt werden."
+msgstr "Die exportierte Datei enthält nur den Prozess selbst und nicht :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents`, :doc:`dynamic-fields`, etc., die ggf. für den Prozess benötigt werden."
 
 #: ../content/administration-area/processes-automation/process-management.rst:96
 msgid "To import a process:"
@@ -6447,9 +6438,8 @@ msgid "Click on the *Import process configuration* button."
 msgstr "Klicken Sie auf die Schaltfläche *Prozesskonfiguration importieren*."
 
 #: ../content/administration-area/processes-automation/process-management.rst:105
-#, fuzzy
 msgid "Before import of a process, it is still necessary to create all :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` and :doc:`dynamic-fields`, as well as to set :doc:`../administration/system-configuration`, that are needed by each process before the import. If the process requires the use of :doc:`access-control-lists` those are also needed to be set manually."
-msgstr "Vor dem Import eines Prozesses ist es weiterhin notwendig, alle :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` und :doc:`dynamic-fields` zu erstellen, sowie :doc:`../administration/system-configuration` einzustellen, die von jedem Prozess vor dem Import benötigt werden. Wenn der Prozess die Verwendung von :doc:`access-control-lists` erfordert, müssen diese ebenfalls manuell eingestellt werden."
+msgstr "Vor dem Import eines Prozesses ist es weiterhin notwendig, alle :doc:`../ticket-settings/queues`, :doc:`../users-groups-roles/agents` und :doc:`dynamic-fields` anzulegen, sowie :doc:`../administration/system-configuration` zu konfigurieren, die von jedem Prozess vor dem Import benötigt werden. Sofern der Prozess die Verwendung von :doc:`access-control-lists` erfordert, müssen diese ebenfalls manuell konfiguriert werden."
 
 #: ../content/administration-area/processes-automation/process-management.rst:110
 msgid "If several processes are added to the system, use the filter box to find a particular process by just typing the name to filter."
@@ -6457,7 +6447,7 @@ msgstr "Wenn dem System mehrere Prozesse hinzugefügt wurden, verwenden Sie das 
 
 #: ../content/administration-area/processes-automation/process-management.rst:113
 msgid "Transition Reference for \"Fields\" Settings"
-msgstr ""
+msgstr "Übergangs-Referenz für \"Felder\"-Einstellungen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:116
 #: ../content/administration-area/processes-automation/process-management.rst:316
@@ -6466,32 +6456,28 @@ msgid "Name"
 msgstr "Name"
 
 #: ../content/administration-area/processes-automation/process-management.rst:118
-#, fuzzy
-#| msgid "Select which email template should be used for the notification."
 msgid "Name of the ticket attribute that should be used for validation."
-msgstr "Wählen Sie, welche E-Mail-Vorlage für die Benachrichtigung genutzt werden soll."
+msgstr "Name des Ticketattributs, das für die Validierung verwendet werden soll."
 
 #: ../content/administration-area/processes-automation/process-management.rst:120
-#, fuzzy
-#| msgid "SQL Examples"
 msgid "Example:"
-msgstr "SQL Beispiele"
+msgstr "Beispiel:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:122
 msgid "If the transition should only be considered ``valid`` when the process ticket status is ``closed``, ``State`` must be used as the name."
-msgstr ""
+msgstr "Sofern die Übergänge nur als ``gültig`` gelten sollen, wenn der Ticketstatus des Prozesstickets ``geschlossen`` ist, muss ``State`` als Name verwendet werden."
 
 #: ../content/administration-area/processes-automation/process-management.rst:125
 msgid "If a Dynamic Field should be used, ``DynamicField_<FieldName>`` must be used."
-msgstr ""
+msgstr "Sofern Dynamische Felder verwendet werden sollen, muss ``DynamicField_<FeldName>`` verwendet werden."
 
 #: ../content/administration-area/processes-automation/process-management.rst:128
 msgid "To access a field inside a Dynamic Field of type ``Set``, the following syntax can be used:"
-msgstr ""
+msgstr "Um auf ein Feld innerhalb eines Dynamischen Felds vom Typ ``DynamicFieldSet`` zuzugreifen, kann folgende Syntax verwendet werden:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:135
 msgid "In general, all attributes returned by the ``TicketGet`` function can be used."
-msgstr ""
+msgstr "Allgemein können alle Attribute verwendet werden, die von der ``TicketGet``-Funktion zurückgeben werden."
 
 #: ../content/administration-area/processes-automation/process-management.rst:140
 #: ../content/administration-area/processes-automation/process-management.rst:316
@@ -6500,21 +6486,19 @@ msgstr "Typ"
 
 #: ../content/administration-area/processes-automation/process-management.rst:142
 msgid "There are several possibilities to validate whether this transition is valid."
-msgstr ""
+msgstr "Es gibt mehrere Möglichkeit um zu validieren, ob dieser Übergang gültig ist."
 
 #: ../content/administration-area/processes-automation/process-management.rst:147
 msgid "``Exact match - all``"
-msgstr ""
+msgstr "``Exakter Treffer - alle``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:145
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), all values must exactly match the string specified in ``Value``."
 msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) müssen alle Werte exakt mit der in ``Value`` angegebenen Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:152
-#, fuzzy
-#| msgid "Using Regular Expressions"
 msgid "``Regular Expression - all``"
-msgstr "Die Verwendung von regulären Ausdrücken"
+msgstr "``Regulärer Ausdruck - alle``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:150
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), all values must match the regular expression specified in ``Value``."
@@ -6522,7 +6506,7 @@ msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField
 
 #: ../content/administration-area/processes-automation/process-management.rst:159
 msgid "``Exact match``"
-msgstr ""
+msgstr "``Exakter Treffer``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:155
 msgid "``Value`` must exactly match the string."
@@ -6533,10 +6517,8 @@ msgid "In an array (for example: Multi-Value DynamicField or DynamicField of typ
 msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) muss mindestens ein Wert exakt mit der in ``Value`` angegebenen Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:166
-#, fuzzy
-#| msgid "Using Regular Expressions"
 msgid "``Regular Expression``"
-msgstr "Die Verwendung von regulären Ausdrücken"
+msgstr "``Regulärer Ausdruck``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:162
 msgid "``Value`` must contain a matching regular expression."
@@ -6548,7 +6530,7 @@ msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField
 
 #: ../content/administration-area/processes-automation/process-management.rst:172
 msgid "``Exact match - negated``"
-msgstr ""
+msgstr "``Exakter Treffer - negiert``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:169
 msgid "``Value`` must not match the string."
@@ -6559,10 +6541,8 @@ msgid "In an array (for example: Multi-Value DynamicField or DynamicField of typ
 msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) darf kein Wert mit der in ``Value`` angegebenen Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:179
-#, fuzzy
-#| msgid "Using Regular Expressions"
 msgid "``Regular Expression - negated``"
-msgstr "Die Verwendung von regulären Ausdrücken"
+msgstr "``Regulärer Ausdruck - negiert``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:175
 msgid "``Value`` must contain a non-matching regular expression."
@@ -6574,7 +6554,7 @@ msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField
 
 #: ../content/administration-area/processes-automation/process-management.rst:189
 msgid "``Transition validation module``"
-msgstr ""
+msgstr "``Übergangsvalidierungs-Modul``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:182
 msgid "``Name`` is currently irrelevant."
@@ -6593,10 +6573,8 @@ msgid "Value must always contain a string or a regular expression used for compa
 msgstr "Value muss stets eine Zeichenfolge oder einen regulären Ausdruck zum Vergleich enthalten."
 
 #: ../content/administration-area/processes-automation/process-management.rst:199
-#, fuzzy
-#| msgid "SQL Examples"
 msgid "Example"
-msgstr "SQL Beispiele"
+msgstr "Beispiel"
 
 #: ../content/administration-area/processes-automation/process-management.rst:201
 msgid "The process ticket should move to the next process step as soon as a status containing ``closed`` in its name is set."
@@ -6607,20 +6585,16 @@ msgid "Therefore, configure:"
 msgstr "Konfigurieren Sie daher:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:206
-#, fuzzy
-#| msgid "``General`` → ``Status``"
 msgid "``Name`` = ``State``"
-msgstr "``Allgemein`` → ``Status``"
+msgstr "``Name`` = ``Status``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:207
-#, fuzzy
-#| msgid "Using Regular Expressions"
 msgid "``Type`` = ``Regular Expression``"
-msgstr "Die Verwendung von regulären Ausdrücken"
+msgstr "``Typ`` = ``Regulärer Ausdruck``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:208
 msgid "``Value`` = ``closed``"
-msgstr ""
+msgstr "``Wert`` = ``closed``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:210
 msgid "or use the long form:"
@@ -6651,9 +6625,8 @@ msgid "Example process"
 msgstr "Beispiel Prozess"
 
 #: ../content/administration-area/processes-automation/process-management.rst:239
-#, fuzzy
 msgid "Processes are more complex than other resources in OTOBO. To create a process, you need to do several steps. The following chapters show you, how to define a process from the specification and create the needed resources. Let's see an example to make it more demonstrative. We will define a book order process."
-msgstr "Prozesse sind komplexer als andere Ressourcen in OTOBO. Um einen Prozess anzulegen, müssen Sie mehrere Schritte durchführen. Die folgenden Kapitel zeigen Ihnen, wie Sie einen Prozess aus der Spezifikation heraus definieren und die benötigten Ressourcen anlegen können. Um das zu veranschaulichen, ist im folgenden Beispiel ein Buchbestellungsprozess beschrieben."
+msgstr "Prozesse sind komplexer als andere Ressourcen in OTOBO. Um einen Prozess anzulegen, müssen Sie mehrere Schritte durchführen. Die folgenden Kapitel zeigen Ihnen, wie Sie einen Prozess aus der Spezifikation heraus definieren und die benötigten Ressourcen anlegen können. Um das zu veranschaulichen, ist im folgenden Beispiel ein Buchbestellprozess beschrieben."
 
 #: ../content/administration-area/processes-automation/process-management.rst:247
 msgid "Process Specification"
@@ -6708,26 +6681,22 @@ msgid "From the analysis of the example process we can identify the following ne
 msgstr "Nach der Analyse des Beispielprozesses, konnten wir folgende nötigen Elemente identifizieren:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:284
-#, fuzzy
 msgid "Possibility to record data, let's call this :term:`activity dialog`."
-msgstr "Möglichkeiten zur Datenaufnahme bezeichnen wir hier als :term:`\"Benutzer-Task\"-Aktivitätsdialog`."
+msgstr "Möglichkeiten zur Datenaufnahme bezeichnen wir hier als :term:`activity dialog`."
 
 #: ../content/administration-area/processes-automation/process-management.rst:285
-#, fuzzy
 msgid "Check which can react to changed data automatically, let's call this :term:`transition`."
-msgstr "Kontrollen, die automatisch auf geänderte Daten reagieren können, bezeichnen wir hier als :term:`Sequenzfluss`."
+msgstr "Kontrollen, die automatisch auf geänderte Daten reagieren können, bezeichnen wir hier als :term:`transition`."
 
 #: ../content/administration-area/processes-automation/process-management.rst:286
-#, fuzzy
 msgid "Change which can be applied to a process ticket after successful transitions of a process ticket, let's call this :term:`transition action`."
-msgstr "Änderungen, die auf ein Prozess-Ticket nach erfolgreichem Übergang eines Prozess-Ticket angewendet werden können, bezeichnen wir hier als :term:`Sequenzfluss-Aktion`."
+msgstr "Änderungen, die auf ein Prozess-Ticket nach erfolgreichem Übergang eines Prozess-Ticket angewendet werden können, bezeichnen wir hier als :term:`transition action`."
 
 #: ../content/administration-area/processes-automation/process-management.rst:287
 msgid "A possibility to offer more than just one activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`."
 msgstr "Eine Möglichkeit, mehr als nur einen Aktivitätsdialog verfügbar zu machen. In unserem Beispiel wird dies benötigt, wenn der Manager zwischen *Approve* und *Deny* wählen können muss. Nennen wir dies :term:`activity`."
 
 #: ../content/administration-area/processes-automation/process-management.rst:290
-#, fuzzy
 msgid "Now, with activities, activity dialogs, transitions and transition actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`."
 msgstr "Nun verfügen wir mit Aktivitäten, Aktivitätsdialogen, Übergängen und Übergangsaktionen über die notwendigen Werkzeuge, um die einzelnen Schritte unseres Beispiels abzubilden. Was noch fehlt, ist ein Bereich, in dem für jeden Workflow die Reihenfolge der Schritte festgelegt werden kann. Nennen wir dies :term:`process`."
 
@@ -6897,9 +6866,8 @@ msgid "Set the following :doc:`../administration/system-configuration` settings:
 msgstr "Setzen Sie die folgenden :doc:`../administration/system-configuration`-Einstellungen:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:342
-#, fuzzy
 msgid "``Ticket::Responsible``"
-msgstr "Verantwortlicher"
+msgstr "``Ticket::Responsible``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:344
 msgid "Enabled"
@@ -6978,33 +6946,28 @@ msgid "The new process is created. You can add some process element now."
 msgstr "Der neue Prozess wurde erstellt. Nun können Sie Prozesselemente hinzufügen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:380
-#, fuzzy
 msgid "Create Activity Dialogs"
-msgstr "\"Benutzer-Task\"-Aktivitätsdialog erstellen"
+msgstr "Aktivitätsdialoge erstellen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:382
-#, fuzzy
 msgid "Click on the *Activity Dialogs* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activity Dialogs* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity Dialog* button."
-msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *\"Benutzer-Task\"-Aktivitätsdialog*. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neuen \"Benutzer-Task\"-Aktivitätsdialog erstellen*."
+msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Aktivitätsdialoge*. Diese Aktion klappt die *Aktivitätsdialoge*-Optionen auf und klappt gleichzeitig alle anderen Prozesselemente ein wie mit einem Ziehharmonika-Effekt. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neuen Aktivitätsdialog erstellen*."
 
 #: ../content/administration-area/processes-automation/process-management.rst:389
-#, fuzzy
 msgid "Book Ordering - Activity Dialogs"
-msgstr "Buchbestellung - \"Benutzer-Task\"-Aktivitätsdialog"
+msgstr "Buchbestellung - Aktivitätsdialoge"
 
 #: ../content/administration-area/processes-automation/process-management.rst:391
 msgid "In the opened popup screen fill in the *Dialog Name* as well as the *Description (short)* fields. For this example we will leave all other fields as the default."
 msgstr "Füllen Sie im Popup die Felder *Aktivitätsname* und *Kurzbeschreibung* aus. Für dieses Beispiel lassen wir alle anderen Felder als Standard."
 
 #: ../content/administration-area/processes-automation/process-management.rst:397
-#, fuzzy
 msgid "Book Ordering - Add Activity Dialog"
-msgstr "Buchbestellung - \"Benutzer-Task\"-Aktivitätsdialog hinzufügen"
+msgstr "Buchbestellung - Aktivitätsdialog hinzufügen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:399
-#, fuzzy
 msgid "To assign fields to the activity dialog simple drag the required field from the *Available Fields* pool and drop into the *Assigned Fields* pool. The order in the *Assigned Fields* pool is the order as the fields will have in the screen. To modify the order simply drag and drop the field within the pool to rearrange it in the correct place."
-msgstr "Um Felder dem \"Benutzer-Task\"-Aktivitätsdialog zuzuordnen, ziehen Sie einfach das gewünschte Feld aus dem Bereich *Verfügbare Felder* in den Bereich *Zugewiesene Felder*. Die Reihenfolge im Bereich *Zugewiesene Felder* ist die Reihenfolge, wie sie die Felder auf den Ansichten haben. Um die Reihenfolge zu ändern, ziehen Sie einfach das Feld per Drag&Drop im Bereich, um es an der richtigen Stelle neu anzuordnen."
+msgstr "Um Felder zum Aktivitätsdialog zuzuordnen, ziehen Sie einfach das gewünschte Feld aus dem Bereich *Verfügbare Felder* in den Bereich *Zugewiesene Felder*. Die Reihenfolge im Bereich *Zugewiesene Felder* ist die Reihenfolge, wie sie die Felder in der Ansicht haben. Um die Reihenfolge zu ändern, ziehen Sie einfach das Feld per Drag&Drop im Bereich, um es an der richtigen Stelle neu anzuordnen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:403
 msgid "In this example we will use:"
@@ -7036,33 +6999,28 @@ msgid "In this screen all dynamic fields has the prefix ``DynamicField_`` as in 
 msgstr "In dieser Ansicht haben alle Dynamischen Felder das Präfix ``DynamicField_`` wie bspw. in ``DynamicField_Title``. Verwechseln Sie das nicht mit dem Feld ``Titel`` im Ticket-Titel."
 
 #: ../content/administration-area/processes-automation/process-management.rst:418
-#, fuzzy
 msgid "Book Ordering - Add Activity Dialog Fields"
-msgstr "Buchbestellung - Felder zum \"Benutzer-Task\"-Aktivitätsdialog hinzufügen"
+msgstr "Buchbestellung - Felder zum Aktivitätsdialog hinzufügen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:420
-#, fuzzy
 msgid "As soon as the fields are dropped into the *Assigned Fields* pool another popup screen is shown with some details about the field. We will leave the default options and only for ``Article`` fields we should make sure that the *Communication Channel* field is set to *OTOBO* and that the *Is visible for customer* is not checked."
-msgstr "Sobald die Felder in den Bereich *Zugewiesene Felder* platziert wurden, erscheint ein weiteres Popup-Fenster mit einigen Details zum Feld. Wir belassen die Standardoptionen und nur für die Felder *Artikel* sollten wir sicherstellen, dass das Feld \"Kommunikationskanal\" auf *OTOBO* gesetzt ist und dass das Feld *Ist sichtbar für Kunde* nicht markiert ist."
+msgstr "Sobald die Felder in den Bereich *Zugewiesene Felder* platziert wurden, erscheint ein weiteres Popup-Fenster mit einigen Details zum Feld. Wir belassen es bei den Standardeinstellungen und nur für die ``Artikel``-Felder sollten wir sicherstellen, dass das Feld *Kommunikationskanal* auf *OTOBO* gesetzt ist und dass das Feld *Ist sichtbar für Kunde* nicht angehakt ist."
 
 #: ../content/administration-area/processes-automation/process-management.rst:0
 #: ../content/administration-area/processes-automation/process-management.rst:426
-#, fuzzy
 msgid "Book Ordering - Edit Activity Dialog Fields"
-msgstr "Buchbestellung - Felder des \"Benutzer-Task\"-Aktivitätsdialog bearbeiten"
+msgstr "Buchbestellung - Felder des Aktivitätsdialogs bearbeiten"
 
 #: ../content/administration-area/processes-automation/process-management.rst:428
 #: ../content/administration-area/processes-automation/process-management.rst:483
 #: ../content/administration-area/processes-automation/process-management.rst:539
 #: ../content/administration-area/processes-automation/process-management.rst:647
-#, fuzzy
 msgid "After all fields are filled in, click on the *Save and finish* button to save the changes and go back to the process management screen."
 msgstr "Nachdem alle Felder ausgefüllt wurden, klicken Sie auf die Schaltfläche *Speichern und abschließen*, um die Änderungen zu speichern und zurück zur Ansicht der Prozess-Verwaltung zu gehen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:430
-#, fuzzy
 msgid "Create the following activity dialogs with fields:"
-msgstr "Erstellen Sie die folgenden \"Benutzer-Task\"-Aktivitätsdialoge:"
+msgstr "Erstellen Sie die folgenden Aktivitätsdialoge mit Feldern:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:432
 #: ../content/administration-area/processes-automation/process-management.rst:651
@@ -7124,34 +7082,28 @@ msgid "``DynamicField_Status`` with the possibility to choose *Shipment received
 msgstr "``DynamicField_Status`` mit der Möglichkeit, *Lieferung erhalten* zu wählen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:464
-#, fuzzy
 msgid "Create Transitions"
-msgstr "Aktivitäten erstellen"
+msgstr "Übergänge erstellen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:466
-#, fuzzy
 msgid "Click on the *Transitions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transitions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition* button."
-msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Sequenzfluss-Aktionen*. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neue Sequenzfluss-Aktionen erstellen*."
+msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Übergänge*. Diese Aktion klappt alle *Übergänge*-Optionen auf und klappt gleichzeitig alle anderen wie mit einem Ziehharmonika-Effekt zu. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neuen Übergang erstellen*."
 
 #: ../content/administration-area/processes-automation/process-management.rst:473
-#, fuzzy
 msgid "Book Ordering - Transitions"
-msgstr "Buchbestellung - Aktivitäten"
+msgstr "Buchbestellung - Übergänge"
 
 #: ../content/administration-area/processes-automation/process-management.rst:475
-#, fuzzy
 msgid "In the opened popup screen fill in the *Transition Name*. For this example in the *Condition Expressions* we will use just one condition expression and just one field. For both we can leave the *Type of Linking* as *and* and we will use the filed match type value as *String*."
-msgstr "Geben Sie im sich öffnenden Popup in das Feld *Sequenzfluss-Name* einen Namen ein. Für dieses Beispiel wählen wir im Bereich *Bedingungsausdrücke* nur einen Bedingungsausdruck und ein Feld. Für diese beiden lassen für den Linkt-Typ auf \"und\" und wir werden den Match-Type-Wert als \"String\" nutzen."
+msgstr "Geben Sie im sich öffnenden Popup in das Feld *Name des Übergangs* einen Namen ein. Für dieses Beispiel wählen wir im Bereich *Bedingungsausdrücke* nur einen Bedingungsausdruck und ein Feld. Für diese beiden lassen wir den *Verknüpfungstyp* auf *und* und wir werden den Treffer-Typ-Wert als *Genauer Treffer* (String) nutzen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:481
-#, fuzzy
 msgid "Book Ordering - Add Transition"
-msgstr "Buchbestellung - Aktivität hinzufügen"
+msgstr "Buchbestellung - Übergang hinzufügen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:485
-#, fuzzy
 msgid "Create the following transitions:"
-msgstr "Erstellen Sie die folgenden Aktivitäten:"
+msgstr "Erstellen Sie die folgenden Übergänge:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:487
 msgid "*Approval* (already created before)"
@@ -7182,116 +7134,96 @@ msgid "Check if the ``DynamicField_Status`` field is set to *Shipment received*.
 msgstr "Überprüfen Sie, ob der ``DynamicField_Status`` auf *Lieferung erhalten* gesetzt ist."
 
 #: ../content/administration-area/processes-automation/process-management.rst:513
-#, fuzzy
 msgid "Create Transition Actions"
-msgstr "Optionen für Status-Konfiguration"
+msgstr "Übergangsaktionen erstellen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:515
-#, fuzzy
 msgid "Click on the *Transition Actions* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Transition Actions* options and will collapse all others doing an accordion like effect. Click on the *Create New Transition Action* button."
-msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Sequenzfluss-Aktionen*. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neue Sequenzfluss-Aktionen erstellen*."
+msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Übergangsaktionen*. Diese Aktion klappt die *Übergangsaktionen*-Optionen auf und klappt gleichzeitig alle anderen Prozesselemente wie mit einem Ziehharmonika-Effekt ein. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neue Übergangsaktionen erstellen*."
 
 #: ../content/administration-area/processes-automation/process-management.rst:522
-#, fuzzy
 msgid "Book Ordering - Transition Actions"
-msgstr "Buchbestellung - Sequenzfluss-Aktionen"
+msgstr "Buchbestellung - Übergangsaktionen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:524
-#, fuzzy
 msgid "In the opened popup screen fill in the *Transition Action Name* and the *Transition Action module* then click on the *Save* button. A new *Configure* button will appear next to the module field."
-msgstr "Geben Sie im sich öffnenden Popup in das Feld *Name der Sequenzfluss-Aktion* einen Namen ein wählen Sie das *Sequenzfluss-Aktionsmodul* \"TicketQueueSet\" aus. Es erscheint eine neue Schaltfläche *Konfigurieren* neben dem Feld."
+msgstr "Geben Sie im sich öffnenden Popup in das Feld *Name der Übergangsaktion* einen Namen ein wählen Sie das *Übergangsaktionsmodul* und wählen Sie die Schaltfläche *Speichern* aus. Es erscheint eine neue Schaltfläche *Konfigurieren* neben dem Modulfeld."
 
 #: ../content/administration-area/processes-automation/process-management.rst:530
-#, fuzzy
 msgid "Book Ordering - Add Transition Action"
-msgstr "Buchbestellung - Sequenzfluss-Aktion hinzufügen"
+msgstr "Buchbestellung - Übergangsaktion hinzufügen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:532
 msgid "Click on the *Configure* button and add the needed configuration parameter keys and values."
 msgstr "Klicken Sie auf die Schaltfläche *Konfigurieren* und fügen Sie die benötigten Konfigurationsparameter und Schlüssel / Werte hinzu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:537
-#, fuzzy
 msgid "Book Ordering - Transition Action Parameters"
-msgstr "Buchbestellung - Parameter für Sequenzfluss-Aktionen"
+msgstr "Buchbestellung - Parameter für Übergangsaktionen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:543
 msgid "Each module has its own and different parameters. As soon as you add a TransitionAction, the options are displayed directly. Further information can currently only be found in the source code:"
 msgstr "Jedes Modul besitzt eigene, unterschiedliche Parameter. Sobald Sie eine Übergangsaktion hinzufügen, werden die entsprechenden Optionen direkt angezeigt. Weitere Informationen finden sich derzeit nur im Quellcode:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:547
-#, fuzzy
 msgid "`DynamicFieldSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/DynamicFieldSet.pm>`_"
-msgstr "`DynamicFieldSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/DynamicFieldSet.pm.html>`_"
+msgstr "`DynamicFieldSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/DynamicFieldSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:548
-#, fuzzy
 msgid "`TicketArticleCreate <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketArticleCreate.pm>`_"
-msgstr "`TicketArticleCreate <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketArticleCreate.pm.html>`_"
+msgstr "`TicketArticleCreate <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketArticleCreate.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:549
-#, fuzzy
 msgid "`TicketCreate <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketCreate.pm>`_"
-msgstr "`TicketCreate <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketCreate.pm.html>`_"
+msgstr "`TicketCreate <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketCreate.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:550
-#, fuzzy
 msgid "`TicketCustomerSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketCustomerSet.pm>`_"
-msgstr "`TicketCustomerSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketCustomerSet.pm.html>`_"
+msgstr "`TicketCustomerSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketCustomerSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:551
-#, fuzzy
 msgid "`TicketLockSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketLockSet.pm>`_"
-msgstr "`TicketLockSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketLockSet.pm.html>`_"
+msgstr "`TicketLockSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketLockSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:552
-#, fuzzy
 msgid "`TicketOwnerSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketOwnerSet.pm>`_"
-msgstr "`TicketOwnerSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketOwnerSet.pm.html>`_"
+msgstr "`TicketOwnerSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketOwnerSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:553
-#, fuzzy
 msgid "`TicketQueueSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketQueueSet.pm>`_"
-msgstr "`TicketQueueSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketQueueSet.pm.html>`_"
+msgstr "`TicketQueueSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketQueueSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:554
-#, fuzzy
 msgid "`TicketResponsibleSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketResponsibleSet.pm>`_"
-msgstr "`TicketResponsibleSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketResponsibleSet.pm.html>`_"
+msgstr "`TicketResponsibleSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketResponsibleSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:555
-#, fuzzy
 msgid "`TicketServiceSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketServiceSet.pm>`_"
-msgstr "`TicketServiceSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketServiceSet.pm.html>`_"
+msgstr "`TicketServiceSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketServiceSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:556
 msgid "`TicketSLASet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketSLASet.pm>`_"
-msgstr "`TicketSLASet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketSLASet.pm>`_"
+msgstr "`TicketSLASet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketSLASet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:557
-#, fuzzy
 msgid "`TicketStateSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketStateSet.pm>`_"
-msgstr "`TicketStateSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketStateSet.pm.html>`_"
+msgstr "`TicketStateSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketStateSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:558
-#, fuzzy
 msgid "`TicketTitleSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketTitleSet.pm>`_"
-msgstr "`TicketTitleSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTitleSet.pm.html>`_"
+msgstr "`TicketTitleSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketTitleSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:559
-#, fuzzy
 msgid "`TicketTypeSet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketTypeSet.pm>`_"
-msgstr "`TicketTypeSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/System/ProcessManagement/Modules/TicketTypeSet.pm.html>`_"
+msgstr "`TicketTypeSet <https://github.com/RotherOSS/otobo/blob/rel-11_1/Kernel/System/ProcessManagement/TransitionAction/TicketTypeSet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:561
-#, fuzzy
 msgid "All transition action modules are located in the legacy named ``Kernel/System/ProcessManagement/TransitionAction``."
-msgstr "Alle Sequenzfluss-Aktionsmodule befinden sich im Verzeichnis namens ``Kernel/System/ProcessManagement/TransitionAction``."
+msgstr "Alle Übergangsaktionsmodule befinden sich im Verzeichnis namens ``Kernel/System/ProcessManagement/TransitionAction``."
 
 #: ../content/administration-area/processes-automation/process-management.rst:563
-#, fuzzy
 msgid "Create the following transition actions:"
-msgstr "Erstellen Sie die folgenden Sequenzfluss-Aktionen:"
+msgstr "Erstellen Sie die folgenden Übergangsaktionen:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:565
 msgid "*Move the process ticket into the \"Management\" queue* (already created before)"
@@ -7299,9 +7231,8 @@ msgstr "*Prozessticket in Queue \"Verwaltung\" verschieben* (bereits vorher erst
 
 #: ../content/administration-area/processes-automation/process-management.rst:567
 #: ../content/administration-area/processes-automation/process-management.rst:571
-#, fuzzy
 msgid "To be executed when the transition *Approval* applied."
-msgstr "Wird ausgeführt, wenn die Sequenzfluss-Aktion \"Genehmigung\" ausgeführt wurde."
+msgstr "Wird ausgeführt, wenn der Übergang *Genehmigung* zutrifft."
 
 #: ../content/administration-area/processes-automation/process-management.rst:569
 #: ../content/administration-area/processes-automation/process-management.rst:746
@@ -7324,22 +7255,19 @@ msgstr "Wird ausgeführt, wenn:"
 #: ../content/administration-area/processes-automation/process-management.rst:577
 #: ../content/administration-area/processes-automation/process-management.rst:585
 #: ../content/administration-area/processes-automation/process-management.rst:605
-#, fuzzy
 msgid "The transition *Approval denied* applied."
-msgstr "Wenn die Sequenzfluss-Aktion \"Genehmigung abgelehnt\" ausgeführt wurde."
+msgstr "Der Übergang *Genehmigung abgelehnt* trifft zu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:578
 #: ../content/administration-area/processes-automation/process-management.rst:586
 #: ../content/administration-area/processes-automation/process-management.rst:606
-#, fuzzy
 msgid "The transition *Order denied* applied."
-msgstr "Wenn die Sequenzfluss-Aktion \"Bestellung abgelehnt\" ausgeführt wurde."
+msgstr "Der Übergang *Bestellung abgelehnt* trifft zu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:579
 #: ../content/administration-area/processes-automation/process-management.rst:587
-#, fuzzy
 msgid "The transition *Shipment received* applied."
-msgstr "Wenn die Sequenzfluss-Aktion \"Lieferung erhalten\" ausgeführt wurde."
+msgstr "Der Übergang *Lieferung erhalten* trifft zu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:581
 #: ../content/administration-area/processes-automation/process-management.rst:764
@@ -7354,9 +7282,8 @@ msgid "*Move process ticket into the \"Purchasing\" queue*"
 msgstr "*Prozess-Ticket in die Queue \"Einkauf\" verschieben*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:591
-#, fuzzy
 msgid "To be executed when the transition *Approved* applied."
-msgstr "Wird ausgeführt, wenn die Sequenzfluss-Aktion \"Genehmigt\" ausgeführt wurde."
+msgstr "Wird ausgeführt, wenn die der Übergang *Genehmigt* zutrifft."
 
 #: ../content/administration-area/processes-automation/process-management.rst:593
 #: ../content/administration-area/processes-automation/process-management.rst:807
@@ -7364,9 +7291,8 @@ msgid "*Move process ticket into the \"Post office\" queue*"
 msgstr "*Ticket in die Queue \"Poststelle\" verschieben*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:595
-#, fuzzy
 msgid "To be executed when the transition *Order placed* applied."
-msgstr "Wird ausgeführt, wenn die Sequenzfluss-Aktion \"Bestellung aufgegeben\" ausgeführt wurde."
+msgstr "Wird ausgeführt, wenn der Übergang *Bestellung aufgegeben* zutrifft."
 
 #: ../content/administration-area/processes-automation/process-management.rst:597
 #: ../content/administration-area/processes-automation/process-management.rst:823
@@ -7374,9 +7300,8 @@ msgid "*Close ticket successfully*"
 msgstr "*Ticket erfolgreich schließen*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:599
-#, fuzzy
 msgid "To be executed when the transition *Shipment received* applied."
-msgstr "Wird ausgeführt, wenn die Sequenzfluss-Aktion \"Lieferung erhalten\" ausgeführt wurde."
+msgstr "Wird ausgeführt, wenn der Übergang *Lieferung erhalten* zutrifft."
 
 #: ../content/administration-area/processes-automation/process-management.rst:601
 #: ../content/administration-area/processes-automation/process-management.rst:765
@@ -7385,18 +7310,16 @@ msgid "*Close ticket unsuccessfully*"
 msgstr "*Ticket erfolglos schließen*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:608
-#, fuzzy
 msgid "There are places where the same transition actions should be executed. Therefore it is reasonable to make it possible to link transition actions freely with transitions to be able to reuse them."
-msgstr "Es gibt Stellen, an denen gleiche Sequenzfluss-Aktionen ausgeführt werden sollen. Deshalb ist es sinnvoll Sequenzfluss-Aktionen frei mit Sequenzflüssen zu verknüpfen, um sie wiederverwenden zu können."
+msgstr "Es gibt Stellen, an denen gleiche Übergangsaktionen ausgeführt werden sollen. Deshalb ist es sinnvoll Übergangsaktionen frei mit Übergängen zu verknüpfen, um sie wiederverwenden zu können."
 
 #: ../content/administration-area/processes-automation/process-management.rst:613
 msgid "Create Activities"
 msgstr "Aktivitäten erstellen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:615
-#, fuzzy
 msgid "Click on the *Activities* item in the *Available Process Elements* widget in the left sidebar. This action will expand the *Activities* options and will collapse all others doing an accordion like effect. Click on the *Create New Activity* button."
-msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Aktivitäten*. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neue Aktivität erstellen*."
+msgstr "Klicken Sie in der linken Seitenleiste im Widget *Verfügbare Prozesselemente* auf *Aktivitäten*. Diese Aktion klappt die *Aktivitäten*-Optionen auf und klappt gleichzeitig die anderen Prozesselemente zu wie mit einem Ziehharmonika-Effekt. Klicken Sie im aufgeklappten Bereich auf de Schaltfläche *Neue Aktivität erstellen*."
 
 #: ../content/administration-area/processes-automation/process-management.rst:622
 msgid "Book Ordering - Activities"
@@ -7405,7 +7328,7 @@ msgstr "Buchbestellung - Aktivitäten"
 #: ../content/administration-area/processes-automation/process-management.rst:624
 #, fuzzy
 msgid "In the opened popup screen fill in the *Activity name* field and select *User task activity* from the *Activity type* drop-down."
-msgstr "Geben Sie im sich öffnenden Popup in das Feld *Aktivitätsname* einen Namen ein und wählen Sie den Aktivitätstyp *User task activity* aus."
+msgstr "Geben Sie im sich öffnenden Popup in das Feld *Name der Aktivität* einen Namen ein."
 
 #: ../content/administration-area/processes-automation/process-management.rst:629
 msgid "Book Ordering - Add Activity"
@@ -7416,28 +7339,24 @@ msgid "To assign dialogs to the activity simple drag the required dialogs from t
 msgstr "Um Dialoge der Aktivität zuzuweisen, ziehen Sie die gewünschten Dialoge einfach aus dem Pool *Verfügbare Aktivitätsdialoge* und legen Sie sie im Pool *Zugewiesene Aktivitätsdialoge* ab. Die Reihenfolge der Dialoge im Pool *Zugewiesene Aktivitätsdialoge* bestimmt, in welcher Reihenfolge sie im Bildschirm *Ticket Zoom* angezeigt werden. Um die Reihenfolge zu ändern, ziehen Sie den Dialog einfach per Drag-and-drop an die gewünschte Position innerhalb des Pools."
 
 #: ../content/administration-area/processes-automation/process-management.rst:637
-#, fuzzy
 msgid "This order is specially important in the first activity, since the first activity dialog for this activity is the only one that is presented when the process starts."
-msgstr "Diese Reihenfolge ist in der ersten Aktivität besonders wichtig, da der erste \"Benutzer-Task\"-Aktivitätsdialog für diese Aktivität der einzige ist, der beim Start des Prozesses angezeigt wird."
+msgstr "Diese Reihenfolge ist in der ersten Aktivität besonders wichtig, da der erste Aktivitätsdialog für diese Aktivität der einzige ist, der beim Start des Prozesses angezeigt wird."
 
 #: ../content/administration-area/processes-automation/process-management.rst:639
-#, fuzzy
 msgid "In this example we need to assign only the *Recording the demand* activity dialog. Drag this dialog from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool."
-msgstr "In diesem Beispiel müssen wir nur den \"Benutzer\"-Task-Aktivitätsdialog *Aufnahme der Nachfrage* zuordnen. Ziehen Sie diesen Dialog aus dem Bereich *Verfügbare \"Benutzer\"-Task-Aktivitätsdialoge* in den Bereich *Zugewiesene \"Benutzer\"-Task-Aktivitätsdialoge*."
+msgstr "In diesem Beispiel müssen wir nur den Aktivitätsdialog *Aufnahme der Nachfrage* zuordnen. Ziehen Sie diesen Dialog aus dem Bereich *Verfügbare Aktivitätsdialoge* in den Bereich *Zugewiesene Aktivitätsdialoge*."
 
 #: ../content/administration-area/processes-automation/process-management.rst:645
-#, fuzzy
 msgid "Book Ordering - Assign Activity Dialog"
-msgstr "Buchbestellung - \"Benutzer-Task\"-Aktivitätsdialog zuordnen"
+msgstr "Buchbestellung - Aktivitätsdialog zuordnen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:649
 msgid "Create the following activities:"
 msgstr "Erstellen Sie die folgenden Aktivitäten:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:653
-#, fuzzy
 msgid "Assign the activity dialog *Recording the demand*."
-msgstr "Ordnen Sie den \"Benutzer\"-Task-Aktivitätsdialog *Aufname der Nachfrage* zu."
+msgstr "Ordnen Sie den Aktivitätsdialog *Aufname der Nachfrage* zu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:655
 #: ../content/administration-area/processes-automation/process-management.rst:751
@@ -7445,9 +7364,8 @@ msgid "*Approval*"
 msgstr "*Genehmigung*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:657
-#, fuzzy
 msgid "Assign the activity dialogs *Approval denied* and *Approved*."
-msgstr "Ordnen Sie die \"Benutzer\"-Task-Aktivitätsdialoge *Genehmigung verweigert* und *Genehmigt* zu."
+msgstr "Ordnen Sie die Aktivitätsdialoge *Genehmigung verweigert* und *Genehmigt* zu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:659
 #: ../content/administration-area/processes-automation/process-management.rst:781
@@ -7455,9 +7373,8 @@ msgid "*Order*"
 msgstr "*Bestellung*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:661
-#, fuzzy
 msgid "Assign the activity dialogs *Order denied* and *Order placed*."
-msgstr "Ordnen Sie die \"Benutzer\"-Task-Aktivitätsdialoge *Bestellung verweigert* und *Bestellung aufgegeben* zu."
+msgstr "Ordnen Sie die Aktivitätsdialoge *Bestellung abgelehnt* und *Bestellung aufgegeben* zu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:663
 #: ../content/administration-area/processes-automation/process-management.rst:809
@@ -7465,42 +7382,36 @@ msgid "*Incoming*"
 msgstr "*Eingehend*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:665
-#, fuzzy
 msgid "Assign the activity dialog *Shipment received*."
-msgstr "Ordnen Sie den \"Benutzer\"-Task-Aktivitätsdialog *Lieferung erhalten* zu."
+msgstr "Ordnen Sie den Aktivitätsdialog *Lieferung erhalten* zu."
 
 #: ../content/administration-area/processes-automation/process-management.rst:667
 msgid "*Process complete*"
 msgstr "*Prozess komplett*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:669
-#, fuzzy
 msgid "This is an activity without possible activity dialogs. It will be set after *Approval denied*, *Order denied* or *Shipment received* and represents the end of the process."
-msgstr "Das ist eine Aktivität ohne mögliche \"Benutzer-Task\"-Aktivitätsdialoge. Sie nach *Genehmigung verweigert* , *Bestellung abgelehnt* oder *Lieferung erhalten* gesetzt und repräsentiert das Ende des Prozesses."
+msgstr "Das ist eine Aktivität ohne mögliche Aktivitätsdialoge. Sie nach *Genehmigung verweigert* , *Bestellung abgelehnt* oder *Lieferung erhalten* gesetzt und repräsentiert das Ende des Prozesses."
 
 #: ../content/administration-area/processes-automation/process-management.rst:672
-#, fuzzy
 msgid "Now we can clearly see that activities are precisely defined states of a process ticket. After a successful transition a process ticket moves from one activity to another."
-msgstr "Jetzt können wir deutlich sehen, dass Aktivitäten genau definierte Zustände eines Prozess-Tickets sind. Nach einem erfolgreichen Sequenzfluss wechselt ein Prozess-Ticket von einer Aktivität zur anderen."
+msgstr "Jetzt können wir deutlich sehen, dass Aktivitäten genau definierte Zustände eines Prozess-Tickets sind. Nach einem erfolgreichen Übergang wechselt ein Prozess-Ticket von einer Aktivität zur anderen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:677
 msgid "Create Process Path"
 msgstr "Prozesspfad erstellen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:679
-#, fuzzy
 msgid "Let us conclude our example with the last missing piece in the puzzle, the process as a flow describer. In our case this is the whole ordering workflow. Other processes could be office supply ordering or completely different processes."
-msgstr "Lassen Sie uns unser Beispiel mit dem letzten fehlenden Teil im Puzzle abschließen, dem Prozess als Ablaufbeschreiber. In unserem Fall ist dies der gesamte Bestellablauf. Andere Prozesse können die Bestellung von Bürobedarf oder völlig andere Prozesse sein."
+msgstr "Lassen Sie uns unser Beispiel mit dem letzten fehlenden Puzzleteil abschließen, dem Prozess als Beschreiber eines Ablaufs. In unserem Fall ist dies der gesamte Bestellablauf. Andere Prozesse können die Bestellung von Bürobedarf oder völlig andere Prozesse sein."
 
 #: ../content/administration-area/processes-automation/process-management.rst:683
-#, fuzzy
 msgid "The process has a starting point which consists of the start activity and the start activity dialog. For any new book order, the first activity dialog of the first activity is the first screen that is displayed. If this is completed and saved, the process ticket will be created and can follow the configured workflow."
-msgstr "Der Prozess hat einen Startpunkt, der sich aus der Start-Aktivität und dem \"Benutzer\"-Task-Aktivitätsdialog zusammensetzt. Bei jeder neuen Buchbestellung ist der erste Dialog der angezeigt wird der \"Benutzer\"-Task-Aktivitätsdialog. Wenn diese abgeschlossen und gespeichert ist, wird das Prozess-Ticket erstellt und kann dem konfigurierten Ablauf folgen."
+msgstr "Der Prozess hat einen Startpunkt, der sich aus der Start-Aktivität und dem Aktivitätsdialog zusammensetzt. Bei jeder neuen Buchbestellung ist der erste Aktivitätsdialog der angezeigt wird der Aktivitätsdialog. Wenn diese abgeschlossen und gespeichert ist, wird das Prozess-Ticket erstellt und kann dem konfigurierten Ablauf folgen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:687
-#, fuzzy
 msgid "The process also contains the directions for how the process ticket can move through the process. Let's call this :term:`process path`. It consists of the start activity, one or more transitions (possibly with transition actions) and other activities."
-msgstr "Der Prozess enthält auch die Anweisungen, wie sich das Prozess-Ticket durch den Prozess bewegen kann. Nennen wir das den :term:`Prozesspfad`. Er besteht aus der Startaktivität, einem oder mehreren Sequenzflüssen (ggf. mit Sequenzfluss-Aktionen) und weiteren Aktivitäten."
+msgstr "Der Prozess enthält auch die Anweisungen, wie sich das Prozess-Ticket durch den Prozess bewegen kann. Nennen wir das den :term:`process path`. Er besteht aus der Startaktivität, einem oder mehreren Übergängen (ggf. mit Übergangsaktionen), sowie weiteren Aktivitäten."
 
 #: ../content/administration-area/processes-automation/process-management.rst:690
 msgid "Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first activity dialog is the first screen that will be shown when the process starts."
