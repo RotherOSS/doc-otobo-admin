@@ -33,20 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr ""
-"Project-Id-Version: OTOBO\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-03 16:09+0000\n"
-"PO-Revision-Date: 2026-11-03 15:59+0000\n"
-"Last-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\n"
-"Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\n"
-"Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-11-03 16:09+0000\nPO-Revision-Date: 2026-11-04 16:59+0000\nLast-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.9\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -5150,11 +5137,11 @@ msgstr "105-Beispiel-ACL"
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:292
 msgid "Disallow Standard Reply Function For Customers in Process"
-msgstr ""
+msgstr "Standardantwortfunktion für Kunden im Prozess deaktivieren"
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:294
 msgid "This ACL prohibits using the reply button in CustomerTicketZoom if the ticket is a process ticket of the process with entity ID *Process-0123456789abcdef*."
-msgstr ""
+msgstr "Diese ACL verhindert die Nutzung der Schaltfläche „Antworten\" in CustomerTicketZoom, wenn es sich bei dem Ticket um ein Prozess-Ticket des Prozesses mit der Entity-ID *Process-0123456789abcdef* handelt."
 
 #: ../content/administration-area/processes-automation/access-control-lists.rst:299
 msgid "106-Example-ACL"
@@ -5672,7 +5659,7 @@ msgstr "Baumansicht"
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:326
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:370
 msgid "Activate this option to display values as a tree. In case you want to have a tree structure (expandable values), you have to implement the complete tree structure in the *key* (e.g. Country: ``Country::Germany`` and ``Country::France``) and only the lowest item in the *value* (e.g. Country: ``Germany`` and ``France``) of the *possible values*."
-msgstr ""
+msgstr "Aktivieren Sie diese Option, um Werte als Baumstruktur darzustellen. Falls Sie eine Baumstruktur (aufklappbare Werte) wünschen, müssen Sie die vollständige Baumstruktur im *Schlüssel* (z. B. Country: ``Country::Germany`` und ``Country::France``) implementieren und nur das unterste Element im *Wert* (z. B. Country: ``Germany`` und ``France``) der *möglichen Werte* angeben."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:350
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:355
@@ -5747,23 +5734,23 @@ msgstr "Dynamisches Feld vom Typ \"Web-Service\""
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:462
 msgid "A Web Service dynamic field relies upon a working Web Service, more precisely on a Web Service invoker."
-msgstr ""
+msgstr "Ein dynamisches Web-Service-Feld basiert auf einem funktionierenden Web Service, genauer gesagt auf einem Web Service Invoker."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:464
 msgid "For this purpose, an invoker of type PassThrough can be used."
-msgstr ""
+msgstr "Hierfür kann ein Invoker vom Typ PassThrough verwendet werden."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:466
 msgid "For the outgoing API call, DynamicFieldID, -Label, -Name and -Value, as well as UserID and Ticket and Form data are passed to the invoker."
-msgstr ""
+msgstr "Für den ausgehenden API-Aufruf werden DynamicFieldID, -Label, -Name und -Value sowie UserID- und Ticket- und Formulardaten an den Invoker übergeben."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:468
 msgid "For the dynamic field Web Service to work, the response data needs to be mapped into this structure:"
-msgstr ""
+msgstr "Damit das dynamische Web-Service-Feld funktioniert, müssen die Antwortdaten in diese Struktur abgebildet werden:"
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:484
 msgid "This can be accomplished by implementing an XSLT mapping."
-msgstr ""
+msgstr "Dies kann durch die Implementierung eines XSLT-Mappings erreicht werden."
 
 #: ../content/administration-area/processes-automation/dynamic-fields.rst:488
 msgid "Display Dynamic Fields on Screens"
@@ -6067,7 +6054,7 @@ msgstr "So bearbeiten Sie einen GenericAgent-Auftrag:"
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:66
 #: ../content/administration-area/users-groups-roles/roles.rst:64
 msgid "Select a file using the file picker in the *Import / Export* widget."
-msgstr ""
+msgstr "Wählen Sie eine Datei über die Dateiauswahl im Widget *Import / Export* aus."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:87
 #: ../content/administration-area/ticket-settings/queues.rst:76
@@ -6080,7 +6067,7 @@ msgstr ""
 #: ../content/administration-area/users-groups-roles/roles-groups.rst:67
 #: ../content/administration-area/users-groups-roles/roles.rst:65
 msgid "Optionally tick the *Override existing entities* checkbox."
-msgstr ""
+msgstr "Aktivieren Sie optional das Kontrollkästchen *Override existing entities*."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:88
 #, fuzzy
@@ -6175,7 +6162,7 @@ msgstr "Wählen Sie ein Objekt und ein zugehöriges Ereignis, das den Auftrag au
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:158
 msgid "If multiple Generic Agents are triggered by the same event, they will be executed in the lexicographical order, i.e. `1-Agent` before `A-Agent`."
-msgstr ""
+msgstr "Wenn mehrere Generic Agents durch dasselbe Event ausgelöst werden, werden sie in lexikografischer Reihenfolge ausgeführt, d. h. `1-Agent` vor `A-Agent`."
 
 #: ../content/administration-area/processes-automation/generic-agent.rst:162
 msgid "Select Tickets"
@@ -6521,7 +6508,7 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:145
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), all values must exactly match the string specified in ``Value``."
-msgstr ""
+msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) müssen alle Werte exakt mit der in ``Value`` angegebenen Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:152
 #, fuzzy
@@ -6531,7 +6518,7 @@ msgstr "Die Verwendung von regulären Ausdrücken"
 
 #: ../content/administration-area/processes-automation/process-management.rst:150
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), all values must match the regular expression specified in ``Value``."
-msgstr ""
+msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) müssen alle Werte mit dem in ``Value`` angegebenen regulären Ausdruck übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:159
 msgid "``Exact match``"
@@ -6539,11 +6526,11 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:155
 msgid "``Value`` must exactly match the string."
-msgstr ""
+msgstr "``Value`` muss exakt mit der Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:157
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), at least one value must exactly match the string specified in ``Value``."
-msgstr ""
+msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) muss mindestens ein Wert exakt mit der in ``Value`` angegebenen Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:166
 #, fuzzy
@@ -6553,11 +6540,11 @@ msgstr "Die Verwendung von regulären Ausdrücken"
 
 #: ../content/administration-area/processes-automation/process-management.rst:162
 msgid "``Value`` must contain a matching regular expression."
-msgstr ""
+msgstr "``Value`` muss einen übereinstimmenden regulären Ausdruck enthalten."
 
 #: ../content/administration-area/processes-automation/process-management.rst:164
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), at least one value must match the regular expression specified in ``Value``."
-msgstr ""
+msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) muss mindestens ein Wert mit dem in ``Value`` angegebenen regulären Ausdruck übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:172
 msgid "``Exact match - negated``"
@@ -6565,11 +6552,11 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:169
 msgid "``Value`` must not match the string."
-msgstr ""
+msgstr "``Value`` darf nicht mit der Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:171
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), no value may match the string specified in ``Value``."
-msgstr ""
+msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) darf kein Wert mit der in ``Value`` angegebenen Zeichenfolge übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:179
 #, fuzzy
@@ -6579,11 +6566,11 @@ msgstr "Die Verwendung von regulären Ausdrücken"
 
 #: ../content/administration-area/processes-automation/process-management.rst:175
 msgid "``Value`` must contain a non-matching regular expression."
-msgstr ""
+msgstr "``Value`` muss einen nicht übereinstimmenden regulären Ausdruck enthalten."
 
 #: ../content/administration-area/processes-automation/process-management.rst:177
 msgid "In an array (for example: Multi-Value DynamicField or DynamicField of type ``Set``), no value may match the regular expression specified in ``Value``."
-msgstr ""
+msgstr "In einem Array (zum Beispiel: Multi-Value-DynamicField oder DynamicField vom Typ ``Set``) darf kein Wert mit dem in ``Value`` angegebenen regulären Ausdruck übereinstimmen."
 
 #: ../content/administration-area/processes-automation/process-management.rst:189
 msgid "``Transition validation module``"
@@ -6591,19 +6578,19 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:182
 msgid "``Name`` is currently irrelevant."
-msgstr ""
+msgstr "``Name`` ist derzeit nicht relevant."
 
 #: ../content/administration-area/processes-automation/process-management.rst:184
 msgid "``Value`` must contain the path to the module, usually:"
-msgstr ""
+msgstr "``Value`` muss den Pfad zum Modul enthalten, üblicherweise:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:192
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 #: ../content/administration-area/processes-automation/process-management.rst:194
 msgid "Value must always contain a string or a regular expression used for comparison."
-msgstr ""
+msgstr "Value muss stets eine Zeichenfolge oder einen regulären Ausdruck zum Vergleich enthalten."
 
 #: ../content/administration-area/processes-automation/process-management.rst:199
 #, fuzzy
@@ -6613,11 +6600,11 @@ msgstr "SQL Beispiele"
 
 #: ../content/administration-area/processes-automation/process-management.rst:201
 msgid "The process ticket should move to the next process step as soon as a status containing ``closed`` in its name is set."
-msgstr ""
+msgstr "Das Prozess-Ticket soll in den nächsten Prozessschritt wechseln, sobald ein Status gesetzt wird, dessen Name ``closed`` enthält."
 
 #: ../content/administration-area/processes-automation/process-management.rst:204
 msgid "Therefore, configure:"
-msgstr ""
+msgstr "Konfigurieren Sie daher:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:206
 #, fuzzy
@@ -6637,27 +6624,27 @@ msgstr ""
 
 #: ../content/administration-area/processes-automation/process-management.rst:210
 msgid "or use the long form:"
-msgstr ""
+msgstr "oder verwenden Sie die lange Form:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:218
 msgid "Direct Submit functionality"
-msgstr ""
+msgstr "Direkt-Absenden-Funktion"
 
 #: ../content/administration-area/processes-automation/process-management.rst:220
 msgid "The DirectSubmit functionality allows for a streamlined user experience by bypassing the additional process dialog in both agent and customer interfaces when required. When all fields in an activity dialog within the process management system are configured to operate in the background (not displayed or shown to the user), the \"Direct Submit\" option can be enabled. This ensures that actions such as acceptance or denial are executed immediately upon submitting the corresponding action, without the need for an extra confirmation step."
-msgstr ""
+msgstr "Die Direkt-Senden-Funktion ermöglicht eine optimierte Benutzererfahrung, indem bei Bedarf der zusätzliche Prozessdialog sowohl in der Agenten- als auch in der Kundenoberfläche übersprungen wird. Wenn alle Felder eines Aktivitätsdialogs innerhalb des Prozessmanagementsystems so konfiguriert sind, dass sie im Hintergrund ablaufen (dem Benutzer nicht angezeigt werden), kann die Option „Direkt Senden\" aktiviert werden. Dadurch werden Aktionen wie Annahme oder Ablehnung unmittelbar bei Ausführung der entsprechenden Aktion durchgeführt, ohne dass ein zusätzlicher Bestätigungsschritt erforderlich ist."
 
 #: ../content/administration-area/processes-automation/process-management.rst:228
 msgid "Direct Submit Field"
-msgstr ""
+msgstr "Direkt Senden Feld"
 
 #: ../content/administration-area/processes-automation/process-management.rst:231
 msgid "By implementing DirectSubmit, organizations can optimize their process management workflows, ensuring that actions are executed swiftly and with minimal user intervention."
-msgstr ""
+msgstr "Durch die Implementierung von 'Direkt Senden' können Organisationen ihre Prozessmanagement-Workflows optimieren und sicherstellen, dass Aktionen schnell und mit minimalem Benutzereingriff ausgeführt werden."
 
 #: ../content/administration-area/processes-automation/process-management.rst:234
 msgid "If one of the fields is set to be shown, the message error “This property won't take effect because there are fields configured as visible.” will be displayed."
-msgstr ""
+msgstr "Wenn eines der Felder auf „sichtbar\" gesetzt ist, wird die Fehlermeldung „Diese Eigenschaft wird nicht aktiv, weil Felder als sichtbar konfiguriert sind.\" angezeigt."
 
 #: ../content/administration-area/processes-automation/process-management.rst:237
 msgid "Example process"
@@ -6737,11 +6724,12 @@ msgstr "Änderungen, die auf ein Prozess-Ticket nach erfolgreichem Übergang ein
 
 #: ../content/administration-area/processes-automation/process-management.rst:287
 msgid "A possibility to offer more than just one activity dialog to be available. In our example this is needed when the manager must have the choice between *Approve* and *Deny*. Let's call this :term:`activity`."
-msgstr ""
+msgstr "Eine Möglichkeit, mehr als nur einen Aktivitätsdialog verfügbar zu machen. In unserem Beispiel wird dies benötigt, wenn der Manager zwischen *Approve* und *Deny* wählen können muss. Nennen wir dies :term:`activity`."
 
 #: ../content/administration-area/processes-automation/process-management.rst:290
+#, fuzzy
 msgid "Now, with activities, activity dialogs, transitions and transition actions we have the necessary tools to model the individual steps of our example. What is still missing is an area where for each workflow the order of the steps can be specified. Let's call this :term:`process`."
-msgstr ""
+msgstr "Nun verfügen wir mit Aktivitäten, Aktivitätsdialogen, Übergängen und Übergangsaktionen über die notwendigen Werkzeuge, um die einzelnen Schritte unseres Beispiels abzubilden. Was noch fehlt, ist ein Bereich, in dem für jeden Workflow die Reihenfolge der Schritte festgelegt werden kann. Nennen wir dies :term:`process`."
 
 #: ../content/administration-area/processes-automation/process-management.rst:296
 msgid "Create Necessary Resources"
@@ -6919,7 +6907,7 @@ msgstr "Aktiviert"
 
 #: ../content/administration-area/processes-automation/process-management.rst:346
 msgid "``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicFieldGroups``"
-msgstr ""
+msgstr "``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicFieldGroups``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:348
 msgid "``Book`` → ``Title,Author,ISBN``"
@@ -6939,7 +6927,7 @@ msgstr "``Lieferung`` → ``Eingangsdatum``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:353
 msgid "``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicField``"
-msgstr ""
+msgstr "``Ticket::Frontend::AgentTicketZoom###ProcessWidgetDynamicField``"
 
 #: ../content/administration-area/processes-automation/process-management.rst:355
 msgid "``Author`` → *1 - Enabled*"
@@ -7229,7 +7217,7 @@ msgstr "Buchbestellung - Parameter für Sequenzfluss-Aktionen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:543
 msgid "Each module has its own and different parameters. As soon as you add a TransitionAction, the options are displayed directly. Further information can currently only be found in the source code:"
-msgstr ""
+msgstr "Jedes Modul besitzt eigene, unterschiedliche Parameter. Sobald Sie eine Übergangsaktion hinzufügen, werden die entsprechenden Optionen direkt angezeigt. Weitere Informationen finden sich derzeit nur im Quellcode:"
 
 #: ../content/administration-area/processes-automation/process-management.rst:547
 #, fuzzy
@@ -7278,7 +7266,7 @@ msgstr "`TicketServiceSet <https://doc.otobo.org/doc/api/otobo/10.0/Perl/Kernel/
 
 #: ../content/administration-area/processes-automation/process-management.rst:556
 msgid "`TicketSLASet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketSLASet.pm>`_"
-msgstr ""
+msgstr "`TicketSLASet <https://github.com/RotherOSS/otobo/blob/rel-10_1/Kernel/System/ProcessManagement/TransitionAction/TicketSLASet.pm>`_"
 
 #: ../content/administration-area/processes-automation/process-management.rst:557
 #, fuzzy
@@ -7425,7 +7413,7 @@ msgstr "Buchbestellung - Aktivität hinzufügen"
 
 #: ../content/administration-area/processes-automation/process-management.rst:631
 msgid "To assign dialogs to the activity simple drag the required dialogs from the *Available Activity Dialogs* pool and drop into the *Assigned Activity Dialogs* pool. The order in the *Assigned Activity Dialogs* pool is the order as the dialogs will be presented in the *Ticket Zoom* screen. To modify the order simply drag and drop the dialog within the pool to rearrange it in the correct place."
-msgstr ""
+msgstr "Um Dialoge der Aktivität zuzuweisen, ziehen Sie die gewünschten Dialoge einfach aus dem Pool *Verfügbare Aktivitätsdialoge* und legen Sie sie im Pool *Zugewiesene Aktivitätsdialoge* ab. Die Reihenfolge der Dialoge im Pool *Zugewiesene Aktivitätsdialoge* bestimmt, in welcher Reihenfolge sie im Bildschirm *Ticket Zoom* angezeigt werden. Um die Reihenfolge zu ändern, ziehen Sie den Dialog einfach per Drag-and-drop an die gewünschte Position innerhalb des Pools."
 
 #: ../content/administration-area/processes-automation/process-management.rst:637
 #, fuzzy
@@ -7516,7 +7504,7 @@ msgstr "Der Prozess enthält auch die Anweisungen, wie sich das Prozess-Ticket d
 
 #: ../content/administration-area/processes-automation/process-management.rst:690
 msgid "Assuming that the activities have already assigned their activity dialogs, drag an activity from the accordion in the *Available Process Elements* widget in the left sidebar and drop it into the canvas area below the process information. Notice that an arrow from the process start (white circle) to the activity is placed automatically. This is the first activity and its first activity dialog is the first screen that will be shown when the process starts."
-msgstr ""
+msgstr "Unter der Annahme, dass den Aktivitäten bereits Aktivitätsdialoge zugewiesen wurden, ziehen Sie eine Aktivität aus dem Akkordeon im Widget *Verfügbare Prozesselemente* in der linken Seitenleiste und legen Sie sie im Canvas-Bereich unterhalb der Prozessinformationen ab. Beachten Sie, dass automatisch ein Pfeil vom Prozessstart (weißer Kreis) zur Aktivität gesetzt wird. Dies ist die erste Aktivität, und ihr erster Aktivitätsdialog ist der erste Bildschirm, der beim Start des Prozesses angezeigt wird."
 
 #: ../content/administration-area/processes-automation/process-management.rst:697
 msgid "Book Ordering - First Activity On Canvas"
@@ -7593,7 +7581,7 @@ msgstr "*Prozess-Ticket in die Queue \"Verwaltung\" verschieben*"
 
 #: ../content/administration-area/processes-automation/process-management.rst:748
 msgid "The activity *Recording the demand* is a defined step of the process ticket, where there is the possibility for the transition *Approval*. If this applies, the ticket will move to the next activity *Approval*, and the transition actions *Move the process ticket into the \"Management\" queue* and *Change ticket responsible to \"Manager\"* are executed. In the activity *Approval*, the activity dialogs *Approval denied* and *Approved* are available."
-msgstr ""
+msgstr "Die Aktivität *Bedarf erfassen* ist ein definierter Schritt des Prozess-Tickets, bei dem die Möglichkeit für den Übergang *Genehmigung* besteht. Trifft dies zu, wechselt das Ticket zur nächsten Aktivität *Genehmigung*, und die Übergangsaktionen *Prozess-Ticket in die Queue „Management\" verschieben* und *Ticketverantwortlichen auf „Manager\" ändern* werden ausgeführt. In der Aktivität *Genehmigung* stehen die Aktivitätsdialoge *Genehmigung abgelehnt* und *Genehmigt* zur Verfügung."
 
 #: ../content/administration-area/processes-automation/process-management.rst:753
 #, fuzzy
@@ -7694,19 +7682,20 @@ msgstr "Ticket-Liste"
 
 #: ../content/administration-area/processes-automation/ticket-masks.rst:4
 msgid "Ticket masks can be used to define dynamic field arrangements for all ticket edit masks in more sophisticated ways. They enable multi column arrangements of dynamic fields, alternate labels and read only fields. Under Admin->Ticket Masks, for all actions a yaml defining the dynamic field section of the mask can be provided. Dynamic fields added to a mask via SysConfig (e.g. via DynamicField Screens), not present in the yaml definition, will be added as list below the defined fields."
-msgstr ""
+msgstr "Ticketmasken können verwendet werden, um Anordnungen dynamischer Felder für alle Ticket-Bearbeitungsmasken auf anspruchsvollere Weise zu definieren. Sie ermöglichen mehrspaltige Anordnungen dynamischer Felder, alternative Beschriftungen und schreibgeschützte Felder. Unter Admin->Ticketmasken kann für alle Aktionen ein YAML bereitgestellt werden, das den Bereich der dynamischen Felder der Maske definiert. Dynamische Felder, die einer Maske über SysConfig hinzugefügt wurden (z. B. über DynamicField Screens) und nicht in der YAML-Definition enthalten sind, werden als Liste unterhalb der definierten Felder hinzugefügt."
 
 #: ../content/administration-area/processes-automation/ticket-masks.rst:9
 msgid "An example configuration would be:"
-msgstr ""
+msgstr "Eine Beispielkonfiguration könnte wie folgt aussehen:"
 
 #: ../content/administration-area/processes-automation/ticket-masks.rst:31
 msgid "The basic structure of the yaml is an array of hashes."
-msgstr ""
+msgstr "Die Grundstruktur des YAML ist ein Array von Hashes."
 
 #: ../content/administration-area/processes-automation/ticket-masks.rst:33
+#, fuzzy
 msgid "On the first level ``DF`` and ``Grid`` are necessary keys for each hash, where ``DF`` causes a dynamic field to be rendered, and Grid defines a multi column section."
-msgstr ""
+msgstr "Auf der ersten Ebene sind ``DF`` und ``Grid`` erforderliche Schlüssel für jeden Hash, wobei ``DF`` dazu führt, dass ein dynamisches Feld gerendert wird, und ``Grid`` einen mehrspaltigen Bereich definiert."
 
 #: ../content/administration-area/processes-automation/ticket-masks.rst:35
 msgid "Valid keys extending ``DF`` are outside of a grid ``Mandatory``, ``Readonly`` and ``Label``."
