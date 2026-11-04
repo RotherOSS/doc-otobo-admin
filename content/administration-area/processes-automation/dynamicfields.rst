@@ -450,10 +450,118 @@ Add RegEx
 Database Dynamic Field
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. note::
+Database dynamic field is used to select one or more entries from a table or view of an arbitrary database.
+Agents and customers search the external data via autocompletion or a detailed search.
+The value of the column marked as identifier is stored in the dynamic field.
 
-   This dynamic field is already included in OTOBO 10 Standard!
-   The documentation on the field types still needs to be completed.
+Possible values
+   Define the columns of the external table or view that are used by the dynamic field.
+   Clicking on the *⊞* button of *Add value* will add a new column definition with the following settings:
+
+   Name \*
+      The name of the column in the external table or view.
+
+   Label \*
+      The label of the column, which is displayed in the search results.
+
+   Datatype \*
+      The data type of the column.
+      Possible values are *Date*, *Integer* and *Text*.
+
+   Filter
+      Restricts the search results to entries, where this column matches the given ticket attribute (e.g.
+      *Queue*, *State* or *CustomerID*) or the value of another dynamic field (e.g.
+      ``DynamicField_OtherFieldName``).
+      The filter only takes effect, if *Searchfield* is activated for this column.
+
+   Searchfield
+      If activated, the search term is matched against this column.
+
+   Listfield
+      If activated, the column is displayed in the search results.
+
+Show link
+   Here you can specify an optional HTTP link for the field value in overviews and zoom screens.
+   Example:
+
+   ::
+
+      http://some.example.com/handle?query=[% Data.Field1 | uri %]
+
+Link for preview
+   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom.
+   Please note that for this to work, the regular URL field above needs to be filled in, too.
+
+Type \*
+   The type of the external database.
+   Possible values are *MySQL*, *Oracle*, *PostgreSQL* and *SQL Server (ODBC)*.
+
+SID
+   The system identifier of the Oracle database.
+   This field is only displayed, if *Type* is set to *Oracle*.
+
+Driver
+   The name of the ODBC driver.
+   This field is only displayed, if *Type* is set to *SQL Server (ODBC)*.
+
+Server \*
+   The host name or IP address of the database server.
+
+Port
+   The port of the database server.
+
+Database \*
+   The name of the database.
+
+Table / View \*
+   The name of the table or view to select the entries from.
+
+User \*
+   The user name to connect to the database.
+
+Password \*
+   The password to connect to the database.
+
+Identifier \*
+   The column, whose value is stored in the dynamic field.
+   It must be a unique column of the table or view entered in *Table / View*.
+
+Multiselect
+   If activated, multiple entries can be selected and stored in the dynamic field.
+   This option can not be combined with *Multiple Values*.
+
+CacheTTL
+   The time (in seconds) the search results are cached.
+   Set to ``0`` or leave empty to disable the cache.
+
+Searchprefix
+   A string prepended to the search term (e.g.
+   ``*`` to search for entries ending with the search term).
+
+Searchsuffix
+   A string appended to the search term (e.g.
+   ``*`` to search for entries starting with the search term).
+
+   .. note::
+
+      The character ``*`` is used as wildcard in search terms.
+
+Result Limit
+   The maximum number of entries returned by a search.
+   Leave empty or set to ``0`` for no limit.
+
+Case Sensitive
+   If activated, the search is case sensitive.
+
+Multiple Values
+   Activate this option to allow multiple values for this field.
+
+.. seealso::
+
+   The autocompletion can be configured in the system configuration settings ``AutoComplete::Agent###DynamicFieldDBSearch`` and ``AutoComplete::Customer###DynamicFieldDBSearch``.
+
+   Additional columns of a selected entry can be stored in other dynamic fields.
+   The mapping between the database dynamic field, the database columns and the target dynamic fields is defined in the ``DynamicFieldDB::StoreHistoricalData###*`` settings.
 
 
 Web Service Dynamic Field
