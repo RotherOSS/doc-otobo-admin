@@ -450,10 +450,152 @@ Add RegEx
 Database Dynamic Field
 ~~~~~~~~~~~~~~~~~~~~~~
 
+Database dynamic fields are used to select and store entries from a table or view of an arbitrary database that can be accessed from within the OTOBO instance.
+This type is available for object types Ticket, Article, Customers, Customer Users, and FAQs.
+Agents access this field via the agent interface and customer users via the external interface.
+In both cases, the field offers autocompletion as well as a detailed search, listing all matches from the referenced database table for the strings entered by the user.
+The admin configures one or more columns to be considered for the search.
+The value of the column marked as identifier is stored in the dynamic field.
+
+Possible values
+   Define the columns of the external table or view that are used by the dynamic field.
+   Clicking on the ``+`` button of *Add value* will add a new card to address a new column with the following settings:
+
+   Name \*
+      The exact name of the column in the table or view.
+
+   Label \*
+      The label of the column, which is displayed in the search results.
+      You can decide to a add a more descriptive term than just the name of the column.
+
+   Datatype \*
+      The data type of the database column.
+      Possible values are *Date*, *Integer* and *Text*.
+
+   Filter
+      Restricts the search results to entries, where this column matches the given ticket attribute (e.g.
+      *Queue*, *State* or *CustomerID*) or the value of another dynamic field (e.g.
+      ``DynamicField_OtherFieldName``).
+      The filter only takes effect, if *Searchfield* is activated for this column.
+      If the dynamic field is bound to a related ticket, the attributes will be used for the filter mechanism, otherwise the filters will be ignored.
+
+   Searchfield
+      If activated, the search term is matched against this column.
+      Example: Assuming the search field is enabled for both the ``ID`` column and the ``NAME`` column of the ``queues`` table, the search term is matched against the values in both columns and hits are returned.
+
+   Listfield
+      If activated, the column is displayed in the search results.
+      Example: If the list field is enabled only for the ``Name`` column of the ``queues`` table, the dynamic field shows only the name of the queues among the hits.
+      If the list field is also enabled for the ``ID`` column, both values are displayed combined.
+
 .. note::
 
-   This dynamic field is already included in OTOBO 10 Standard!
-   The documentation on the field types still needs to be completed.
+   You can only address columns from one database table or view per dynamic field database.
+   A combination of columns from multiple tables or views is not possible.
+
+
+Show link
+   Here you can specify an optional HTTP link for the field value in overviews and zoom screens.
+   Example:
+
+   ::
+
+      http://some.example.com/handle?query=[% Data.Field1 | uri %]
+
+Link for preview
+   If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom.
+   Please note that for this to work, the regular URL field above needs to be filled in, too.
+
+Type \*
+   Selection of database management system that is used for the database being addressed by the dynamic field.
+   Possible values are *MySQL*, *Oracle*, *PostgreSQL* and *SQL Server (ODBC)*.
+
+SID
+   The system identifier of the Oracle database.
+   This field is only displayed, if *Type* is set to *Oracle*.
+
+Driver
+   The name of the ODBC driver.
+   This field is only displayed, if *Type* is set to *SQL Server (ODBC)*.
+
+Server \*
+   The host name or IP address of the database server.
+
+Port
+   The port of the database server.
+   You can leave it empty if you are using the default ports.
+
+Database \*
+   The name of the database from whose tables or views the dynamic field reads.
+
+Table / View \*
+   The name of the table or view to select the entries from.
+   Only one value can be entered.
+
+User \*
+   The user name to connect to the database.
+
+Password \*
+   The password to connect to the database.
+
+.. note::
+
+   If you setup a dynamic field for your OTOBO database, you may find the database user and password in your ``Kernel/Config.pm``.
+
+
+Identifier \*
+   The column, whose value is stored in the dynamic field.
+   It must be a unique column of the table or view entered in *Table / View*.
+
+.. note::
+
+    If the user gets no hits in the dynamic field, please check not only the DatabaseUser’s login credentials, but also the names and settings in the *possible values* cards.
+
+
+Multiselect
+   If activated, multiple entries can be selected and stored in the dynamic field.
+   This option can not be combined with *Multiple Values*.
+
+CacheTTL
+   The time (in seconds) the search results are cached.
+   Set to ``0`` or leave empty to disable the cache.
+
+Searchprefix
+   A string prepended to the search term (e.g.
+   ``*`` to search for entries ending with the search term).
+
+Searchsuffix
+   A string appended to the search term (e.g.
+   ``*`` to search for entries starting with the search term).
+
+.. note::
+
+   The character ``*`` is used as wildcard in search terms.
+   For a maximally flexible search, use the wildcard (*) in both fields, so that the system lists all hits.
+   However, this will also make the list of hits longer.
+
+
+Result Limit
+   The maximum number of entries returned by a search.
+   If defined, the system truncates the list once the permitted number is reached.
+   In most cases, the system might sort the output alphabetically, but this is not reliable behavior.
+   Leave empty or set to ``0`` for no limit.
+
+Case Sensitive
+   If activated, the search is case sensitive.
+   Example: If the agent enters an uppercase ‘R’, the queue ‘Raw’ is displayed; with a lowercase ‘r’, ‘Postmaster’ appears instead.
+
+Multiple Values
+   Activate this option to allow multiple values for this field.
+   By default, the system allows the dynamic field to be displayed once in the view.
+   If you change the setting to ‘Yes’, the agent can manually add the dynamic field as many times as desired and store multiple values accordingly.
+
+.. seealso::
+
+   The autocompletion can be configured in the system configuration settings ``AutoComplete::Agent###DynamicFieldDBSearch`` and ``AutoComplete::Customer###DynamicFieldDBSearch``.
+
+   Additional columns of a selected entry can be stored in other dynamic fields.
+   The mapping between the database dynamic field, the database columns and the target dynamic fields is defined in the ``DynamicFieldDB::StoreHistoricalData###*`` settings.
 
 
 Web Service Dynamic Field
