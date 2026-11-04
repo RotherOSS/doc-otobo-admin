@@ -33,7 +33,7 @@
 # Udo Bretz, 2014,2019
 # Stefan Rother, 2019
 msgid ""
-msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-11-03 16:09+0000\nPO-Revision-Date: 2026-11-04 16:59+0000\nLast-Translator: Stefan Abel <sta@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.9\nGenerated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-11-03 16:09+0000\nPO-Revision-Date: 2026-11-04 16:59+0000\nLast-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\nLanguage-Team: German <http://translate.otobo.org/projects/otobo-11-1/manuals/otobo-admin-manual/de/>\nLanguage: de\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 2026.9\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:25
 #: ../content/administration-area/administration.rst:9
@@ -8206,33 +8206,33 @@ msgstr "``Autor``"
 
 #: ../content/administration-area/processes-automation/web-services.rst:477
 msgid "Simple identifier that must match the token's 'azp' claim to be allowed"
-msgstr ""
+msgstr "Einfacher Bezeichner, der mit dem 'azp'-Claim des Tokens übereinstimmen muss, um zugelassen zu sein"
 
 #: ../content/administration-area/processes-automation/web-services.rst:479
 msgid "Usually, you would either restrict to a specific user login, or to a combination of the other values, depending on your needs."
-msgstr ""
+msgstr "In der Regel beschränken Sie sich entweder auf einen bestimmten Benutzeranmeldenamen oder auf eine Kombination der anderen Werte, je nach Ihren Anforderungen."
 
 #: ../content/administration-area/processes-automation/web-services.rst:481
 msgid "Example for ``Config.pm``:"
-msgstr ""
+msgstr "Beispiel für ``Config.pm``:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:495
 msgid "Provider Example"
-msgstr ""
+msgstr "Provider-Beispiel"
 
 #: ../content/administration-area/processes-automation/web-services.rst:497
 msgid "With above configuration for Providers in place, follow these steps to set up a *Test Provider Webservice* in OTOBO:"
-msgstr ""
+msgstr "Nachdem die obige Konfiguration für Provider eingerichtet ist, folgen Sie diesen Schritten, um einen *Test Provider Webservice* in OTOBO einzurichten:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:499
 #: ../content/administration-area/processes-automation/web-services.rst:674
 msgid "Navigate to **Webservices** in Admin UI"
-msgstr ""
+msgstr "Navigieren Sie zu **Webservices** in der Admin-Oberfläche"
 
 #: ../content/administration-area/processes-automation/web-services.rst:500
 #: ../content/administration-area/processes-automation/web-services.rst:675
 msgid "Select **Add New Webservice** and give it Name and Description of 'Test'"
-msgstr ""
+msgstr "Wählen Sie **Add New Webservice** aus und vergeben Sie als Name und Beschreibung „Test\""
 
 #: ../content/administration-area/processes-automation/web-services.rst:501
 #, fuzzy
@@ -8244,20 +8244,20 @@ msgstr "OTOBO als Provider - HTTP\\:\\:REST"
 #: ../content/administration-area/processes-automation/web-services.rst:677
 #: ../content/administration-area/processes-automation/web-services.rst:681
 msgid "Click **Save**"
-msgstr ""
+msgstr "Klicken Sie **Speichern**"
 
 #: ../content/administration-area/processes-automation/web-services.rst:503
 msgid "Add an operation and choose 'Ticket::TicketGet'"
-msgstr ""
+msgstr "Fügen Sie eine Operation hinzu und wählen Sie „Ticket::TicketGet\" aus"
 
 #: ../content/administration-area/processes-automation/web-services.rst:504
 msgid "Set Name and Description fields to 'TicketGet'"
-msgstr ""
+msgstr "Setzen Sie die Felder „Name\" und „Beschreibung\" auf „TicketGet\""
 
 #: ../content/administration-area/processes-automation/web-services.rst:505
 #: ../content/administration-area/processes-automation/web-services.rst:680
 msgid "Choose 'Simple' for both mapping types"
-msgstr ""
+msgstr "Wählen Sie für beide Mapping-Typen „Simple\" aus"
 
 #: ../content/administration-area/processes-automation/web-services.rst:506
 #: ../content/administration-area/processes-automation/web-services.rst:510
@@ -8270,36 +8270,36 @@ msgstr "Klicken Sie auf die Schaltfläche *Speichern* oder *Speichern und abschl
 
 #: ../content/administration-area/processes-automation/web-services.rst:507
 msgid "Click again on the previous button to configure *Network Transport: HTTP::REST*"
-msgstr ""
+msgstr "Klicken Sie erneut auf die vorherige Schaltfläche, um *Network Transport: HTTP::REST* zu konfigurieren"
 
 #: ../content/administration-area/processes-automation/web-services.rst:508
 msgid "Enter '/GetTicket/:TicketID' for the route mapping"
-msgstr ""
+msgstr "Geben Sie „/GetTicket/:TicketID\" für das Route-Mapping ein"
 
 #: ../content/administration-area/processes-automation/web-services.rst:509
 msgid "Select 'GET' as the single valid request method"
-msgstr ""
+msgstr "Wählen Sie „GET\" als einzige gültige Anfragemethode aus"
 
 #: ../content/administration-area/processes-automation/web-services.rst:512
 msgid "At this point OTOBO should be set up to accept incoming calls with OAuth2 tokens for the ``/GetTicket/:TikcetID`` endpoint."
-msgstr ""
+msgstr "An dieser Stelle sollte OTOBO so eingerichtet sein, dass eingehende Aufrufe mit OAuth2-Tokens für den Endpunkt ``/GetTicket/:TikcetID`` akzeptiert werden."
 
 #: ../content/administration-area/processes-automation/web-services.rst:514
 msgid "First get a token from your provider. How that works in practice depends on your OIDC provider and your remote setup, but for testing a ``curl`` call with client_credentials grant type might look similar to this example (Keycloak):"
-msgstr ""
+msgstr "Erhalten Sie zunächst ein Token von Ihrem Provider. Wie das in der Praxis funktioniert, hängt von Ihrem OIDC-Provider und Ihrem Remote-Setup ab. Für Testzwecke könnte ein ``curl``-Aufruf mit dem Grant-Type „client_credentials\" jedoch ähnlich wie in diesem Beispiel (Keycloak) aussehen:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:531
 #: ../content/administration-area/processes-automation/web-services.rst:562
 msgid "outputs:"
-msgstr ""
+msgstr "Ausgabe:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:547
 msgid "You should receive at least an ``access_token``, whether you also get ``refresh_token`` and ``id_token`` depends on your provider settings. In most cases you would use the ``access_token`` to make webservice calls, but in some environments also passing id tokens can make sense."
-msgstr ""
+msgstr "Sie sollten mindestens einen ``access_token`` erhalten; ob Sie zusätzlich einen ``refresh_token`` und ``id_token`` erhalten, hängt von den Einstellungen Ihres Providers ab. In den meisten Fällen verwenden Sie den ``access_token``, um Webservice-Aufrufe durchzuführen, in manchen Umgebungen kann jedoch auch die Übergabe von ID-Tokens sinnvoll sein."
 
 #: ../content/administration-area/processes-automation/web-services.rst:550
 msgid "Now that we have a token, invoke the *GetTicket* API endpoint we configured above. Note we pass ``1`` as the TicketID, which is usually present on all OTOBO system-administrator as it is the 'Welcome to OTOBO' test email. You can pass any TicketID that exists in your system, of course."
-msgstr ""
+msgstr "Nun, da wir ein Token haben, rufen wir den oben konfigurierten *GetTicket*-API-Endpunkt auf. Beachten Sie, dass wir ``1`` als TicketID übergeben, die üblicherweise bei jeder OTOBO-Systemadministration vorhanden ist, da es sich um die Test-E-Mail „Welcome to OTOBO\" handelt. Sie können natürlich auch jede andere in Ihrem System vorhandene TicketID übergeben."
 
 #: ../content/administration-area/processes-automation/web-services.rst:612
 #, fuzzy
@@ -8309,19 +8309,19 @@ msgstr "Invoker"
 
 #: ../content/administration-area/processes-automation/web-services.rst:614
 msgid "Whereas OTOBO as Provider only has to validate incoming OAuth2 tokens, in order to make outgoing calls as Invoker OTOBO needs to obtain and manage OAuth2 tokens  for one or more functional accounts. Functional accounts for Invokers and their tokens can be managed via the dedicated Admin UI module **OAuth Functional Accounts**. Unlike Providers for incoming calls, which use the OIDC Profile configured for authentication, the outgoing (Invoker) Webservices require a dedicated OIDC Profile setup, which can be done in another dedicated Admin UI module named **OIDC Profile Management**. First, configure an OIDC Provider Profile:"
-msgstr ""
+msgstr "Während OTOBO als Provider lediglich eingehende OAuth2-Tokens validieren muss, muss OTOBO als Invoker für ausgehende Aufrufe OAuth2-Tokens für ein oder mehrere Funktionskonten beschaffen und verwalten. Funktionskonten für Invoker und deren Tokens können über das dedizierte Admin-UI-Modul **OAuth Funktionskonten** verwaltet werden. Im Gegensatz zu Providern für eingehende Aufrufe, die das zur Authentifizierung konfigurierte OIDC-Profil verwenden, benötigen die ausgehenden (Invoker-)Webservices eine dedizierte OIDC-Profil-Einrichtung, die über ein weiteres dediziertes Admin-UI-Modul namens **OIDC Profilverwaltung** erfolgen kann. Konfigurieren Sie zunächst ein OIDC-Provider-Profil:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:621
 msgid "In the **Admin UI**, navigate to **OIDC Profile Management**"
-msgstr ""
+msgstr "Navigieren Sie in der **Admin UI** zu **OIDC Profilverwaltung**"
 
 #: ../content/administration-area/processes-automation/web-services.rst:-1
 msgid "Profiles Overview"
-msgstr ""
+msgstr "Profilübersicht"
 
 #: ../content/administration-area/processes-automation/web-services.rst:626
 msgid "To create a new Profile, choose **Add** from the left navigation bar."
-msgstr ""
+msgstr "Um ein neues Profil zu erstellen, wählen Sie **Hinzufügen** aus der linken Navigationsleiste aus."
 
 #: ../content/administration-area/processes-automation/web-services.rst:-1
 #, fuzzy
@@ -8331,15 +8331,15 @@ msgstr "Notiz hinzufügen"
 
 #: ../content/administration-area/processes-automation/web-services.rst:631
 msgid "If you are already using OIDC for Login, some values will be pre-populated. You have to provide a valid, unique Profile name and also provide the OAuth2 application client_secret value, which is not pre-populated for security reasons. Usually you can keep all the defaults, especially for the optional SSL and Misc. settings."
-msgstr ""
+msgstr "Wenn Sie OIDC bereits für die Anmeldung verwenden, sind einige Werte bereits vorausgefüllt. Sie müssen einen gültigen, eindeutigen Profilnamen angeben sowie den OAuth2-Anwendungswert client_secret eintragen, der aus Sicherheitsgründen nicht vorausgefüllt wird. In der Regel können Sie alle Standardwerte beibehalten, insbesondere bei den optionalen SSL- und Sonstige-Einstellungen."
 
 #: ../content/administration-area/processes-automation/web-services.rst:637
 msgid "Now that we have an OIDC Provider Profile, we can set up a Functional Account. There can be more than one Functional Account per Profile."
-msgstr ""
+msgstr "Nachdem wir nun ein OIDC-Provider-Profil haben, können wir ein Funktionskonto einrichten. Pro Profil kann es mehr als ein Funktionskonto geben."
 
 #: ../content/administration-area/processes-automation/web-services.rst:640
 msgid "In the **Admin UI**, navigate to **OAuth Functional Accounts**"
-msgstr ""
+msgstr "Navigieren Sie in der **Admin UI** zu **OAuth Funktionskonten**"
 
 #: ../content/administration-area/processes-automation/web-services.rst:-1
 #, fuzzy
@@ -8349,7 +8349,7 @@ msgstr "Kommunikationsprotokoll Übersicht"
 
 #: ../content/administration-area/processes-automation/web-services.rst:646
 msgid "To create a new Account, choose **Add** from the left navigation bar."
-msgstr ""
+msgstr "Um ein neues Konto zu erstellen, wählen Sie **Hinzufügen** aus der linken Navigationsleiste aus."
 
 #: ../content/administration-area/processes-automation/web-services.rst:-1
 #, fuzzy
@@ -8359,11 +8359,11 @@ msgstr "Einstellungen für E-Mail-Konten"
 
 #: ../content/administration-area/processes-automation/web-services.rst:651
 msgid "Here you give your account a Name and choose one of the OIDC Provider profiles configured earlier. Choose the ``GrantType`` as instructed by your system administrator, and provide the ``Scope`` parameter as required. ``Scope`` will often contain ``openid`` and ``offline_access``, other common values are ``email`` and ``profile``."
-msgstr ""
+msgstr "Hier vergeben Sie einen Namen für Ihr Konto und wählen eines der zuvor konfigurierten OIDC-Provider-Profile aus. Wählen Sie den ``Berechtigungsgewährung (Grant Type)`` gemäß den Vorgaben Ihres Systemadministrators aus und geben Sie den Parameter ``OAuth2 Berechtigungsumfänge (Scopes)`` wie erforderlich an. ``Scopes`` enthält häufig ``openid`` und ``offline_access``, weitere gängige Werte sind ``email`` und ``profile``."
 
 #: ../content/administration-area/processes-automation/web-services.rst:655
 msgid "In the **Advanced** section you can configure additional details, if needed:"
-msgstr ""
+msgstr "In den **Erweiterten Invoker-Einstellungen** können Sie bei Bedarf weitere Details konfigurieren:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:658
 #, fuzzy
@@ -8373,15 +8373,15 @@ msgstr "Resource"
 
 #: ../content/administration-area/processes-automation/web-services.rst:658
 msgid "A space-separated list of resource ids to request access for, not used in all OIDC environments."
-msgstr ""
+msgstr "Eine durch Leerzeichen getrennte Liste von Resource-IDs, für die Zugriff angefordert wird; wird nicht in allen OIDC-Umgebungen verwendet."
 
 #: ../content/administration-area/processes-automation/web-services.rst:661
 msgid "``ResourceParamName``"
-msgstr ""
+msgstr "``ResourceParamName``"
 
 #: ../content/administration-area/processes-automation/web-services.rst:661
 msgid "Usually 'resource', but can be overridden here"
-msgstr ""
+msgstr "Üblicherweise „resource\", kann hier jedoch überschrieben werden"
 
 #: ../content/administration-area/processes-automation/web-services.rst:664
 #, fuzzy
@@ -8391,11 +8391,11 @@ msgstr "``X-OTOBO-SenderType``"
 
 #: ../content/administration-area/processes-automation/web-services.rst:664
 msgid "Usually 'access_token', but in some environments 'id_token' may be used"
-msgstr ""
+msgstr "Üblicherweise „access_token\", in manchen Umgebungen kann jedoch „id_token\" verwendet werden"
 
 #: ../content/administration-area/processes-automation/web-services.rst:666
 msgid "Only change advanced settings if instructed by your system administrator."
-msgstr ""
+msgstr "Ändern Sie die erweiterten Einstellungen nur, wenn Ihr Systemadministrator Sie dazu anweist."
 
 #: ../content/administration-area/processes-automation/web-services.rst:670
 #, fuzzy
@@ -8405,55 +8405,55 @@ msgstr "Invoker \\*"
 
 #: ../content/administration-area/processes-automation/web-services.rst:672
 msgid "Assuming you have configured at least one functional account for Invokers as per above paragraph, we can now configure a *Test Invoker Webservice*."
-msgstr ""
+msgstr "Vorausgesetzt, Sie haben gemäß dem obigen Abschnitt mindestens ein Funktionskonto für den Invoker konfiguriert, können wir nun einen *Test Invoker Webservice* einrichten."
 
 #: ../content/administration-area/processes-automation/web-services.rst:676
 msgid "Under **Ootobo as Requester**, select ''\\HTTP::REST' as Transport"
-msgstr ""
+msgstr "Wählen Sie unter **Otobo as Requester** '\\HTTP::REST' als Transport aus"
 
 #: ../content/administration-area/processes-automation/web-services.rst:678
 msgid "Under **Invokers**, select the 'Generic::Passthrough' option from the dropdown"
-msgstr ""
+msgstr "Wählen Sie unter **Invokers** aus dem Dropdown die Option 'Generic::Passthrough' aus"
 
 #: ../content/administration-area/processes-automation/web-services.rst:679
 msgid "Set Name and Description fields to 'Passthrough'"
-msgstr ""
+msgstr "Setzen Sie die Felder Name und Beschreibung auf 'Passthrough'"
 
 #: ../content/administration-area/processes-automation/web-services.rst:682
 msgid "Under **Add Event Trigger**, choose 'Ticket' and 'ArticleEdit', remove the checkbox labeled 'Asynchronous' and click the circled plus sign **(+)**"
-msgstr ""
+msgstr "Wählen Sie unter **Ereignis-Auslöser hinzufügen** 'Ticket' und 'ArticleEdit' aus, entfernen Sie das Häkchen beim Kontrollkästchen „Asynchron\" und klicken Sie auf das eingekreiste Plus-Zeichen **(+)**."
 
 #: ../content/administration-area/processes-automation/web-services.rst:684
 msgid "Click the button to configure **Network Transport: HTTP::REST**"
-msgstr ""
+msgstr "Klicken Sie auf die Schaltfläche 'Konfigurieren', um **Netzwerktransport: HTTP::REST** anzupassen"
 
 #: ../content/administration-area/processes-automation/web-services.rst:685
 msgid "Enter the FQDN of the remote system to call, eg '\\http://echoservice.mycompany.net', without trailing slash, under **Endpoint**"
-msgstr ""
+msgstr "Geben Sie unter **Endpoint** den FQDN des aufzurufenden Remote-Systems ein, z. B. '\\http://echoservice.mycompany.net', ohne abschließenden Schrägstrich"
 
 #: ../content/administration-area/processes-automation/web-services.rst:686
 msgid "From the **Authentication** dropdown choose 'OAuth'"
-msgstr ""
+msgstr "Wählen Sie im Dropdown **Authentication** 'OAuth' aus."
 
 #: ../content/administration-area/processes-automation/web-services.rst:687
 msgid "Select one of the functional accounts to use from the **OAuth2 Functional Account** dropdown"
-msgstr ""
+msgstr "Wählen Sie im Dropdown **OAuth2 Funktionskonto** eines der Funktionskonten aus, das verwendet werden soll"
 
 #: ../content/administration-area/processes-automation/web-services.rst:688
 msgid "Provide the HTTP path for the endpoint to call, eg '/rest/api/endpoint' under **Controller Mapping**"
-msgstr ""
+msgstr "Geben Sie unter **Controller Mapping** den HTTP-Pfad für den aufzurufenden Endpunkt ein, z. B. '/rest/api/endpoint'"
 
 #: ../content/administration-area/processes-automation/web-services.rst:689
 msgid "Select 'POST' as value for **valid request commands**"
-msgstr ""
+msgstr "Wählen Sie 'POST' als Wert für **Gültiger Anfragebefehl**"
 
 #: ../content/administration-area/processes-automation/web-services.rst:692
 msgid "At this point, OTOBO should try to make an outgoing HTTP API call every time an article in a ticket gets updated, and automatically attach an OAuth2 Bearer Token to the request in the Authorization HTTP header."
-msgstr ""
+msgstr "An dieser Stelle sollte OTOBO versuchen, bei jeder Aktualisierung eines Artikels in einem Ticket einen ausgehenden HTTP-API-Aufruf durchzuführen und automatisch ein OAuth2 Bearer Token im HTTP-Header „Authorization\" an die Anfrage anzuhängen."
 
 #: ../content/administration-area/processes-automation/web-services.rst:694
 msgid "To try it out:"
-msgstr ""
+msgstr "Um es auszuprobieren:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:696
 #, fuzzy
@@ -8475,7 +8475,7 @@ msgstr "Ändern Sie die Felder und den Prozesspfad."
 
 #: ../content/administration-area/processes-automation/web-services.rst:700
 msgid "Everytime you modify the note, your API endpoint at ``http://echoservice.mycompany.net/rest/api/endpoint`` now should receive a POST request with the article data as JSON payload in the post body."
-msgstr ""
+msgstr "Jedes Mal, wenn Sie die Notiz ändern, sollte Ihr API-Endpunkt unter ``http://echoservice.mycompany.net/rest/api/endpoint`` nun eine POST-Anfrage mit den Artikeldaten als JSON-Payload im Request-Body erhalten."
 
 #: ../content/administration-area/processes-automation/web-services.rst:-1
 #, fuzzy
@@ -8485,55 +8485,55 @@ msgstr "Allgemeine Einstellungen für Web-Services"
 
 #: ../content/administration-area/processes-automation/web-services.rst:707
 msgid "Debugging Webservice Calls"
-msgstr ""
+msgstr "Debuggen von Webservice-Aufrufen"
 
 #: ../content/administration-area/processes-automation/web-services.rst:709
 msgid "Please note that Webservice calls using OAuth2 tokens can be debugged as usual using the built in OTOBO webservice Debugger. To open the debugger for a specific webservice, navigate to **WebServices** in the Admin UI, choose the desired webservice, and click on **Debugger** in the lefthand navigation bar."
-msgstr ""
+msgstr "Bitte beachten Sie, dass Webservice-Aufrufe mit OAuth2-Tokens wie gewohnt über den integrierten OTOBO-Webservice-Debugger untersucht werden können. Um den Debugger für einen bestimmten Webservice zu öffnen, navigieren Sie in der Admin UI zu **WebServices**, wählen Sie den gewünschten Webservice aus und klicken Sie in der linken Navigationsleiste auf **Debugger**."
 
 #: ../content/administration-area/processes-automation/web-services.rst:714
 msgid "Cronjob for updating refresh_tokens"
-msgstr ""
+msgstr "Cronjob zum Aktualisieren von refresh_tokens"
 
 #: ../content/administration-area/processes-automation/web-services.rst:716
 msgid "The Cron job that keeps OAuth2 tokens up to date by making regular use of refresh_tokens ca be configured in the **System Settings** under the key ``Daemon::SchedulerCronTaskManager::Task###TokenStoreUpdater``. By default the cronjob executes once very 60 minutes. In case your refresh_tokens expire sooner than 60 minutes, you'll need to adapt."
-msgstr ""
+msgstr "Der Cronjob, der OAuth2-Tokens durch regelmäßige Verwendung von refresh_tokens aktuell hält, kann in den **System Settings** über den Schlüssel ``Daemon::SchedulerCronTaskManager::Task###TokenStoreUpdater`` konfiguriert werden. Standardmäßig wird der Cronjob einmal alle 60 Minuten ausgeführt. Falls Ihre refresh_tokens früher als nach 60 Minuten ablaufen, müssen Sie dies entsprechend anpassen."
 
 #: ../content/administration-area/processes-automation/web-services.rst:720
 msgid "The only parameters to tune are the Cron Schedule expression itself, and the ``Interval`` parameter. The cron expression can be any valid cron expression, examples include:"
-msgstr ""
+msgstr "Die einzigen Parameter, die angepasst werden können, sind der Cron-Schedule-Ausdruck selbst sowie der Parameter ``Interval``. Der Cron-Ausdruck kann ein beliebiger gültiger Cron-Ausdruck sein, Beispiele hierfür sind:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:723
 msgid "``0 * * * *``    - runs once per hour, at minute 0"
-msgstr ""
+msgstr "``0 * * * *``    – wird einmal pro Stunde ausgeführt, zur Minute 0"
 
 #: ../content/administration-area/processes-automation/web-services.rst:724
 msgid "``0 0 * * *``    - runs once per day, at midnight"
-msgstr ""
+msgstr "``0 0 * * *``    – wird einmal pro Tag um Mitternacht ausgeführt"
 
 #: ../content/administration-area/processes-automation/web-services.rst:725
 msgid "``*/10 * * * *`` - runs every 10 minutes"
-msgstr ""
+msgstr "``*/10 * * * *`` – wird alle 10 Minuten ausgeführt"
 
 #: ../content/administration-area/processes-automation/web-services.rst:727
 msgid "See https://en.wikipedia.org/wiki/Cron for further details on crontab format."
-msgstr ""
+msgstr "Weitere Details zum Crontab-Format finden Sie unter https://en.wikipedia.org/wiki/Cron."
 
 #: ../content/administration-area/processes-automation/web-services.rst:729
 msgid "For the ``Interval`` parameter set it to the time period between two scheduled task runs, in seconds. Running the cronjob once per hour gives you 60 \\* 60 = 3600 seconds between each run, and thus the ``Interval`` parameter should be set to ``3600``."
-msgstr ""
+msgstr "Für den Parameter ``Interval`` legen Sie den Zeitraum zwischen zwei geplanten Task-Ausführungen in Sekunden fest. Wenn der Cronjob einmal pro Stunde ausgeführt wird, ergibt sich ein Abstand von 60 \\* 60 = 3600 Sekunden zwischen den Ausführungen, weshalb der Parameter ``Interval`` auf ``3600`` gesetzt werden sollte."
 
 #: ../content/administration-area/processes-automation/web-services.rst:737
 msgid "Advanced User Import"
-msgstr ""
+msgstr "Erweiterter Benutzerimport"
 
 #: ../content/administration-area/processes-automation/web-services.rst:739
 msgid "In case of problems with the automated User import for incoming webservice calls (Provider), there is a console command to manually import a specific User into the system. This console command can also be used for debugging OIDC/OAuth2 problems:"
-msgstr ""
+msgstr "Bei Problemen mit dem automatisierten Benutzerimport für eingehende Webservice-Aufrufe (Provider) steht ein Konsolenbefehl zur Verfügung, um einen bestimmten Benutzer manuell in das System zu importieren. Dieser Konsolenbefehl kann auch zur Fehlersuche bei OIDC/OAuth2-Problemen verwendet werden:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:749
 msgid "The command comes with a ``--dry-run`` option that will only simulate the import, it will do the actual handshake with the OIDC provider, but it will not actually import the user."
-msgstr ""
+msgstr "Der Befehl verfügt über eine Option ``--dry-run``, die den Import lediglich simuliert: Der tatsächliche Handshake mit dem OIDC-Provider wird durchgeführt, der Benutzer wird jedoch nicht tatsächlich importiert."
 
 #: ../content/administration-area/processes-automation/web-services.rst:754
 #, fuzzy
@@ -8543,7 +8543,7 @@ msgstr "Mapping"
 
 #: ../content/administration-area/processes-automation/web-services.rst:756
 msgid "XSLT stands for \"Extensible Stylesheet Language Transformations\" and is a language for transforming XML documents into other formats, such as XML, JSON, or plain text like CSV. It can be used in OTOBO to transform incoming or outgoing data structures to match the expected format of the provider or requester. Find the reference here: https://www.w3.org/TR/xslt Aside from the official W3C specification, there are a few specifics when it comes to OTOBO. This chapter will cover the basics of XSLT mapping for OTOBO, and then go into some of the specifics and extensions that are available in OTOBO."
-msgstr ""
+msgstr "XSLT steht für „Extensible Stylesheet Language Transformations\" und ist eine Sprache zur Transformation von XML-Dokumenten in andere Formate, wie z. B. XML, JSON oder reinen Text wie CSV. Sie kann in OTOBO verwendet werden, um eingehende oder ausgehende Datenstrukturen an das vom Provider oder Requester erwartete Format anzupassen. Die Referenz finden Sie hier: https://www.w3.org/TR/xslt. Neben der offiziellen W3C-Spezifikation gibt es einige OTOBO-spezifische Besonderheiten. Dieses Kapitel behandelt die Grundlagen des XSLT-Mappings für OTOBO und geht anschließend auf einige der spezifischen Funktionen und Erweiterungen ein, die in OTOBO verfügbar sind."
 
 #: ../content/administration-area/processes-automation/web-services.rst:764
 #, fuzzy
@@ -8553,75 +8553,75 @@ msgstr "OTOBO als Provider - HTTP\\:\\:REST"
 
 #: ../content/administration-area/processes-automation/web-services.rst:766
 msgid "If OTOBO is used as provider, incoming data often needs to be transformed into a format that OTOBO is able to process. In this example, we will use the ``TicketUpdate`` operation and pass JSON-formatted data. We will use XSLT to transform the incoming data into a format suitable for the ``TicketUpdate`` operation."
-msgstr ""
+msgstr "Wenn OTOBO als Provider verwendet wird, müssen eingehende Daten oft in ein Format transformiert werden, das OTOBO verarbeiten kann. In diesem Beispiel verwenden wir die Operation ``TicketUpdate`` und übergeben JSON-formatierte Daten. Mit XSLT wandeln wir die eingehenden Daten in ein für die Operation ``TicketUpdate`` geeignetes Format um."
 
 #: ../content/administration-area/processes-automation/web-services.rst:770
 msgid "Given a Dynamic Field of type ``Ticket->Text`` and name \"RemoteTicketID\", assume the following incoming data:"
-msgstr ""
+msgstr "Angenommen, es existiert ein dynamisches Feld vom Typ ``Ticket->Text`` mit dem Namen „RemoteTicketID\", ausgehend von den folgenden eingehenden Daten:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:776
 msgid "The data is send via ``POST`` to an ``TicketUpdate`` operation which is mapped to ``https://yourfqdn/otobo/nph-genericinterface.pl/Webservice/Test/TicketUpdate/:TicketID`` and you call it like this to update the Ticket with ID ``1``:"
-msgstr ""
+msgstr "Die Daten werden per ``POST`` an eine ``TicketUpdate``-Operation gesendet, die auf ``https://yourfqdn/otobo/nph-genericinterface.pl/Webservice/Test/TicketUpdate/:TicketID`` gemappt ist. Sie rufen sie wie folgt auf, um das Ticket mit der ID ``1`` zu aktualisieren:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:788
 msgid "We can save the data in the Dynamic Field using XSLT mapping as follows:"
-msgstr ""
+msgstr "Wir können die Daten mithilfe des XSLT-Mappings wie folgt im dynamischen Feld speichern:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:806
 msgid "Here, TicketID, UserLogin and Password are just copied over, but the incidentID value gets transformed into a structure OTOBO is able to process."
-msgstr ""
+msgstr "Hierbei werden TicketID, UserLogin und Password unverändert übernommen, während der Wert von incidentID in eine Struktur umgewandelt wird, die OTOBO verarbeiten kann."
 
 #: ../content/administration-area/processes-automation/web-services.rst:810
 msgid "Extended Type Hints for XSLT Mapping"
-msgstr ""
+msgstr "Erweiterte Typ-Hinweise für XSLT-Mapping"
 
 #: ../content/administration-area/processes-automation/web-services.rst:812
 msgid "Extended XSLT mapping can be enabled on the XSLT Mapping Editor page. If enabled, the resulting JSON type can be forced by specifying an ``otoboXslType`` XML attribute. Possible values for that attribute are ``int``, ``bool``, ``float``, and ``array``."
-msgstr ""
+msgstr "Das erweiterte XSLT-Mapping kann auf der Seite des XSLT-Mapping-Editors aktiviert werden. Wenn aktiviert, kann der resultierende JSON-Typ erzwungen werden, indem ein ``otoboXslType``-XML-Attribut angegeben wird. Mögliche Werte für dieses Attribut sind ``int``, ``bool``, ``float`` und ``array``."
 
 #: ../content/administration-area/processes-automation/web-services.rst:816
 msgid "Assume an OTOBO Webservice requester that is triggered by an ``ArticleEdit`` event (synchronously), using the ``Generic::Passthru`` Invoker, and a custom outgoing XSLT mapping as follows:"
-msgstr ""
+msgstr "Angenommen, ein OTOBO-Webservice-Requester wird synchron durch ein ``ArticleEdit``-Event ausgelöst, verwendet den Invoker ``Generic::Passthru`` sowie das folgende benutzerdefinierte ausgehende XSLT-Mapping:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:832
 msgid "This example considers three data points: 'TicketID', 'ArticleID', and 'Event'. Note the type hint attributes named ``otoboXsltType`` that have been added."
-msgstr ""
+msgstr "Dieses Beispiel berücksichtigt drei Datenpunkte: 'TicketID', 'ArticleID' und 'Event'. Beachten Sie die hinzugefügten Typ-Hinweis-Attribute mit dem Namen ``otoboXsltType``."
 
 #: ../content/administration-area/processes-automation/web-services.rst:837
 msgid "``bool``"
-msgstr ""
+msgstr "``bool``"
 
 #: ../content/administration-area/processes-automation/web-services.rst:836
 msgid "Force the value to be represented as boolean values in the resulting JSON. The empty string, the number ``0``, the string ``Zero`` , and the string \"false\" (case-insensitive) will be treated as ``false``, all other values will be transformed to ``true``"
-msgstr ""
+msgstr "Erzwingt, dass der Wert im resultierenden JSON als boolescher Wert dargestellt wird. Der leere String, die Zahl ``0``, der String ``Zero`` und der String „false\" (ohne Berücksichtigung von Groß-/Kleinschreibung) werden als ``false`` behandelt, alle anderen Werte werden zu ``true`` umgewandelt"
 
 #: ../content/administration-area/processes-automation/web-services.rst:844
 msgid "``int``"
-msgstr ""
+msgstr "``int``"
 
 #: ../content/administration-area/processes-automation/web-services.rst:840
 msgid "Change type of value put into JSON from String to Integer. It uses the Perl ``int()`` function, the usual caveats apply. The function consumes characters left to right and stops consuming at the first non-numeric character, so \"42\" and \"42abc\" will both be transformed to the integer 42, while \"abc42\" will be transformed to 0. However, E notation is fully supported, so \"1e3\" will be transformed to 1000, and \"-300e-2\" will be transformed to -3. The empty string will be transformed to 0."
-msgstr ""
+msgstr "Ändert den Typ des in JSON eingefügten Werts von String zu Integer. Dabei wird die Perl-Funktion ``int()`` verwendet, die üblichen Einschränkungen gelten. Die Funktion verarbeitet Zeichen von links nach rechts und bricht beim ersten nicht-numerischen Zeichen ab, sodass sowohl '42' als auch'\"42abc' in den Integer-Wert 42 umgewandelt werden, während 'abc42' zu 0 transformiert wird. E-Notation wird jedoch vollständig unterstützt, sodass '1e3' zu 1000 und '-300e-2' zu -3 transformiert wird. Der leere String wird zu 0 transformiert"
 
 #: ../content/administration-area/processes-automation/web-services.rst:849
 msgid "``float``"
-msgstr ""
+msgstr "``float``"
 
 #: ../content/administration-area/processes-automation/web-services.rst:847
 msgid "Change type of value put into JSON from String to Float. It accepts ``.`` as the decimal character and cuts at ``,``. E notation is fully supported, so \"1e-3\" will be transformed to 0.001."
-msgstr ""
+msgstr "Ändert den Typ des in JSON eingefügten Werts von String zu Float. Dabei wird ``.`` als Dezimalzeichen akzeptiert, bei ``,`` wird abgeschnitten. E-Notation wird vollständig unterstützt, sodass '1e-3' zu 0.001 umgewandelt wird."
 
 #: ../content/administration-area/processes-automation/web-services.rst:856
 msgid "``array``"
-msgstr ""
+msgstr "``array``"
 
 #: ../content/administration-area/processes-automation/web-services.rst:852
 msgid "Force the element to be represented as a JSON array, even if it only contains 1 element. ``array`` may be combined with the other type values, to force both array and a specific type representation (refer to examples below). Note, that an element occurring more than once in the document will already be represented as an array in JSON. Specifying ``array`` on that element hat no effect."
-msgstr ""
+msgstr "Erzwingt, dass das Element als JSON-Array dargestellt wird, auch wenn es nur 1 Element enthält. ``array`` kann mit den anderen Typwerten kombiniert werden, um sowohl eine Array- als auch eine bestimmte Typdarstellung zu erzwingen (siehe Beispiele unten). Beachten Sie, dass ein Element, das mehrfach im Dokument vorkommt, bereits als Array in JSON dargestellt wird. Die Angabe von ``array`` bei diesem Element hat dann keine Auswirkung."
 
 #: ../content/administration-area/processes-automation/web-services.rst:858
 msgid "This illustrative but artificial example demonstrates the mapping with ``otoboXslType``:"
-msgstr ""
+msgstr "Dieses anschauliche, konstruierte Beispiel zeigt das Mapping mit ``otoboXslType``:"
 
 #: ../content/administration-area/processes-automation/web-services.rst:882
 #, fuzzy
@@ -8821,7 +8821,7 @@ msgstr "Automatische Rückfrage"
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:84
 msgid "Is triggered for any follow-up message on an existing ticket. This includes also article notes which are visible for the customer. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for follow up articles created through the customer web interface or through a telephone call otherwise only for follow up articles created from a customer email. This automatic repsonse does not apply for new tickets, see the 'auto reply' event type."
-msgstr ""
+msgstr "Wird bei jeder Folgenachricht zu einem bestehenden Ticket ausgelöst. Dies umfasst auch Artikelnotizen, die für den Kunden sichtbar sind. Wenn die Option 'AutoResponseForWebTickets' unter :doc:`../administration/system-configuration` aktiviert ist, wird die automatische Antwort auch für Folgeartikel versendet, die über die Kunden-Weboberfläche oder durch einen Telefonanruf erstellt wurden, andernfalls nur für Folgeartikel, die aus einer Kunden-E-Mail erstellt wurden. Diese automatische Antwort gilt nicht für neue Tickets, siehe den Event-Typ 'auto reply'."
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:90
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:51
@@ -8830,7 +8830,7 @@ msgstr "Automatische Ablehnung"
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:90
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'reject' this event will be triggered if a customer answers in a ticket, that is already closed."
-msgstr ""
+msgstr "Wenn die Einstellung 'follow up option' unter :doc:`queues` auf 'reject' gesetzt ist, wird dieses Event ausgelöst, wenn ein Kunde auf ein bereits geschlossenes Ticket antwortet."
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:94
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:60
@@ -8839,7 +8839,7 @@ msgstr "Automatisches Entfernen"
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:93
 msgid "Has currently no effect. No response will be generated."
-msgstr ""
+msgstr "Hat derzeit keine Auswirkung. Es wird keine Antwort generiert."
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:99
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:48
@@ -8848,7 +8848,7 @@ msgstr "Automatische Antwort"
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:97
 msgid "If a new ticket is generated the customer will get this auto response. If the :doc:`../administration/system-configuration` option 'AutoResponseForWebTickets' is activated the automatic response is also sent for new tickets created through the customer web interface or through a telephone call (telephone ticket) otherwise only for new tickets created from a customer email. This automatic repsonse does not apply if the 'auto reply/new ticket' event type occours."
-msgstr ""
+msgstr "Wenn ein neues Ticket erstellt wird, erhält der Kunde diese automatische Antwort. Wenn die Option 'AutoResponseForWebTickets' unter :doc:`../administration/system-configuration` aktiviert ist, wird die automatische Antwort auch für neue Tickets versendet, die über die Kunden-Weboberfläche oder durch einen Telefonanruf (Telefon-Ticket) erstellt wurden, andernfalls nur für neue Tickets, die aus einer Kunden-E-Mail erstellt wurden. Diese automatische Antwort gilt nicht, wenn das Event vom Typ 'auto reply/new ticket' eintritt."
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:103
 #: ../content/administration-area/ticket-settings/queues-auto-responses.rst:57
@@ -8857,7 +8857,7 @@ msgstr "Automatische Antwort / neues Ticket"
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:102
 msgid "If the  :doc:`queues` setting 'follow up option' is set to 'new ticket' this event will be triggered if a customer answers in a ticket, that is already closed. You can use this message to inform the customer of the new ticket number."
-msgstr ""
+msgstr "Wenn die Einstellung 'follow up option' unter :doc:`queues` auf 'new ticket' gesetzt ist, wird dieses Event ausgelöst, wenn ein Kunde auf ein bereits geschlossenes Ticket antwortet. Sie können diese Nachricht nutzen, um den Kunden über die neue Ticketnummer zu informieren."
 
 #: ../content/administration-area/ticket-settings/auto-responses.rst:106
 msgid "Auto response from \\*"
@@ -8892,11 +8892,11 @@ msgstr "Sequenzfluss"
 
 #: ../content/administration-area/ticket-settings/priorities.rst:13
 msgid "Grey: normal"
-msgstr ""
+msgstr "Grau: normal"
 
 #: ../content/administration-area/ticket-settings/priorities.rst:14
 msgid "Pink: high"
-msgstr ""
+msgstr "Pink: Hoch"
 
 #: ../content/administration-area/ticket-settings/priorities.rst:15
 #, fuzzy
@@ -9087,7 +9087,7 @@ msgstr "Queue hinzufügen"
 
 #: ../content/administration-area/ticket-settings/queues.rst:71
 msgid "For each queue, the required signature, system address, and salutation are also exported and, if present, imported as well."
-msgstr ""
+msgstr "Für jede Queue werden außerdem die erforderliche Signatur, Systemadresse und Grußformel exportiert und, falls vorhanden, auch importiert."
 
 #: ../content/administration-area/ticket-settings/queues.rst:73
 #, fuzzy
@@ -9103,7 +9103,7 @@ msgstr "Klicken Sie auf die Schaltfläche *Importieren*."
 
 #: ../content/administration-area/ticket-settings/queues.rst:81
 msgid "When importing nested queues, all parent queues must also be imported or already exist in the system."
-msgstr ""
+msgstr "Beim Importieren verschachtelter Queues müssen alle übergeordneten Queues ebenfalls importiert werden oder bereits im System vorhanden sein."
 
 #: ../content/administration-area/ticket-settings/queues.rst:86
 msgid "Queue Validation Dialog"
@@ -9163,7 +9163,7 @@ msgstr "Die Zeit für die erste Reaktion wird nicht für ein E-Mail-Ticket oder 
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:118
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:128
 msgid "Notify by"
-msgstr ""
+msgstr "Benachrichtigung durch"
 
 #: ../content/administration-area/ticket-settings/queues.rst:138
 #: ../content/administration-area/ticket-settings/queues.rst:144
@@ -9172,7 +9172,7 @@ msgstr ""
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:118
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:128
 msgid "Notify before time limit is reached (in percent)."
-msgstr ""
+msgstr "Vor Erreichen der Zeitgrenze benachrichtigen (in Prozent)."
 
 #: ../content/administration-area/ticket-settings/queues.rst:141
 #: ../content/administration-area/ticket-settings/service-level-agreements.rst:115
@@ -9688,7 +9688,7 @@ msgstr "Klicken Sie auf die Schaltfläche *Importieren*."
 
 #: ../content/administration-area/ticket-settings/services.rst:88
 msgid "When importing nested services, all parent services must be imported as well or already exist on the system."
-msgstr ""
+msgstr "Beim Importieren verschachtelter Services müssen alle übergeordneten Services ebenfalls importiert werden oder bereits im System vorhanden sein."
 
 #: ../content/administration-area/ticket-settings/services.rst:91
 msgid "Service Settings"
@@ -9980,11 +9980,11 @@ msgstr "Die folgenden Optionen sind relevant und beachtenswert. Bitte überprüf
 
 #: ../content/administration-area/ticket-settings/states.rst:162
 msgid "``Daemon::SchedulerCronTaskManager::Task###TicketPendingCheck``"
-msgstr ""
+msgstr "``Daemon::SchedulerCronTaskManager::Task###TicketPendingCheck``"
 
 #: ../content/administration-area/ticket-settings/states.rst:163
 msgid "``Ticket::StateAfterPending``"
-msgstr ""
+msgstr "``Ticket::StateAfterPending``"
 
 #: ../content/administration-area/ticket-settings/templates.rst:4
 msgid "Providing the correct and consistent answer all the time regardless of employee or knowledge-level is important to maintain a professional appearance to your customers. Additionally, speed in sending standard answers is key to wading through the masses of requests in growing service desks."
@@ -10150,7 +10150,7 @@ msgstr "Prozessdialog"
 
 #: ../content/administration-area/ticket-settings/templates.rst:111
 msgid "To be used in process management to pre-fill text of articles in user task activity dialogs."
-msgstr ""
+msgstr "Zur Verwendung im Prozessmanagement, um den Text von Artikeln in Aktivitätsdialogen für Benutzeraufgaben vorauszufüllen."
 
 #: ../content/administration-area/ticket-settings/templates.rst:119
 msgid "Template"
@@ -10158,7 +10158,7 @@ msgstr "Vorlage"
 
 #: ../content/administration-area/ticket-settings/templates.rst:119
 msgid "The body of the article added by the template."
-msgstr ""
+msgstr "Der Nachrichtentext des durch die Vorlage hinzugefügten Artikels."
 
 #: ../content/administration-area/ticket-settings/templates.rst:122
 msgid "It is possible to add one or more attachments to this template. Attachments can be added in the :doc:`attachments` screen."
@@ -10345,15 +10345,15 @@ msgstr "Ticket-Einstellungen"
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:4
 msgid "Consistency and efficiency in handling customer inquiries are fundamental aspects for service desks aiming for excellence. The ability to customize and organize dynamic fields in ticket forms in a specific manner is essential to ensure an optimal experience for users."
-msgstr ""
+msgstr "Konsistenz und Effizienz bei der Bearbeitung von Kundenanfragen sind grundlegende Aspekte für Service-Desks, die höchste Servicequalität anstreben. Die Möglichkeit, dynamische Felder in Ticket-Formularen gezielt anzupassen und zu organisieren, ist entscheidend, um ein optimales Nutzererlebnis zu gewährleisten."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:7
 msgid "The 'Ticket Masks' feature in OTOBO allows users to create customized templates that enable them to define the order and appearance of dynamic fields in forms precisely. This feature offers the flexibility to set titles, labels, and presentation formats such as grids, as well as the ability to make fields read-only and store multiple values for a single field in a single form."
-msgstr ""
+msgstr "Die Funktion „Ticketmasken\" in OTOBO ermöglicht es Benutzern, individuelle Vorlagen zu erstellen, mit denen sich die Reihenfolge und Darstellung dynamischer Felder in Formularen präzise festlegen lässt. Diese Funktion bietet die Flexibilität, Titel, Beschriftungen und Darstellungsformate wie Grids festzulegen sowie Felder schreibgeschützt zu machen und mehrere Werte für ein einzelnes Feld in einem einzigen Formular zu speichern."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:10
 msgid "With 'Ticket Masks', agents can streamline ticket management by tailoring the presentation of information to the specific needs of each situation, leading to greater operational efficiency and a more satisfying user experience."
-msgstr ""
+msgstr "Mit „Ticketmasken\" können Agenten das Ticketmanagement verbessern, indem sie die Darstellung von Informationen gezielt für die jeweiligen Situation zuschneiden. Das erhöht die Effizienz und erhöht die Nutzerzufriedenheit."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:12
 #, fuzzy
@@ -10375,11 +10375,11 @@ msgstr "Prozessmanagement"
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:24
 msgid "To edit a ticket mask in OTOBO, follow these steps:"
-msgstr ""
+msgstr "Um eine Ticketmaske in OTOBO zu bearbeiten, gehen Sie wie folgt vor:"
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:26
 msgid "Click on the \"Action\" field in the left sidebar and select the action for which you want to edit the ticket mask."
-msgstr ""
+msgstr "Klicken Sie im linken Seitenbereich auf das Feld „Aktionen\" und wählen Sie die Aktion aus, für die Sie die Ticketmaske bearbeiten möchten."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:27
 #, fuzzy
@@ -10389,7 +10389,7 @@ msgstr "Klicken Sie in der linken Seitenleiste auf die Schaltfläche *Systemregi
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:28
 msgid "Fill in the \"Definition\" field while maintaining the main structure of the ticket mask."
-msgstr ""
+msgstr "Füllen Sie das Feld „Definition\" aus und behalten Sie dabei die Grundstruktur der Ticketmaske bei."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:29
 #, fuzzy
@@ -10410,7 +10410,7 @@ msgstr "Ticket-Liste"
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:39
 msgid "To create a ticket mask in OTOBO, it's necessary to define its configuration using the 'Definitions' field. Definitions are structures that allow specifying how dynamic fields will be displayed and organized in the ticket form."
-msgstr ""
+msgstr "Um eine Ticketmaske in OTOBO zu erstellen, müssen Sie deren Konfiguration über das Feld „Definition\" festlegen. Definitionen sind Strukturen, mit denen festgelegt wird, wie dynamische Felder im Ticket-Formular angezeigt und angeordnet werden."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:45
 #, fuzzy
@@ -10419,19 +10419,19 @@ msgstr "Ticket-Liste"
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:47
 msgid "In this example, a dynamic field of type \"title\" is defined at the top of the definition. The label is set as \"Custom Dynamic Fields\" and defined as mandatory."
-msgstr ""
+msgstr "In diesem Beispiel wird am Anfang der Definition ein dynamisches Feld vom Typ „title\" definiert. Die Beschriftung ist als „Custom Dynamic Fields\" festgelegt und als Pflichtfeld definiert."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:56
 msgid "Underneath, the dynamic field \"Name\" is defined, also marked as mandatory."
-msgstr ""
+msgstr "Darunter wird das dynamische Feld „Name\" definiert, das ebenfalls als Pflichtfeld markiert ist."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:63
 msgid "Next, the configuration of the grid format in which the dynamic fields will be presented begins, defining four columns and their sizes."
-msgstr ""
+msgstr "Anschließend beginnt die Konfiguration des Grid-Formats, in dem die dynamischen Felder dargestellt werden, mit der Festlegung von vier Spalten und deren Größen."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:71
 msgid "Now, the dynamic fields that will go in each row will be defined. First, the dynamic field with the attribute 'DF' is defined, then it's specified in which column it will be using the 'ColumnStart' attribute. Additionally, the separation between that dynamic field and the next one in the same row can be defined using the 'ColumnSpan' attribute, where 1 is the default separation if the attribute is not defined."
-msgstr ""
+msgstr "Nun werden die dynamischen Felder definiert, die in jeder Zeile erscheinen sollen. Zunächst wird das dynamische Feld mit dem Attribut 'DF' festgelegt, anschließend wird mit dem Attribut 'ColumnStart' angegeben, in welcher Spalte es platziert wird. Zusätzlich kann mit dem Attribut 'ColumnSpan' der Abstand zwischen diesem dynamischen Feld und dem nächsten in derselben Zeile definiert werden, wobei 1 der Standardabstand ist, falls das Attribut nicht definiert wird."
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:78
 #, fuzzy
@@ -10440,7 +10440,7 @@ msgstr "Ticket-Liste"
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:80
 msgid "Once saved and completed, the mask would appear as follows:"
-msgstr ""
+msgstr "Sobald gespeichert und abgeschlossen, würde die Maske wie folgt aussehen:"
 
 #: ../content/administration-area/ticket-settings/ticket-masks.rst:85
 #, fuzzy
@@ -10471,7 +10471,7 @@ msgstr "Typen-Verwaltung"
 
 #: ../content/administration-area/ticket-settings/types.rst:22
 msgid "``Ticket::Type`` must first be activated via :doc:`../administration/system-configuration` under the *Administration* group to be selectable in the ticket screens. You may click on the link in the warning message to directly jump to the configuration setting."
-msgstr ""
+msgstr "``Ticket::Type`` muss zunächst über :doc:`../administration/system-configuration` in der Gruppe *Administration* aktiviert werden, um in den Ticketansichten auswählbar zu sein. Sie können auf den Link in der Warnmeldung klicken, um direkt zur entsprechenden Konfigurationseinstellung zu gelangen."
 
 #: ../content/administration-area/ticket-settings/types.rst:28
 msgid "Type Activation Warning"
@@ -10743,7 +10743,7 @@ msgstr "Backend-Quellen für Agenten"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:139
 msgid "Agents can be read and synchronized from an Active Directory® or LDAP server."
-msgstr ""
+msgstr "Agenten können über einen Active Directory®- oder LDAP-Server ausgelesen und synchronisiert werden."
 
 #: ../content/administration-area/users-groups-roles/agents.rst:142
 msgid "Agent Authentication Back End"
@@ -10813,23 +10813,23 @@ msgstr "Die Wiederverwendung eines :ref:`Agent Synchronization Back End` ist ebe
 
 #: ../content/administration-area/users-groups-roles/agents.rst:269
 msgid "External Authentication with ``HTTPBasicAuth``"
-msgstr ""
+msgstr "Externe Authentifizierung mit ``HTTPBasicAuth``"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:271
 msgid "External authentication (e.g. Kerberos or LDAP based) can optionally be configured outside of OTOBO. Examples may include configuring NGINX to handle authentication and pass the user identity on to OTOBO. Two sources for passing the external user identity to OTOBO are supported using the ``HTTPBasicAuth`` authentication module:"
-msgstr ""
+msgstr "Externe Authentifizierung (z. B. auf Basis von Kerberos oder LDAP) kann optional außerhalb von OTOBO konfiguriert werden. Ein Beispiel wäre die Konfiguration von NGINX zur Übernahme der Authentifizierung und Weitergabe der Benutzeridentität an OTOBO. Für die Übergabe der externen Benutzeridentität an OTOBO werden über das Authentifizierungsmodul ``HTTPBasicAuth`` zwei Quellen unterstützt:"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:275
 msgid "The PSGI variable ``REMOTE_USER``. It is set by the web server itself after it has authenticated the request (e.g., Apache with ``mod_auth_gssapi`` in CGI, FCGI or ``mod_perl`` mode). A HTTP client can not supply this value, so it is always trusted."
-msgstr ""
+msgstr "Die PSGI-Variable ``REMOTE_USER``. Diese wird vom Webserver selbst gesetzt, nachdem er die Anfrage authentifiziert hat (z. B. Apache mit ``mod_auth_gssapi`` im CGI-, FCGI- oder ``mod_perl``-Modus). Ein HTTP-Client kann diesen Wert nicht setzen, weshalb ihm stets vertraut wird."
 
 #: ../content/administration-area/users-groups-roles/agents.rst:279
 msgid "The HTTP header ``Remote-User``. This is the only way a reverse proxy (e.g., NGINX, Apache ``mod_proxy``, or Traefik) can forward the identity of the requester. Because any HTTP client is able to set this header, it is ignored unless *BOTH* of the following are configured in ``Config.pm``:"
-msgstr ""
+msgstr "Der HTTP-Header ``Remote-User``. Dies ist der einzige Weg, auf dem ein Reverse Proxy (z. B. NGINX, Apache ``mod_proxy`` oder Traefik) die Identität des Anfragenden weitergeben kann. Da jeder HTTP-Client diesen Header setzen kann, wird er ignoriert, sofern nicht *BEIDE* der folgenden Einstellungen in ``Config.pm`` konfiguriert sind:"
 
 #: ../content/administration-area/users-groups-roles/agents.rst:291
 msgid "The proxy *MUST* also remove any client supplied ``Remote-User`` header before adding its own. See ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` and  ``scripts/apache2-httpd*.include.conf`` in `OTOBO on GitHub <https://github.com/RotherOSS/otobo>`_ for examples."
-msgstr ""
+msgstr "Der Proxy *MUSS* außerdem jeden vom Client gesetzten ``Remote-User``-Header entfernen, bevor er seinen eigenen hinzufügt. Beispiele finden Sie unter ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` und ``scripts/apache2-httpd*.include.conf`` in `OTOBO auf GitHub <https://github.com/RotherOSS/otobo>`_."
 
 #: ../content/administration-area/users-groups-roles/agents.rst:296
 msgid "Agent Synchronization Back End"
@@ -11405,7 +11405,7 @@ msgstr "Gültig \\*"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:150
 msgid "It is possible to assign multiple customers to customer users via the :doc:`customer-users-customers` screen."
-msgstr ""
+msgstr "Es ist möglich, Kundenbenutzern über den Bildschirm :doc:`customer-users-customers` mehrere Kunden zuzuweisen."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:154
 #, fuzzy
@@ -11414,23 +11414,23 @@ msgstr "Einstellungen für Kundenbenutzer"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:156
 msgid "The system works with many customer user data attributes such as username, email address, phone number, etc. These attributes are displayed in both the agent and the external interface, and also used for the authentication of customer users."
-msgstr ""
+msgstr "Das System arbeitet mit zahlreichen Kundenbenutzer-Datenattributen wie Benutzername, E-Mail-Adresse, Telefonnummer usw. Diese Attribute werden sowohl in der Agenten- als auch in der externen Oberfläche angezeigt und außerdem zur Authentifizierung von Kundenbenutzern verwendet."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:159
 msgid "Customer data used or displayed within the system is highly customizable. The user login and the email address are always needed for customer authentication."
-msgstr ""
+msgstr "Die im System verwendeten oder angezeigten Kundendaten sind in hohem Maße anpassbar. Der Benutzeranmeldename und die E-Mail-Adresse werden stets für die Authentifizierung von Kunden benötigt."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:162
 msgid "You can use two types of customer back end: database or LDAP. If you already have another customer back end (e.g. SAP), it is possible to write a module that uses it."
-msgstr ""
+msgstr "Sie können zwei Arten von Kunden-Backends verwenden: Datenbank oder LDAP. Wenn Sie bereits über ein anderes Kunden-Backend verfügen (z. B. SAP), ist es möglich, ein entsprechendes Modul zu entwickeln."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:165
 msgid "The administrator interface does not support the configuration of external back ends. Administrators need to edit the file ``Kernel/Config.pm`` by copying and pasting code snippets from ``Kernel/Config/Defaults.pm`` manually."
-msgstr ""
+msgstr "Die Administrator-Oberfläche unterstützt nicht die Konfiguration externer Backends. Administratoren müssen die Datei ``Kernel/Config.pm`` manuell bearbeiten, indem sie Codeausschnitte aus ``Kernel/Config/Defaults.pm`` kopieren und einfügen."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:170
 msgid "Do not modify the file ``Kernel/Config/Defaults.pm``, it will be overwritten after upgrading the system! Copy and paste the code snippets into ``Kernel/Config.pm`` instead."
-msgstr ""
+msgstr "Bearbeiten Sie nicht die Datei ``Kernel/Config/Defaults.pm``, da diese bei einem Systemupgrade überschrieben wird! Kopieren Sie die Codeausschnitte stattdessen in die Datei ``Kernel/Config.pm``."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:174
 #, fuzzy
@@ -11439,78 +11439,78 @@ msgstr "Datenbank-Größe"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:176
 msgid "This is the default customer user back end for new installations. The example below shows the configuration of a database customer back end, which uses customer user data stored in the database table ``customer_user``."
-msgstr ""
+msgstr "Dies ist das Standard-Backend für Kundenbenutzer bei Neuinstallationen. Das folgende Beispiel zeigt die Konfiguration eines Datenbank-Kunden-Backends, das Kundenbenutzerdaten verwendet, die in der Datenbanktabelle ``customer_user`` gespeichert sind."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:297
 msgid "If you want to customize the customer user data, change the columns or add new ones to the ``customer_user`` table in the database."
-msgstr ""
+msgstr "Wenn Sie die Kundenbenutzerdaten anpassen möchten, ändern Sie die Spalten oder fügen Sie neue zur Tabelle ``customer_user`` in der Datenbank hinzu."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:299
 msgid "For example, to add a new field for room number:"
-msgstr ""
+msgstr "Fügen Sie beispielsweise ein neues Feld für die Raumnummer hinzu:"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:301
 msgid "Add a new column ``room`` to table ``customer_user``."
-msgstr ""
+msgstr "Fügen Sie der Tabelle ``customer_user`` eine neue Spalte ``room`` hinzu."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:303
 msgid "MySQL or MariaDB:"
-msgstr ""
+msgstr "MySQL oder MariaDB:"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:309
 msgid "PostgreSQL (from the ``/opt/otobo`` directory):"
-msgstr ""
+msgstr "PostgreSQL (aus dem Verzeichnis ``/opt/otobo``):"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:315
 #: ../content/administration-area/users-groups-roles/customer-users.rst:421
 msgid "Copy the ``$Self->{CustomerUser}`` section from ``Kernel/Config/Defaults.pm`` into ``Kernel/Config.pm``."
-msgstr ""
+msgstr "Kopieren Sie den Abschnitt ``$Self->{CustomerUser}`` aus ``Kernel/Config/Defaults.pm`` in die Datei ``Kernel/Config.pm``."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:316
 msgid "Add the new column to the ``Map`` array."
-msgstr ""
+msgstr "Fügen Sie die neue Spalte zum Array ``Map`` hinzu."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:322
 msgid "You can set the HTTP link target and link class (the last two keys) to ``undef`` in map array elements, if they are not to be used. These keys add ``target=\"\"`` and ``class=\"\"`` attributes to the HTTP link element, respectively. They are ignored if HTTP link is not set (it is ``''`` in this example)."
-msgstr ""
+msgstr "Sie können das HTTP-Linkziel und die Link-Klasse (die letzten beiden Schlüssel) in den Elementen des Arrays Map auf ``undef`` setzen, wenn sie nicht verwendet werden sollen. Diese Schlüssel fügen dem HTTP-Link-Element die Attribute ``target=\"\"`` bzw. ``class=\"\"`` hinzu. Sie werden ignoriert, wenn kein HTTP-Link gesetzt ist (in diesem Beispiel ist er ``''``)."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:328
 #: ../content/administration-area/users-groups-roles/customer-users.rst:436
 msgid "It is recommended to always use English words for names."
-msgstr ""
+msgstr "Es wird empfohlen, für Namen stets englische Begriffe zu verwenden."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:332
 #: ../content/administration-area/users-groups-roles/customer-users.rst:440
 msgid "Names can be translated into other languages with custom translation files. See the `Custom Translation File <https://doc.otobo.org/manual/dev/11.1/en/content/how-it-works/translations.html#custom-translation-file>`__ chapter in the Developer Manual."
-msgstr ""
+msgstr "Namen können mithilfe benutzerdefinierter Übersetzungsdateien in andere Sprachen übersetzt werden. Siehe das Kapitel `Benutzerdefinierte Übersetzungsdatei <https://doc.otobo.org/manual/dev/11.1/en/content/how-it-works/translations.html#custom-translation-file>`__ im Entwicklerhandbuch."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:337
 msgid "LDAP"
-msgstr ""
+msgstr "LDAP"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:339
 msgid "If you have an LDAP directory with your customer user data, you can use it as the customer user back end. The example below shows the configuration of a LDAP customer user back end."
-msgstr ""
+msgstr "Wenn Sie über ein LDAP-Verzeichnis mit Ihren Kundenbenutzerdaten verfügen, können Sie dieses als Kundenbenutzer-Backend verwenden. Das folgende Beispiel zeigt die Konfiguration eines LDAP-Kundenbenutzer-Backends."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:419
 msgid "To activate and configure the LDAP back end:"
-msgstr ""
+msgstr "Um das LDAP-Backend zu aktivieren und zu konfigurieren:"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:422
 msgid "Remove the comments (``#`` characters) from the beginning of the lines."
-msgstr ""
+msgstr "Entfernen Sie die Kommentarzeichen (``#``) am Anfang der Zeilen."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:424
 msgid "If additional customer user attributes are stored in your LDAP directory, such as a manager name, a mobile phone number, or a department, this information can be displayed in OTOBO."
-msgstr ""
+msgstr "Wenn in Ihrem LDAP-Verzeichnis zusätzliche Kundenbenutzerattribute gespeichert sind, wie z. B. der Name eines Vorgesetzten, eine Mobilfunknummer oder eine Abteilung, können diese Informationen in OTOBO angezeigt werden."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:426
 msgid "To display additional customer user attributes from LDAP directory:"
-msgstr ""
+msgstr "Um zusätzliche Kundenbenutzerattribute aus dem LDAP-Verzeichnis anzuzeigen:"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:428
 msgid "Expand the ``Map`` array in ``Kernel/Config.pm`` with the entries for these attributes."
-msgstr ""
+msgstr "Erweitern Sie das Array ``Map`` in ``Kernel/Config.pm`` um die Einträge für diese Attribute."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:445
 #, fuzzy
@@ -11519,15 +11519,15 @@ msgstr "Verfügbar für angemeldete Kundenbenutzer"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:447
 msgid "If you want to use more than one customer user data source, the ``CustomerUser`` configuration parameter should be expanded with a number, like ``CustomerUser1`` and ``CustomerUser2``."
-msgstr ""
+msgstr "Wenn Sie mehr als eine Kundenbenutzer-Datenquelle verwenden möchten, sollte der Konfigurationsparameter ``CustomerUser`` um eine Zahl erweitert werden, z. B. ``CustomerUser1`` und ``CustomerUser2``."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:449
 msgid "The following configuration example shows usage of both a database and an LDAP customer user back end."
-msgstr ""
+msgstr "Das folgende Konfigurationsbeispiel zeigt die Verwendung sowohl eines Datenbank- als auch eines LDAP-Kundenbenutzer-Backends."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:489
 msgid "It is possible to integrate up to 10 different customer back ends. Use the :doc:`customer-users` screen to view or edit (assuming write access is enabled) all customer user data."
-msgstr ""
+msgstr "Es ist möglich, bis zu 10 verschiedene Kundenbackends zu integrieren. Verwenden Sie den Bildschirm :doc:`customer-users`, um alle Kundenbenutzerdaten anzuzeigen oder (sofern Schreibzugriff aktiviert ist) zu bearbeiten."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:494
 #, fuzzy
@@ -11536,51 +11536,51 @@ msgstr "So erstellen Sie ein Dynamisches Feld:"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:496
 msgid "Sometimes it can be useful to also store customer user data directly in dynamic fields of a ticket, for example to create special statistics on this data."
-msgstr ""
+msgstr "Manchmal kann es sinnvoll sein, Kundenbenutzerdaten zusätzlich direkt in dynamischen Feldern eines Tickets zu speichern, beispielsweise um spezielle Auswertungen zu diesen Daten zu erstellen."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:498
 msgid "The dynamic field values are set, when a ticket is created or when the customer user of a ticket is changed. The values of the dynamic fields are taken from the customer user data. This works for all back ends, but is especially useful for LDAP back ends."
-msgstr ""
+msgstr "Die Werte der dynamischen Felder werden gesetzt, wenn ein Ticket erstellt wird oder wenn der Kundenbenutzer eines Tickets geändert wird. Die Werte der dynamischen Felder stammen aus den Kundenbenutzerdaten. Dies funktioniert für alle Backends, ist jedoch besonders nützlich für LDAP-Backends."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:502
 msgid "To activate this optional feature:"
-msgstr ""
+msgstr "Um diese optionale Funktion zu aktivieren:"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:504
 msgid "Activate the setting ``Ticket::EventModulePost###4100-DynamicFieldFromCustomerUser``."
-msgstr ""
+msgstr "Aktivieren Sie die Einstellung ``Ticket::EventModulePost###4100-DynamicFieldFromCustomerUser``."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:505
 msgid "Activate the setting ``DynamicFieldFromCustomerUser::Mapping``. This setting contains the configuration of which customer user field entry should be stored in which ticket dynamic field."
-msgstr ""
+msgstr "Aktivieren Sie die Einstellung ``DynamicFieldFromCustomerUser::Mapping``. Diese Einstellung enthält die Konfiguration, welcher Kundenbenutzer-Feldeintrag in welchem dynamischen Ticketfeld gespeichert werden soll."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:507
 msgid "Create the dynamic fields, if the dynamic fields are not present in the system yet."
-msgstr ""
+msgstr "Erstellen Sie die dynamischen Felder, falls diese noch nicht im System vorhanden sind."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:508
 msgid "Enable the dynamic fields in setting ``Ticket::Frontend::AgentTicketFreeText###DynamicField``, so that they can be set manually."
-msgstr ""
+msgstr "Aktivieren Sie die dynamischen Felder in der Einstellung ``Ticket::Frontend::AgentTicketFreeText###DynamicField``, damit sie manuell gesetzt werden können."
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:513
 msgid "The dynamic field must not be enabled in the following settings:"
-msgstr ""
+msgstr "Das dynamische Feld darf in den folgenden Einstellungen nicht aktiviert sein:"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:515
 msgid "``Ticket::Frontend::AgentTicketPhone###DynamicField``"
-msgstr ""
+msgstr "``Ticket::Frontend::AgentTicketPhone###DynamicField``"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:516
 msgid "``Ticket::Frontend::AgentTicketEmail###DynamicField``"
-msgstr ""
+msgstr "``Ticket::Frontend::AgentTicketEmail###DynamicField``"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:517
 msgid "``Ticket::Frontend::AgentTicketCustomer###DynamicField``"
-msgstr ""
+msgstr "``Ticket::Frontend::AgentTicketCustomer###DynamicField``"
 
 #: ../content/administration-area/users-groups-roles/customer-users.rst:519
 msgid "If they were, they would have precedence over the automatically set values."
-msgstr ""
+msgstr "Sind die dynamischen Felder dort aktiv, hätten sie Vorrang vor den automatisch gesetzten Werten."
 
 #: ../content/administration-area/users-groups-roles/customer-users-customers.rst:2
 msgid "Customer Users ↔ Customers"
@@ -12673,11 +12673,11 @@ msgstr "Prozess"
 
 #: ../content/glossary.rst:52
 msgid "Part of the process management. A process defines the workflow for a task and consists of activities, activity dialogs, transitions and transition actions."
-msgstr ""
+msgstr "Teil des Prozessmanagements. Ein Prozess definiert den Workflow für eine Aufgabe und besteht aus Aktivitäten, Aktivitätsdialogen, Übergängen und Übergangsaktionen."
 
 #: ../content/glossary.rst:56
 msgid "Part of OTOBO to support definition of workflows for recurring tasks."
-msgstr ""
+msgstr "Teil von OTOBO zur Unterstützung der Definition von Workflows für wiederkehrende Aufgaben."
 
 #: ../content/glossary.rst:57
 msgid "Process Path"
@@ -12685,7 +12685,7 @@ msgstr "Prozesspfad"
 
 #: ../content/glossary.rst:59
 msgid "Part of the process management. A process path describes the connections between the parts of a process."
-msgstr ""
+msgstr "Teil des Prozessmanagements. Ein Prozesspfad beschreibt die Verbindungen zwischen den Bestandteilen eines Prozesses."
 
 #: ../content/glossary.rst:63
 msgid "A resource is any object which has effective permissions. This can be, but is not limited to, a ticket, dashboard widget, statistic, or module."
@@ -12728,7 +12728,7 @@ msgstr "Distribution"
 
 #: ../content/glossary.rst:81
 msgid "Transition Action"
-msgstr ""
+msgstr "Übergangsaktion"
 
 #: ../content/glossary.rst:84
 msgid "SLA"
@@ -12768,19 +12768,19 @@ msgstr "Die Minuten, die einer einer definierten Arbeitszeit in einem beliebigen
 
 #: ../content/history.rst:3
 msgid "Documentation History"
-msgstr ""
+msgstr "Dokumentationshistorie"
 
 #: ../content/history.rst:5
 msgid "1.) 2019 - OTRS Administration Manual - OTRS AG (https://otrs.com)"
-msgstr ""
+msgstr "1.) 2019 – OTRS Administration Manual – OTRS AG (https://otrs.com)"
 
 #: ../content/history.rst:7
 msgid "2.) 2020 - OTOBO Administration Manual - Rother OSS GmbH (https://otobo.de)"
-msgstr ""
+msgstr "2.) 2020 – OTOBO Administration Manual – Rother OSS GmbH (https://otobo.de)"
 
 #: ../content/history.rst:9
 msgid "Published by: Rother OSS GmbH, (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Germany. Authors: OTRS AG (original version), Rother OSS GmbH (https://otobo.de)"
-msgstr ""
+msgstr "Herausgegeben von: Rother OSS GmbH, (https://otobo.de), Oberwalting 31, 94339 Leiblfing, Deutschland. Autoren: OTRS AG (Originalversion), Rother OSS GmbH (https://otobo.de)"
 
 #: ../content/history.rst:12
 msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license can be found on the `GNU website <https://www.gnu.org/licenses/fdl-1.3.txt>`__."
@@ -12788,15 +12788,15 @@ msgstr "Es ist erlaubt, dieses Dokument zu kopieren, verteilen und zu verändern
 
 #: ../content/how-tos/ckeditor-agent.rst:2
 msgid "Configuring CKEditor Plugins and Toolbar"
-msgstr ""
+msgstr "Konfigurieren der CKEditor Plugins und der Toolbar"
 
 #: ../content/how-tos/ckeditor-agent.rst:4
 msgid "With OTOBO 11.1, the package CK5-FullWindowMode has been integrated into the core. This enables to control the plugins and toolbar content and order of the CKEditor via system configuration."
-msgstr ""
+msgstr "Mit OTOBO 11.1 wurde das Paket CK5-FullWindowMode in den Core integriert. Dies ermöglicht es, die Plugins sowie den Inhalt und die Reihenfolge der Toolbar des CKEditors über die Systemkonfiguration zu steuern."
 
 #: ../content/how-tos/ckeditor-agent.rst:7
 msgid "As an example, this how-to describes the steps to disable the Strikethrough functionality."
-msgstr ""
+msgstr "Als Beispiel beschreibt dieses How-to die Schritte, um die Durchstreichen-Funktion zu deaktivieren."
 
 #: ../content/how-tos/ckeditor-agent.rst:11
 #, fuzzy
@@ -12806,23 +12806,23 @@ msgstr "Standardwert"
 
 #: ../content/how-tos/ckeditor-agent.rst:13
 msgid "With default settings, the CKEditor in the agent interface looks like this:"
-msgstr ""
+msgstr "Mit den Standardeinstellungen sieht der CKEditor in der Agentenoberfläche wie folgt aus:"
 
 #: ../content/how-tos/ckeditor-agent.rst:18
 msgid "CKEditor in AgentTicketPhone with default settings"
-msgstr ""
+msgstr "CKEditor in AgentTicketPhone mit Standardeinstellungen"
 
 #: ../content/how-tos/ckeditor-agent.rst:20
 msgid "The Strikethrough button is available."
-msgstr ""
+msgstr "Die Schaltfläche „Durchstreichen\" ist verfügbar."
 
 #: ../content/how-tos/ckeditor-agent.rst:23
 msgid "1. Activate the Enhanced Mode for the CKEditor Toolbar"
-msgstr ""
+msgstr "1. Erweiterten Modus für die CKEditor Toolbar aktivieren"
 
 #: ../content/how-tos/ckeditor-agent.rst:25
 msgid "For the subsequent steps to take effect, the enhanced mode for the CKEditor toolbar needs to be activated. This is done with the following steps:"
-msgstr ""
+msgstr "Damit die nachfolgenden Schritte wirksam werden, muss der erweiterte Modus für die CKEditor Toolbar aktiviert werden. Gehen Sie dazu wie folgt vor:"
 
 #: ../content/how-tos/ckeditor-agent.rst:28
 #: ../content/how-tos/ckeditor-agent.rst:51
@@ -12833,7 +12833,7 @@ msgstr "Öffnen Sie das Modul *Systemkonfiguration* im Admin-Interface."
 
 #: ../content/how-tos/ckeditor-agent.rst:29
 msgid "Navigate to the setting `Frontend::RichText::EnhancedMode`"
-msgstr ""
+msgstr "Navigieren Sie zur Einstellung `Frontend::RichText::EnhancedMode`"
 
 #: ../content/how-tos/ckeditor-agent.rst:30
 #: ../content/how-tos/ckeditor-agent.rst:53
@@ -12844,7 +12844,7 @@ msgstr "Aktiviert"
 
 #: ../content/how-tos/ckeditor-agent.rst:31
 msgid "Activate the setting by checking the checkbox"
-msgstr ""
+msgstr "Aktivieren Sie die Einstellung, indem Sie das Kontrollkästchen aktivieren"
 
 #: ../content/how-tos/ckeditor-agent.rst:32
 #: ../content/how-tos/ckeditor-agent.rst:55
@@ -12855,15 +12855,15 @@ msgstr "Übernimmt die Änderung und aktualisiert auch die betroffenen Einstellu
 
 #: ../content/how-tos/ckeditor-agent.rst:35
 msgid "2. State with Enhanced Mode"
-msgstr ""
+msgstr "2. Zustand mit erweitertem Modus"
 
 #: ../content/how-tos/ckeditor-agent.rst:37
 msgid "With the enhanced mode activated, the CKEditor looks like this:"
-msgstr ""
+msgstr "Mit aktiviertem erweitertem Modus sieht der CKEditor wie folgt aus:"
 
 #: ../content/how-tos/ckeditor-agent.rst:42
 msgid "CKEditor in AgentTicketPhone with enhanced mode enabled"
-msgstr ""
+msgstr "CKEditor in AgentTicketPhone mit aktiviertem erweitertem Modus"
 
 #: ../content/how-tos/ckeditor-agent.rst:45
 #, fuzzy
@@ -12873,55 +12873,56 @@ msgstr "Systemkonfigurationen verwalten"
 
 #: ../content/how-tos/ckeditor-agent.rst:47
 msgid "The system configuration setting responsible for the CKEditor toolbar in the agent interface is the setting `Frontend::EnhancedCKEditorToolbar`."
-msgstr ""
+msgstr "Die für die CKEditor Toolbar in der Agentenoberfläche zuständige Systemkonfigurationseinstellung ist `Frontend::EnhancedCKEditorToolbar`."
 
 #: ../content/how-tos/ckeditor-agent.rst:49
 msgid "It can be changed with the following steps:"
-msgstr ""
+msgstr "Sie kann mit den folgenden Schritten geändert werden:"
 
 #: ../content/how-tos/ckeditor-agent.rst:52
 msgid "Navigate to the setting `Frontend::EnhancedCKEditorToolbar`"
-msgstr ""
+msgstr "Navigieren Sie zur Einstellung `Frontend::EnhancedCKEditorToolbar`"
 
 #: ../content/how-tos/ckeditor-agent.rst:54
 msgid "Remove the entry `Strikethrough` (fifth entry in the first block)"
-msgstr ""
+msgstr "Entfernen Sie den Eintrag `Strikethrough` (in der Standardkonfiguration ist das der fünfte Eintrag im ersten Block)"
 
 #: ../content/how-tos/ckeditor-agent.rst:58
 msgid "4. State with Change in Place"
-msgstr ""
+msgstr "4. Zustand mit vorgenommener Änderung"
 
 #: ../content/how-tos/ckeditor-agent.rst:60
 msgid "Having activated the changed system configuration setting, the CKEditor looks like this:"
-msgstr ""
+msgstr "Nachdem die geänderte Systemkonfigurationseinstellung aktiviert wurde, sieht der CKEditor wie folgt aus:"
 
 #: ../content/how-tos/ckeditor-agent.rst:65
 msgid "CKEditor in AgentTicketPhone with enhanced mode enabled and Strikethrough removed"
-msgstr ""
+msgstr "CKEditor in AgentTicketPhone mit aktiviertem erweitertem Modus und entfernter Durchstreichen-Funktion"
 
 #: ../content/how-tos/index.rst:2
 msgid "How-Tos"
-msgstr ""
+msgstr "How-Tos"
 
 #: ../content/how-tos/index.rst:4
 msgid "While this documentation serves as a reference, it does not directly provide solutions or give recipes for common configurations. For this purpose have a look at these resources:"
-msgstr ""
+msgstr "Da diese Dokumentation als Referenz dient, bietet sie keine direkten Lösungen oder Anleitungen für gängige Konfigurationen. Für diesen Zweck werfen Sie einen Blick auf folgende Ressourcen:"
 
 #: ../content/how-tos/index.rst:8
 msgid "You may find answers to less complex questions in the public section of our customer portal: https://portal.rother-oss.com/otobo/public.pl"
-msgstr ""
+msgstr "Antworten auf weniger komplexe Fragen finden Sie im öffentlichen Bereich unseres Kundenportals: https://portal.rother-oss.com/otobo/public.pl"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:2
 msgid "Migrate Email OAuth2 from OTOBO 11.0 to 11.1"
-msgstr ""
+msgstr "Migration von E-Mail-OAuth2 von OTOBO 11.0 auf 11.1"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:4
+#, fuzzy
 msgid "OTOBO 11.0.x requires the package *MailAccount-OAuth2* to use OAuth2-based authentication for email fetching. This functionality is included in OTOBO 11.1.x, hence the framework does no longer require the package."
-msgstr ""
+msgstr "OTOBO 11.0.x benötigt das Paket *MailAccount-OAuth2*, um OAuth2-basierte Authentifizierung für den E-Mail-Abruf zu verwenden. Diese Funktionalität **ist in OTOBO 11.1.x enthalten**, weshalb das Framework das Paket nicht mehr benötigt."
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:7
 msgid "In order to update OTOBO 11.0.x to 11.1.x and transfer the OAuth2-settings from the package into the framework settings, the following steps are required."
-msgstr ""
+msgstr "Um OTOBO 11.0.x auf 11.1.x zu aktualisieren und die OAuth2-Einstellungen aus dem Paket in die Framework-Einstellungen zu übertragen, sind die folgenden Schritte erforderlich."
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:11
 #, fuzzy
@@ -12937,23 +12938,23 @@ msgstr "Systemkonfigurationen verwalten"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:16
 msgid "If an OTOBO package is removed, its settings will be removed as well. In order to be able to migrate your configuration from the *MailAccount-OAuth2* package to the framework, store the following settings."
-msgstr ""
+msgstr "Wenn ein OTOBO-Paket entfernt wird, werden auch dessen Einstellungen entfernt. Um Ihre Konfiguration aus dem Paket *MailAccount-OAuth2* in das Framework migrieren zu können, sichern Sie die folgenden Einstellungen."
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:19
 msgid "From the System Configuration setting ``OAuth2::MailAccount::Profiles###Custom1``, store the following information:"
-msgstr ""
+msgstr "Sichern Sie aus der Systemkonfigurationseinstellung ``OAuth2::MailAccount::Profiles###Custom1`` die folgenden Informationen:"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:21
 msgid "ClientID"
-msgstr ""
+msgstr "ClientID"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:22
 msgid "ClientSecret"
-msgstr ""
+msgstr "ClientSecret"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:24
 msgid "ProviderName"
-msgstr ""
+msgstr "ProviderName"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
 #, fuzzy
@@ -12970,7 +12971,7 @@ msgstr "Systemkonfiguration - Einstellung bearbeiten"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:31
 msgid "From the setting ``OAuth2::MailAccount::Providers###MicrosoftAzure``, store the follwing information:"
-msgstr ""
+msgstr "Sichern Sie aus der Einstellung ``OAuth2::MailAccount::Providers###MicrosoftAzure`` die folgenden Informationen:"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:33
 #, fuzzy
@@ -12980,7 +12981,7 @@ msgstr "Autor"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:34
 msgid "TokenURL"
-msgstr ""
+msgstr "TokenURL"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
 #, fuzzy
@@ -12996,27 +12997,27 @@ msgstr "Neuen Prozess erstellen"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:46
 msgid "The Provider Profile defines the communication with your E-Mail provider."
-msgstr ""
+msgstr "Das Provider-Profil definiert die Kommunikation mit Ihrem E-Mail-Provider."
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:48
 msgid "In the admin area, navigate to *OIDC Profile Management* and add a profile:"
-msgstr ""
+msgstr "Navigieren Sie im Admin-Bereich zu *OIDC Profilverwaltung* und fügen Sie ein Profil hinzu:"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:50
 msgid "Profile Name - Define a name for this profile"
-msgstr ""
+msgstr "Profilname – Vergeben Sie einen Namen für dieses Profil"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:51
 msgid "Metadata Url - The Well-Known Provider Metadata Url."
-msgstr ""
+msgstr "Metadata URL - die bekannte Metadata URL des Anbieters."
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:52
 msgid "Client ID - from section \"Save Settings from System Configuration\" above"
-msgstr ""
+msgstr "Client ID – aus dem oben genannten Abschnitt „Einstellungen sichern aus der Systemkonfiguration\""
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:53
 msgid "Client Secret - section \"Save Settings from System Configuration\" above"
-msgstr ""
+msgstr "Client Secret – aus dem oben genannten Abschnitt „Einstellungen sichern aus der Systemkonfiguration\""
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
 #, fuzzy
@@ -13026,7 +13027,7 @@ msgstr "Prozessmanagement"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:60
 msgid "Creating a new Profile in the OIDC Profile Management"
-msgstr ""
+msgstr "Erstellen eines neuen Profils in der OIDC Profilverwaltung"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:63
 #, fuzzy
@@ -13035,35 +13036,35 @@ msgstr "Optionen für Status-Konfiguration"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:65
 msgid "The Functional Account connects your *PostMaster Mail Account* to the *Provider Profile*."
-msgstr ""
+msgstr "Das Funktionskonte verbindet Ihr *PostMaster-Email-Konto* mit dem *Provider Profil*."
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:67
 msgid "In the admin area, navigate to *OAuth Functional Accounts* and add an account:"
-msgstr ""
+msgstr "Navigieren Sie im Admin-Bereich zu *OAuth Funktionskonten* und fügen Sie ein Konto hinzu:"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:69
 msgid "Account Name - Define a name for this account"
-msgstr ""
+msgstr "Kontoname - vergeben Sie einen Namen für dieses Konto"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:70
 msgid "OIDC Profile - as defined in \"Create a Provider Profile\" above"
-msgstr ""
+msgstr "OIDC Profil - wie oben unter 'Providerprofil anlegen' festgelegt"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:71
 msgid "Grant Type - select ``authorization_code`` from the dropdown-list"
-msgstr ""
+msgstr "Berechtigungsgewährung (Grant Type) – wählen Sie ``authorization_code`` aus der Dropdown-Liste aus"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:72
 msgid "OAuth2 Scopes - ``openid offline_access``"
-msgstr ""
+msgstr "OAuth2 Berechtigungsumfänge (Scopes) - ``openid offline_access``"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:73
 msgid "Resource Parameter name - ``resource``"
-msgstr ""
+msgstr "Name des Ressourcen-Parameters - ``resource``"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:74
 msgid "Token Type - ``access_token``"
-msgstr ""
+msgstr "Token Type - ``access_token``"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:0
 #, fuzzy
@@ -13079,15 +13080,15 @@ msgstr "Klicken Sie auf ein E-Mail-Konten in der Liste mit den E-Mail-Konten."
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:81
 msgid "Click [Save] and login to your Microsoft account:"
-msgstr ""
+msgstr "Klicken Sie auf [Save] und melden Sie sich bei Ihrem Microsoft-Konto an:"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:83
 msgid "Email, phone or Skype"
-msgstr ""
+msgstr "Email, Telefon oder Skype"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:87
 msgid "2FA"
-msgstr ""
+msgstr "2FA"
 
 #: ../content/how-tos/migrate-email-oauth2-from-11-0-to-11-1.rst:89
 msgid "In the overview of OIDC Functional Accounts, click the [Renew] button for the created account"
