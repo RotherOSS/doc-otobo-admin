@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-06 12:13+0000\n"
+"POT-Creation-Date: 2026-11-10 10:10+0000\n"
 "PO-Revision-Date: 2026-03-08 14:00+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/zh_Hans/>\n"
@@ -641,6 +641,7 @@ msgstr "FAQ 类别设置"
 #: ../content/administration-area/communication-notifications/ticket-notifications.rst:83
 #: ../content/administration-area/processes-automation/access-control-lists.rst:113
 #: ../content/administration-area/processes-automation/dynamicfields.rst:80
+#: ../content/administration-area/processes-automation/dynamicfields.rst:465
 #: ../content/administration-area/processes-automation/web-services.rst:138
 #: ../content/administration-area/ticket-settings/attachments.rst:68
 #: ../content/administration-area/ticket-settings/auto-responses.rst:70
@@ -1779,6 +1780,7 @@ msgid "Table Active Translations"
 msgstr "创建活动"
 
 #: ../content/administration-area/administration/translation.rst:56
+#: ../content/administration-area/processes-automation/dynamicfields.rst:480
 msgid "Filter"
 msgstr ""
 
@@ -3991,6 +3993,7 @@ msgid "Mail Account Settings"
 msgstr "邮件帐户设置"
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:92
+#: ../content/administration-area/processes-automation/dynamicfields.rst:511
 #: ../content/administration-area/ticket-settings/auto-responses.rst:103
 #: ../content/administration-area/ticket-settings/templates.rst:92
 msgid "Type \\*"
@@ -4035,6 +4038,7 @@ msgid "The username of the mail account."
 msgstr "邮件帐户的用户名。"
 
 #: ../content/administration-area/communication-notifications/postmaster-mail-accounts.rst:98
+#: ../content/administration-area/processes-automation/dynamicfields.rst:539
 msgid "Password \\*"
 msgstr "密码 \\*"
 
@@ -5530,6 +5534,7 @@ msgid "The name of this resource. The value should be alphabetic and numeric cha
 msgstr "此资源的名称。 可以在此字段中输入任何类型的字符，包括大写字母和空格。 名称将显示在概览表中。"
 
 #: ../content/administration-area/processes-automation/dynamicfields.rst:88
+#: ../content/administration-area/processes-automation/dynamicfields.rst:469
 msgid "Label \\*"
 msgstr "标签 \\*"
 
@@ -5846,24 +5851,28 @@ msgstr "在编辑屏幕选择这个动态字段的年份时，能选择从当天
 #: ../content/administration-area/processes-automation/dynamicfields.rst:274
 #: ../content/administration-area/processes-automation/dynamicfields.rst:342
 #: ../content/administration-area/processes-automation/dynamicfields.rst:401
+#: ../content/administration-area/processes-automation/dynamicfields.rst:503
 msgid "Show link"
 msgstr "显示链接"
 
 #: ../content/administration-area/processes-automation/dynamicfields.rst:269
 #: ../content/administration-area/processes-automation/dynamicfields.rst:337
 #: ../content/administration-area/processes-automation/dynamicfields.rst:395
+#: ../content/administration-area/processes-automation/dynamicfields.rst:498
 msgid "Here you can specify an optional HTTP link for the field value in overviews and zoom screens. Example:"
 msgstr "您可以在此处为概览和详情屏幕中本字段值指定可选的HTTP链接。 例如："
 
 #: ../content/administration-area/processes-automation/dynamicfields.rst:278
 #: ../content/administration-area/processes-automation/dynamicfields.rst:347
 #: ../content/administration-area/processes-automation/dynamicfields.rst:405
+#: ../content/administration-area/processes-automation/dynamicfields.rst:507
 msgid "Link for preview"
 msgstr "预览链接"
 
 #: ../content/administration-area/processes-automation/dynamicfields.rst:277
 #: ../content/administration-area/processes-automation/dynamicfields.rst:345
 #: ../content/administration-area/processes-automation/dynamicfields.rst:404
+#: ../content/administration-area/processes-automation/dynamicfields.rst:506
 msgid "If filled in, this URL will be used for a preview which is shown when this link is hovered in ticket zoom. Please note that for this to work, the regular URL field above needs to be filled in, too."
 msgstr "如果填写了内容，在工单详情屏幕中当鼠标移动到这个URL上方时将显示URL的预览。请注意：要使这个功能生效，还需要上面的常规URL字段也填写好了内容。"
 
@@ -5915,6 +5924,7 @@ msgstr "下拉框动态字段用于存储一个封闭列表中的单个值。"
 
 #: ../content/administration-area/processes-automation/dynamicfields.rst:316
 #: ../content/administration-area/processes-automation/dynamicfields.rst:360
+#: ../content/administration-area/processes-automation/dynamicfields.rst:489
 #: ../content/administration-area/processes-automation/process-management.rst:212
 msgid "Possible values"
 msgstr "可能值"
@@ -6021,183 +6031,402 @@ msgstr "此字段在编辑模式中的宽度（单位：字符）。"
 msgid "Database Dynamic Field"
 msgstr "数据库动态字段"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:455
-msgid "This dynamic field is already included in OTOBO 10 Standard! The documentation on the field types still needs to be completed."
+#: ../content/administration-area/processes-automation/dynamicfields.rst:453
+msgid "Database dynamic fields are used to select and store entries from a table or view of an arbitrary database that can be accessed from within the OTOBO instance. This type is available for object types Ticket, Article, Customers, Customer Users, and FAQs. Agents access this field via the agent interface and customer users via the external interface. In both cases, the field offers autocompletion as well as a detailed search, listing all matches from the referenced database table for the strings entered by the user. The admin configures one or more columns to be considered for the search. The value of the column marked as identifier is stored in the dynamic field."
 msgstr ""
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:460
-msgid "Web Service Dynamic Field"
-msgstr "Web服务动态字段"
-
-#: ../content/administration-area/processes-automation/dynamicfields.rst:462
-msgid "A Web Service dynamic field relies upon a working Web Service, more precisely on a Web Service invoker."
+#: ../content/administration-area/processes-automation/dynamicfields.rst:461
+msgid "Define the columns of the external table or view that are used by the dynamic field. Clicking on the ``+`` button of *Add value* will add a new card to address a new column with the following settings:"
 msgstr ""
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:464
-msgid "For this purpose, an invoker of type PassThrough can be used."
-msgstr ""
-
-#: ../content/administration-area/processes-automation/dynamicfields.rst:466
-msgid "For the outgoing API call, DynamicFieldID, -Label, -Name and -Value, as well as UserID and Ticket and Form data are passed to the invoker."
-msgstr ""
+#: ../content/administration-area/processes-automation/dynamicfields.rst:465
+#, fuzzy
+#| msgid "The last name of the customer user."
+msgid "The exact name of the column in the table or view."
+msgstr "客户用户的姓。"
 
 #: ../content/administration-area/processes-automation/dynamicfields.rst:468
-msgid "For the dynamic field Web Service to work, the response data needs to be mapped into this structure:"
+msgid "The label of the column, which is displayed in the search results. You can decide to a add a more descriptive term than just the name of the column."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:473
+#, fuzzy
+#| msgid "State type \\*"
+msgid "Datatype \\*"
+msgstr "状态类型 \\*"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:472
+#, fuzzy
+#| msgid "Filter for the sender type of the ticket. Possible values are *agent*, *system* or *customer*."
+msgid "The data type of the database column. Possible values are *Date*, *Integer* and *Text*."
+msgstr "过滤工单的发件人类型。 可能的值为 *agent（服务人员）*、*system（系统）* 或 *customer（客户）*。"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:476
+msgid "Restricts the search results to entries, where this column matches the given ticket attribute (e.g. *Queue*, *State* or *CustomerID*) or the value of another dynamic field (e.g. ``DynamicField_OtherFieldName``). The filter only takes effect, if *Searchfield* is activated for this column. If the dynamic field is bound to a related ticket, the attributes will be used for the filter mechanism, otherwise the filters will be ignored."
 msgstr ""
 
 #: ../content/administration-area/processes-automation/dynamicfields.rst:484
+#, fuzzy
+#| msgid "Searchable fields"
+msgid "Searchfield"
+msgstr "可搜索的字段"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:483
+msgid "If activated, the search term is matched against this column. Example: Assuming the search field is enabled for both the ``ID`` column and the ``NAME`` column of the ``queues`` table, the search term is matched against the values in both columns and hits are returned."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:489
+msgid "Listfield"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:487
+msgid "If activated, the column is displayed in the search results. Example: If the list field is enabled only for the ``Name`` column of the ``queues`` table, the dynamic field shows only the name of the queues among the hits. If the list field is also enabled for the ``ID`` column, both values are displayed combined."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:493
+msgid "You can only address columns from one database table or view per dynamic field database. A combination of columns from multiple tables or views is not possible."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:510
+msgid "Selection of database management system that is used for the database being addressed by the dynamic field. Possible values are *MySQL*, *Oracle*, *PostgreSQL* and *SQL Server (ODBC)*."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:515
+msgid "SID"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:514
+msgid "The system identifier of the Oracle database. This field is only displayed, if *Type* is set to *Oracle*."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:519
+msgid "Driver"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:518
+msgid "The name of the ODBC driver. This field is only displayed, if *Type* is set to *SQL Server (ODBC)*."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:522
+#, fuzzy
+#| msgid "Service \\*"
+msgid "Server \\*"
+msgstr "服务 \\*"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:522
+#, fuzzy
+#| msgid "The DNS name or IP of your directory server."
+msgid "The host name or IP address of the database server."
+msgstr "目录服务器的DNS名称或IP。"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:526
+msgid "Port"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:525
+msgid "The port of the database server. You can leave it empty if you are using the default ports."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:529
+#, fuzzy
+msgid "Database \\*"
+msgstr "数据库大小"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:529
+msgid "The name of the database from whose tables or views the dynamic field reads."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:533
+msgid "Table / View \\*"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:532
+msgid "The name of the table or view to select the entries from. Only one value can be entered."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:536
+#, fuzzy
+#| msgid "Username \\*"
+msgid "User \\*"
+msgstr "用户名 \\*"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:536
+#, fuzzy
+#| msgid "The username of the agent to login to the system."
+msgid "The user name to connect to the database."
+msgstr "登录系统的服务人员的用户名。"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:539
+#, fuzzy
+#| msgid "The password of the mail account."
+msgid "The password to connect to the database."
+msgstr "邮件帐户的密码。"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:543
+msgid "If you setup a dynamic field for your OTOBO database, you may find the database user and password in your ``Kernel/Config.pm``."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:548
+#, fuzzy
+#| msgid "Invoker \\*"
+msgid "Identifier \\*"
+msgstr "调用程序 \\*"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:547
+msgid "The column, whose value is stored in the dynamic field. It must be a unique column of the table or view entered in *Table / View*."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:552
+msgid "If the user gets no hits in the dynamic field, please check not only the DatabaseUser’s login credentials, but also the names and settings in the *possible values* cards."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:557
+msgid "Multiselect"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:556
+msgid "If activated, multiple entries can be selected and stored in the dynamic field. This option can not be combined with *Multiple Values*."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:561
+msgid "CacheTTL"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:560
+msgid "The time (in seconds) the search results are cached. Set to ``0`` or leave empty to disable the cache."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:565
+#, fuzzy
+#| msgid "Searchable fields"
+msgid "Searchprefix"
+msgstr "可搜索的字段"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:564
+msgid "A string prepended to the search term (e.g. ``*`` to search for entries ending with the search term)."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:569
+msgid "Searchsuffix"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:568
+msgid "A string appended to the search term (e.g. ``*`` to search for entries starting with the search term)."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:573
+msgid "The character ``*`` is used as wildcard in search terms. For a maximally flexible search, use the wildcard (*) in both fields, so that the system lists all hits. However, this will also make the list of hits longer."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:582
+#, fuzzy
+#| msgid "Result format"
+msgid "Result Limit"
+msgstr "结果格式"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:579
+msgid "The maximum number of entries returned by a search. If defined, the system truncates the list once the permitted number is reached. In most cases, the system might sort the output alphabetically, but this is not reliable behavior. Leave empty or set to ``0`` for no limit."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:586
+msgid "Case Sensitive"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:585
+msgid "If activated, the search is case sensitive. Example: If the agent enters an uppercase ‘R’, the queue ‘Raw’ is displayed; with a lowercase ‘r’, ‘Postmaster’ appears instead."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:591
+#, fuzzy
+#| msgid "Possible values"
+msgid "Multiple Values"
+msgstr "可能值"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:589
+msgid "Activate this option to allow multiple values for this field. By default, the system allows the dynamic field to be displayed once in the view. If you change the setting to ‘Yes’, the agent can manually add the dynamic field as many times as desired and store multiple values accordingly."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:595
+msgid "The autocompletion can be configured in the system configuration settings ``AutoComplete::Agent###DynamicFieldDBSearch`` and ``AutoComplete::Customer###DynamicFieldDBSearch``."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:597
+msgid "Additional columns of a selected entry can be stored in other dynamic fields. The mapping between the database dynamic field, the database columns and the target dynamic fields is defined in the ``DynamicFieldDB::StoreHistoricalData###*`` settings."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:602
+msgid "Web Service Dynamic Field"
+msgstr "Web服务动态字段"
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:604
+msgid "A Web Service dynamic field relies upon a working Web Service, more precisely on a Web Service invoker."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:606
+msgid "For this purpose, an invoker of type PassThrough can be used."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:608
+msgid "For the outgoing API call, DynamicFieldID, -Label, -Name and -Value, as well as UserID and Ticket and Form data are passed to the invoker."
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:610
+msgid "For the dynamic field Web Service to work, the response data needs to be mapped into this structure:"
+msgstr ""
+
+#: ../content/administration-area/processes-automation/dynamicfields.rst:626
 msgid "This can be accomplished by implementing an XSLT mapping."
 msgstr ""
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:488
+#: ../content/administration-area/processes-automation/dynamicfields.rst:630
 msgid "Display Dynamic Fields on Screens"
 msgstr "在屏幕中显示动态字段"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:490
+#: ../content/administration-area/processes-automation/dynamicfields.rst:632
 msgid "To display a dynamic field on a screen:"
 msgstr "若要在一个屏幕中显示一个动态字段："
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:492
+#: ../content/administration-area/processes-automation/dynamicfields.rst:634
 msgid "Make sure that the dynamic field *Validity* is set to *valid*."
 msgstr "确保该动态字段的 *有效性* 设置为 *有效*。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:493
-#: ../content/administration-area/processes-automation/dynamicfields.rst:519
-#: ../content/administration-area/processes-automation/dynamicfields.rst:532
-#: ../content/administration-area/processes-automation/dynamicfields.rst:557
+#: ../content/administration-area/processes-automation/dynamicfields.rst:635
+#: ../content/administration-area/processes-automation/dynamicfields.rst:661
+#: ../content/administration-area/processes-automation/dynamicfields.rst:674
+#: ../content/administration-area/processes-automation/dynamicfields.rst:699
 msgid "Open the *System Configuration* module in the admin interface."
 msgstr "在系统管理界面中打开 *系统配置* 模块。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:494
+#: ../content/administration-area/processes-automation/dynamicfields.rst:636
 msgid "Navigate to *Frontend* → *Agent* → *View* and select a view to add the dynamic field to."
 msgstr "导航到 *前端* → *服务人员* → *视图*，并选择一个要添加动态字段的视图。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:495
+#: ../content/administration-area/processes-automation/dynamicfields.rst:637
 msgid "Find the setting ends with ``###DynamicField`` and click on the *Edit this setting* button."
 msgstr "找到以 ``### DynamicField`` 结束的设置，然后单击 *编辑这个设置* 按钮。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:496
+#: ../content/administration-area/processes-automation/dynamicfields.rst:638
 msgid "Click on the *+* button to add the dynamic field."
 msgstr "点击 *+* 按钮添加动态字段。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:497
+#: ../content/administration-area/processes-automation/dynamicfields.rst:639
 msgid "Enter the name of the dynamic field to the text box and click on the tick button."
 msgstr "在文本框中输入动态字段的名称，然后单击勾选按钮。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:498
+#: ../content/administration-area/processes-automation/dynamicfields.rst:640
 msgid "Select *1 - Enabled* or *2 - Enabled and required*."
 msgstr "选择 *1 - 启用* 或 *2 - 启用且必填*。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:499
-#: ../content/administration-area/processes-automation/dynamicfields.rst:522
-#: ../content/administration-area/processes-automation/dynamicfields.rst:535
-#: ../content/administration-area/processes-automation/dynamicfields.rst:560
+#: ../content/administration-area/processes-automation/dynamicfields.rst:641
+#: ../content/administration-area/processes-automation/dynamicfields.rst:664
+#: ../content/administration-area/processes-automation/dynamicfields.rst:677
+#: ../content/administration-area/processes-automation/dynamicfields.rst:702
 msgid "Click on the tick button on the right to save the setting."
 msgstr "点击右侧的勾选按钮以保存设置。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:500
-#: ../content/administration-area/processes-automation/dynamicfields.rst:523
-#: ../content/administration-area/processes-automation/dynamicfields.rst:536
-#: ../content/administration-area/processes-automation/dynamicfields.rst:561
+#: ../content/administration-area/processes-automation/dynamicfields.rst:642
+#: ../content/administration-area/processes-automation/dynamicfields.rst:665
+#: ../content/administration-area/processes-automation/dynamicfields.rst:678
+#: ../content/administration-area/processes-automation/dynamicfields.rst:703
 msgid "Deploy the modified system configuration."
 msgstr "部署修改后的系统配置。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:505
+#: ../content/administration-area/processes-automation/dynamicfields.rst:647
 msgid "Display Dynamic Fields on Screen"
 msgstr "在屏幕中显示动态字段"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:509
+#: ../content/administration-area/processes-automation/dynamicfields.rst:651
 msgid "It is possible to add multiple dynamic fields at the same time. To do this, repeat steps 5-7."
 msgstr "可以同时添加多个动态字段。 为此，请重复步骤5-7。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:514
+#: ../content/administration-area/processes-automation/dynamicfields.rst:656
 msgid "Set Default Value via Ticket Event Module"
 msgstr "通过工单事件模块设置默认值"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:516
+#: ../content/administration-area/processes-automation/dynamicfields.rst:658
 msgid "A ticket event (e.g. ``TicketCreate``) can trigger a value set for a certain field, if the field does not have a value yet."
 msgstr "如果该字段还没有值，则工事件（例如 ``TicketCreate``）可以触发某个字段的值设置。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:520
+#: ../content/administration-area/processes-automation/dynamicfields.rst:662
 msgid "Navigate to *Core* → *Event* → *Ticket* and search for the setting ``Ticket::EventModulePost###9600-TicketDynamicFieldDefault``."
 msgstr "导航到 *核心* → *事件* → *工单* 并搜索设置 ``Ticket::EventModulePost###9600-TicketDynamicFieldDefault``。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:521
-#: ../content/administration-area/processes-automation/dynamicfields.rst:534
-#: ../content/administration-area/processes-automation/dynamicfields.rst:559
+#: ../content/administration-area/processes-automation/dynamicfields.rst:663
+#: ../content/administration-area/processes-automation/dynamicfields.rst:676
+#: ../content/administration-area/processes-automation/dynamicfields.rst:701
 msgid "Click on the *Edit this setting* button to activate the setting."
 msgstr "点击 *编辑这个设置* 按钮以激活设置。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:528
+#: ../content/administration-area/processes-automation/dynamicfields.rst:670
 msgid "Activate Ticket Event Module"
 msgstr "激活工单事件模块"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:530
+#: ../content/administration-area/processes-automation/dynamicfields.rst:672
 msgid "Example: activate *Field1* in ``TicketCreate`` event:"
 msgstr "范例：在 ``TicketCreate`` (创建工单)事件中激活 *Field1*："
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:533
+#: ../content/administration-area/processes-automation/dynamicfields.rst:675
 msgid "Navigate to *Core* → *Ticket* → *DynamicFieldDefault* and search for the setting ``Ticket::TicketDynamicFieldDefault###Element1``."
 msgstr "导航到 *核心* → *工单* → *DynamicFieldDefault* 并搜索设置 ``Ticket::TicketDynamicFieldDefault###Element1``。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:541
+#: ../content/administration-area/processes-automation/dynamicfields.rst:683
 msgid "Activate Dynamic Field in Ticket Create Event"
 msgstr "在创建工单事件中激活动态字段"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:545
+#: ../content/administration-area/processes-automation/dynamicfields.rst:687
 msgid "This configuration can be set in any of the 16 ``Ticket::TicketDynamicFieldDefault###Element`` settings."
 msgstr "这个配置可以在16个 ``Ticket::TicketDynamicFieldDefault###Element`` 设置的任何一个中设置。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:549
+#: ../content/administration-area/processes-automation/dynamicfields.rst:691
 #, fuzzy
 msgid "If more than 16 fields needs to be set up, a custom XML file must be placed in ``$OTOBO_HOME/Kernel/Config/Files/XML`` directory to extend this feature."
 msgstr "如果需要设置超过16个字段，则必须将自定义XML文件放在 ``$OTRS_HOME/Kernel/Config/Files/XML`` 目录中以扩展此功能。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:553
+#: ../content/administration-area/processes-automation/dynamicfields.rst:695
 msgid "Set Default Value via User Preferences"
 msgstr "通过用户偏好设置设置默认值"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:555
+#: ../content/administration-area/processes-automation/dynamicfields.rst:697
 msgid "The dynamic field default value can be overwritten with a user defined value stored in the personal preferences."
 msgstr "可以使用存储在个人偏好设置中的用户定义值覆盖动态字段默认值。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:558
+#: ../content/administration-area/processes-automation/dynamicfields.rst:700
 msgid "Navigate to *Frontend* → *Agent* → *View* → *Preferences* and search for the setting ``PreferencesGroups###DynamicField``."
 msgstr "导航到 *前端* → *服务人员* → *视图* → *偏好设置* 并搜索设置 ``PreferencesGroups###DynamicField``。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:566
+#: ../content/administration-area/processes-automation/dynamicfields.rst:708
 msgid "Activate Dynamic Field in Personal Preferences"
 msgstr "在个从偏好设置中激活动态字段"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:568
+#: ../content/administration-area/processes-automation/dynamicfields.rst:710
 msgid "Click on your avatar on the top left corner, and select *Personal Preferences* → *Miscellaneous* to add a default value for the dynamic field."
 msgstr "单击左上角的头像，然后选择 *个人偏好设置* → *其他* 以添加动态字段的默认值。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:573
+#: ../content/administration-area/processes-automation/dynamicfields.rst:715
 msgid "Dynamic Field in Personal Preferences"
 msgstr "个人偏好设置中的动态字段"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:575
+#: ../content/administration-area/processes-automation/dynamicfields.rst:717
 msgid "This setting is an example of how to create an entry in the user preferences screen to set an exclusive dynamic field ``Name_X`` default value for the selected user. The limitation of this setting is that it only permits the use of one dynamic field. If two or more fields will use this feature, it is necessary to create a custom XML configuration file to add more settings similar to this one."
 msgstr "此设置是如何在用户偏好设置屏幕中创建一个条目以便为所选用户设置独占动态字段 ``Name_X`` 的默认值的示例。 此设置的限制是它只允许使用一个动态字段。 如果两个或多个字段将使用此功能，则需要创建自定义XML配置文件以添加与此类似的更多设置。"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:581
+#: ../content/administration-area/processes-automation/dynamicfields.rst:723
 msgid "If more settings are added in a new XML each setting name needs to be unique in the system and different than ``PreferencesGroups###DynamicField``. For example:"
 msgstr "如果在新XML中添加了更多设置，则每个设置名称在系统中必须是唯一的，并不同于 ``PreferencesGroups###DynamicField``。 例如："
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:583
+#: ../content/administration-area/processes-automation/dynamicfields.rst:725
 msgid "``PreferencesGroups###101-DynamicField-Field1``"
 msgstr "``PreferencesGroups###101-DynamicField-Field1``"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:584
+#: ../content/administration-area/processes-automation/dynamicfields.rst:726
 msgid "``PreferencesGroups###102-DynamicField-Field2``"
 msgstr "``PreferencesGroups###102-DynamicField-Field2``"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:585
+#: ../content/administration-area/processes-automation/dynamicfields.rst:727
 msgid "``PreferencesGroups###My-Field1``"
 msgstr "``PreferencesGroups###My-Field1``"
 
-#: ../content/administration-area/processes-automation/dynamicfields.rst:586
+#: ../content/administration-area/processes-automation/dynamicfields.rst:728
 msgid "``PreferencesGroups###My-Field2``"
 msgstr "``PreferencesGroups###My-Field2``"
 
@@ -13315,9 +13544,6 @@ msgstr ""
 
 #~ msgid "Select one of the :doc:`web-services` from the drop-down list."
 #~ msgstr "从下拉列表中选择一个 :doc:`web-services` 。"
-
-#~ msgid "Invoker \\*"
-#~ msgstr "调用程序 \\*"
 
 #~ msgid "Select an invoker for the web service. Click on the *Configure* button to add parameters for the invoker."
 #~ msgstr "为 Web 服务选择一个调用程序。点击 *配置* 按钮为调用程序添加参数。"
