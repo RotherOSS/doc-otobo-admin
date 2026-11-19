@@ -5,20 +5,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: OTOBO Administration Manual 10.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-10 10:10+0000\n"
-"PO-Revision-Date: 2025-04-10 10:08+0000\n"
-"Last-Translator: Firman Arrow <firman.arrow@gmail.com>\n"
-"Language-Team: Indonesian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/id/>\n"
-"Language: id\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.8.4\n"
-"Generated-By: Babel 2.4.0\n"
+msgstr "Project-Id-Version: OTOBO Administration Manual 10.1\nReport-Msgid-Bugs-To: it@otobo.io\nPOT-Creation-Date: 2026-11-10 10:10+0000\nPO-Revision-Date: 2026-11-20 19:00+0000\nLast-Translator: Elia <edp@pondokkasih.org>\nLanguage-Team: Indonesian <http://translate.otobo.org/projects/manual-otobo-administration/admin-manual-otobo-11/id/>\nLanguage: id\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Generator: Weblate 2026.9\nGenerated-By: Babel 2.4.0\n"
 
 #: ../content/administration-area.rst:9
 #: ../content/administration-area/administration.rst:9
@@ -28,7 +15,7 @@ msgstr ""
 #: ../content/administration-area/users-groups-roles.rst:9
 #: ../content/index.rst:12
 msgid "Contents"
-msgstr ""
+msgstr "Konten"
 
 #: ../content/administration-area.rst:2
 msgid "Administration Area"
@@ -37,49 +24,48 @@ msgstr "Area Admin"
 #: ../content/administration-area.rst:4
 #: ../content/administration-area/administration.rst:4
 msgid "Any system requires configuration. Configuring a system should be an easy task and the tools for configuration fit-for-purpose."
-msgstr "Setiap sistem memerlukan konfigurasi, Langkah-langkah untuk konfigurasi sistem bisa dilakukan dengan mudah dan perangkat konfigurasi sudah sesuai dengan kebutuhan."
+msgstr "Setiap sistem memerlukan konfigurasi. Langkah-langkah untuk mengonfigurasi sistem bisa dilakukan dengan mudah dan perangkat konfigurasi sudah sesuai dengan kebutuhan."
 
 #: ../content/administration-area.rst:7
 #: ../content/administration-area/administration.rst:7
-#, fuzzy
 msgid "OTOBO offers several administration tools to configure, monitor, control and extend OTOBO."
-msgstr "OTOBO menawarkan beberapa tools administrasi untuk melakukan konfigurasi, pengawasar dan kontrol serta penambahan  OTOBO."
+msgstr "OTOBO menawarkan beberapa tools administrasi untuk melakukan konfigurasi, pengawasan, kontrol dan penambahan OTOBO."
 
 #: ../content/administration-area/administration.rst:2
 msgid "Administration"
-msgstr ""
+msgstr "Admin"
 
 #: ../content/administration-area/administration/calendars.rst:2
 msgid "Calendars"
-msgstr ""
+msgstr "Kalender"
 
 #: ../content/administration-area/administration/calendars.rst:4
 msgid "When working with customers, resource planning and scheduling can be a complex task. Appointments enable you to meet your customers where and whenever needed."
-msgstr ""
+msgstr "Saat bekerja dengan pelanggan, perencanaan dan penjadwalan sumber daya bisa menjadi tugas yang rumit. Fitur janji temu memungkinkan Anda bertemu dengan pelanggan Anda di mana saja dan kapan saja dibutuhkan."
 
 #: ../content/administration-area/administration/calendars.rst:7
 msgid "OTOBO supports this requirement with calendars. Calendars allow management of appointments and resources inside the ticket system. You can connect your tickets to scheduled tasks and make them available to all users to see. This feature adds transparency to show your teams workload and prevent users from promising resources which are not available."
-msgstr ""
+msgstr "OTOBO mendukung kebutuhan ini dengan kalender. Kalender memungkinkan pengelolaan janji temu dan sumber daya di dalam sistem tiket. Anda dapat menghubungkan tiket Anda ke tugas terjadwal dan menjadikannya terlihat oleh semua pengguna. Fitur ini menambah transparansi untuk menunjukkan beban kerja tim Anda serta mencegah pengguna menjanjikan sumber daya yang tidak tersedia."
 
 #: ../content/administration-area/administration/calendars.rst:12
 msgid "Use this screen to manage calendars in the system. A fresh OTOBO installation contains no calendars by default. The calendar management screen is available in the *Calendars* module of the *Administration* group."
-msgstr ""
+msgstr "Gunakan layar ini untuk mengelola kalender di dalam sistem. Instalasi OTOBO yang baru tidak memiliki kalender secara bawaan. Layar pengelolaan kalender tersedia di dalam modul *Kalender* pada kelompok *Administrasi*."
 
 #: ../content/administration-area/administration/calendars.rst:19
 msgid "Calendar Management Screen"
-msgstr ""
+msgstr "Tampian Pengelolaan Kalender"
 
 #: ../content/administration-area/administration/calendars.rst:23
 msgid "Manage Calendars"
-msgstr ""
+msgstr "Kelola Kalender"
 
 #: ../content/administration-area/administration/calendars.rst:25
 msgid "To add a new calendar:"
-msgstr ""
+msgstr "Untuk menambah kalender baru:"
 
 #: ../content/administration-area/administration/calendars.rst:27
 msgid "Click on the *Add Calendar* button in the left sidebar."
-msgstr ""
+msgstr "Klik tombol *Tambahkan Kalender* di bilah sisi sebelah kiri."
 
 #: ../content/administration-area/administration/calendars.rst:28
 #: ../content/administration-area/administration/faq-category.rst:20
@@ -109,7 +95,7 @@ msgstr ""
 #: ../content/administration-area/users-groups-roles/groups.rst:20
 #: ../content/administration-area/users-groups-roles/roles.rst:20
 msgid "Fill in the required fields."
-msgstr ""
+msgstr "Isi kolom-kolom yang wajib diisi."
 
 #: ../content/administration-area/administration/calendars.rst:29
 #: ../content/administration-area/administration/system-maintenance.rst:27
@@ -141,11 +127,11 @@ msgstr ""
 #: ../content/administration-area/users-groups-roles/groups.rst:21
 #: ../content/administration-area/users-groups-roles/roles.rst:21
 msgid "Click on the *Save* button."
-msgstr ""
+msgstr "Klik tombol *Simpan*."
 
 #: ../content/administration-area/administration/calendars.rst:34
 msgid "Add New Calendar Screen"
-msgstr ""
+msgstr "Tambah Tampilan Kalender Baru"
 
 #: ../content/administration-area/administration/calendars.rst:38
 msgid "Calendars can not be deleted from the system. They can only be deactivated by setting the *Validity* option to *invalid* or *invalid-temporarily*."
@@ -153,7 +139,7 @@ msgstr ""
 
 #: ../content/administration-area/administration/calendars.rst:41
 msgid "To edit a calendar:"
-msgstr ""
+msgstr "Untuk mengubah kalender:"
 
 #: ../content/administration-area/administration/calendars.rst:43
 msgid "Click on a calendar in the list of calendars."
@@ -186,7 +172,7 @@ msgstr ""
 #: ../content/administration-area/users-groups-roles/groups.rst:36
 #: ../content/administration-area/users-groups-roles/roles.rst:36
 msgid "Modify the fields."
-msgstr ""
+msgstr "Ubah kolom-kolom berikut."
 
 #: ../content/administration-area/administration/calendars.rst:45
 #: ../content/administration-area/administration/system-maintenance.rst:38
@@ -292,7 +278,7 @@ msgstr ""
 
 #: ../content/administration-area/administration/calendars.rst:70
 msgid "Calendar Settings"
-msgstr ""
+msgstr "Pengaturan Kalender"
 
 #: ../content/administration-area/administration/calendars.rst:72
 #: ../content/administration-area/administration/faq-category.rst:53
@@ -323,11 +309,11 @@ msgstr ""
 #: ../content/administration-area/users-groups-roles/groups.rst:52
 #: ../content/administration-area/users-groups-roles/roles.rst:52
 msgid "The following settings are available when adding or editing this resource. The fields marked with an asterisk are mandatory."
-msgstr ""
+msgstr "Pengaturan ini tersedia saat menambah atau mengubah sumber daya ini. Kolom dengan tanda asterik wajib diiisi."
 
 #: ../content/administration-area/administration/calendars.rst:77
 msgid "General Calendar Settings"
-msgstr ""
+msgstr "Pengaturan Umum Kalender"
 
 #: ../content/administration-area/administration/calendars.rst:82
 msgid "Calendar name \\*"
@@ -11643,7 +11629,7 @@ msgstr ""
 
 #: ../content/index.rst:8
 msgid "This is the OTOBO Administration Manual. It serves as a reference to help administrators manage and configure the OTOBO system effectively."
-msgstr ""
+msgstr "Ini adalah Panduan Admin OTOBO. Panduan ini berfungsi sebagai referensi untuk membantu administrator dalam mengelola dan mengonfigurasi sistem OTOBO secara efektif."
 
 #: ../content/index.rst:22
 msgid "This work is copyrighted by OTRS AG (https://otrs.com), Zimmersmühlenweg 11, 61440 Oberursel, Germany."
