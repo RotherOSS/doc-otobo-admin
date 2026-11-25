@@ -67,6 +67,8 @@ Cancel
    Changing the name of this object should be done with care, the check only provides verification for certain settings and ignores things where the name can't be verified. Some examples are dashboard filters, action control lists (ACLs), and processes (sequence flow actions) to name a few. Documentation of your setup is key to surviving a name change.
 
 
+.. _queue-settings:
+
 Queue Settings
 --------------
 
