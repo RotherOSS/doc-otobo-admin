@@ -71,6 +71,8 @@ The customer user permissions can be controlled by adding a customer or a custom
    :doc:`customer-users-groups` needs to be enabled to use this feature.
 
 
+.. _customer-user-settings:
+
 Customer User Settings
 ----------------------
 

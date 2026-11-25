@@ -3,7 +3,7 @@ Salutations
 
 Addressing customers must be done in a standardized way. Your customers may not always be external customers requiring a less formal greeting.
 
-OTOBO provides you with the tools needed to create a standardized communication form for any one of your queues. As defined in the :ref:`Queue Settings`: :doc:`salutations`, :doc:`templates`, and :doc:`signatures` are combined to ensure a well formed standardized email communication.
+OTOBO provides you with the tools needed to create a standardized communication form for any one of your queues. As defined in the :ref:`queue-settings`: :doc:`salutations`, :doc:`templates`, and :doc:`signatures` are combined to ensure a well formed standardized email communication.
 
 Salutations can be linked to one or more :doc:`queues`. A salutation is used only in email answers to tickets.
 

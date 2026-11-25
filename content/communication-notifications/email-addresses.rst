@@ -9,7 +9,7 @@ The main channel of communication with the customers is often email. An organiza
 
 These addresses are just some examples, and you may have many more. Use these channels to receive and send messages, and in mail clients, one can often send with the wrong address.
 
-OTOBO manages as many email addresses for your teams as needed. All your email addresses, whether for sending or receiving, are kept and configured nicely in one place. In the :ref:`queue settings`, the correct address is always chosen preventing that someone working in multiple roles sends an email out with the wrong account.
+OTOBO manages as many email addresses for your teams as needed. All your email addresses, whether for sending or receiving, are kept and configured nicely in one place. In the :ref:`queue-settings`, the correct address is always chosen preventing that someone working in multiple roles sends an email out with the wrong account.
 
 To enable OTOBO to send emails, you need a valid email address to be used by the system. OTOBO is capable of working with multiple email addresses, since many support installations need to use more than one. A queue can be linked to many email addresses, and vice versa. The address used for outgoing messages from a queue can be set when the queue is created.
 
@@ -85,7 +85,7 @@ Queue \*
 
    .. note::
 
-      This setting will apply if the email is distributed via the recipient address. This setting can be overridden by :doc:`postmaster-filters` or in the :ref:`Mail Account Settings` when *Dispatching by selected Queue* is chosen.
+      This setting will apply if the email is distributed via the recipient address. This setting can be overridden by :doc:`postmaster-filters` or in the :ref:`mail-account-settings` when *Dispatching by selected Queue* is chosen.
 
 Validity \*
    Set the validity of this resource. Each resource can be used in OTOBO only, if this field is set to *valid*. Setting this field to *invalid* or *invalid-temporarily* will disable the use of the resource.
