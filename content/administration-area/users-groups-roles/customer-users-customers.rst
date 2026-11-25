@@ -23,7 +23,7 @@ Manage Customer Users ↔ Customers Relations
 .. note::
 
    This module is for assigning a :term:`customer user` to additional :term:`customer` records.
-   The primary customer is assigned via the :ref:`Customer User Settings`.
+   The primary customer is assigned via the :ref:`customer-user-settings`.
 
 To assign some customers to a customer user:
 

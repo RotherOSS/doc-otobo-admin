@@ -214,7 +214,7 @@ Search header field … for value
 
 .. seealso::
 
-   The :ref:`Mail Account Settings` defines the trust level.
+   The :ref:`mail-account-settings` defines the trust level.
 
 Negate
    If checked, the condition will use the negate search term.

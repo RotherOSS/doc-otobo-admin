@@ -77,6 +77,8 @@ To delete a mail account:
    If several mail accounts are added to the system, a filter box is useful to find a particular mail account by just typing to filter.
 
 
+.. _mail-account-settings:
+
 Mail Account Settings
 ---------------------
 
