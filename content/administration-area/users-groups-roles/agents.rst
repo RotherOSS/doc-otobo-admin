@@ -122,7 +122,7 @@ Email \*
 
       The email syntax and validity of an available MX record could prevent you from submitting this form.
       For some systems it may be acceptable to turn off these checks.
-      See the :ref:`Agent Configuration Options`.
+      See the :ref:`agent-configuration-options`.
 
 Mobile
    The mobile phone number of the agent.
@@ -137,6 +137,8 @@ Agent Back End Sources
 
 Agents can be read and synchronized from an Active Directory® or LDAP server.
 
+
+.. _agent-authentication-back-end:
 
 Agent Authentication Back End
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -247,7 +249,7 @@ To use multiple back ends, add an additional section of the example code to the 
    All back ends will are used in succession.
    The UID must be unique to all back ends, otherwise some side effects may occur.
 
-To synchronize with a specific directory server (see :ref:`Agent User Data` below), you must add the appropriate setting to your :ref:`Agent Authentication Back End`. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
+To synchronize with a specific directory server (see :ref:`agent-user-data` below), you must add the appropriate setting to your :ref:`agent-authentication-back-end`. To achieve this copy the following block from the ``Defaults.pm`` and paste it into the ``Config.pm``.
 
 .. code-block:: perl
 
@@ -259,7 +261,7 @@ To use multiple back ends, add an additional section of the example code to the 
 
    $Self->{'AuthModule::UseSyncBackend1'} = 'AuthSyncBackend1';
 
-Reuse of an :ref:`Agent Synchronization Back End` is also possible.
+Reuse of an :ref:`agent-synchronization-back-end` is also possible.
 
 .. code-block:: perl
 
@@ -294,12 +296,16 @@ See ``scripts/nginx/templates/otobo_nginx-kerberos.conf.template`` and  ``script
 
 
 
+.. _agent-synchronization-back-end:
+
 Agent Synchronization Back End
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It is advisable to synchronize the agent data so that agents need not be manually added to the users table prior to authorization.
 Additionally, groups and roles can be added automatically using security objects of the directory server.
 
+
+.. _agent-user-data:
 
 Agent User Data
 ^^^^^^^^^^^^^^^
@@ -364,9 +370,9 @@ The minimum required to connect to a directory server is:
 
 .. note::
 
-   Multiple :ref:`Agent Synchronization Back End` blocks can be used.
+   Multiple :ref:`agent-synchronization-back-end` blocks can be used.
    Please make sure to add a numeric value [1-9] to all settings to indicate which settings belong to which back end.
-   Each ``AuthSyncModule`` must be explicitly used in an :ref:`Agent Authentication Back End`.
+   Each ``AuthSyncModule`` must be explicitly used in an :ref:`agent-authentication-back-end`.
 
 
 Agent Group Data
@@ -390,6 +396,8 @@ To achieve this copy the following block from the ``Defaults.pm`` and paste it i
 
    :doc:`roles` must be available in OTOBO to use this feature.
 
+
+.. _agent-configuration-options:
 
 Agent Configuration Options
 ---------------------------

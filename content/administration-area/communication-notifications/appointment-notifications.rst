@@ -30,13 +30,13 @@ Manage Appointment Notifications
 To add an appointment notification:
 
 1. Click on the *Add Notification* button in the left sidebar.
-2. Fill in the required fields as explained in :ref:`Appointment Notification Settings`.
+2. Fill in the required fields as explained in :ref:`appointment-notification-settings`.
 3. Click on the *Save* button.
 
 To edit an appointment notification:
 
 1. Click on an appointment notification in the list of appointment notifications.
-2. Modify the fields as explained in :ref:`Appointment Notification Settings`.
+2. Modify the fields as explained in :ref:`appointment-notification-settings`.
 3. Click on the *Save* or *Save and finish* button.
 
 To delete an appointment notification:
@@ -61,6 +61,8 @@ To import appointment notifications:
 3. Click on the *Overwrite existing notifications?* checkbox, if you would like to overwrite the existing notifications.
 4. Click on the *Import Notification configuration* button.
 
+
+.. _appointment-notification-settings:
 
 Appointment Notification Settings
 ---------------------------------

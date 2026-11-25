@@ -15,7 +15,7 @@ Use these channels to receive and send messages, and in mail clients, one can of
 
 OTOBO manages as many email addresses for your teams as needed.
 All your email addresses, whether for sending or receiving, are kept and configured nicely in one place.
-In the :ref:`queue settings`, the correct address is always chosen preventing that someone working in multiple roles sends an email out with the wrong account.
+In the :ref:`queue-settings`, the correct address is always chosen preventing that someone working in multiple roles sends an email out with the wrong account.
 
 To enable OTOBO to send emails, you need a valid email address to be used by the system.
 OTOBO is capable of working with multiple email addresses, since many support installations need to use more than one.
@@ -104,7 +104,7 @@ Queue \*
    .. note::
 
       This setting will apply if the email is distributed via the recipient address.
-      This setting can be overridden by :doc:`postmaster-filters` or in the :ref:`Mail Account Settings` when *Dispatching by selected Queue* is chosen.
+      This setting can be overridden by :doc:`postmaster-filters` or in the :ref:`mail-account-settings` when *Dispatching by selected Queue* is chosen.
 
 Validity \*
    Set the validity of this resource.
