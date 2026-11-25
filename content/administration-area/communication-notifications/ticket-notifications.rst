@@ -22,13 +22,13 @@ Manage Ticket Notifications
 To add a ticket notification:
 
 1. Click on the *Add Notification* button in the left sidebar.
-2. Fill in the required fields as explained in :ref:`Ticket Notification Settings`.
+2. Fill in the required fields as explained in :ref:`ticket-notification-settings`.
 3. Click on the *Save* button.
 
 To edit a ticket notification:
 
 1. Click on a ticket notification in the list of ticket notifications.
-2. Modify the fields as explained in :ref:`Ticket Notification Settings`.
+2. Modify the fields as explained in :ref:`ticket-notification-settings`.
 3. Click on the *Save* or *Save and finish* button.
 
 To delete a ticket notification:
@@ -57,6 +57,8 @@ To import ticket notifications:
 3. Click on the *Overwrite existing notifications?* checkbox, if you would like to overwrite the existing notifications.
 4. Click on the *Import Notification configuration* button.
 
+
+.. _ticket-notification-settings:
 
 Ticket Notification Settings
 ----------------------------

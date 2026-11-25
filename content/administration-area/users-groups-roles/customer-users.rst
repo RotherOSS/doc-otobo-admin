@@ -81,6 +81,8 @@ The effective permissions for a customer user can be checked in the bottom of th
    :doc:`customer-users-groups` needs to be enabled to use this feature.
 
 
+.. _customer-user-settings:
+
 Customer User Settings
 ----------------------
 

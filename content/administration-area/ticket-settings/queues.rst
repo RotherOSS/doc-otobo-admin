@@ -104,6 +104,8 @@ Cancel
    Documentation of your setup is key to surviving a name change.
 
 
+.. _queue-settings:
+
 Queue Settings
 --------------
 
