@@ -621,7 +621,7 @@ Click on the *Create New Activity* button.
 
    Book Ordering - Activities
 
-In the opened popup screen fill in the *Activity name* field and select *User task activity* from the *Activity type* drop-down.
+In the opened popup screen fill in the *Activity name* field.
 
 .. figure:: images/process-management-book-ordering-12-activity-add.png
    :alt: Book Ordering - Add Activity
